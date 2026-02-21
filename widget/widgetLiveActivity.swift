@@ -1,80 +1,166 @@
-//
-//  widgetLiveActivity.swift
-//  widget
-//
-//  Created by hyunho lee on 2/21/26.
-//
-
 import ActivityKit
 import WidgetKit
 import SwiftUI
 
-struct widgetAttributes: ActivityAttributes {
+// MARK: - Live Activity Attributes
+
+struct ThinkingSessionAttributes: ActivityAttributes {
     public struct ContentState: Codable, Hashable {
-        // Dynamic stateful properties about your activity go here!
-        var emoji: String
+        var currentState: String
+        var nextQuestion: String
     }
 
-    // Fixed non-changing properties about your activity go here!
-    var name: String
+    var threadTitle: String
+    var threadEmoji: String
+    var sessionStartDate: Date
 }
 
-struct widgetLiveActivity: Widget {
-    var body: some WidgetConfiguration {
-        ActivityConfiguration(for: widgetAttributes.self) { context in
-            // Lock screen/banner UI goes here
-            VStack {
-                Text("Hello \(context.state.emoji)")
-            }
-            .activityBackgroundTint(Color.cyan)
-            .activitySystemActionForegroundColor(Color.black)
+// MARK: - Live Activity Widget
 
+struct ThinkingSessionLiveActivity: Widget {
+    var body: some WidgetConfiguration {
+        ActivityConfiguration(for: ThinkingSessionAttributes.self) { context in
+            // 잠금 화면 / 배너 UI
+            lockScreenView(context: context)
+                .activityBackgroundTint(.black.opacity(0.8))
+                .activitySystemActionForegroundColor(.white)
         } dynamicIsland: { context in
             DynamicIsland {
-                // Expanded UI goes here.  Compose the expanded UI through
-                // various regions, like leading/trailing/center/bottom
                 DynamicIslandExpandedRegion(.leading) {
-                    Text("Leading")
+                    HStack(spacing: 4) {
+                        Text(context.attributes.threadEmoji)
+                            .font(.title3)
+                        Text(context.attributes.threadTitle)
+                            .font(.caption)
+                            .fontWeight(.bold)
+                            .lineLimit(1)
+                    }
                 }
                 DynamicIslandExpandedRegion(.trailing) {
-                    Text("Trailing")
+                    Label {
+                        Text(context.attributes.sessionStartDate, style: .timer)
+                            .font(.caption)
+                            .fontWeight(.semibold)
+                            .monospacedDigit()
+                    } icon: {
+                        Image(systemName: "brain")
+                            .font(.caption2)
+                    }
+                    .foregroundStyle(.orange)
                 }
                 DynamicIslandExpandedRegion(.bottom) {
-                    Text("Bottom \(context.state.emoji)")
-                    // more content
+                    if !context.state.nextQuestion.isEmpty {
+                        VStack(alignment: .leading, spacing: 4) {
+                            Label("지금 생각할 것", systemImage: "arrow.right.circle.fill")
+                                .font(.system(size: 10, weight: .semibold))
+                                .foregroundStyle(.orange)
+                            Text(context.state.nextQuestion)
+                                .font(.caption)
+                                .fontWeight(.medium)
+                                .lineLimit(2)
+                        }
+                        .padding(.horizontal, 4)
+                    }
                 }
             } compactLeading: {
-                Text("L")
+                HStack(spacing: 3) {
+                    Text(context.attributes.threadEmoji)
+                        .font(.caption2)
+                    Image(systemName: "brain")
+                        .font(.caption2)
+                        .foregroundStyle(.orange)
+                }
             } compactTrailing: {
-                Text("T \(context.state.emoji)")
+                Text(context.attributes.sessionStartDate, style: .timer)
+                    .font(.caption2)
+                    .fontWeight(.semibold)
+                    .monospacedDigit()
+                    .foregroundStyle(.orange)
             } minimal: {
-                Text(context.state.emoji)
+                Image(systemName: "brain")
+                    .font(.caption2)
+                    .foregroundStyle(.orange)
             }
-            .widgetURL(URL(string: "http://www.apple.com"))
-            .keylineTint(Color.red)
+            .widgetURL(URL(string: "thinkflow://continue"))
+            .keylineTint(.orange)
         }
     }
-}
 
-extension widgetAttributes {
-    fileprivate static var preview: widgetAttributes {
-        widgetAttributes(name: "World")
+    // MARK: - 잠금 화면 뷰
+
+    @ViewBuilder
+    private func lockScreenView(context: ActivityViewContext<ThinkingSessionAttributes>) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            HStack {
+                HStack(spacing: 6) {
+                    Text(context.attributes.threadEmoji)
+                        .font(.title3)
+                    Text(context.attributes.threadTitle)
+                        .font(.subheadline)
+                        .fontWeight(.bold)
+                        .foregroundStyle(.white)
+                }
+
+                Spacer()
+
+                // 타이머
+                HStack(spacing: 4) {
+                    Image(systemName: "brain")
+                        .font(.caption)
+                        .foregroundStyle(.orange)
+                    Text(context.attributes.sessionStartDate, style: .timer)
+                        .font(.subheadline)
+                        .fontWeight(.semibold)
+                        .monospacedDigit()
+                        .foregroundStyle(.orange)
+                }
+            }
+
+            if !context.state.nextQuestion.isEmpty {
+                VStack(alignment: .leading, spacing: 3) {
+                    Label("지금 생각할 것", systemImage: "arrow.right.circle.fill")
+                        .font(.caption2)
+                        .fontWeight(.semibold)
+                        .foregroundStyle(.orange)
+                    Text(context.state.nextQuestion)
+                        .font(.caption)
+                        .fontWeight(.medium)
+                        .foregroundStyle(.white.opacity(0.9))
+                        .lineLimit(2)
+                }
+                .padding(10)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(.orange.opacity(0.15))
+                .clipShape(RoundedRectangle(cornerRadius: 8))
+            }
+        }
+        .padding(16)
     }
 }
 
-extension widgetAttributes.ContentState {
-    fileprivate static var smiley: widgetAttributes.ContentState {
-        widgetAttributes.ContentState(emoji: "😀")
-     }
-     
-     fileprivate static var starEyes: widgetAttributes.ContentState {
-         widgetAttributes.ContentState(emoji: "🤩")
-     }
+// MARK: - Preview
+
+extension ThinkingSessionAttributes {
+    fileprivate static var preview: ThinkingSessionAttributes {
+        ThinkingSessionAttributes(
+            threadTitle: "숏폼 vs 딥워크",
+            threadEmoji: "🧠",
+            sessionStartDate: Date()
+        )
+    }
 }
 
-#Preview("Notification", as: .content, using: widgetAttributes.preview) {
-   widgetLiveActivity()
+extension ThinkingSessionAttributes.ContentState {
+    fileprivate static var thinking: ThinkingSessionAttributes.ContentState {
+        ThinkingSessionAttributes.ContentState(
+            currentState: "도파민 보상 회로와 연결해서 정리함",
+            nextQuestion: "의도적 지루함을 설계하면 깊은 사고가 회복될까?"
+        )
+    }
+}
+
+#Preview("Notification", as: .content, using: ThinkingSessionAttributes.preview) {
+    ThinkingSessionLiveActivity()
 } contentStates: {
-    widgetAttributes.ContentState.smiley
-    widgetAttributes.ContentState.starEyes
+    ThinkingSessionAttributes.ContentState.thinking
 }

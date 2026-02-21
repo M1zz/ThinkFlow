@@ -1,18 +1,7 @@
-//
-//  AppIntent.swift
-//  widget
-//
-//  Created by hyunho lee on 2/21/26.
-//
-
 import WidgetKit
 import AppIntents
 
 struct ConfigurationAppIntent: WidgetConfigurationIntent {
-    static var title: LocalizedStringResource { "Configuration" }
-    static var description: IntentDescription { "This is an example widget." }
-
-    // An example configurable parameter.
-    @Parameter(title: "Favorite Emoji", default: "😃")
-    var favoriteEmoji: String
+    static var title: LocalizedStringResource { "이어생각 위젯" }
+    static var description: IntentDescription { "가장 최근 생각 스레드의 브릿지를 보여줍니다." }
 }

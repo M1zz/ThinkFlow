@@ -1,5 +1,6 @@
 import Foundation
 import SwiftUI
+import WidgetKit
 
 @Observable
 final class ThoughtStore {
@@ -11,7 +12,12 @@ final class ThoughtStore {
     var sessionStartTime: Date?
     
     private let saveKey = "thought_threads_v1"
-    
+    static let appGroupID = "group.com.leeo.thinkflow"
+
+    private var sharedDefaults: UserDefaults? {
+        UserDefaults(suiteName: Self.appGroupID)
+    }
+
     init() {
         load()
         if threads.isEmpty {
@@ -116,11 +122,16 @@ final class ThoughtStore {
     private func save() {
         if let data = try? JSONEncoder().encode(threads) {
             UserDefaults.standard.set(data, forKey: saveKey)
+            sharedDefaults?.set(data, forKey: saveKey)
         }
+        WidgetCenter.shared.reloadAllTimelines()
     }
-    
+
     private func load() {
-        guard let data = UserDefaults.standard.data(forKey: saveKey),
+        // App Group 우선, 없으면 standard에서 로드
+        let data = sharedDefaults?.data(forKey: saveKey)
+                ?? UserDefaults.standard.data(forKey: saveKey)
+        guard let data,
               let decoded = try? JSONDecoder().decode([ThoughtThread].self, from: data) else { return }
         threads = decoded
     }
