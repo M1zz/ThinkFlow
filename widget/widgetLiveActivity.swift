@@ -6,7 +6,6 @@ import SwiftUI
 
 struct ThinkingSessionAttributes: ActivityAttributes {
     public struct ContentState: Codable, Hashable {
-        var currentState: String
         var nextQuestion: String
     }
 
@@ -153,7 +152,6 @@ extension ThinkingSessionAttributes {
 extension ThinkingSessionAttributes.ContentState {
     fileprivate static var thinking: ThinkingSessionAttributes.ContentState {
         ThinkingSessionAttributes.ContentState(
-            currentState: "도파민 보상 회로와 연결해서 정리함",
             nextQuestion: "의도적 지루함을 설계하면 깊은 사고가 회복될까?"
         )
     }

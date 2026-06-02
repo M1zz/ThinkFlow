@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct ThreadDetailView: View {
     
@@ -10,6 +11,9 @@ struct ThreadDetailView: View {
     @State private var showContinueSheet = false
     @State private var showBridgeEditor = false
     @State private var showDeleteAlert = false
+    @State private var sortNewestFirst = true
+    @State private var allCopied = false
+    @State private var editingEntry: ThoughtEntry?
     
     private var currentThread: ThoughtThread {
         store.threads.first { $0.id == thread.id } ?? thread
@@ -55,6 +59,7 @@ struct ThreadDetailView: View {
                 } label: {
                     Image(systemName: "ellipsis.circle")
                 }
+                .accessibilityLabel("더 보기")
             }
         }
         .safeAreaInset(edge: .bottom) {
@@ -82,6 +87,15 @@ struct ThreadDetailView: View {
         .sheet(isPresented: $showBridgeEditor) {
             BridgeEditorView(thread: currentThread)
         }
+        .sheet(item: $editingEntry) { entry in
+            EntryEditSheet(entry: entry) { newContent in
+                store.updateEntryContent(
+                    threadID: currentThread.id,
+                    entryID: entry.id,
+                    content: newContent
+                )
+            }
+        }
         .alert("이 생각을 삭제할까요?", isPresented: $showDeleteAlert) {
             Button("삭제", role: .destructive) {
                 store.deleteThread(id: thread.id)
@@ -103,56 +117,42 @@ struct ThreadDetailView: View {
     private var bridgeSection: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack {
-                Image(systemName: "bookmark.fill")
-                    .foregroundStyle(.orange)
-                Text("사고의 북마크")
+                Label("끊어둔 문장", systemImage: "arrow.turn.down.right")
                     .font(.subheadline)
                     .fontWeight(.semibold)
-                    .foregroundStyle(.secondary)
+                    .foregroundStyle(.orange)
+                    .accessibilityAddTraits(.isHeader)
                 Spacer()
                 Button("수정", systemImage: "pencil") {
                     showBridgeEditor = true
                 }
                 .font(.caption)
                 .foregroundStyle(.orange)
+                .accessibilityLabel("끊어둔 문장 수정")
             }
-            
-            if !currentThread.bridge.currentState.isEmpty {
-                VStack(alignment: .leading, spacing: 4) {
-                    Label("여기까지 왔어요", systemImage: "mappin.circle.fill")
-                        .font(.caption)
-                        .fontWeight(.medium)
-                        .foregroundStyle(.blue)
-                    Text(currentThread.bridge.currentState)
-                        .font(.subheadline)
-                }
-                .padding(12)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(.blue.opacity(0.08))
-                .clipShape(RoundedRectangle(cornerRadius: 10))
-            }
-            
+
             if !currentThread.bridge.nextQuestion.isEmpty {
-                VStack(alignment: .leading, spacing: 4) {
-                    Label("다음에 생각할 것", systemImage: "arrow.right.circle.fill")
-                        .font(.caption)
-                        .fontWeight(.medium)
-                        .foregroundStyle(.orange)
-                    Text(currentThread.bridge.nextQuestion)
-                        .font(.subheadline)
-                        .fontWeight(.medium)
-                }
-                .padding(12)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(.orange.opacity(0.08))
-                .clipShape(RoundedRectangle(cornerRadius: 10))
-            }
-            
-            if currentThread.bridge.currentState.isEmpty && currentThread.bridge.nextQuestion.isEmpty {
-                Text("아직 브릿지가 없습니다. 생각을 멈출 때 '다음에 이어서 생각할 것'을 남겨보세요.")
+                Text(currentThread.bridge.nextQuestion)
+                    .font(.body)
+                    .fontWeight(.semibold)
+                    .foregroundStyle(.primary)
+                    .lineSpacing(4)
+                    .padding(14)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(
+                        HStack(spacing: 0) {
+                            Color.orange.opacity(0.4)
+                                .frame(width: 3)
+                            Color.orange.opacity(0.07)
+                        }
+                    )
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+            } else {
+                Text("기세가 있을 때 문장을 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다.")
                     .font(.caption)
                     .foregroundStyle(.tertiary)
-                    .padding(12)
+                    .lineSpacing(3)
+                    .padding(14)
             }
         }
         .padding(16)
@@ -180,33 +180,68 @@ struct ThreadDetailView: View {
     private func statItem(label: String, value: String, icon: String) -> some View {
         VStack(spacing: 4) {
             Image(systemName: icon)
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+                .accessibilityHidden(true)
+            Text(value)
+                .font(.headline)
+            Text(label)
                 .font(.caption)
                 .foregroundStyle(.secondary)
-            Text(value)
-                .font(.subheadline)
-                .fontWeight(.semibold)
-            Text(label)
-                .font(.caption2)
-                .foregroundStyle(.tertiary)
         }
         .frame(maxWidth: .infinity)
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("\(label) \(value)")
     }
     
     // MARK: - 엔트리 타임라인
     private var entriesSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack {
+        let sorted = currentThread.entries.sorted {
+            sortNewestFirst ? $0.createdAt > $1.createdAt : $0.createdAt < $1.createdAt
+        }
+
+        return VStack(alignment: .leading, spacing: 12) {
+            HStack(spacing: 12) {
                 Text("생각의 흐름")
-                    .font(.headline)
+                    .font(.title3)
+                    .fontWeight(.bold)
+                    .accessibilityAddTraits(.isHeader)
                 Spacer()
-                Text("최신순")
-                    .font(.caption)
-                    .foregroundStyle(.tertiary)
+
+                // 전체 복사
+                if !sorted.isEmpty {
+                    Button {
+                        let text = sorted.map { "[\($0.layerLabel)] \($0.content)" }
+                            .joined(separator: "\n\n")
+                        UIPasteboard.general.string = text
+                        withAnimation { allCopied = true }
+                        Task {
+                            try? await Task.sleep(for: .seconds(1.5))
+                            withAnimation { allCopied = false }
+                        }
+                    } label: {
+                        Label(allCopied ? "복사됨" : "전체 복사",
+                              systemImage: allCopied ? "checkmark" : "doc.on.doc")
+                            .font(.caption)
+                            .foregroundStyle(allCopied ? .green : .secondary)
+                            .contentTransition(.symbolEffect(.replace))
+                    }
+                }
+
+                // 정렬 토글
+                Button {
+                    withAnimation(.easeInOut(duration: 0.2)) {
+                        sortNewestFirst.toggle()
+                    }
+                } label: {
+                    Label(sortNewestFirst ? "최신순" : "오래된순",
+                          systemImage: sortNewestFirst ? "arrow.down" : "arrow.up")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
             }
-            
-            let sortedEntries = currentThread.entries.sorted { $0.createdAt > $1.createdAt }
-            
-            if sortedEntries.isEmpty {
+
+            if sorted.isEmpty {
                 VStack(spacing: 8) {
                     Image(systemName: "text.bubble")
                         .font(.largeTitle)
@@ -221,7 +256,7 @@ struct ThreadDetailView: View {
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 40)
             } else {
-                ForEach(sortedEntries) { entry in
+                ForEach(sorted) { entry in
                     EntryRowView(
                         entry: entry,
                         onLayerChange: { newLayer in
@@ -230,6 +265,12 @@ struct ThreadDetailView: View {
                                 entryID: entry.id,
                                 newLayer: newLayer
                             )
+                        },
+                        onEdit: {
+                            editingEntry = entry
+                        },
+                        onDelete: {
+                            store.deleteEntry(threadID: currentThread.id, entryID: entry.id)
                         }
                     )
                 }
