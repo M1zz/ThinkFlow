@@ -6,17 +6,16 @@ struct ThreadCardView: View {
     var onContinue: (() -> Void)?
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            HStack(spacing: 10) {
+        VStack(alignment: .leading, spacing: 14) {
+            HStack(spacing: 12) {
                 Text(thread.emoji)
-                    .font(.title3)
-                
-                VStack(alignment: .leading, spacing: 2) {
+                    .font(.title2)
+
+                VStack(alignment: .leading, spacing: 4) {
                     Text(thread.title)
-                        .font(.subheadline)
-                        .fontWeight(.semibold)
+                        .font(.headline)
                         .foregroundStyle(.primary)
-                    
+
                     HStack(spacing: 12) {
                         Label("\(thread.entryCount)개 메모", systemImage: "note.text")
                         Label(thread.formattedThinkingTime, systemImage: "clock")
@@ -24,53 +23,55 @@ struct ThreadCardView: View {
                             Label("\(thread.daysSinceLastVisit)일 전", systemImage: "calendar")
                         }
                     }
-                    .font(.caption2)
-                    .foregroundStyle(.tertiary)
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
                 }
-                
+
                 Spacer()
-                
+
                 // Progressive Summarization 진행도
                 progressRing
             }
-            
+
             // 다음 질문 미리보기
             if !thread.bridge.nextQuestion.isEmpty {
-                HStack(spacing: 6) {
+                HStack(alignment: .top, spacing: 6) {
                     Image(systemName: "arrow.right.circle.fill")
-                        .font(.caption)
+                        .font(.subheadline)
                         .foregroundStyle(.orange)
                     Text(thread.bridge.nextQuestion)
-                        .font(.caption)
+                        .font(.subheadline)
                         .foregroundStyle(.secondary)
-                        .lineLimit(1)
+                        .lineLimit(2)
                 }
-                .padding(.leading, 4)
+                .padding(.leading, 2)
             }
-            
+
             // 빠른 이어쓰기 버튼
             if let onContinue {
                 Button {
                     onContinue()
                 } label: {
-                    HStack(spacing: 4) {
+                    HStack(spacing: 6) {
                         Image(systemName: "pencil.line")
-                            .font(.caption2)
+                            .font(.subheadline)
                         Text("이어서 생각하기")
-                            .font(.caption)
-                            .fontWeight(.medium)
+                            .font(.subheadline)
+                            .fontWeight(.semibold)
                     }
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 6)
+                    .padding(.horizontal, 14)
+                    .padding(.vertical, 8)
                     .background(.orange.opacity(0.12))
                     .foregroundStyle(.orange)
                     .clipShape(Capsule())
                 }
+                .accessibilityLabel("이어서 생각하기")
+                .accessibilityHint("\(thread.title)에 생각을 이어 적습니다")
             }
         }
-        .padding(16)
+        .padding(18)
         .background(.background)
-        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .clipShape(RoundedRectangle(cornerRadius: 14))
         .shadow(color: .black.opacity(0.04), radius: 4, y: 1)
     }
     
@@ -84,10 +85,12 @@ struct ThreadCardView: View {
                 .stroke(.orange.gradient, style: StrokeStyle(lineWidth: 3, lineCap: .round))
                 .rotationEffect(.degrees(-90))
             Text("L\(thread.highestLayer)")
-                .font(.system(size: 9, weight: .bold, design: .rounded))
+                .font(.system(.caption, design: .rounded).weight(.bold))
                 .foregroundStyle(.secondary)
         }
-        .frame(width: 32, height: 32)
+        .frame(minWidth: 38, minHeight: 38)
+        .accessibilityElement()
+        .accessibilityLabel("정리 깊이 레벨 \(thread.highestLayer)")
     }
 }
 

@@ -82,7 +82,7 @@ struct SmallWidgetView: View {
 
                 Spacer(minLength: 0)
 
-                // 다음 질문
+                // 다음 질문 (끊어둔 문장)
                 if !thread.bridge.nextQuestion.isEmpty {
                     VStack(alignment: .leading, spacing: 3) {
                         Label("다음에 생각할 것", systemImage: "arrow.right.circle.fill")
@@ -91,16 +91,6 @@ struct SmallWidgetView: View {
                         Text(thread.bridge.nextQuestion)
                             .font(.system(size: 11))
                             .fontWeight(.medium)
-                            .lineLimit(3)
-                            .foregroundStyle(.primary)
-                    }
-                } else if !thread.bridge.currentState.isEmpty {
-                    VStack(alignment: .leading, spacing: 3) {
-                        Label("여기까지 왔어요", systemImage: "mappin.circle.fill")
-                            .font(.system(size: 9, weight: .semibold))
-                            .foregroundStyle(.blue)
-                        Text(thread.bridge.currentState)
-                            .font(.system(size: 11))
                             .lineLimit(3)
                             .foregroundStyle(.primary)
                     }
@@ -154,22 +144,6 @@ struct MediumWidgetView: View {
                             .font(.caption)
                             .fontWeight(.bold)
                             .lineLimit(1)
-                    }
-
-                    if !thread.bridge.currentState.isEmpty {
-                        VStack(alignment: .leading, spacing: 2) {
-                            Label("여기까지 왔어요", systemImage: "mappin.circle.fill")
-                                .font(.system(size: 9, weight: .semibold))
-                                .foregroundStyle(.blue)
-                            Text(thread.bridge.currentState)
-                                .font(.system(size: 10))
-                                .lineLimit(2)
-                                .foregroundStyle(.secondary)
-                        }
-                        .padding(6)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(.blue.opacity(0.08))
-                        .clipShape(RoundedRectangle(cornerRadius: 6))
                     }
 
                     if !thread.bridge.nextQuestion.isEmpty {

@@ -3,25 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		581D87122F48C84000F2F032 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581D87112F48C84000F2F032 /* WidgetKit.framework */; };
 		581D87142F48C84000F2F032 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581D87132F48C84000F2F032 /* SwiftUI.framework */; };
 		581D87252F48C84100F2F032 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 581D870F2F48C84000F2F032 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		B10001 /* ThoughtThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002 /* ThoughtThread.swift */; };
 		A10001 /* ThinkFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001 /* ThinkFlowApp.swift */; };
 		A10002 /* ThoughtThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002 /* ThoughtThread.swift */; };
 		A10003 /* ThoughtStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20003 /* ThoughtStore.swift */; };
 		A10004 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20004 /* HomeView.swift */; };
 		A10005 /* ThreadDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20005 /* ThreadDetailView.swift */; };
-		A10006 /* NewThreadSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20006 /* NewThreadSheet.swift */; };
 		A10007 /* ContinueThinkingSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20007 /* ContinueThinkingSheet.swift */; };
 		A10008 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20008 /* Assets.xcassets */; };
 		A10009 /* ThreadCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20009 /* ThreadCardView.swift */; };
 		A10010 /* EntryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20010 /* EntryRowView.swift */; };
 		A10011 /* BridgeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20011 /* BridgeEditorView.swift */; };
+		A10012 /* BrainDumpSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20012 /* BrainDumpSheet.swift */; };
+		B10001 /* ThoughtThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002 /* ThoughtThread.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +57,12 @@
 		A20003 /* ThoughtStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtStore.swift; sourceTree = "<group>"; };
 		A20004 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A20005 /* ThreadDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadDetailView.swift; sourceTree = "<group>"; };
-		A20006 /* NewThreadSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewThreadSheet.swift; sourceTree = "<group>"; };
 		A20007 /* ContinueThinkingSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueThinkingSheet.swift; sourceTree = "<group>"; };
 		A20008 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A20009 /* ThreadCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCardView.swift; sourceTree = "<group>"; };
 		A20010 /* EntryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryRowView.swift; sourceTree = "<group>"; };
 		A20011 /* BridgeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeEditorView.swift; sourceTree = "<group>"; };
+		A20012 /* BrainDumpSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainDumpSheet.swift; sourceTree = "<group>"; };
 		A30001 /* ThinkFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -144,11 +144,11 @@
 			children = (
 				A20004 /* HomeView.swift */,
 				A20005 /* ThreadDetailView.swift */,
-				A20006 /* NewThreadSheet.swift */,
 				A20007 /* ContinueThinkingSheet.swift */,
 				A20009 /* ThreadCardView.swift */,
 				A20010 /* EntryRowView.swift */,
 				A20011 /* BridgeEditorView.swift */,
+				A20012 /* BrainDumpSheet.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,11 +280,11 @@
 				A10003 /* ThoughtStore.swift in Sources */,
 				A10004 /* HomeView.swift in Sources */,
 				A10005 /* ThreadDetailView.swift in Sources */,
-				A10006 /* NewThreadSheet.swift in Sources */,
 				A10007 /* ContinueThinkingSheet.swift in Sources */,
 				A10009 /* ThreadCardView.swift in Sources */,
 				A10010 /* EntryRowView.swift in Sources */,
 				A10011 /* BridgeEditorView.swift in Sources */,
+				A10012 /* BrainDumpSheet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,9 +505,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.thinkflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -535,9 +537,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.thinkflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

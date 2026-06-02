@@ -37,12 +37,10 @@ struct ThoughtEntry: Identifiable, Codable {
 
 // MARK: - 헤밍웨이 브릿지 (사고의 북마크)
 struct HemingwayBridge: Codable, Equatable {
-    var currentState: String   // 현재 상태: 여기까지 생각함
-    var nextQuestion: String   // 다음 질문: 다음에 이어서 생각할 것
+    var nextQuestion: String   // 다음 질문: 다음에 이어서 생각할 것 (끊어둔 문장)
     var updatedAt: Date
-    
-    init(currentState: String = "", nextQuestion: String = "", updatedAt: Date = Date()) {
-        self.currentState = currentState
+
+    init(nextQuestion: String = "", updatedAt: Date = Date()) {
         self.nextQuestion = nextQuestion
         self.updatedAt = updatedAt
     }
@@ -110,6 +108,19 @@ struct ThoughtThread: Identifiable, Codable {
     }
 }
 
+// MARK: - 덤프 아이템 (아직 정리되지 않은 생각 조각)
+struct DumpItem: Identifiable, Codable {
+    let id: UUID
+    var content: String
+    let createdAt: Date
+
+    init(id: UUID = UUID(), content: String, createdAt: Date = Date()) {
+        self.id = id
+        self.content = content
+        self.createdAt = createdAt
+    }
+}
+
 // MARK: - 샘플 데이터
 extension ThoughtThread {
     static let sampleThreads: [ThoughtThread] = [
@@ -117,7 +128,6 @@ extension ThoughtThread {
             title: "숏폼 vs 딥워크",
             emoji: "🧠",
             bridge: HemingwayBridge(
-                currentState: "숏폼 콘텐츠가 주의력을 분산시키는 메커니즘까지 정리함. 도파민 보상 회로와 연결.",
                 nextQuestion: "그렇다면 '의도적 지루함'을 설계하면 깊은 사고가 회복될까?",
                 updatedAt: Date().addingTimeInterval(-3600)
             ),
@@ -134,7 +144,6 @@ extension ThoughtThread {
             title: "1인 개발자 성장 모델",
             emoji: "🚀",
             bridge: HemingwayBridge(
-                currentState: "앱 20개 운영하면서 느낀 패턴들 정리 중. 80/20 법칙이 앱 포트폴리오에도 적용됨.",
                 nextQuestion: "상위 20% 앱에 집중하는 게 나을까, 롱테일 전략이 나을까?",
                 updatedAt: Date().addingTimeInterval(-86400)
             ),
