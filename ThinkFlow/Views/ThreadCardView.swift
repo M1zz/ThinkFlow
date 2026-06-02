@@ -33,18 +33,45 @@ struct ThreadCardView: View {
                 progressRing
             }
 
-            // 다음 질문 미리보기
+            // 끊어둔 문장 — 이어서 생각할 트리거 (가장 중요)
             if !thread.bridge.nextQuestion.isEmpty {
-                HStack(alignment: .top, spacing: 6) {
-                    Image(systemName: "arrow.right.circle.fill")
-                        .font(.subheadline)
+                VStack(alignment: .leading, spacing: 5) {
+                    Label("끊어둔 문장", systemImage: "arrow.turn.down.right")
+                        .font(.caption)
+                        .fontWeight(.medium)
                         .foregroundStyle(.orange)
                     Text(thread.bridge.nextQuestion)
                         .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                        .fontWeight(.semibold)
+                        .foregroundStyle(.primary)
                         .lineLimit(2)
+                        .lineSpacing(2)
                 }
-                .padding(.leading, 2)
+                .padding(12)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .background(
+                    HStack(spacing: 0) {
+                        Color.orange.opacity(0.4)
+                            .frame(width: 3)
+                        Color.orange.opacity(0.06)
+                    }
+                )
+                .clipShape(RoundedRectangle(cornerRadius: 9))
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel("끊어둔 문장: \(thread.bridge.nextQuestion)")
+            }
+
+            // 정제된 핵심 — 한 줄 요약 (있을 때만)
+            if let core = thread.latestCore {
+                HStack(spacing: 6) {
+                    LayerBadge(entry: core)
+                    Text(core.content)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                        .lineLimit(1)
+                }
+                .accessibilityElement(children: .ignore)
+                .accessibilityLabel("핵심: \(core.content)")
             }
 
             // 빠른 이어쓰기 버튼

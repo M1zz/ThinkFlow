@@ -21,7 +21,9 @@
 		A10010 /* EntryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20010 /* EntryRowView.swift */; };
 		A10011 /* BridgeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20011 /* BridgeEditorView.swift */; };
 		A10012 /* BrainDumpSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20012 /* BrainDumpSheet.swift */; };
+		A10013 /* LayerBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20013 /* LayerBadge.swift */; };
 		B10001 /* ThoughtThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002 /* ThoughtThread.swift */; };
+		B10002 /* LayerBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20013 /* LayerBadge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,7 @@
 		A20010 /* EntryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryRowView.swift; sourceTree = "<group>"; };
 		A20011 /* BridgeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeEditorView.swift; sourceTree = "<group>"; };
 		A20012 /* BrainDumpSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainDumpSheet.swift; sourceTree = "<group>"; };
+		A20013 /* LayerBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerBadge.swift; sourceTree = "<group>"; };
 		A30001 /* ThinkFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -149,6 +152,7 @@
 				A20010 /* EntryRowView.swift */,
 				A20011 /* BridgeEditorView.swift */,
 				A20012 /* BrainDumpSheet.swift */,
+				A20013 /* LayerBadge.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -268,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B10001 /* ThoughtThread.swift in Sources */,
+				B10002 /* LayerBadge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +290,7 @@
 				A10010 /* EntryRowView.swift in Sources */,
 				A10011 /* BridgeEditorView.swift in Sources */,
 				A10012 /* BrainDumpSheet.swift in Sources */,
+				A10013 /* LayerBadge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

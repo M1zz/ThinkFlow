@@ -106,6 +106,36 @@ struct ThoughtThread: Identifiable, Codable {
         let avgLayer = Double(entries.map(\.layer).reduce(0, +)) / Double(entries.count)
         return avgLayer / maxLayer
     }
+
+    // 시간순(과거 → 최신) 정렬된 엔트리
+    var chronologicalEntries: [ThoughtEntry] {
+        entries.sorted { $0.createdAt < $1.createdAt }
+    }
+
+    // 최신순(최신 → 과거) 정렬된 엔트리
+    var reverseChronologicalEntries: [ThoughtEntry] {
+        entries.sorted { $0.createdAt > $1.createdAt }
+    }
+
+    // 직전 생각 (가장 최근 엔트리)
+    var lastEntry: ThoughtEntry? {
+        reverseChronologicalEntries.first
+    }
+
+    // 정제된 핵심 생각 (핵심/요약 레이어). 가장 최근 것이 마지막.
+    var distilledEntries: [ThoughtEntry] {
+        chronologicalEntries.filter { $0.layer >= 2 }
+    }
+
+    // 가장 최근의 정제된 핵심 (없으면 nil)
+    var latestCore: ThoughtEntry? {
+        distilledEntries.last
+    }
+
+    // 재진입 시 맥락 복원에 쓸 요약 — 며칠 전에 끊었는지
+    var daysSinceBridge: Int {
+        Calendar.current.dateComponents([.day], from: bridge.updatedAt, to: Date()).day ?? 0
+    }
 }
 
 // MARK: - 덤프 아이템 (아직 정리되지 않은 생각 조각)

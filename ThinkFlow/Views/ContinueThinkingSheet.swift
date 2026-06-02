@@ -24,11 +24,6 @@ struct ContinueThinkingSheet: View {
         !nextStartingPoint.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
     }
 
-    // 이 세션이 열릴 때의 마지막 엔트리 (직전 생각)
-    private var lastEntry: ThoughtEntry? {
-        thread.entries.sorted { $0.createdAt > $1.createdAt }.first
-    }
-
     var body: some View {
         NavigationStack {
             ScrollView {
@@ -88,7 +83,7 @@ struct ContinueThinkingSheet: View {
     private var thinkingPhase: some View {
         VStack(alignment: .leading, spacing: 14) {
 
-            // 끊어둔 문장 — 가장 먼저, 가장 크게
+            // 끊어둔 문장 — 가장 먼저, 가장 크게 (재진입 트리거)
             if !thread.bridge.nextQuestion.isEmpty {
                 VStack(alignment: .leading, spacing: 8) {
                     Label("여기서 끊어뒀어요", systemImage: "arrow.turn.down.right")
@@ -113,23 +108,13 @@ struct ContinueThinkingSheet: View {
                 .clipShape(RoundedRectangle(cornerRadius: 10))
             }
 
-            // 직전 생각 — 맥락 복원용
-            if let last = lastEntry {
-                VStack(alignment: .leading, spacing: 8) {
-                    Label("직전 생각", systemImage: "clock.arrow.circlepath")
-                        .font(.subheadline)
-                        .fontWeight(.medium)
-                        .foregroundStyle(.secondary)
-                    Text(last.content)
-                        .font(.body)
-                        .foregroundStyle(.secondary)
-                        .lineSpacing(4)
-                        .lineLimit(5)
-                }
-                .padding(14)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(Color(.systemBackground).opacity(0.7))
-                .clipShape(RoundedRectangle(cornerRadius: 10))
+            // 지금까지의 맥락 — 정제된 핵심 + 직전 생각 흐름
+            if thread.lastEntry != nil {
+                ThreadRecapView(thread: thread)
+                    .padding(14)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(Color(.systemBackground).opacity(0.7))
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
             }
 
             // 생각 쓰기

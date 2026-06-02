@@ -62,6 +62,27 @@ struct BridgeTimelineProvider: AppIntentTimelineProvider {
     }
 }
 
+// MARK: - 정제된 핵심 한 줄 (위젯 전용, 앱 카드와 동일한 레이어 색 규칙)
+
+struct WidgetCoreLine: View {
+    let entry: ThoughtEntry
+
+    var body: some View {
+        HStack(spacing: 4) {
+            Circle()
+                .fill(entry.layerAccent)
+                .frame(width: 5, height: 5)
+            Text(entry.layerLabel)
+                .font(.system(size: 8, weight: .semibold))
+                .foregroundStyle(entry.layerAccent)
+            Text(entry.content)
+                .font(.system(size: 9))
+                .foregroundStyle(.secondary)
+                .lineLimit(1)
+        }
+    }
+}
+
 // MARK: - Small Widget (브릿지 미리보기)
 
 struct SmallWidgetView: View {
@@ -91,9 +112,14 @@ struct SmallWidgetView: View {
                         Text(thread.bridge.nextQuestion)
                             .font(.system(size: 11))
                             .fontWeight(.medium)
-                            .lineLimit(3)
+                            .lineLimit(2)
                             .foregroundStyle(.primary)
                     }
+                }
+
+                // 지금까지의 핵심 (있을 때만)
+                if let core = thread.latestCore {
+                    WidgetCoreLine(entry: core)
                 }
 
                 Spacer(minLength: 0)
@@ -160,6 +186,11 @@ struct MediumWidgetView: View {
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .background(.orange.opacity(0.08))
                         .clipShape(RoundedRectangle(cornerRadius: 6))
+                    }
+
+                    // 지금까지의 핵심 (있을 때만)
+                    if let core = thread.latestCore {
+                        WidgetCoreLine(entry: core)
                     }
 
                     Spacer(minLength: 0)

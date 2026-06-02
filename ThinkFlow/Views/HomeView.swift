@@ -182,8 +182,6 @@ struct HomeView: View {
     // MARK: - 이어서 생각하기 카드 (Hero Section)
     @ViewBuilder
     private func resumeSection(thread: ThoughtThread) -> some View {
-        let lastEntry = thread.entries.sorted { $0.createdAt > $1.createdAt }.first
-
         NavigationLink(value: thread.id) {
             VStack(alignment: .leading, spacing: 16) {
 
@@ -203,7 +201,7 @@ struct HomeView: View {
                         .foregroundStyle(.tertiary)
                 }
 
-                VStack(alignment: .leading, spacing: 10) {
+                VStack(alignment: .leading, spacing: 12) {
                     // 스레드 제목
                     HStack(spacing: 8) {
                         Text(thread.emoji)
@@ -214,26 +212,7 @@ struct HomeView: View {
                             .foregroundStyle(.primary)
                     }
 
-                    // 직전 생각 — 맥락 복원
-                    if let last = lastEntry {
-                        VStack(alignment: .leading, spacing: 6) {
-                            Label("직전 생각", systemImage: "clock.arrow.circlepath")
-                                .font(.subheadline)
-                                .fontWeight(.medium)
-                                .foregroundStyle(.secondary)
-                            Text(last.content)
-                                .font(.body)
-                                .foregroundStyle(.secondary)
-                                .lineLimit(2)
-                                .lineSpacing(3)
-                        }
-                        .padding(14)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(Color.secondary.opacity(0.07))
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                    }
-
-                    // 끊어둔 문장 — 재진입 트리거 (가장 중요)
+                    // 끊어둔 문장 — 재진입 트리거 (가장 중요, 헤드라인)
                     if !thread.bridge.nextQuestion.isEmpty {
                         VStack(alignment: .leading, spacing: 6) {
                             Label("끊어둔 문장", systemImage: "arrow.turn.down.right")
@@ -257,6 +236,15 @@ struct HomeView: View {
                             }
                         )
                         .clipShape(RoundedRectangle(cornerRadius: 10))
+                    }
+
+                    // 지금까지의 흐름 — 핵심 + 직전 생각 (맥락 복원)
+                    if thread.lastEntry != nil {
+                        ThreadRecapView(thread: thread)
+                            .padding(14)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .background(Color.secondary.opacity(0.07))
+                            .clipShape(RoundedRectangle(cornerRadius: 10))
                     }
 
                     // 이어서 생각하기 버튼
