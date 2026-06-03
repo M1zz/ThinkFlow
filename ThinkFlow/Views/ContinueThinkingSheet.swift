@@ -8,7 +8,8 @@ struct ContinueThinkingSheet: View {
 
     let thread: ThoughtThread
 
-    @State private var newThought = ""
+    @State private var draft = ""
+    @State private var newThoughts: [String] = []
     @State private var phase: Phase = .thinking
     @State private var nextStartingPoint = ""
     @State private var sessionStart = Date()
@@ -17,8 +18,12 @@ struct ContinueThinkingSheet: View {
 
     enum Phase { case thinking, bridging }
 
+    private var draftIsEmpty: Bool {
+        draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
+    // 추가된 생각이 하나라도 있거나, 입력 중인 글이 있으면 진행 가능
     private var hasThought: Bool {
-        !newThought.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        !newThoughts.isEmpty || !draftIsEmpty
     }
     private var hasNextPoint: Bool {
         !nextStartingPoint.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
@@ -117,34 +122,96 @@ struct ContinueThinkingSheet: View {
                     .clipShape(RoundedRectangle(cornerRadius: 10))
             }
 
-            // 생각 쓰기
-            VStack(alignment: .leading, spacing: 8) {
-                Text("지금 이어지는 생각")
-                    .font(.subheadline)
-                    .fontWeight(.medium)
-                    .foregroundStyle(.secondary)
-
-                TextEditor(text: $newThought)
-                    .focused($isThoughtFocused)
-                    .frame(minHeight: 200)
-                    .scrollContentBackground(.hidden)
-                    .font(.body)
-                    .lineSpacing(4)
-                    .accessibilityLabel("지금 이어지는 생각")
-
-                HStack {
+            // 생각 쓰기 (여러 개로 쪼개서)
+            VStack(alignment: .leading, spacing: 10) {
+                HStack(alignment: .firstTextBaseline) {
+                    Text("지금 이어지는 생각")
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+                        .foregroundStyle(.secondary)
                     Spacer()
-                    Text("\(newThought.count)자")
-                        .font(.caption)
-                        .foregroundStyle(.tertiary)
+                    if !newThoughts.isEmpty {
+                        Text("\(newThoughts.count)개 추가됨")
+                            .font(.caption)
+                            .foregroundStyle(.tertiary)
+                    }
                 }
+
+                // 이번에 추가한 생각들
+                ForEach(Array(newThoughts.enumerated()), id: \.offset) { index, thought in
+                    addedThoughtRow(index: index, thought: thought)
+                }
+
+                // 입력란 + 추가 버튼
+                VStack(alignment: .leading, spacing: 8) {
+                    TextEditor(text: $draft)
+                        .focused($isThoughtFocused)
+                        .frame(minHeight: newThoughts.isEmpty ? 160 : 96)
+                        .scrollContentBackground(.hidden)
+                        .font(.body)
+                        .lineSpacing(4)
+                        .accessibilityLabel(newThoughts.isEmpty ? "지금 이어지는 생각" : "생각 더 추가")
+
+                    HStack {
+                        Text("\(draft.count)자")
+                            .font(.caption)
+                            .foregroundStyle(.tertiary)
+                        Spacer()
+                        Button {
+                            addDraft()
+                        } label: {
+                            Label("생각 추가", systemImage: "plus.circle.fill")
+                                .font(.subheadline)
+                                .fontWeight(.semibold)
+                        }
+                        .disabled(draftIsEmpty)
+                        .accessibilityHint("입력한 생각을 한 덩어리로 추가하고 다음 생각을 적습니다")
+                    }
+                }
+                .padding(16)
+                .background(.background)
+                .clipShape(RoundedRectangle(cornerRadius: 14))
+
+                Text("생각이 바뀔 때마다 따로 추가하면 나중에 정리하기 쉬워요.")
+                    .font(.caption)
+                    .foregroundStyle(.tertiary)
+                    .padding(.horizontal, 2)
             }
-            .padding(16)
-            .background(.background)
-            .clipShape(RoundedRectangle(cornerRadius: 14))
 
             sessionTimer
         }
+    }
+
+    // 이번 세션에 추가한 생각 한 줄 (삭제 가능)
+    @ViewBuilder
+    private func addedThoughtRow(index: Int, thought: String) -> some View {
+        HStack(alignment: .top, spacing: 10) {
+            Text("\(index + 1)")
+                .font(.caption.weight(.bold))
+                .foregroundStyle(.orange)
+                .frame(width: 20, height: 20)
+                .background(.orange.opacity(0.12), in: Circle())
+
+            Text(thought)
+                .font(.body)
+                .foregroundStyle(.primary)
+                .lineSpacing(3)
+                .frame(maxWidth: .infinity, alignment: .leading)
+
+            Button {
+                removeThought(at: index)
+            } label: {
+                Image(systemName: "xmark.circle.fill")
+                    .foregroundStyle(.secondary.opacity(0.5))
+            }
+            .accessibilityLabel("\(index + 1)번째 생각 삭제")
+        }
+        .padding(12)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(.background)
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("추가한 생각 \(index + 1): \(thought)")
     }
 
     // MARK: - Phase 2: 문장 끊어두기
@@ -232,10 +299,31 @@ struct ContinueThinkingSheet: View {
 
     // MARK: - Actions
 
-    private func saveThought() {
-        let trimmed = newThought.trimmingCharacters(in: .whitespacesAndNewlines)
+    // 입력 중인 글을 한 덩어리 생각으로 추가하고 다음 입력을 받는다.
+    private func addDraft() {
+        let trimmed = draft.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else { return }
-        store.addEntry(to: thread.id, content: trimmed)
+        withAnimation(.easeInOut(duration: 0.2)) {
+            newThoughts.append(trimmed)
+            draft = ""
+        }
+        isThoughtFocused = true
+        UIAccessibility.post(notification: .announcement, argument: "생각 추가됨")
+    }
+
+    private func removeThought(at index: Int) {
+        guard newThoughts.indices.contains(index) else { return }
+        _ = withAnimation(.easeInOut(duration: 0.2)) {
+            newThoughts.remove(at: index)
+        }
+    }
+
+    // '다음'을 누르면 입력 중인 글까지 모두 각각의 엔트리로 저장한다.
+    private func saveThought() {
+        addDraft()
+        for content in newThoughts {
+            store.addEntry(to: thread.id, content: content)
+        }
     }
 
     private func goToBridging() {

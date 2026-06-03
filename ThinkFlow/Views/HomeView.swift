@@ -53,19 +53,9 @@ struct HomeView: View {
                 .padding(.top, 8)
             }
             .background(Color(.systemGroupedBackground))
-            .navigationTitle("이어생각")
-            .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
-                    Button {
-                        showBrainDump = true
-                    } label: {
-                        Image(systemName: "plus.circle.fill")
-                            .font(.title2)
-                            .symbolRenderingMode(.hierarchical)
-                    }
-                    .accessibilityLabel("생각 꺼내기")
-                    .accessibilityHint("머릿속 생각을 적어 새 스레드를 만듭니다")
-                }
+            .navigationBarTitleDisplayMode(.inline)
+            .overlay(alignment: .bottomTrailing) {
+                addThoughtButton
             }
             .sheet(isPresented: $showBrainDump) {
                 BrainDumpSheet()
@@ -81,6 +71,25 @@ struct HomeView: View {
         }
     }
     
+    // MARK: - 생각 꺼내기 플로팅 버튼 (우측 하단)
+
+    private var addThoughtButton: some View {
+        Button {
+            showBrainDump = true
+        } label: {
+            Image(systemName: "plus")
+                .font(.title2.weight(.bold))
+                .foregroundStyle(.white)
+                .frame(width: 58, height: 58)
+                .background(.orange.gradient, in: Circle())
+                .shadow(color: .black.opacity(0.25), radius: 10, y: 4)
+        }
+        .padding(.trailing, 20)
+        .padding(.bottom, 20)
+        .accessibilityLabel("생각 꺼내기")
+        .accessibilityHint("머릿속 생각을 적어 새 스레드를 만듭니다")
+    }
+
     // MARK: - 빈 상태 (첫 실행)
 
     private var emptyState: some View {
@@ -183,94 +192,11 @@ struct HomeView: View {
     @ViewBuilder
     private func resumeSection(thread: ThoughtThread) -> some View {
         NavigationLink(value: thread.id) {
-            VStack(alignment: .leading, spacing: 16) {
-
-                // 헤더
-                HStack {
-                    Image(systemName: "bookmark.fill")
-                        .foregroundStyle(.orange)
-                        .accessibilityHidden(true)
-                    Text("여기서 이어서")
-                        .font(.subheadline)
-                        .fontWeight(.semibold)
-                        .foregroundStyle(.secondary)
-                        .accessibilityAddTraits(.isHeader)
-                    Spacer()
-                    Text(thread.bridge.updatedAt, style: .relative)
-                        .font(.caption)
-                        .foregroundStyle(.tertiary)
-                }
-
-                VStack(alignment: .leading, spacing: 12) {
-                    // 스레드 제목
-                    HStack(spacing: 8) {
-                        Text(thread.emoji)
-                            .font(.title2)
-                        Text(thread.title)
-                            .font(.title3)
-                            .fontWeight(.bold)
-                            .foregroundStyle(.primary)
-                    }
-
-                    // 끊어둔 문장 — 재진입 트리거 (가장 중요, 헤드라인)
-                    if !thread.bridge.nextQuestion.isEmpty {
-                        VStack(alignment: .leading, spacing: 6) {
-                            Label("끊어둔 문장", systemImage: "arrow.turn.down.right")
-                                .font(.subheadline)
-                                .fontWeight(.medium)
-                                .foregroundStyle(.orange)
-                            Text(thread.bridge.nextQuestion)
-                                .font(.title3)
-                                .fontWeight(.semibold)
-                                .foregroundStyle(.primary)
-                                .lineLimit(3)
-                                .lineSpacing(3)
-                        }
-                        .padding(14)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                        .background(
-                            HStack(spacing: 0) {
-                                Color.orange.opacity(0.4)
-                                    .frame(width: 3)
-                                Color.orange.opacity(0.07)
-                            }
-                        )
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                    }
-
-                    // 지금까지의 흐름 — 핵심 + 직전 생각 (맥락 복원)
-                    if thread.lastEntry != nil {
-                        ThreadRecapView(thread: thread)
-                            .padding(14)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .background(Color.secondary.opacity(0.07))
-                            .clipShape(RoundedRectangle(cornerRadius: 10))
-                    }
-
-                    // 이어서 생각하기 버튼
-                    Button {
-                        continueThread = thread
-                    } label: {
-                        HStack {
-                            Image(systemName: "pencil.line")
-                            Text("이어서 생각하기")
-                                .fontWeight(.semibold)
-                        }
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 14)
-                        .background(.orange.gradient)
-                        .foregroundStyle(.white)
-                        .clipShape(RoundedRectangle(cornerRadius: 12))
-                    }
-                    .accessibilityLabel("이어서 생각하기")
-                    .accessibilityHint("\(thread.title)에 생각을 이어 적습니다")
-                    .padding(.top, 4)
-                }
-            }
-            .padding(20)
-            .background(.background)
-            .clipShape(RoundedRectangle(cornerRadius: 16))
-            .shadow(color: .black.opacity(0.06), radius: 8, y: 2)
+            ThreadCardView(
+                thread: thread,
+                isResume: true,
+                onContinue: { continueThread = thread }
+            )
         }
         .buttonStyle(.plain)
     }

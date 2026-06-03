@@ -122,6 +122,26 @@ struct ThoughtThread: Identifiable, Codable {
         reverseChronologicalEntries.first
     }
 
+    // 첫 생각 (가장 오래된 엔트리)
+    var firstEntry: ThoughtEntry? {
+        chronologicalEntries.first
+    }
+
+    // 화면에 보여줄 제목 — 저장된 제목이 첫 생각의 앞부분이 잘린 형태면
+    // 첫 생각의 첫 문장 전체를 복원해서 보여준다 (저장 데이터는 그대로 둠).
+    var displayTitle: String {
+        guard let content = firstEntry?.content else { return title }
+        let firstSentence = content
+            .components(separatedBy: CharacterSet(charactersIn: ".!?\n"))
+            .first?
+            .trimmingCharacters(in: .whitespaces) ?? ""
+        let candidate = firstSentence.isEmpty ? content : firstSentence
+        if candidate.count > title.count && candidate.hasPrefix(title) {
+            return candidate
+        }
+        return title
+    }
+
     // 정제된 핵심 생각 (핵심/요약 레이어). 가장 최근 것이 마지막.
     var distilledEntries: [ThoughtEntry] {
         chronologicalEntries.filter { $0.layer >= 2 }
