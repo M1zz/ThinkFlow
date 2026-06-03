@@ -16,15 +16,14 @@ struct ThreadCardView: View {
                         .font(.headline)
                         .foregroundStyle(.primary)
 
-                    HStack(spacing: 12) {
-                        Label("\(thread.entryCount)개 메모", systemImage: "note.text")
-                        Label(thread.formattedThinkingTime, systemImage: "clock")
+                    HStack(spacing: 6) {
+                        metaChip("note.text", "\(thread.entryCount)개 메모")
+                        metaChip("clock", thread.formattedThinkingTime)
                         if thread.daysSinceLastVisit > 0 {
-                            Label("\(thread.daysSinceLastVisit)일 전", systemImage: "calendar")
+                            metaChip("calendar", "\(thread.daysSinceLastVisit)일 전", highlighted: thread.daysSinceLastVisit >= 3)
                         }
                     }
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
+                    .accessibilityElement(children: .combine)
                 }
 
                 Spacer()
@@ -102,6 +101,21 @@ struct ThreadCardView: View {
         .shadow(color: .black.opacity(0.04), radius: 4, y: 1)
     }
     
+    // MARK: - 메타 칩 (메모 수 · 사고 시간 · 경과일)
+    private func metaChip(_ icon: String, _ text: String, highlighted: Bool = false) -> some View {
+        HStack(spacing: 4) {
+            Image(systemName: icon)
+                .font(.caption2)
+            Text(text)
+                .font(.caption.weight(.semibold))
+        }
+        .foregroundStyle(highlighted ? Color.orange : Color.secondary)
+        .padding(.horizontal, 8)
+        .padding(.vertical, 4)
+        .background((highlighted ? Color.orange : Color.secondary).opacity(0.12))
+        .clipShape(Capsule())
+    }
+
     // MARK: - 진행도 링
     private var progressRing: some View {
         ZStack {

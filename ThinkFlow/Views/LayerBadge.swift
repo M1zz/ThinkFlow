@@ -79,8 +79,8 @@ struct ThreadRecapView: View {
                         .foregroundStyle(.secondary)
                     Spacer()
                     Text(metaLine)
-                        .font(.caption)
-                        .foregroundStyle(.tertiary)
+                        .font(.caption.weight(.medium))
+                        .foregroundStyle(.secondary)
                 }
                 .accessibilityElement(children: .combine)
 
