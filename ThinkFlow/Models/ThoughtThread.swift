@@ -106,6 +106,56 @@ struct ThoughtThread: Identifiable, Codable {
         let avgLayer = Double(entries.map(\.layer).reduce(0, +)) / Double(entries.count)
         return avgLayer / maxLayer
     }
+
+    // 시간순(과거 → 최신) 정렬된 엔트리
+    var chronologicalEntries: [ThoughtEntry] {
+        entries.sorted { $0.createdAt < $1.createdAt }
+    }
+
+    // 최신순(최신 → 과거) 정렬된 엔트리
+    var reverseChronologicalEntries: [ThoughtEntry] {
+        entries.sorted { $0.createdAt > $1.createdAt }
+    }
+
+    // 직전 생각 (가장 최근 엔트리)
+    var lastEntry: ThoughtEntry? {
+        reverseChronologicalEntries.first
+    }
+
+    // 첫 생각 (가장 오래된 엔트리)
+    var firstEntry: ThoughtEntry? {
+        chronologicalEntries.first
+    }
+
+    // 화면에 보여줄 제목 — 저장된 제목이 첫 생각의 앞부분이 잘린 형태면
+    // 첫 생각의 첫 문장 전체를 복원해서 보여준다 (저장 데이터는 그대로 둠).
+    var displayTitle: String {
+        guard let content = firstEntry?.content else { return title }
+        let firstSentence = content
+            .components(separatedBy: CharacterSet(charactersIn: ".!?\n"))
+            .first?
+            .trimmingCharacters(in: .whitespaces) ?? ""
+        let candidate = firstSentence.isEmpty ? content : firstSentence
+        if candidate.count > title.count && candidate.hasPrefix(title) {
+            return candidate
+        }
+        return title
+    }
+
+    // 정제된 핵심 생각 (핵심/요약 레이어). 가장 최근 것이 마지막.
+    var distilledEntries: [ThoughtEntry] {
+        chronologicalEntries.filter { $0.layer >= 2 }
+    }
+
+    // 가장 최근의 정제된 핵심 (없으면 nil)
+    var latestCore: ThoughtEntry? {
+        distilledEntries.last
+    }
+
+    // 재진입 시 맥락 복원에 쓸 요약 — 며칠 전에 끊었는지
+    var daysSinceBridge: Int {
+        Calendar.current.dateComponents([.day], from: bridge.updatedAt, to: Date()).day ?? 0
+    }
 }
 
 // MARK: - 덤프 아이템 (아직 정리되지 않은 생각 조각)
