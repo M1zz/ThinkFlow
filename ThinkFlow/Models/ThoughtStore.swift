@@ -72,6 +72,22 @@ final class ThoughtStore {
         save()
     }
     
+    /// 조사 결과·자료를 스레드에 붙인다 (예: Claude에게 물어본 결과 정리).
+    func addReference(to threadID: UUID, content: String, source: String? = nil) {
+        let trimmedContent = content.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmedContent.isEmpty,
+              let index = threads.firstIndex(where: { $0.id == threadID }) else { return }
+        let trimmedSource = source?.trimmingCharacters(in: .whitespacesAndNewlines)
+        let entry = ThoughtEntry(
+            content: trimmedContent,
+            kind: .reference,
+            source: (trimmedSource?.isEmpty ?? true) ? nil : trimmedSource
+        )
+        threads[index].entries.append(entry)
+        threads[index].lastVisitedAt = Date()
+        save()
+    }
+
     func updateBridge(for threadID: UUID, nextQuestion: String) {
         guard let index = threads.firstIndex(where: { $0.id == threadID }) else { return }
         threads[index].bridge = HemingwayBridge(

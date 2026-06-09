@@ -16,14 +16,38 @@ struct ContinueThinkingSheet: View {
     @FocusState private var isThoughtFocused: Bool
     @FocusState private var isNextFocused: Bool
 
+    // 조사 결과·자료 (옵셔널) — 예: 클로드에게 물어본 결과 정리
+    @State private var refDraft = ""
+    @State private var refSource = ""
+    @State private var newReferences: [PendingReference] = []
+    @State private var showRefInput = false
+    @FocusState private var isRefFocused: Bool
+
+    struct PendingReference: Identifiable {
+        let id = UUID()
+        var source: String
+        var content: String
+    }
+
     enum Phase { case thinking, bridging }
 
     private var draftIsEmpty: Bool {
         draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
     }
+    private var refDraftIsEmpty: Bool {
+        refDraft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+    }
     // 추가된 생각이 하나라도 있거나, 입력 중인 글이 있으면 진행 가능
     private var hasThought: Bool {
         !newThoughts.isEmpty || !draftIsEmpty
+    }
+    // 붙여둔 자료가 있거나, 입력 중인 자료가 있는지
+    private var hasReference: Bool {
+        !newReferences.isEmpty || !refDraftIsEmpty
+    }
+    // 생각이든 자료든 저장할 내용이 있으면 진행/닫기 보호
+    private var hasAnyInput: Bool {
+        hasThought || hasReference
     }
     private var hasNextPoint: Bool {
         !nextStartingPoint.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
@@ -46,7 +70,7 @@ struct ContinueThinkingSheet: View {
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
                     // 입력이 없을 때만 그냥 닫기. 입력이 있으면 '다음'으로 문장을 끊어둬야 닫힌다.
-                    if phase == .thinking && !hasThought {
+                    if phase == .thinking && !hasAnyInput {
                         Button("닫기") { dismiss() }
                     }
                 }
@@ -55,11 +79,11 @@ struct ContinueThinkingSheet: View {
                 ToolbarItem(placement: .topBarTrailing) {
                     if phase == .thinking {
                         Button("다음") {
-                            saveThought()
+                            saveEntries()
                             goToBridging()
                         }
                         .fontWeight(.semibold)
-                        .disabled(!hasThought)
+                        .disabled(!hasAnyInput)
                     } else {
                         Button("완료") {
                             saveBridge()
@@ -71,7 +95,7 @@ struct ContinueThinkingSheet: View {
                 }
             }
         }
-        .interactiveDismissDisabled(hasThought || phase == .bridging)
+        .interactiveDismissDisabled(hasAnyInput || phase == .bridging)
         .onAppear {
             sessionStart = Date()
             store.startSession(threadID: thread.id)
@@ -178,8 +202,146 @@ struct ContinueThinkingSheet: View {
                     .padding(.horizontal, 2)
             }
 
+            referenceSection
+
             sessionTimer
         }
+    }
+
+    // MARK: - 조사 결과·자료 붙이기 (옵셔널)
+
+    private var referenceSection: some View {
+        VStack(alignment: .leading, spacing: 10) {
+
+            // 이번에 붙인 자료들
+            ForEach(Array(newReferences.enumerated()), id: \.element.id) { index, ref in
+                addedReferenceRow(index: index, ref: ref)
+            }
+
+            if showRefInput {
+                VStack(alignment: .leading, spacing: 10) {
+                    Label("조사 결과·자료", systemImage: "paperclip")
+                        .font(.subheadline)
+                        .fontWeight(.medium)
+                        .foregroundStyle(.teal)
+
+                    TextField("출처 (예: Claude, 검색) — 선택", text: $refSource)
+                        .font(.subheadline)
+                        .padding(10)
+                        .background(Color(.systemBackground))
+                        .clipShape(RoundedRectangle(cornerRadius: 8))
+                        .accessibilityLabel("자료 출처")
+
+                    TextEditor(text: $refDraft)
+                        .focused($isRefFocused)
+                        .frame(minHeight: 120)
+                        .scrollContentBackground(.hidden)
+                        .font(.body)
+                        .lineSpacing(4)
+                        .accessibilityLabel("자료 내용")
+                        .accessibilityHint("조사하거나 정리한 내용을 붙여넣습니다")
+
+                    HStack {
+                        Button("취소") {
+                            withAnimation(.easeInOut(duration: 0.2)) {
+                                showRefInput = false
+                                refDraft = ""
+                                refSource = ""
+                            }
+                        }
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+
+                        Spacer()
+
+                        Button {
+                            addReferenceDraft()
+                        } label: {
+                            Label("자료 추가", systemImage: "plus.circle.fill")
+                                .font(.subheadline)
+                                .fontWeight(.semibold)
+                        }
+                        .tint(.teal)
+                        .disabled(refDraftIsEmpty)
+                        .accessibilityHint("입력한 자료를 이 생각 흐름에 붙입니다")
+                    }
+                }
+                .padding(16)
+                .background(Color.teal.opacity(0.06))
+                .clipShape(RoundedRectangle(cornerRadius: 14))
+                .overlay(
+                    RoundedRectangle(cornerRadius: 14)
+                        .stroke(Color.teal.opacity(0.2), lineWidth: 1)
+                )
+            } else {
+                Button {
+                    withAnimation(.easeInOut(duration: 0.2)) { showRefInput = true }
+                    isRefFocused = true
+                } label: {
+                    HStack(spacing: 8) {
+                        Image(systemName: "paperclip")
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("조사 결과·자료 붙이기")
+                                .fontWeight(.medium)
+                            Text("예: 클로드에게 물어본 결과 정리")
+                                .font(.caption)
+                                .foregroundStyle(.tertiary)
+                        }
+                        Spacer()
+                    }
+                    .font(.subheadline)
+                    .foregroundStyle(.teal)
+                    .padding(14)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(Color.teal.opacity(0.06))
+                    .clipShape(RoundedRectangle(cornerRadius: 12))
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 12)
+                            .strokeBorder(Color.teal.opacity(0.25), style: StrokeStyle(lineWidth: 1, dash: [4, 3]))
+                    )
+                }
+                .accessibilityHint("생각과 별개로 조사하거나 정리한 자료를 붙여둘 수 있습니다")
+            }
+        }
+    }
+
+    // 이번 세션에 붙인 자료 한 줄 (삭제 가능)
+    @ViewBuilder
+    private func addedReferenceRow(index: Int, ref: PendingReference) -> some View {
+        HStack(alignment: .top, spacing: 10) {
+            Image(systemName: "paperclip")
+                .font(.caption.weight(.bold))
+                .foregroundStyle(.teal)
+                .frame(width: 20, height: 20)
+                .background(.teal.opacity(0.12), in: Circle())
+
+            VStack(alignment: .leading, spacing: 4) {
+                if !ref.source.trimmingCharacters(in: .whitespaces).isEmpty {
+                    Text("자료 · \(ref.source)")
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(.teal)
+                }
+                Text(ref.content)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
+                    .lineSpacing(3)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+            }
+
+            Button {
+                removeReference(at: index)
+            } label: {
+                Image(systemName: "xmark.circle.fill")
+                    .foregroundStyle(.secondary.opacity(0.5))
+            }
+            .accessibilityLabel("\(index + 1)번째 자료 삭제")
+        }
+        .padding(12)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(Color.teal.opacity(0.06))
+        .clipShape(RoundedRectangle(cornerRadius: 12))
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel("붙인 자료 \(index + 1): \(ref.content)")
     }
 
     // 이번 세션에 추가한 생각 한 줄 (삭제 가능)
@@ -318,11 +480,36 @@ struct ContinueThinkingSheet: View {
         }
     }
 
-    // '다음'을 누르면 입력 중인 글까지 모두 각각의 엔트리로 저장한다.
-    private func saveThought() {
+    // 입력 중인 자료를 한 덩어리로 붙이고 입력란을 비운다.
+    private func addReferenceDraft() {
+        let trimmed = refDraft.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !trimmed.isEmpty else { return }
+        let source = refSource.trimmingCharacters(in: .whitespacesAndNewlines)
+        withAnimation(.easeInOut(duration: 0.2)) {
+            newReferences.append(PendingReference(source: source, content: trimmed))
+            refDraft = ""
+            refSource = ""
+            showRefInput = false
+        }
+        UIAccessibility.post(notification: .announcement, argument: "자료 추가됨")
+    }
+
+    private func removeReference(at index: Int) {
+        guard newReferences.indices.contains(index) else { return }
+        _ = withAnimation(.easeInOut(duration: 0.2)) {
+            newReferences.remove(at: index)
+        }
+    }
+
+    // '다음'을 누르면 입력 중인 글·자료까지 모두 각각의 엔트리로 저장한다.
+    private func saveEntries() {
         addDraft()
         for content in newThoughts {
             store.addEntry(to: thread.id, content: content)
+        }
+        addReferenceDraft()
+        for ref in newReferences {
+            store.addReference(to: thread.id, content: ref.content, source: ref.source)
         }
     }
 

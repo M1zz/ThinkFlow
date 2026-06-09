@@ -1,19 +1,53 @@
 import Foundation
 
-// MARK: - 사고 엔트리 (하나의 생각 기록)
+// MARK: - 엔트리 종류 (내 생각 / 붙여둔 자료)
+enum EntryKind: String, Codable {
+    case thought   // 내가 적은 생각 (Progressive Summarization 대상)
+    case reference // 붙여둔 조사·자료 (예: Claude에게 물어본 결과 정리)
+}
+
+// MARK: - 사고 엔트리 (하나의 생각 기록 또는 자료)
 struct ThoughtEntry: Identifiable, Codable {
     let id: UUID
     var content: String
     var layer: Int // Progressive Summarization 레이어 (0: 날것, 1: 볼드, 2: 하이라이트, 3: 요약)
     let createdAt: Date
-    
-    init(id: UUID = UUID(), content: String, layer: Int = 0, createdAt: Date = Date()) {
+    var kind: EntryKind      // 생각인지 붙여둔 자료인지
+    var source: String?      // 자료 출처 라벨 (예: "Claude", "검색"). 생각이면 nil
+
+    init(
+        id: UUID = UUID(),
+        content: String,
+        layer: Int = 0,
+        createdAt: Date = Date(),
+        kind: EntryKind = .thought,
+        source: String? = nil
+    ) {
         self.id = id
         self.content = content
         self.layer = layer
         self.createdAt = createdAt
+        self.kind = kind
+        self.source = source
     }
-    
+
+    // 구버전 데이터(kind/source 없음)도 읽을 수 있도록 직접 디코딩한다.
+    enum CodingKeys: String, CodingKey {
+        case id, content, layer, createdAt, kind, source
+    }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        id = try c.decode(UUID.self, forKey: .id)
+        content = try c.decode(String.self, forKey: .content)
+        layer = try c.decode(Int.self, forKey: .layer)
+        createdAt = try c.decode(Date.self, forKey: .createdAt)
+        kind = try c.decodeIfPresent(EntryKind.self, forKey: .kind) ?? .thought
+        source = try c.decodeIfPresent(String.self, forKey: .source)
+    }
+
+    var isReference: Bool { kind == .reference }
+
     var layerLabel: String {
         switch layer {
         case 0: return "메모"
@@ -91,19 +125,36 @@ struct ThoughtThread: Identifiable, Codable {
         }
     }
     
+    // 순수 생각 엔트리만 (Progressive Summarization·맥락 복원의 대상)
+    var thoughtEntries: [ThoughtEntry] {
+        entries.filter { !$0.isReference }
+    }
+
+    // 붙여둔 자료(조사 결과)만
+    var referenceEntries: [ThoughtEntry] {
+        entries.filter { $0.isReference }
+    }
+
+    // '메모 N개' 통계 — 자료가 아닌 생각의 개수
     var entryCount: Int {
-        entries.count
+        thoughtEntries.count
     }
-    
+
+    // 붙여둔 자료 개수
+    var referenceCount: Int {
+        referenceEntries.count
+    }
+
     var highestLayer: Int {
-        entries.map(\.layer).max() ?? 0
+        thoughtEntries.map(\.layer).max() ?? 0
     }
-    
+
     // 가장 최근 엔트리의 Progressive Summarization 진행도
     var progressionRatio: Double {
-        guard !entries.isEmpty else { return 0 }
+        let thoughts = thoughtEntries
+        guard !thoughts.isEmpty else { return 0 }
         let maxLayer = 3.0
-        let avgLayer = Double(entries.map(\.layer).reduce(0, +)) / Double(entries.count)
+        let avgLayer = Double(thoughts.map(\.layer).reduce(0, +)) / Double(thoughts.count)
         return avgLayer / maxLayer
     }
 
@@ -117,14 +168,14 @@ struct ThoughtThread: Identifiable, Codable {
         entries.sorted { $0.createdAt > $1.createdAt }
     }
 
-    // 직전 생각 (가장 최근 엔트리)
+    // 직전 생각 (가장 최근 생각 엔트리 — 자료 제외)
     var lastEntry: ThoughtEntry? {
-        reverseChronologicalEntries.first
+        thoughtEntries.sorted { $0.createdAt > $1.createdAt }.first
     }
 
-    // 첫 생각 (가장 오래된 엔트리)
+    // 첫 생각 (가장 오래된 생각 엔트리 — 자료 제외)
     var firstEntry: ThoughtEntry? {
-        chronologicalEntries.first
+        thoughtEntries.sorted { $0.createdAt < $1.createdAt }.first
     }
 
     // 화면에 보여줄 제목 — 저장된 제목이 첫 생각의 앞부분이 잘린 형태면
@@ -144,7 +195,7 @@ struct ThoughtThread: Identifiable, Codable {
 
     // 정제된 핵심 생각 (핵심/요약 레이어). 가장 최근 것이 마지막.
     var distilledEntries: [ThoughtEntry] {
-        chronologicalEntries.filter { $0.layer >= 2 }
+        chronologicalEntries.filter { !$0.isReference && $0.layer >= 2 }
     }
 
     // 가장 최근의 정제된 핵심 (없으면 nil)
@@ -184,6 +235,7 @@ extension ThoughtThread {
             entries: [
                 ThoughtEntry(content: "숏폼은 30초 안에 보상을 주는 구조. 깊은 생각은 보상까지 시간이 오래 걸림. 이 격차가 문제의 본질인 것 같다.", layer: 0, createdAt: Date().addingTimeInterval(-86400 * 3)),
                 ThoughtEntry(content: "핵심: 보상 지연 시간의 격차가 깊은 사고를 방해한다", layer: 2, createdAt: Date().addingTimeInterval(-86400 * 2)),
+                ThoughtEntry(content: "도파민 보상의 즉시성이 클수록 지연 보상을 견디는 능력(만족 지연)이 약해진다. 숏폼은 가변 보상 스케줄로 이 회로를 강하게 자극한다.", createdAt: Date().addingTimeInterval(-86400 * 2 + 3600), kind: .reference, source: "Claude"),
                 ThoughtEntry(content: "Cal Newport의 Deep Work 연구 - 주의력은 근육처럼 훈련 가능. 하루 4시간이 깊은 사고의 상한선이라는 주장.", layer: 1, createdAt: Date().addingTimeInterval(-86400)),
             ],
             createdAt: Date().addingTimeInterval(-86400 * 5),

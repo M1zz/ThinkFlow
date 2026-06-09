@@ -23,15 +23,22 @@ struct EntryRowView: View {
         }
     }
 
-    private var layerAccent: Color { accent(for: entry.layer) }
+    // 자료(조사 결과)는 생각과 시각적으로 구분되는 청록색을 쓴다.
+    private var rowAccent: Color {
+        entry.isReference ? .teal : accent(for: entry.layer)
+    }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
 
             // 헤더
             HStack(spacing: 6) {
-                // 레이어 승급 칩 (Progressive Summarization)
-                layerBadge
+                // 자료는 출처 칩, 생각은 레이어 승급 칩
+                if entry.isReference {
+                    referenceBadge
+                } else {
+                    layerBadge
+                }
 
                 HStack(spacing: 6) {
                     Text(entry.createdAt, style: .relative)
@@ -66,20 +73,20 @@ struct EntryRowView: View {
                         .contentTransition(.symbolEffect(.replace))
                 }
                 .accessibilityLabel("복사")
-                .accessibilityHint("이 생각을 클립보드에 복사합니다")
+                .accessibilityHint(entry.isReference ? "이 자료를 클립보드에 복사합니다" : "이 생각을 클립보드에 복사합니다")
             }
 
             // 내용
             Text(entry.content)
                 .font(.body)
-                .foregroundStyle(.primary)
+                .foregroundStyle(entry.isReference ? .secondary : .primary)
                 .lineSpacing(5)
         }
         .padding(16)
-        .background(Color(.systemBackground))
+        .background(entry.isReference ? AnyShapeStyle(Color.teal.opacity(0.06)) : AnyShapeStyle(Color(.systemBackground)))
         .overlay(
             Rectangle()
-                .fill(layerAccent)
+                .fill(rowAccent)
                 .frame(width: 3),
             alignment: .leading
         )
@@ -127,20 +134,39 @@ struct EntryRowView: View {
         } label: {
             HStack(spacing: 4) {
                 Circle()
-                    .fill(layerAccent)
+                    .fill(rowAccent)
                     .frame(width: 7, height: 7)
                     .accessibilityHidden(true)
                 Text(entry.layerLabel)
                     .font(.caption.weight(.semibold))
-                    .foregroundStyle(layerAccent)
+                    .foregroundStyle(rowAccent)
             }
             .padding(.horizontal, 9)
             .padding(.vertical, 4)
-            .background(layerAccent.opacity(0.12))
+            .background(rowAccent.opacity(0.12))
             .clipShape(Capsule())
         }
         .accessibilityLabel("정리 단계, 현재 \(entry.layerLabel)")
         .accessibilityHint("두 번 탭하면 단계를 바꿉니다")
+    }
+
+    // MARK: - 자료 출처 배지 (조사 결과)
+
+    private var referenceBadge: some View {
+        HStack(spacing: 4) {
+            Image(systemName: "paperclip")
+                .font(.caption2.weight(.bold))
+                .accessibilityHidden(true)
+            Text(entry.source.map { "자료 · \($0)" } ?? "자료")
+                .font(.caption.weight(.semibold))
+        }
+        .foregroundStyle(rowAccent)
+        .padding(.horizontal, 9)
+        .padding(.vertical, 4)
+        .background(rowAccent.opacity(0.12))
+        .clipShape(Capsule())
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(entry.source.map { "조사 자료, 출처 \($0)" } ?? "조사 자료")
     }
 }
 
@@ -207,6 +233,7 @@ struct EntryEditSheet: View {
     VStack(spacing: 12) {
         EntryRowView(entry: ThoughtEntry(content: "날것의 생각. 아직 정리되지 않은 상태.", layer: 0))
         EntryRowView(entry: ThoughtEntry(content: "핵심 인사이트: 보상 지연 시간의 격차가 깊은 사고를 방해한다", layer: 2))
+        EntryRowView(entry: ThoughtEntry(content: "도파민 보상의 즉시성이 클수록 만족 지연 능력이 약해진다. 숏폼은 가변 보상 스케줄로 이 회로를 강하게 자극한다.", kind: .reference, source: "Claude"))
         EntryRowView(entry: ThoughtEntry(content: "최종 요약: 외부 앵커와 진입 비용 최소화가 필수", layer: 3))
     }
     .padding()
