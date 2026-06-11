@@ -15,13 +15,21 @@ final class ThoughtStore {
 
     private let saveKey = "thought_threads_v1"
     private let dumpSaveKey = "dump_items_v1"
+    // 디코딩에 실패한 원본을 보존하는 키 — 다음 save()가 사용자 데이터를 덮어쓰지 않도록
+    private let recoveryKey = "thought_threads_v1_recovery"
+    private let dumpRecoveryKey = "dump_items_v1_recovery"
     static let appGroupID = "group.com.leeo.thinkflow"
 
-    private var sharedDefaults: UserDefaults? {
-        UserDefaults(suiteName: Self.appGroupID)
-    }
+    private let defaults: UserDefaults
+    private let sharedDefaults: UserDefaults?
+    private let sessionActivity = SessionActivityController()
 
-    init() {
+    init(
+        defaults: UserDefaults = .standard,
+        sharedDefaults: UserDefaults? = UserDefaults(suiteName: ThoughtStore.appGroupID)
+    ) {
+        self.defaults = defaults
+        self.sharedDefaults = sharedDefaults
         load()
         loadDumpItems()
     }
@@ -134,6 +142,9 @@ final class ThoughtStore {
         if sessionDepth == 0 {
             activeThreadID = threadID
             sessionStartTime = Date()
+            if let thread = threads.first(where: { $0.id == threadID }) {
+                sessionActivity.start(thread: thread)
+            }
         }
         sessionDepth += 1
 
@@ -153,6 +164,7 @@ final class ThoughtStore {
 
     /// 현재 세션의 경과 시간을 누적하고 세션을 닫는다.
     private func commitElapsed() {
+        sessionActivity.end()
         guard let threadID = activeThreadID,
               let startTime = sessionStartTime,
               let index = threads.firstIndex(where: { $0.id == threadID }) else {
@@ -212,7 +224,7 @@ final class ThoughtStore {
 
     private func save() {
         if let data = try? JSONEncoder().encode(threads) {
-            UserDefaults.standard.set(data, forKey: saveKey)
+            defaults.set(data, forKey: saveKey)
             sharedDefaults?.set(data, forKey: saveKey)
         }
         WidgetCenter.shared.reloadAllTimelines()
@@ -220,21 +232,28 @@ final class ThoughtStore {
 
     private func load() {
         let data = sharedDefaults?.data(forKey: saveKey)
-                ?? UserDefaults.standard.data(forKey: saveKey)
-        guard let data,
-              let decoded = try? JSONDecoder().decode([ThoughtThread].self, from: data) else { return }
-        threads = decoded
+                ?? defaults.data(forKey: saveKey)
+        guard let data else { return }
+        if let decoded = try? JSONDecoder().decode([ThoughtThread].self, from: data) {
+            threads = decoded
+        } else {
+            // 깨진 데이터를 보존해 두면 빈 상태로 시작해도 복구 여지가 남는다
+            defaults.set(data, forKey: recoveryKey)
+        }
     }
 
     private func saveDumpItems() {
         if let data = try? JSONEncoder().encode(dumpItems) {
-            UserDefaults.standard.set(data, forKey: dumpSaveKey)
+            defaults.set(data, forKey: dumpSaveKey)
         }
     }
 
     private func loadDumpItems() {
-        guard let data = UserDefaults.standard.data(forKey: dumpSaveKey),
-              let decoded = try? JSONDecoder().decode([DumpItem].self, from: data) else { return }
-        dumpItems = decoded
+        guard let data = defaults.data(forKey: dumpSaveKey) else { return }
+        if let decoded = try? JSONDecoder().decode([DumpItem].self, from: data) {
+            dumpItems = decoded
+        } else {
+            defaults.set(data, forKey: dumpRecoveryKey)
+        }
     }
 }

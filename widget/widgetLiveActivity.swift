@@ -2,17 +2,7 @@ import ActivityKit
 import WidgetKit
 import SwiftUI
 
-// MARK: - Live Activity Attributes
-
-struct ThinkingSessionAttributes: ActivityAttributes {
-    public struct ContentState: Codable, Hashable {
-        var nextQuestion: String
-    }
-
-    var threadTitle: String
-    var threadEmoji: String
-    var sessionStartDate: Date
-}
+// 속성 정의는 앱 타겟과 공유하는 ThinkFlow/Models/ThinkingSessionAttributes.swift 에 있다.
 
 // MARK: - Live Activity Widget
 
@@ -80,7 +70,7 @@ struct ThinkingSessionLiveActivity: Widget {
                     .font(.caption2)
                     .foregroundStyle(.orange)
             }
-            .widgetURL(URL(string: "thinkflow://continue"))
+            .widgetURL(URL(string: "thinkflow://continue?threadId=\(context.attributes.threadID.uuidString)"))
             .keylineTint(.orange)
         }
     }
@@ -142,6 +132,7 @@ struct ThinkingSessionLiveActivity: Widget {
 extension ThinkingSessionAttributes {
     fileprivate static var preview: ThinkingSessionAttributes {
         ThinkingSessionAttributes(
+            threadID: UUID(),
             threadTitle: "숏폼 vs 딥워크",
             threadEmoji: "🧠",
             sessionStartDate: Date()

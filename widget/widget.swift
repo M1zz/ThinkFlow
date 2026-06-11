@@ -11,7 +11,8 @@ struct WidgetDataLoader {
         let defaults = UserDefaults(suiteName: appGroupID)
         guard let data = defaults?.data(forKey: saveKey),
               let threads = try? JSONDecoder().decode([ThoughtThread].self, from: data) else {
-            return ThoughtThread.sampleThreads
+            // 실데이터가 없으면 빈 상태를 그대로 보여준다 (샘플을 진짜처럼 띄우지 않음)
+            return []
         }
         return threads
     }
@@ -310,11 +311,17 @@ struct ThinkFlowWidget: Widget {
         ) { entry in
             ThinkFlowWidgetEntryView(entry: entry)
                 .containerBackground(.fill.tertiary, for: .widget)
-                .widgetURL(URL(string: "thinkflow://continue"))
+                .widgetURL(Self.deepLinkURL(for: entry.thread))
         }
         .configurationDisplayName("이어생각")
         .description("멈춘 생각을 이어가세요. 헤밍웨이 브릿지를 홈 화면에서 확인합니다.")
         .supportedFamilies([.systemSmall, .systemMedium])
+    }
+
+    // 탭하면 해당 스레드의 이어가기 시트가 바로 열리도록 스레드 id를 실어 보낸다
+    static func deepLinkURL(for thread: ThoughtThread?) -> URL? {
+        guard let thread else { return URL(string: "thinkflow://continue") }
+        return URL(string: "thinkflow://continue?threadId=\(thread.id.uuidString)")
     }
 }
 

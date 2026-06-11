@@ -22,8 +22,14 @@
 		A10011 /* BridgeEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20011 /* BridgeEditorView.swift */; };
 		A10012 /* BrainDumpSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20012 /* BrainDumpSheet.swift */; };
 		A10013 /* LayerBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20013 /* LayerBadge.swift */; };
+		A10014 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A20014 /* PrivacyInfo.xcprivacy */; };
+		A10015 /* ThinkingSessionAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20015 /* ThinkingSessionAttributes.swift */; };
+		A10016 /* SessionActivityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20016 /* SessionActivityController.swift */; };
+		A10017 /* ThoughtExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20017 /* ThoughtExporter.swift */; };
+		A10018 /* CrashDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20018 /* CrashDiagnostics.swift */; };
 		B10001 /* ThoughtThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002 /* ThoughtThread.swift */; };
 		B10002 /* LayerBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20013 /* LayerBadge.swift */; };
+		B10003 /* ThinkingSessionAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20015 /* ThinkingSessionAttributes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +39,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 581D870E2F48C84000F2F032;
 			remoteInfo = widgetExtension;
+		};
+		C50002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A60002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60001;
+			remoteInfo = ThinkFlow;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -66,7 +79,15 @@
 		A20011 /* BridgeEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgeEditorView.swift; sourceTree = "<group>"; };
 		A20012 /* BrainDumpSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainDumpSheet.swift; sourceTree = "<group>"; };
 		A20013 /* LayerBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerBadge.swift; sourceTree = "<group>"; };
+		A20014 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A20015 /* ThinkingSessionAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkingSessionAttributes.swift; sourceTree = "<group>"; };
+		A20016 /* SessionActivityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionActivityController.swift; sourceTree = "<group>"; };
+		A20017 /* ThoughtExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtExporter.swift; sourceTree = "<group>"; };
+		A20018 /* CrashDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrashDiagnostics.swift; sourceTree = "<group>"; };
+		A20019 /* ThinkFlow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ThinkFlow.entitlements; sourceTree = "<group>"; };
+		A20020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A30001 /* ThinkFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30002 /* ThinkFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -74,6 +95,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				widget.entitlements,
 			);
 			target = 581D870E2F48C84000F2F032 /* widgetExtension */;
 		};
@@ -81,6 +103,7 @@
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		581D87152F48C84000F2F032 /* widget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (581D87262F48C84100F2F032 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = widget; sourceTree = "<group>"; };
+		C10001 /* ThinkFlowTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ThinkFlowTests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +117,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A40001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40002 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -117,6 +147,7 @@
 			children = (
 				A50002 /* ThinkFlow */,
 				581D87152F48C84000F2F032 /* widget */,
+				C10001 /* ThinkFlowTests */,
 				581D87102F48C84000F2F032 /* Frameworks */,
 				A50005 /* Products */,
 			);
@@ -129,6 +160,9 @@
 				A50003 /* Models */,
 				A50004 /* Views */,
 				A20008 /* Assets.xcassets */,
+				A20014 /* PrivacyInfo.xcprivacy */,
+				A20019 /* ThinkFlow.entitlements */,
+				A20020 /* Info.plist */,
 			);
 			path = ThinkFlow;
 			sourceTree = "<group>";
@@ -138,6 +172,10 @@
 			children = (
 				A20002 /* ThoughtThread.swift */,
 				A20003 /* ThoughtStore.swift */,
+				A20015 /* ThinkingSessionAttributes.swift */,
+				A20016 /* SessionActivityController.swift */,
+				A20017 /* ThoughtExporter.swift */,
+				A20018 /* CrashDiagnostics.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -162,6 +200,7 @@
 			children = (
 				A30001 /* ThinkFlow.app */,
 				581D870F2F48C84000F2F032 /* widgetExtension.appex */,
+				A30002 /* ThinkFlowTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -210,6 +249,29 @@
 			productReference = A30001 /* ThinkFlow.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C20001 /* ThinkFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C30001 /* Build configuration list for PBXNativeTarget "ThinkFlowTests" */;
+			buildPhases = (
+				C40001 /* Sources */,
+				C40002 /* Frameworks */,
+				C40003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C50001 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C10001 /* ThinkFlowTests */,
+			);
+			name = ThinkFlowTests;
+			packageProductDependencies = (
+			);
+			productName = ThinkFlowTests;
+			productReference = A30002 /* ThinkFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -225,6 +287,10 @@
 					};
 					A60001 = {
 						CreatedOnToolsVersion = 16.0;
+					};
+					C20001 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = A60001;
 					};
 				};
 			};
@@ -244,6 +310,7 @@
 			targets = (
 				A60001 /* ThinkFlow */,
 				581D870E2F48C84000F2F032 /* widgetExtension */,
+				C20001 /* ThinkFlowTests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,6 +328,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10008 /* Assets.xcassets in Resources */,
+				A10014 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +348,14 @@
 			files = (
 				B10001 /* ThoughtThread.swift in Sources */,
 				B10002 /* LayerBadge.swift in Sources */,
+				B10003 /* ThinkingSessionAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +366,10 @@
 				A10001 /* ThinkFlowApp.swift in Sources */,
 				A10002 /* ThoughtThread.swift in Sources */,
 				A10003 /* ThoughtStore.swift in Sources */,
+				A10015 /* ThinkingSessionAttributes.swift in Sources */,
+				A10016 /* SessionActivityController.swift in Sources */,
+				A10017 /* ThoughtExporter.swift in Sources */,
+				A10018 /* CrashDiagnostics.swift in Sources */,
 				A10004 /* HomeView.swift in Sources */,
 				A10005 /* ThreadDetailView.swift in Sources */,
 				A10007 /* ContinueThinkingSheet.swift in Sources */,
@@ -301,6 +388,11 @@
 			isa = PBXTargetDependency;
 			target = 581D870E2F48C84000F2F032 /* widgetExtension */;
 			targetProxy = 581D87232F48C84100F2F032 /* PBXContainerItemProxy */;
+		};
+		C50001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60001 /* ThinkFlow */;
+			targetProxy = C50002 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -334,6 +426,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = widget/widget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
@@ -399,6 +492,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = widget/widget.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
@@ -492,12 +586,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThinkFlow/ThinkFlow.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ThinkFlow/Preview Content\"";
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThinkFlow/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "이어생각";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -524,12 +620,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThinkFlow/ThinkFlow.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ThinkFlow/Preview Content\"";
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ThinkFlow/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "이어생각";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -548,6 +646,45 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C60001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.thinkflow.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThinkFlow";
+			};
+			name = Debug;
+		};
+		C60002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.thinkflow.tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThinkFlow.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThinkFlow";
 			};
 			name = Release;
 		};
@@ -577,6 +714,15 @@
 			buildConfigurations = (
 				A80005 /* Debug */,
 				A80006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C30001 /* Build configuration list for PBXNativeTarget "ThinkFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C60001 /* Debug */,
+				C60002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

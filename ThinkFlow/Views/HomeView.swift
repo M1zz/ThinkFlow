@@ -1,4 +1,5 @@
 import SwiftUI
+import UIKit
 
 struct HomeView: View {
     
@@ -6,6 +7,12 @@ struct HomeView: View {
     @State private var showBrainDump = false
     @State private var selectedThread: ThoughtThread?
     @State private var continueThread: ThoughtThread?
+    @State private var exportFile: ExportFile?
+
+    struct ExportFile: Identifiable {
+        let id = UUID()
+        let url: URL
+    }
     
     var body: some View {
         NavigationStack {
@@ -54,6 +61,11 @@ struct HomeView: View {
             }
             .background(Color(.systemGroupedBackground))
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    exportMenu
+                }
+            }
             .overlay(alignment: .bottomTrailing) {
                 addThoughtButton
             }
@@ -63,12 +75,78 @@ struct HomeView: View {
             .sheet(item: $continueThread) { thread in
                 ContinueThinkingSheet(thread: thread)
             }
+            .sheet(item: $exportFile) { file in
+                ShareSheet(items: [file.url])
+            }
             .navigationDestination(for: ThoughtThread.ID.self) { threadID in
                 if let thread = store.threads.first(where: { $0.id == threadID }) {
                     ThreadDetailView(thread: thread)
                 }
             }
         }
+        .onOpenURL { url in
+            handleDeepLink(url)
+        }
+    }
+
+    // MARK: - 위젯·라이브 액티비티 딥링크 (thinkflow://continue?threadId=...)
+
+    private func handleDeepLink(_ url: URL) {
+        guard url.scheme == "thinkflow", url.host == "continue" else { return }
+
+        let threadID = URLComponents(url: url, resolvingAgainstBaseURL: false)?
+            .queryItems?
+            .first(where: { $0.name == "threadId" })?
+            .value
+            .flatMap(UUID.init(uuidString:))
+
+        let target = threadID.flatMap { id in store.threads.first { $0.id == id } }
+            ?? store.mostRecentThread
+        guard let target else { return }
+
+        showBrainDump = false
+        continueThread = target
+    }
+
+    // MARK: - 내보내기 (백업) 메뉴
+
+    private var exportMenu: some View {
+        Menu {
+            Button {
+                exportMarkdown()
+            } label: {
+                Label("마크다운으로 내보내기", systemImage: "doc.text")
+            }
+            Button {
+                exportJSON()
+            } label: {
+                Label("JSON으로 내보내기", systemImage: "curlybraces")
+            }
+        } label: {
+            Image(systemName: "square.and.arrow.up")
+        }
+        .disabled(store.threads.isEmpty && store.dumpItems.isEmpty)
+        .accessibilityLabel("내보내기")
+        .accessibilityHint("모든 생각을 파일로 내보내 백업합니다")
+    }
+
+    private func exportMarkdown() {
+        let markdown = ThoughtExporter.markdown(threads: store.threads, dumpItems: store.dumpItems)
+        guard let data = markdown.data(using: .utf8),
+              let url = try? ThoughtExporter.writeTemporaryFile(
+                named: "이어생각-\(ThoughtExporter.fileDateStamp()).md",
+                contents: data
+              ) else { return }
+        exportFile = ExportFile(url: url)
+    }
+
+    private func exportJSON() {
+        guard let data = try? ThoughtExporter.jsonData(threads: store.threads, dumpItems: store.dumpItems),
+              let url = try? ThoughtExporter.writeTemporaryFile(
+                named: "이어생각-\(ThoughtExporter.fileDateStamp()).json",
+                contents: data
+              ) else { return }
+        exportFile = ExportFile(url: url)
     }
     
     // MARK: - 생각 꺼내기 플로팅 버튼 (우측 하단)
@@ -229,6 +307,18 @@ struct HomeView: View {
             }
         }
     }
+}
+
+// MARK: - 시스템 공유 시트 (파일 내보내기용)
+
+struct ShareSheet: UIViewControllerRepresentable {
+    let items: [Any]
+
+    func makeUIViewController(context: Context) -> UIActivityViewController {
+        UIActivityViewController(activityItems: items, applicationActivities: nil)
+    }
+
+    func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
 }
 
 #Preview {
