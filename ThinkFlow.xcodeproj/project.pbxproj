@@ -11,6 +11,7 @@
 		581D87122F48C84000F2F032 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581D87112F48C84000F2F032 /* WidgetKit.framework */; };
 		581D87142F48C84000F2F032 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581D87132F48C84000F2F032 /* SwiftUI.framework */; };
 		581D87252F48C84100F2F032 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 581D870F2F48C84000F2F032 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		729246542D45D7D88C2F9F63 /* ThinkFlowSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3F757FEF7C15E83194F0C /* ThinkFlowSupportView.swift */; };
 		8476A81D165EA4ED052F090A /* ThinkFlowSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7710FDDCE1EE27579F312781 /* ThinkFlowSpec.swift */; };
 		A10001 /* ThinkFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001 /* ThinkFlowApp.swift */; };
 		A10002 /* ThoughtThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002 /* ThoughtThread.swift */; };
@@ -66,6 +67,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		14F3F757FEF7C15E83194F0C /* ThinkFlowSupportView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThinkFlowSupportView.swift; sourceTree = "<group>"; };
 		581D870F2F48C84000F2F032 /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		581D87112F48C84000F2F032 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		581D87132F48C84000F2F032 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -217,6 +219,7 @@
 				A20011 /* BridgeEditorView.swift */,
 				A20012 /* BrainDumpSheet.swift */,
 				A20013 /* LayerBadge.swift */,
+				14F3F757FEF7C15E83194F0C /* ThinkFlowSupportView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				A10012 /* BrainDumpSheet.swift in Sources */,
 				A10013 /* LayerBadge.swift in Sources */,
 				8476A81D165EA4ED052F090A /* ThinkFlowSpec.swift in Sources */,
+				729246542D45D7D88C2F9F63 /* ThinkFlowSupportView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

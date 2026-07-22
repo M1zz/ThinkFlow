@@ -8,6 +8,7 @@ struct HomeView: View {
     @State private var selectedThread: ThoughtThread?
     @State private var continueThread: ThoughtThread?
     @State private var exportFile: ExportFile?
+    @State private var showSupport = false
 
     struct ExportFile: Identifiable {
         let id = UUID()
@@ -68,6 +69,15 @@ struct HomeView: View {
                 ToolbarItem(placement: .topBarTrailing) {
                     exportMenu
                 }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button {
+                        showSupport = true
+                    } label: {
+                        Image(systemName: "gearshape")
+                    }
+                    .accessibilityLabel("설정")
+                    .accessibilityHint("지원 및 앱 정보를 엽니다")
+                }
             }
             .overlay(alignment: .bottomTrailing) {
                 addThoughtButton
@@ -80,6 +90,9 @@ struct HomeView: View {
             }
             .sheet(item: $exportFile) { file in
                 ShareSheet(items: [file.url])
+            }
+            .sheet(isPresented: $showSupport) {
+                ThinkFlowSupportView()
             }
             .navigationDestination(for: ThoughtThread.ID.self) { threadID in
                 if let thread = store.threads.first(where: { $0.id == threadID }) {
