@@ -63,6 +63,9 @@ struct HomeView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
+                    contactMenu
+                }
+                ToolbarItem(placement: .topBarTrailing) {
                     exportMenu
                 }
             }
@@ -106,6 +109,23 @@ struct HomeView: View {
 
         showBrainDump = false
         continueThread = target
+    }
+
+    // MARK: - 개발자 문의 메뉴
+
+    private var contactMenu: some View {
+        Menu {
+            Link(destination: URL(string: "mailto:leeo@kakao.com")!) {
+                Label("이메일로 문의하기", systemImage: "envelope")
+            }
+            Link(destination: URL(string: "https://instagram.com/lee25_ios")!) {
+                Label("인스타그램 DM (@lee25_ios)", systemImage: "paperplane")
+            }
+        } label: {
+            Image(systemName: "info.circle")
+        }
+        .accessibilityLabel("개발자에게 문의")
+        .accessibilityHint("버그 제보와 기능 제안을 이메일이나 인스타그램 DM으로 보냅니다")
     }
 
     // MARK: - 내보내기 (백업) 메뉴

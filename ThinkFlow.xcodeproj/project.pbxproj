@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C3BC38C822A6C86CDA07196 /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6EDA9A655C6050BC5BBD4DC5 /* LeeoKit */; };
 		581D87122F48C84000F2F032 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581D87112F48C84000F2F032 /* WidgetKit.framework */; };
 		581D87142F48C84000F2F032 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581D87132F48C84000F2F032 /* SwiftUI.framework */; };
 		581D87252F48C84100F2F032 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 581D870F2F48C84000F2F032 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8476A81D165EA4ED052F090A /* ThinkFlowSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7710FDDCE1EE27579F312781 /* ThinkFlowSpec.swift */; };
 		A10001 /* ThinkFlowApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20001 /* ThinkFlowApp.swift */; };
 		A10002 /* ThoughtThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20002 /* ThoughtThread.swift */; };
 		A10003 /* ThoughtStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20003 /* ThoughtStore.swift */; };
@@ -67,6 +69,7 @@
 		581D870F2F48C84000F2F032 /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		581D87112F48C84000F2F032 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		581D87132F48C84000F2F032 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		7710FDDCE1EE27579F312781 /* ThinkFlowSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ThinkFlowSpec.swift; sourceTree = "<group>"; };
 		A20001 /* ThinkFlowApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinkFlowApp.swift; sourceTree = "<group>"; };
 		A20002 /* ThoughtThread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtThread.swift; sourceTree = "<group>"; };
 		A20003 /* ThoughtStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThoughtStore.swift; sourceTree = "<group>"; };
@@ -91,7 +94,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		581D87262F48C84100F2F032 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+		581D87262F48C84100F2F032 /* Exceptions for "widget" folder in "widgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -102,8 +105,29 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		581D87152F48C84000F2F032 /* widget */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (581D87262F48C84100F2F032 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = widget; sourceTree = "<group>"; };
-		C10001 /* ThinkFlowTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ThinkFlowTests; sourceTree = "<group>"; };
+		581D87152F48C84000F2F032 /* widget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				581D87262F48C84100F2F032 /* Exceptions for "widget" folder in "widgetExtension" target */,
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
+		C10001 /* ThinkFlowTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = ThinkFlowTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3BC38C822A6C86CDA07196 /* LeeoKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +188,7 @@
 				A20014 /* PrivacyInfo.xcprivacy */,
 				A20019 /* ThinkFlow.entitlements */,
 				A20020 /* Info.plist */,
+				7710FDDCE1EE27579F312781 /* ThinkFlowSpec.swift */,
 			);
 			path = ThinkFlow;
 			sourceTree = "<group>";
@@ -224,8 +250,6 @@
 				581D87152F48C84000F2F032 /* widget */,
 			);
 			name = widgetExtension;
-			packageProductDependencies = (
-			);
 			productName = widgetExtension;
 			productReference = 581D870F2F48C84000F2F032 /* widgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -245,6 +269,9 @@
 				581D87242F48C84100F2F032 /* PBXTargetDependency */,
 			);
 			name = ThinkFlow;
+			packageProductDependencies = (
+				6EDA9A655C6050BC5BBD4DC5 /* LeeoKit */,
+			);
 			productName = ThinkFlow;
 			productReference = A30001 /* ThinkFlow.app */;
 			productType = "com.apple.product-type.application";
@@ -266,8 +293,6 @@
 				C10001 /* ThinkFlowTests */,
 			);
 			name = ThinkFlowTests;
-			packageProductDependencies = (
-			);
 			productName = ThinkFlowTests;
 			productReference = A30002 /* ThinkFlowTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -304,6 +329,9 @@
 				Base,
 			);
 			mainGroup = A50001;
+			packageReferences = (
+				8879F15D0471109BF9AABFBD /* XCLocalSwiftPackageReference "LeeoKit" */,
+			);
 			productRefGroup = A50005 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -352,13 +380,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C40001 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A70001 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -378,6 +399,14 @@
 				A10011 /* BridgeEditorView.swift in Sources */,
 				A10012 /* BrainDumpSheet.swift in Sources */,
 				A10013 /* LayerBadge.swift in Sources */,
+				8476A81D165EA4ED052F090A /* ThinkFlowSpec.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,6 +757,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8879F15D0471109BF9AABFBD /* XCLocalSwiftPackageReference "LeeoKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../LeeoKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6EDA9A655C6050BC5BBD4DC5 /* LeeoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8879F15D0471109BF9AABFBD /* XCLocalSwiftPackageReference "LeeoKit" */;
+			productName = LeeoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A60002 /* Project object */;
 }
