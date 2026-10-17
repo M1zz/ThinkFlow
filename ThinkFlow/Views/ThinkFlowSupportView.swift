@@ -6,6 +6,8 @@ struct ThinkFlowSupportView: View {
         NavigationStack {
             List {
                 Section {
+                    // 앞으로 만들 기능 — 원본은 ThinkFlowRoadmap.swift
+                    NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
                     LeeoSupportSection<ThinkFlowSpec>()
                 } header: {
                     Text("지원")
