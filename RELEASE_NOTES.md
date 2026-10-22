@@ -92,3 +92,11 @@ Anexe pesquisas ao fluxo de pensamento
 Despeje várias ideias de uma só vez
 Veja a frase-ponte no widget
 Envie opiniões e avaliações pelo app
+
+### 앱스토어 (러시아어)
+
+Главное и последняя мысль на карточке
+Прикрепляйте найденное к цепочке мыслей
+Выписывайте много мыслей сразу
+Фраза-мостик — прямо в виджете
+Отзывы и оценки — прямо в приложении
