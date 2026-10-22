@@ -3,6 +3,30 @@
   "strings" : {
     "%lld개 메모" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld poznámky"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld poznámka"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld poznámek"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -199,6 +223,30 @@
     },
     "%lld일째 잠자는 중" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Spí už %lld dny"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Spí už %lld den"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Spí už %lld dní"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -395,6 +443,12 @@
     },
     "가장 최근 생각 스레드의 브릿지를 보여줍니다." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zobrazí navazující větu nejnovějšího vlákna úvah."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -483,6 +537,12 @@
     },
     "다음에 생각할 것" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "K promyšlení příště"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -571,6 +631,12 @@
     },
     "되살릴 생각" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myšlenky k oživení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -659,6 +725,12 @@
     },
     "멈춘 생각을 이어가세요. 헤밍웨이 브릿지를 홈 화면에서 확인합니다." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navažte na zastavené myšlenky. Navazující větu uvidíte na ploše."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -747,6 +819,12 @@
     },
     "새 생각을 시작하세요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začněte novou myšlenku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -835,6 +913,12 @@
     },
     "이어생각" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -923,6 +1007,12 @@
     },
     "이어생각 위젯" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget ThinkFlow"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1011,6 +1101,12 @@
     },
     "이어서 생각하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myslet dál"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1099,6 +1195,12 @@
     },
     "지금 생각할 것" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "K promyšlení teď"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",

@@ -116,3 +116,11 @@ Thẻ hiện ý chính và suy nghĩ gần nhất
 Trút nhiều suy nghĩ cùng một lúc
 Xem câu nối ngay trên tiện ích
 Gửi góp ý và đánh giá trong ứng dụng
+
+### 앱스토어 (체코어)
+
+Karta s podstatou a poslední myšlenkou
+K vláknu úvah připojte rešerši
+Vysypte více myšlenek najednou
+Navazující věta přímo ve widgetu
+Zpětnou vazbu pošlete přímo z aplikace

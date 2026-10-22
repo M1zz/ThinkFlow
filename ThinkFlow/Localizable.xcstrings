@@ -3,6 +3,12 @@
   "strings" : {
     "%@ 단계로 변경됨" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Změněno na „%@“"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -91,6 +97,12 @@
     },
     "%@에 생각을 이어 적습니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračovat v myšlenkách k „%@“"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -179,6 +191,12 @@
     },
     "%lld개" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -267,6 +285,30 @@
     },
     "%lld개 생각" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myšlenky"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myšlenka"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myšlenek"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -463,6 +505,30 @@
     },
     "%lld개 추가됨" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Přidáno: %lld"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Přidáno: %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Přidáno: %lld"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -659,6 +725,30 @@
     },
     "%lld개의 생각" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myšlenky"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myšlenka"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myšlenek"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -855,6 +945,12 @@
     },
     "%lld번째 생각 삭제" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat myšlenku č. %lld"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -943,6 +1039,12 @@
     },
     "%lld번째 자료 삭제" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat podklad č. %lld"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1031,6 +1133,12 @@
     },
     "%lld분" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1119,6 +1227,12 @@
     },
     "%lld시간 %lld분" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld h %2$lld min"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1207,6 +1321,30 @@
     },
     "%lld일 전 끊어둠" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Věta zanechána před %lld dny"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Věta zanechána před %lld dnem"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Věta zanechána před %lld dny"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -1403,6 +1541,30 @@
     },
     "%lld자" : {
       "localizations" : {
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld znaky"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld znak"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld znaků"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -1599,6 +1761,12 @@
     },
     "'%@' 스레드의 모든 메모와 브릿지가 삭제됩니다." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všechny poznámky a navazující věta ve vláknu „%@“ budou smazány."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1687,6 +1855,12 @@
     },
     "'이어서 생각하기'를 눌러 첫 기록을 남겨보세요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klepnutím na „Myslet dál“ přidáte první záznam"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1775,6 +1949,12 @@
     },
     "3일 이상 방치됨" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bez doteku déle než 3 dny"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1864,6 +2044,12 @@
     "Face ID 잠금" : {
       "comment" : "Roadmap item: Face ID lock",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zámek přes Face ID"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1953,6 +2139,12 @@
     "Face ID나 Touch ID로 앱을 잠가 내 생각을 지켜요." : {
       "comment" : "Roadmap item detail: Face ID lock",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamkněte aplikaci přes Face ID nebo Touch ID a chraňte své myšlenky."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2041,6 +2233,12 @@
     },
     "JSON으로 내보내기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportovat jako JSON"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2130,6 +2328,12 @@
     "Siri에게 말하거나 단축어로 바로 생각을 적어요." : {
       "comment" : "Roadmap item detail: Siri and Shortcuts",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapište myšlenku hned – řekněte to Siri nebo použijte zkratku."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2219,6 +2423,12 @@
     "Siri와 단축어" : {
       "comment" : "Roadmap item: Siri and Shortcuts",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri a Zkratky"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2308,6 +2518,12 @@
     "VoiceOver로 더 편하게" : {
       "comment" : "Roadmap item: VoiceOver",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pohodlnější práce s VoiceOverem"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2396,6 +2612,12 @@
     },
     "개발자에게 문의" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontaktovat vývojáře"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2485,6 +2707,12 @@
     "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요." : {
       "comment" : "Roadmap item detail: larger text layouts",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po zvětšení písma se obrazovky přeskládají přehledně a nic se neořízne."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2574,6 +2802,12 @@
     "기기 간 동기화" : {
       "comment" : "Roadmap item: sync across devices",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchronizace mezi zařízeními"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2662,6 +2896,12 @@
     },
     "기세가 있을 때 끊어두세요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skončete, dokud to jde"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2750,6 +2990,12 @@
     },
     "기세가 있을 때 끊어둔 미완성 문장. 다음에 열면 뇌가 자동으로 이어받습니다." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nedokončená věta, kterou jste nechali v plném tahu. Až aplikaci příště otevřete, mysl na ni sama naváže."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2838,6 +3084,12 @@
     },
     "기세가 있을 때 문장을 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skončete, dokud to jde.\nAž aplikaci příště otevřete, mysl na to sama naváže."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2926,6 +3178,12 @@
     },
     "깊이" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hloubka"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3014,6 +3272,12 @@
     },
     "끊어둔 문장" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navazující věta"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3102,6 +3366,12 @@
     },
     "끊어둔 문장 수정" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upravit navazující větu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3190,6 +3460,12 @@
     },
     "끊어둔 문장: %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navazující věta: %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3278,6 +3554,12 @@
     },
     "날것의 생각" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syrová myšlenka"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3367,6 +3649,12 @@
     "내 데이터 한 번에 지우기" : {
       "comment" : "Roadmap item: delete all my data",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat všechna moje data najednou"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3455,6 +3743,12 @@
     },
     "내보내기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportovat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3544,6 +3838,12 @@
     "내보낸 파일을 다시 불러와 생각을 되살려요." : {
       "comment" : "Roadmap item detail: restore from backup file",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vraťte své myšlenky ze dříve exportovaného souboru."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3632,6 +3932,12 @@
     },
     "누적 %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celkem %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3720,6 +4026,12 @@
     },
     "다 꺼냈어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotovo, vše venku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3808,6 +4120,12 @@
     },
     "다음" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Další"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3896,6 +4214,12 @@
     },
     "다음에 이어서 생각할 미완성 문장을 적습니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napište nedokončenou větu, od které příště navážete"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3984,6 +4308,12 @@
     },
     "닫기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavřít"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4073,6 +4403,12 @@
     "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요." : {
       "comment" : "Roadmap item detail: colors and contrast",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vše přečtete snadno, i se zvýšeným kontrastem nebo při obtížném rozlišování barev."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4162,6 +4498,12 @@
     "더 많은 나라 말로 앱을 쓸 수 있게 해요." : {
       "comment" : "Roadmap item detail: more languages",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Používejte aplikaci ve více jazycích."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4251,6 +4593,12 @@
     "더 많은 언어" : {
       "comment" : "Roadmap item: more languages",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Více jazyků"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4339,6 +4687,12 @@
     },
     "더 보기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Více"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4427,6 +4781,12 @@
     },
     "되살릴 생각" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myšlenky k oživení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4515,6 +4875,12 @@
     },
     "두 번 탭하면 단계를 바꿉니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dvojitým klepnutím změníte úroveň"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4603,6 +4969,12 @@
     },
     "두 번 탭하면 생각 스레드로 만듭니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dvojitým klepnutím z ní uděláte vlákno úvah"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4691,6 +5063,12 @@
     },
     "두 번 탭하면 선택합니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dvojitým klepnutím vyberete"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4779,6 +5157,12 @@
     },
     "마크다운으로 내보내기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportovat jako Markdown"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4867,6 +5251,12 @@
     },
     "막혀서 멈추는 게 아니라, 아직 쓸 게 있을 때 여기서 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nekončete proto, že se zaseknete, ale dokud ještě máte co psát.\nAž aplikaci příště otevřete, mysl na to sama naváže."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4955,6 +5345,12 @@
     },
     "머릿속 생각을 적어 새 스레드를 만듭니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napište, co vám běží hlavou, a vytvořte nové vlákno"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5043,6 +5439,12 @@
     },
     "머릿속에 떠다니는 생각을 꺼내 두면\n다음에 이어서 더 깊이 생각할 수 있어요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vysypte myšlenky, které vám létají hlavou,\na příště je rozvíjejte do hloubky."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5132,6 +5534,12 @@
     "멈춰 둔 생각을 잊지 않도록 알맞은 때에 다시 알려 줘요." : {
       "comment" : "Roadmap item detail: notifications",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Včasné upozornění, abyste na odložené myšlenky nezapomněli."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5220,6 +5628,12 @@
     },
     "메모" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poznámka"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5308,6 +5722,12 @@
     },
     "모든 생각을 파일로 내보내 백업합니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportuje všechny myšlenky do souboru jako zálohu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5396,6 +5816,12 @@
     },
     "문장 끊어두기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nechat navazující větu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5484,6 +5910,12 @@
     },
     "문장 끊어두기 단계입니다. 다음에 이어갈 문장을 적으세요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krok navazující věty. Napište větu, od které příště navážete."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5572,6 +6004,12 @@
     },
     "문장을 끊어둬야 닫을 수 있어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro zavření nechte navazující větu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5661,6 +6099,12 @@
     "백업 다시 불러오기" : {
       "comment" : "Roadmap item: restore from backup file",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obnovení ze zálohy"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5749,6 +6193,12 @@
     },
     "버그 제보와 기능 제안을 이메일이나 인스타그램 DM으로 보냅니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chyby a nápady na funkce posílejte e-mailem nebo zprávou na Instagramu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5838,6 +6288,12 @@
     "보기 편한 색과 대비" : {
       "comment" : "Roadmap item: colors and contrast",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Příjemnější barvy a kontrast"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5926,6 +6382,12 @@
     },
     "복사" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6014,6 +6476,12 @@
     },
     "복사되었습니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkopírováno"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6102,6 +6570,12 @@
     },
     "복사됨" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkopírováno"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6190,6 +6664,12 @@
     },
     "붙인 자료 %lld: %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připojený podklad %1$lld: %2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6278,6 +6758,12 @@
     },
     "브릿지 수정" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upravit navazující větu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6366,6 +6852,12 @@
     },
     "사고 세션 진행 중" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Probíhá relace přemýšlení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6454,6 +6946,12 @@
     },
     "사고 시간" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čas přemýšlení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6542,6 +7040,12 @@
     },
     "삭제" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6630,6 +7134,12 @@
     },
     "생각 꺼내기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vysypat myšlenky"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6718,6 +7228,12 @@
     },
     "생각 꺼내기 입력란" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pole pro vysypání myšlenek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6806,6 +7322,12 @@
     },
     "생각 더 추가" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat další myšlenku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6894,6 +7416,12 @@
     },
     "생각 수정" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upravit myšlenku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6982,6 +7510,12 @@
     },
     "생각 중..." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přemýšlím…"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7070,6 +7604,12 @@
     },
     "생각 추가" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat myšlenku"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7158,6 +7698,12 @@
     },
     "생각 추가됨" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myšlenka přidána"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7246,6 +7792,12 @@
     },
     "생각과 별개로 조사하거나 정리한 자료를 붙여둘 수 있습니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rešerši nebo shrnutí můžete připojit odděleně od vlastních myšlenek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7335,6 +7887,12 @@
     "생각을 남기거나 이어 갈 때 가볍게 떨려서 알려 줘요." : {
       "comment" : "Roadmap item detail: haptics",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jemné zavibrování, když myšlenku zapíšete nebo na ni navážete."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7423,6 +7981,12 @@
     },
     "생각을 이어 나가 보세요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mysleme spolu dál"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7512,6 +8076,12 @@
     "생각을 적다가 앱이 꺼져도 쓰던 내용이 남아 있어요." : {
       "comment" : "Roadmap item detail: keep a half-written thought",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozepsaný text zůstane, i když se aplikace uprostřed psaní ukončí."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7600,6 +8170,12 @@
     },
     "생각의 흐름" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tok myšlenek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7688,6 +8264,12 @@
     },
     "생각이 바뀔 때마다 따로 추가하면 나중에 정리하기 쉬워요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Když každou novou myšlenku přidáte zvlášť, bude se vám pak snáz třídit."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7776,6 +8358,12 @@
     },
     "선택 없이 전부 보관" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložit všechny bez výběru"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7864,6 +8452,12 @@
     },
     "선택한 것은 바로 생각 스레드가 됩니다. 나머지는 보관됩니다." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybraná myšlenka se hned stane vláknem úvah. Ostatní se uloží."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7952,6 +8546,12 @@
     },
     "설정" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavení"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8041,6 +8641,12 @@
     "손끝으로 느끼는 반응" : {
       "comment" : "Roadmap item: haptics",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmatová odezva"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8129,6 +8735,12 @@
     },
     "수정" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upravit"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8217,6 +8829,12 @@
     },
     "시작일" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začátek"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8306,6 +8924,12 @@
     "쓰는 요령 알려 주기" : {
       "comment" : "Roadmap item: tips",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Užitečné tipy"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8395,6 +9019,12 @@
     "쓰던 생각 이어서 쓰기" : {
       "comment" : "Roadmap item: keep a half-written thought",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračovat tam, kde jste přestali"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8484,6 +9114,12 @@
     "아이패드에서 키보드만으로 생각을 적고 이어 갈 수 있어요." : {
       "comment" : "Roadmap item detail: keyboard control",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na iPadu pište a rozvíjejte myšlenky jen s klávesnicí."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8573,6 +9209,12 @@
     "아이폰과 아이패드에서 같은 생각을 이어서 써요." : {
       "comment" : "Roadmap item detail: sync across devices",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračujte ve stejných myšlenkách na iPhonu i iPadu."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8661,6 +9303,12 @@
     },
     "아직 기록이 없어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím žádné záznamy"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8749,6 +9397,12 @@
     },
     "아직 정리 안 된 생각들" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím netříděné myšlenky"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8838,6 +9492,12 @@
     "알림" : {
       "comment" : "Roadmap item: notifications",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připomenutí"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8927,6 +9587,12 @@
     "알아 두면 편한 기능을 알맞은 때에 살짝 알려 줘요." : {
       "comment" : "Roadmap item detail: tips",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenápadné tipy na užitečné funkce, přesně když se hodí."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9016,6 +9682,12 @@
     "앱을 영어로도 쓸 수 있어요." : {
       "comment" : "Roadmap item detail: English",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celou aplikaci i v angličtině."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9104,6 +9776,12 @@
     },
     "어떤 것부터?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čím začít?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9193,6 +9871,12 @@
     "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요." : {
       "comment" : "Roadmap item detail: what's new after an update",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Při prvním otevření po aktualizaci se dozvíte, co je nového."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9282,6 +9966,12 @@
     "업데이트 소식" : {
       "comment" : "Roadmap item: what's new after an update",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novinky"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9370,6 +10060,12 @@
     },
     "여기서 끊어뒀어요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tady jste skončili"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9458,6 +10154,12 @@
     },
     "여기서 이어서" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navázat zde"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9547,6 +10249,12 @@
     "영어 지원" : {
       "comment" : "Roadmap item: English",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plná podpora angličtiny"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9635,6 +10343,12 @@
     },
     "예: \"숏폼이 뇌를 망치는 이유는 보상 주기 때문인데, 그렇다면—\"" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Např.: „Krátká videa ničí soustředění kvůli odměnám, takže pak…“"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9723,6 +10437,12 @@
     },
     "예: 클로드에게 물어본 결과 정리" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Např. shrnutí odpovědi od Claude"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9811,6 +10531,12 @@
     },
     "오래된순" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Od nejstarších"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9899,6 +10625,12 @@
     },
     "완료" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hotovo"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9987,6 +10719,12 @@
     },
     "요약" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shrnutí"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10076,6 +10814,12 @@
     "움직임 줄이기" : {
       "comment" : "Roadmap item: reduce motion",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omezení pohybu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10165,6 +10909,12 @@
     "움직임 줄이기를 켜면 화면 효과가 차분해져요." : {
       "comment" : "Roadmap item detail: reduce motion",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se zapnutým Omezením pohybu jsou efekty na obrazovce klidnější."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10254,6 +11004,12 @@
     "원하면 앱 안에서 내 생각을 모두 지울 수 있어요." : {
       "comment" : "Roadmap item detail: delete all my data",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdykoli v aplikaci smažte všechny své myšlenky."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10342,6 +11098,12 @@
     },
     "이 생각을 삭제할까요?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat tuto myšlenku?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10430,6 +11192,12 @@
     },
     "이 생각을 클립보드에 복사합니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkopíruje tuto myšlenku do schránky"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10518,6 +11286,12 @@
     },
     "이 자료를 클립보드에 복사합니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zkopíruje tento podklad do schránky"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10606,6 +11380,12 @@
     },
     "이걸로 시작하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začít touto"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10694,6 +11474,12 @@
     },
     "이메일로 문의하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napsat e-mail"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10782,6 +11568,12 @@
     },
     "이어서 생각하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myslet dál"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10870,6 +11662,12 @@
     },
     "이어질 문장 끊기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nechte navazující větu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10958,6 +11756,12 @@
     },
     "인스타그램 DM (@lee25_ios)" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zpráva na Instagramu (@lee25_ios)"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11046,6 +11850,12 @@
     },
     "입력한 생각을 한 덩어리로 추가하고 다음 생각을 적습니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidá napsané jako jednu myšlenku a nechá vás psát další"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11134,6 +11944,12 @@
     },
     "입력한 자료를 이 생각 흐름에 붙입니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připojí napsané k tomuto vláknu úvah"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11222,6 +12038,12 @@
     },
     "자료" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podklad"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11310,6 +12132,12 @@
     },
     "자료 · %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podklad · %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11398,6 +12226,12 @@
     },
     "자료 내용" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obsah podkladu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11486,6 +12320,12 @@
     },
     "자료 추가" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat podklad"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11574,6 +12414,12 @@
     },
     "자료 추가됨" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podklad přidán"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11662,6 +12508,12 @@
     },
     "자료 출처" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdroj podkladu"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11750,6 +12602,12 @@
     },
     "저장" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložit"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11838,6 +12696,12 @@
     },
     "전부 보관하기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložit všechny"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11926,6 +12790,12 @@
     },
     "전체 복사" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopírovat vše"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12014,6 +12884,12 @@
     },
     "정리" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utříděno"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12102,6 +12978,12 @@
     },
     "정리 단계" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Úroveň zpracování"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12190,6 +13072,12 @@
     },
     "정리 단계 %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Úroveň zpracování: %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12278,6 +13166,12 @@
     },
     "정리 단계, 현재 %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Úroveň zpracování, nyní „%@“"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12366,6 +13260,12 @@
     },
     "조사 결과·자료" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rešerše a zdroje"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12454,6 +13354,12 @@
     },
     "조사 결과·자료 붙이기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Připojit rešerši a zdroje"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12542,6 +13448,12 @@
     },
     "조사 자료" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podklad z rešerše"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12630,6 +13542,12 @@
     },
     "조사 자료, 출처 %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podklad z rešerše, zdroj %@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12718,6 +13636,12 @@
     },
     "조사하거나 정리한 내용을 붙여넣습니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vložte, co jste vyhledali nebo shrnuli"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12806,6 +13730,12 @@
     },
     "줄바꿈으로 생각을 여러 개로 구분합니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nové řádky oddělují vaše myšlenky"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12894,6 +13824,12 @@
     },
     "지금 당장 하나만 고른다면?" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kdybyste teď vybrali jen jednu?"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12982,6 +13918,12 @@
     },
     "지금 머릿속에 있는 거 꺼내세요" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napište, co vám běží hlavou"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13070,6 +14012,12 @@
     },
     "지금 이어지는 생각" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Právě rozmyšlené"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13158,6 +14106,12 @@
     },
     "지금까지의 흐름" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dosavadní průběh"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13246,6 +14200,12 @@
     },
     "지원" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podpora"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13334,6 +14294,12 @@
     },
     "지원 및 앱 정보를 엽니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otevře podporu a informace o aplikaci"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13422,6 +14388,12 @@
     },
     "직전 생각" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poslední myšlenka"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13510,6 +14482,12 @@
     },
     "진행 중인 생각" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozpracované myšlenky"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13599,6 +14577,12 @@
     "처음 쓰는 분을 위한 안내" : {
       "comment" : "Roadmap item: first-run guide",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Průvodce pro začátečníky"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13688,6 +14672,12 @@
     "처음 열었을 때 무엇을 할 수 있는지 짧게 보여 줘요." : {
       "comment" : "Roadmap item detail: first-run guide",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krátký přehled toho, co můžete dělat, hned po prvním otevření."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13776,6 +14766,12 @@
     },
     "첫 생각 꺼내기" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vysypat první myšlenky"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13864,6 +14860,12 @@
     },
     "최근 3일 내 방문" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Navštíveno za poslední 3 dny"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13952,6 +14954,12 @@
     },
     "최신순" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Od nejnovějších"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14040,6 +15048,12 @@
     },
     "최종 요약" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Závěrečné shrnutí"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14128,6 +15142,12 @@
     },
     "추가한 생각 %lld: %@" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidaná myšlenka %1$lld: %2$@"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14216,6 +15236,12 @@
     },
     "출처 (예: Claude, 검색) — 선택" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdroj (např. Claude, vyhledávání) – nepovinné"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14304,6 +15330,12 @@
     },
     "취소" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušit"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14393,6 +15425,12 @@
     "큰 글씨에 맞춘 화면" : {
       "comment" : "Roadmap item: larger text layouts",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozložení pro větší písmo"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14482,6 +15520,12 @@
     "키보드로 조작하기" : {
       "comment" : "Roadmap item: keyboard control",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ovládání klávesnicí"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14570,6 +15614,12 @@
     },
     "탭하면 생각 스레드가 됩니다" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klepnutím z ní uděláte vlákno úvah"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14659,6 +15709,12 @@
     "펼치는 아이폰 화면" : {
       "comment" : "Roadmap item: foldable iPhone layout",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozložení pro skládací iPhone"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14748,6 +15804,12 @@
     "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요." : {
       "comment" : "Roadmap item detail: foldable iPhone layout",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Širokou obrazovku skládacího iPhonu využijte jako dva panely vedle sebe."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14836,6 +15898,12 @@
     },
     "하나든 열 개든 괜찮아요. 줄바꿈으로 생각을 구분하세요." : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jedna myšlenka, nebo deset – nevadí. Oddělujte je novými řádky."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14924,6 +15992,12 @@
     },
     "한 번 정리함" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jednou utříděno"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15012,6 +16086,12 @@
     },
     "핵심" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podstata"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15100,6 +16180,12 @@
     },
     "핵심만 추림" : {
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jen podstata"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15189,6 +16275,12 @@
     "화면 읽기 기능이 단추와 내용을 빠짐없이, 알맞은 순서로 읽어 줘요." : {
       "comment" : "Roadmap item detail: VoiceOver",
       "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver přečte každé tlačítko i poznámku ve správném pořadí."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",

@@ -853,3 +853,64 @@ Xem câu nối và ý chính trên tiện ích ở Màn hình chính. Khi đang 
 
 Suy nghĩ của bạn nằm trên thiết bị của bạn
 Mọi ghi chép chỉ lưu trên thiết bị và không cần tài khoản. Bạn có thể xuất ra tệp Markdown hoặc JSON bất cứ lúc nào.
+
+## cs
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Mysli dál
+
+### 부제
+
+Navažte, kde jste skončili
+
+### 키워드
+
+poznámky,deník,nápady,druhý mozek,zettelkasten,hluboká práce,reflexe,soustředění,memo,psaní,zápisník
+
+### 프로모션 텍스트
+
+Už nikdy neztratíte nit. Po návratu uvidíte podstatu i poslední myšlenku a navážete přesně tam, kde jste skončili.
+
+### 설명
+
+Myšlenku, kterou jste včera nedokončili, dnes rozvíjejte přesně tam, kde jste skončili.
+ThinkFlow je zápisník pro přemýšlení, který vám pomáhá rozvíjet hluboké myšlenky po malých kouscích během několika dnů.
+
+Prý Hemingway záměrně přestal psát, když šlo všechno dobře. Když víte, kde příští den začnete, vrátíte se do práce hned. ThinkFlow tuto metodu uplatňuje na myšlení.
+
+Navazující věta
+Až dopřemýšlíte, nechte po sobě jediný řádek: otázku, na kterou příště navážete. Když aplikaci znovu otevřete, bude ta věta čekat nahoře.
+
+Navázat zde
+Úvodní obrazovka ukazuje vaši nejnovější myšlenku. Navazující věta, dosavadní podstata i poslední myšlenka jsou na jedné kartě a můžete psát dál.
+
+Od poznámky k podstatě
+Zapsané myšlenky zpracujte ve čtyřech úrovních: poznámka, utříděno, podstata a shrnutí. Na první pohled vidíte, jak daleko myšlenka dozrála.
+
+Připojení podkladů
+Co jste vyhledali nebo se zeptali a shrnuli, připojíte jako podklad – zřetelně odděleně od vlastních myšlenek.
+
+Vysypat myšlenky
+Napište všechno, co vám létá hlavou, řádek po řádku. Později se jedním klepnutím stane myšlenkou, na kterou navážete.
+
+Myšlenky k oživení
+Myšlenky, kterých jste se déle než tři dny nedotkli, se shromáždí zvlášť, abyste se k nim mohli vrátit. Čas strávený nad každou myšlenkou se také sčítá.
+
+Widgety a zamčená obrazovka
+Navazující větu a podstatu uvidíte ve widgetu na ploše. Když přemýšlíte, čas se zobrazuje na zamčené obrazovce a v Dynamic Islandu.
+
+Vaše myšlenky zůstávají ve vašem zařízení
+Všechny záznamy se ukládají jen do zařízení a nepotřebujete účet. Kdykoli je můžete exportovat jako soubor Markdown nebo JSON.

@@ -350,6 +350,7 @@
 				ru,
 				th,
 				vi,
+				cs,
 				Base,
 			);
 			mainGroup = A50001;
