@@ -344,6 +344,7 @@
 				"zh-Hant",
 				es,
 				de,
+				fr,
 				Base,
 			);
 			mainGroup = A50001;

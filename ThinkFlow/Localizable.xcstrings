@@ -27,6 +27,12 @@
             "value" : "Cambiado a %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passé à %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -79,6 +85,12 @@
             "value" : "Sigue añadiendo ideas a %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poursuivre vos idées sur « %@ »"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -126,6 +138,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -231,6 +249,24 @@
             }
           }
         },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld idée"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld idées"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -326,6 +362,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld añadidas"
+                }
+              }
+            }
+          }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ajoutée"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ajoutées"
                 }
               }
             }
@@ -431,6 +485,24 @@
             }
           }
         },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld idée"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld idées"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -481,6 +553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eliminar la idea %lld"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer l’idée %lld"
           }
         },
         "ja" : {
@@ -535,6 +613,12 @@
             "value" : "Eliminar la referencia %lld"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer la référence %lld"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -587,6 +671,12 @@
             "value" : "%lld min"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -634,6 +724,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld h %2$lld min"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld h %2$lld min"
@@ -739,6 +835,24 @@
             }
           }
         },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Relais laissé il y a %lld jour"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Relais laissé il y a %lld jours"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -839,6 +953,24 @@
             }
           }
         },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld caractère"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld caractères"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -889,6 +1021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se eliminarán todas las notas y la frase puente del hilo «%@»."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toutes les notes et la phrase-relais de « %@ » seront supprimées."
           }
         },
         "ja" : {
@@ -943,6 +1081,12 @@
             "value" : "Toca «Seguir pensando» para dejar tu primer registro"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez « Continuer à penser » pour laisser votre première trace"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -993,6 +1137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sin tocar desde hace más de 3 días"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laissées de côté depuis plus de 3 jours"
           }
         },
         "ja" : {
@@ -1048,6 +1198,12 @@
             "value" : "Bloqueo con Face ID"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verrouillage Face ID"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1101,6 +1257,12 @@
             "value" : "Bloquea la app con Face ID o Touch ID para proteger tus ideas."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verrouillez l’app avec Face ID ou Touch ID pour garder vos pensées privées."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1151,6 +1313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportar como JSON"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporter en JSON"
           }
         },
         "ja" : {
@@ -1206,6 +1374,12 @@
             "value" : "Anota una idea al instante hablando con Siri o con un atajo."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notez une idée sur-le-champ en parlant à Siri ou avec un raccourci."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1257,6 +1431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri y Atajos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri et Raccourcis"
           }
         },
         "ja" : {
@@ -1312,6 +1492,12 @@
             "value" : "Mejor compatibilidad con VoiceOver"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une meilleure prise en charge de VoiceOver"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1362,6 +1548,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contactar con el desarrollador"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contacter le développeur"
           }
         },
         "ja" : {
@@ -1417,6 +1609,12 @@
             "value" : "Las pantallas se reorganizan sin cortarse cuando aumentas el tamaño del texto."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les écrans se réorganisent proprement, sans être coupés, quand vous agrandissez le texte."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1468,6 +1666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sincronización entre dispositivos"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchronisation entre appareils"
           }
         },
         "ja" : {
@@ -1522,6 +1726,12 @@
             "value" : "Para mientras vas lanzado"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêtez-vous en plein élan"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1572,6 +1782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Una frase inacabada que dejaste mientras tenías impulso. La próxima vez que abras la app, tu mente retomará el hilo sola."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une phrase inachevée laissée en plein élan. À la prochaine ouverture, votre esprit reprendra le fil tout seul."
           }
         },
         "ja" : {
@@ -1626,6 +1842,12 @@
             "value" : "Para mientras vas lanzado.\nLa próxima vez que abras la app, tu mente retomará el hilo sola."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arrêtez-vous en plein élan.\nÀ la prochaine ouverture, votre esprit reprendra le fil tout seul."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1676,6 +1898,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Profundidad"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profondeur"
           }
         },
         "ja" : {
@@ -1730,6 +1958,12 @@
             "value" : "Frase puente"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrase-relais"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1780,6 +2014,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Editar frase puente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier la phrase-relais"
           }
         },
         "ja" : {
@@ -1834,6 +2074,12 @@
             "value" : "Frase puente: %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phrase-relais : %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1884,6 +2130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Idea en bruto"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idée brute"
           }
         },
         "ja" : {
@@ -1939,6 +2191,12 @@
             "value" : "Borrar todos mis datos de una vez"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacer toutes mes données d’un coup"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1989,6 +2247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporter"
           }
         },
         "ja" : {
@@ -2044,6 +2308,12 @@
             "value" : "Recupera tus ideas desde un archivo exportado."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retrouvez vos pensées à partir d’un fichier exporté."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2094,6 +2364,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ en total"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ au total"
           }
         },
         "ja" : {
@@ -2148,6 +2424,12 @@
             "value" : "Ya está todo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "J’ai tout noté"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2198,6 +2480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siguiente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suivant"
           }
         },
         "ja" : {
@@ -2252,6 +2540,12 @@
             "value" : "Escribe la frase inacabada para retomar la próxima vez"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Écrivez la phrase inachevée à reprendre la prochaine fois"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2302,6 +2596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cerrar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermer"
           }
         },
         "ja" : {
@@ -2357,6 +2657,12 @@
             "value" : "Lee todo con facilidad, incluso con más contraste o si te cuesta distinguir los colores."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout reste lisible, même avec un contraste renforcé ou des difficultés à distinguer les couleurs."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2408,6 +2714,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa la app en más idiomas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilisez l’app dans davantage de langues."
           }
         },
         "ja" : {
@@ -2463,6 +2775,12 @@
             "value" : "Más idiomas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus de langues"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2513,6 +2831,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Más"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus"
           }
         },
         "ja" : {
@@ -2567,6 +2891,12 @@
             "value" : "Ideas por retomar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idées à ranimer"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2617,6 +2947,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca dos veces para cambiar el nivel"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez deux fois pour changer de niveau"
           }
         },
         "ja" : {
@@ -2671,6 +3007,12 @@
             "value" : "Toca dos veces para convertirla en un hilo de pensamiento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez deux fois pour en faire un fil de pensée"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2721,6 +3063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca dos veces para seleccionar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez deux fois pour sélectionner"
           }
         },
         "ja" : {
@@ -2775,6 +3123,12 @@
             "value" : "Exportar como Markdown"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporter en Markdown"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2825,6 +3179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No pares porque te atasques, sino mientras aún tengas algo que escribir.\nLa próxima vez que abras la app, tu mente retomará el hilo sola."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ne vous arrêtez pas parce que vous êtes bloqué, mais tant qu’il vous reste des choses à écrire.\nÀ la prochaine ouverture, votre esprit reprendra le fil tout seul."
           }
         },
         "ja" : {
@@ -2879,6 +3239,12 @@
             "value" : "Escribe lo que tienes en la cabeza para crear un hilo nuevo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notez ce que vous avez en tête pour créer un nouveau fil"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2929,6 +3295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saca las ideas que te rondan la cabeza\ny retómalas luego para pensar más a fondo."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posez les idées qui flottent dans votre tête,\npuis reprenez-les plus tard pour aller plus loin."
           }
         },
         "ja" : {
@@ -2984,6 +3356,12 @@
             "value" : "Un aviso a tiempo para que no olvides las ideas que dejaste a un lado."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un rappel au bon moment pour ne pas oublier les idées mises de côté."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3034,6 +3412,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nota"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note"
           }
         },
         "ja" : {
@@ -3088,6 +3472,12 @@
             "value" : "Exporta todas tus ideas a un archivo como copia de seguridad"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exporte toutes vos idées dans un fichier de sauvegarde"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3138,6 +3528,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dejar una frase puente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laisser une phrase-relais"
           }
         },
         "ja" : {
@@ -3192,6 +3588,12 @@
             "value" : "Paso de dejar una frase puente. Escribe la frase con la que seguirás la próxima vez."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Étape de la phrase-relais. Écrivez la phrase à reprendre la prochaine fois."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3242,6 +3644,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deja una frase puente para poder cerrar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laissez une phrase-relais pour fermer"
           }
         },
         "ja" : {
@@ -3297,6 +3705,12 @@
             "value" : "Restaurar desde una copia de seguridad"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restaurer depuis une sauvegarde"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3347,6 +3761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Envía errores e ideas de funciones por correo o por MD de Instagram"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Signalez un bug ou proposez une fonctionnalité par e-mail ou message Instagram"
           }
         },
         "ja" : {
@@ -3402,6 +3822,12 @@
             "value" : "Colores y contraste más cómodos"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couleurs et contrastes plus confortables"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3452,6 +3878,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copiar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copier"
           }
         },
         "ja" : {
@@ -3506,6 +3938,12 @@
             "value" : "Copiado"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copié"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3556,6 +3994,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copiado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copié"
           }
         },
         "ja" : {
@@ -3610,6 +4054,12 @@
             "value" : "Referencia adjunta %1$lld: %2$@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Référence jointe %1$lld : %2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3660,6 +4110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Editar frase puente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier la phrase-relais"
           }
         },
         "ja" : {
@@ -3714,6 +4170,12 @@
             "value" : "Sesión de pensamiento en curso"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Session de réflexion en cours"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3764,6 +4226,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiempo pensando"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temps de réflexion"
           }
         },
         "ja" : {
@@ -3818,6 +4286,12 @@
             "value" : "Eliminar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3868,6 +4342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Volcar ideas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vider sa tête"
           }
         },
         "ja" : {
@@ -3922,6 +4402,12 @@
             "value" : "Campo para volcar ideas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Champ pour vider sa tête"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3972,6 +4458,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir otra idea"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter une autre idée"
           }
         },
         "ja" : {
@@ -4026,6 +4518,12 @@
             "value" : "Editar idea"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier l’idée"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4076,6 +4574,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pensando…"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réflexion en cours…"
           }
         },
         "ja" : {
@@ -4130,6 +4634,12 @@
             "value" : "Añadir idea"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter l’idée"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4182,6 +4692,12 @@
             "value" : "Idea añadida"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idée ajoutée"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4232,6 +4748,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Puedes adjuntar lo que investigaste o resumiste, separado de tus propias ideas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous pouvez joindre vos recherches ou synthèses, séparées de vos propres idées"
           }
         },
         "ja" : {
@@ -4287,6 +4809,12 @@
             "value" : "Una vibración suave al guardar o retomar una idea."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une légère vibration quand vous notez ou reprenez une idée."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4337,6 +4865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sigue dándole vueltas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poursuivez votre réflexion"
           }
         },
         "ja" : {
@@ -4392,6 +4926,12 @@
             "value" : "Lo que estabas escribiendo se conserva aunque la app se cierre."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ce que vous écriviez reste là, même si l’app se ferme en cours de route."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4442,6 +4982,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hilo de pensamiento"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fil de pensée"
           }
         },
         "ja" : {
@@ -4496,6 +5042,12 @@
             "value" : "Si añades cada idea por separado cuando cambie tu forma de pensar, será más fácil ordenarlas después."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter chaque idée séparément quand votre réflexion évolue facilitera le tri plus tard."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4546,6 +5098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guardar todas sin elegir"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout mettre de côté sans choisir"
           }
         },
         "ja" : {
@@ -4600,6 +5158,12 @@
             "value" : "La que elijas se convierte en un hilo de pensamiento al instante. Las demás se guardan."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celle que vous choisissez devient aussitôt un fil de pensée. Les autres sont mises de côté."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4650,6 +5214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réglages"
           }
         },
         "ja" : {
@@ -4705,6 +5275,12 @@
             "value" : "Respuesta háptica"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retour haptique"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4757,6 +5333,12 @@
             "value" : "Editar"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifier"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4807,6 +5389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inicio"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Début"
           }
         },
         "ja" : {
@@ -4862,6 +5450,12 @@
             "value" : "Consejos útiles"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Astuces utiles"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4913,6 +5507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Retoma lo que dejaste a medias"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reprendre là où vous en étiez"
           }
         },
         "ja" : {
@@ -4968,6 +5568,12 @@
             "value" : "Escribe y retoma tus ideas en el iPad solo con el teclado."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Écrivez et poursuivez vos idées sur iPad avec le seul clavier."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5019,6 +5625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sigue con las mismas ideas en tu iPhone y tu iPad."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poursuivez les mêmes idées sur iPhone et iPad."
           }
         },
         "ja" : {
@@ -5073,6 +5685,12 @@
             "value" : "Aún no hay registros"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rien pour l’instant"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5123,6 +5741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ideas aún sin ordenar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idées pas encore triées"
           }
         },
         "ja" : {
@@ -5178,6 +5802,12 @@
             "value" : "Recordatorios"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rappels"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5229,6 +5859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avisos discretos sobre funciones útiles, justo cuando las necesitas."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De discrètes suggestions sur les fonctions utiles, au moment où vous en avez besoin."
           }
         },
         "ja" : {
@@ -5284,6 +5920,12 @@
             "value" : "Usa toda la app en inglés."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Utilisez toute l’app en anglais."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5334,6 +5976,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Por cuál empezamos?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Par laquelle commencer ?"
           }
         },
         "ja" : {
@@ -5389,6 +6037,12 @@
             "value" : "La primera vez que abras la app tras una actualización, verás las novedades."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À la première ouverture après une mise à jour, découvrez les nouveautés."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5440,6 +6094,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novedades"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nouveautés"
           }
         },
         "ja" : {
@@ -5494,6 +6154,12 @@
             "value" : "Lo dejaste aquí"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vous vous êtes arrêté ici"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5544,6 +6210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seguir desde aquí"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reprendre ici"
           }
         },
         "ja" : {
@@ -5599,6 +6271,12 @@
             "value" : "Compatibilidad total con inglés"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prise en charge complète de l’anglais"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5649,6 +6327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ej.: «Los vídeos cortos nos quitan la concentración por cómo nos recompensan, así que entonces…»"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ex. : « Les vidéos courtes nuisent à la concentration à cause de leurs récompenses, alors… »"
           }
         },
         "ja" : {
@@ -5703,6 +6387,12 @@
             "value" : "Ej.: resumen de lo que preguntaste a Claude"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ex. : synthèse d’une question posée à Claude"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5753,6 +6443,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Más antiguas primero"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus anciennes d’abord"
           }
         },
         "ja" : {
@@ -5807,6 +6503,12 @@
             "value" : "Listo"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5857,6 +6559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resumen"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Résumé"
           }
         },
         "ja" : {
@@ -5912,6 +6620,12 @@
             "value" : "Reducir movimiento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Réduire les animations"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5963,6 +6677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con «Reducir movimiento» activado, los efectos de pantalla se calman."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avec « Réduire les animations » activé, les effets à l’écran se font plus discrets."
           }
         },
         "ja" : {
@@ -6018,6 +6738,12 @@
             "value" : "Borra todas tus ideas desde la propia app cuando quieras."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Effacez toutes vos idées depuis l’app quand vous le voulez."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6068,6 +6794,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Eliminar esta idea?"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supprimer cette idée ?"
           }
         },
         "ja" : {
@@ -6122,6 +6854,12 @@
             "value" : "Copia esta idea al portapapeles"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copie cette idée dans le presse-papiers"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6172,6 +6910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copia esta referencia al portapapeles"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copie cette référence dans le presse-papiers"
           }
         },
         "ja" : {
@@ -6226,6 +6970,12 @@
             "value" : "Empezar con esta"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commencer par celle-ci"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6276,6 +7026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escribir por correo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Écrire par e-mail"
           }
         },
         "ja" : {
@@ -6330,6 +7086,12 @@
             "value" : "Seguir pensando"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuer à penser"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6380,6 +7142,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deja una frase puente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laisser une phrase-relais"
           }
         },
         "ja" : {
@@ -6434,6 +7202,12 @@
             "value" : "MD de Instagram (@lee25_ios)"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Message Instagram (@lee25_ios)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6484,6 +7258,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añade lo que escribiste como una sola idea y te deja escribir la siguiente"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajoute votre texte comme une seule idée et vous laisse écrire la suivante"
           }
         },
         "ja" : {
@@ -6538,6 +7318,12 @@
             "value" : "Adjunta lo que escribiste a este hilo de pensamiento"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joint votre texte à ce fil de pensée"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6588,6 +7374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Referencia"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Référence"
           }
         },
         "ja" : {
@@ -6642,6 +7434,12 @@
             "value" : "Referencia · %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Référence · %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6692,6 +7490,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contenido de la referencia"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contenu de la référence"
           }
         },
         "ja" : {
@@ -6746,6 +7550,12 @@
             "value" : "Añadir referencia"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajouter la référence"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6796,6 +7606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Referencia añadida"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Référence ajoutée"
           }
         },
         "ja" : {
@@ -6850,6 +7666,12 @@
             "value" : "Fuente de la referencia"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source de la référence"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6900,6 +7722,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guardar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enregistrer"
           }
         },
         "ja" : {
@@ -6954,6 +7782,12 @@
             "value" : "Guardarlas todas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout mettre de côté"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7004,6 +7838,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copiar todo"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tout copier"
           }
         },
         "ja" : {
@@ -7058,6 +7898,12 @@
             "value" : "Ordenado"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trié"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7108,6 +7954,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nivel de refinado"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niveau d’affinage"
           }
         },
         "ja" : {
@@ -7162,6 +8014,12 @@
             "value" : "Nivel de refinado %@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niveau d’affinage %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7212,6 +8070,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nivel de refinado, actualmente %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niveau d’affinage, actuellement %@"
           }
         },
         "ja" : {
@@ -7266,6 +8130,12 @@
             "value" : "Investigación y fuentes"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recherches et sources"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7316,6 +8186,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adjuntar investigación y fuentes"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joindre recherches et sources"
           }
         },
         "ja" : {
@@ -7370,6 +8246,12 @@
             "value" : "Referencia de investigación"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Référence de recherche"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7420,6 +8302,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Referencia de investigación, fuente %@"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Référence de recherche, source %@"
           }
         },
         "ja" : {
@@ -7474,6 +8362,12 @@
             "value" : "Pega lo que investigaste o resumiste"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Collez ce que vous avez recherché ou résumé"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7524,6 +8418,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Los saltos de línea separan tus ideas"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Les retours à la ligne séparent vos idées"
           }
         },
         "ja" : {
@@ -7578,6 +8478,12 @@
             "value" : "Si solo pudieras elegir una ahora mismo, ¿cuál?"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si vous n’en gardiez qu’une, laquelle ?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7628,6 +8534,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saca lo que tienes en la cabeza"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notez ce qui vous trotte dans la tête"
           }
         },
         "ja" : {
@@ -7682,6 +8594,12 @@
             "value" : "Lo que piensas ahora"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Votre réflexion en cours"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7732,6 +8650,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El hilo hasta ahora"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Le fil jusqu’ici"
           }
         },
         "ja" : {
@@ -7786,6 +8710,12 @@
             "value" : "Soporte"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistance"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7836,6 +8766,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abre el soporte y la información de la app"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ouvre l’assistance et les informations sur l’app"
           }
         },
         "ja" : {
@@ -7890,6 +8826,12 @@
             "value" : "Última idea"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dernière idée"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7940,6 +8882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ideas en curso"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idées en cours"
           }
         },
         "ja" : {
@@ -7995,6 +8943,12 @@
             "value" : "Guía de inicio"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guide de prise en main"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8046,6 +9000,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un recorrido rápido por lo que puedes hacer al abrir la app por primera vez."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un rapide tour de ce que vous pouvez faire à la première ouverture."
           }
         },
         "ja" : {
@@ -8100,6 +9060,12 @@
             "value" : "Vuelca tus primeras ideas"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Noter vos premières idées"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8150,6 +9116,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Visitadas en los últimos 3 días"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consultées ces 3 derniers jours"
           }
         },
         "ja" : {
@@ -8204,6 +9176,12 @@
             "value" : "Más recientes primero"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plus récentes d’abord"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8254,6 +9232,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resumen final"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Résumé final"
           }
         },
         "ja" : {
@@ -8308,6 +9292,12 @@
             "value" : "Idea añadida %1$lld: %2$@"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idée ajoutée %1$lld : %2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8360,6 +9350,12 @@
             "value" : "Fuente (p. ej., Claude, búsqueda) — opcional"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source (ex. : Claude, recherche) — facultatif"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8410,6 +9406,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancelar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuler"
           }
         },
         "ja" : {
@@ -8465,6 +9467,12 @@
             "value" : "Diseño para texto grande"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Écrans adaptés au texte agrandi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8518,6 +9526,12 @@
             "value" : "Control con teclado"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commande au clavier"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8568,6 +9582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca para convertirla en un hilo de pensamiento"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez pour en faire un fil de pensée"
           }
         },
         "ja" : {
@@ -8623,6 +9643,12 @@
             "value" : "Diseño para iPhone plegable"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affichage pour iPhone pliable"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8674,6 +9700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa la pantalla amplia de un iPhone plegable como dos paneles."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profitez du grand écran d’un iPhone pliable en deux volets côte à côte."
           }
         },
         "ja" : {
@@ -8728,6 +9760,12 @@
             "value" : "Da igual si es una idea o diez. Sepáralas con saltos de línea."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Une idée ou dix, peu importe. Séparez-les par des retours à la ligne."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8778,6 +9816,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ordenado una vez"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trié une fois"
           }
         },
         "ja" : {
@@ -8832,6 +9876,12 @@
             "value" : "Clave"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Essentiel"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8882,6 +9932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Solo lo clave"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’essentiel seulement"
           }
         },
         "ja" : {
@@ -8935,6 +9991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver lee cada botón y cada nota, en el orden correcto."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lit chaque bouton et chaque note, dans le bon ordre."
           }
         },
         "ja" : {

@@ -75,6 +75,24 @@
             }
           }
         },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld note"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld notes"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -175,6 +193,24 @@
             }
           }
         },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "En sommeil depuis %lld jour"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "En sommeil depuis %lld jours"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -225,6 +261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muestra la frase puente de tu hilo más reciente."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affiche la phrase-relais de votre fil le plus récent."
           }
         },
         "ja" : {
@@ -279,6 +321,12 @@
             "value" : "Para pensar después"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À penser ensuite"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -329,6 +377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ideas por retomar"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idées à ranimer"
           }
         },
         "ja" : {
@@ -383,6 +437,12 @@
             "value" : "Retoma tus ideas pausadas. Mira tu frase puente en la pantalla de inicio."
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reprenez vos réflexions en pause. Retrouvez votre phrase-relais sur l’écran d’accueil."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -435,6 +495,12 @@
             "value" : "Empieza una idea nueva"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Commencez une nouvelle idée"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -482,6 +548,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "fr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -539,6 +611,12 @@
             "value" : "Widget de ThinkFlow"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget ThinkFlow"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -591,6 +669,12 @@
             "value" : "Seguir pensando"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuer à penser"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -641,6 +725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Para pensar ahora"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "À penser maintenant"
           }
         },
         "ja" : {

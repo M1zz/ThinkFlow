@@ -27,6 +27,12 @@
             "value" : "ThinkFlow"
           }
         },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",

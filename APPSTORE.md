@@ -487,3 +487,64 @@ Sieh Brückensatz und Kernpunkt im Widget auf dem Home-Bildschirm. Während du d
 
 Deine Gedanken bleiben auf deinem Gerät
 Alles wird nur auf deinem Gerät gespeichert, ein Konto brauchst du nicht. Exportiere jederzeit als Markdown- oder JSON-Datei.
+
+## fr
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow : Penser en continu
+
+### 부제
+
+Reprenez où vous en étiez
+
+### 키워드
+
+vider sa tête,journal,notes,idées,second cerveau,zettelkasten,deep work,réflexion,concentration,mémo
+
+### 프로모션 텍스트
+
+Ne perdez plus jamais le fil. À votre retour, retrouvez l’essentiel et votre dernière idée, et reprenez exactement là où vous vous étiez arrêté.
+
+### 설명
+
+L’idée d’hier, reprenez-la aujourd’hui exactement là où vous l’aviez laissée.
+ThinkFlow est un carnet de réflexion qui vous aide à faire mûrir de grandes idées petit à petit, sur plusieurs jours.
+
+On raconte qu’Hemingway s’arrêtait volontairement d’écrire quand tout allait bien. Savoir par où reprendre le lendemain permet de se remettre tout de suite dans le bain. ThinkFlow applique cette méthode à la réflexion.
+
+Phrase-relais
+En terminant de réfléchir, laissez une seule ligne : la question à reprendre. À la prochaine ouverture de l’app, cette phrase vous attend tout en haut.
+
+Reprendre ici
+L’écran d’accueil affiche votre réflexion la plus récente. Phrase-relais, essentiel jusqu’ici et dernière idée tiennent sur une seule carte, et vous continuez à écrire aussitôt.
+
+De la note à l’essentiel
+Affinez ce que vous notez en quatre niveaux : note, trié, essentiel et résumé. Voyez d’un coup d’œil à quel point une idée a mûri.
+
+Joindre des références
+Ce que vous avez cherché ou demandé, puis résumé, se joint comme référence, bien distincte de vos propres idées.
+
+Vider sa tête
+Notez tout ce qui flotte dans votre tête, une ligne à la fois. Plus tard, un simple toucher en fait une idée à poursuivre.
+
+Idées à ranimer
+Les idées que vous n’avez pas touchées depuis plus de trois jours sont rassemblées à part pour que vous puissiez les reprendre. Le temps passé sur chaque idée s’additionne aussi.
+
+Widgets et écran verrouillé
+Consultez votre phrase-relais et l’essentiel dans un widget de l’écran d’accueil. Pendant que vous réfléchissez, le temps s’affiche sur l’écran verrouillé et dans la Dynamic Island.
+
+Vos idées restent sur votre appareil
+Tout est enregistré uniquement sur votre appareil, sans compte. Exportez à tout moment en fichier Markdown ou JSON.

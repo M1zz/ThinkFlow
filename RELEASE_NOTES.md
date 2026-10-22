@@ -68,3 +68,11 @@ Recherchen an den Gedankenfluss anhängen
 Viele Gedanken auf einmal aufschreiben
 Brückensatz direkt im Widget sehen
 Feedback und Bewertungen aus der App
+
+### 앱스토어 (프랑스어)
+
+L’essentiel et la dernière idée en carte
+Joignez vos recherches à chaque fil
+Notez plusieurs idées d’un seul coup
+La phrase-relais visible dans le widget
+Envoyez avis et retours depuis l’app
