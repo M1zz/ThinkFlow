@@ -148,3 +148,11 @@ Liitä tutkimus ajatusten virtaan
 Kirjoita monta ajatusta kerralla
 Siltalause näkyy suoraan widgetissä
 Lähetä palautetta ja arvosteluja appista
+
+### 앱스토어 (인도네시아어)
+
+Kartu berisi inti dan pikiran terakhir
+Lampirkan riset ke alur pikiranmu
+Tuangkan banyak pikiran sekaligus
+Lihat kalimat jembatan di widget
+Kirim masukan dan ulasan dari aplikasi

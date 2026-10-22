@@ -171,6 +171,12 @@
             }
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld catatan"
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -445,6 +451,12 @@
             }
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tertidur %lld hari"
+          }
+        },
         "it" : {
           "variations" : {
             "plural" : {
@@ -605,6 +617,12 @@
             "value" : "Affiche la phrase-relais de votre fil le plus récent."
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menampilkan kalimat jembatan dari utas pikiran terbaru."
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -715,6 +733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À penser ensuite"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dipikirkan berikutnya"
           }
         },
         "it" : {
@@ -829,6 +853,12 @@
             "value" : "Idées à ranimer"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pikiran untuk dihidupkan lagi"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -939,6 +969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reprenez vos réflexions en pause. Retrouvez votre phrase-relais sur l’écran d’accueil."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjutkan pikiran yang terhenti. Lihat kalimat jembatanmu di Layar Utama."
           }
         },
         "it" : {
@@ -1053,6 +1089,12 @@
             "value" : "Commencez une nouvelle idée"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulai pikiran baru"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1160,6 +1202,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -1277,6 +1325,12 @@
             "value" : "Widget ThinkFlow"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget ThinkFlow"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1389,6 +1443,12 @@
             "value" : "Continuer à penser"
           }
         },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjut Berpikir"
+          }
+        },
         "it" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1499,6 +1559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À penser maintenant"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dipikirkan sekarang"
           }
         },
         "it" : {

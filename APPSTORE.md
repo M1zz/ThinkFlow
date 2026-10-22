@@ -1097,3 +1097,64 @@ Näet siltalauseen ja ytimen kotinäytön widgetissä. Ajattelun aikana aika nä
 
 Ajatuksesi pysyvät laitteellasi
 Kaikki tallennetaan vain laitteellesi, eikä tiliä tarvita. Voit viedä sisällön milloin tahansa Markdown- tai JSON-tiedostona.
+
+## id
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Lanjut Berpikir
+
+### 부제
+
+Sambung dari tempat berhenti
+
+### 키워드
+
+catatan,jurnal,ide,otak kedua,zettelkasten,kerja mendalam,refleksi,fokus,memo,menulis,buku harian
+
+### 프로모션 텍스트
+
+Tak perlu lagi lupa sudah berpikir sampai mana. Saat kembali, kamu melihat inti dan pikiran terakhir, lalu lanjut persis dari tempat berhenti.
+
+### 설명
+
+Pikiran yang tertunda kemarin, lanjutkan hari ini persis dari tempat berhenti.
+ThinkFlow adalah buku catatan berpikir yang membantumu mengembangkan pikiran mendalam sedikit demi sedikit selama beberapa hari.
+
+Konon Hemingway sengaja berhenti menulis saat tulisannya sedang lancar. Tahu harus mulai dari mana keesokan harinya membuatnya cepat kembali fokus. ThinkFlow menerapkan cara ini pada proses berpikir.
+
+Kalimat Jembatan
+Saat selesai berpikir, tinggalkan satu baris: pertanyaan untuk dilanjutkan. Saat membuka aplikasi lagi, kalimat itu menunggu di bagian paling atas.
+
+Lanjut dari sini
+Layar pertama menampilkan pikiran terbarumu. Kalimat jembatan, inti sejauh ini, dan pikiran terakhir ada di satu kartu, sehingga kamu bisa langsung menulis lagi.
+
+Dari catatan ke inti
+Matangkan tulisanmu lewat empat tingkat: catatan, tertata, inti, dan ringkasan. Sekali lihat, kamu tahu seberapa matang sebuah pikiran.
+
+Lampirkan referensi
+Hasil pencarian atau tanya-jawab yang sudah kamu ringkas dilampirkan sebagai referensi, terpisah jelas dari pikiranmu sendiri.
+
+Tuangkan pikiran
+Tuliskan semua yang melayang di kepalamu, satu baris demi satu. Nanti, cukup satu ketukan untuk mengubahnya menjadi pikiran yang bisa dilanjutkan.
+
+Pikiran untuk dihidupkan lagi
+Pikiran yang tak disentuh lebih dari tiga hari dikumpulkan tersendiri agar bisa kamu angkat kembali. Waktu yang kamu habiskan untuk tiap pikiran juga terakumulasi.
+
+Widget dan Layar Kunci
+Lihat kalimat jembatan dan inti di widget Layar Utama. Saat sedang berpikir, waktunya tampil di Layar Kunci dan Dynamic Island.
+
+Pikiranmu tetap di perangkatmu
+Semua catatan hanya disimpan di perangkatmu dan tidak perlu akun. Ekspor kapan saja sebagai file Markdown atau JSON.
