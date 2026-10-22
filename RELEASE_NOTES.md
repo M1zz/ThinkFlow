@@ -132,3 +132,11 @@ Vedhæft research til tankestrømmen
 Skriv mange tanker ned på én gang
 Se brosætningen direkte i widgetten
 Send feedback og anmeldelser i appen
+
+### 앱스토어 (그리스어)
+
+Κάρτα: κύριο σημείο, τελευταία σκέψη
+Επισυνάψτε έρευνα στη ροή σκέψης
+Γράψτε πολλές σκέψεις μονομιάς
+Η πρόταση-γέφυρα στο γραφικό στοιχείο
+Σχόλια και κριτικές μέσα στην εφαρμογή

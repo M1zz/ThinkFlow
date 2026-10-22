@@ -63,6 +63,24 @@
             }
           }
         },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld σημείωση"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld σημειώσεις"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -301,6 +319,24 @@
             }
           }
         },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Αδρανής εδώ και %lld ημέρα"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Αδρανής εδώ και %lld ημέρες"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -497,6 +533,12 @@
             "value" : "Zeigt den Brückensatz deines neuesten Gedankenfadens."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δείχνει την πρόταση-γέφυρα του πιο πρόσφατου νήματος σκέψης."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -595,6 +637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als Nächstes denken"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Για να σκεφτείτε μετά"
           }
         },
         "en" : {
@@ -697,6 +745,12 @@
             "value" : "Gedanken zum Wiederbeleben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σκέψεις για αναβίωση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -795,6 +849,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mach bei angehaltenen Gedanken weiter. Sieh deinen Brückensatz auf dem Home-Bildschirm."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνεχίστε τις σκέψεις που σταματήσατε. Δείτε την πρόταση-γέφυρα στην Αρχική οθόνη."
           }
         },
         "en" : {
@@ -897,6 +957,12 @@
             "value" : "Neuen Gedanken beginnen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεκινήστε μια νέα σκέψη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -992,6 +1058,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -1097,6 +1169,12 @@
             "value" : "ThinkFlow-Widget"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γραφικό στοιχείο ThinkFlow"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1197,6 +1275,12 @@
             "value" : "Weiterdenken"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνεχίστε να σκέφτεστε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1295,6 +1379,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jetzt denken"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Για να σκεφτείτε τώρα"
           }
         },
         "en" : {

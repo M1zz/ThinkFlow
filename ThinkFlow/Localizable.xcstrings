@@ -21,6 +21,12 @@
             "value" : "Geändert zu %@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άλλαξε σε «%@»"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -121,6 +127,12 @@
             "value" : "Gedanken zu „%@“ weiterschreiben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνεχίστε τις σκέψεις στο «%@»"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -216,6 +228,12 @@
           }
         },
         "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -358,6 +376,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld Gedanken"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld σκέψη"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld σκέψεις"
                 }
               }
             }
@@ -601,6 +637,24 @@
             }
           }
         },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Προστέθηκε %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Προστέθηκαν %lld"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -839,6 +893,24 @@
             }
           }
         },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld σκέψη"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld σκέψεις"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -1035,6 +1107,12 @@
             "value" : "Gedanke %lld löschen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή σκέψης %lld"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1133,6 +1211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Referenz %lld löschen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή υλικού %lld"
           }
         },
         "en" : {
@@ -1235,6 +1319,12 @@
             "value" : "%lld Min."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld λ."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1333,6 +1423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld Std. %2$lld Min."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld ώρ. %2$lld λ."
           }
         },
         "en" : {
@@ -1472,6 +1568,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Brücke vor %lld Tagen gelegt"
+                }
+              }
+            }
+          }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Γέφυρα πριν από %lld ημέρα"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Γέφυρα πριν από %lld ημέρες"
                 }
               }
             }
@@ -1715,6 +1829,24 @@
             }
           }
         },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld χαρακτήρας"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld χαρακτήρες"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -1911,6 +2043,12 @@
             "value" : "Alle Notizen und der Brückensatz von „%@“ werden gelöscht."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όλες οι σημειώσεις και η πρόταση-γέφυρα του «%@» θα διαγραφούν."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2011,6 +2149,12 @@
             "value" : "Tippe auf „Weiterdenken“, um deinen ersten Eintrag zu machen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε «Συνεχίστε να σκέφτεστε» για να αφήσετε την πρώτη καταγραφή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2109,6 +2253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seit über 3 Tagen unberührt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αδρανείς πάνω από 3 ημέρες"
           }
         },
         "en" : {
@@ -2212,6 +2362,12 @@
             "value" : "Face-ID-Sperre"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείδωμα με Face ID"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2313,6 +2469,12 @@
             "value" : "Sperre die App mit Face ID oder Touch ID, damit deine Gedanken privat bleiben."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλειδώστε την εφαρμογή με Face ID ή Touch ID για να μένουν ιδιωτικές οι σκέψεις σας."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2411,6 +2573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Als JSON exportieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξαγωγή σε JSON"
           }
         },
         "en" : {
@@ -2514,6 +2682,12 @@
             "value" : "Halte einen Gedanken sofort fest – per Siri oder Kurzbefehl."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καταγράψτε αμέσως μια σκέψη μιλώντας στη Siri ή με μια συντόμευση."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2613,6 +2787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri und Kurzbefehle"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri και Συντομεύσεις"
           }
         },
         "en" : {
@@ -2716,6 +2896,12 @@
             "value" : "Besserer VoiceOver-Support"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Καλύτερη υποστήριξη VoiceOver"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2814,6 +3000,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Entwickler kontaktieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επικοινωνία με τον προγραμματιστή"
           }
         },
         "en" : {
@@ -2917,6 +3109,12 @@
             "value" : "Bildschirme ordnen sich bei größerer Schrift übersichtlich neu an, statt abgeschnitten zu werden."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι οθόνες αναδιατάσσονται σωστά χωρίς να κόβονται όταν μεγαλώνετε το κείμενο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3016,6 +3214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geräteübergreifend synchronisieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συγχρονισμός μεταξύ συσκευών"
           }
         },
         "en" : {
@@ -3118,6 +3322,12 @@
             "value" : "Hör auf, solange es läuft"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σταματήστε όσο έχετε φόρα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3216,6 +3426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ein unfertiger Satz, den du im Schwung hinterlassen hast. Beim nächsten Öffnen greift dein Kopf den Faden von selbst wieder auf."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μια ημιτελής πρόταση που αφήσατε εν μέσω έμπνευσης. Την επόμενη φορά που θα ανοίξετε την εφαρμογή, το μυαλό σας θα πιάσει μόνο του το νήμα."
           }
         },
         "en" : {
@@ -3318,6 +3534,12 @@
             "value" : "Hör auf, solange es läuft.\nBeim nächsten Öffnen greift dein Kopf den Faden von selbst wieder auf."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σταματήστε όσο έχετε φόρα.\nΤην επόμενη φορά που θα ανοίξετε την εφαρμογή, το μυαλό σας θα πιάσει μόνο του το νήμα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3416,6 +3638,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiefe"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βάθος"
           }
         },
         "en" : {
@@ -3518,6 +3746,12 @@
             "value" : "Brückensatz"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρόταση-γέφυρα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3616,6 +3850,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brückensatz bearbeiten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επεξεργασία πρότασης-γέφυρας"
           }
         },
         "en" : {
@@ -3718,6 +3958,12 @@
             "value" : "Brückensatz: %@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρόταση-γέφυρα: %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3816,6 +4062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Roher Gedanke"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ωμή σκέψη"
           }
         },
         "en" : {
@@ -3919,6 +4171,12 @@
             "value" : "Alle meine Daten auf einmal löschen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή όλων των δεδομένων μου με μία κίνηση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4017,6 +4275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξαγωγή"
           }
         },
         "en" : {
@@ -4120,6 +4384,12 @@
             "value" : "Hol deine Gedanken aus einer exportierten Datei zurück."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επαναφέρετε τις σκέψεις σας από ένα εξαγόμενο αρχείο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4218,6 +4488,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ insgesamt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σύνολο %@"
           }
         },
         "en" : {
@@ -4320,6 +4596,12 @@
             "value" : "Alles raus"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τα έγραψα όλα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4418,6 +4700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Weiter"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επόμενο"
           }
         },
         "en" : {
@@ -4520,6 +4808,12 @@
             "value" : "Schreib den unfertigen Satz, mit dem du das nächste Mal weitermachst"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψτε την ημιτελή πρόταση για να συνεχίσετε την επόμενη φορά"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4618,6 +4912,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schließen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείσιμο"
           }
         },
         "en" : {
@@ -4721,6 +5021,12 @@
             "value" : "Alles gut lesbar – auch mit höherem Kontrast oder bei Farbschwäche."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαβάστε τα πάντα εύκολα, ακόμα και με αυξημένη αντίθεση ή δυσκολία στη διάκριση χρωμάτων."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4820,6 +5126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nutze die App in noch mehr Sprachen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποιήστε την εφαρμογή σε περισσότερες γλώσσες."
           }
         },
         "en" : {
@@ -4923,6 +5235,12 @@
             "value" : "Mehr Sprachen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περισσότερες γλώσσες"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5021,6 +5339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mehr"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περισσότερα"
           }
         },
         "en" : {
@@ -5123,6 +5447,12 @@
             "value" : "Gedanken zum Wiederbeleben"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σκέψεις για αναβίωση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5221,6 +5551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zum Ändern der Stufe doppeltippen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε δύο φορές για αλλαγή επιπέδου"
           }
         },
         "en" : {
@@ -5323,6 +5659,12 @@
             "value" : "Doppeltippen, um daraus einen Gedankenfaden zu machen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε δύο φορές για να γίνει νήμα σκέψης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5421,6 +5763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zum Auswählen doppeltippen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε δύο φορές για επιλογή"
           }
         },
         "en" : {
@@ -5523,6 +5871,12 @@
             "value" : "Als Markdown exportieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξαγωγή σε Markdown"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5621,6 +5975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hör nicht auf, weil du feststeckst, sondern solange du noch etwas zu schreiben hast.\nBeim nächsten Öffnen greift dein Kopf den Faden von selbst wieder auf."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μη σταματάτε επειδή κολλήσατε, αλλά όσο έχετε ακόμα κάτι να γράψετε.\nΤην επόμενη φορά που θα ανοίξετε την εφαρμογή, το μυαλό σας θα πιάσει μόνο του το νήμα."
           }
         },
         "en" : {
@@ -5723,6 +6083,12 @@
             "value" : "Schreib auf, was dir durch den Kopf geht, und erstelle einen neuen Faden"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψτε ό,τι έχετε στο μυαλό για να δημιουργήσετε νέο νήμα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5821,6 +6187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schreib auf, was dir im Kopf herumschwirrt,\nund denk beim nächsten Mal tiefer darüber nach."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψτε τις σκέψεις που πλανώνται στο μυαλό σας\nκαι ξαναδείτε τις αργότερα για να σκεφτείτε πιο βαθιά."
           }
         },
         "en" : {
@@ -5924,6 +6296,12 @@
             "value" : "Eine Erinnerung zur rechten Zeit, damit zurückgestellte Gedanken nicht vergessen werden."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μια έγκαιρη υπενθύμιση για να μην ξεχάσετε τις σκέψεις που αφήσατε στην άκρη."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6022,6 +6400,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notiz"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημείωση"
           }
         },
         "en" : {
@@ -6124,6 +6508,12 @@
             "value" : "Exportiert alle Gedanken als Backup in eine Datei"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξάγει όλες τις σκέψεις σε αρχείο ως αντίγραφο ασφαλείας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6222,6 +6612,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brückensatz hinterlassen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφήστε πρόταση-γέφυρα"
           }
         },
         "en" : {
@@ -6324,6 +6720,12 @@
             "value" : "Schritt Brückensatz. Schreib den Satz, mit dem du das nächste Mal weitermachst."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βήμα πρότασης-γέφυρας. Γράψτε την πρόταση από την οποία θα συνεχίσετε την επόμενη φορά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6422,6 +6824,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hinterlasse einen Brückensatz, um zu schließen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφήστε πρόταση-γέφυρα για να κλείσετε"
           }
         },
         "en" : {
@@ -6525,6 +6933,12 @@
             "value" : "Aus Backup wiederherstellen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επαναφορά από αντίγραφο ασφαλείας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6623,6 +7037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fehler melden und Funktionen vorschlagen – per E-Mail oder Instagram-DM"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στείλτε αναφορές σφαλμάτων και προτάσεις με email ή μήνυμα στο Instagram"
           }
         },
         "en" : {
@@ -6726,6 +7146,12 @@
             "value" : "Angenehmere Farben und Kontraste"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πιο άνετα χρώματα και αντίθεση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6824,6 +7250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγραφή"
           }
         },
         "en" : {
@@ -6926,6 +7358,12 @@
             "value" : "Kopiert"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγράφηκε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7024,6 +7462,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopiert"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγράφηκε"
           }
         },
         "en" : {
@@ -7126,6 +7570,12 @@
             "value" : "Angehängte Referenz %1$lld: %2$@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επισυναπτόμενο υλικό %1$lld: %2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7224,6 +7674,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brückensatz bearbeiten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επεξεργασία πρότασης-γέφυρας"
           }
         },
         "en" : {
@@ -7326,6 +7782,12 @@
             "value" : "Denksitzung läuft"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνεδρία σκέψης σε εξέλιξη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7424,6 +7886,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Denkzeit"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρόνος σκέψης"
           }
         },
         "en" : {
@@ -7526,6 +7994,12 @@
             "value" : "Löschen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7624,6 +8098,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gedanken ausschütten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αδειάστε το μυαλό"
           }
         },
         "en" : {
@@ -7726,6 +8206,12 @@
             "value" : "Eingabefeld zum Ausschütten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πεδίο για να αδειάσετε το μυαλό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7824,6 +8310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noch einen Gedanken hinzufügen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθέστε ακόμα μια σκέψη"
           }
         },
         "en" : {
@@ -7926,6 +8418,12 @@
             "value" : "Gedanken bearbeiten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επεξεργασία σκέψης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8024,6 +8522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Denke nach …"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σκέφτομαι…"
           }
         },
         "en" : {
@@ -8126,6 +8630,12 @@
             "value" : "Gedanken hinzufügen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη σκέψης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8226,6 +8736,12 @@
             "value" : "Gedanke hinzugefügt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η σκέψη προστέθηκε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8324,6 +8840,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du kannst Recherchen und Zusammenfassungen getrennt von deinen eigenen Gedanken anhängen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μπορείτε να επισυνάψετε έρευνα ή σημειώσεις χωριστά από τις δικές σας σκέψεις"
           }
         },
         "en" : {
@@ -8427,6 +8949,12 @@
             "value" : "Ein sanftes Vibrieren, wenn du einen Gedanken festhältst oder fortsetzt."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μια ελαφριά δόνηση όταν καταγράφετε ή συνεχίζετε μια σκέψη."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8525,6 +9053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Denk einfach weiter"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνεχίστε να σκέφτεστε"
           }
         },
         "en" : {
@@ -8628,6 +9162,12 @@
             "value" : "Was du gerade geschrieben hast, bleibt erhalten – auch wenn die App sich beendet."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ό,τι γράφατε παραμένει, ακόμα κι αν η εφαρμογή κλείσει στη μέση."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8726,6 +9266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gedankenfluss"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ροή σκέψης"
           }
         },
         "en" : {
@@ -8828,6 +9374,12 @@
             "value" : "Wenn du jeden neuen Gedanken einzeln hinzufügst, kannst du später leichter ordnen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν προσθέτετε κάθε νέα σκέψη ξεχωριστά, θα είναι πιο εύκολο να τις οργανώσετε αργότερα."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8926,6 +9478,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alle ohne Auswahl aufbewahren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευση όλων χωρίς επιλογή"
           }
         },
         "en" : {
@@ -9028,6 +9586,12 @@
             "value" : "Dein Favorit wird sofort zum Gedankenfaden. Der Rest wird aufbewahrt."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτή που θα επιλέξετε γίνεται αμέσως νήμα σκέψης. Οι υπόλοιπες αποθηκεύονται."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9126,6 +9690,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einstellungen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίσεις"
           }
         },
         "en" : {
@@ -9229,6 +9799,12 @@
             "value" : "Haptisches Feedback"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απτική ανάδραση"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9329,6 +9905,12 @@
             "value" : "Bearbeiten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επεξεργασία"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9427,6 +10009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Beginn"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έναρξη"
           }
         },
         "en" : {
@@ -9530,6 +10118,12 @@
             "value" : "Praktische Tipps"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρήσιμες συμβουλές"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9629,6 +10223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dort weitermachen, wo du aufgehört hast"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχεια από εκεί που μείνατε"
           }
         },
         "en" : {
@@ -9732,6 +10332,12 @@
             "value" : "Schreibe und setze Gedanken auf dem iPad nur mit der Tastatur fort."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψτε και συνεχίστε τις σκέψεις σας στο iPad μόνο με το πληκτρολόγιο."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9831,6 +10437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arbeite auf iPhone und iPad an denselben Gedanken weiter."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνεχίστε τις ίδιες σκέψεις σε iPhone και iPad."
           }
         },
         "en" : {
@@ -9933,6 +10545,12 @@
             "value" : "Noch keine Einträge"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν ακόμα καταγραφές"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10031,6 +10649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Noch nicht sortierte Gedanken"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σκέψεις που δεν έχουν τακτοποιηθεί"
           }
         },
         "en" : {
@@ -10134,6 +10758,12 @@
             "value" : "Erinnerungen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υπενθυμίσεις"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10233,6 +10863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dezente Hinweise auf nützliche Funktionen – genau dann, wenn du sie brauchst."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διακριτικές υποδείξεις για χρήσιμες λειτουργίες, ακριβώς όταν τις χρειάζεστε."
           }
         },
         "en" : {
@@ -10336,6 +10972,12 @@
             "value" : "Die ganze App auch auf Englisch nutzen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποιήστε όλη την εφαρμογή στα αγγλικά."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10434,6 +11076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Womit zuerst?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Από ποια να ξεκινήσουμε;"
           }
         },
         "en" : {
@@ -10537,6 +11185,12 @@
             "value" : "Beim ersten Öffnen nach einem Update siehst du, was neu ist."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την πρώτη φορά που ανοίγετε την εφαρμογή μετά από μια ενημέρωση, δείτε τι νέο υπάρχει."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10636,6 +11290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neuigkeiten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι νέο υπάρχει"
           }
         },
         "en" : {
@@ -10738,6 +11398,12 @@
             "value" : "Hier hast du aufgehört"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σταματήσατε εδώ"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10836,6 +11502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hier weitermachen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχεια από εδώ"
           }
         },
         "en" : {
@@ -10939,6 +11611,12 @@
             "value" : "Vollständige Unterstützung für Englisch"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πλήρης υποστήριξη αγγλικών"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11037,6 +11715,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "z. B. „Kurzvideos schaden der Konzentration wegen ihrer Belohnungen – also dann …“"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Π.χ. «Τα σύντομα βίντεο καταστρέφουν τη συγκέντρωση λόγω των ανταμοιβών, άρα τότε…»"
           }
         },
         "en" : {
@@ -11139,6 +11823,12 @@
             "value" : "z. B. Zusammenfassung einer Claude-Anfrage"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Π.χ. σύνοψη απάντησης από το Claude"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11237,6 +11927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Älteste zuerst"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρώτα τα παλαιότερα"
           }
         },
         "en" : {
@@ -11339,6 +12035,12 @@
             "value" : "Fertig"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τέλος"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11437,6 +12139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zusammenfassung"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περίληψη"
           }
         },
         "en" : {
@@ -11540,6 +12248,12 @@
             "value" : "Bewegung reduzieren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μείωση κίνησης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11639,6 +12353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mit „Bewegung reduzieren“ werden die Bildschirmeffekte ruhiger."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με ενεργή τη «Μείωση κίνησης», τα εφέ στην οθόνη γίνονται πιο ήρεμα."
           }
         },
         "en" : {
@@ -11742,6 +12462,12 @@
             "value" : "Lösche alle deine Gedanken jederzeit direkt in der App."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγράψτε όλες τις σκέψεις σας μέσα από την εφαρμογή όποτε θέλετε."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11840,6 +12566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Diesen Gedanken löschen?"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή αυτής της σκέψης;"
           }
         },
         "en" : {
@@ -11942,6 +12674,12 @@
             "value" : "Kopiert diesen Gedanken in die Zwischenablage"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγράφει αυτή τη σκέψη στο πρόχειρο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12040,6 +12778,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopiert diese Referenz in die Zwischenablage"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγράφει αυτό το υλικό στο πρόχειρο"
           }
         },
         "en" : {
@@ -12142,6 +12886,12 @@
             "value" : "Damit anfangen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεκινήστε με αυτή"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12240,6 +12990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Per E-Mail kontaktieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποστολή email"
           }
         },
         "en" : {
@@ -12342,6 +13098,12 @@
             "value" : "Weiterdenken"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνεχίστε να σκέφτεστε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12440,6 +13202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brückensatz hinterlassen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αφήστε μια πρόταση-γέφυρα"
           }
         },
         "en" : {
@@ -12542,6 +13310,12 @@
             "value" : "Instagram-DM (@lee25_ios)"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μήνυμα στο Instagram (@lee25_ios)"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12640,6 +13414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fügt deinen Text als einen Gedanken hinzu und lässt dich den nächsten schreiben"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθέτει ό,τι γράψατε ως μία σκέψη και σας αφήνει να γράψετε την επόμενη"
           }
         },
         "en" : {
@@ -12742,6 +13522,12 @@
             "value" : "Hängt deinen Text an diesen Gedankenfluss an"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επισυνάπτει ό,τι γράψατε σε αυτή τη ροή σκέψης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12840,6 +13626,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Referenz"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υλικό"
           }
         },
         "en" : {
@@ -12942,6 +13734,12 @@
             "value" : "Referenz · %@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υλικό · %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13040,6 +13838,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inhalt der Referenz"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περιεχόμενο υλικού"
           }
         },
         "en" : {
@@ -13142,6 +13946,12 @@
             "value" : "Referenz hinzufügen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη υλικού"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13240,6 +14050,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Referenz hinzugefügt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το υλικό προστέθηκε"
           }
         },
         "en" : {
@@ -13342,6 +14158,12 @@
             "value" : "Quelle der Referenz"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πηγή υλικού"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13440,6 +14262,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sichern"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευση"
           }
         },
         "en" : {
@@ -13542,6 +14370,12 @@
             "value" : "Alle aufbewahren"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευση όλων"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13640,6 +14474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alles kopieren"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντιγραφή όλων"
           }
         },
         "en" : {
@@ -13742,6 +14582,12 @@
             "value" : "Geordnet"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τακτοποιημένο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13840,6 +14686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verfeinerungsstufe"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επίπεδο επεξεργασίας"
           }
         },
         "en" : {
@@ -13942,6 +14794,12 @@
             "value" : "Verfeinerungsstufe %@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επίπεδο επεξεργασίας %@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14040,6 +14898,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verfeinerungsstufe, aktuell %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επίπεδο επεξεργασίας, τώρα «%@»"
           }
         },
         "en" : {
@@ -14142,6 +15006,12 @@
             "value" : "Recherche & Quellen"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έρευνα και πηγές"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14240,6 +15110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recherche & Quellen anhängen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επισύναψη έρευνας και πηγών"
           }
         },
         "en" : {
@@ -14342,6 +15218,12 @@
             "value" : "Recherche-Referenz"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υλικό έρευνας"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14440,6 +15322,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Recherche-Referenz, Quelle %@"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υλικό έρευνας, πηγή %@"
           }
         },
         "en" : {
@@ -14542,6 +15430,12 @@
             "value" : "Füge ein, was du recherchiert oder zusammengefasst hast"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επικολλήστε ό,τι ερευνήσατε ή συνοψίσατε"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14640,6 +15534,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zeilenumbrüche trennen deine Gedanken"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οι αλλαγές γραμμής χωρίζουν τις σκέψεις σας"
           }
         },
         "en" : {
@@ -14742,6 +15642,12 @@
             "value" : "Wenn du jetzt nur einen wählen könntest?"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αν διαλέγατε μόνο μία αυτή τη στιγμή;"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14840,6 +15746,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schreib auf, was dir durch den Kopf geht"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψτε ό,τι σας απασχολεί"
           }
         },
         "en" : {
@@ -14942,6 +15854,12 @@
             "value" : "Gerade im Fluss"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η σκέψη που συνεχίζεται"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15040,6 +15958,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bisheriger Verlauf"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η ροή μέχρι τώρα"
           }
         },
         "en" : {
@@ -15142,6 +16066,12 @@
             "value" : "Support"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υποστήριξη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15240,6 +16170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Öffnet Support und App-Infos"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανοίγει την υποστήριξη και πληροφορίες για την εφαρμογή"
           }
         },
         "en" : {
@@ -15342,6 +16278,12 @@
             "value" : "Letzter Gedanke"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τελευταία σκέψη"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15440,6 +16382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aktive Gedanken"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σκέψεις σε εξέλιξη"
           }
         },
         "en" : {
@@ -15543,6 +16491,12 @@
             "value" : "Einstiegshilfe"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οδηγός έναρξης"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15642,6 +16596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eine kurze Tour durch das, was du beim ersten Öffnen tun kannst."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μια σύντομη ξενάγηση σε ό,τι μπορείτε να κάνετε την πρώτη φορά που ανοίγετε την εφαρμογή."
           }
         },
         "en" : {
@@ -15744,6 +16704,12 @@
             "value" : "Erste Gedanken ausschütten"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αδειάστε τις πρώτες σκέψεις"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15842,6 +16808,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "In den letzten 3 Tagen besucht"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επισκέψεις τις τελευταίες 3 ημέρες"
           }
         },
         "en" : {
@@ -15944,6 +16916,12 @@
             "value" : "Neueste zuerst"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρώτα τα νεότερα"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16042,6 +17020,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Endgültige Zusammenfassung"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τελική περίληψη"
           }
         },
         "en" : {
@@ -16144,6 +17128,12 @@
             "value" : "Hinzugefügter Gedanke %1$lld: %2$@"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προστέθηκε σκέψη %1$lld: %2$@"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16244,6 +17234,12 @@
             "value" : "Quelle (z. B. Claude, Suche) – optional"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πηγή (π.χ. Claude, αναζήτηση) — προαιρετικό"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16342,6 +17338,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abbrechen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακύρωση"
           }
         },
         "en" : {
@@ -16445,6 +17447,12 @@
             "value" : "Layouts für größere Schrift"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διατάξεις για μεγαλύτερο κείμενο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16546,6 +17554,12 @@
             "value" : "Steuerung per Tastatur"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έλεγχος με πληκτρολόγιο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16644,6 +17658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tippen, um daraus einen Gedankenfaden zu machen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πατήστε για να γίνει νήμα σκέψης"
           }
         },
         "en" : {
@@ -16747,6 +17767,12 @@
             "value" : "Layout für faltbares iPhone"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάταξη για αναδιπλούμενο iPhone"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16846,6 +17872,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nutze den großen Bildschirm eines faltbaren iPhones als zwei Spalten nebeneinander."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποιήστε τη μεγάλη οθόνη ενός αναδιπλούμενου iPhone ως δύο πάνελ δίπλα-δίπλα."
           }
         },
         "en" : {
@@ -16948,6 +17980,12 @@
             "value" : "Ein Gedanke oder zehn – beides ist okay. Trenne sie mit Zeilenumbrüchen."
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μία σκέψη ή δέκα, δεν πειράζει. Χωρίστε τις με αλλαγή γραμμής."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17046,6 +18084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Einmal geordnet"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τακτοποιήθηκε μία φορά"
           }
         },
         "en" : {
@@ -17148,6 +18192,12 @@
             "value" : "Kernpunkt"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κύριο σημείο"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17246,6 +18296,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nur das Wesentliche"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μόνο τα βασικά"
           }
         },
         "en" : {
@@ -17347,6 +18403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver liest jede Taste und jede Notiz in der richtigen Reihenfolge vor."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το VoiceOver διαβάζει κάθε κουμπί και σημείωση με τη σωστή σειρά."
           }
         },
         "en" : {

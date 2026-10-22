@@ -21,6 +21,12 @@
             "value" : "ThinkFlow"
           }
         },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
