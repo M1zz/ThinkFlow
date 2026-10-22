@@ -9,6 +9,12 @@
             "value" : "ThinkFlow"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",

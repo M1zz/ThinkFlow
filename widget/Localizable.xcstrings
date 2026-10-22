@@ -27,6 +27,24 @@
             }
           }
         },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld note"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld noter"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -247,6 +265,24 @@
             }
           }
         },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Sover i %lld dag"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Sover i %lld dage"
+                }
+              }
+            }
+          }
+        },
         "de" : {
           "variations" : {
             "plural" : {
@@ -449,6 +485,12 @@
             "value" : "Zobrazí navazující větu nejnovějšího vlákna úvah."
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viser brosætningen fra din seneste tankerække."
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -541,6 +583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "K promyšlení příště"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skal tænkes over senere"
           }
         },
         "de" : {
@@ -637,6 +685,12 @@
             "value" : "Myšlenky k oživení"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanker at vække til live"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -729,6 +783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Navažte na zastavené myšlenky. Navazující větu uvidíte na ploše."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag tråden op igen, hvor du slap. Se din brosætning på hjemmeskærmen."
           }
         },
         "de" : {
@@ -825,6 +885,12 @@
             "value" : "Začněte novou myšlenku"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start en ny tanke"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -914,6 +980,12 @@
     "이어생각" : {
       "localizations" : {
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -1013,6 +1085,12 @@
             "value" : "Widget ThinkFlow"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow-widget"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1107,6 +1185,12 @@
             "value" : "Myslet dál"
           }
         },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tænk videre"
+          }
+        },
         "de" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1199,6 +1283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "K promyšlení teď"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skal tænkes over nu"
           }
         },
         "de" : {

@@ -124,3 +124,11 @@ K vláknu úvah připojte rešerši
 Vysypte více myšlenek najednou
 Navazující věta přímo ve widgetu
 Zpětnou vazbu pošlete přímo z aplikace
+
+### 앱스토어 (덴마크어)
+
+Kort med kernen og din seneste tanke
+Vedhæft research til tankestrømmen
+Skriv mange tanker ned på én gang
+Se brosætningen direkte i widgetten
+Send feedback og anmeldelser i appen

@@ -914,3 +914,64 @@ Navazující větu a podstatu uvidíte ve widgetu na ploše. Když přemýšlít
 
 Vaše myšlenky zůstávají ve vašem zařízení
 Všechny záznamy se ukládají jen do zařízení a nepotřebujete účet. Kdykoli je můžete exportovat jako soubor Markdown nebo JSON.
+
+## da
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Tænk videre
+
+### 부제
+
+Fortsæt, hvor du slap
+
+### 키워드
+
+noter,dagbog,idéer,mit andet hjerne,zettelkasten,dybt arbejde,refleksion,fokus,memo,skrivning
+
+### 프로모션 텍스트
+
+Mist aldrig tråden igen. Når du vender tilbage, ser du kernen og din seneste tanke og kan fortsætte lige der, hvor du stoppede.
+
+### 설명
+
+Tanken, du ikke nåede at gøre færdig i går, kan du fortsætte i dag, lige hvor du slap.
+ThinkFlow er en tankebog, der hjælper dig med at udvikle dybe tanker lidt ad gangen over flere dage.
+
+Hemingway skal angiveligt med vilje være holdt op med at skrive, når det gik godt. Når man ved, hvor man skal starte næste dag, kommer man hurtigt tilbage i flowet. ThinkFlow bruger den metode på tænkning.
+
+Brosætning
+Når du er færdig med at tænke, efterlader du én linje: det spørgsmål, du vil fortsætte med. Næste gang du åbner appen, venter sætningen øverst.
+
+Fortsæt herfra
+Forsiden viser din seneste tanke. Brosætning, kerne indtil nu og din seneste tanke står på ét kort, og du kan skrive videre med det samme.
+
+Fra note til kerne
+Udfin det, du skriver, i fire niveauer: note, ordnet, kernen og resumé. Du kan med det samme se, hvor langt en tanke er nået.
+
+Vedhæft materiale
+Det, du har søgt eller spurgt om og opsummeret, vedhæftes som materiale, tydeligt adskilt fra dine egne tanker.
+
+Tøm hovedet
+Skriv alt ned, der svirrer rundt i hovedet, én linje ad gangen. Senere bliver en linje med ét tryk til en tanke, du kan arbejde videre med.
+
+Tanker at vække til live
+Tanker, du ikke har rørt i over tre dage, samles for sig, så du kan finde dem frem igen. Den tid, du bruger på hver tanke, lægges også sammen.
+
+Widgets og låseskærm
+Se din brosætning og kernen i en widget på hjemmeskærmen. Mens du tænker, vises tiden på låseskærmen og i Dynamic Island.
+
+Dine tanker bliver på din enhed
+Alt gemmes kun på din enhed, og du behøver ingen konto. Eksportér når som helst som en Markdown- eller JSON-fil.
