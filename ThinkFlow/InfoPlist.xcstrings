@@ -87,6 +87,12 @@
             "value" : "ThinkFlow"
           }
         },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",

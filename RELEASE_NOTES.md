@@ -164,3 +164,11 @@ Legg ved research i tankestrømmen
 Skriv ned mange tanker på én gang
 Se brosetningen rett i widgeten
 Send tilbakemelding og omtaler i appen
+
+### 앱스토어 (네덜란드어)
+
+Kaart met de kern en je laatste gedachte
+Voeg onderzoek toe aan je gedachtestroom
+Schrijf veel gedachten in één keer op
+Zie je brugzin direct in de widget
+Stuur feedback en reviews vanuit de app

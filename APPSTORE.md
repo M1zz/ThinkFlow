@@ -1219,3 +1219,64 @@ Se brosetningen og kjernen i en widget på hjemskjermen. Mens du tenker, vises t
 
 Tankene dine blir på enheten din
 Alt lagres bare på enheten din, og du trenger ingen konto. Eksporter når som helst som en Markdown- eller JSON-fil.
+
+## nl
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Denk door
+
+### 부제
+
+Ga verder waar je bleef
+
+### 키워드
+
+notities,dagboek,ideeën,tweede brein,zettelkasten,deep work,reflectie,focus,memo,schrijven
+
+### 프로모션 텍스트
+
+Raak nooit meer de draad kwijt. Als je terugkomt, zie je de kern en je laatste gedachte en ga je precies verder waar je stopte.
+
+### 설명
+
+De gedachte die je gisteren niet afmaakte, zet je vandaag voort precies waar je stopte.
+ThinkFlow is een denkboek waarmee je diepe gedachten stukje bij beetje uitwerkt, verspreid over meerdere dagen.
+
+Hemingway zou bewust zijn gestopt met schrijven als het goed ging. Wie weet waar hij de volgende dag begint, komt snel weer in de flow. ThinkFlow past die methode toe op denken.
+
+Brugzin
+Laat als je klaar bent met denken één regel achter: de vraag waarmee je verdergaat. Als je de app de volgende keer opent, staat die zin bovenaan op je te wachten.
+
+Ga verder vanaf hier
+Het beginscherm toont je nieuwste gedachte. Brugzin, de kern tot nu toe en je laatste gedachte staan op één kaart, en je schrijft meteen verder.
+
+Van notitie tot kern
+Verfijn wat je noteert in vier niveaus: notitie, geordend, kern en samenvatting. In één oogopslag zie je hoe ver een gedachte is uitgerijpt.
+
+Materiaal bijvoegen
+Wat je hebt opgezocht of gevraagd en samengevat, voeg je bij als materiaal, duidelijk gescheiden van je eigen gedachten.
+
+Hoofd leegmaken
+Schrijf alles op wat door je hoofd zweeft, regel voor regel. Later maak je er met één tik een gedachte van waarmee je verdergaat.
+
+Gedachten om nieuw leven in te blazen
+Gedachten die je langer dan drie dagen niet hebt aangeraakt, worden apart verzameld zodat je ze weer kunt oppakken. Ook de tijd die je aan elke gedachte besteedt, wordt opgeteld.
+
+Widgets en toegangsscherm
+Zie je brugzin en de kern in een widget op het beginscherm. Terwijl je denkt, verschijnt de tijd op het toegangsscherm en in het Dynamic Island.
+
+Je gedachten blijven op je apparaat
+Alles wordt alleen op je apparaat bewaard en je hebt geen account nodig. Exporteer wanneer je wilt als Markdown- of JSON-bestand.
