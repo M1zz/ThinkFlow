@@ -52,3 +52,11 @@ Send feedback and reviews inside the app
 可以一次寫下多則想法
 在小工具裡直接查看銜接句
 可以在 App 內直接傳送意見和評價
+
+### 앱스토어 (스페인어)
+
+Tarjeta con lo esencial y tu última idea
+Adjunta tus investigaciones a cada hilo
+Vuelca varias ideas de una sola vez
+Mira tu frase puente desde el widget
+Envía opiniones y reseñas desde la app

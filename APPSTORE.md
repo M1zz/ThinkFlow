@@ -365,3 +365,64 @@ ThinkFlow 是一款思考筆記，幫你把深入的想法分成幾天，一點�
 
 你的想法只在你的裝置上
 所有紀錄只儲存在裝置中，不需要註冊帳號。隨時可以匯出為 Markdown 或 JSON 檔案。
+
+## es
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Sigue pensando
+
+### 부제
+
+Retoma donde lo dejaste
+
+### 키워드
+
+volcado mental,diario,notas,ideas,segundo cerebro,zettelkasten,trabajo profundo,reflexión,enfoque
+
+### 프로모션 텍스트
+
+No vuelvas a perder el hilo. Al regresar, verás lo esencial y tu última idea, y podrás seguir justo donde lo dejaste.
+
+### 설명
+
+Retoma hoy, justo donde lo dejaste, la idea que ayer quedó a medias.
+ThinkFlow es un cuaderno de pensamiento que te ayuda a desarrollar ideas profundas poco a poco, a lo largo de varios días.
+
+Se dice que Hemingway dejaba de escribir a propósito cuando iba bien. Saber por dónde seguir al día siguiente le permitía volver a concentrarse enseguida. ThinkFlow aplica ese método al pensamiento.
+
+Frase puente
+Al terminar de pensar, deja una sola línea: la pregunta con la que seguirás. La próxima vez que abras la app, esa frase te espera arriba del todo.
+
+Seguir desde aquí
+La primera pantalla muestra tu idea más reciente. Ves tu frase puente, lo esencial hasta ahora y tu última idea en una sola tarjeta, y puedes seguir escribiendo al instante.
+
+De la nota a lo esencial
+Afina lo que anotas en cuatro niveles: nota, ordenado, clave y resumen. Verás de un vistazo cuánto ha madurado una idea.
+
+Adjuntar referencias
+Lo que buscaste o consultaste y resumiste se adjunta como referencia, bien separado de tus propias ideas.
+
+Volcar ideas
+Escribe todo lo que te ronda la cabeza, línea por línea. Más tarde, con un toque, cualquiera se convierte en una idea para seguir desarrollando.
+
+Ideas por retomar
+Las ideas que llevas más de tres días sin tocar se reúnen aparte para que puedas recuperarlas. El tiempo que dedicas a cada una también se va acumulando.
+
+Widgets y pantalla de bloqueo
+Mira tu frase puente y lo esencial en un widget de la pantalla de inicio. Mientras piensas, el tiempo aparece en la pantalla de bloqueo y en la Isla Dinámica.
+
+Tus ideas, en tu dispositivo
+Todo se guarda solo en tu dispositivo y no necesitas cuenta. Expórtalo cuando quieras como archivo Markdown o JSON.
