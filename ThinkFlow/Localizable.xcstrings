@@ -63,6 +63,12 @@
             "value" : "Изменено на «%@»"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปลี่ยนเป็น%@แล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -139,6 +145,12 @@
             "value" : "Продолжить мысли в «%@»"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนความคิดต่อใน “%@”"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -210,6 +222,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -399,6 +417,12 @@
             }
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ความคิด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -581,6 +605,12 @@
                 }
               }
             }
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มแล้ว %lld ข้อ"
           }
         },
         "zh-Hans" : {
@@ -767,6 +797,12 @@
             }
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ความคิด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -841,6 +877,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить мысль %lld"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบความคิดที่ %lld"
           }
         },
         "zh-Hans" : {
@@ -919,6 +961,12 @@
             "value" : "Удалить материал %lld"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบข้อมูลที่ %lld"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -995,6 +1043,12 @@
             "value" : "%lld мин"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld นาที"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1069,6 +1123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld ч %2$lld мин"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld ชม. %2$lld นาที"
           }
         },
         "zh-Hans" : {
@@ -1255,6 +1315,12 @@
             }
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทิ้งประโยคเชื่อมไว้เมื่อ %lld วันก่อน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1439,6 +1505,12 @@
             }
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ตัวอักษร"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1513,6 +1585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Все заметки и фраза-мостик в «%@» будут удалены."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โน้ตและประโยคเชื่อมทั้งหมดใน “%@” จะถูกลบ"
           }
         },
         "zh-Hans" : {
@@ -1591,6 +1669,12 @@
             "value" : "Коснитесь «Продолжить мысль», чтобы сделать первую запись"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะ “คิดต่อ” เพื่อบันทึกเรื่องแรก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1665,6 +1749,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Не трогали больше 3 дней"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่ได้แตะมานานกว่า 3 วัน"
           }
         },
         "zh-Hans" : {
@@ -1744,6 +1834,12 @@
             "value" : "Блокировка по Face ID"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกด้วย Face ID"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1821,6 +1917,12 @@
             "value" : "Закрывайте приложение с помощью Face ID или Touch ID, чтобы мысли оставались личными."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกแอปด้วย Face ID หรือ Touch ID เพื่อปกป้องความคิดของคุณ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1895,6 +1997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Экспорт в JSON"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งออกเป็น JSON"
           }
         },
         "zh-Hans" : {
@@ -1974,6 +2082,12 @@
             "value" : "Записывайте мысль мгновенно — голосом через Siri или командой."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พูดกับ Siri หรือใช้คำสั่งลัดเพื่อจดความคิดได้ทันที"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2049,6 +2163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri и Быстрые команды"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri และคำสั่งลัด"
           }
         },
         "zh-Hans" : {
@@ -2128,6 +2248,12 @@
             "value" : "Удобнее с VoiceOver"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้กับ VoiceOver ได้สะดวกขึ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2202,6 +2328,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Связаться с разработчиком"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ติดต่อผู้พัฒนา"
           }
         },
         "zh-Hans" : {
@@ -2281,6 +2413,12 @@
             "value" : "При увеличении шрифта экраны перестраиваются аккуратно, ничего не обрезается."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อขยายขนาดตัวอักษร หน้าจอจะจัดเรียงใหม่อย่างสวยงามโดยไม่ถูกตัด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2356,6 +2494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Синхронизация между устройствами"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ซิงก์ข้ามอุปกรณ์"
           }
         },
         "zh-Hans" : {
@@ -2434,6 +2578,12 @@
             "value" : "Остановитесь на подъёме"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หยุดตอนกำลังมีไฟ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2508,6 +2658,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Незаконченная фраза, оставленная на подъёме. Когда вы откроете приложение снова, мысль подхватится сама."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประโยคที่เขียนค้างไว้ตอนกำลังมีไฟ เมื่อเปิดแอปครั้งหน้า สมองจะต่อความคิดได้เองโดยอัตโนมัติ"
           }
         },
         "zh-Hans" : {
@@ -2586,6 +2742,12 @@
             "value" : "Остановитесь на подъёме.\nКогда вы откроете приложение снова, мысль подхватится сама."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หยุดตอนกำลังมีไฟ\nเมื่อเปิดแอปครั้งหน้า สมองจะต่อความคิดได้เองโดยอัตโนมัติ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2660,6 +2822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Глубина"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความลึก"
           }
         },
         "zh-Hans" : {
@@ -2738,6 +2906,12 @@
             "value" : "Фраза-мостик"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประโยคเชื่อม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2812,6 +2986,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Изменить фразу-мостик"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้ไขประโยคเชื่อม"
           }
         },
         "zh-Hans" : {
@@ -2890,6 +3070,12 @@
             "value" : "Фраза-мостик: %@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประโยคเชื่อม: %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2964,6 +3150,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сырая мысль"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความคิดดิบ"
           }
         },
         "zh-Hans" : {
@@ -3043,6 +3235,12 @@
             "value" : "Удалить все мои данные сразу"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบข้อมูลของฉันทั้งหมดในครั้งเดียว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3117,6 +3315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Экспорт"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งออก"
           }
         },
         "zh-Hans" : {
@@ -3196,6 +3400,12 @@
             "value" : "Возвращайте мысли из ранее экспортированного файла."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "นำไฟล์ที่ส่งออกไว้กลับมาเพื่อฟื้นคืนความคิดของคุณ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3270,6 +3480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Всего: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รวม %@"
           }
         },
         "zh-Hans" : {
@@ -3348,6 +3564,12 @@
             "value" : "Всё выписал"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนครบแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3422,6 +3644,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Далее"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถัดไป"
           }
         },
         "zh-Hans" : {
@@ -3500,6 +3728,12 @@
             "value" : "Напишите незаконченную фразу, с которой продолжите в следующий раз"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนประโยคค้างไว้เพื่อต่อในครั้งหน้า"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3574,6 +3808,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закрыть"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
           }
         },
         "zh-Hans" : {
@@ -3653,6 +3893,12 @@
             "value" : "Всё хорошо читается — даже при повышенной контрастности или трудностях с различением цветов."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อ่านเนื้อหาได้ง่าย แม้เปิดเพิ่มคอนทราสต์หรือแยกสีได้ยาก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3728,6 +3974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Пользуйтесь приложением на большем числе языков."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้แอปได้หลายภาษามากขึ้น"
           }
         },
         "zh-Hans" : {
@@ -3807,6 +4059,12 @@
             "value" : "Больше языков"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาเพิ่มเติม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3881,6 +4139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ещё"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มเติม"
           }
         },
         "zh-Hans" : {
@@ -3959,6 +4223,12 @@
             "value" : "Мысли к возвращению"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความคิดที่ควรฟื้นคืน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4033,6 +4303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Дважды коснитесь, чтобы сменить уровень"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะสองครั้งเพื่อเปลี่ยนระดับ"
           }
         },
         "zh-Hans" : {
@@ -4111,6 +4387,12 @@
             "value" : "Дважды коснитесь, чтобы сделать цепочкой мыслей"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะสองครั้งเพื่อเปลี่ยนเป็นสายความคิด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4185,6 +4467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Дважды коснитесь, чтобы выбрать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะสองครั้งเพื่อเลือก"
           }
         },
         "zh-Hans" : {
@@ -4263,6 +4551,12 @@
             "value" : "Экспорт в Markdown"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งออกเป็น Markdown"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4337,6 +4631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Останавливайтесь не когда упёрлись в стену, а пока ещё есть что писать.\nКогда вы откроете приложение снова, мысль подхватится сама."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อย่าหยุดเพราะติดขัด แต่ให้หยุดตอนที่ยังมีเรื่องจะเขียนอีก\nเมื่อเปิดแอปครั้งหน้า สมองจะต่อความคิดได้เองโดยอัตโนมัติ"
           }
         },
         "zh-Hans" : {
@@ -4415,6 +4715,12 @@
             "value" : "Запишите, что у вас на уме, и создайте новую цепочку"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนสิ่งที่อยู่ในหัวเพื่อสร้างสายความคิดใหม่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4489,6 +4795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выпишите мысли, что роятся в голове,\nа потом вернитесь и подумайте глубже."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนสิ่งที่ลอยอยู่ในหัวออกมา\nแล้วค่อยกลับมาคิดต่อให้ลึกขึ้นในครั้งหน้า"
           }
         },
         "zh-Hans" : {
@@ -4568,6 +4880,12 @@
             "value" : "Своевременное напоминание, чтобы отложенные мысли не забылись."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แจ้งเตือนให้ถูกจังหวะ เพื่อไม่ให้ลืมความคิดที่พักไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4642,6 +4960,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заметка"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โน้ต"
           }
         },
         "zh-Hans" : {
@@ -4720,6 +5044,12 @@
             "value" : "Экспортирует все мысли в файл для резервной копии"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งออกความคิดทั้งหมดเป็นไฟล์เพื่อสำรองข้อมูล"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4794,6 +5124,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оставить фразу-мостик"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทิ้งประโยคเชื่อมไว้"
           }
         },
         "zh-Hans" : {
@@ -4872,6 +5208,12 @@
             "value" : "Шаг «фраза-мостик». Напишите фразу, с которой продолжите в следующий раз."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขั้นตอนทิ้งประโยคเชื่อม เขียนประโยคที่จะต่อในครั้งหน้า"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4946,6 +5288,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Чтобы закрыть, оставьте фразу-мостик"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต้องทิ้งประโยคเชื่อมไว้ก่อนจึงจะปิดได้"
           }
         },
         "zh-Hans" : {
@@ -5025,6 +5373,12 @@
             "value" : "Восстановление из резервной копии"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กู้คืนจากข้อมูลสำรอง"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5099,6 +5453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сообщайте об ошибках и предлагайте функции по почте или в личных сообщениях Instagram"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่งรายงานข้อผิดพลาดและข้อเสนอแนะฟีเจอร์ทางอีเมลหรือ DM Instagram"
           }
         },
         "zh-Hans" : {
@@ -5178,6 +5538,12 @@
             "value" : "Комфортные цвета и контраст"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีและคอนทราสต์ที่สบายตา"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5252,6 +5618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Копировать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คัดลอก"
           }
         },
         "zh-Hans" : {
@@ -5330,6 +5702,12 @@
             "value" : "Скопировано"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คัดลอกแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5404,6 +5782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Скопировано"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คัดลอกแล้ว"
           }
         },
         "zh-Hans" : {
@@ -5482,6 +5866,12 @@
             "value" : "Прикреплённый материал %1$lld: %2$@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อมูลที่แนบ %1$lld: %2$@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5556,6 +5946,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Изменить фразу-мостик"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้ไขประโยคเชื่อม"
           }
         },
         "zh-Hans" : {
@@ -5634,6 +6030,12 @@
             "value" : "Идёт сеанс размышления"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังคิดอยู่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5708,6 +6110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Время размышлений"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เวลาที่ใช้คิด"
           }
         },
         "zh-Hans" : {
@@ -5786,6 +6194,12 @@
             "value" : "Удалить"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5860,6 +6274,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выписать мысли"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระบายความคิด"
           }
         },
         "zh-Hans" : {
@@ -5938,6 +6358,12 @@
             "value" : "Поле для выписывания мыслей"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่องระบายความคิด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6012,6 +6438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить ещё мысль"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มความคิดอีกข้อ"
           }
         },
         "zh-Hans" : {
@@ -6090,6 +6522,12 @@
             "value" : "Изменить мысль"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้ไขความคิด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6164,6 +6602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Думаю…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังคิด…"
           }
         },
         "zh-Hans" : {
@@ -6242,6 +6686,12 @@
             "value" : "Добавить мысль"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มความคิด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6318,6 +6768,12 @@
             "value" : "Мысль добавлена"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มความคิดแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6392,6 +6848,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Можно прикрепить найденное или изложенное отдельно от собственных мыслей"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แนบข้อมูลที่ค้นคว้าหรือสรุปไว้แยกจากความคิดของตัวเองได้"
           }
         },
         "zh-Hans" : {
@@ -6471,6 +6933,12 @@
             "value" : "Лёгкая вибрация, когда вы записываете или продолжаете мысль."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สั่นเบา ๆ เมื่อบันทึกหรือต่อความคิด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6545,6 +7013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Продолжайте думать"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คิดต่อไปด้วยกัน"
           }
         },
         "zh-Hans" : {
@@ -6624,6 +7098,12 @@
             "value" : "Написанное сохранится, даже если приложение закроется на полуслове."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่เขียนค้างไว้ยังอยู่ แม้แอปจะปิดไปกลางคัน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6698,6 +7178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ход мысли"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กระแสความคิด"
           }
         },
         "zh-Hans" : {
@@ -6776,6 +7262,12 @@
             "value" : "Если добавлять каждую новую мысль отдельно, потом будет проще разобраться."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าเพิ่มแยกทุกครั้งที่ความคิดเปลี่ยน จะจัดระเบียบทีหลังได้ง่ายขึ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6850,6 +7342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сохранить все без выбора"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก็บทั้งหมดโดยไม่เลือก"
           }
         },
         "zh-Hans" : {
@@ -6928,6 +7426,12 @@
             "value" : "Выбранная мысль сразу станет цепочкой размышлений. Остальные будут сохранены."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรื่องที่เลือกจะกลายเป็นสายความคิดทันที ส่วนที่เหลือจะถูกเก็บไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7002,6 +7506,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตั้งค่า"
           }
         },
         "zh-Hans" : {
@@ -7081,6 +7591,12 @@
             "value" : "Тактильный отклик"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตอบสนองด้วยการสัมผัส"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7157,6 +7673,12 @@
             "value" : "Изменить"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แก้ไข"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7231,6 +7753,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Начало"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วันที่เริ่ม"
           }
         },
         "zh-Hans" : {
@@ -7310,6 +7838,12 @@
             "value" : "Полезные подсказки"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เคล็ดลับการใช้งาน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7385,6 +7919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Продолжить с того же места"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนความคิดต่อจากที่ค้างไว้"
           }
         },
         "zh-Hans" : {
@@ -7464,6 +8004,12 @@
             "value" : "Записывайте и продолжайте мысли на iPad только с клавиатуры."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนและต่อความคิดบน iPad ได้ด้วยแป้นพิมพ์อย่างเดียว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7539,6 +8085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Продолжайте одни и те же мысли на iPhone и iPad."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนความคิดเดียวกันต่อได้ทั้งบน iPhone และ iPad"
           }
         },
         "zh-Hans" : {
@@ -7617,6 +8169,12 @@
             "value" : "Записей пока нет"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีบันทึก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7691,6 +8249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ещё не разобранные мысли"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความคิดที่ยังไม่ได้จัดระเบียบ"
           }
         },
         "zh-Hans" : {
@@ -7770,6 +8334,12 @@
             "value" : "Напоминания"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การแจ้งเตือน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7845,6 +8415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ненавязчивые подсказки о полезных функциях — как раз вовремя."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บอกฟีเจอร์ที่เป็นประโยชน์เบา ๆ ในจังหวะที่เหมาะสม"
           }
         },
         "zh-Hans" : {
@@ -7924,6 +8500,12 @@
             "value" : "Всё приложение на английском."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้แอปทั้งหมดเป็นภาษาอังกฤษได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7998,6 +8580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "С какой начать?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มจากเรื่องไหนดี?"
           }
         },
         "zh-Hans" : {
@@ -8077,6 +8665,12 @@
             "value" : "При первом запуске после обновления вы узнаете, что нового."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8152,6 +8746,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Что нового"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีอะไรใหม่"
           }
         },
         "zh-Hans" : {
@@ -8230,6 +8830,12 @@
             "value" : "Вы остановились здесь"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คุณหยุดไว้ตรงนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8304,6 +8910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Продолжить отсюда"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ต่อจากตรงนี้"
           }
         },
         "zh-Hans" : {
@@ -8383,6 +8995,12 @@
             "value" : "Полная поддержка английского"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รองรับภาษาอังกฤษเต็มรูปแบบ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8457,6 +9075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Например: «Короткие видео вредят концентрации из-за системы поощрений, а значит…»"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เช่น “คลิปสั้นทำให้สมาธิสั้นลงเพราะระบบให้รางวัล แล้วถ้า…”"
           }
         },
         "zh-Hans" : {
@@ -8535,6 +9159,12 @@
             "value" : "Напр., итоги вопроса к Claude"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เช่น สรุปสิ่งที่ถาม Claude"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8609,6 +9239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сначала старые"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก่าสุดก่อน"
           }
         },
         "zh-Hans" : {
@@ -8687,6 +9323,12 @@
             "value" : "Готово"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เสร็จสิ้น"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8761,6 +9403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Итог"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สรุป"
           }
         },
         "zh-Hans" : {
@@ -8840,6 +9488,12 @@
             "value" : "Уменьшение движения"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลดการเคลื่อนไหว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8915,6 +9569,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Если включить «Уменьшение движения», эффекты на экране станут спокойнее."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิด “ลดการเคลื่อนไหว” เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
           }
         },
         "zh-Hans" : {
@@ -8994,6 +9654,12 @@
             "value" : "Удалите все свои мысли прямо в приложении, когда захотите."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบความคิดทั้งหมดของคุณจากในแอปได้ทุกเมื่อ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9068,6 +9734,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить эту мысль?"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบความคิดนี้ไหม?"
           }
         },
         "zh-Hans" : {
@@ -9146,6 +9818,12 @@
             "value" : "Копирует эту мысль в буфер обмена"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คัดลอกความคิดนี้ไปยังคลิปบอร์ด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9220,6 +9898,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Копирует этот материал в буфер обмена"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คัดลอกข้อมูลนี้ไปยังคลิปบอร์ด"
           }
         },
         "zh-Hans" : {
@@ -9298,6 +9982,12 @@
             "value" : "Начать с этой"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มจากเรื่องนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9372,6 +10062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Написать на почту"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ติดต่อทางอีเมล"
           }
         },
         "zh-Hans" : {
@@ -9450,6 +10146,12 @@
             "value" : "Продолжить мысль"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คิดต่อ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9524,6 +10226,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Оставьте фразу-мостик"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทิ้งประโยคเชื่อมไว้"
           }
         },
         "zh-Hans" : {
@@ -9602,6 +10310,12 @@
             "value" : "Личное сообщение в Instagram (@lee25_ios)"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ส่ง DM Instagram (@lee25_ios)"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9676,6 +10390,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавляет написанное как одну мысль и позволяет записать следующую"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มสิ่งที่เขียนเป็นหนึ่งความคิด แล้วเขียนข้อถัดไปต่อได้"
           }
         },
         "zh-Hans" : {
@@ -9754,6 +10474,12 @@
             "value" : "Прикрепляет написанное к этой цепочке мыслей"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แนบสิ่งที่เขียนเข้ากับสายความคิดนี้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9828,6 +10554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Материал"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อมูล"
           }
         },
         "zh-Hans" : {
@@ -9906,6 +10638,12 @@
             "value" : "Материал · %@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อมูล · %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9980,6 +10718,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Содержание материала"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เนื้อหาข้อมูล"
           }
         },
         "zh-Hans" : {
@@ -10058,6 +10802,12 @@
             "value" : "Добавить материал"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มข้อมูล"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10132,6 +10882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Материал добавлен"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มข้อมูลแล้ว"
           }
         },
         "zh-Hans" : {
@@ -10210,6 +10966,12 @@
             "value" : "Источник материала"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แหล่งที่มาของข้อมูล"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10284,6 +11046,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сохранить"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึก"
           }
         },
         "zh-Hans" : {
@@ -10362,6 +11130,12 @@
             "value" : "Сохранить все"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก็บไว้ทั้งหมด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10436,6 +11210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Копировать всё"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คัดลอกทั้งหมด"
           }
         },
         "zh-Hans" : {
@@ -10514,6 +11294,12 @@
             "value" : "Разобрано"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จัดระเบียบแล้ว"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10588,6 +11374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Уровень проработки"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระดับการกลั่นกรอง"
           }
         },
         "zh-Hans" : {
@@ -10666,6 +11458,12 @@
             "value" : "Уровень проработки: %@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระดับการกลั่นกรอง %@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10740,6 +11538,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Уровень проработки, сейчас «%@»"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระดับการกลั่นกรอง ตอนนี้เป็น%@"
           }
         },
         "zh-Hans" : {
@@ -10818,6 +11622,12 @@
             "value" : "Исследования и источники"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผลค้นคว้าและแหล่งข้อมูล"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10892,6 +11702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Прикрепить исследования и источники"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แนบผลค้นคว้าและแหล่งข้อมูล"
           }
         },
         "zh-Hans" : {
@@ -10970,6 +11786,12 @@
             "value" : "Материал исследования"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อมูลค้นคว้า"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11044,6 +11866,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Материал исследования, источник: %@"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อมูลค้นคว้า แหล่งที่มา %@"
           }
         },
         "zh-Hans" : {
@@ -11122,6 +11950,12 @@
             "value" : "Вставьте то, что вы нашли или кратко изложили"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วางสิ่งที่คุณค้นคว้าหรือสรุปไว้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11196,6 +12030,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Переводы строк разделяют мысли"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ขึ้นบรรทัดใหม่เพื่อแยกความคิดเป็นหลายข้อ"
           }
         },
         "zh-Hans" : {
@@ -11274,6 +12114,12 @@
             "value" : "Если выбрать только одну прямо сейчас?"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ้าเลือกได้แค่หนึ่งเรื่องตอนนี้ จะเลือกเรื่องไหน?"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11348,6 +12194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выпишите всё, что крутится в голове"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เขียนสิ่งที่อยู่ในหัวออกมาเลย"
           }
         },
         "zh-Hans" : {
@@ -11426,6 +12278,12 @@
             "value" : "Мысль в процессе"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความคิดที่กำลังต่อ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11500,6 +12358,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ход мысли до сих пор"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เส้นทางความคิดที่ผ่านมา"
           }
         },
         "zh-Hans" : {
@@ -11578,6 +12442,12 @@
             "value" : "Поддержка"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สนับสนุน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11652,6 +12522,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открывает поддержку и сведения о приложении"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เปิดหน้าสนับสนุนและข้อมูลแอป"
           }
         },
         "zh-Hans" : {
@@ -11730,6 +12606,12 @@
             "value" : "Последняя мысль"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความคิดล่าสุด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11804,6 +12686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мысли в работе"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความคิดที่กำลังทำอยู่"
           }
         },
         "zh-Hans" : {
@@ -11883,6 +12771,12 @@
             "value" : "Знакомство с приложением"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คู่มือเริ่มต้นใช้งาน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11958,6 +12852,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Короткий обзор возможностей при первом запуске."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แนะนำสั้น ๆ ว่าทำอะไรได้บ้างเมื่อเปิดแอปครั้งแรก"
           }
         },
         "zh-Hans" : {
@@ -12036,6 +12936,12 @@
             "value" : "Выписать первые мысли"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ระบายความคิดแรก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12110,6 +13016,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Открывались за последние 3 дня"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าดูในช่วง 3 วันที่ผ่านมา"
           }
         },
         "zh-Hans" : {
@@ -12188,6 +13100,12 @@
             "value" : "Сначала новые"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใหม่สุดก่อน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12262,6 +13180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Итоговое резюме"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สรุปสุดท้าย"
           }
         },
         "zh-Hans" : {
@@ -12340,6 +13264,12 @@
             "value" : "Добавленная мысль %1$lld: %2$@"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความคิดที่เพิ่ม %1$lld: %2$@"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12416,6 +13346,12 @@
             "value" : "Источник (напр., Claude, поиск) — по желанию"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แหล่งที่มา (เช่น Claude, ค้นหา) — ไม่บังคับ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12490,6 +13426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Отмена"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
           }
         },
         "zh-Hans" : {
@@ -12569,6 +13511,12 @@
             "value" : "Экраны для крупного шрифта"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าจอสำหรับตัวอักษรขนาดใหญ่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12646,6 +13594,12 @@
             "value" : "Управление с клавиатуры"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ควบคุมด้วยแป้นพิมพ์"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12720,6 +13674,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Коснитесь, чтобы сделать цепочкой мыслей"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะเพื่อเปลี่ยนเป็นสายความคิด"
           }
         },
         "zh-Hans" : {
@@ -12799,6 +13759,12 @@
             "value" : "Экран складного iPhone"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าจอ iPhone แบบพับได้"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12874,6 +13840,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Используйте широкий экран складного iPhone в виде двух панелей рядом."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้หน้าจอกว้างของ iPhone แบบพับได้เป็นสองช่องเคียงข้างกัน"
           }
         },
         "zh-Hans" : {
@@ -12952,6 +13924,12 @@
             "value" : "Хоть одну мысль, хоть десять. Разделяйте их переводом строки."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จะเขียนข้อเดียวหรือสิบข้อก็ได้ ใช้การขึ้นบรรทัดใหม่แยกแต่ละความคิด"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13026,6 +14004,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Разобрано раз"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จัดระเบียบหนึ่งรอบ"
           }
         },
         "zh-Hans" : {
@@ -13104,6 +14088,12 @@
             "value" : "Главное"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประเด็นหลัก"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13178,6 +14168,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Только главное"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เฉพาะประเด็นหลัก"
           }
         },
         "zh-Hans" : {
@@ -13255,6 +14251,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver зачитывает каждую кнопку и заметку в правильном порядке."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver อ่านทุกปุ่มและทุกโน้ตตามลำดับที่ถูกต้อง"
           }
         },
         "zh-Hans" : {

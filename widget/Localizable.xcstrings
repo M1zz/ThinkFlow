@@ -171,6 +171,12 @@
             }
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld โน้ต"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -355,6 +361,12 @@
             }
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หยุดนิ่งมา %lld วัน"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -429,6 +441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Показывает фразу-мостик самой свежей цепочки мыслей."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แสดงประโยคเชื่อมของสายความคิดล่าสุด"
           }
         },
         "zh-Hans" : {
@@ -507,6 +525,12 @@
             "value" : "Подумать дальше"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรื่องที่จะคิดต่อ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -581,6 +605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мысли к возвращению"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความคิดที่ควรฟื้นคืน"
           }
         },
         "zh-Hans" : {
@@ -659,6 +689,12 @@
             "value" : "Вернитесь к остановленной мысли. Фраза-мостик — на экране «Домой»."
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กลับมาคิดต่อจากที่หยุดไว้ ดูประโยคเชื่อมได้บนหน้าจอโฮม"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -735,6 +771,12 @@
             "value" : "Начните новую мысль"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มความคิดใหม่"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -806,6 +848,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -887,6 +935,12 @@
             "value" : "Виджет ThinkFlow"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "วิดเจ็ต ThinkFlow"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -963,6 +1017,12 @@
             "value" : "Продолжить мысль"
           }
         },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คิดต่อ"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1037,6 +1097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подумать сейчас"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เรื่องที่คิดอยู่ตอนนี้"
           }
         },
         "zh-Hans" : {
