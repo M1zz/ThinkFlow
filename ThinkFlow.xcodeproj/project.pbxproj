@@ -349,6 +349,7 @@
 				"pt-BR",
 				ru,
 				th,
+				vi,
 				Base,
 			);
 			mainGroup = A50001;

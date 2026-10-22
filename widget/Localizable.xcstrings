@@ -177,6 +177,12 @@
             "value" : "%lld โน้ต"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ghi chú"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -367,6 +373,12 @@
             "value" : "หยุดนิ่งมา %lld วัน"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ngủ yên %lld ngày"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -447,6 +459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แสดงประโยคเชื่อมของสายความคิดล่าสุด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiển thị câu nối của mạch suy nghĩ gần nhất."
           }
         },
         "zh-Hans" : {
@@ -531,6 +549,12 @@
             "value" : "เรื่องที่จะคิดต่อ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nghĩ tiếp điều này"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -611,6 +635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ความคิดที่ควรฟื้นคืน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suy nghĩ cần đánh thức"
           }
         },
         "zh-Hans" : {
@@ -695,6 +725,12 @@
             "value" : "กลับมาคิดต่อจากที่หยุดไว้ ดูประโยคเชื่อมได้บนหน้าจอโฮม"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nối lại mạch nghĩ đã dừng. Xem câu nối ngay trên Màn hình chính."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -777,6 +813,12 @@
             "value" : "เริ่มความคิดใหม่"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bắt đầu một suy nghĩ mới"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -854,6 +896,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -941,6 +989,12 @@
             "value" : "วิดเจ็ต ThinkFlow"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiện ích ThinkFlow"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1023,6 +1077,12 @@
             "value" : "คิดต่อ"
           }
         },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nghĩ tiếp"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1103,6 +1163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เรื่องที่คิดอยู่ตอนนี้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nghĩ ngay bây giờ"
           }
         },
         "zh-Hans" : {

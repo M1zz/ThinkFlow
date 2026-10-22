@@ -792,3 +792,64 @@ ThinkFlow คือสมุดโน้ตสำหรับการคิด 
 
 ความคิดของคุณอยู่ในอุปกรณ์ของคุณ
 ทุกบันทึกเก็บไว้ในอุปกรณ์เท่านั้น ไม่ต้องสมัครบัญชี ส่งออกเป็นไฟล์ Markdown หรือ JSON ได้ทุกเมื่อ
+
+## vi
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Nghĩ tiếp
+
+### 부제
+
+Tiếp tục từ chỗ bạn đã dừng
+
+### 키워드
+
+ghi chú,nhật ký,ý tưởng,bộ não thứ hai,zettelkasten,làm việc sâu,suy ngẫm,tập trung,ghi nhớ
+
+### 프로모션 텍스트
+
+Không còn quên mình đã nghĩ đến đâu. Mỗi khi quay lại, ứng dụng cho bạn thấy ý chính và suy nghĩ gần nhất để nghĩ tiếp ngay từ chỗ đã dừng.
+
+### 설명
+
+Suy nghĩ còn dang dở hôm qua, hôm nay hãy nối tiếp ngay từ chỗ đó.
+ThinkFlow là cuốn sổ suy nghĩ giúp bạn phát triển những ý tưởng sâu sắc từng chút một qua nhiều ngày.
+
+Nghe nói Hemingway cố tình dừng viết khi mạch văn đang trôi chảy. Biết ngày mai bắt đầu từ đâu giúp ông nhập lại dòng chảy ngay. ThinkFlow áp dụng cách này vào việc suy nghĩ.
+
+Câu nối
+Khi kết thúc một lượt suy nghĩ, hãy để lại một dòng: câu hỏi sẽ nối tiếp. Lần sau mở ứng dụng, câu đó đang chờ bạn ở trên cùng.
+
+Nối tiếp từ đây
+Màn hình đầu tiên hiển thị suy nghĩ gần nhất của bạn. Câu nối, các ý chính cho đến giờ và suy nghĩ gần nhất nằm trong một thẻ, bạn có thể viết tiếp ngay.
+
+Từ ghi chú đến ý chính
+Chắt lọc những gì bạn ghi qua bốn mức: ghi chú, đã sắp xếp, ý chính và tóm tắt. Nhìn là biết suy nghĩ đã chín đến đâu.
+
+Đính kèm tài liệu
+Những gì bạn tìm hoặc hỏi rồi tóm tắt sẽ được đính kèm thành tài liệu, tách bạch với suy nghĩ của chính bạn.
+
+Trút suy nghĩ
+Hãy viết ra mọi thứ đang lơ lửng trong đầu, từng dòng một. Sau đó chỉ cần một lần chạm là thành suy nghĩ để nối tiếp.
+
+Suy nghĩ cần đánh thức
+Những suy nghĩ bạn bỏ quên hơn ba ngày được gom riêng để bạn lấy ra nghĩ lại. Thời gian dành cho từng suy nghĩ cũng được cộng dồn.
+
+Tiện ích và màn hình khóa
+Xem câu nối và ý chính trên tiện ích ở Màn hình chính. Khi đang suy nghĩ, thời gian hiển thị trên màn hình khóa và Dynamic Island.
+
+Suy nghĩ của bạn nằm trên thiết bị của bạn
+Mọi ghi chép chỉ lưu trên thiết bị và không cần tài khoản. Bạn có thể xuất ra tệp Markdown hoặc JSON bất cứ lúc nào.

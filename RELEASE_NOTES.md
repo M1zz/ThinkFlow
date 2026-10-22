@@ -108,3 +108,11 @@ Envie opiniões e avaliações pelo app
 ระบายความคิดหลายข้อได้ในครั้งเดียว
 ดูประโยคเชื่อมจากวิดเจ็ตได้ทันที
 ส่งความเห็นและรีวิวได้ในแอป
+
+### 앱스토어 (베트남어)
+
+Thẻ hiện ý chính và suy nghĩ gần nhất
+Đính kèm tài liệu tra cứu vào mạch nghĩ
+Trút nhiều suy nghĩ cùng một lúc
+Xem câu nối ngay trên tiện ích
+Gửi góp ý và đánh giá trong ứng dụng
