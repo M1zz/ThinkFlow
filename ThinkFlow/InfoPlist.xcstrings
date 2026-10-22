@@ -51,6 +51,12 @@
             "value" : "이어생각"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",

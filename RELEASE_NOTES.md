@@ -84,3 +84,11 @@ Allega le ricerche al flusso di pensiero
 Scrivi tanti pensieri in un colpo solo
 Vedi la frase ponte nel widget
 Invia pareri e recensioni dall’app
+
+### 앱스토어 (포르투갈어(브라질))
+
+Cartão com o essencial e a última ideia
+Anexe pesquisas ao fluxo de pensamento
+Despeje várias ideias de uma só vez
+Veja a frase-ponte no widget
+Envie opiniões e avaliações pelo app

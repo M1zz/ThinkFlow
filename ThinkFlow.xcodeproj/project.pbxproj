@@ -346,6 +346,7 @@
 				de,
 				fr,
 				it,
+				"pt-BR",
 				Base,
 			);
 			mainGroup = A50001;

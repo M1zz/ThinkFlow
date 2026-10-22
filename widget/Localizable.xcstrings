@@ -123,6 +123,24 @@
             "value" : "%lld개 메모"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld nota"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld notas"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -259,6 +277,24 @@
             "value" : "%lld일째 잠자는 중"
           }
         },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Parada há %lld dia"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Parada há %lld dias"
+                }
+              }
+            }
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -321,6 +357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "가장 최근 생각 스레드의 브릿지를 보여줍니다."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra a frase-ponte do seu fio de pensamento mais recente."
           }
         },
         "zh-Hans" : {
@@ -387,6 +429,12 @@
             "value" : "다음에 생각할 것"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para pensar depois"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -449,6 +497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "되살릴 생각"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ideias para retomar"
           }
         },
         "zh-Hans" : {
@@ -515,6 +569,12 @@
             "value" : "멈춘 생각을 이어가세요. 헤밍웨이 브릿지를 홈 화면에서 확인합니다."
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retome os pensamentos parados. Veja sua frase-ponte na Tela de Início."
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -577,6 +637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "새 생각을 시작하세요"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comece uma nova ideia"
           }
         },
         "zh-Hans" : {
@@ -643,6 +709,12 @@
             "value" : "이어생각"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -705,6 +777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이어생각 위젯"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget do ThinkFlow"
           }
         },
         "zh-Hans" : {
@@ -771,6 +849,12 @@
             "value" : "이어서 생각하기"
           }
         },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar pensando"
+          }
+        },
         "zh-Hans" : {
           "stringUnit" : {
             "state" : "translated",
@@ -833,6 +917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 생각할 것"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para pensar agora"
           }
         },
         "zh-Hans" : {

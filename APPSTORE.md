@@ -609,3 +609,64 @@ Vedi la frase ponte e il concetto chiave in un widget nella schermata Home. Ment
 
 I tuoi pensieri restano sul tuo dispositivo
 Tutto è salvato solo sul tuo dispositivo e non serve alcun account. Esporta quando vuoi in un file Markdown o JSON.
+
+## pt-BR
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Siga pensando
+
+### 부제
+
+Retome de onde parou
+
+### 키워드
+
+despejo mental,diário,notas,ideias,segundo cérebro,zettelkasten,deep work,reflexão,foco,memo,escrita
+
+### 프로모션 텍스트
+
+Nunca mais perca o fio da meada. Ao voltar, veja o essencial e a sua última ideia, e retome exatamente de onde parou.
+
+### 설명
+
+A ideia que ficou pela metade ontem, retome hoje exatamente de onde parou.
+O ThinkFlow é um caderno de pensamento que ajuda você a desenvolver ideias profundas aos poucos, ao longo de vários dias.
+
+Dizem que Hemingway parava de escrever de propósito quando a escrita fluía. Saber por onde recomeçar no dia seguinte faz voltar ao foco na hora. O ThinkFlow aplica esse método ao pensamento.
+
+Frase-ponte
+Ao terminar de pensar, deixe uma única linha: a pergunta para retomar depois. Quando abrir o app de novo, essa frase estará esperando lá no topo.
+
+Continuar daqui
+A primeira tela mostra a sua ideia mais recente. Frase-ponte, o essencial até agora e a última ideia ficam em um só cartão, e você continua escrevendo na hora.
+
+Da nota ao essencial
+Refine o que você anota em quatro níveis: nota, organizado, essencial e resumo. Veja num relance o quanto uma ideia amadureceu.
+
+Anexar referências
+O que você pesquisou ou perguntou e resumiu fica anexado como referência, bem separado das suas próprias ideias.
+
+Despejar ideias
+Escreva tudo que anda solto na sua cabeça, uma linha por vez. Depois, com um toque, qualquer linha vira uma ideia para desenvolver.
+
+Ideias para retomar
+As ideias que você não toca há mais de três dias ficam reunidas à parte para você retomá-las. O tempo dedicado a cada ideia também vai se acumulando.
+
+Widgets e Tela de Bloqueio
+Veja a frase-ponte e o essencial em um widget na Tela de Início. Enquanto você pensa, o tempo aparece na Tela de Bloqueio e na Dynamic Island.
+
+Suas ideias ficam no seu dispositivo
+Tudo é salvo apenas no seu dispositivo, sem precisar de conta. Exporte quando quiser em arquivo Markdown ou JSON.
