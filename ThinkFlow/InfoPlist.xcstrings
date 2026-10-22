@@ -123,6 +123,12 @@
             "value" : "ThinkFlow"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",

@@ -1402,3 +1402,64 @@ Se din brofras och kärnan i en widget på hemskärmen. Medan du tänker visas t
 
 Dina tankar stannar på din enhet
 Allt sparas bara på din enhet och du behöver inget konto. Exportera när som helst som en Markdown- eller JSON-fil.
+
+## tr
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Düşünmeye Devam
+
+### 부제
+
+Kaldığın yerden sürdür
+
+### 키워드
+
+notlar,günlük,fikirler,ikinci beyin,zettelkasten,derin çalışma,yansıtma,odak,not defteri,yazma
+
+### 프로모션 텍스트
+
+Nereye kadar düşündüğünü bir daha unutma. Geri döndüğünde özet noktayı ve son düşünceni görür, tam kaldığın yerden devam edersin.
+
+### 설명
+
+Dün yarım kalan düşünceni bugün tam kaldığın yerden sürdür.
+ThinkFlow, derin düşünceleri günlere yayarak azar azar geliştirmene yardım eden bir düşünce defteridir.
+
+Hemingway’in iş iyi giderken bilerek yazmayı bıraktığı söylenir. Ertesi gün nereden başlayacağını bilmek, akışa hemen geri dönmeyi sağlar. ThinkFlow bu yöntemi düşünmeye uygular.
+
+Köprü cümlesi
+Düşünmeyi bitirirken tek bir satır bırak: devam edeceğin soru. Uygulamayı bir sonraki açışında o cümle en üstte seni bekler.
+
+Buradan devam et
+İlk ekranda en son düşüncen görünür. Köprü cümlesi, şimdiye kadarki özet noktalar ve son düşüncen tek bir kartta durur; hemen yazmaya devam edebilirsin.
+
+Nottan özet noktaya
+Yazdıklarını dört düzeyde olgunlaştır: not, düzenlendi, özet nokta ve özet. Bir düşüncenin ne kadar olgunlaştığını tek bakışta görürsün.
+
+Materyal ekleme
+Aradığın ya da sorup özetlediğin içerikleri materyal olarak, kendi düşüncelerinden net biçimde ayırarak ekle.
+
+Düşünceleri dök
+Kafanda dolaşan her şeyi satır satır yaz. Sonra tek dokunuşla devam edeceğin bir düşünceye dönüşür.
+
+Canlandırılacak düşünceler
+Üç günden uzun süredir dokunmadığın düşünceler ayrı toplanır, böylece onları yeniden eline alabilirsin. Her düşünceye harcadığın süre de birikir.
+
+Widget’lar ve Kilit Ekranı
+Köprü cümleni ve özet noktayı Ana Ekran widget’ında gör. Düşünürken süre Kilit Ekranı’nda ve Dynamic Island’da görünür.
+
+Düşüncelerin cihazında kalır
+Tüm kayıtlar yalnızca cihazında saklanır ve hesap gerekmez. İstediğin zaman Markdown ya da JSON dosyası olarak dışa aktarabilirsin.

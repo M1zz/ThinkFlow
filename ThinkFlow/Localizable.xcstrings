@@ -123,6 +123,12 @@
             "value" : "เปลี่ยนเป็น%@แล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ olarak değiştirildi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -265,6 +271,12 @@
             "value" : "เขียนความคิดต่อใน “%@”"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” içinde düşünmeye devam et"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -402,6 +414,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -771,6 +789,24 @@
             "value" : "%lld ความคิด"
           }
         },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld düşünce"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld düşünce"
+                }
+              }
+            }
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1133,6 +1169,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มแล้ว %lld ข้อ"
+          }
+        },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld eklendi"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld eklendi"
+                }
+              }
+            }
           }
         },
         "vi" : {
@@ -1499,6 +1553,24 @@
             "value" : "%lld ความคิด"
           }
         },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld düşünce"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld düşünce"
+                }
+              }
+            }
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1639,6 +1711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบความคิดที่ %lld"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld. düşünceyi sil"
           }
         },
         "vi" : {
@@ -1783,6 +1861,12 @@
             "value" : "ลบข้อมูลที่ %lld"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld. materyali sil"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1925,6 +2009,12 @@
             "value" : "%lld นาที"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld dk"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2065,6 +2155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld ชม. %2$lld นาที"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld sa %2$lld dk"
           }
         },
         "vi" : {
@@ -2431,6 +2527,24 @@
             "value" : "ทิ้งประโยคเชื่อมไว้เมื่อ %lld วันก่อน"
           }
         },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Köprü %lld gün önce bırakıldı"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Köprü %lld gün önce bırakıldı"
+                }
+              }
+            }
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2795,6 +2909,24 @@
             "value" : "%lld ตัวอักษร"
           }
         },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld karakter"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld karakter"
+                }
+              }
+            }
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2935,6 +3067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โน้ตและประโยคเชื่อมทั้งหมดใน “%@” จะถูกลบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@” içindeki tüm notlar ve köprü cümlesi silinecek."
           }
         },
         "vi" : {
@@ -3079,6 +3217,12 @@
             "value" : "แตะ “คิดต่อ” เพื่อบันทึกเรื่องแรก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlk kaydını bırakmak için “Düşünmeye Devam Et”e dokun"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3219,6 +3363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่ได้แตะมานานกว่า 3 วัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3 günden uzun süredir dokunulmadı"
           }
         },
         "vi" : {
@@ -3364,6 +3514,12 @@
             "value" : "ล็อกด้วย Face ID"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID kilidi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3507,6 +3663,12 @@
             "value" : "ล็อกแอปด้วย Face ID หรือ Touch ID เพื่อปกป้องความคิดของคุณ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşüncelerini gizli tutmak için uygulamayı Face ID veya Touch ID ile kilitle."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3647,6 +3809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ส่งออกเป็น JSON"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSON olarak dışa aktar"
           }
         },
         "vi" : {
@@ -3792,6 +3960,12 @@
             "value" : "พูดกับ Siri หรือใช้คำสั่งลัดเพื่อจดความคิดได้ทันที"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri’ye söyleyerek ya da bir kestirme çalıştırarak düşünceni anında yaz."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3933,6 +4107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri และคำสั่งลัด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri ve Kestirmeler"
           }
         },
         "vi" : {
@@ -4078,6 +4258,12 @@
             "value" : "ใช้กับ VoiceOver ได้สะดวกขึ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver ile daha rahat kullanım"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4218,6 +4404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดต่อผู้พัฒนา"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geliştiriciyle iletişime geç"
           }
         },
         "vi" : {
@@ -4363,6 +4555,12 @@
             "value" : "เมื่อขยายขนาดตัวอักษร หน้าจอจะจัดเรียงใหม่อย่างสวยงามโดยไม่ถูกตัด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazı boyutunu büyüttüğünde ekranlar kesilmeden düzgünce yeniden yerleşir."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4504,6 +4702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ซิงก์ข้ามอุปกรณ์"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cihazlar arası senkronizasyon"
           }
         },
         "vi" : {
@@ -4648,6 +4852,12 @@
             "value" : "หยุดตอนกำลังมีไฟ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akıştayken dur"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4788,6 +4998,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ประโยคที่เขียนค้างไว้ตอนกำลังมีไฟ เมื่อเปิดแอปครั้งหน้า สมองจะต่อความคิดได้เองโดยอัตโนมัติ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tam akıştayken yarım bıraktığın bir cümle. Uygulamayı bir sonraki açışında zihnin kaldığın yerden kendiliğinden devam eder."
           }
         },
         "vi" : {
@@ -4932,6 +5148,12 @@
             "value" : "หยุดตอนกำลังมีไฟ\nเมื่อเปิดแอปครั้งหน้า สมองจะต่อความคิดได้เองโดยอัตโนมัติ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akıştayken dur.\nUygulamayı bir sonraki açışında zihnin kaldığın yerden kendiliğinden devam eder."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5072,6 +5294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ความลึก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Derinlik"
           }
         },
         "vi" : {
@@ -5216,6 +5444,12 @@
             "value" : "ประโยคเชื่อม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köprü Cümlesi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5356,6 +5590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แก้ไขประโยคเชื่อม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köprü Cümlesini Düzenle"
           }
         },
         "vi" : {
@@ -5500,6 +5740,12 @@
             "value" : "ประโยคเชื่อม: %@"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köprü cümlesi: %@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5640,6 +5886,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ความคิดดิบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ham düşünce"
           }
         },
         "vi" : {
@@ -5785,6 +6037,12 @@
             "value" : "ลบข้อมูลของฉันทั้งหมดในครั้งเดียว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verilerimi tek seferde sil"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5925,6 +6183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ส่งออก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dışa Aktar"
           }
         },
         "vi" : {
@@ -6070,6 +6334,12 @@
             "value" : "นำไฟล์ที่ส่งออกไว้กลับมาเพื่อฟื้นคืนความคิดของคุณ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dışa aktardığın bir dosyadan düşüncelerini geri getir."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6210,6 +6480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รวม %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toplam %@"
           }
         },
         "vi" : {
@@ -6354,6 +6630,12 @@
             "value" : "เขียนครบแล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hepsini döktüm"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6494,6 +6776,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถัดไป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İleri"
           }
         },
         "vi" : {
@@ -6638,6 +6926,12 @@
             "value" : "เขียนประโยคค้างไว้เพื่อต่อในครั้งหน้า"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir sonraki sefere devam edeceğin yarım cümleyi yaz"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6778,6 +7072,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปิด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapat"
           }
         },
         "vi" : {
@@ -6923,6 +7223,12 @@
             "value" : "อ่านเนื้อหาได้ง่าย แม้เปิดเพิ่มคอนทราสต์หรือแยกสีได้ยาก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrastı artırdığında ya da renkleri ayırt etmekte zorlandığında bile her şeyi rahatça oku."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7064,6 +7370,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้แอปได้หลายภาษามากขึ้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamayı daha fazla dilde kullan."
           }
         },
         "vi" : {
@@ -7209,6 +7521,12 @@
             "value" : "ภาษาเพิ่มเติม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha fazla dil"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7349,6 +7667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มเติม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha Fazla"
           }
         },
         "vi" : {
@@ -7493,6 +7817,12 @@
             "value" : "ความคิดที่ควรฟื้นคืน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canlandırılacak düşünceler"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7633,6 +7963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะสองครั้งเพื่อเปลี่ยนระดับ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düzeyi değiştirmek için iki kez dokun"
           }
         },
         "vi" : {
@@ -7777,6 +8113,12 @@
             "value" : "แตะสองครั้งเพื่อเปลี่ยนเป็นสายความคิด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünce dizisine dönüştürmek için iki kez dokun"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7917,6 +8259,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะสองครั้งเพื่อเลือก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçmek için iki kez dokun"
           }
         },
         "vi" : {
@@ -8061,6 +8409,12 @@
             "value" : "ส่งออกเป็น Markdown"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markdown olarak dışa aktar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8201,6 +8555,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อย่าหยุดเพราะติดขัด แต่ให้หยุดตอนที่ยังมีเรื่องจะเขียนอีก\nเมื่อเปิดแอปครั้งหน้า สมองจะต่อความคิดได้เองโดยอัตโนมัติ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tıkandığın için değil, yazacak bir şeyin hâlâ varken dur.\nUygulamayı bir sonraki açışında zihnin kaldığın yerden kendiliğinden devam eder."
           }
         },
         "vi" : {
@@ -8345,6 +8705,12 @@
             "value" : "เขียนสิ่งที่อยู่ในหัวเพื่อสร้างสายความคิดใหม่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aklındakileri yaz ve yeni bir dizi oluştur"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8485,6 +8851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เขียนสิ่งที่ลอยอยู่ในหัวออกมา\nแล้วค่อยกลับมาคิดต่อให้ลึกขึ้นในครั้งหน้า"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kafanda dolaşan düşünceleri dök,\nbir sonraki sefere daha derin düşün."
           }
         },
         "vi" : {
@@ -8630,6 +9002,12 @@
             "value" : "แจ้งเตือนให้ถูกจังหวะ เพื่อไม่ให้ลืมความคิดที่พักไว้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kenara koyduğun düşünceleri unutmaman için doğru zamanda hatırlatma."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8770,6 +9148,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "โน้ต"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not"
           }
         },
         "vi" : {
@@ -8914,6 +9298,12 @@
             "value" : "ส่งออกความคิดทั้งหมดเป็นไฟล์เพื่อสำรองข้อมูล"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm düşüncelerini yedek olarak bir dosyaya aktarır"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9054,6 +9444,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทิ้งประโยคเชื่อมไว้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köprü Cümlesi Bırak"
           }
         },
         "vi" : {
@@ -9198,6 +9594,12 @@
             "value" : "ขั้นตอนทิ้งประโยคเชื่อม เขียนประโยคที่จะต่อในครั้งหน้า"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köprü cümlesi adımı. Bir sonraki sefere devam edeceğin cümleyi yaz."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9338,6 +9740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ต้องทิ้งประโยคเชื่อมไว้ก่อนจึงจะปิดได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapatmak için bir köprü cümlesi bırak"
           }
         },
         "vi" : {
@@ -9483,6 +9891,12 @@
             "value" : "กู้คืนจากข้อมูลสำรอง"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yedekten geri yükle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9623,6 +10037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ส่งรายงานข้อผิดพลาดและข้อเสนอแนะฟีเจอร์ทางอีเมลหรือ DM Instagram"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hata bildirimlerini ve özellik önerilerini e-posta veya Instagram DM ile gönder"
           }
         },
         "vi" : {
@@ -9768,6 +10188,12 @@
             "value" : "สีและคอนทราสต์ที่สบายตา"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha rahat renkler ve kontrast"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9908,6 +10334,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คัดลอก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopyala"
           }
         },
         "vi" : {
@@ -10052,6 +10484,12 @@
             "value" : "คัดลอกแล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopyalandı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10192,6 +10630,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คัดลอกแล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopyalandı"
           }
         },
         "vi" : {
@@ -10336,6 +10780,12 @@
             "value" : "ข้อมูลที่แนบ %1$lld: %2$@"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eklenen materyal %1$lld: %2$@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10476,6 +10926,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แก้ไขประโยคเชื่อม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Köprü Cümlesini Düzenle"
           }
         },
         "vi" : {
@@ -10620,6 +11076,12 @@
             "value" : "กำลังคิดอยู่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünme oturumu sürüyor"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10760,6 +11222,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เวลาที่ใช้คิด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünme süresi"
           }
         },
         "vi" : {
@@ -10904,6 +11372,12 @@
             "value" : "ลบ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sil"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11044,6 +11518,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ระบายความคิด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünceleri Dök"
           }
         },
         "vi" : {
@@ -11188,6 +11668,12 @@
             "value" : "ช่องระบายความคิด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünce dökme alanı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11328,6 +11814,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มความคิดอีกข้อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir düşünce daha ekle"
           }
         },
         "vi" : {
@@ -11472,6 +11964,12 @@
             "value" : "แก้ไขความคิด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünceyi Düzenle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11612,6 +12110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังคิด…"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünüyor…"
           }
         },
         "vi" : {
@@ -11756,6 +12260,12 @@
             "value" : "เพิ่มความคิด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünce Ekle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11898,6 +12408,12 @@
             "value" : "เพิ่มความคิดแล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünce eklendi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12038,6 +12554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แนบข้อมูลที่ค้นคว้าหรือสรุปไว้แยกจากความคิดของตัวเองได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Araştırma ya da özetleri kendi düşüncelerinden ayrı olarak ekleyebilirsin"
           }
         },
         "vi" : {
@@ -12183,6 +12705,12 @@
             "value" : "สั่นเบา ๆ เมื่อบันทึกหรือต่อความคิด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir düşünceyi kaydederken ya da sürdürürken hafif bir titreşim."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12323,6 +12851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คิดต่อไปด้วยกัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünmeye devam et"
           }
         },
         "vi" : {
@@ -12468,6 +13002,12 @@
             "value" : "สิ่งที่เขียนค้างไว้ยังอยู่ แม้แอปจะปิดไปกลางคัน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulama yarıda kapansa bile yazdıkların yerinde kalır."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12608,6 +13148,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กระแสความคิด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünce akışı"
           }
         },
         "vi" : {
@@ -12752,6 +13298,12 @@
             "value" : "ถ้าเพิ่มแยกทุกครั้งที่ความคิดเปลี่ยน จะจัดระเบียบทีหลังได้ง่ายขึ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşüncen her değiştiğinde ayrı ayrı eklersen sonra düzenlemek daha kolay olur."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12892,6 +13444,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เก็บทั้งหมดโดยไม่เลือก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçmeden hepsini sakla"
           }
         },
         "vi" : {
@@ -13036,6 +13594,12 @@
             "value" : "เรื่องที่เลือกจะกลายเป็นสายความคิดทันที ส่วนที่เหลือจะถูกเก็บไว้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seçtiğin hemen bir düşünce dizisine dönüşür. Gerisi saklanır."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13176,6 +13740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การตั้งค่า"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar"
           }
         },
         "vi" : {
@@ -13321,6 +13891,12 @@
             "value" : "การตอบสนองด้วยการสัมผัส"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokunsal geri bildirim"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13463,6 +14039,12 @@
             "value" : "แก้ไข"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düzenle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13603,6 +14185,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "วันที่เริ่ม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlangıç"
           }
         },
         "vi" : {
@@ -13748,6 +14336,12 @@
             "value" : "เคล็ดลับการใช้งาน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İşe yarar ipuçları"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13889,6 +14483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เขียนความคิดต่อจากที่ค้างไว้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bıraktığın yerden devam et"
           }
         },
         "vi" : {
@@ -14034,6 +14634,12 @@
             "value" : "เขียนและต่อความคิดบน iPad ได้ด้วยแป้นพิมพ์อย่างเดียว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad’de yalnızca klavyeyle düşüncelerini yaz ve sürdür."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14175,6 +14781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เขียนความคิดเดียวกันต่อได้ทั้งบน iPhone และ iPad"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aynı düşüncelere iPhone ve iPad’de devam et."
           }
         },
         "vi" : {
@@ -14319,6 +14931,12 @@
             "value" : "ยังไม่มีบันทึก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz kayıt yok"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14459,6 +15077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ความคิดที่ยังไม่ได้จัดระเบียบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz düzenlenmemiş düşünceler"
           }
         },
         "vi" : {
@@ -14604,6 +15228,12 @@
             "value" : "การแจ้งเตือน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hatırlatmalar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14745,6 +15375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บอกฟีเจอร์ที่เป็นประโยชน์เบา ๆ ในจังหวะที่เหมาะสม"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İşe yarar özellikleri tam ihtiyacın olduğunda usulca öneren ipuçları."
           }
         },
         "vi" : {
@@ -14890,6 +15526,12 @@
             "value" : "ใช้แอปทั้งหมดเป็นภาษาอังกฤษได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamanın tamamını İngilizce kullan."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15030,6 +15672,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เริ่มจากเรื่องไหนดี?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hangisinden başlayalım?"
           }
         },
         "vi" : {
@@ -15175,6 +15823,12 @@
             "value" : "เมื่อเปิดแอปครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güncellemeden sonra uygulamayı ilk açışında nelerin yeni olduğunu gör."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15316,6 +15970,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "มีอะไรใหม่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilikler"
           }
         },
         "vi" : {
@@ -15460,6 +16120,12 @@
             "value" : "คุณหยุดไว้ตรงนี้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Burada kalmıştın"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15600,6 +16266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ต่อจากตรงนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buradan devam et"
           }
         },
         "vi" : {
@@ -15745,6 +16417,12 @@
             "value" : "รองรับภาษาอังกฤษเต็มรูปแบบ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tam İngilizce desteği"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15885,6 +16563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เช่น “คลิปสั้นทำให้สมาธิสั้นลงเพราะระบบให้รางวัล แล้วถ้า…”"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Örn. “Kısa videolar ödül sistemi yüzünden dikkati dağıtıyor, o halde…”"
           }
         },
         "vi" : {
@@ -16029,6 +16713,12 @@
             "value" : "เช่น สรุปสิ่งที่ถาม Claude"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Örn. Claude’a sorduğum şeylerin özeti"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16169,6 +16859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เก่าสุดก่อน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önce en eski"
           }
         },
         "vi" : {
@@ -16313,6 +17009,12 @@
             "value" : "เสร็จสิ้น"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bitti"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16453,6 +17155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สรุป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özet"
           }
         },
         "vi" : {
@@ -16598,6 +17306,12 @@
             "value" : "ลดการเคลื่อนไหว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareketi azalt"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16739,6 +17453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อเปิด “ลดการเคลื่อนไหว” เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Hareketi Azalt” açıkken ekran efektleri sakinleşir."
           }
         },
         "vi" : {
@@ -16884,6 +17604,12 @@
             "value" : "ลบความคิดทั้งหมดของคุณจากในแอปได้ทุกเมื่อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İstediğin zaman tüm düşüncelerini uygulamanın içinden sil."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17024,6 +17750,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบความคิดนี้ไหม?"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu düşünce silinsin mi?"
           }
         },
         "vi" : {
@@ -17168,6 +17900,12 @@
             "value" : "คัดลอกความคิดนี้ไปยังคลิปบอร์ด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu düşünceyi panoya kopyalar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17308,6 +18046,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คัดลอกข้อมูลนี้ไปยังคลิปบอร์ด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu materyali panoya kopyalar"
           }
         },
         "vi" : {
@@ -17452,6 +18196,12 @@
             "value" : "เริ่มจากเรื่องนี้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bununla başla"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17592,6 +18342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ติดต่อทางอีเมล"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "E-posta gönder"
           }
         },
         "vi" : {
@@ -17736,6 +18492,12 @@
             "value" : "คิดต่อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünmeye Devam Et"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17876,6 +18638,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ทิ้งประโยคเชื่อมไว้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir köprü cümlesi bırak"
           }
         },
         "vi" : {
@@ -18020,6 +18788,12 @@
             "value" : "ส่ง DM Instagram (@lee25_ios)"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18160,6 +18934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มสิ่งที่เขียนเป็นหนึ่งความคิด แล้วเขียนข้อถัดไปต่อได้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazdığını tek bir düşünce olarak ekler ve sonrakini yazmana izin verir"
           }
         },
         "vi" : {
@@ -18304,6 +19084,12 @@
             "value" : "แนบสิ่งที่เขียนเข้ากับสายความคิดนี้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazdığını bu düşünce akışına ekler"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18444,6 +19230,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้อมูล"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materyal"
           }
         },
         "vi" : {
@@ -18588,6 +19380,12 @@
             "value" : "ข้อมูล · %@"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materyal · %@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18728,6 +19526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เนื้อหาข้อมูล"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materyal içeriği"
           }
         },
         "vi" : {
@@ -18872,6 +19676,12 @@
             "value" : "เพิ่มข้อมูล"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materyal Ekle"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19012,6 +19822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มข้อมูลแล้ว"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materyal eklendi"
           }
         },
         "vi" : {
@@ -19156,6 +19972,12 @@
             "value" : "แหล่งที่มาของข้อมูล"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materyal kaynağı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19296,6 +20118,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydet"
           }
         },
         "vi" : {
@@ -19440,6 +20268,12 @@
             "value" : "เก็บไว้ทั้งหมด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hepsini sakla"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19580,6 +20414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คัดลอกทั้งหมด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tümünü Kopyala"
           }
         },
         "vi" : {
@@ -19724,6 +20564,12 @@
             "value" : "จัดระเบียบแล้ว"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düzenlendi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19864,6 +20710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ระดับการกลั่นกรอง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olgunlaştırma düzeyi"
           }
         },
         "vi" : {
@@ -20008,6 +20860,12 @@
             "value" : "ระดับการกลั่นกรอง %@"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olgunlaştırma düzeyi %@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20148,6 +21006,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ระดับการกลั่นกรอง ตอนนี้เป็น%@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olgunlaştırma düzeyi, şu an %@"
           }
         },
         "vi" : {
@@ -20292,6 +21156,12 @@
             "value" : "ผลค้นคว้าและแหล่งข้อมูล"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Araştırma ve Kaynaklar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20432,6 +21302,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แนบผลค้นคว้าและแหล่งข้อมูล"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Araştırma ve kaynakları ekle"
           }
         },
         "vi" : {
@@ -20576,6 +21452,12 @@
             "value" : "ข้อมูลค้นคว้า"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Araştırma materyali"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20716,6 +21598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้อมูลค้นคว้า แหล่งที่มา %@"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Araştırma materyali, kaynak %@"
           }
         },
         "vi" : {
@@ -20860,6 +21748,12 @@
             "value" : "วางสิ่งที่คุณค้นคว้าหรือสรุปไว้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Araştırdığın ya da özetlediğin içeriği yapıştır"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21000,6 +21894,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ขึ้นบรรทัดใหม่เพื่อแยกความคิดเป็นหลายข้อ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satır başları düşüncelerini ayırır"
           }
         },
         "vi" : {
@@ -21144,6 +22044,12 @@
             "value" : "ถ้าเลือกได้แค่หนึ่งเรื่องตอนนี้ จะเลือกเรื่องไหน?"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi sadece birini seçebilseydin?"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21284,6 +22190,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เขียนสิ่งที่อยู่ในหัวออกมาเลย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aklındakileri yaz"
           }
         },
         "vi" : {
@@ -21428,6 +22340,12 @@
             "value" : "ความคิดที่กำลังต่อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şu an süren düşünce"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21568,6 +22486,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เส้นทางความคิดที่ผ่านมา"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdiye kadarki akış"
           }
         },
         "vi" : {
@@ -21712,6 +22636,12 @@
             "value" : "สนับสนุน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destek"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21852,6 +22782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เปิดหน้าสนับสนุนและข้อมูลแอป"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destek ve uygulama bilgilerini açar"
           }
         },
         "vi" : {
@@ -21996,6 +22932,12 @@
             "value" : "ความคิดล่าสุด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son düşünce"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22136,6 +23078,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ความคิดที่กำลังทำอยู่"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Süren düşünceler"
           }
         },
         "vi" : {
@@ -22281,6 +23229,12 @@
             "value" : "คู่มือเริ่มต้นใช้งาน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlangıç rehberi"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22422,6 +23376,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แนะนำสั้น ๆ ว่าทำอะไรได้บ้างเมื่อเปิดแอปครั้งแรก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamayı ilk açtığında neler yapabileceğini kısaca gösterir."
           }
         },
         "vi" : {
@@ -22566,6 +23526,12 @@
             "value" : "ระบายความคิดแรก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlk düşüncelerini dök"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22706,6 +23672,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เข้าดูในช่วง 3 วันที่ผ่านมา"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son 3 günde ziyaret edildi"
           }
         },
         "vi" : {
@@ -22850,6 +23822,12 @@
             "value" : "ใหม่สุดก่อน"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Önce en yeni"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22990,6 +23968,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "สรุปสุดท้าย"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Son özet"
           }
         },
         "vi" : {
@@ -23134,6 +24118,12 @@
             "value" : "ความคิดที่เพิ่ม %1$lld: %2$@"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eklenen düşünce %1$lld: %2$@"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23276,6 +24266,12 @@
             "value" : "แหล่งที่มา (เช่น Claude, ค้นหา) — ไม่บังคับ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaynak (örn. Claude, arama) — isteğe bağlı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23416,6 +24412,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยกเลิก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vazgeç"
           }
         },
         "vi" : {
@@ -23561,6 +24563,12 @@
             "value" : "หน้าจอสำหรับตัวอักษรขนาดใหญ่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyük yazıya uygun ekranlar"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23704,6 +24712,12 @@
             "value" : "ควบคุมด้วยแป้นพิมพ์"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klavyeyle kontrol"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -23844,6 +24858,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แตะเพื่อเปลี่ยนเป็นสายความคิด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünce dizisine dönüştürmek için dokun"
           }
         },
         "vi" : {
@@ -23989,6 +25009,12 @@
             "value" : "หน้าจอ iPhone แบบพับได้"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone ekranı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24130,6 +25156,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้หน้าจอกว้างของ iPhone แบบพับได้เป็นสองช่องเคียงข้างกัน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone’un geniş ekranını yan yana iki bölme olarak kullan."
           }
         },
         "vi" : {
@@ -24274,6 +25306,12 @@
             "value" : "จะเขียนข้อเดียวหรือสิบข้อก็ได้ ใช้การขึ้นบรรทัดใหม่แยกแต่ละความคิด"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir düşünce de olur, on tane de. Satır başıyla ayır."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24414,6 +25452,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จัดระเบียบหนึ่งรอบ"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir kez düzenlendi"
           }
         },
         "vi" : {
@@ -24558,6 +25602,12 @@
             "value" : "ประเด็นหลัก"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Özet nokta"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -24698,6 +25748,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เฉพาะประเด็นหลัก"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sadece öz"
           }
         },
         "vi" : {
@@ -24841,6 +25897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver อ่านทุกปุ่มและทุกโน้ตตามลำดับที่ถูกต้อง"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver her düğmeyi ve notu doğru sırayla okur."
           }
         },
         "vi" : {

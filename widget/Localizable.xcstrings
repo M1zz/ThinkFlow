@@ -345,6 +345,24 @@
             "value" : "%lld โน้ต"
           }
         },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld not"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld not"
+                }
+              }
+            }
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -709,6 +727,24 @@
             "value" : "หยุดนิ่งมา %lld วัน"
           }
         },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld gündür uyuyor"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld gündür uyuyor"
+                }
+              }
+            }
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -849,6 +885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แสดงประโยคเชื่อมของสายความคิดล่าสุด"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En son düşünce dizinin köprü cümlesini gösterir."
           }
         },
         "vi" : {
@@ -993,6 +1035,12 @@
             "value" : "เรื่องที่จะคิดต่อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sonra düşünülecek"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1133,6 +1181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ความคิดที่ควรฟื้นคืน"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Canlandırılacak düşünceler"
           }
         },
         "vi" : {
@@ -1277,6 +1331,12 @@
             "value" : "กลับมาคิดต่อจากที่หยุดไว้ ดูประโยคเชื่อมได้บนหน้าจอโฮม"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yarım kalan düşüncelerine devam et. Köprü cümleni Ana Ekran’da gör."
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1419,6 +1479,12 @@
             "value" : "เริ่มความคิดใหม่"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni bir düşünce başlat"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1556,6 +1622,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -1703,6 +1775,12 @@
             "value" : "วิดเจ็ต ThinkFlow"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow Widget’ı"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1845,6 +1923,12 @@
             "value" : "คิดต่อ"
           }
         },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Düşünmeye Devam Et"
+          }
+        },
         "vi" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1985,6 +2069,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เรื่องที่คิดอยู่ตอนนี้"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Şimdi düşünülecek"
           }
         },
         "vi" : {

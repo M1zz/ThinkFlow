@@ -188,3 +188,11 @@ Bifoga research till tankeflödet
 Skriv ner många tankar på en gång
 Se brofrasen direkt i widgeten
 Skicka feedback och recensioner i appen
+
+### 앱스토어 (튀르키예어)
+
+Kartta özet nokta ve son düşünce
+Düşünce akışına araştırma ekle
+Çok sayıda düşünceyi tek seferde dök
+Köprü cümleni widget’ta hemen gör
+Uygulamadan görüş ve yorum gönder
