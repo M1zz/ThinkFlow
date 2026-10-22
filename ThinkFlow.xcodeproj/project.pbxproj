@@ -345,6 +345,7 @@
 				es,
 				de,
 				fr,
+				it,
 				Base,
 			);
 			mainGroup = A50001;

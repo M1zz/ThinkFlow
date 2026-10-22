@@ -548,3 +548,64 @@ Consultez votre phrase-relais et l’essentiel dans un widget de l’écran d’
 
 Vos idées restent sur votre appareil
 Tout est enregistré uniquement sur votre appareil, sans compte. Exportez à tout moment en fichier Markdown ou JSON.
+
+## it
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Continua a pensare
+
+### 부제
+
+Riparti da dove ti eri fermato
+
+### 키워드
+
+svuota la mente,diario,appunti,idee,secondo cervello,zettelkasten,deep work,riflessione
+
+### 프로모션 텍스트
+
+Non perdere mai più il filo. Quando torni, rivedi il concetto chiave e l’ultimo pensiero, e riparti esattamente da dove ti eri fermato.
+
+### 설명
+
+Il pensiero rimasto a metà ieri, riprendilo oggi esattamente da dove l’hai lasciato.
+ThinkFlow è un taccuino di pensiero che ti aiuta a far crescere idee profonde un po’ alla volta, nell’arco di più giorni.
+
+Si dice che Hemingway smettesse di scrivere di proposito quando le cose andavano bene. Sapere da dove ripartire il giorno dopo aiuta a rientrare subito nel flusso. ThinkFlow applica questo metodo al pensiero.
+
+Frase ponte
+Quando finisci di pensare, lascia una sola riga: la domanda da cui riprendere. Alla prossima apertura dell’app, quella frase ti aspetta in cima.
+
+Riprendi da qui
+La schermata iniziale mostra il pensiero più recente. Frase ponte, concetti chiave finora e ultimo pensiero stanno in un’unica scheda, e puoi continuare a scrivere subito.
+
+Dall’appunto al concetto chiave
+Rifinisci ciò che annoti in quattro livelli: appunto, ordinato, concetto chiave e riassunto. Vedi a colpo d’occhio quanto un pensiero è maturato.
+
+Allega i riferimenti
+Ciò che hai cercato o chiesto e poi riassunto si allega come riferimento, ben distinto dai tuoi pensieri.
+
+Svuota la mente
+Scrivi tutto ciò che ti frulla in testa, una riga alla volta. Più tardi, con un tocco, diventa un pensiero da portare avanti.
+
+Pensieri da riprendere
+I pensieri che non tocchi da più di tre giorni vengono raccolti a parte, così puoi riprenderli. Si accumula anche il tempo dedicato a ciascuno.
+
+Widget e schermata di blocco
+Vedi la frase ponte e il concetto chiave in un widget nella schermata Home. Mentre pensi, il tempo compare nella schermata di blocco e nella Dynamic Island.
+
+I tuoi pensieri restano sul tuo dispositivo
+Tutto è salvato solo sul tuo dispositivo e non serve alcun account. Esporta quando vuoi in un file Markdown o JSON.

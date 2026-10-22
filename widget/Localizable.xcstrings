@@ -93,6 +93,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld nota"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld note"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -211,6 +229,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Inattivo da %lld giorno"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Inattivo da %lld giorni"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -267,6 +303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Affiche la phrase-relais de votre fil le plus récent."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostra la frase ponte del filo di pensiero più recente."
           }
         },
         "ja" : {
@@ -327,6 +369,12 @@
             "value" : "À penser ensuite"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da pensare dopo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -383,6 +431,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Idées à ranimer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensieri da riprendere"
           }
         },
         "ja" : {
@@ -443,6 +497,12 @@
             "value" : "Reprenez vos réflexions en pause. Retrouvez votre phrase-relais sur l’écran d’accueil."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riprendi i pensieri in pausa. Vedi la tua frase ponte nella schermata Home."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -501,6 +561,12 @@
             "value" : "Commencez une nouvelle idée"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizia un nuovo pensiero"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -554,6 +620,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -617,6 +689,12 @@
             "value" : "Widget ThinkFlow"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget ThinkFlow"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -675,6 +753,12 @@
             "value" : "Continuer à penser"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua a pensare"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -731,6 +815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À penser maintenant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da pensare ora"
           }
         },
         "ja" : {

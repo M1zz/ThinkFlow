@@ -76,3 +76,11 @@ Joignez vos recherches à chaque fil
 Notez plusieurs idées d’un seul coup
 La phrase-relais visible dans le widget
 Envoyez avis et retours depuis l’app
+
+### 앱스토어 (이탈리아어)
+
+Scheda con essenziale e ultimo pensiero
+Allega le ricerche al flusso di pensiero
+Scrivi tanti pensieri in un colpo solo
+Vedi la frase ponte nel widget
+Invia pareri e recensioni dall’app

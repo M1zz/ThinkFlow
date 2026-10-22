@@ -33,6 +33,12 @@
             "value" : "Passé à %@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cambiato in %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -91,6 +97,12 @@
             "value" : "Poursuivre vos idées sur « %@ »"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua a scrivere pensieri su «%@»"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -144,6 +156,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -267,6 +285,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pensiero"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pensieri"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -380,6 +416,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld ajoutées"
+                }
+              }
+            }
+          }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld aggiunto"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld aggiunti"
                 }
               }
             }
@@ -503,6 +557,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pensiero"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld pensieri"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -559,6 +631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer l’idée %lld"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina il pensiero %lld"
           }
         },
         "ja" : {
@@ -619,6 +697,12 @@
             "value" : "Supprimer la référence %lld"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina il riferimento %lld"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -677,6 +761,12 @@
             "value" : "%lld min"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -730,6 +820,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld h %2$lld min"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld h %2$lld min"
@@ -853,6 +949,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ponte lasciato %lld giorno fa"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Ponte lasciato %lld giorni fa"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -971,6 +1085,24 @@
             }
           }
         },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld carattere"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld caratteri"
+                }
+              }
+            }
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1027,6 +1159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toutes les notes et la phrase-relais de « %@ » seront supprimées."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutte le note e la frase ponte di «%@» verranno eliminate."
           }
         },
         "ja" : {
@@ -1087,6 +1225,12 @@
             "value" : "Touchez « Continuer à penser » pour laisser votre première trace"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca «Continua a pensare» per lasciare la prima voce"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1143,6 +1287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laissées de côté depuis plus de 3 jours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non toccati da oltre 3 giorni"
           }
         },
         "ja" : {
@@ -1204,6 +1354,12 @@
             "value" : "Verrouillage Face ID"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocco con Face ID"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1263,6 +1419,12 @@
             "value" : "Verrouillez l’app avec Face ID ou Touch ID pour garder vos pensées privées."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocca l’app con Face ID o Touch ID per proteggere i tuoi pensieri."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1319,6 +1481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exporter en JSON"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esporta in JSON"
           }
         },
         "ja" : {
@@ -1380,6 +1548,12 @@
             "value" : "Notez une idée sur-le-champ en parlant à Siri ou avec un raccourci."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annota subito un pensiero parlando con Siri o usando un comando rapido."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1437,6 +1611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri et Raccourcis"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri e Comandi rapidi"
           }
         },
         "ja" : {
@@ -1498,6 +1678,12 @@
             "value" : "Une meilleure prise en charge de VoiceOver"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più comodità con VoiceOver"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1554,6 +1740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contacter le développeur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contatta lo sviluppatore"
           }
         },
         "ja" : {
@@ -1615,6 +1807,12 @@
             "value" : "Les écrans se réorganisent proprement, sans être coupés, quand vous agrandissez le texte."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se ingrandisci il testo, le schermate si riorganizzano senza tagli e restano ben leggibili."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1672,6 +1870,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Synchronisation entre appareils"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sincronizzazione tra dispositivi"
           }
         },
         "ja" : {
@@ -1732,6 +1936,12 @@
             "value" : "Arrêtez-vous en plein élan"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermati finché sei ispirato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1788,6 +1998,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une phrase inachevée laissée en plein élan. À la prochaine ouverture, votre esprit reprendra le fil tout seul."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una frase lasciata a metà mentre eri ispirato. La prossima volta che apri l’app, la tua mente riprenderà il filo da sola."
           }
         },
         "ja" : {
@@ -1848,6 +2064,12 @@
             "value" : "Arrêtez-vous en plein élan.\nÀ la prochaine ouverture, votre esprit reprendra le fil tout seul."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fermati finché sei ispirato.\nLa prossima volta che apri l’app, la tua mente riprenderà il filo da sola."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1904,6 +2126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Profondeur"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profondità"
           }
         },
         "ja" : {
@@ -1964,6 +2192,12 @@
             "value" : "Phrase-relais"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frase ponte"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2020,6 +2254,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Modifier la phrase-relais"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifica la frase ponte"
           }
         },
         "ja" : {
@@ -2080,6 +2320,12 @@
             "value" : "Phrase-relais : %@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Frase ponte: %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2136,6 +2382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Idée brute"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensiero grezzo"
           }
         },
         "ja" : {
@@ -2197,6 +2449,12 @@
             "value" : "Effacer toutes mes données d’un coup"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella tutti i miei dati in un colpo solo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2253,6 +2511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exporter"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esporta"
           }
         },
         "ja" : {
@@ -2314,6 +2578,12 @@
             "value" : "Retrouvez vos pensées à partir d’un fichier exporté."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recupera i tuoi pensieri da un file esportato."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2370,6 +2640,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ au total"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ in totale"
           }
         },
         "ja" : {
@@ -2430,6 +2706,12 @@
             "value" : "J’ai tout noté"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ho scritto tutto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2486,6 +2768,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suivant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avanti"
           }
         },
         "ja" : {
@@ -2546,6 +2834,12 @@
             "value" : "Écrivez la phrase inachevée à reprendre la prochaine fois"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi la frase lasciata a metà da riprendere la prossima volta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2602,6 +2896,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fermer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiudi"
           }
         },
         "ja" : {
@@ -2663,6 +2963,12 @@
             "value" : "Tout reste lisible, même avec un contraste renforcé ou des difficultés à distinguer les couleurs."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leggi tutto con facilità, anche con contrasto elevato o se fai fatica a distinguere i colori."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2720,6 +3026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisez l’app dans davantage de langues."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa l’app in più lingue."
           }
         },
         "ja" : {
@@ -2781,6 +3093,12 @@
             "value" : "Plus de langues"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più lingue"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2837,6 +3155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Altro"
           }
         },
         "ja" : {
@@ -2897,6 +3221,12 @@
             "value" : "Idées à ranimer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensieri da riprendere"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2953,6 +3283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez deux fois pour changer de niveau"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca due volte per cambiare livello"
           }
         },
         "ja" : {
@@ -3013,6 +3349,12 @@
             "value" : "Touchez deux fois pour en faire un fil de pensée"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca due volte per trasformarlo in un filo di pensiero"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3069,6 +3411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez deux fois pour sélectionner"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca due volte per selezionare"
           }
         },
         "ja" : {
@@ -3129,6 +3477,12 @@
             "value" : "Exporter en Markdown"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esporta in Markdown"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3185,6 +3539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ne vous arrêtez pas parce que vous êtes bloqué, mais tant qu’il vous reste des choses à écrire.\nÀ la prochaine ouverture, votre esprit reprendra le fil tout seul."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non fermarti perché sei bloccato, ma finché hai ancora qualcosa da scrivere.\nLa prossima volta che apri l’app, la tua mente riprenderà il filo da sola."
           }
         },
         "ja" : {
@@ -3245,6 +3605,12 @@
             "value" : "Notez ce que vous avez en tête pour créer un nouveau fil"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi ciò che hai in testa per creare un nuovo filo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3301,6 +3667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Posez les idées qui flottent dans votre tête,\npuis reprenez-les plus tard pour aller plus loin."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi i pensieri che ti frullano in testa\ne riprendili dopo per approfondirli."
           }
         },
         "ja" : {
@@ -3362,6 +3734,12 @@
             "value" : "Un rappel au bon moment pour ne pas oublier les idées mises de côté."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un promemoria al momento giusto per non dimenticare i pensieri messi da parte."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3418,6 +3796,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Note"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Appunto"
           }
         },
         "ja" : {
@@ -3478,6 +3862,12 @@
             "value" : "Exporte toutes vos idées dans un fichier de sauvegarde"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esporta tutti i pensieri in un file come backup"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3534,6 +3924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laisser une phrase-relais"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lascia una frase ponte"
           }
         },
         "ja" : {
@@ -3594,6 +3990,12 @@
             "value" : "Étape de la phrase-relais. Écrivez la phrase à reprendre la prochaine fois."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Passaggio della frase ponte. Scrivi la frase da cui riprenderai la prossima volta."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3650,6 +4052,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laissez une phrase-relais pour fermer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lascia una frase ponte per chiudere"
           }
         },
         "ja" : {
@@ -3711,6 +4119,12 @@
             "value" : "Restaurer depuis une sauvegarde"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina da backup"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3767,6 +4181,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Signalez un bug ou proposez une fonctionnalité par e-mail ou message Instagram"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invia segnalazioni di bug e idee per nuove funzioni via e-mail o DM su Instagram"
           }
         },
         "ja" : {
@@ -3828,6 +4248,12 @@
             "value" : "Couleurs et contrastes plus confortables"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colori e contrasto più comodi"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3884,6 +4310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copier"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia"
           }
         },
         "ja" : {
@@ -3944,6 +4376,12 @@
             "value" : "Copié"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4000,6 +4438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copié"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copiato"
           }
         },
         "ja" : {
@@ -4060,6 +4504,12 @@
             "value" : "Référence jointe %1$lld : %2$@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riferimento allegato %1$lld: %2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4116,6 +4566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Modifier la phrase-relais"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifica la frase ponte"
           }
         },
         "ja" : {
@@ -4176,6 +4632,12 @@
             "value" : "Session de réflexion en cours"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sessione di pensiero in corso"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4232,6 +4694,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Temps de réflexion"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempo di pensiero"
           }
         },
         "ja" : {
@@ -4292,6 +4760,12 @@
             "value" : "Supprimer"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4348,6 +4822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vider sa tête"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svuota la mente"
           }
         },
         "ja" : {
@@ -4408,6 +4888,12 @@
             "value" : "Champ pour vider sa tête"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Campo per svuotare la mente"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4464,6 +4950,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter une autre idée"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi un altro pensiero"
           }
         },
         "ja" : {
@@ -4524,6 +5016,12 @@
             "value" : "Modifier l’idée"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifica pensiero"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4580,6 +5078,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réflexion en cours…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sto pensando…"
           }
         },
         "ja" : {
@@ -4640,6 +5144,12 @@
             "value" : "Ajouter l’idée"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi pensiero"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4698,6 +5208,12 @@
             "value" : "Idée ajoutée"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensiero aggiunto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4754,6 +5270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vous pouvez joindre vos recherches ou synthèses, séparées de vos propres idées"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Puoi allegare ricerche o sintesi, separate dai tuoi pensieri"
           }
         },
         "ja" : {
@@ -4815,6 +5337,12 @@
             "value" : "Une légère vibration quand vous notez ou reprenez une idée."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una leggera vibrazione quando annoti o riprendi un pensiero."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4871,6 +5399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poursuivez votre réflexion"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua a pensare"
           }
         },
         "ja" : {
@@ -4932,6 +5466,12 @@
             "value" : "Ce que vous écriviez reste là, même si l’app se ferme en cours de route."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ciò che stavi scrivendo resta lì, anche se l’app si chiude all’improvviso."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4988,6 +5528,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fil de pensée"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flusso di pensiero"
           }
         },
         "ja" : {
@@ -5048,6 +5594,12 @@
             "value" : "Ajouter chaque idée séparément quand votre réflexion évolue facilitera le tri plus tard."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se aggiungi ogni pensiero separatamente quando cambia il tuo ragionamento, sarà più facile riordinarli dopo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5104,6 +5656,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout mettre de côté sans choisir"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conserva tutti senza scegliere"
           }
         },
         "ja" : {
@@ -5164,6 +5722,12 @@
             "value" : "Celle que vous choisissez devient aussitôt un fil de pensée. Les autres sont mises de côté."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quello scelto diventa subito un filo di pensiero. Gli altri vengono messi da parte."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5220,6 +5784,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réglages"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni"
           }
         },
         "ja" : {
@@ -5281,6 +5851,12 @@
             "value" : "Retour haptique"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feedback aptico"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5339,6 +5915,12 @@
             "value" : "Modifier"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modifica"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5395,6 +5977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Début"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizio"
           }
         },
         "ja" : {
@@ -5456,6 +6044,12 @@
             "value" : "Astuces utiles"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consigli utili"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5513,6 +6107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reprendre là où vous en étiez"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riprendi da dove avevi lasciato"
           }
         },
         "ja" : {
@@ -5574,6 +6174,12 @@
             "value" : "Écrivez et poursuivez vos idées sur iPad avec le seul clavier."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi e riprendi i tuoi pensieri su iPad usando solo la tastiera."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5631,6 +6237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poursuivez les mêmes idées sur iPhone et iPad."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua gli stessi pensieri su iPhone e iPad."
           }
         },
         "ja" : {
@@ -5691,6 +6303,12 @@
             "value" : "Rien pour l’instant"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessuna voce"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5747,6 +6365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Idées pas encore triées"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensieri non ancora ordinati"
           }
         },
         "ja" : {
@@ -5808,6 +6432,12 @@
             "value" : "Rappels"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Promemoria"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5865,6 +6495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "De discrètes suggestions sur les fonctions utiles, au moment où vous en avez besoin."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suggerimenti discreti sulle funzioni utili, proprio quando servono."
           }
         },
         "ja" : {
@@ -5926,6 +6562,12 @@
             "value" : "Utilisez toute l’app en anglais."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa tutta l’app in inglese."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5982,6 +6624,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Par laquelle commencer ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da quale iniziare?"
           }
         },
         "ja" : {
@@ -6043,6 +6691,12 @@
             "value" : "À la première ouverture après une mise à jour, découvrez les nouveautés."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla prima apertura dopo un aggiornamento, scopri le novità."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6100,6 +6754,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nouveautés"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novità"
           }
         },
         "ja" : {
@@ -6160,6 +6820,12 @@
             "value" : "Vous vous êtes arrêté ici"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ti sei fermato qui"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6216,6 +6882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reprendre ici"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riprendi da qui"
           }
         },
         "ja" : {
@@ -6277,6 +6949,12 @@
             "value" : "Prise en charge complète de l’anglais"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supporto completo per l’inglese"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6333,6 +7011,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ex. : « Les vidéos courtes nuisent à la concentration à cause de leurs récompenses, alors… »"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es.: «I video brevi rovinano la concentrazione per come ci premiano, e allora…»"
           }
         },
         "ja" : {
@@ -6393,6 +7077,12 @@
             "value" : "Ex. : synthèse d’une question posée à Claude"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Es.: sintesi di ciò che hai chiesto a Claude"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6449,6 +7139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus anciennes d’abord"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima i più vecchi"
           }
         },
         "ja" : {
@@ -6509,6 +7205,12 @@
             "value" : "OK"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fine"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6565,6 +7267,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Résumé"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riassunto"
           }
         },
         "ja" : {
@@ -6626,6 +7334,12 @@
             "value" : "Réduire les animations"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riduci movimento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6683,6 +7397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avec « Réduire les animations » activé, les effets à l’écran se font plus discrets."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con «Riduci movimento» attivo, gli effetti sullo schermo diventano più discreti."
           }
         },
         "ja" : {
@@ -6744,6 +7464,12 @@
             "value" : "Effacez toutes vos idées depuis l’app quand vous le voulez."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella tutti i tuoi pensieri direttamente dall’app, quando vuoi."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6800,6 +7526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer cette idée ?"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminare questo pensiero?"
           }
         },
         "ja" : {
@@ -6860,6 +7592,12 @@
             "value" : "Copie cette idée dans le presse-papiers"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia questo pensiero negli appunti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6916,6 +7654,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copie cette référence dans le presse-papiers"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia questo riferimento negli appunti"
           }
         },
         "ja" : {
@@ -6976,6 +7720,12 @@
             "value" : "Commencer par celle-ci"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizia da questo"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7032,6 +7782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Écrire par e-mail"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi via e-mail"
           }
         },
         "ja" : {
@@ -7092,6 +7848,12 @@
             "value" : "Continuer à penser"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continua a pensare"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7148,6 +7910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laisser une phrase-relais"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lascia una frase ponte"
           }
         },
         "ja" : {
@@ -7208,6 +7976,12 @@
             "value" : "Message Instagram (@lee25_ios)"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DM su Instagram (@lee25_ios)"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7264,6 +8038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajoute votre texte comme une seule idée et vous laisse écrire la suivante"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiunge ciò che hai scritto come un unico pensiero e ti lascia scrivere il successivo"
           }
         },
         "ja" : {
@@ -7324,6 +8104,12 @@
             "value" : "Joint votre texte à ce fil de pensée"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allega ciò che hai scritto a questo flusso di pensiero"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7380,6 +8166,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Référence"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riferimento"
           }
         },
         "ja" : {
@@ -7440,6 +8232,12 @@
             "value" : "Référence · %@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riferimento · %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7496,6 +8294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contenu de la référence"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contenuto del riferimento"
           }
         },
         "ja" : {
@@ -7556,6 +8360,12 @@
             "value" : "Ajouter la référence"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi riferimento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7612,6 +8422,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Référence ajoutée"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riferimento aggiunto"
           }
         },
         "ja" : {
@@ -7672,6 +8488,12 @@
             "value" : "Source de la référence"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fonte del riferimento"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7728,6 +8550,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enregistrer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva"
           }
         },
         "ja" : {
@@ -7788,6 +8616,12 @@
             "value" : "Tout mettre de côté"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conserva tutti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7844,6 +8678,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tout copier"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia tutto"
           }
         },
         "ja" : {
@@ -7904,6 +8744,12 @@
             "value" : "Trié"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordinato"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7960,6 +8806,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niveau d’affinage"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Livello di rifinitura"
           }
         },
         "ja" : {
@@ -8020,6 +8872,12 @@
             "value" : "Niveau d’affinage %@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Livello di rifinitura %@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8076,6 +8934,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Niveau d’affinage, actuellement %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Livello di rifinitura, attualmente %@"
           }
         },
         "ja" : {
@@ -8136,6 +9000,12 @@
             "value" : "Recherches et sources"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricerche e fonti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8192,6 +9062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Joindre recherches et sources"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allega ricerche e fonti"
           }
         },
         "ja" : {
@@ -8252,6 +9128,12 @@
             "value" : "Référence de recherche"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riferimento di ricerca"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8308,6 +9190,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Référence de recherche, source %@"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riferimento di ricerca, fonte %@"
           }
         },
         "ja" : {
@@ -8368,6 +9256,12 @@
             "value" : "Collez ce que vous avez recherché ou résumé"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Incolla ciò che hai cercato o riassunto"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8424,6 +9318,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Les retours à la ligne séparent vos idées"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gli a capo separano i tuoi pensieri"
           }
         },
         "ja" : {
@@ -8484,6 +9384,12 @@
             "value" : "Si vous n’en gardiez qu’une, laquelle ?"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se ne scegliessi uno solo adesso?"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8540,6 +9446,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notez ce qui vous trotte dans la tête"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi quello che hai in testa"
           }
         },
         "ja" : {
@@ -8600,6 +9512,12 @@
             "value" : "Votre réflexion en cours"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il pensiero in corso"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8656,6 +9574,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Le fil jusqu’ici"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Il percorso finora"
           }
         },
         "ja" : {
@@ -8716,6 +9640,12 @@
             "value" : "Assistance"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistenza"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8772,6 +9702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ouvre l’assistance et les informations sur l’app"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apre l’assistenza e le informazioni sull’app"
           }
         },
         "ja" : {
@@ -8832,6 +9768,12 @@
             "value" : "Dernière idée"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ultimo pensiero"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8888,6 +9830,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Idées en cours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensieri in corso"
           }
         },
         "ja" : {
@@ -8949,6 +9897,12 @@
             "value" : "Guide de prise en main"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guida introduttiva"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9006,6 +9960,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un rapide tour de ce que vous pouvez faire à la première ouverture."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un breve giro di ciò che puoi fare alla prima apertura."
           }
         },
         "ja" : {
@@ -9066,6 +10026,12 @@
             "value" : "Noter vos premières idées"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Svuota la mente per la prima volta"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9122,6 +10088,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Consultées ces 3 derniers jours"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visitati negli ultimi 3 giorni"
           }
         },
         "ja" : {
@@ -9182,6 +10154,12 @@
             "value" : "Plus récentes d’abord"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prima i più recenti"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9238,6 +10216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Résumé final"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riassunto finale"
           }
         },
         "ja" : {
@@ -9298,6 +10282,12 @@
             "value" : "Idée ajoutée %1$lld : %2$@"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pensiero aggiunto %1$lld: %2$@"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9356,6 +10346,12 @@
             "value" : "Source (ex. : Claude, recherche) — facultatif"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fonte (es. Claude, ricerca) — facoltativa"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9412,6 +10408,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annuler"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annulla"
           }
         },
         "ja" : {
@@ -9473,6 +10475,12 @@
             "value" : "Écrans adaptés au texte agrandi"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermate per testo più grande"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9532,6 +10540,12 @@
             "value" : "Commande au clavier"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controllo da tastiera"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9588,6 +10602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Touchez pour en faire un fil de pensée"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca per trasformarlo in un filo di pensiero"
           }
         },
         "ja" : {
@@ -9649,6 +10669,12 @@
             "value" : "Affichage pour iPhone pliable"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layout per iPhone pieghevole"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9706,6 +10732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Profitez du grand écran d’un iPhone pliable en deux volets côte à côte."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa l’ampio schermo di un iPhone pieghevole in due riquadri affiancati."
           }
         },
         "ja" : {
@@ -9766,6 +10798,12 @@
             "value" : "Une idée ou dix, peu importe. Séparez-les par des retours à la ligne."
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un pensiero o dieci, va bene lo stesso. Separali con un a capo."
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9822,6 +10860,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trié une fois"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordinato una volta"
           }
         },
         "ja" : {
@@ -9882,6 +10926,12 @@
             "value" : "Essentiel"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concetto chiave"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9938,6 +10988,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’essentiel seulement"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Solo l’essenziale"
           }
         },
         "ja" : {
@@ -9997,6 +11053,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver lit chaque bouton et chaque note, dans le bon ordre."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver legge ogni pulsante e ogni nota, nell’ordine giusto."
           }
         },
         "ja" : {

@@ -33,6 +33,12 @@
             "value" : "ThinkFlow"
           }
         },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "ja" : {
           "stringUnit" : {
             "state" : "translated",
