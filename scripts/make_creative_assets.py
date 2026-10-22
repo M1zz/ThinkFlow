@@ -22,7 +22,7 @@ ICON = ROOT / "ThinkFlow" / "Assets.xcassets" / "AppIcon.appiconset" / "AppIcon.
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 앱 언어 코드 → App Store Connect 로케일 (make_marketing_screenshots.py 와 같다)
-STORE = {"ko": "ko"}   # 스토어에는 한국어 한 가지
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl", "sv": "sv-SE", "tr": "tr"}   # 스토어 로케일
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -34,11 +34,57 @@ SPEC = {
 # 눈썹글은 검색어(생각기록)다.
 SEARCH = {
     "ko": ("생각 기록", "끊긴 생각을<br>그대로 이어요", "멈춘 자리의 질문부터<br>다시 시작해요"),
+    "en": ("thought journal", "Pick up your<br>paused thoughts", "Start again from the<br>question you left"),
+    "en-GB": ("thought journal", "Pick up your<br>paused thoughts", "Start again from the<br>question you left"),
+    "zh-Hans": ("思考笔记", "把中断的想法<br>原样接上", "从停下的那个问题<br>重新开始"),
+    "zh-Hant": ("思考筆記", "把中斷的想法<br>原樣接上", "從停下的那個問題<br>重新開始"),
+    "ja": ("思考ノート", "止まった考えを<br>そのまま続ける", "止まった場所の問いから<br>もう一度はじめる"),
+    "ru": ("блокнот мыслей", "Продолжайте мысль<br>с того же места", "Начните снова с вопроса,<br>на котором остановились"),
+    "es": ("diario de ideas", "Retoma tus ideas<br>donde las dejaste", "Empieza de nuevo desde<br>la pregunta que dejaste"),
+    "de": ("Denktagebuch", "Gedanken genau dort<br>weiterführen", "Starte wieder bei der Frage,<br>die du hinterlassen hast"),
+    "fr": ("carnet de pensées", "Reprenez vos idées<br>là où vous les avez laissées", "Repartez de la question<br>que vous aviez laissée"),
+    "it": ("diario dei pensieri", "Riprendi i pensieri<br>da dove li hai lasciati", "Riparti dalla domanda<br>che avevi lasciato"),
+    "pt-BR": ("diário de ideias", "Retome suas ideias<br>de onde parou", "Recomece da pergunta<br>que você deixou"),
+    "th": ("สมุดความคิด", "ต่อความคิดที่หยุดไว้<br>ได้ทันที", "เริ่มใหม่จากคำถามที่<br>ทิ้งไว้"),
+    "vi": ("sổ suy nghĩ", "Nối tiếp suy nghĩ<br>ngay chỗ đã dừng", "Bắt đầu lại từ câu hỏi<br>bạn đã để lại"),
+    "cs": ("zápisník myšlenek", "Navažte na myšlenky<br>tam, kde jste skončili", "Začněte znovu otázkou,<br>kterou jste nechali"),
+    "da": ("tankebog", "Fortsæt dine tanker,<br>hvor du slap", "Start igen ved det spørgsmål,<br>du efterlod"),
+    "el": ("ημερολόγιο σκέψεων", "Συνέχισε τις σκέψεις<br>απ’ όπου σταμάτησες", "Ξεκίνα ξανά από την<br>ερώτηση που άφησες"),
+    "fi": ("ajatuspäiväkirja", "Jatka ajatuksia<br>siitä, mihin jäit", "Aloita uudelleen kysymyksestä,<br>jonka jätit"),
+    "id": ("jurnal pikiran", "Lanjutkan pikiran<br>dari tempat berhenti", "Mulai lagi dari pertanyaan<br>yang kamu tinggalkan"),
+    "nb": ("tankebok", "Fortsett tankene<br>der du slapp", "Start igjen ved spørsmålet<br>du la igjen"),
+    "nl": ("denkboek", "Zet je gedachten voort<br>waar je stopte", "Begin opnieuw bij de vraag<br>die je achterliet"),
+    "pl": ("dziennik myśli", "Kontynuuj myśli<br>od tego miejsca", "Zacznij od pytania,<br>które zostawiłeś"),
+    "sv": ("tankebok", "Fortsätt tankarna<br>där du slutade", "Börja om vid frågan<br>du lämnade"),
+    "tr": ("düşünce defteri", "Düşüncelerini kaldığın<br>yerden sürdür", "Bıraktığın sorudan<br>yeniden başla"),
 }
 
 # 헤더는 한 가지 약속: 어제 멈춘 생각을 오늘 그 자리에서 잇는다.
 HEADER = {
     "ko": ("이어생각", "어제 멈춘 생각,<br>오늘 바로 이어서"),
+    "en": ("ThinkFlow", "Yesterday’s thought,<br>picked up today"),
+    "en-GB": ("ThinkFlow", "Yesterday’s thought,<br>picked up today"),
+    "zh-Hans": ("ThinkFlow", "昨天停下的想法，<br>今天马上接着想"),
+    "zh-Hant": ("ThinkFlow", "昨天停下的想法，<br>今天馬上接著想"),
+    "ja": ("ThinkFlow", "昨日止めた考えを、<br>今日すぐ続きから"),
+    "ru": ("ThinkFlow", "Вчерашняя мысль —<br>продолжение сегодня"),
+    "es": ("ThinkFlow", "La idea de ayer,<br>hoy sin perder el hilo"),
+    "de": ("ThinkFlow", "Der Gedanke von gestern,<br>heute fortgesetzt"),
+    "fr": ("ThinkFlow", "L’idée d’hier,<br>reprise aujourd’hui"),
+    "it": ("ThinkFlow", "Il pensiero di ieri,<br>ripreso oggi"),
+    "pt-BR": ("ThinkFlow", "A ideia de ontem,<br>retomada hoje"),
+    "th": ("ThinkFlow", "ความคิดเมื่อวาน<br>ต่อได้ตั้งแต่วันนี้"),
+    "vi": ("ThinkFlow", "Suy nghĩ hôm qua,<br>nối tiếp hôm nay"),
+    "cs": ("ThinkFlow", "Včerejší myšlenka,<br>dnes hned dál"),
+    "da": ("ThinkFlow", "Gårsdagens tanke,<br>videre i dag"),
+    "el": ("ThinkFlow", "Η χθεσινή σκέψη,<br>συνέχεια σήμερα"),
+    "fi": ("ThinkFlow", "Eilinen ajatus,<br>jatkuu tänään"),
+    "id": ("ThinkFlow", "Pikiran kemarin,<br>dilanjutkan hari ini"),
+    "nb": ("ThinkFlow", "I går sin tanke,<br>videre i dag"),
+    "nl": ("ThinkFlow", "De gedachte van gisteren,<br>vandaag verder"),
+    "pl": ("ThinkFlow", "Wczorajsza myśl,<br>dziś dalej"),
+    "sv": ("ThinkFlow", "Gårdagens tanke,<br>vidare i dag"),
+    "tr": ("ThinkFlow", "Dünkü düşünce,<br>bugün devam"),
 }
 
 # ⚠️ 바탕 · 글자색은 앱 아이콘(짙은 남색 바탕에 빛나는 주황 실)과 AccentColor(#FF9533) 에서 왔다.
