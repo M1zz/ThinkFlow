@@ -164,7 +164,7 @@ struct ThreadDetailView: View {
     // MARK: - 통계
     private var statsRow: some View {
         HStack(spacing: 0) {
-            statItem(label: "메모", value: "\(currentThread.entryCount)개", icon: "note.text")
+            statItem(label: "메모", value: String(localized: "\(currentThread.entryCount)개"), icon: "note.text")
             Divider().frame(height: 30)
             statItem(label: "사고 시간", value: currentThread.formattedThinkingTime, icon: "clock")
             Divider().frame(height: 30)
@@ -177,7 +177,7 @@ struct ThreadDetailView: View {
         .clipShape(RoundedRectangle(cornerRadius: 12))
     }
     
-    private func statItem(label: String, value: String, icon: String) -> some View {
+    private func statItem(label: LocalizedStringKey, value: String, icon: String) -> some View {
         VStack(spacing: 4) {
             Image(systemName: icon)
                 .font(.subheadline)
@@ -220,7 +220,7 @@ struct ThreadDetailView: View {
                             withAnimation { allCopied = false }
                         }
                     } label: {
-                        Label(allCopied ? "복사됨" : "전체 복사",
+                        Label(allCopied ? String(localized: "복사됨") : String(localized: "전체 복사"),
                               systemImage: allCopied ? "checkmark" : "doc.on.doc")
                             .font(.caption)
                             .foregroundStyle(allCopied ? .green : .secondary)
@@ -234,7 +234,7 @@ struct ThreadDetailView: View {
                         sortNewestFirst.toggle()
                     }
                 } label: {
-                    Label(sortNewestFirst ? "최신순" : "오래된순",
+                    Label(sortNewestFirst ? String(localized: "최신순") : String(localized: "오래된순"),
                           systemImage: sortNewestFirst ? "arrow.down" : "arrow.up")
                         .font(.caption)
                         .foregroundStyle(.secondary)

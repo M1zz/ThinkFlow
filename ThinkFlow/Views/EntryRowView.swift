@@ -11,8 +11,8 @@ struct EntryRowView: View {
     @State private var copied = false
 
     // 레이어(Progressive Summarization) 메타데이터
-    static let layerNames = ["메모", "정리", "핵심", "요약"]
-    static let layerHints = ["날것의 생각", "한 번 정리함", "핵심만 추림", "최종 요약"]
+    static let layerNames = [String(localized: "메모"), String(localized: "정리"), String(localized: "핵심"), String(localized: "요약")]
+    static let layerHints = [String(localized: "날것의 생각"), String(localized: "한 번 정리함"), String(localized: "핵심만 추림"), String(localized: "최종 요약")]
 
     private func accent(for layer: Int) -> Color {
         switch layer {
@@ -60,7 +60,7 @@ struct EntryRowView: View {
 
                 Button {
                     UIPasteboard.general.string = entry.content
-                    UIAccessibility.post(notification: .announcement, argument: "복사되었습니다")
+                    UIAccessibility.post(notification: .announcement, argument: String(localized: "복사되었습니다"))
                     withAnimation(.spring(duration: 0.2)) { copied = true }
                     Task {
                         try? await Task.sleep(for: .seconds(1.5))
@@ -73,7 +73,7 @@ struct EntryRowView: View {
                         .contentTransition(.symbolEffect(.replace))
                 }
                 .accessibilityLabel("복사")
-                .accessibilityHint(entry.isReference ? "이 자료를 클립보드에 복사합니다" : "이 생각을 클립보드에 복사합니다")
+                .accessibilityHint(entry.isReference ? String(localized: "이 자료를 클립보드에 복사합니다") : String(localized: "이 생각을 클립보드에 복사합니다"))
             }
 
             // 내용
@@ -121,7 +121,7 @@ struct EntryRowView: View {
                     onLayerChange?(lvl)
                     UIAccessibility.post(
                         notification: .announcement,
-                        argument: "\(Self.layerNames[lvl]) 단계로 변경됨"
+                        argument: String(localized: "\(Self.layerNames[lvl]) 단계로 변경됨")
                     )
                 } label: {
                     if entry.layer == lvl {
@@ -157,7 +157,7 @@ struct EntryRowView: View {
             Image(systemName: "paperclip")
                 .font(.caption2.weight(.bold))
                 .accessibilityHidden(true)
-            Text(entry.source.map { "자료 · \($0)" } ?? "자료")
+            Text(entry.source.map { String(localized: "자료 · \($0)") } ?? String(localized: "자료"))
                 .font(.caption.weight(.semibold))
         }
         .foregroundStyle(rowAccent)
@@ -166,7 +166,7 @@ struct EntryRowView: View {
         .background(rowAccent.opacity(0.12))
         .clipShape(Capsule())
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel(entry.source.map { "조사 자료, 출처 \($0)" } ?? "조사 자료")
+        .accessibilityLabel(entry.source.map { String(localized: "조사 자료, 출처 \($0)") } ?? String(localized: "조사 자료"))
     }
 }
 

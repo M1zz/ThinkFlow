@@ -28,7 +28,7 @@ struct BrainDumpSheet: View {
                 }
             }
             .background(Color(.systemGroupedBackground))
-            .navigationTitle(phase == .dump ? "생각 꺼내기" : "어떤 것부터?")
+            .navigationTitle(phase == .dump ? String(localized: "생각 꺼내기") : String(localized: "어떤 것부터?"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
@@ -136,7 +136,7 @@ struct BrainDumpSheet: View {
                     Button {
                         saveAllToDump()
                     } label: {
-                        Text(selectedIndex == nil ? "전부 보관하기" : "선택 없이 전부 보관")
+                        Text(selectedIndex == nil ? String(localized: "전부 보관하기") : String(localized: "선택 없이 전부 보관"))
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
                             .frame(maxWidth: .infinity)

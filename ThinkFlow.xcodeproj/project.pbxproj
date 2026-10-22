@@ -35,6 +35,7 @@
 		B10002 /* LayerBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20013 /* LayerBadge.swift */; };
 		B10003 /* ThinkingSessionAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20015 /* ThinkingSessionAttributes.swift */; };
 		BAFA9B998A92184C355F16A8 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F1271205073D3D1E22A94487 /* Localizable.xcstrings */; };
+		BAFA9B998A92184C355F1701 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F1271205073D3D1E22A94488 /* InfoPlist.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +98,7 @@
 		A30001 /* ThinkFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThinkFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A30002 /* ThinkFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1271205073D3D1E22A94487 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		F1271205073D3D1E22A94488 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -197,6 +199,7 @@
 				7710FDDCE1EE27579F312781 /* ThinkFlowSpec.swift */,
 				388612F118CACCCC774FB2F2 /* ThinkFlowRoadmap.swift */,
 				F1271205073D3D1E22A94487 /* Localizable.xcstrings */,
+				F1271205073D3D1E22A94488 /* InfoPlist.xcstrings */,
 			);
 			path = ThinkFlow;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				A10008 /* Assets.xcassets in Resources */,
 				A10014 /* PrivacyInfo.xcprivacy in Resources */,
 				BAFA9B998A92184C355F16A8 /* Localizable.xcstrings in Resources */,
+				BAFA9B998A92184C355F1701 /* InfoPlist.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -58,13 +58,13 @@ struct ThreadRecapView: View {
     }
 
     private var metaLine: String {
-        var parts: [String] = ["\(thread.entryCount)개 생각"]
+        var parts: [String] = [String(localized: "\(thread.entryCount)개 생각")]
         let days = thread.daysSinceBridge
         if days > 0 {
-            parts.append("\(days)일 전 끊어둠")
+            parts.append(String(localized: "\(days)일 전 끊어둠"))
         }
         if thread.totalThinkingSeconds >= 60 {
-            parts.append("누적 \(thread.formattedThinkingTime)")
+            parts.append(String(localized: "누적 \(thread.formattedThinkingTime)"))
         }
         return parts.joined(separator: " · ")
     }
@@ -118,7 +118,7 @@ struct ThreadRecapRow: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("\(isLast ? "직전 생각" : entry.layerLabel): \(entry.content)")
+        .accessibilityLabel("\(isLast ? String(localized: "직전 생각") : entry.layerLabel): \(entry.content)")
     }
 }
 

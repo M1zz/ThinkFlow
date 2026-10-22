@@ -12,3 +12,11 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 한 번에 여러 생각을 꺼내 적을 수 있어요
 위젯에서 끊어둔 문장을 바로 볼 수 있어요
 앱 안에서 의견과 리뷰를 바로 보낼 수 있어요
+
+### 앱스토어 (영어)
+
+Key points and last thought on one card
+Attach research to your flow of thought
+Dump many thoughts at once
+See your bridge sentence in the widget
+Send feedback and reviews inside the app

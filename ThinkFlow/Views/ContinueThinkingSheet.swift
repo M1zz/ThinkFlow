@@ -65,7 +65,7 @@ struct ContinueThinkingSheet: View {
                 .padding(20)
             }
             .background(Color(.systemGroupedBackground))
-            .navigationTitle(phase == .thinking ? "이어서 생각하기" : "문장 끊어두기")
+            .navigationTitle(phase == .thinking ? String(localized: "이어서 생각하기") : String(localized: "문장 끊어두기"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
@@ -174,7 +174,7 @@ struct ContinueThinkingSheet: View {
                         .scrollContentBackground(.hidden)
                         .font(.body)
                         .lineSpacing(4)
-                        .accessibilityLabel(newThoughts.isEmpty ? "지금 이어지는 생각" : "생각 더 추가")
+                        .accessibilityLabel(newThoughts.isEmpty ? String(localized: "지금 이어지는 생각") : String(localized: "생각 더 추가"))
 
                     HStack {
                         Text("\(draft.count)자")
@@ -470,7 +470,7 @@ struct ContinueThinkingSheet: View {
             draft = ""
         }
         isThoughtFocused = true
-        UIAccessibility.post(notification: .announcement, argument: "생각 추가됨")
+        UIAccessibility.post(notification: .announcement, argument: String(localized: "생각 추가됨"))
     }
 
     private func removeThought(at index: Int) {
@@ -491,7 +491,7 @@ struct ContinueThinkingSheet: View {
             refSource = ""
             showRefInput = false
         }
-        UIAccessibility.post(notification: .announcement, argument: "자료 추가됨")
+        UIAccessibility.post(notification: .announcement, argument: String(localized: "자료 추가됨"))
     }
 
     private func removeReference(at index: Int) {
@@ -518,7 +518,7 @@ struct ContinueThinkingSheet: View {
         withAnimation(.easeInOut(duration: 0.25)) { phase = .bridging }
         UIAccessibility.post(
             notification: .screenChanged,
-            argument: "문장 끊어두기 단계입니다. 다음에 이어갈 문장을 적으세요."
+            argument: String(localized: "문장 끊어두기 단계입니다. 다음에 이어갈 문장을 적으세요.")
         )
     }
 

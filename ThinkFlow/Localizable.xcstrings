@@ -1,6 +1,306 @@
 {
   "sourceLanguage" : "ko",
   "strings" : {
+    "%@ 단계로 변경됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Changed to %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 단계로 변경됨"
+          }
+        }
+      }
+    },
+    "%@에 생각을 이어 적습니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue your thoughts on %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@에 생각을 이어 적습니다"
+          }
+        }
+      }
+    },
+    "%lld개" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개"
+          }
+        }
+      }
+    },
+    "%lld개 생각" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld thought"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld thoughts"
+                }
+              }
+            }
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개 생각"
+          }
+        }
+      }
+    },
+    "%lld개 추가됨" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld added"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld added"
+                }
+              }
+            }
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개 추가됨"
+          }
+        }
+      }
+    },
+    "%lld개의 생각" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld thought"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld thoughts"
+                }
+              }
+            }
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld개의 생각"
+          }
+        }
+      }
+    },
+    "%lld번째 생각 삭제" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete thought %lld"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld번째 생각 삭제"
+          }
+        }
+      }
+    },
+    "%lld번째 자료 삭제" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete reference %lld"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld번째 자료 삭제"
+          }
+        }
+      }
+    },
+    "%lld분" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lldm"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld분"
+          }
+        }
+      }
+    },
+    "%lld시간 %lld분" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lldh %2$lldm"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld시간 %lld분"
+          }
+        }
+      }
+    },
+    "%lld일 전 끊어둠" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Bridged %lld day ago"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Bridged %lld days ago"
+                }
+              }
+            }
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld일 전 끊어둠"
+          }
+        }
+      }
+    },
+    "%lld자" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld character"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld characters"
+                }
+              }
+            }
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld자"
+          }
+        }
+      }
+    },
+    "'%@' 스레드의 모든 메모와 브릿지가 삭제됩니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All notes and the bridge in “%@” will be deleted."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "'%@' 스레드의 모든 메모와 브릿지가 삭제됩니다."
+          }
+        }
+      }
+    },
+    "'이어서 생각하기'를 눌러 첫 기록을 남겨보세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap “Continue Thinking” to leave your first entry"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "'이어서 생각하기'를 눌러 첫 기록을 남겨보세요"
+          }
+        }
+      }
+    },
+    "3일 이상 방치됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Untouched for 3+ days"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3일 이상 방치됨"
+          }
+        }
+      }
+    },
     "Face ID 잠금" : {
       "comment" : "Roadmap item: Face ID lock",
       "localizations" : {
@@ -31,6 +331,22 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Face ID나 Touch ID로 앱을 잠가 내 생각을 지켜요."
+          }
+        }
+      }
+    },
+    "JSON으로 내보내기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export as JSON"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSON으로 내보내기"
           }
         }
       }
@@ -86,6 +402,22 @@
         }
       }
     },
+    "개발자에게 문의" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Contact the developer"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "개발자에게 문의"
+          }
+        }
+      }
+    },
     "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요." : {
       "comment" : "Roadmap item detail: larger text layouts",
       "localizations" : {
@@ -120,6 +452,134 @@
         }
       }
     },
+    "기세가 있을 때 끊어두세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop while you’re on a roll"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기세가 있을 때 끊어두세요"
+          }
+        }
+      }
+    },
+    "기세가 있을 때 끊어둔 미완성 문장. 다음에 열면 뇌가 자동으로 이어받습니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An unfinished sentence you left while the momentum was there. Next time you open the app, your brain picks it right up."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기세가 있을 때 끊어둔 미완성 문장. 다음에 열면 뇌가 자동으로 이어받습니다."
+          }
+        }
+      }
+    },
+    "기세가 있을 때 문장을 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop while you’re on a roll.\nNext time you open the app, your brain picks it right up."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "기세가 있을 때 문장을 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다."
+          }
+        }
+      }
+    },
+    "깊이" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Depth"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "깊이"
+          }
+        }
+      }
+    },
+    "끊어둔 문장" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bridge"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "끊어둔 문장"
+          }
+        }
+      }
+    },
+    "끊어둔 문장 수정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Bridge"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "끊어둔 문장 수정"
+          }
+        }
+      }
+    },
+    "끊어둔 문장: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bridge: %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "끊어둔 문장: %@"
+          }
+        }
+      }
+    },
+    "날것의 생각" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raw thought"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "날것의 생각"
+          }
+        }
+      }
+    },
     "내 데이터 한 번에 지우기" : {
       "comment" : "Roadmap item: delete all my data",
       "localizations" : {
@@ -137,6 +597,22 @@
         }
       }
     },
+    "내보내기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "내보내기"
+          }
+        }
+      }
+    },
     "내보낸 파일을 다시 불러와 생각을 되살려요." : {
       "comment" : "Roadmap item detail: restore from backup file",
       "localizations" : {
@@ -150,6 +626,86 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내보낸 파일을 다시 불러와 생각을 되살려요."
+          }
+        }
+      }
+    },
+    "누적 %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ total"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "누적 %@"
+          }
+        }
+      }
+    },
+    "다 꺼냈어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All out"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다 꺼냈어요"
+          }
+        }
+      }
+    },
+    "다음" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Next"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다음"
+          }
+        }
+      }
+    },
+    "다음에 이어서 생각할 미완성 문장을 적습니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write the unfinished sentence to pick up next time"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다음에 이어서 생각할 미완성 문장을 적습니다"
+          }
+        }
+      }
+    },
+    "닫기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "닫기"
           }
         }
       }
@@ -205,6 +761,150 @@
         }
       }
     },
+    "더 보기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "더 보기"
+          }
+        }
+      }
+    },
+    "되살릴 생각" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thoughts to revive"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "되살릴 생각"
+          }
+        }
+      }
+    },
+    "두 번 탭하면 단계를 바꿉니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Double-tap to change the level"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "두 번 탭하면 단계를 바꿉니다"
+          }
+        }
+      }
+    },
+    "두 번 탭하면 생각 스레드로 만듭니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Double-tap to turn into a thought thread"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "두 번 탭하면 생각 스레드로 만듭니다"
+          }
+        }
+      }
+    },
+    "두 번 탭하면 선택합니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Double-tap to select"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "두 번 탭하면 선택합니다"
+          }
+        }
+      }
+    },
+    "마크다운으로 내보내기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Export as Markdown"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "마크다운으로 내보내기"
+          }
+        }
+      }
+    },
+    "막혀서 멈추는 게 아니라, 아직 쓸 게 있을 때 여기서 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Don’t stop because you’re stuck — stop while you still have more to write.\nNext time you open the app, your brain picks it right up."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "막혀서 멈추는 게 아니라, 아직 쓸 게 있을 때 여기서 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다."
+          }
+        }
+      }
+    },
+    "머릿속 생각을 적어 새 스레드를 만듭니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write down what’s on your mind to create a new thread"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "머릿속 생각을 적어 새 스레드를 만듭니다"
+          }
+        }
+      }
+    },
+    "머릿속에 떠다니는 생각을 꺼내 두면\n다음에 이어서 더 깊이 생각할 수 있어요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get the thoughts floating in your head out,\nand pick them up later to think deeper."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "머릿속에 떠다니는 생각을 꺼내 두면\n다음에 이어서 더 깊이 생각할 수 있어요."
+          }
+        }
+      }
+    },
     "멈춰 둔 생각을 잊지 않도록 알맞은 때에 다시 알려 줘요." : {
       "comment" : "Roadmap item detail: notifications",
       "localizations" : {
@@ -218,6 +918,86 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "멈춰 둔 생각을 잊지 않도록 알맞은 때에 다시 알려 줘요."
+          }
+        }
+      }
+    },
+    "메모" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메모"
+          }
+        }
+      }
+    },
+    "모든 생각을 파일로 내보내 백업합니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exports all your thoughts to a file as a backup"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "모든 생각을 파일로 내보내 백업합니다"
+          }
+        }
+      }
+    },
+    "문장 끊어두기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leave a Bridge"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장 끊어두기"
+          }
+        }
+      }
+    },
+    "문장 끊어두기 단계입니다. 다음에 이어갈 문장을 적으세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leave a bridge step. Write the sentence to continue from next time."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장 끊어두기 단계입니다. 다음에 이어갈 문장을 적으세요."
+          }
+        }
+      }
+    },
+    "문장을 끊어둬야 닫을 수 있어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leave a bridge sentence before closing"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장을 끊어둬야 닫을 수 있어요"
           }
         }
       }
@@ -239,6 +1019,22 @@
         }
       }
     },
+    "버그 제보와 기능 제안을 이메일이나 인스타그램 DM으로 보냅니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send bug reports and feature ideas by email or Instagram DM"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "버그 제보와 기능 제안을 이메일이나 인스타그램 DM으로 보냅니다"
+          }
+        }
+      }
+    },
     "보기 편한 색과 대비" : {
       "comment" : "Roadmap item: colors and contrast",
       "localizations" : {
@@ -252,6 +1048,262 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "보기 편한 색과 대비"
+          }
+        }
+      }
+    },
+    "복사" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "복사"
+          }
+        }
+      }
+    },
+    "복사되었습니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copied"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "복사되었습니다"
+          }
+        }
+      }
+    },
+    "복사됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copied"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "복사됨"
+          }
+        }
+      }
+    },
+    "붙인 자료 %lld: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attached reference %1$lld: %2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "붙인 자료 %lld: %@"
+          }
+        }
+      }
+    },
+    "브릿지 수정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Bridge"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "브릿지 수정"
+          }
+        }
+      }
+    },
+    "사고 세션 진행 중" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thinking session in progress"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사고 세션 진행 중"
+          }
+        }
+      }
+    },
+    "사고 시간" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thinking time"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사고 시간"
+          }
+        }
+      }
+    },
+    "삭제" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "삭제"
+          }
+        }
+      }
+    },
+    "생각 꺼내기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brain Dump"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "생각 꺼내기"
+          }
+        }
+      }
+    },
+    "생각 꺼내기 입력란" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brain dump field"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "생각 꺼내기 입력란"
+          }
+        }
+      }
+    },
+    "생각 더 추가" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add another thought"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "생각 더 추가"
+          }
+        }
+      }
+    },
+    "생각 수정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit Thought"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "생각 수정"
+          }
+        }
+      }
+    },
+    "생각 중..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thinking…"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "생각 중..."
+          }
+        }
+      }
+    },
+    "생각 추가" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Thought"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "생각 추가"
+          }
+        }
+      }
+    },
+    "생각 추가됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thought added"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "생각 추가됨"
+          }
+        }
+      }
+    },
+    "생각과 별개로 조사하거나 정리한 자료를 붙여둘 수 있습니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attach research or notes separate from your own thinking"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "생각과 별개로 조사하거나 정리한 자료를 붙여둘 수 있습니다"
           }
         }
       }
@@ -273,6 +1325,22 @@
         }
       }
     },
+    "생각을 이어 나가 보세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep your thinking going"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "생각을 이어 나가 보세요"
+          }
+        }
+      }
+    },
     "생각을 적다가 앱이 꺼져도 쓰던 내용이 남아 있어요." : {
       "comment" : "Roadmap item detail: keep a half-written thought",
       "localizations" : {
@@ -290,6 +1358,86 @@
         }
       }
     },
+    "생각의 흐름" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flow of thought"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "생각의 흐름"
+          }
+        }
+      }
+    },
+    "생각이 바뀔 때마다 따로 추가하면 나중에 정리하기 쉬워요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adding a thought each time your thinking shifts makes it easier to organise later."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "생각이 바뀔 때마다 따로 추가하면 나중에 정리하기 쉬워요."
+          }
+        }
+      }
+    },
+    "선택 없이 전부 보관" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save all without picking"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택 없이 전부 보관"
+          }
+        }
+      }
+    },
+    "선택한 것은 바로 생각 스레드가 됩니다. 나머지는 보관됩니다." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your pick becomes a thought thread right away. The rest are saved for later."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "선택한 것은 바로 생각 스레드가 됩니다. 나머지는 보관됩니다."
+          }
+        }
+      }
+    },
+    "설정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정"
+          }
+        }
+      }
+    },
     "손끝으로 느끼는 반응" : {
       "comment" : "Roadmap item: haptics",
       "localizations" : {
@@ -303,6 +1451,38 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "손끝으로 느끼는 반응"
+          }
+        }
+      }
+    },
+    "수정" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edit"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "수정"
+          }
+        }
+      }
+    },
+    "시작일" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Started"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "시작일"
           }
         }
       }
@@ -375,6 +1555,38 @@
         }
       }
     },
+    "아직 기록이 없어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing here yet"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아직 기록이 없어요"
+          }
+        }
+      }
+    },
+    "아직 정리 안 된 생각들" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thoughts not yet sorted"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아직 정리 안 된 생각들"
+          }
+        }
+      }
+    },
     "알림" : {
       "comment" : "Roadmap item: notifications",
       "localizations" : {
@@ -426,6 +1638,22 @@
         }
       }
     },
+    "어떤 것부터?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Which one first?"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "어떤 것부터?"
+          }
+        }
+      }
+    },
     "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요." : {
       "comment" : "Roadmap item detail: what's new after an update",
       "localizations" : {
@@ -460,6 +1688,38 @@
         }
       }
     },
+    "여기서 끊어뒀어요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You left off here"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "여기서 끊어뒀어요"
+          }
+        }
+      }
+    },
+    "여기서 이어서" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue from here"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "여기서 이어서"
+          }
+        }
+      }
+    },
     "영어 지원" : {
       "comment" : "Roadmap item: English",
       "localizations" : {
@@ -473,6 +1733,86 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "영어 지원"
+          }
+        }
+      }
+    },
+    "예: \"숏폼이 뇌를 망치는 이유는 보상 주기 때문인데, 그렇다면—\"" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. “Short videos wear down focus because of how they reward you, so then—”"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "예: \"숏폼이 뇌를 망치는 이유는 보상 주기 때문인데, 그렇다면—\""
+          }
+        }
+      }
+    },
+    "예: 클로드에게 물어본 결과 정리" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "e.g. Notes from asking Claude"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "예: 클로드에게 물어본 결과 정리"
+          }
+        }
+      }
+    },
+    "오래된순" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oldest first"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "오래된순"
+          }
+        }
+      }
+    },
+    "완료" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Done"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "완료"
+          }
+        }
+      }
+    },
+    "요약" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Summary"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "요약"
           }
         }
       }
@@ -528,6 +1868,598 @@
         }
       }
     },
+    "이 생각을 삭제할까요?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete this thought?"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 생각을 삭제할까요?"
+          }
+        }
+      }
+    },
+    "이 생각을 클립보드에 복사합니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copies this thought to the clipboard"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 생각을 클립보드에 복사합니다"
+          }
+        }
+      }
+    },
+    "이 자료를 클립보드에 복사합니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copies this reference to the clipboard"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 자료를 클립보드에 복사합니다"
+          }
+        }
+      }
+    },
+    "이걸로 시작하기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start with this"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이걸로 시작하기"
+          }
+        }
+      }
+    },
+    "이메일로 문의하기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Email the developer"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이메일로 문의하기"
+          }
+        }
+      }
+    },
+    "이어서 생각하기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue Thinking"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이어서 생각하기"
+          }
+        }
+      }
+    },
+    "이어질 문장 끊기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leave a bridge sentence"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이어질 문장 끊기"
+          }
+        }
+      }
+    },
+    "인스타그램 DM (@lee25_ios)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM (@lee25_ios)"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인스타그램 DM (@lee25_ios)"
+          }
+        }
+      }
+    },
+    "입력한 생각을 한 덩어리로 추가하고 다음 생각을 적습니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adds what you typed as one thought and lets you write the next one"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "입력한 생각을 한 덩어리로 추가하고 다음 생각을 적습니다"
+          }
+        }
+      }
+    },
+    "입력한 자료를 이 생각 흐름에 붙입니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attaches what you typed to this thought flow"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "입력한 자료를 이 생각 흐름에 붙입니다"
+          }
+        }
+      }
+    },
+    "자료" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reference"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자료"
+          }
+        }
+      }
+    },
+    "자료 · %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reference · %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자료 · %@"
+          }
+        }
+      }
+    },
+    "자료 내용" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reference content"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자료 내용"
+          }
+        }
+      }
+    },
+    "자료 추가" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Reference"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자료 추가"
+          }
+        }
+      }
+    },
+    "자료 추가됨" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reference added"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자료 추가됨"
+          }
+        }
+      }
+    },
+    "자료 출처" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reference source"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자료 출처"
+          }
+        }
+      }
+    },
+    "저장" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장"
+          }
+        }
+      }
+    },
+    "전부 보관하기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save them all"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "전부 보관하기"
+          }
+        }
+      }
+    },
+    "전체 복사" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copy All"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "전체 복사"
+          }
+        }
+      }
+    },
+    "정리" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refined"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "정리"
+          }
+        }
+      }
+    },
+    "정리 단계" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refinement level"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "정리 단계"
+          }
+        }
+      }
+    },
+    "정리 단계 %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refinement level %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "정리 단계 %@"
+          }
+        }
+      }
+    },
+    "정리 단계, 현재 %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refinement level, currently %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "정리 단계, 현재 %@"
+          }
+        }
+      }
+    },
+    "조사 결과·자료" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Research & References"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "조사 결과·자료"
+          }
+        }
+      }
+    },
+    "조사 결과·자료 붙이기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Attach research & references"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "조사 결과·자료 붙이기"
+          }
+        }
+      }
+    },
+    "조사 자료" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Research reference"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "조사 자료"
+          }
+        }
+      }
+    },
+    "조사 자료, 출처 %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Research reference, source %@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "조사 자료, 출처 %@"
+          }
+        }
+      }
+    },
+    "조사하거나 정리한 내용을 붙여넣습니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paste what you researched or summarised"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "조사하거나 정리한 내용을 붙여넣습니다"
+          }
+        }
+      }
+    },
+    "줄바꿈으로 생각을 여러 개로 구분합니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Line breaks separate your thoughts"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "줄바꿈으로 생각을 여러 개로 구분합니다"
+          }
+        }
+      }
+    },
+    "지금 당장 하나만 고른다면?" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If you could pick just one right now?"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 당장 하나만 고른다면?"
+          }
+        }
+      }
+    },
+    "지금 머릿속에 있는 거 꺼내세요" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get what’s on your mind out"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 머릿속에 있는 거 꺼내세요"
+          }
+        }
+      }
+    },
+    "지금 이어지는 생각" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thinking now"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금 이어지는 생각"
+          }
+        }
+      }
+    },
+    "지금까지의 흐름" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flow so far"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금까지의 흐름"
+          }
+        }
+      }
+    },
+    "지원" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지원"
+          }
+        }
+      }
+    },
+    "지원 및 앱 정보를 엽니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opens support and app info"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지원 및 앱 정보를 엽니다"
+          }
+        }
+      }
+    },
+    "직전 생각" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Latest thought"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "직전 생각"
+          }
+        }
+      }
+    },
+    "진행 중인 생각" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Active thoughts"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "진행 중인 생각"
+          }
+        }
+      }
+    },
     "처음 쓰는 분을 위한 안내" : {
       "comment" : "Roadmap item: first-run guide",
       "localizations" : {
@@ -558,6 +2490,118 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "처음 열었을 때 무엇을 할 수 있는지 짧게 보여 줘요."
+          }
+        }
+      }
+    },
+    "첫 생각 꺼내기" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dump your first thoughts"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "첫 생각 꺼내기"
+          }
+        }
+      }
+    },
+    "최근 3일 내 방문" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visited in the last 3 days"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "최근 3일 내 방문"
+          }
+        }
+      }
+    },
+    "최신순" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Newest first"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "최신순"
+          }
+        }
+      }
+    },
+    "최종 요약" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Final summary"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "최종 요약"
+          }
+        }
+      }
+    },
+    "추가한 생각 %lld: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Added thought %1$lld: %2$@"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추가한 생각 %lld: %@"
+          }
+        }
+      }
+    },
+    "출처 (예: Claude, 검색) — 선택" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Source (e.g. Claude, search) — optional"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "출처 (예: Claude, 검색) — 선택"
+          }
+        }
+      }
+    },
+    "취소" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "취소"
           }
         }
       }
@@ -596,6 +2640,22 @@
         }
       }
     },
+    "탭하면 생각 스레드가 됩니다" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to turn into a thought thread"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "탭하면 생각 스레드가 됩니다"
+          }
+        }
+      }
+    },
     "펼치는 아이폰 화면" : {
       "comment" : "Roadmap item: foldable iPhone layout",
       "localizations" : {
@@ -626,6 +2686,70 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요."
+          }
+        }
+      }
+    },
+    "하나든 열 개든 괜찮아요. 줄바꿈으로 생각을 구분하세요." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "One thought or ten, either is fine. Separate them with line breaks."
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "하나든 열 개든 괜찮아요. 줄바꿈으로 생각을 구분하세요."
+          }
+        }
+      }
+    },
+    "한 번 정리함" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refined once"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "한 번 정리함"
+          }
+        }
+      }
+    },
+    "핵심" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Key point"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "핵심"
+          }
+        }
+      }
+    },
+    "핵심만 추림" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Key points only"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "핵심만 추림"
           }
         }
       }

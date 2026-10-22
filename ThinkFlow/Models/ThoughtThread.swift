@@ -50,11 +50,11 @@ struct ThoughtEntry: Identifiable, Codable {
 
     var layerLabel: String {
         switch layer {
-        case 0: return "메모"
-        case 1: return "정리"
-        case 2: return "핵심"
-        case 3: return "요약"
-        default: return "메모"
+        case 0: return String(localized: "메모")
+        case 1: return String(localized: "정리")
+        case 2: return String(localized: "핵심")
+        case 3: return String(localized: "요약")
+        default: return String(localized: "메모")
         }
     }
     
@@ -119,9 +119,9 @@ struct ThoughtThread: Identifiable, Codable {
         let hours = totalThinkingSeconds / 3600
         let minutes = (totalThinkingSeconds % 3600) / 60
         if hours > 0 {
-            return "\(hours)시간 \(minutes)분"
+            return String(localized: "\(hours)시간 \(minutes)분")
         } else {
-            return "\(minutes)분"
+            return String(localized: "\(minutes)분")
         }
     }
     

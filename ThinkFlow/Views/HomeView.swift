@@ -314,7 +314,7 @@ struct HomeView: View {
     
     // MARK: - 스레드 섹션
     @ViewBuilder
-    private func threadSection(title: String, subtitle: String, threads: [ThoughtThread]) -> some View {
+    private func threadSection(title: LocalizedStringKey, subtitle: LocalizedStringKey, threads: [ThoughtThread]) -> some View {
         VStack(alignment: .leading, spacing: 12) {
             VStack(alignment: .leading, spacing: 2) {
                 Text(title)
