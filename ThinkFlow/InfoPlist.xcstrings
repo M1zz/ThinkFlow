@@ -45,6 +45,12 @@
             "value" : "ThinkFlow"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",

@@ -45,6 +45,12 @@
             "value" : "Cambiado a %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muutettu tasolle %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -151,6 +157,12 @@
             "value" : "Sigue añadiendo ideas a %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka ajatuksia ketjussa ”%@”"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -252,6 +264,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -448,6 +466,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld ideas"
+                }
+              }
+            }
+          }
+        },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ajatus"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ajatusta"
                 }
               }
             }
@@ -709,6 +745,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld lisätty"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld lisätty"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -965,6 +1019,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ajatus"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld ajatusta"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -1131,6 +1203,12 @@
             "value" : "Eliminar la idea %lld"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista ajatus %lld"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1237,6 +1315,12 @@
             "value" : "Eliminar la referencia %lld"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista aineisto %lld"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1338,6 +1422,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
@@ -1447,6 +1537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld h %2$lld min"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld t %2$lld min"
           }
         },
         "fr" : {
@@ -1640,6 +1736,24 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Puente dejado hace %lld días"
+                }
+              }
+            }
+          }
+        },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Silta jätetty %lld päivä sitten"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Silta jätetty %lld päivää sitten"
                 }
               }
             }
@@ -1901,6 +2015,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld merkki"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld merkkiä"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -2067,6 +2199,12 @@
             "value" : "Se eliminarán todas las notas y la frase puente del hilo «%@»."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki ketjun ”%@” muistiinpanot ja siltalause poistetaan."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2173,6 +2311,12 @@
             "value" : "Toca «Seguir pensando» para dejar tu primer registro"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta ”Ajattele eteenpäin” ja jätä ensimmäinen merkintäsi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2277,6 +2421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sin tocar desde hace más de 3 días"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koskematta yli 3 päivää"
           }
         },
         "fr" : {
@@ -2386,6 +2536,12 @@
             "value" : "Bloqueo con Face ID"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID -lukitus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2493,6 +2649,12 @@
             "value" : "Bloquea la app con Face ID o Touch ID para proteger tus ideas."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukitse sovellus Face ID:llä tai Touch ID:llä, niin ajatuksesi pysyvät yksityisinä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2597,6 +2759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportar como JSON"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vie JSON-muodossa"
           }
         },
         "fr" : {
@@ -2706,6 +2874,12 @@
             "value" : "Anota una idea al instante hablando con Siri o con un atajo."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjaa ajatus heti puhumalla Sirille tai käyttämällä pikakomentoa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2811,6 +2985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri y Atajos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri ja Pikakomennot"
           }
         },
         "fr" : {
@@ -2920,6 +3100,12 @@
             "value" : "Mejor compatibilidad con VoiceOver"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parempi VoiceOver-tuki"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3024,6 +3210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contactar con el desarrollador"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ota yhteyttä kehittäjään"
           }
         },
         "fr" : {
@@ -3133,6 +3325,12 @@
             "value" : "Las pantallas se reorganizan sin cortarse cuando aumentas el tamaño del texto."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näkymät asettuvat siististi uudelleen eivätkä leikkaudu, kun suurennat tekstiä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3238,6 +3436,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sincronización entre dispositivos"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synkronointi laitteiden välillä"
           }
         },
         "fr" : {
@@ -3346,6 +3550,12 @@
             "value" : "Para mientras vas lanzado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopeta, kun vauhti vielä kantaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3450,6 +3660,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Una frase inacabada que dejaste mientras tenías impulso. La próxima vez que abras la app, tu mente retomará el hilo sola."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesken jäänyt lause, jonka jätit vauhdissa. Kun avaat sovelluksen seuraavan kerran, mielesi tarttuu langanpäähän itsestään."
           }
         },
         "fr" : {
@@ -3558,6 +3774,12 @@
             "value" : "Para mientras vas lanzado.\nLa próxima vez que abras la app, tu mente retomará el hilo sola."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopeta, kun vauhti vielä kantaa.\nKun avaat sovelluksen seuraavan kerran, mielesi tarttuu langanpäähän itsestään."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3662,6 +3884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Profundidad"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Syvyys"
           }
         },
         "fr" : {
@@ -3770,6 +3998,12 @@
             "value" : "Frase puente"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siltalause"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3874,6 +4108,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Editar frase puente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muokkaa siltalausetta"
           }
         },
         "fr" : {
@@ -3982,6 +4222,12 @@
             "value" : "Frase puente: %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siltalause: %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4086,6 +4332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Idea en bruto"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raaka ajatus"
           }
         },
         "fr" : {
@@ -4195,6 +4447,12 @@
             "value" : "Borrar todos mis datos de una vez"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista kaikki tietoni kerralla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4299,6 +4557,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exportar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vie"
           }
         },
         "fr" : {
@@ -4408,6 +4672,12 @@
             "value" : "Recupera tus ideas desde un archivo exportado."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palauta ajatuksesi viedystä tiedostosta."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4512,6 +4782,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ en total"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yhteensä %@"
           }
         },
         "fr" : {
@@ -4620,6 +4896,12 @@
             "value" : "Ya está todo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaikki kirjoitettu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4724,6 +5006,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siguiente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seuraava"
           }
         },
         "fr" : {
@@ -4832,6 +5120,12 @@
             "value" : "Escribe la frase inacabada para retomar la próxima vez"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita kesken jäävä lause, josta jatkat ensi kerralla"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4936,6 +5230,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cerrar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sulje"
           }
         },
         "fr" : {
@@ -5045,6 +5345,12 @@
             "value" : "Lee todo con facilidad, incluso con más contraste o si te cuesta distinguir los colores."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lue kaikki helposti, vaikka kontrasti olisi korotettu tai värien erottaminen olisi vaikeaa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5150,6 +5456,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa la app en más idiomas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä sovellusta useammalla kielellä."
           }
         },
         "fr" : {
@@ -5259,6 +5571,12 @@
             "value" : "Más idiomas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää kieliä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5363,6 +5681,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Más"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää"
           }
         },
         "fr" : {
@@ -5471,6 +5795,12 @@
             "value" : "Ideas por retomar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herätettävät ajatukset"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5575,6 +5905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca dos veces para cambiar el nivel"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vaihda tasoa kaksoisnapauttamalla"
           }
         },
         "fr" : {
@@ -5683,6 +6019,12 @@
             "value" : "Toca dos veces para convertirla en un hilo de pensamiento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaksoisnapauta tehdäksesi ajatusketjun"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5787,6 +6129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca dos veces para seleccionar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitse kaksoisnapauttamalla"
           }
         },
         "fr" : {
@@ -5895,6 +6243,12 @@
             "value" : "Exportar como Markdown"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vie Markdown-muodossa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5999,6 +6353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No pares porque te atasques, sino mientras aún tengas algo que escribir.\nLa próxima vez que abras la app, tu mente retomará el hilo sola."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Älä lopeta siksi, että jumiudut, vaan kun sinulla on vielä jotain kirjoitettavaa.\nKun avaat sovelluksen seuraavan kerran, mielesi tarttuu langanpäähän itsestään."
           }
         },
         "fr" : {
@@ -6107,6 +6467,12 @@
             "value" : "Escribe lo que tienes en la cabeza para crear un hilo nuevo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita ylös, mitä sinulla on mielessä, ja luo uusi ketju"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6211,6 +6577,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saca las ideas que te rondan la cabeza\ny retómalas luego para pensar más a fondo."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita ylös mielessäsi pyörivät ajatukset\nja palaa niihin myöhemmin ajatellaksesi syvemmin."
           }
         },
         "fr" : {
@@ -6320,6 +6692,12 @@
             "value" : "Un aviso a tiempo para que no olvides las ideas que dejaste a un lado."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oikea-aikainen muistutus, ettei sivuun jättämäsi ajatus unohdu."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6424,6 +6802,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nota"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muistiinpano"
           }
         },
         "fr" : {
@@ -6532,6 +6916,12 @@
             "value" : "Exporta todas tus ideas a un archivo como copia de seguridad"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vie kaikki ajatuksesi tiedostoon varmuuskopioksi"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6636,6 +7026,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dejar una frase puente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätä siltalause"
           }
         },
         "fr" : {
@@ -6744,6 +7140,12 @@
             "value" : "Paso de dejar una frase puente. Escribe la frase con la que seguirás la próxima vez."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siltalauseen vaihe. Kirjoita lause, josta jatkat ensi kerralla."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6848,6 +7250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deja una frase puente para poder cerrar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätä siltalause, niin voit sulkea"
           }
         },
         "fr" : {
@@ -6957,6 +7365,12 @@
             "value" : "Restaurar desde una copia de seguridad"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Palauta varmuuskopiosta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7061,6 +7475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Envía errores e ideas de funciones por correo o por MD de Instagram"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähetä virheilmoitukset ja ominaisuusehdotukset sähköpostilla tai Instagram-viestillä"
           }
         },
         "fr" : {
@@ -7170,6 +7590,12 @@
             "value" : "Colores y contraste más cómodos"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Miellyttävämmät värit ja kontrasti"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7274,6 +7700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copiar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi"
           }
         },
         "fr" : {
@@ -7382,6 +7814,12 @@
             "value" : "Copiado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioitu"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7486,6 +7924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copiado"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioitu"
           }
         },
         "fr" : {
@@ -7594,6 +8038,12 @@
             "value" : "Referencia adjunta %1$lld: %2$@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liitetty aineisto %1$lld: %2$@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7698,6 +8148,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Editar frase puente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muokkaa siltalausetta"
           }
         },
         "fr" : {
@@ -7806,6 +8262,12 @@
             "value" : "Sesión de pensamiento en curso"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajatteluistunto käynnissä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7910,6 +8372,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiempo pensando"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajatteluaika"
           }
         },
         "fr" : {
@@ -8018,6 +8486,12 @@
             "value" : "Eliminar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8122,6 +8596,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Volcar ideas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyhjennä pää"
           }
         },
         "fr" : {
@@ -8230,6 +8710,12 @@
             "value" : "Campo para volcar ideas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kenttä pään tyhjentämiseen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8334,6 +8820,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añadir otra idea"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää vielä yksi ajatus"
           }
         },
         "fr" : {
@@ -8442,6 +8934,12 @@
             "value" : "Editar idea"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muokkaa ajatusta"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8546,6 +9044,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pensando…"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajattelen…"
           }
         },
         "fr" : {
@@ -8654,6 +9158,12 @@
             "value" : "Añadir idea"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää ajatus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8760,6 +9270,12 @@
             "value" : "Idea añadida"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajatus lisätty"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8864,6 +9380,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Puedes adjuntar lo que investigaste o resumiste, separado de tus propias ideas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voit liittää tutkimusta ja tiivistelmiä erillään omista ajatuksistasi"
           }
         },
         "fr" : {
@@ -8973,6 +9495,12 @@
             "value" : "Una vibración suave al guardar o retomar una idea."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kevyt värähdys, kun kirjaat tai jatkat ajatusta."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9077,6 +9605,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sigue dándole vueltas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka ajattelua"
           }
         },
         "fr" : {
@@ -9186,6 +9720,12 @@
             "value" : "Lo que estabas escribiendo se conserva aunque la app se cierre."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoittamasi säilyy, vaikka sovellus sulkeutuisi kesken kaiken."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9290,6 +9830,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hilo de pensamiento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajatusten virta"
           }
         },
         "fr" : {
@@ -9398,6 +9944,12 @@
             "value" : "Si añades cada idea por separado cuando cambie tu forma de pensar, será más fácil ordenarlas después."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun lisäät jokaisen uuden ajatuksen erikseen, niiden järjestäminen myöhemmin on helpompaa."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9502,6 +10054,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guardar todas sin elegir"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna kaikki valitsematta"
           }
         },
         "fr" : {
@@ -9610,6 +10168,12 @@
             "value" : "La que elijas se convierte en un hilo de pensamiento al instante. Las demás se guardan."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valitsemasi ajatus muuttuu heti ajatusketjuksi. Muut tallennetaan."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9714,6 +10278,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustes"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Asetukset"
           }
         },
         "fr" : {
@@ -9823,6 +10393,12 @@
             "value" : "Respuesta háptica"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptinen palaute"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9929,6 +10505,12 @@
             "value" : "Editar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muokkaa"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10033,6 +10615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inicio"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloitettu"
           }
         },
         "fr" : {
@@ -10142,6 +10730,12 @@
             "value" : "Consejos útiles"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käteviä vinkkejä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10247,6 +10841,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Retoma lo que dejaste a medias"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka siitä, mihin jäit"
           }
         },
         "fr" : {
@@ -10356,6 +10956,12 @@
             "value" : "Escribe y retoma tus ideas en el iPad solo con el teclado."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita ja jatka ajatuksiasi iPadilla pelkällä näppäimistöllä."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10461,6 +11067,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sigue con las mismas ideas en tu iPhone y tu iPad."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka samoja ajatuksia iPhonella ja iPadilla."
           }
         },
         "fr" : {
@@ -10569,6 +11181,12 @@
             "value" : "Aún no hay registros"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei vielä merkintöjä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10673,6 +11291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ideas aún sin ordenar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vielä järjestämättömät ajatukset"
           }
         },
         "fr" : {
@@ -10782,6 +11406,12 @@
             "value" : "Recordatorios"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Muistutukset"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10887,6 +11517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Avisos discretos sobre funciones útiles, justo cuando las necesitas."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hienovaraisia vinkkejä hyödyllisistä toiminnoista juuri silloin, kun niitä tarvitset."
           }
         },
         "fr" : {
@@ -10996,6 +11632,12 @@
             "value" : "Usa toda la app en inglés."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä koko sovellusta englanniksi."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11100,6 +11742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Por cuál empezamos?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mistä aloitetaan?"
           }
         },
         "fr" : {
@@ -11209,6 +11857,12 @@
             "value" : "La primera vez que abras la app tras una actualización, verás las novedades."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun avaat sovelluksen päivityksen jälkeen ensimmäisen kerran, näet mitä uutta on tullut."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11314,6 +11968,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novedades"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uutta"
           }
         },
         "fr" : {
@@ -11422,6 +12082,12 @@
             "value" : "Lo dejaste aquí"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jäit tähän"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11526,6 +12192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seguir desde aquí"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka tästä"
           }
         },
         "fr" : {
@@ -11635,6 +12307,12 @@
             "value" : "Compatibilidad total con inglés"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Täysi englannin tuki"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11739,6 +12417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ej.: «Los vídeos cortos nos quitan la concentración por cómo nos recompensan, así que entonces…»"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esim. ”Lyhyet videot heikentävät keskittymistä palkitsemisen takia, joten silloin…”"
           }
         },
         "fr" : {
@@ -11847,6 +12531,12 @@
             "value" : "Ej.: resumen de lo que preguntaste a Claude"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esim. tiivistelmä Claudelta kysytystä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11951,6 +12641,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Más antiguas primero"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vanhin ensin"
           }
         },
         "fr" : {
@@ -12059,6 +12755,12 @@
             "value" : "Listo"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valmis"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12163,6 +12865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resumen"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiivistelmä"
           }
         },
         "fr" : {
@@ -12272,6 +12980,12 @@
             "value" : "Reducir movimiento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vähennä liikettä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12377,6 +13091,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Con «Reducir movimiento» activado, los efectos de pantalla se calman."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kun ”Vähennä liikettä” on päällä, näytön tehosteet rauhoittuvat."
           }
         },
         "fr" : {
@@ -12486,6 +13206,12 @@
             "value" : "Borra todas tus ideas desde la propia app cuando quieras."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poista kaikki ajatuksesi sovelluksesta milloin haluat."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12590,6 +13316,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "¿Eliminar esta idea?"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poistetaanko tämä ajatus?"
           }
         },
         "fr" : {
@@ -12698,6 +13430,12 @@
             "value" : "Copia esta idea al portapapeles"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi tämän ajatuksen leikepöydälle"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12802,6 +13540,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copia esta referencia al portapapeles"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi tämän aineiston leikepöydälle"
           }
         },
         "fr" : {
@@ -12910,6 +13654,12 @@
             "value" : "Empezar con esta"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita tästä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13014,6 +13764,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escribir por correo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähetä sähköpostia"
           }
         },
         "fr" : {
@@ -13122,6 +13878,12 @@
             "value" : "Seguir pensando"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajattele eteenpäin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13226,6 +13988,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deja una frase puente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jätä siltalause"
           }
         },
         "fr" : {
@@ -13334,6 +14102,12 @@
             "value" : "MD de Instagram (@lee25_ios)"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram-viesti (@lee25_ios)"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13438,6 +14212,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Añade lo que escribiste como una sola idea y te deja escribir la siguiente"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää kirjoittamasi yhtenä ajatuksena ja antaa kirjoittaa seuraavan"
           }
         },
         "fr" : {
@@ -13546,6 +14326,12 @@
             "value" : "Adjunta lo que escribiste a este hilo de pensamiento"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liittää kirjoittamasi tähän ajatusketjuun"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13650,6 +14436,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Referencia"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aineisto"
           }
         },
         "fr" : {
@@ -13758,6 +14550,12 @@
             "value" : "Referencia · %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aineisto · %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13862,6 +14660,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contenido de la referencia"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aineiston sisältö"
           }
         },
         "fr" : {
@@ -13970,6 +14774,12 @@
             "value" : "Añadir referencia"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisää aineisto"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14074,6 +14884,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Referencia añadida"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aineisto lisätty"
           }
         },
         "fr" : {
@@ -14182,6 +14998,12 @@
             "value" : "Fuente de la referencia"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aineiston lähde"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14286,6 +15108,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guardar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna"
           }
         },
         "fr" : {
@@ -14394,6 +15222,12 @@
             "value" : "Guardarlas todas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna kaikki"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14498,6 +15332,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copiar todo"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopioi kaikki"
           }
         },
         "fr" : {
@@ -14606,6 +15446,12 @@
             "value" : "Ordenado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Järjestetty"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14710,6 +15556,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nivel de refinado"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiontataso"
           }
         },
         "fr" : {
@@ -14818,6 +15670,12 @@
             "value" : "Nivel de refinado %@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiontataso %@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14922,6 +15780,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nivel de refinado, actualmente %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hiontataso, nyt %@"
           }
         },
         "fr" : {
@@ -15030,6 +15894,12 @@
             "value" : "Investigación y fuentes"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutkimus ja lähteet"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15134,6 +16004,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adjuntar investigación y fuentes"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liitä tutkimus ja lähteet"
           }
         },
         "fr" : {
@@ -15242,6 +16118,12 @@
             "value" : "Referencia de investigación"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutkimusaineisto"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15346,6 +16228,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Referencia de investigación, fuente %@"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutkimusaineisto, lähde %@"
           }
         },
         "fr" : {
@@ -15454,6 +16342,12 @@
             "value" : "Pega lo que investigaste o resumiste"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Liitä tähän se, mitä olet etsinyt tai tiivistänyt"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15558,6 +16452,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Los saltos de línea separan tus ideas"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rivinvaihdot erottavat ajatuksesi toisistaan"
           }
         },
         "fr" : {
@@ -15666,6 +16566,12 @@
             "value" : "Si solo pudieras elegir una ahora mismo, ¿cuál?"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jos valitsisit nyt vain yhden?"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15770,6 +16676,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saca lo que tienes en la cabeza"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kirjoita ylös, mitä sinulla on mielessä"
           }
         },
         "fr" : {
@@ -15878,6 +16790,12 @@
             "value" : "Lo que piensas ahora"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meneillään oleva ajatus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15982,6 +16900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "El hilo hasta ahora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tähänastinen kulku"
           }
         },
         "fr" : {
@@ -16090,6 +17014,12 @@
             "value" : "Soporte"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tuki"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16194,6 +17124,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Abre el soporte y la información de la app"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avaa tuen ja sovelluksen tiedot"
           }
         },
         "fr" : {
@@ -16302,6 +17238,12 @@
             "value" : "Última idea"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viimeisin ajatus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16406,6 +17348,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ideas en curso"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käynnissä olevat ajatukset"
           }
         },
         "fr" : {
@@ -16515,6 +17463,12 @@
             "value" : "Guía de inicio"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloitusopas"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16620,6 +17574,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Un recorrido rápido por lo que puedes hacer al abrir la app por primera vez."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lyhyt esittely siitä, mitä voit tehdä, kun avaat sovelluksen ensimmäistä kertaa."
           }
         },
         "fr" : {
@@ -16728,6 +17688,12 @@
             "value" : "Vuelca tus primeras ideas"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tyhjennä ensimmäiset ajatukset"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16832,6 +17798,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Visitadas en los últimos 3 días"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vierailtu viimeisen 3 päivän aikana"
           }
         },
         "fr" : {
@@ -16940,6 +17912,12 @@
             "value" : "Más recientes primero"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uusin ensin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17044,6 +18022,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resumen final"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lopullinen tiivistelmä"
           }
         },
         "fr" : {
@@ -17152,6 +18136,12 @@
             "value" : "Idea añadida %1$lld: %2$@"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lisätty ajatus %1$lld: %2$@"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17258,6 +18248,12 @@
             "value" : "Fuente (p. ej., Claude, búsqueda) — opcional"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lähde (esim. Claude, haku) – valinnainen"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17362,6 +18358,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancelar"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peruuta"
           }
         },
         "fr" : {
@@ -17471,6 +18473,12 @@
             "value" : "Diseño para texto grande"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näkymät suuremmalle tekstille"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17578,6 +18586,12 @@
             "value" : "Control con teclado"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ohjaus näppäimistöllä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17682,6 +18696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toca para convertirla en un hilo de pensamiento"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta tehdäksesi ajatusketjun"
           }
         },
         "fr" : {
@@ -17791,6 +18811,12 @@
             "value" : "Diseño para iPhone plegable"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taittuvan iPhonen näkymä"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17896,6 +18922,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usa la pantalla amplia de un iPhone plegable como dos paneles."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Käytä taittuvan iPhonen leveää näyttöä kahtena vierekkäisenä ruutuna."
           }
         },
         "fr" : {
@@ -18004,6 +19036,12 @@
             "value" : "Da igual si es una idea o diez. Sepáralas con saltos de línea."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yksi ajatus tai kymmenen, ihan sama. Erota ne rivinvaihdoilla."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18108,6 +19146,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ordenado una vez"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Järjestetty kerran"
           }
         },
         "fr" : {
@@ -18216,6 +19260,12 @@
             "value" : "Clave"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ydin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18320,6 +19370,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Solo lo clave"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vain ydin"
           }
         },
         "fr" : {
@@ -18427,6 +19483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver lee cada botón y cada nota, en el orden correcto."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lukee jokaisen painikkeen ja muistiinpanon oikeassa järjestyksessä."
           }
         },
         "fr" : {

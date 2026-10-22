@@ -1036,3 +1036,64 @@ Se din brosætning og kernen i en widget på hjemmeskærmen. Mens du tænker, vi
 
 Dine tanker bliver på din enhed
 Alt gemmes kun på din enhed, og du behøver ingen konto. Eksportér når som helst som en Markdown- eller JSON-fil.
+
+## fi
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Ajattele eteenpäin
+
+### 부제
+
+Jatka siitä, mihin jäit
+
+### 키워드
+
+muistiinpanot,päiväkirja,ideat,toinen aivo,zettelkasten,syvätyö,pohdinta,keskittyminen,muistio
+
+### 프로모션 텍스트
+
+Älä enää hukkaa ajatuksen lankaa. Kun palaat, näet ytimen ja viimeisen ajatuksesi ja jatkat täsmälleen siitä, mihin jäit.
+
+### 설명
+
+Eilen kesken jääneen ajatuksen voit jatkaa tänään täsmälleen siitä, mihin se jäi.
+ThinkFlow on ajatteluvihko, joka auttaa kehittämään syviä ajatuksia vähän kerrallaan usean päivän aikana.
+
+Hemingwayn kerrotaan lopettaneen kirjoittamisen tarkoituksella, kun työ sujui hyvin. Kun tietää, mistä aloittaa seuraavana päivänä, pääsee heti takaisin vauhtiin. ThinkFlow soveltaa tätä menetelmää ajatteluun.
+
+Siltalause
+Kun lopetat ajattelun, jätä yksi rivi: kysymys, josta jatkat. Kun avaat sovelluksen seuraavan kerran, lause odottaa ylimpänä.
+
+Jatka tästä
+Etunäkymä näyttää viimeisimmän ajatuksesi. Siltalause, tähänastinen ydin ja viimeisin ajatus ovat yhdellä kortilla, ja voit jatkaa kirjoittamista heti.
+
+Muistiinpanosta ytimeen
+Hio kirjoittamaasi neljällä tasolla: muistiinpano, järjestetty, ydin ja tiivistelmä. Näet yhdellä silmäyksellä, kuinka pitkälle ajatus on kypsynyt.
+
+Aineiston liittäminen
+Hakemasi tai kysymäsi ja tiivistämäsi sisältö liitetään aineistona, selvästi erilleen omista ajatuksistasi.
+
+Tyhjennä pää
+Kirjoita ylös kaikki mielessä pyörivä, yksi rivi kerrallaan. Myöhemmin yksi napautus tekee rivistä ajatuksen, jota voit jatkaa.
+
+Herätettävät ajatukset
+Ajatukset, joihin et ole koskenut yli kolmeen päivään, kerätään erilleen, jotta voit ottaa ne uudelleen käsiteltäväksi. Myös kuhunkin ajatukseen käyttämäsi aika kertyy.
+
+Widgetit ja lukitusnäyttö
+Näet siltalauseen ja ytimen kotinäytön widgetissä. Ajattelun aikana aika näkyy lukitusnäytöllä ja Dynamic Islandissa.
+
+Ajatuksesi pysyvät laitteellasi
+Kaikki tallennetaan vain laitteellesi, eikä tiliä tarvita. Voit viedä sisällön milloin tahansa Markdown- tai JSON-tiedostona.

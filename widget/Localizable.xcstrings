@@ -135,6 +135,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld muistiinpano"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld muistiinpanoa"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -391,6 +409,24 @@
             }
           }
         },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Uinunut %lld päivän"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Uinunut %lld päivää"
+                }
+              }
+            }
+          }
+        },
         "fr" : {
           "variations" : {
             "plural" : {
@@ -557,6 +593,12 @@
             "value" : "Muestra la frase puente de tu hilo más reciente."
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Näyttää uusimman ajatusketjusi siltalauseen."
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -661,6 +703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Para pensar después"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajateltavaa seuraavaksi"
           }
         },
         "fr" : {
@@ -769,6 +817,12 @@
             "value" : "Ideas por retomar"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herätettävät ajatukset"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -873,6 +927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Retoma tus ideas pausadas. Mira tu frase puente en la pantalla de inicio."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jatka pysähtyneitä ajatuksiasi. Näet siltalauseesi kotinäytöllä."
           }
         },
         "fr" : {
@@ -981,6 +1041,12 @@
             "value" : "Empieza una idea nueva"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aloita uusi ajatus"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1082,6 +1148,12 @@
           }
         },
         "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "fi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -1193,6 +1265,12 @@
             "value" : "Widget de ThinkFlow"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow-widget"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1299,6 +1377,12 @@
             "value" : "Seguir pensando"
           }
         },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajattele eteenpäin"
+          }
+        },
         "fr" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1403,6 +1487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Para pensar ahora"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajateltavaa nyt"
           }
         },
         "fr" : {

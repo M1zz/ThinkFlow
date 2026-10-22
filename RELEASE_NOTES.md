@@ -140,3 +140,11 @@ Send feedback og anmeldelser i appen
 Γράψτε πολλές σκέψεις μονομιάς
 Η πρόταση-γέφυρα στο γραφικό στοιχείο
 Σχόλια και κριτικές μέσα στην εφαρμογή
+
+### 앱스토어 (핀란드어)
+
+Kortilla ydin ja viimeisin ajatus
+Liitä tutkimus ajatusten virtaan
+Kirjoita monta ajatusta kerralla
+Siltalause näkyy suoraan widgetissä
+Lähetä palautetta ja arvosteluja appista
