@@ -20,3 +20,11 @@ Attach research to your flow of thought
 Dump many thoughts at once
 See your bridge sentence in the widget
 Send feedback and reviews inside the app
+
+### 앱스토어 (영어(영국))
+
+Key points and last thought on one card
+Attach research to your flow of thought
+Dump many thoughts at once
+See your bridge sentence in the widget
+Send feedback and reviews inside the app

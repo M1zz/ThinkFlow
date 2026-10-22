@@ -21,6 +21,24 @@
             }
           }
         },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld note"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld notes"
+                }
+              }
+            }
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -32,6 +50,24 @@
     "%lld일째 잠자는 중" : {
       "localizations" : {
         "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Dormant for %lld day"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Dormant for %lld days"
+                }
+              }
+            }
+          }
+        },
+        "en-GB" : {
           "variations" : {
             "plural" : {
               "one" : {
@@ -65,6 +101,12 @@
             "value" : "Shows the bridge of your most recent thought thread."
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shows the bridge of your most recent thought thread."
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -76,6 +118,12 @@
     "다음에 생각할 것" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Think about next"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Think about next"
@@ -97,6 +145,12 @@
             "value" : "Thoughts to revive"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thoughts to revive"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -108,6 +162,12 @@
     "멈춘 생각을 이어가세요. 헤밍웨이 브릿지를 홈 화면에서 확인합니다." : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick your paused thinking back up. See your bridge sentence on the Home Screen."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pick your paused thinking back up. See your bridge sentence on the Home Screen."
@@ -129,6 +189,12 @@
             "value" : "Start a new thought"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start a new thought"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -140,6 +206,12 @@
     "이어생각" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -161,6 +233,12 @@
             "value" : "ThinkFlow Widget"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow Widget"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -177,6 +255,12 @@
             "value" : "Continue Thinking"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continue Thinking"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -188,6 +272,12 @@
     "지금 생각할 것" : {
       "localizations" : {
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Think about now"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Think about now"

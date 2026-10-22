@@ -121,3 +121,64 @@ See your bridge sentence and key point in a Home Screen widget. While you think,
 
 Your thoughts stay on your device
 Everything is stored only on your device and no account is needed. Export it any time as a Markdown or JSON file.
+
+## en-GB
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Continue Thinking
+
+### 부제
+
+Pick up where you left off
+
+### 키워드
+
+brain dump,journal,diary,notes,ideas,second brain,zettelkasten,deep work,reflection,focus,jotter
+
+### 프로모션 텍스트
+
+Never lose your train of thought again. The moment you return, see your key point and last thought, then carry on right where you stopped.
+
+### 설명
+
+Pick up yesterday’s unfinished thought right where you left it.
+ThinkFlow is a thinking notebook that helps you build deep thoughts a little at a time, over days.
+
+Hemingway is said to have stopped writing on purpose while it was going well. Knowing where to start the next day made it easy to dive right back in. ThinkFlow brings that method to thinking.
+
+Bridge sentence
+When you finish thinking, leave one line: the question to pick up next. The next time you open the app, that sentence is waiting at the top.
+
+Continue from here
+Your most recent thought appears on the first screen. See your bridge sentence, the key points so far and your last thought on a single card, and keep writing right away.
+
+From note to key point
+Refine what you jot down through four levels: note, refined, key point and summary. See at a glance how far a thought has matured.
+
+Attach references
+Keep what you searched or asked about as references, clearly separate from your own thinking.
+
+Brain dump
+Write down everything floating in your head, one line at a time. Later, a single tap turns any line into a thought to continue.
+
+Thoughts to revive
+Thoughts you haven’t touched in over three days are gathered in one place so you can take them up again. The time you spend on each thought adds up too.
+
+Widgets and Lock Screen
+See your bridge sentence and key point in a Home Screen widget. While you think, the time shows on the Lock Screen and in the Dynamic Island.
+
+Your thoughts stay on your device
+Everything is stored only on your device and no account is needed. Export it any time as a Markdown or JSON file.

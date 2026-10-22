@@ -9,6 +9,12 @@
             "value" : "ThinkFlow"
           }
         },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
