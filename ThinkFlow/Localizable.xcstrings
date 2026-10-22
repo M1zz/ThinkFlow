@@ -93,6 +93,12 @@
             "value" : "Gewijzigd naar %@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zmieniono na „%@”"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -223,6 +229,12 @@
             "value" : "Schrijf verder in “%@”"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontynuuj myśli w „%@”"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -348,6 +360,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -628,6 +646,36 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld gedachten"
+                }
+              }
+            }
+          }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myśli"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myśli"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myśl"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myśli"
                 }
               }
             }
@@ -949,6 +997,36 @@
             }
           }
         },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Dodano: %lld"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Dodano: %lld"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Dodano: %lld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Dodano: %lld"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -1265,6 +1343,36 @@
             }
           }
         },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myśli"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myśli"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myśl"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld myśli"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -1431,6 +1539,12 @@
             "value" : "Gedachte %lld verwijderen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń myśl nr %lld"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1561,6 +1675,12 @@
             "value" : "Materiaal %lld verwijderen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń materiał nr %lld"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1686,6 +1806,12 @@
           }
         },
         "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld min"
+          }
+        },
+        "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld min"
@@ -1819,6 +1945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld u %2$lld min"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld godz. %2$lld min"
           }
         },
         "pt-BR" : {
@@ -2096,6 +2228,36 @@
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "Brug %lld dagen geleden achtergelaten"
+                }
+              }
+            }
+          }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Pomost zostawiony %lld dni temu"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Pomost zostawiony %lld dni temu"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Pomost zostawiony %lld dzień temu"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Pomost zostawiony %lld dnia temu"
                 }
               }
             }
@@ -2417,6 +2579,36 @@
             }
           }
         },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld znaki"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld znaków"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld znak"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld znaku"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -2583,6 +2775,12 @@
             "value" : "Alle notities en de brugzin van “%@” worden verwijderd."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wszystkie notatki i zdanie-pomost w „%@” zostaną usunięte."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2713,6 +2911,12 @@
             "value" : "Tik op “Denk verder” om je eerste notitie te maken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuknij „Myśl dalej”, aby dodać pierwszy wpis"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2841,6 +3045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Langer dan 3 dagen niet aangeraakt"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nietknięte od ponad 3 dni"
           }
         },
         "pt-BR" : {
@@ -2974,6 +3184,12 @@
             "value" : "Face ID-vergrendeling"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blokada Face ID"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3105,6 +3321,12 @@
             "value" : "Vergrendel de app met Face ID of Touch ID zodat je gedachten privé blijven."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zablokuj aplikację za pomocą Face ID lub Touch ID, aby Twoje myśli pozostały prywatne."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3233,6 +3455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exporteer als JSON"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportuj jako JSON"
           }
         },
         "pt-BR" : {
@@ -3366,6 +3594,12 @@
             "value" : "Noteer meteen een gedachte door tegen Siri te praten of een opdracht uit te voeren."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz myśl od razu, mówiąc do Siri lub uruchamiając skrót."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3495,6 +3729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri en Opdrachten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri i Skróty"
           }
         },
         "pt-BR" : {
@@ -3628,6 +3868,12 @@
             "value" : "Betere ondersteuning voor VoiceOver"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wygodniejsza obsługa VoiceOver"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3756,6 +4002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Neem contact op met de ontwikkelaar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skontaktuj się z twórcą"
           }
         },
         "pt-BR" : {
@@ -3889,6 +4141,12 @@
             "value" : "Schermen schikken zich netjes opnieuw zonder af te kappen als je de tekst vergroot."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po powiększeniu tekstu ekrany układają się na nowo, nic nie jest ucięte."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4018,6 +4276,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Synchroniseren tussen apparaten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Synchronizacja między urządzeniami"
           }
         },
         "pt-BR" : {
@@ -4150,6 +4414,12 @@
             "value" : "Stop als het lekker loopt"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przerwij, gdy idzie dobrze"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4278,6 +4548,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Een onafgemaakte zin die je liet staan toen het lekker liep. De volgende keer dat je de app opent, pakt je brein de draad vanzelf weer op."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Niedokończone zdanie zostawione w pełnym rozpędzie. Gdy następnym razem otworzysz aplikację, umysł sam podejmie wątek."
           }
         },
         "pt-BR" : {
@@ -4410,6 +4686,12 @@
             "value" : "Stop als het lekker loopt.\nDe volgende keer dat je de app opent, pakt je brein de draad vanzelf weer op."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przerwij, gdy idzie dobrze.\nGdy następnym razem otworzysz aplikację, umysł sam podejmie wątek."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4538,6 +4820,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Diepte"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Głębia"
           }
         },
         "pt-BR" : {
@@ -4670,6 +4958,12 @@
             "value" : "Brugzin"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdanie-pomost"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -4798,6 +5092,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brugzin bewerken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edytuj zdanie-pomost"
           }
         },
         "pt-BR" : {
@@ -4930,6 +5230,12 @@
             "value" : "Brugzin: %@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zdanie-pomost: %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5058,6 +5364,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ruwe gedachte"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Surowa myśl"
           }
         },
         "pt-BR" : {
@@ -5191,6 +5503,12 @@
             "value" : "Al mijn gegevens in één keer wissen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń wszystkie moje dane naraz"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5319,6 +5637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Exporteer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportuj"
           }
         },
         "pt-BR" : {
@@ -5452,6 +5776,12 @@
             "value" : "Haal je gedachten terug uit een geëxporteerd bestand."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przywróć swoje myśli z wyeksportowanego pliku."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5580,6 +5910,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ in totaal"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Łącznie %@"
           }
         },
         "pt-BR" : {
@@ -5712,6 +6048,12 @@
             "value" : "Alles genoteerd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wszystko spisane"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -5840,6 +6182,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Volgende"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dalej"
           }
         },
         "pt-BR" : {
@@ -5972,6 +6320,12 @@
             "value" : "Schrijf de onafgemaakte zin waarmee je de volgende keer verdergaat"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napisz niedokończone zdanie, od którego zaczniesz następnym razem"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6100,6 +6454,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sluit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamknij"
           }
         },
         "pt-BR" : {
@@ -6233,6 +6593,12 @@
             "value" : "Lees alles gemakkelijk, ook met meer contrast of als kleuren lastig te onderscheiden zijn."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czytaj wszystko bez trudu, nawet przy zwiększonym kontraście lub kłopotach z odróżnianiem kolorów."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6362,6 +6728,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gebruik de app in meer talen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Korzystaj z aplikacji w większej liczbie języków."
           }
         },
         "pt-BR" : {
@@ -6495,6 +6867,12 @@
             "value" : "Meer talen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Więcej języków"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6623,6 +7001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Meer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Więcej"
           }
         },
         "pt-BR" : {
@@ -6755,6 +7139,12 @@
             "value" : "Gedachten om nieuw leven in te blazen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myśli do wskrzeszenia"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -6883,6 +7273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tik twee keer om het niveau te wijzigen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuknij dwukrotnie, aby zmienić poziom"
           }
         },
         "pt-BR" : {
@@ -7015,6 +7411,12 @@
             "value" : "Tik twee keer om er een gedachtedraad van te maken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuknij dwukrotnie, aby zrobić z tego wątek myśli"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7143,6 +7545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tik twee keer om te kiezen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuknij dwukrotnie, aby wybrać"
           }
         },
         "pt-BR" : {
@@ -7275,6 +7683,12 @@
             "value" : "Exporteer als Markdown"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportuj jako Markdown"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7403,6 +7817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stop niet omdat je vastzit, maar zolang je nog iets te schrijven hebt.\nDe volgende keer dat je de app opent, pakt je brein de draad vanzelf weer op."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie przerywaj dlatego, że utknąłeś, lecz póki jeszcze masz co pisać.\nGdy następnym razem otworzysz aplikację, umysł sam podejmie wątek."
           }
         },
         "pt-BR" : {
@@ -7535,6 +7955,12 @@
             "value" : "Schrijf op wat er in je hoofd zit en maak een nieuwe draad"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz, co masz w głowie, aby utworzyć nowy wątek"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7663,6 +8089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schrijf de gedachten op die door je hoofd zweven,\nen denk er de volgende keer dieper over na."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyrzuć myśli, które krążą Ci po głowie,\na następnym razem przemyśl je głębiej."
           }
         },
         "pt-BR" : {
@@ -7796,6 +8228,12 @@
             "value" : "Een herinnering op het juiste moment, zodat je de gedachten die je opzij legde niet vergeet."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przypomnienie w odpowiednim momencie, byś nie zapomniał o odłożonych myślach."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -7924,6 +8362,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notitie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notatka"
           }
         },
         "pt-BR" : {
@@ -8056,6 +8500,12 @@
             "value" : "Exporteert al je gedachten naar een bestand als back-up"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eksportuje wszystkie myśli do pliku jako kopię zapasową"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8184,6 +8634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laat een brugzin achter"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zostaw zdanie-pomost"
           }
         },
         "pt-BR" : {
@@ -8316,6 +8772,12 @@
             "value" : "Stap brugzin. Schrijf de zin waarmee je de volgende keer verdergaat."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krok zdania-pomostu. Napisz zdanie, od którego zaczniesz następnym razem."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8444,6 +8906,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laat een brugzin achter om te sluiten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zostaw zdanie-pomost, aby zamknąć"
           }
         },
         "pt-BR" : {
@@ -8577,6 +9045,12 @@
             "value" : "Herstellen vanuit back-up"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przywróć z kopii zapasowej"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8705,6 +9179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stuur bugmeldingen en functievoorstellen per e-mail of Instagram-DM"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zgłaszaj błędy i pomysły na funkcje e-mailem lub wiadomością na Instagramie"
           }
         },
         "pt-BR" : {
@@ -8838,6 +9318,12 @@
             "value" : "Prettigere kleuren en contrast"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wygodniejsze kolory i kontrast"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -8966,6 +9452,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopieer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiuj"
           }
         },
         "pt-BR" : {
@@ -9098,6 +9590,12 @@
             "value" : "Gekopieerd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skopiowano"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9226,6 +9724,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gekopieerd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skopiowano"
           }
         },
         "pt-BR" : {
@@ -9358,6 +9862,12 @@
             "value" : "Bijgevoegd materiaal %1$lld: %2$@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dołączony materiał %1$lld: %2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9486,6 +9996,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brugzin bewerken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edytuj zdanie-pomost"
           }
         },
         "pt-BR" : {
@@ -9618,6 +10134,12 @@
             "value" : "Denksessie bezig"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sesja myślenia w toku"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -9746,6 +10268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Denktijd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Czas myślenia"
           }
         },
         "pt-BR" : {
@@ -9878,6 +10406,12 @@
             "value" : "Verwijder"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10006,6 +10540,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hoofd leegmaken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyrzuć myśli"
           }
         },
         "pt-BR" : {
@@ -10138,6 +10678,12 @@
             "value" : "Invoerveld om je hoofd leeg te maken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pole do wyrzucania myśli"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10266,6 +10812,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nog een gedachte toevoegen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj kolejną myśl"
           }
         },
         "pt-BR" : {
@@ -10398,6 +10950,12 @@
             "value" : "Gedachte bewerken"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edytuj myśl"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10526,6 +11084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aan het denken…"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myślę…"
           }
         },
         "pt-BR" : {
@@ -10658,6 +11222,12 @@
             "value" : "Gedachte toevoegen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj myśl"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10788,6 +11358,12 @@
             "value" : "Gedachte toegevoegd"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodano myśl"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -10916,6 +11492,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Je kunt onderzoek of samenvattingen los van je eigen gedachten bijvoegen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Możesz dołączyć wyniki poszukiwań lub podsumowania osobno od własnych myśli"
           }
         },
         "pt-BR" : {
@@ -11049,6 +11631,12 @@
             "value" : "Een zachte trilling als je een gedachte noteert of voortzet."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delikatna wibracja, gdy zapisujesz lub kontynuujesz myśl."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11177,6 +11765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Denk lekker door"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myśl dalej"
           }
         },
         "pt-BR" : {
@@ -11310,6 +11904,12 @@
             "value" : "Wat je aan het schrijven was, blijft staan, ook als de app halverwege sluit."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "To, co pisałeś, zostaje, nawet jeśli aplikacja zamknie się w połowie."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11438,6 +12038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gedachtestroom"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tok myśli"
           }
         },
         "pt-BR" : {
@@ -11570,6 +12176,12 @@
             "value" : "Als je elke nieuwe gedachte apart toevoegt, is ordenen later makkelijker."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeśli każdą nową myśl dodasz osobno, łatwiej będzie je później uporządkować."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11698,6 +12310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bewaar alles zonder te kiezen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zachowaj wszystkie bez wyboru"
           }
         },
         "pt-BR" : {
@@ -11830,6 +12448,12 @@
             "value" : "Je keuze wordt meteen een gedachtedraad. De rest wordt bewaard."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wybrana myśl od razu stanie się wątkiem. Pozostałe zostaną zachowane."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -11958,6 +12582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Instellingen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ustawienia"
           }
         },
         "pt-BR" : {
@@ -12091,6 +12721,12 @@
             "value" : "Haptische feedback"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odpowiedź haptyczna"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12221,6 +12857,12 @@
             "value" : "Bewerk"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Edytuj"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12349,6 +12991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Begonnen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Początek"
           }
         },
         "pt-BR" : {
@@ -12482,6 +13130,12 @@
             "value" : "Handige tips"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przydatne wskazówki"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12611,6 +13265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verder waar je gebleven was"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wróć do niedokończonej myśli"
           }
         },
         "pt-BR" : {
@@ -12744,6 +13404,12 @@
             "value" : "Schrijf en zet je gedachten voort op de iPad met alleen het toetsenbord."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisuj i kontynuuj myśli na iPadzie samą klawiaturą."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -12873,6 +13539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Werk op iPhone en iPad verder aan dezelfde gedachten."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontynuuj te same myśli na iPhonie i iPadzie."
           }
         },
         "pt-BR" : {
@@ -13005,6 +13677,12 @@
             "value" : "Nog geen notities"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nie ma jeszcze wpisów"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13133,6 +13811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nog niet geordende gedachten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myśli jeszcze nieuporządkowane"
           }
         },
         "pt-BR" : {
@@ -13266,6 +13950,12 @@
             "value" : "Herinneringen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przypomnienia"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13395,6 +14085,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Subtiele hints over handige functies, precies wanneer je ze nodig hebt."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dyskretne podpowiedzi o przydatnych funkcjach, dokładnie wtedy, gdy ich potrzebujesz."
           }
         },
         "pt-BR" : {
@@ -13528,6 +14224,12 @@
             "value" : "Gebruik de hele app in het Engels."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Używaj całej aplikacji po angielsku."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13656,6 +14358,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Waarmee beginnen?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Od której zacząć?"
           }
         },
         "pt-BR" : {
@@ -13789,6 +14497,12 @@
             "value" : "De eerste keer dat je de app na een update opent, zie je wat er nieuw is."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przy pierwszym uruchomieniu po aktualizacji zobaczysz, co nowego."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -13918,6 +14632,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wat is er nieuw"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Co nowego"
           }
         },
         "pt-BR" : {
@@ -14050,6 +14770,12 @@
             "value" : "Hier stopte je"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutaj skończyłeś"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14178,6 +14904,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ga verder vanaf hier"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontynuuj stąd"
           }
         },
         "pt-BR" : {
@@ -14311,6 +15043,12 @@
             "value" : "Volledige ondersteuning voor Engels"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pełna obsługa angielskiego"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14439,6 +15177,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bijv.: “Korte video’s verpesten de concentratie door de beloningen, dus dan…”"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Np.: „Krótkie filmy psują koncentrację przez system nagród, więc wtedy…”"
           }
         },
         "pt-BR" : {
@@ -14571,6 +15315,12 @@
             "value" : "Bijv. samenvatting van een vraag aan Claude"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Np. podsumowanie odpowiedzi od Claude"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14699,6 +15449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oudste eerst"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Od najstarszych"
           }
         },
         "pt-BR" : {
@@ -14831,6 +15587,12 @@
             "value" : "Klaar"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gotowe"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -14959,6 +15721,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Samenvatting"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podsumowanie"
           }
         },
         "pt-BR" : {
@@ -15092,6 +15860,12 @@
             "value" : "Beweging verminderen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redukcja ruchu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15221,6 +15995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Met “Beweging verminderen” aan worden de effecten op het scherm rustiger."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Po włączeniu „Redukcji ruchu” efekty na ekranie stają się spokojniejsze."
           }
         },
         "pt-BR" : {
@@ -15354,6 +16134,12 @@
             "value" : "Wis al je gedachten vanuit de app wanneer je maar wilt."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuń wszystkie swoje myśli bezpośrednio w aplikacji, kiedy chcesz."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15482,6 +16268,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Deze gedachte verwijderen?"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usunąć tę myśl?"
           }
         },
         "pt-BR" : {
@@ -15614,6 +16406,12 @@
             "value" : "Kopieert deze gedachte naar het klembord"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiuje tę myśl do schowka"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -15742,6 +16540,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopieert dit materiaal naar het klembord"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiuje ten materiał do schowka"
           }
         },
         "pt-BR" : {
@@ -15874,6 +16678,12 @@
             "value" : "Begin hiermee"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zacznij od tej"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16002,6 +16812,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stuur een e-mail"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napisz e-mail"
           }
         },
         "pt-BR" : {
@@ -16134,6 +16950,12 @@
             "value" : "Denk verder"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myśl dalej"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16262,6 +17084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Laat een brugzin achter"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zostaw zdanie-pomost"
           }
         },
         "pt-BR" : {
@@ -16394,6 +17222,12 @@
             "value" : "Instagram-DM (@lee25_ios)"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wiadomość na Instagramie (@lee25_ios)"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16522,6 +17356,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Voegt wat je schreef toe als één gedachte en laat je de volgende schrijven"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaje wpisany tekst jako jedną myśl i pozwala napisać następną"
           }
         },
         "pt-BR" : {
@@ -16654,6 +17494,12 @@
             "value" : "Voegt wat je schreef toe aan deze gedachtestroom"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dołącza wpisany tekst do tego wątku myśli"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -16782,6 +17628,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Materiaal"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiał"
           }
         },
         "pt-BR" : {
@@ -16914,6 +17766,12 @@
             "value" : "Materiaal · %@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiał · %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17042,6 +17900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inhoud van het materiaal"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Treść materiału"
           }
         },
         "pt-BR" : {
@@ -17174,6 +18038,12 @@
             "value" : "Materiaal toevoegen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodaj materiał"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17302,6 +18172,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Materiaal toegevoegd"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodano materiał"
           }
         },
         "pt-BR" : {
@@ -17434,6 +18310,12 @@
             "value" : "Bron van het materiaal"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Źródło materiału"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17562,6 +18444,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bewaar"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz"
           }
         },
         "pt-BR" : {
@@ -17694,6 +18582,12 @@
             "value" : "Bewaar alles"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zachowaj wszystkie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -17822,6 +18716,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kopieer alles"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kopiuj wszystko"
           }
         },
         "pt-BR" : {
@@ -17954,6 +18854,12 @@
             "value" : "Geordend"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uporządkowane"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18082,6 +18988,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verfijningsniveau"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poziom dopracowania"
           }
         },
         "pt-BR" : {
@@ -18214,6 +19126,12 @@
             "value" : "Verfijningsniveau %@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poziom dopracowania: %@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18342,6 +19260,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Verfijningsniveau, nu %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poziom dopracowania, obecnie „%@”"
           }
         },
         "pt-BR" : {
@@ -18474,6 +19398,12 @@
             "value" : "Onderzoek en bronnen"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Badania i źródła"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18602,6 +19532,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Onderzoek en bronnen bijvoegen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dołącz badania i źródła"
           }
         },
         "pt-BR" : {
@@ -18734,6 +19670,12 @@
             "value" : "Onderzoeksmateriaal"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiał z badań"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -18862,6 +19804,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Onderzoeksmateriaal, bron %@"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Materiał z badań, źródło: %@"
           }
         },
         "pt-BR" : {
@@ -18994,6 +19942,12 @@
             "value" : "Plak wat je hebt opgezocht of samengevat"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wklej to, co znalazłeś lub podsumowałeś"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19122,6 +20076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Regelafbrekingen scheiden je gedachten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nowe wiersze rozdzielają Twoje myśli"
           }
         },
         "pt-BR" : {
@@ -19254,6 +20214,12 @@
             "value" : "Als je er nu maar één kon kiezen?"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gdybyś mógł wybrać teraz tylko jedną?"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19382,6 +20348,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schrijf op wat er in je hoofd zit"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz to, co masz w głowie"
           }
         },
         "pt-BR" : {
@@ -19514,6 +20486,12 @@
             "value" : "De gedachte van nu"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myśl w toku"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19642,6 +20620,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Het verloop tot nu toe"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dotychczasowy przebieg"
           }
         },
         "pt-BR" : {
@@ -19774,6 +20758,12 @@
             "value" : "Ondersteuning"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pomoc"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -19902,6 +20892,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opent ondersteuning en app-informatie"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otwiera pomoc i informacje o aplikacji"
           }
         },
         "pt-BR" : {
@@ -20034,6 +21030,12 @@
             "value" : "Laatste gedachte"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ostatnia myśl"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20162,6 +21164,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lopende gedachten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Myśli w toku"
           }
         },
         "pt-BR" : {
@@ -20295,6 +21303,12 @@
             "value" : "Aan de slag-gids"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Przewodnik na start"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20424,6 +21438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Een korte rondleiding door wat je kunt doen als je de app voor het eerst opent."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Krótki przegląd tego, co możesz zrobić przy pierwszym uruchomieniu."
           }
         },
         "pt-BR" : {
@@ -20556,6 +21576,12 @@
             "value" : "Maak je hoofd voor het eerst leeg"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wyrzuć pierwsze myśli"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20684,6 +21710,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bezocht in de afgelopen 3 dagen"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Odwiedzone w ciągu ostatnich 3 dni"
           }
         },
         "pt-BR" : {
@@ -20816,6 +21848,12 @@
             "value" : "Nieuwste eerst"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Od najnowszych"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -20944,6 +21982,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eindsamenvatting"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Końcowe podsumowanie"
           }
         },
         "pt-BR" : {
@@ -21076,6 +22120,12 @@
             "value" : "Toegevoegde gedachte %1$lld: %2$@"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dodana myśl %1$lld: %2$@"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21206,6 +22256,12 @@
             "value" : "Bron (bijv. Claude, zoeken) – optioneel"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Źródło (np. Claude, wyszukiwanie) – opcjonalnie"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21334,6 +22390,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Annuleer"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anuluj"
           }
         },
         "pt-BR" : {
@@ -21467,6 +22529,12 @@
             "value" : "Indelingen voor grotere tekst"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Układy dla większego tekstu"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21598,6 +22666,12 @@
             "value" : "Bediening met het toetsenbord"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obsługa klawiaturą"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21726,6 +22800,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tik om er een gedachtedraad van te maken"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuknij, aby zrobić z tego wątek myśli"
           }
         },
         "pt-BR" : {
@@ -21859,6 +22939,12 @@
             "value" : "Indeling voor opvouwbare iPhone"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Układ dla składanego iPhone’a"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -21988,6 +23074,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gebruik het brede scherm van een opvouwbare iPhone als twee panelen naast elkaar."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wykorzystaj szeroki ekran składanego iPhone’a jako dwa panele obok siebie."
           }
         },
         "pt-BR" : {
@@ -22120,6 +23212,12 @@
             "value" : "Eén gedachte of tien, het maakt niet uit. Scheid ze met regelafbrekingen."
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jedna myśl czy dziesięć – bez różnicy. Rozdzielaj je enterem."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22248,6 +23346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eenmaal geordend"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Raz uporządkowane"
           }
         },
         "pt-BR" : {
@@ -22380,6 +23484,12 @@
             "value" : "Kern"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sedno"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -22508,6 +23618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alleen de kern"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tylko sedno"
           }
         },
         "pt-BR" : {
@@ -22639,6 +23755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver leest elke knop en notitie voor in de juiste volgorde."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver czyta każdy przycisk i notatkę we właściwej kolejności."
           }
         },
         "pt-BR" : {

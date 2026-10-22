@@ -93,6 +93,12 @@
             "value" : "ThinkFlow"
           }
         },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",

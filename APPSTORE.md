@@ -1280,3 +1280,64 @@ Zie je brugzin en de kern in een widget op het beginscherm. Terwijl je denkt, ve
 
 Je gedachten blijven op je apparaat
 Alles wordt alleen op je apparaat bewaard en je hebt geen account nodig. Exporteer wanneer je wilt als Markdown- of JSON-bestand.
+
+## pl
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Myśl dalej
+
+### 부제
+
+Kontynuuj od tego miejsca
+
+### 키워드
+
+notatki,dziennik,pomysły,drugi mózg,zettelkasten,głęboka praca,refleksja,skupienie,memo,pisanie
+
+### 프로모션 텍스트
+
+Nigdy więcej nie zgubisz wątku. Po powrocie zobaczysz sedno i ostatnią myśl, a kontynuujesz dokładnie tam, gdzie skończyłeś.
+
+### 설명
+
+Myśl, której wczoraj nie dokończyłeś, dziś kontynuujesz dokładnie tam, gdzie przerwałeś.
+ThinkFlow to notatnik do myślenia, który pomaga rozwijać głębokie myśli po trochu, w ciągu kilku dni.
+
+Podobno Hemingway celowo przestawał pisać, gdy szło dobrze. Kto wie, od czego zacznie następnego dnia, szybko wraca do pracy. ThinkFlow stosuje tę metodę do myślenia.
+
+Zdanie-pomost
+Kończąc myślenie, zostaw jedną linijkę: pytanie, od którego podejmiesz wątek. Gdy następnym razem otworzysz aplikację, to zdanie będzie czekać na samej górze.
+
+Kontynuuj stąd
+Ekran główny pokazuje Twoją najnowszą myśl. Zdanie-pomost, dotychczasowe sedno i ostatnia myśl są na jednej karcie, a pisać dalej możesz od razu.
+
+Od notatki do sedna
+Dopracowuj to, co zapisujesz, na czterech poziomach: notatka, uporządkowane, sedno i podsumowanie. Jednym rzutem oka widać, jak bardzo myśl dojrzała.
+
+Dołączanie materiałów
+To, czego szukałeś lub o co pytałeś i co podsumowałeś, dołączasz jako materiał – wyraźnie oddzielony od własnych myśli.
+
+Wyrzuć myśli
+Zapisz wszystko, co krąży Ci po głowie, wiersz po wierszu. Później jedno stuknięcie zamieni wiersz w myśl, którą możesz rozwijać.
+
+Myśli do wskrzeszenia
+Myśli, których nie ruszałeś dłużej niż trzy dni, trafiają osobno, byś mógł do nich wrócić. Sumuje się też czas poświęcony każdej myśli.
+
+Widżety i ekran blokady
+Zdanie-pomost i sedno zobaczysz w widżecie na ekranie głównym. Gdy myślisz, czas wyświetla się na ekranie blokady i w Dynamic Island.
+
+Twoje myśli zostają na Twoim urządzeniu
+Wszystko jest zapisywane tylko na urządzeniu i nie potrzebujesz konta. W każdej chwili możesz wyeksportować dane do pliku Markdown lub JSON.

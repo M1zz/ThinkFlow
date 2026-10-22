@@ -172,3 +172,11 @@ Voeg onderzoek toe aan je gedachtestroom
 Schrijf veel gedachten in één keer op
 Zie je brugzin direct in de widget
 Stuur feedback en reviews vanuit de app
+
+### 앱스토어 (폴란드어)
+
+Karta z sednem i ostatnią myślą
+Dołączaj materiały do toku myśli
+Wyrzucaj wiele myśli naraz
+Zdanie-pomost od razu w widżecie
+Opinie i recenzje wyślesz z aplikacji
