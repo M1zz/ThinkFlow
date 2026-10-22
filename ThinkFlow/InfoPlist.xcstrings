@@ -81,6 +81,12 @@
             "value" : "이어생각"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",

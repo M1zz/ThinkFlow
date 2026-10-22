@@ -156,3 +156,11 @@ Lampirkan riset ke alur pikiranmu
 Tuangkan banyak pikiran sekaligus
 Lihat kalimat jembatan di widget
 Kirim masukan dan ulasan dari aplikasi
+
+### 앱스토어 (노르웨이어(복말))
+
+Kort med kjernen og siste tanke
+Legg ved research i tankestrømmen
+Skriv ned mange tanker på én gang
+Se brosetningen rett i widgeten
+Send tilbakemelding og omtaler i appen

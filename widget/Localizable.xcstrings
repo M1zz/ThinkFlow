@@ -207,6 +207,24 @@
             "value" : "%lld개 메모"
           }
         },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld notat"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld notater"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -487,6 +505,24 @@
             "value" : "%lld일째 잠자는 중"
           }
         },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Har sovet i %lld dag"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Har sovet i %lld dager"
+                }
+              }
+            }
+          }
+        },
         "pt-BR" : {
           "variations" : {
             "plural" : {
@@ -641,6 +677,12 @@
             "value" : "가장 최근 생각 스레드의 브릿지를 보여줍니다."
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viser brosetningen fra den nyeste tankerekken din."
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -757,6 +799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다음에 생각할 것"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Å tenke på senere"
           }
         },
         "pt-BR" : {
@@ -877,6 +925,12 @@
             "value" : "되살릴 생각"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanker å vekke til live"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -993,6 +1047,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "멈춘 생각을 이어가세요. 헤밍웨이 브릿지를 홈 화면에서 확인합니다."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta opp tråden der du slapp. Se brosetningen din på hjemskjermen."
           }
         },
         "pt-BR" : {
@@ -1113,6 +1173,12 @@
             "value" : "새 생각을 시작하세요"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start en ny tanke"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1229,6 +1295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이어생각"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
           }
         },
         "pt-BR" : {
@@ -1349,6 +1421,12 @@
             "value" : "이어생각 위젯"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow-widget"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1467,6 +1545,12 @@
             "value" : "이어서 생각하기"
           }
         },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tenk videre"
+          }
+        },
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1583,6 +1667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 생각할 것"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Å tenke på nå"
           }
         },
         "pt-BR" : {
