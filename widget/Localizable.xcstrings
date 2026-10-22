@@ -3,6 +3,24 @@
   "strings" : {
     "%lld개 메모" : {
       "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Notiz"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Notizen"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -85,6 +103,24 @@
     },
     "%lld일째 잠자는 중" : {
       "localizations" : {
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Seit %lld Tag ruhend"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Seit %lld Tagen ruhend"
+                }
+              }
+            }
+          }
+        },
         "en" : {
           "variations" : {
             "plural" : {
@@ -167,6 +203,12 @@
     },
     "가장 최근 생각 스레드의 브릿지를 보여줍니다." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zeigt den Brückensatz deines neuesten Gedankenfadens."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -213,6 +255,12 @@
     },
     "다음에 생각할 것" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als Nächstes denken"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -259,6 +307,12 @@
     },
     "되살릴 생각" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gedanken zum Wiederbeleben"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -305,6 +359,12 @@
     },
     "멈춘 생각을 이어가세요. 헤밍웨이 브릿지를 홈 화면에서 확인합니다." : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mach bei angehaltenen Gedanken weiter. Sieh deinen Brückensatz auf dem Home-Bildschirm."
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -351,6 +411,12 @@
     },
     "새 생각을 시작하세요" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Neuen Gedanken beginnen"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -397,6 +463,12 @@
     },
     "이어생각" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -443,6 +515,12 @@
     },
     "이어생각 위젯" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow-Widget"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -489,6 +567,12 @@
     },
     "이어서 생각하기" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weiterdenken"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",
@@ -535,6 +619,12 @@
     },
     "지금 생각할 것" : {
       "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jetzt denken"
+          }
+        },
         "en" : {
           "stringUnit" : {
             "state" : "translated",

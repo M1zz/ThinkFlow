@@ -343,6 +343,7 @@
 				"zh-Hans",
 				"zh-Hant",
 				es,
+				de,
 				Base,
 			);
 			mainGroup = A50001;

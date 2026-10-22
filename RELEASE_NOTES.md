@@ -60,3 +60,11 @@ Adjunta tus investigaciones a cada hilo
 Vuelca varias ideas de una sola vez
 Mira tu frase puente desde el widget
 Envía opiniones y reseñas desde la app
+
+### 앱스토어 (독일어)
+
+Karte mit Kernpunkt und letztem Gedanken
+Recherchen an den Gedankenfluss anhängen
+Viele Gedanken auf einmal aufschreiben
+Brückensatz direkt im Widget sehen
+Feedback und Bewertungen aus der App

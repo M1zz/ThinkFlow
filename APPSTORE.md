@@ -426,3 +426,64 @@ Mira tu frase puente y lo esencial en un widget de la pantalla de inicio. Mientr
 
 Tus ideas, en tu dispositivo
 Todo se guarda solo en tu dispositivo y no necesitas cuenta. Expórtalo cuando quieras como archivo Markdown o JSON.
+
+## de
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Weiterdenken
+
+### 부제
+
+Weiter, wo du aufgehört hast
+
+### 키워드
+
+Brain Dump,Tagebuch,Notizen,Ideen,Zweites Gehirn,Zettelkasten,Deep Work,Reflexion,Fokus,Memo
+
+### 프로모션 텍스트
+
+Nie wieder den Faden verlieren. Beim Zurückkommen siehst du den Kernpunkt und deinen letzten Gedanken – und machst genau dort weiter.
+
+### 설명
+
+Den Gedanken von gestern heute genau dort fortsetzen, wo du aufgehört hast.
+ThinkFlow ist ein Denknotizbuch, das dir hilft, tiefe Gedanken über mehrere Tage hinweg Stück für Stück weiterzuentwickeln.
+
+Hemingway soll absichtlich aufgehört haben zu schreiben, wenn es gut lief. Wer weiß, wo er am nächsten Tag ansetzt, findet schnell wieder hinein. ThinkFlow überträgt diese Methode aufs Denken.
+
+Brückensatz
+Hinterlasse am Ende einer Denkrunde eine einzige Zeile: die Frage, mit der es weitergeht. Beim nächsten Öffnen der App wartet dieser Satz ganz oben auf dich.
+
+Hier weitermachen
+Der Startbildschirm zeigt deinen letzten Gedankenfaden. Brückensatz, bisherige Kernpunkte und dein letzter Gedanke stehen auf einer Karte – und du schreibst sofort weiter.
+
+Von der Notiz zum Kernpunkt
+Verfeinere Notiertes in vier Stufen: Notiz, geordnet, Kernpunkt und Zusammenfassung. So siehst du auf einen Blick, wie weit ein Gedanke gereift ist.
+
+Referenzen anhängen
+Was du gesucht oder erfragt und zusammengefasst hast, hängst du als Referenz an – klar getrennt von deinen eigenen Gedanken.
+
+Gedanken ausschütten
+Schreib alles auf, was dir im Kopf herumschwirrt, Zeile für Zeile. Später wird daraus mit einem Tipp ein Gedanke zum Weiterdenken.
+
+Gedanken zum Wiederbeleben
+Gedanken, die du länger als drei Tage nicht angefasst hast, werden gesondert gesammelt, damit du sie wieder hervorholen kannst. Auch die Zeit, die du in jeden Gedanken steckst, summiert sich.
+
+Widgets und Sperrbildschirm
+Sieh Brückensatz und Kernpunkt im Widget auf dem Home-Bildschirm. Während du denkst, zeigen Sperrbildschirm und Dynamic Island die Zeit an.
+
+Deine Gedanken bleiben auf deinem Gerät
+Alles wird nur auf deinem Gerät gespeichert, ein Konto brauchst du nicht. Exportiere jederzeit als Markdown- oder JSON-Datei.
