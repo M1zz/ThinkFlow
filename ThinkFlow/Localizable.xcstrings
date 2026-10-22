@@ -15,6 +15,12 @@
             "value" : "Changed to %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@に変更しました"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -37,6 +43,12 @@
             "value" : "Continue your thoughts on %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」に考えを書き足します"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -54,6 +66,12 @@
           }
         },
         "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -105,6 +123,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件の考え"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -149,6 +173,12 @@
                 }
               }
             }
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件を追加"
           }
         },
         "ko" : {
@@ -197,6 +227,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld件の考え"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -217,6 +253,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete thought %lld"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld番目の考えを削除"
           }
         },
         "ko" : {
@@ -241,6 +283,12 @@
             "value" : "Delete reference %lld"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld番目の資料を削除"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -263,6 +311,12 @@
             "value" : "%lldm"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -283,6 +337,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lldh %2$lldm"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld時間%2$lld分"
           }
         },
         "ko" : {
@@ -331,6 +391,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld日前に区切り"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -377,6 +443,12 @@
             }
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld文字"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -397,6 +469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "All notes and the bridge in “%@” will be deleted."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「%@」のメモと区切りの一文がすべて削除されます。"
           }
         },
         "ko" : {
@@ -421,6 +499,12 @@
             "value" : "Tap “Continue Thinking” to leave your first entry"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「考えを続ける」をタップして最初の記録を残しましょう"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -441,6 +525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Untouched for 3+ days"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "3日以上そのまま"
           }
         },
         "ko" : {
@@ -466,6 +556,12 @@
             "value" : "Face ID lock"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face IDロック"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -489,6 +585,12 @@
             "value" : "Lock the app with Face ID or Touch ID to keep your thoughts private."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face IDまたはTouch IDでアプリをロックして、考えを守ります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -509,6 +611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Export as JSON"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "JSONで書き出す"
           }
         },
         "ko" : {
@@ -534,6 +642,12 @@
             "value" : "Capture a thought instantly by asking Siri or running a shortcut."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siriに話しかけたり、ショートカットを使って、すぐに考えを書き留められます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -555,6 +669,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri and Shortcuts"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siriとショートカット"
           }
         },
         "ko" : {
@@ -580,6 +700,12 @@
             "value" : "Better VoiceOver support"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOverでもっと快適に"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -600,6 +726,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Contact the developer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開発者に問い合わせ"
           }
         },
         "ko" : {
@@ -625,6 +757,12 @@
             "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字サイズを大きくしても切れずに、見やすく配置し直されます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -646,6 +784,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sync across devices"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デバイス間で同期"
           }
         },
         "ko" : {
@@ -670,6 +814,12 @@
             "value" : "Stop while you’re on a roll"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "勢いのあるうちに区切りましょう"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -690,6 +840,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "An unfinished sentence you left while the momentum was there. Next time you open the app, your brain picks it right up."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "勢いのあるうちに残した書きかけの一文です。次に開くと、頭が自然に続きを思い出します。"
           }
         },
         "ko" : {
@@ -714,6 +870,12 @@
             "value" : "Stop while you’re on a roll.\nNext time you open the app, your brain picks it right up."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "勢いのあるうちに区切りましょう。\n次に開くと、頭が自然に続きを思い出します。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -734,6 +896,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Depth"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深さ"
           }
         },
         "ko" : {
@@ -758,6 +926,12 @@
             "value" : "Bridge"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "区切りの一文"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -778,6 +952,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit Bridge"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "区切りの一文を編集"
           }
         },
         "ko" : {
@@ -802,6 +982,12 @@
             "value" : "Bridge: %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "区切りの一文：%@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -822,6 +1008,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Raw thought"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "生の考え"
           }
         },
         "ko" : {
@@ -847,6 +1039,12 @@
             "value" : "Delete all my data"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分のデータをまとめて削除"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -867,6 +1065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Export"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出す"
           }
         },
         "ko" : {
@@ -892,6 +1096,12 @@
             "value" : "Bring your thoughts back from an exported file."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出したファイルを読み込んで、考えをよみがえらせます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -912,6 +1122,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ total"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "累計%@"
           }
         },
         "ko" : {
@@ -936,6 +1152,12 @@
             "value" : "That’s everything"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出した"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -956,6 +1178,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Next"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次へ"
           }
         },
         "ko" : {
@@ -980,6 +1208,12 @@
             "value" : "Write the unfinished sentence to pick up next time"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "次に続ける書きかけの一文を書きます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1000,6 +1234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Close"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
           }
         },
         "ko" : {
@@ -1025,6 +1265,12 @@
             "value" : "Read everything easily, even with Increase Contrast on or if colors are hard to tell apart."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コントラストを高めたり、色の区別がつきにくくても、内容が読み取れます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1046,6 +1292,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the app in more languages."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もっと多くの言語でアプリを使えるようにします。"
           }
         },
         "ko" : {
@@ -1071,6 +1323,12 @@
             "value" : "More languages"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "対応言語を追加"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1091,6 +1349,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "More"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "その他"
           }
         },
         "ko" : {
@@ -1115,6 +1379,12 @@
             "value" : "Thoughts to revive"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "よみがえらせたい考え"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1135,6 +1405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Double-tap to change the level"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダブルタップで段階を変更します"
           }
         },
         "ko" : {
@@ -1159,6 +1435,12 @@
             "value" : "Double-tap to turn into a thought thread"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダブルタップで思考スレッドにします"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1179,6 +1461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Double-tap to select"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ダブルタップで選択します"
           }
         },
         "ko" : {
@@ -1203,6 +1491,12 @@
             "value" : "Export as Markdown"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Markdownで書き出す"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1223,6 +1517,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Don’t stop because you’re stuck — stop while you still have more to write.\nNext time you open the app, your brain picks it right up."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "行き詰まって止めるのではなく、まだ書けるうちにここで区切りましょう。\n次に開くと、頭が自然に続きを思い出します。"
           }
         },
         "ko" : {
@@ -1247,6 +1547,12 @@
             "value" : "Write down what’s on your mind to create a new thread"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "頭の中の考えを書いて新しいスレッドを作ります"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1267,6 +1573,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get the thoughts floating around your head out,\nand pick them up later to think more deeply."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "頭の中に浮かんでいることを書き出しておけば、\n次に続きからもっと深く考えられます。"
           }
         },
         "ko" : {
@@ -1292,6 +1604,12 @@
             "value" : "Get a timely nudge so the thoughts you set aside aren’t forgotten."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "止めておいた考えを忘れないよう、ちょうどよいタイミングでお知らせします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1312,6 +1630,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Note"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メモ"
           }
         },
         "ko" : {
@@ -1336,6 +1660,12 @@
             "value" : "Exports all your thoughts to a file as a backup"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべての考えをファイルに書き出してバックアップします"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1356,6 +1686,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leave a Bridge"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一文を残す"
           }
         },
         "ko" : {
@@ -1380,6 +1716,12 @@
             "value" : "Leave a bridge step. Write the sentence to continue from next time."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一文を残すステップです。次に続ける一文を書いてください。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1400,6 +1742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leave a bridge sentence before closing"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一文を残すと閉じられます"
           }
         },
         "ko" : {
@@ -1425,6 +1773,12 @@
             "value" : "Restore from backup"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バックアップから復元"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1445,6 +1799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Send bug reports and feature ideas by email or Instagram DM"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不具合の報告や機能の提案をメールまたはInstagram DMで送ります"
           }
         },
         "ko" : {
@@ -1470,6 +1830,12 @@
             "value" : "Easier colors and contrast"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見やすい色とコントラスト"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1490,6 +1856,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copy"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピー"
           }
         },
         "ko" : {
@@ -1514,6 +1886,12 @@
             "value" : "Copied"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピーしました"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1534,6 +1912,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copied"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピー済み"
           }
         },
         "ko" : {
@@ -1558,6 +1942,12 @@
             "value" : "Attached reference %1$lld: %2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "貼り付けた資料%1$lld：%2$@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1578,6 +1968,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit Bridge"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "区切りの一文を編集"
           }
         },
         "ko" : {
@@ -1602,6 +1998,12 @@
             "value" : "Thinking session in progress"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "思考セッション中"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1622,6 +2024,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thinking time"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えた時間"
           }
         },
         "ko" : {
@@ -1646,6 +2054,12 @@
             "value" : "Delete"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1666,6 +2080,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brain Dump"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えを書き出す"
           }
         },
         "ko" : {
@@ -1690,6 +2110,12 @@
             "value" : "Brain dump field"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書き出し入力欄"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1710,6 +2136,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add another thought"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えをさらに追加"
           }
         },
         "ko" : {
@@ -1734,6 +2166,12 @@
             "value" : "Edit Thought"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えを編集"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1754,6 +2192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thinking…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考え中…"
           }
         },
         "ko" : {
@@ -1778,6 +2222,12 @@
             "value" : "Add Thought"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えを追加"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1800,6 +2250,12 @@
             "value" : "Thought added"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えを追加しました"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1820,6 +2276,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Attach research or notes kept separate from your own thinking"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分の考えとは別に、調べたりまとめたりした資料を貼っておけます"
           }
         },
         "ko" : {
@@ -1845,6 +2307,12 @@
             "value" : "A gentle tap when you jot down or continue a thought."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えを残したり続けたりするときに、軽い振動でお知らせします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1865,6 +2333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep your thinking going"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えを続けてみましょう"
           }
         },
         "ko" : {
@@ -1890,6 +2364,12 @@
             "value" : "What you were writing stays put, even if the app closes mid-way."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えを書いている途中でアプリが終了しても、書いていた内容は残ります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1910,6 +2390,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flow of thought"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えの流れ"
           }
         },
         "ko" : {
@@ -1934,6 +2420,12 @@
             "value" : "Adding a thought each time your thinking shifts makes it easier to organise later."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えが変わるたびに分けて追加すると、あとで整理しやすくなります。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1954,6 +2446,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save all without picking"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選ばずにすべて保管"
           }
         },
         "ko" : {
@@ -1978,6 +2476,12 @@
             "value" : "Your pick becomes a thought thread right away. The rest are saved for later."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選んだものはすぐに思考スレッドになります。残りは保管されます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1998,6 +2502,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
           }
         },
         "ko" : {
@@ -2023,6 +2533,12 @@
             "value" : "Haptic feedback"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指先で感じる反応"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2045,6 +2561,12 @@
             "value" : "Edit"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "編集"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2065,6 +2587,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Started"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始日"
           }
         },
         "ko" : {
@@ -2090,6 +2618,12 @@
             "value" : "Handy tips"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使い方のヒント"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2111,6 +2645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pick up where you left off"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書きかけの考えを続ける"
           }
         },
         "ko" : {
@@ -2136,6 +2676,12 @@
             "value" : "Write down and continue your thoughts on iPad with just a keyboard."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPadでは、キーボードだけで考えを書いて続けられます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2157,6 +2703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keep working on the same thoughts on your iPhone and iPad."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPhoneとiPadで同じ考えの続きを書けます。"
           }
         },
         "ko" : {
@@ -2181,6 +2733,12 @@
             "value" : "Nothing here yet"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ記録がありません"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2201,6 +2759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thoughts not yet sorted"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まだ整理していない考え"
           }
         },
         "ko" : {
@@ -2226,6 +2790,12 @@
             "value" : "Reminders"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2247,6 +2817,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gentle hints about useful features, right when you need them."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "知っておくと便利な機能を、ちょうどよいタイミングでそっと伝えます。"
           }
         },
         "ko" : {
@@ -2272,6 +2848,12 @@
             "value" : "Use the whole app in English."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリを英語でも使えます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2292,6 +2874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Which one first?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "どれから考える？"
           }
         },
         "ko" : {
@@ -2317,6 +2905,12 @@
             "value" : "The first time you open the app after an update, see what’s new."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート後の初回起動時に、新しくなった点をお知らせします。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2338,6 +2932,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "What’s new"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート情報"
           }
         },
         "ko" : {
@@ -2362,6 +2962,12 @@
             "value" : "You left off here"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここで止めました"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2382,6 +2988,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Continue from here"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここから続ける"
           }
         },
         "ko" : {
@@ -2407,6 +3019,12 @@
             "value" : "Full English support"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語に対応"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2427,6 +3045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "e.g. “Short videos wear down focus because of how they reward you, so then—”"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例：「ショート動画が集中力を奪うのは報酬のせいだ。では――」"
           }
         },
         "ko" : {
@@ -2451,6 +3075,12 @@
             "value" : "e.g. Notes from asking Claude"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例：Claudeに聞いた結果のまとめ"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2471,6 +3101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oldest first"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "古い順"
           }
         },
         "ko" : {
@@ -2495,6 +3131,12 @@
             "value" : "Done"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2515,6 +3157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Summary"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要約"
           }
         },
         "ko" : {
@@ -2540,6 +3188,12 @@
             "value" : "Reduce Motion"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視差効果を減らす"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2561,6 +3215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "With Reduce Motion on, screen effects calm down."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「視差効果を減らす」をオンにすると、画面の動きが穏やかになります。"
           }
         },
         "ko" : {
@@ -2586,6 +3246,12 @@
             "value" : "Erase all your thoughts from inside the app whenever you want."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "必要なときは、アプリ内で自分の考えをすべて削除できます。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2606,6 +3272,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete this thought?"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この考えを削除しますか？"
           }
         },
         "ko" : {
@@ -2630,6 +3302,12 @@
             "value" : "Copies this thought to the clipboard"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この考えをクリップボードにコピーします"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2650,6 +3328,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copies this reference to the clipboard"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この資料をクリップボードにコピーします"
           }
         },
         "ko" : {
@@ -2674,6 +3358,12 @@
             "value" : "Start with this"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これで始める"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2694,6 +3384,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Email the developer"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メールで問い合わせる"
           }
         },
         "ko" : {
@@ -2718,6 +3414,12 @@
             "value" : "Continue Thinking"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "考えを続ける"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2738,6 +3440,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leave a bridge sentence"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "続きの一文を残す"
           }
         },
         "ko" : {
@@ -2762,6 +3470,12 @@
             "value" : "Instagram DM (@lee25_ios)"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram DM（@lee25_ios）"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2782,6 +3496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adds what you typed as one thought and lets you write the next one"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入力した考えをひとまとまりで追加し、次の考えを書けるようにします"
           }
         },
         "ko" : {
@@ -2806,6 +3526,12 @@
             "value" : "Attaches what you typed to this thought flow"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入力した資料をこの思考の流れに貼り付けます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2826,6 +3552,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reference"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "資料"
           }
         },
         "ko" : {
@@ -2850,6 +3582,12 @@
             "value" : "Reference · %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "資料・%@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2870,6 +3608,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reference content"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "資料の内容"
           }
         },
         "ko" : {
@@ -2894,6 +3638,12 @@
             "value" : "Add Reference"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "資料を追加"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2914,6 +3664,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reference added"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "資料を追加しました"
           }
         },
         "ko" : {
@@ -2938,6 +3694,12 @@
             "value" : "Reference source"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "資料の出典"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -2958,6 +3720,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存"
           }
         },
         "ko" : {
@@ -2982,6 +3750,12 @@
             "value" : "Save them all"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべて保管"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3002,6 +3776,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copy All"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべてコピー"
           }
         },
         "ko" : {
@@ -3026,6 +3806,12 @@
             "value" : "Refined"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3046,6 +3832,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Refinement level"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理の段階"
           }
         },
         "ko" : {
@@ -3070,6 +3862,12 @@
             "value" : "Refinement level %@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理の段階：%@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3090,6 +3888,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Refinement level, currently %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理の段階、現在は%@"
           }
         },
         "ko" : {
@@ -3114,6 +3918,12 @@
             "value" : "Research & References"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調べた内容・資料"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3134,6 +3944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Attach research & references"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調べた内容・資料を貼る"
           }
         },
         "ko" : {
@@ -3158,6 +3974,12 @@
             "value" : "Research reference"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調べた資料"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3178,6 +4000,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Research reference, source %@"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調べた資料、出典は%@"
           }
         },
         "ko" : {
@@ -3202,6 +4030,12 @@
             "value" : "Paste what you researched or summarised"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "調べた内容やまとめた内容を貼り付けます"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3222,6 +4056,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Line breaks separate your thoughts"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "改行で考えを複数に分けます"
           }
         },
         "ko" : {
@@ -3246,6 +4086,12 @@
             "value" : "If you could pick just one right now?"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今すぐ1つだけ選ぶなら？"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3266,6 +4112,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Get what’s on your mind out"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "頭の中にあることを書き出しましょう"
           }
         },
         "ko" : {
@@ -3290,6 +4142,12 @@
             "value" : "Thinking now"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "いま続けている考え"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3310,6 +4168,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flow so far"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ここまでの流れ"
           }
         },
         "ko" : {
@@ -3334,6 +4198,12 @@
             "value" : "Support"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サポート"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3354,6 +4224,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Opens support and app info"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サポートとアプリ情報を開きます"
           }
         },
         "ko" : {
@@ -3378,6 +4254,12 @@
             "value" : "Latest thought"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "直前の考え"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3398,6 +4280,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Active thoughts"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "進行中の考え"
           }
         },
         "ko" : {
@@ -3423,6 +4311,12 @@
             "value" : "Getting started guide"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめての方へのガイド"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3444,6 +4338,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A quick tour of what you can do when you first open the app."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめて開いたときに、できることを簡単に紹介します。"
           }
         },
         "ko" : {
@@ -3468,6 +4368,12 @@
             "value" : "Dump your first thoughts"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最初の考えを書き出す"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3488,6 +4394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Visited in the last 3 days"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "直近3日以内に開いた"
           }
         },
         "ko" : {
@@ -3512,6 +4424,12 @@
             "value" : "Newest first"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新しい順"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3532,6 +4450,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Final summary"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最終要約"
           }
         },
         "ko" : {
@@ -3556,6 +4480,12 @@
             "value" : "Added thought %1$lld: %2$@"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "追加した考え%1$lld：%2$@"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3578,6 +4508,12 @@
             "value" : "Source (e.g. Claude, search) — optional"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出典（例：Claude、検索）— 任意"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3598,6 +4534,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
           }
         },
         "ko" : {
@@ -3623,6 +4565,12 @@
             "value" : "Layouts for larger text"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きな文字に合わせた画面"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3646,6 +4594,12 @@
             "value" : "Keyboard control"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーボードで操作"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3666,6 +4620,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap to turn into a thought thread"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップすると思考スレッドになります"
           }
         },
         "ko" : {
@@ -3691,6 +4651,12 @@
             "value" : "Foldable iPhone layout"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみiPhoneの画面"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3712,6 +4678,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use the wide screen of a foldable iPhone as two side-by-side panes."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみiPhoneの広い画面を2つに分けて使えます。"
           }
         },
         "ko" : {
@@ -3736,6 +4708,12 @@
             "value" : "One thought or ten, either is fine. Separate them with line breaks."
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1つでも10個でも大丈夫。改行で区切ってください。"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3756,6 +4734,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Refined once"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一度整理"
           }
         },
         "ko" : {
@@ -3780,6 +4764,12 @@
             "value" : "Key point"
           }
         },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要点"
+          }
+        },
         "ko" : {
           "stringUnit" : {
             "state" : "translated",
@@ -3800,6 +4790,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Key points only"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要点だけ"
           }
         },
         "ko" : {
@@ -3823,6 +4819,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver reads every button and note, in the right order."
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面読み上げが、ボタンや内容を漏れなく、適切な順序で読み上げます。"
           }
         },
         "ko" : {

@@ -28,3 +28,11 @@ Attach research to your flow of thought
 Dump many thoughts at once
 See your bridge sentence in the widget
 Send feedback and reviews inside the app
+
+### 앱스토어 (일본어)
+
+止まった考えの要点と直前の考えをカードで表示
+考えの流れに調べた資料を貼れます
+たくさんの考えをまとめて書き出せます
+ウィジェットで区切りの一文をすぐ確認
+アプリ内から意見やレビューを送れます

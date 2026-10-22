@@ -339,6 +339,7 @@
 				en,
 				ko,
 				"en-GB",
+				ja,
 				Base,
 			);
 			mainGroup = A50001;
