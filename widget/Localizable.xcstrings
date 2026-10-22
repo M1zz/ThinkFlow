@@ -50,6 +50,12 @@
             "state" : "translated",
             "value" : "%lld개 메모"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld条备忘"
+          }
         }
       }
     },
@@ -102,6 +108,12 @@
             "state" : "translated",
             "value" : "%lld일째 잠자는 중"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已沉睡%lld天"
+          }
         }
       }
     },
@@ -129,6 +141,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "가장 최근 생각 스레드의 브릿지를 보여줍니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示最近一条思考线程的衔接句。"
           }
         }
       }
@@ -158,6 +176,12 @@
             "state" : "translated",
             "value" : "다음에 생각할 것"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接下来要想的"
+          }
         }
       }
     },
@@ -185,6 +209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "되살릴 생각"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "待唤醒的想法"
           }
         }
       }
@@ -214,6 +244,12 @@
             "state" : "translated",
             "value" : "멈춘 생각을 이어가세요. 헤밍웨이 브릿지를 홈 화면에서 확인합니다."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接上中断的思考，在主屏幕查看你的衔接句。"
+          }
         }
       }
     },
@@ -241,6 +277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "새 생각을 시작하세요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始新的想法"
           }
         }
       }
@@ -270,6 +312,12 @@
             "state" : "translated",
             "value" : "이어생각"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
         }
       }
     },
@@ -297,6 +345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이어생각 위젯"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow小组件"
           }
         }
       }
@@ -326,6 +380,12 @@
             "state" : "translated",
             "value" : "이어서 생각하기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续思考"
+          }
         }
       }
     },
@@ -353,6 +413,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 생각할 것"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "现在要想的"
           }
         }
       }

@@ -26,6 +26,12 @@
             "state" : "translated",
             "value" : "%@ 단계로 변경됨"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已改为%@"
+          }
         }
       }
     },
@@ -54,6 +60,12 @@
             "state" : "translated",
             "value" : "%@에 생각을 이어 적습니다"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在“%@”中继续写下想法"
+          }
         }
       }
     },
@@ -81,6 +93,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld개"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
           }
         }
       }
@@ -134,6 +152,12 @@
             "state" : "translated",
             "value" : "%lld개 생각"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld条想法"
+          }
         }
       }
     },
@@ -185,6 +209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld개 추가됨"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已添加%lld条"
           }
         }
       }
@@ -238,6 +268,12 @@
             "state" : "translated",
             "value" : "%lld개의 생각"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld条想法"
+          }
         }
       }
     },
@@ -265,6 +301,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld번째 생각 삭제"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除第%lld条想法"
           }
         }
       }
@@ -294,6 +336,12 @@
             "state" : "translated",
             "value" : "%lld번째 자료 삭제"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除第%lld条资料"
+          }
         }
       }
     },
@@ -322,6 +370,12 @@
             "state" : "translated",
             "value" : "%lld분"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分钟"
+          }
         }
       }
     },
@@ -349,6 +403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld시간 %lld분"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld小时%2$lld分钟"
           }
         }
       }
@@ -402,6 +462,12 @@
             "state" : "translated",
             "value" : "%lld일 전 끊어둠"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld天前留下衔接句"
+          }
         }
       }
     },
@@ -454,6 +520,12 @@
             "state" : "translated",
             "value" : "%lld자"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld字"
+          }
         }
       }
     },
@@ -481,6 +553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "'%@' 스레드의 모든 메모와 브릿지가 삭제됩니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@”线程中的所有备忘和衔接句都将被删除。"
           }
         }
       }
@@ -510,6 +588,12 @@
             "state" : "translated",
             "value" : "'이어서 생각하기'를 눌러 첫 기록을 남겨보세요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按“继续思考”，留下第一条记录"
+          }
         }
       }
     },
@@ -537,6 +621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "3일 이상 방치됨"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "超过3天未动"
           }
         }
       }
@@ -567,6 +657,12 @@
             "state" : "translated",
             "value" : "Face ID 잠금"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID锁定"
+          }
         }
       }
     },
@@ -596,6 +692,12 @@
             "state" : "translated",
             "value" : "Face ID나 Touch ID로 앱을 잠가 내 생각을 지켜요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用Face ID或触控ID锁定应用，守护你的想法。"
+          }
         }
       }
     },
@@ -623,6 +725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "JSON으로 내보내기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导出为JSON"
           }
         }
       }
@@ -653,6 +761,12 @@
             "state" : "translated",
             "value" : "Siri에게 말하거나 단축어로 바로 생각을 적어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "对Siri说一句，或通过快捷指令，马上记下想法。"
+          }
         }
       }
     },
@@ -681,6 +795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri와 단축어"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri与快捷指令"
           }
         }
       }
@@ -711,6 +831,12 @@
             "state" : "translated",
             "value" : "VoiceOver로 더 편하게"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更好用的旁白支持"
+          }
         }
       }
     },
@@ -738,6 +864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "개발자에게 문의"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "联系开发者"
           }
         }
       }
@@ -768,6 +900,12 @@
             "state" : "translated",
             "value" : "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "调大字号后也不会被截断，会重新排版得清爽易读。"
+          }
         }
       }
     },
@@ -797,6 +935,12 @@
             "state" : "translated",
             "value" : "기기 간 동기화"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跨设备同步"
+          }
         }
       }
     },
@@ -824,6 +968,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "기세가 있을 때 끊어두세요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "趁思路正顺时停下"
           }
         }
       }
@@ -853,6 +1003,12 @@
             "state" : "translated",
             "value" : "기세가 있을 때 끊어둔 미완성 문장. 다음에 열면 뇌가 자동으로 이어받습니다."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "趁思路顺畅时留下的未完句子。下次打开时，大脑会自然接着往下想。"
+          }
         }
       }
     },
@@ -880,6 +1036,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "기세가 있을 때 문장을 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "趁思路正顺时停下。\n下次打开时，大脑会自然接着往下想。"
           }
         }
       }
@@ -909,6 +1071,12 @@
             "state" : "translated",
             "value" : "깊이"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深度"
+          }
         }
       }
     },
@@ -936,6 +1104,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "끊어둔 문장"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "衔接句"
           }
         }
       }
@@ -965,6 +1139,12 @@
             "state" : "translated",
             "value" : "끊어둔 문장 수정"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑衔接句"
+          }
         }
       }
     },
@@ -993,6 +1173,12 @@
             "state" : "translated",
             "value" : "끊어둔 문장: %@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "衔接句：%@"
+          }
         }
       }
     },
@@ -1020,6 +1206,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "날것의 생각"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "原始想法"
           }
         }
       }
@@ -1050,6 +1242,12 @@
             "state" : "translated",
             "value" : "내 데이터 한 번에 지우기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一键清除我的数据"
+          }
         }
       }
     },
@@ -1077,6 +1275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "내보내기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导出"
           }
         }
       }
@@ -1107,6 +1311,12 @@
             "state" : "translated",
             "value" : "내보낸 파일을 다시 불러와 생각을 되살려요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入之前导出的文件，找回你的想法。"
+          }
         }
       }
     },
@@ -1134,6 +1344,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "누적 %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "累计%@"
           }
         }
       }
@@ -1163,6 +1379,12 @@
             "state" : "translated",
             "value" : "다 꺼냈어요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "都写完了"
+          }
         }
       }
     },
@@ -1190,6 +1412,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "다음"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下一步"
           }
         }
       }
@@ -1219,6 +1447,12 @@
             "state" : "translated",
             "value" : "다음에 이어서 생각할 미완성 문장을 적습니다"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写下下次要接着想的未完句子"
+          }
         }
       }
     },
@@ -1246,6 +1480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "닫기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭"
           }
         }
       }
@@ -1276,6 +1516,12 @@
             "state" : "translated",
             "value" : "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提高对比度或难以分辨颜色时，内容也依然清晰可辨。"
+          }
         }
       }
     },
@@ -1304,6 +1550,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 많은 나라 말로 앱을 쓸 수 있게 해요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "让应用支持更多语言。"
           }
         }
       }
@@ -1334,6 +1586,12 @@
             "state" : "translated",
             "value" : "더 많은 언어"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多语言"
+          }
         }
       }
     },
@@ -1361,6 +1619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 보기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多"
           }
         }
       }
@@ -1390,6 +1654,12 @@
             "state" : "translated",
             "value" : "되살릴 생각"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "待唤醒的想法"
+          }
         }
       }
     },
@@ -1417,6 +1687,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "두 번 탭하면 단계를 바꿉니다"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轻点两下即可更改层级"
           }
         }
       }
@@ -1446,6 +1722,12 @@
             "state" : "translated",
             "value" : "두 번 탭하면 생각 스레드로 만듭니다"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轻点两下即可变成思考线程"
+          }
         }
       }
     },
@@ -1473,6 +1755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "두 번 탭하면 선택합니다"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轻点两下即可选择"
           }
         }
       }
@@ -1502,6 +1790,12 @@
             "state" : "translated",
             "value" : "마크다운으로 내보내기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导出为Markdown"
+          }
         }
       }
     },
@@ -1529,6 +1823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "막혀서 멈추는 게 아니라, 아직 쓸 게 있을 때 여기서 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不是卡住了才停，而是趁着还有话可写时，在这里停下。\n下次打开时，大脑会自然接着往下想。"
           }
         }
       }
@@ -1558,6 +1858,12 @@
             "state" : "translated",
             "value" : "머릿속 생각을 적어 새 스레드를 만듭니다"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写下脑中的想法，创建新的线程"
+          }
         }
       }
     },
@@ -1585,6 +1891,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "머릿속에 떠다니는 생각을 꺼내 두면\n다음에 이어서 더 깊이 생각할 수 있어요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把脑子里飘着的想法先写下来，\n下次就能接着想得更深。"
           }
         }
       }
@@ -1615,6 +1927,12 @@
             "state" : "translated",
             "value" : "멈춰 둔 생각을 잊지 않도록 알맞은 때에 다시 알려 줘요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在合适的时候提醒你，别忘了搁置的想法。"
+          }
         }
       }
     },
@@ -1642,6 +1960,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "메모"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "备忘"
           }
         }
       }
@@ -1671,6 +1995,12 @@
             "state" : "translated",
             "value" : "모든 생각을 파일로 내보내 백업합니다"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将所有想法导出为文件，用作备份"
+          }
         }
       }
     },
@@ -1698,6 +2028,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "문장 끊어두기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "留下衔接句"
           }
         }
       }
@@ -1727,6 +2063,12 @@
             "state" : "translated",
             "value" : "문장 끊어두기 단계입니다. 다음에 이어갈 문장을 적으세요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "现在是留下衔接句的步骤。请写下下次要接着想的句子。"
+          }
         }
       }
     },
@@ -1754,6 +2096,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "문장을 끊어둬야 닫을 수 있어요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "留下衔接句才能关闭"
           }
         }
       }
@@ -1784,6 +2132,12 @@
             "state" : "translated",
             "value" : "백업 다시 불러오기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从备份恢复"
+          }
         }
       }
     },
@@ -1811,6 +2165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "버그 제보와 기능 제안을 이메일이나 인스타그램 DM으로 보냅니다"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通过邮件或Instagram私信反馈问题、提出功能建议"
           }
         }
       }
@@ -1841,6 +2201,12 @@
             "state" : "translated",
             "value" : "보기 편한 색과 대비"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更舒适的颜色与对比度"
+          }
         }
       }
     },
@@ -1868,6 +2234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "복사"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拷贝"
           }
         }
       }
@@ -1897,6 +2269,12 @@
             "state" : "translated",
             "value" : "복사되었습니다"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已拷贝"
+          }
         }
       }
     },
@@ -1924,6 +2302,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "복사됨"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已拷贝"
           }
         }
       }
@@ -1953,6 +2337,12 @@
             "state" : "translated",
             "value" : "붙인 자료 %lld: %@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "附上的资料%1$lld：%2$@"
+          }
         }
       }
     },
@@ -1980,6 +2370,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "브릿지 수정"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑衔接句"
           }
         }
       }
@@ -2009,6 +2405,12 @@
             "state" : "translated",
             "value" : "사고 세션 진행 중"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "思考进行中"
+          }
         }
       }
     },
@@ -2036,6 +2438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "사고 시간"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "思考时长"
           }
         }
       }
@@ -2065,6 +2473,12 @@
             "state" : "translated",
             "value" : "삭제"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除"
+          }
         }
       }
     },
@@ -2092,6 +2506,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "생각 꺼내기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "倾倒思绪"
           }
         }
       }
@@ -2121,6 +2541,12 @@
             "state" : "translated",
             "value" : "생각 꺼내기 입력란"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "倾倒思绪输入框"
+          }
         }
       }
     },
@@ -2148,6 +2574,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "생각 더 추가"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再添加一条想法"
           }
         }
       }
@@ -2177,6 +2609,12 @@
             "state" : "translated",
             "value" : "생각 수정"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑想法"
+          }
         }
       }
     },
@@ -2204,6 +2642,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "생각 중..."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "思考中…"
           }
         }
       }
@@ -2233,6 +2677,12 @@
             "state" : "translated",
             "value" : "생각 추가"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加想法"
+          }
         }
       }
     },
@@ -2261,6 +2711,12 @@
             "state" : "translated",
             "value" : "생각 추가됨"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已添加想法"
+          }
         }
       }
     },
@@ -2288,6 +2744,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "생각과 별개로 조사하거나 정리한 자료를 붙여둘 수 있습니다"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可以把调研或整理的资料与自己的想法分开附上"
           }
         }
       }
@@ -2318,6 +2780,12 @@
             "state" : "translated",
             "value" : "생각을 남기거나 이어 갈 때 가볍게 떨려서 알려 줘요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "记下或继续想法时，会有轻轻的震动反馈。"
+          }
         }
       }
     },
@@ -2345,6 +2813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "생각을 이어 나가 보세요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "让思考继续下去"
           }
         }
       }
@@ -2375,6 +2849,12 @@
             "state" : "translated",
             "value" : "생각을 적다가 앱이 꺼져도 쓰던 내용이 남아 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写到一半应用退出了，写过的内容也不会丢。"
+          }
         }
       }
     },
@@ -2402,6 +2882,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "생각의 흐름"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "思路脉络"
           }
         }
       }
@@ -2431,6 +2917,12 @@
             "state" : "translated",
             "value" : "생각이 바뀔 때마다 따로 추가하면 나중에 정리하기 쉬워요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "想法每有变化就单独添加，之后整理起来更轻松。"
+          }
         }
       }
     },
@@ -2458,6 +2950,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "선택 없이 전부 보관"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不选，全部保存"
           }
         }
       }
@@ -2487,6 +2985,12 @@
             "state" : "translated",
             "value" : "선택한 것은 바로 생각 스레드가 됩니다. 나머지는 보관됩니다."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选中的会立刻变成思考线程，其余的先保存起来。"
+          }
         }
       }
     },
@@ -2514,6 +3018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "설정"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
           }
         }
       }
@@ -2544,6 +3054,12 @@
             "state" : "translated",
             "value" : "손끝으로 느끼는 반응"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指尖的触感反馈"
+          }
         }
       }
     },
@@ -2572,6 +3088,12 @@
             "state" : "translated",
             "value" : "수정"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑"
+          }
         }
       }
     },
@@ -2599,6 +3121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "시작일"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始日期"
           }
         }
       }
@@ -2629,6 +3157,12 @@
             "state" : "translated",
             "value" : "쓰는 요령 알려 주기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用小技巧"
+          }
         }
       }
     },
@@ -2657,6 +3191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "쓰던 생각 이어서 쓰기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接着写未完成的想法"
           }
         }
       }
@@ -2687,6 +3227,12 @@
             "state" : "translated",
             "value" : "아이패드에서 키보드만으로 생각을 적고 이어 갈 수 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在iPad上只用键盘就能写下并继续想法。"
+          }
         }
       }
     },
@@ -2716,6 +3262,12 @@
             "state" : "translated",
             "value" : "아이폰과 아이패드에서 같은 생각을 이어서 써요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在iPhone和iPad上接着写同一条想法。"
+          }
         }
       }
     },
@@ -2744,6 +3296,12 @@
             "state" : "translated",
             "value" : "아직 기록이 없어요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "还没有记录"
+          }
         }
       }
     },
@@ -2771,6 +3329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아직 정리 안 된 생각들"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚未整理的想法"
           }
         }
       }
@@ -2801,6 +3365,12 @@
             "state" : "translated",
             "value" : "알림"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通知"
+          }
         }
       }
     },
@@ -2829,6 +3399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "알아 두면 편한 기능을 알맞은 때에 살짝 알려 줘요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在合适的时候，悄悄告诉你实用的功能。"
           }
         }
       }
@@ -2859,6 +3435,12 @@
             "state" : "translated",
             "value" : "앱을 영어로도 쓸 수 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用也可以使用英语。"
+          }
         }
       }
     },
@@ -2886,6 +3468,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "어떤 것부터?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先想哪一个？"
           }
         }
       }
@@ -2916,6 +3504,12 @@
             "state" : "translated",
             "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新后首次打开时，告诉你有哪些新内容。"
+          }
         }
       }
     },
@@ -2945,6 +3539,12 @@
             "state" : "translated",
             "value" : "업데이트 소식"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新动态"
+          }
         }
       }
     },
@@ -2973,6 +3573,12 @@
             "state" : "translated",
             "value" : "여기서 끊어뒀어요"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "你停在了这里"
+          }
         }
       }
     },
@@ -3000,6 +3606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "여기서 이어서"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从这里继续"
           }
         }
       }
@@ -3030,6 +3642,12 @@
             "state" : "translated",
             "value" : "영어 지원"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持英语"
+          }
         }
       }
     },
@@ -3057,6 +3675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "예: \"숏폼이 뇌를 망치는 이유는 보상 주기 때문인데, 그렇다면—\""
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例如：“短视频伤害专注力，是因为它的奖励机制，那么——”"
           }
         }
       }
@@ -3086,6 +3710,12 @@
             "state" : "translated",
             "value" : "예: 클로드에게 물어본 결과 정리"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "例如：向Claude提问后整理的结果"
+          }
         }
       }
     },
@@ -3113,6 +3743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "오래된순"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最早优先"
           }
         }
       }
@@ -3142,6 +3778,12 @@
             "state" : "translated",
             "value" : "완료"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
         }
       }
     },
@@ -3169,6 +3811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "요약"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "总结"
           }
         }
       }
@@ -3199,6 +3847,12 @@
             "state" : "translated",
             "value" : "움직임 줄이기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "减少动态效果"
+          }
         }
       }
     },
@@ -3227,6 +3881,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开启“减少动态效果”后，屏幕效果会更平缓。"
           }
         }
       }
@@ -3257,6 +3917,12 @@
             "state" : "translated",
             "value" : "원하면 앱 안에서 내 생각을 모두 지울 수 있어요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要时，可以在应用内清除你的所有想法。"
+          }
         }
       }
     },
@@ -3284,6 +3950,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 생각을 삭제할까요?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要删除这条想法吗？"
           }
         }
       }
@@ -3313,6 +3985,12 @@
             "state" : "translated",
             "value" : "이 생각을 클립보드에 복사합니다"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将这条想法拷贝到剪贴板"
+          }
         }
       }
     },
@@ -3340,6 +4018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 자료를 클립보드에 복사합니다"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将这条资料拷贝到剪贴板"
           }
         }
       }
@@ -3369,6 +4053,12 @@
             "state" : "translated",
             "value" : "이걸로 시작하기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "就从这个开始"
+          }
         }
       }
     },
@@ -3396,6 +4086,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이메일로 문의하기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发邮件联系"
           }
         }
       }
@@ -3425,6 +4121,12 @@
             "state" : "translated",
             "value" : "이어서 생각하기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续思考"
+          }
         }
       }
     },
@@ -3452,6 +4154,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이어질 문장 끊기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "留下接续的句子"
           }
         }
       }
@@ -3481,6 +4189,12 @@
             "state" : "translated",
             "value" : "인스타그램 DM (@lee25_ios)"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instagram私信（@lee25_ios）"
+          }
         }
       }
     },
@@ -3508,6 +4222,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "입력한 생각을 한 덩어리로 추가하고 다음 생각을 적습니다"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把输入的内容作为一条想法添加，并继续写下一条"
           }
         }
       }
@@ -3537,6 +4257,12 @@
             "state" : "translated",
             "value" : "입력한 자료를 이 생각 흐름에 붙입니다"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把输入的资料附到这条思路中"
+          }
         }
       }
     },
@@ -3564,6 +4290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "자료"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "资料"
           }
         }
       }
@@ -3593,6 +4325,12 @@
             "state" : "translated",
             "value" : "자료 · %@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "资料 · %@"
+          }
         }
       }
     },
@@ -3620,6 +4358,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "자료 내용"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "资料内容"
           }
         }
       }
@@ -3649,6 +4393,12 @@
             "state" : "translated",
             "value" : "자료 추가"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加资料"
+          }
         }
       }
     },
@@ -3676,6 +4426,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "자료 추가됨"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已添加资料"
           }
         }
       }
@@ -3705,6 +4461,12 @@
             "state" : "translated",
             "value" : "자료 출처"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "资料来源"
+          }
         }
       }
     },
@@ -3732,6 +4494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저장"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "存储"
           }
         }
       }
@@ -3761,6 +4529,12 @@
             "state" : "translated",
             "value" : "전부 보관하기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部保存"
+          }
         }
       }
     },
@@ -3788,6 +4562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "전체 복사"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部拷贝"
           }
         }
       }
@@ -3817,6 +4597,12 @@
             "state" : "translated",
             "value" : "정리"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理"
+          }
         }
       }
     },
@@ -3844,6 +4630,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "정리 단계"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理层级"
           }
         }
       }
@@ -3873,6 +4665,12 @@
             "state" : "translated",
             "value" : "정리 단계 %@"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理层级 %@"
+          }
         }
       }
     },
@@ -3900,6 +4698,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "정리 단계, 현재 %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整理层级，当前为%@"
           }
         }
       }
@@ -3929,6 +4733,12 @@
             "state" : "translated",
             "value" : "조사 결과·자료"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "调研结果与资料"
+          }
         }
       }
     },
@@ -3956,6 +4766,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "조사 결과·자료 붙이기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "附上调研结果与资料"
           }
         }
       }
@@ -3985,6 +4801,12 @@
             "state" : "translated",
             "value" : "조사 자료"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "调研资料"
+          }
         }
       }
     },
@@ -4012,6 +4834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "조사 자료, 출처 %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "调研资料，来源%@"
           }
         }
       }
@@ -4041,6 +4869,12 @@
             "state" : "translated",
             "value" : "조사하거나 정리한 내용을 붙여넣습니다"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "粘贴你调研或整理好的内容"
+          }
         }
       }
     },
@@ -4068,6 +4902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "줄바꿈으로 생각을 여러 개로 구분합니다"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用换行把想法分成多条"
           }
         }
       }
@@ -4097,6 +4937,12 @@
             "state" : "translated",
             "value" : "지금 당장 하나만 고른다면?"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "现在只选一个的话？"
+          }
         }
       }
     },
@@ -4124,6 +4970,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금 머릿속에 있는 거 꺼내세요"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把脑子里的想法都倒出来"
           }
         }
       }
@@ -4153,6 +5005,12 @@
             "state" : "translated",
             "value" : "지금 이어지는 생각"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在延续的想法"
+          }
         }
       }
     },
@@ -4180,6 +5038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금까지의 흐름"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目前为止的思路"
           }
         }
       }
@@ -4209,6 +5073,12 @@
             "state" : "translated",
             "value" : "지원"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支持"
+          }
         }
       }
     },
@@ -4236,6 +5106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지원 및 앱 정보를 엽니다"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开支持与应用信息"
           }
         }
       }
@@ -4265,6 +5141,12 @@
             "state" : "translated",
             "value" : "직전 생각"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上一条想法"
+          }
         }
       }
     },
@@ -4292,6 +5174,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "진행 중인 생각"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "进行中的想法"
           }
         }
       }
@@ -4322,6 +5210,12 @@
             "state" : "translated",
             "value" : "처음 쓰는 분을 위한 안내"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新手指南"
+          }
         }
       }
     },
@@ -4351,6 +5245,12 @@
             "state" : "translated",
             "value" : "처음 열었을 때 무엇을 할 수 있는지 짧게 보여 줘요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "首次打开时，简要展示你可以做什么。"
+          }
         }
       }
     },
@@ -4378,6 +5278,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "첫 생각 꺼내기"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写下第一个想法"
           }
         }
       }
@@ -4407,6 +5313,12 @@
             "state" : "translated",
             "value" : "최근 3일 내 방문"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近3天内查看过"
+          }
         }
       }
     },
@@ -4434,6 +5346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "최신순"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最新优先"
           }
         }
       }
@@ -4463,6 +5381,12 @@
             "state" : "translated",
             "value" : "최종 요약"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最终总结"
+          }
         }
       }
     },
@@ -4490,6 +5414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "추가한 생각 %lld: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加的想法%1$lld：%2$@"
           }
         }
       }
@@ -4519,6 +5449,12 @@
             "state" : "translated",
             "value" : "출처 (예: Claude, 검색) — 선택"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "来源（例如：Claude、搜索）— 选填"
+          }
         }
       }
     },
@@ -4546,6 +5482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "취소"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
           }
         }
       }
@@ -4576,6 +5518,12 @@
             "state" : "translated",
             "value" : "큰 글씨에 맞춘 화면"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "适配大字号的界面"
+          }
         }
       }
     },
@@ -4605,6 +5553,12 @@
             "state" : "translated",
             "value" : "키보드로 조작하기"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用键盘操作"
+          }
         }
       }
     },
@@ -4632,6 +5586,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "탭하면 생각 스레드가 됩니다"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轻点即可变成思考线程"
           }
         }
       }
@@ -4662,6 +5622,12 @@
             "state" : "translated",
             "value" : "펼치는 아이폰 화면"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可折叠iPhone界面"
+          }
         }
       }
     },
@@ -4691,6 +5657,12 @@
             "state" : "translated",
             "value" : "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在可折叠iPhone的大屏上分成两栏使用。"
+          }
         }
       }
     },
@@ -4718,6 +5690,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "하나든 열 개든 괜찮아요. 줄바꿈으로 생각을 구분하세요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一个也好，十个也行。用换行把想法分开。"
           }
         }
       }
@@ -4747,6 +5725,12 @@
             "state" : "translated",
             "value" : "한 번 정리함"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已整理一次"
+          }
         }
       }
     },
@@ -4774,6 +5758,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "핵심"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要点"
           }
         }
       }
@@ -4803,6 +5793,12 @@
             "state" : "translated",
             "value" : "핵심만 추림"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "只留要点"
+          }
         }
       }
     },
@@ -4831,6 +5827,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "화면 읽기 기능이 단추와 내용을 빠짐없이, 알맞은 순서로 읽어 줘요."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旁白会按合适的顺序，完整读出按钮和内容。"
           }
         }
       }

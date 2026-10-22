@@ -26,6 +26,12 @@
             "state" : "translated",
             "value" : "이어생각"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
         }
       }
     }
