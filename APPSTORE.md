@@ -1341,3 +1341,64 @@ Zdanie-pomost i sedno zobaczysz w widżecie na ekranie głównym. Gdy myślisz, 
 
 Twoje myśli zostają na Twoim urządzeniu
 Wszystko jest zapisywane tylko na urządzeniu i nie potrzebujesz konta. W każdej chwili możesz wyeksportować dane do pliku Markdown lub JSON.
+
+## sv
+
+### 지원 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/ThinkFlow/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/ThinkFlow/
+
+### 이름
+
+ThinkFlow: Tänk vidare
+
+### 부제
+
+Fortsätt där du slutade
+
+### 키워드
+
+anteckningar,dagbok,idéer,second brain,zettelkasten,djupt arbete,reflektion,fokus,memo,skrivande
+
+### 프로모션 텍스트
+
+Tappa aldrig tråden igen. När du kommer tillbaka ser du kärnan och din senaste tanke och fortsätter exakt där du slutade.
+
+### 설명
+
+Tanken du inte hann klart med i går kan du fortsätta med i dag, exakt där du slutade.
+ThinkFlow är en tankebok som hjälper dig att utveckla djupa tankar lite i taget under flera dagar.
+
+Hemingway ska med flit ha slutat skriva när det gick bra. Den som vet var hen börjar nästa dag kommer snabbt in i flytet igen. ThinkFlow tillämpar den metoden på tänkande.
+
+Brofras
+När du tänkt klart lämnar du en enda rad: frågan du fortsätter med. Nästa gång du öppnar appen väntar meningen högst upp.
+
+Fortsätt härifrån
+Startskärmen visar din senaste tanke. Brofras, kärnan hittills och din senaste tanke finns på ett kort, och du kan skriva vidare direkt.
+
+Från anteckning till kärna
+Förfina det du skriver i fyra nivåer: anteckning, ordnat, kärnan och sammanfattning. Du ser med en blick hur långt en tanke har mognat.
+
+Bifoga material
+Det du har sökt eller frågat om och sammanfattat bifogas som material, tydligt skilt från dina egna tankar.
+
+Töm huvudet
+Skriv ner allt som snurrar i huvudet, en rad i taget. Senare gör ett tryck om en rad till en tanke du kan arbeta vidare med.
+
+Tankar att väcka till liv
+Tankar du inte rört på över tre dagar samlas för sig så att du kan ta fram dem igen. Tiden du lägger på varje tanke summeras också.
+
+Widgetar och låsskärm
+Se din brofras och kärnan i en widget på hemskärmen. Medan du tänker visas tiden på låsskärmen och i Dynamic Island.
+
+Dina tankar stannar på din enhet
+Allt sparas bara på din enhet och du behöver inget konto. Exportera när som helst som en Markdown- eller JSON-fil.

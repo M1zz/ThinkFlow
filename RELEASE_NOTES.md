@@ -180,3 +180,11 @@ Dołączaj materiały do toku myśli
 Wyrzucaj wiele myśli naraz
 Zdanie-pomost od razu w widżecie
 Opinie i recenzje wyślesz z aplikacji
+
+### 앱스토어 (스웨덴어)
+
+Kort med kärnan och senaste tanken
+Bifoga research till tankeflödet
+Skriv ner många tankar på en gång
+Se brofrasen direkt i widgeten
+Skicka feedback och recensioner i appen

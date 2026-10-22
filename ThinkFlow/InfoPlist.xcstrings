@@ -111,6 +111,12 @@
             "value" : "ThinkFlow"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",

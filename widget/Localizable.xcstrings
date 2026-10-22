@@ -321,6 +321,24 @@
             }
           }
         },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld anteckning"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld anteckningar"
+                }
+              }
+            }
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -667,6 +685,24 @@
             }
           }
         },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Har sovit i %lld dag"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Har sovit i %lld dagar"
+                }
+              }
+            }
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -801,6 +837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Показывает фразу-мостик самой свежей цепочки мыслей."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visar brofrasen från din senaste tankråd."
           }
         },
         "th" : {
@@ -939,6 +981,12 @@
             "value" : "Подумать дальше"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Att tänka på sedan"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1073,6 +1121,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Мысли к возвращению"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tankar att väcka till liv"
           }
         },
         "th" : {
@@ -1211,6 +1265,12 @@
             "value" : "Вернитесь к остановленной мысли. Фраза-мостик — на экране «Домой»."
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta upp tankar som stannat av. Se din brofras på hemskärmen."
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1347,6 +1407,12 @@
             "value" : "Начните новую мысль"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Börja en ny tanke"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1478,6 +1544,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -1619,6 +1691,12 @@
             "value" : "Виджет ThinkFlow"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow-widget"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1755,6 +1833,12 @@
             "value" : "Продолжить мысль"
           }
         },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tänk vidare"
+          }
+        },
         "th" : {
           "stringUnit" : {
             "state" : "translated",
@@ -1889,6 +1973,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Подумать сейчас"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Att tänka på nu"
           }
         },
         "th" : {
