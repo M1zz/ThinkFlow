@@ -56,6 +56,12 @@
             "state" : "translated",
             "value" : "%lld条备忘"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld則備忘"
+          }
         }
       }
     },
@@ -114,6 +120,12 @@
             "state" : "translated",
             "value" : "已沉睡%lld天"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已沉睡%lld天"
+          }
         }
       }
     },
@@ -147,6 +159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "显示最近一条思考线程的衔接句。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "顯示最近一則思考串的銜接句。"
           }
         }
       }
@@ -182,6 +200,12 @@
             "state" : "translated",
             "value" : "接下来要想的"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接下來要想的"
+          }
         }
       }
     },
@@ -215,6 +239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "待唤醒的想法"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "待喚醒的想法"
           }
         }
       }
@@ -250,6 +280,12 @@
             "state" : "translated",
             "value" : "接上中断的思考，在主屏幕查看你的衔接句。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接上中斷的思考，在主畫面查看你的銜接句。"
+          }
         }
       }
     },
@@ -284,6 +320,12 @@
             "state" : "translated",
             "value" : "开始新的想法"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始新的想法"
+          }
         }
       }
     },
@@ -314,6 +356,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ThinkFlow"
@@ -352,6 +400,12 @@
             "state" : "translated",
             "value" : "ThinkFlow小组件"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow 小工具"
+          }
         }
       }
     },
@@ -386,6 +440,12 @@
             "state" : "translated",
             "value" : "继续思考"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "繼續思考"
+          }
         }
       }
     },
@@ -419,6 +479,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "现在要想的"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在要想的"
           }
         }
       }

@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "ThinkFlow"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ThinkFlow"
+          }
         }
       }
     }
