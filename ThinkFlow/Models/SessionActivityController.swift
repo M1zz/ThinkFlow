@@ -26,6 +26,18 @@ final class SessionActivityController {
         )
     }
 
+    /// 앱이 세션 도중 강제 종료되면 라이브 액티비티가 주인 없이 남는다.
+    /// 앱을 새로 띄울 때 그런 것들을 내린다 (새 세션은 이 뒤에 시작된다).
+    func endOrphans() {
+        let orphans = Activity<ThinkingSessionAttributes>.activities
+        guard !orphans.isEmpty else { return }
+        Task {
+            for orphan in orphans {
+                await orphan.end(nil, dismissalPolicy: .immediate)
+            }
+        }
+    }
+
     func end() {
         guard let activity else { return }
         self.activity = nil

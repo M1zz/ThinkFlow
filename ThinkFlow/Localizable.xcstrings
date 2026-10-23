@@ -6513,7 +6513,7 @@
         "cs" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hotovo, vše venku"
+            "value" : "Hotovo"
           }
         },
         "da" : {
@@ -6531,7 +6531,7 @@
         "el" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Τα έγραψα όλα"
+            "value" : "Τέλος"
           }
         },
         "en" : {
@@ -6597,7 +6597,7 @@
         "nl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alles genoteerd"
+            "value" : "Klaar"
           }
         },
         "pl" : {
@@ -6609,7 +6609,7 @@
         "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Já despejei tudo"
+            "value" : "Pronto"
           }
         },
         "ru" : {
@@ -11415,7 +11415,7 @@
         "de" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gedanken ausschütten"
+            "value" : "Kopf leeren"
           }
         },
         "el" : {

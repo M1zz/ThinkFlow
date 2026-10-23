@@ -100,6 +100,15 @@ struct ContinueThinkingSheet: View {
             sessionStart = Date()
             store.startSession(threadID: thread.id)
             isThoughtFocused = true
+            #if DEBUG
+            switch ScreenshotScene.scene {
+            case "continue": draft = ScreenshotScene.seed?.draft ?? ""
+            case "bridge":
+                phase = .bridging
+                nextStartingPoint = ScreenshotScene.seed?.bridgeDraft ?? ""
+            default: break
+            }
+            #endif
         }
         .onDisappear {
             // 어떤 경로로 닫히든(완료/닫기/스와이프) 세션을 한 번만 마감

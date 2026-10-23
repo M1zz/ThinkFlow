@@ -52,7 +52,12 @@ struct BrainDumpSheet: View {
                 }
             }
         }
-        .onAppear { isTextFocused = true }
+        .onAppear {
+            isTextFocused = true
+            #if DEBUG
+            if ScreenshotScene.scene == "dump" { rawText = ScreenshotScene.seed?.dumpText ?? "" }
+            #endif
+        }
     }
 
     // MARK: - Phase 1: 덤프

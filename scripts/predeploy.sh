@@ -20,7 +20,9 @@ PROJECT="ThinkFlow.xcodeproj"
 # 시뮬레이터는 **가장 최신 iOS 런타임의 iPhone** 으로 고른다.
 # `grep iPhone | head -1` 로 고르면 구버전 런타임 기기가 먼저 잡혀
 # "Unable to find a destination matching..." (exit 70) 로 죽는다.
-DEST_ID="$(xcrun simctl list devices available --json | python3 -c '
+# SIMULATOR_UDID 를 주면 그 기기로 돌린다 (다른 작업이 쓰는 기기를 피할 때).
+DEST_ID="${SIMULATOR_UDID:-}"
+[ -n "$DEST_ID" ] || DEST_ID="$(xcrun simctl list devices available --json | python3 -c '
 import json, re, sys
 best = None
 for runtime, devices in json.load(sys.stdin)["devices"].items():
@@ -41,11 +43,14 @@ if [ -z "$DEST_ID" ]; then
 fi
 DEST="platform=iOS Simulator,id=$DEST_ID"
 
+# 병렬 테스트는 시뮬레이터 복제본을 띄운다. Mac 이 바쁘면 복제본이 붙지 못하고
+# "The test runner hung before establishing connection" 으로 15분 넘게 멈췄다. 테스트는 18초면 끝나므로 한 기기에서 차례로 돌린다.
 echo "🧪 전체 테스트 실행 ($SCHEME)"
 xcodebuild test \
   "$PROJECT_FLAG" "$PROJECT" \
   -scheme "$SCHEME" \
   -destination "$DEST" \
+  -parallel-testing-enabled NO \
   -quiet
 
 echo ""

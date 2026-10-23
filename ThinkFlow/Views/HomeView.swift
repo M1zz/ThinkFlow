@@ -9,6 +9,9 @@ struct HomeView: View {
     @State private var continueThread: ThoughtThread?
     @State private var exportFile: ExportFile?
     @State private var showSupport = false
+    #if DEBUG
+    @State private var screenshotThreadID: UUID?
+    #endif
 
     struct ExportFile: Identifiable {
         let id = UUID()
@@ -99,11 +102,33 @@ struct HomeView: View {
                     ThreadDetailView(thread: thread)
                 }
             }
+            #if DEBUG
+            .navigationDestination(item: $screenshotThreadID) { threadID in
+                if let thread = store.threads.first(where: { $0.id == threadID }) {
+                    ThreadDetailView(thread: thread)
+                }
+            }
+            #endif
         }
         .onOpenURL { url in
             handleDeepLink(url)
         }
+        #if DEBUG
+        .onAppear { openScreenshotScene() }
+        #endif
     }
+
+    #if DEBUG
+    /// 스토어 스크린샷 전용 — `-ScreenshotScene` 이 가리키는 화면을 바로 연다 (ScreenshotScene.swift)
+    private func openScreenshotScene() {
+        switch ScreenshotScene.scene {
+        case "continue", "bridge": continueThread = store.mostRecentThread
+        case "thread": screenshotThreadID = store.mostRecentThread?.id
+        case "dump": showBrainDump = true
+        default: break
+        }
+    }
+    #endif
 
     // MARK: - 위젯·라이브 액티비티 딥링크 (thinkflow://continue?threadId=...)
 

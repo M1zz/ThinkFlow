@@ -32,6 +32,15 @@ final class ThoughtStore {
         self.sharedDefaults = sharedDefaults
         load()
         loadDumpItems()
+        sessionActivity.endOrphans()
+        #if DEBUG
+        if let seed = ScreenshotScene.seed {
+            threads = seed.threads
+            dumpItems = seed.dumpItems
+            save()
+            saveDumpItems()
+        }
+        #endif
     }
     
     // MARK: - 가장 최근 방문한 스레드 (앱 열자마자 보여줄 것)
@@ -257,3 +266,32 @@ final class ThoughtStore {
         }
     }
 }
+#if DEBUG
+// MARK: - 스토어 스크린샷 전용 장면
+
+/// 스토어 스크린샷 전용 — 디버그 빌드에만 있다. `scripts/take_screenshots.sh` 가 실행 인자로 넘긴다.
+///
+///   -ScreenshotSeed <json 경로>               생각·덤프 데이터를 이 파일 내용으로 바꿔 넣는다
+///   -ScreenshotScene home|continue|bridge|thread|dump   그 화면을 바로 연다
+///
+/// 입력칸에 미리 적어 둘 글(draft · bridgeDraft · dumpText)도 같은 JSON 에 둔다.
+/// 실행 인자로 글을 넘기면 괄호로 시작하는 글이 배열로 읽히는 등 망가지기 때문이다.
+enum ScreenshotScene {
+
+    struct Seed: Decodable {
+        var threads: [ThoughtThread]
+        var dumpItems: [DumpItem]
+        var draft: String?
+        var bridgeDraft: String?
+        var dumpText: String?
+    }
+
+    static let scene: String? = UserDefaults.standard.string(forKey: "ScreenshotScene")
+
+    static let seed: Seed? = {
+        guard let path = UserDefaults.standard.string(forKey: "ScreenshotSeed"),
+              let data = FileManager.default.contents(atPath: path) else { return nil }
+        return try? JSONDecoder().decode(Seed.self, from: data)
+    }()
+}
+#endif

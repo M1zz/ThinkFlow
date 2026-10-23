@@ -191,7 +191,8 @@ struct ThreadDetailView: View {
         }
         .frame(maxWidth: .infinity)
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("\(label) \(value)")
+        // LocalizedStringKey 를 문자열 보간에 넣으면 번역이 아니라 디버그 설명이 읽힌다
+        .accessibilityLabel(Text(label) + Text(verbatim: " \(value)"))
     }
     
     // MARK: - 엔트리 타임라인
