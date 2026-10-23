@@ -59,6 +59,7 @@
     text-align: center;
   }
 </style>
+<link rel="canonical" href="https://m1zz.github.io/ThinkFlow/da/privacy.html">
 <!--HREFLANG-->
 <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/privacy.html">
 <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/privacy.html">
@@ -94,19 +95,35 @@
 <nav class="langnav" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a><a href="../en/privacy.html" hreflang="en" lang="en">English</a><a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../es/privacy.html" hreflang="es" lang="es">Español</a><a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a><a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a><a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a><a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/privacy.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/privacy.html" hreflang="da" lang="da" aria-current="page">Dansk</a><a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav>
 <!--/LANGNAV-->
   <h1>Privatlivspolitik</h1>
-  <p class="meta">ThinkFlow · Gældende fra 11. juni 2026 · Senest opdateret 16. oktober 2026</p>
+  <p class="meta">ThinkFlow · Gældende fra 8. oktober 2026 · Senest opdateret 16. oktober 2026</p>
 
   <div class="highlight">
-    <strong>Kort fortalt: ThinkFlow indsamler ikke personoplysninger.</strong><br>
-    De tanker og noter, du skriver, gemmes kun på din enhed og sendes ikke videre.
-    Det eneste, udvikleren modtager, er anonym brugsstatistik og fejlrapporter, som ikke kan spores tilbage til dig, samt den feedback, du selv vælger at sende.
+    <strong>Kort fortalt: De tanker, du skriver i ThinkFlow, forlader aldrig din enhed.</strong><br>
+    Ingen konto, ingen reklamer og ingen eksterne analysetjenester. Det eneste, udvikleren modtager, er
+    anonym brugsstatistik og fejlrapporter, som ikke kan spores tilbage til dig,
+    og det, du selv sender via &bdquo;Send feedback&ldquo;.
   </div>
 
   <h2>1. Hvilke personoplysninger indsamles</h2>
   <p>
-    ThinkFlow <strong>indsamler ikke</strong> personoplysninger. Du skal ikke oprette en konto, udvikleren driver ingen egne servere,
-    og der indsamles ingen oplysninger som navn, e-mail, placering eller enheds-id'er.
-    De eneste undtagelser er den anonyme brugsstatistik i punkt 3 og muligheden for at sende feedback i punkt 4.
+    ThinkFlow kræver ingen konto, og mens du bruger appen, indsamles eller sendes der ingen personoplysninger som navn, e-mail,
+    placering eller enheds-id'er til en server. Brugen af appen opgøres kun via den anonyme statistik i punkt 4.
+  </p>
+  <p>
+    Den eneste anden undtagelse er, når du selv sender feedback via <strong>Send feedback</strong> på skærmen Indstillinger.
+    I så fald sendes følgende til udvikleren:
+  </p>
+  <ul>
+    <li>Din feedback og dens type (fejlrapport, forslag til forbedring osv.)</li>
+    <li>Skærmbilleder, du selv vælger (kun hvis du vedhæfter dem)</li>
+    <li>Navn og e-mail, du selv skriver (kun hvis du angiver dem for at få svar)</li>
+    <li>Tekniske oplysninger, der skal bruges til at undersøge problemet: appversion, enhedsmodel, iOS-version samt sprog- og områdeindstillinger</li>
+  </ul>
+  <p>
+    Feedback sendes til udvikleren via Apples iCloud-lager (CloudKit) og bruges kun til at besvare din henvendelse
+    og forbedre appen. For at appen kan vise dig svar på den feedback, du har sendt, bruges desuden et anonymt id,
+    som iCloud udsteder alene til feedbacklageret.
+    Ud fra dette id kan man ikke se din Apple-konto eller dit navn.
   </p>
 
   <h2>2. Sådan opbevares data</h2>
@@ -117,59 +134,57 @@
   </ul>
   <p>Disse data sendes ikke over netværket, og ingen – heller ikke udvikleren – har adgang til dem.</p>
 
-  <h2>3. Anonym brugsstatistik og diagnosticeringsdata</h2>
-  <p>
-    For at vide, hvor mange der bruger appen, og for at kunne rette fejl sender ThinkFlow følgende anonyme statistik til Apple iCloud (CloudKit).
-    Kun udvikleren kan læse den.
-  </p>
-  <ul>
-    <li>Et tilfældigt id, der oprettes ved installationen (det er ikke knyttet til enheden, dit Apple-id eller andre apps og skifter, hvis du geninstallerer appen)</li>
-    <li>Appversion, iOS-version samt indstillinger for område og sprog</li>
-    <li>Hvor mange gange og på hvilke dage appen er blevet åbnet, installationsdato og antal dage siden installationen</li>
-    <li>Diagnosticeringsrapporter, når appen fryser eller lukker uventet (appversion, iOS-version, enhedsmodel og tekniske oplysninger om fejlen)</li>
-  </ul>
-  <p>
-    Navn, kontaktoplysninger, placering og indholdet af dine tanker og noter er ikke med. Data sendes kun, når du er logget ind på iCloud.
-    Diagnosticeringsrapporterne er dem, Apples standardsystem til diagnosticering (MetricKit) giver videre til appen, og afhængigt af dine indstillinger under
-    Indstillinger &gt; Anonymitet &amp; sikkerhed &gt; Analyse &amp; forbedringer bliver de måske slet ikke oprettet.
-  </p>
-
-  <h2>4. Send feedback (kun når du selv vælger det)</h2>
-  <p>
-    Hvis du i det tilfredshedsspørgsmål, som appen af og til stiller, vælger, hvad du ikke var tilfreds med, og skriver en kommentar, sendes den valgte kategori, din tekst,
-    appversion, iOS-version, enhedsmodel og sprogindstilling til udvikleren via Apple iCloud (CloudKit).
-    Navn og e-mail sendes kun med, hvis du selv skriver dem for at få svar.
-    Intet sendes, før du trykker på send-knappen, og modtaget feedback bruges kun til at svare dig og forbedre appen.
-  </p>
-
-  <h2>5. Videregivelse til tredjeparter og eksterne tjenester</h2>
+  <h2>3. Videregivelse til tredjeparter og eksterne tjenester</h2>
   <p>
     ThinkFlow bruger ingen tredjepartstjenester som annonce-SDK'er, eksterne analysetjenester eller login via sociale medier
-    og videregiver ikke oplysninger til tredjeparter. iCloud, som bruges til den anonyme brugsstatistik og feedback, drives af Apple,
+    og hverken videregiver eller sælger indsamlede oplysninger til tredjeparter.
+    iCloud (CloudKit), som bruges til feedback samt anonym brugsstatistik og fejlrapporter, er et lager, der drives af Apple,
     og Apples privatlivspolitik gælder for det.
   </p>
 
-  <h2>6. Backup og sletning af data</h2>
+  <h2>4. Anonym brugsstatistik og diagnosticeringsdata</h2>
+  <p>
+    For at vide, hvor mange der bruger appen, og for at kunne rette fejl sendes følgende anonyme statistik til udviklerens lager i Apple iCloud (CloudKit).
+    Kun udvikleren kan læse den.
+  </p>
+  <ul>
+    <li>Et tilfældigt id, der oprettes ved installationen (det er ikke knyttet til dig, dit Apple-id, enheden eller andre apps og skifter, hvis du geninstallerer appen)</li>
+    <li>Appversion, iOS-version samt indstillinger for område og sprog</li>
+    <li>Hvor mange gange og på hvilke dage appen er blevet åbnet, installationsdato og antal dage siden installationen</li>
+    <li>Navnene på hændelser i appen (fx at et spørgsmål om tilfredshed eller en anmodning om en anmeldelse blev vist). Intet af det, du skriver, er med.</li>
+    <li>Diagnosticeringsrapporter, som iOS giver videre, når appen fryser eller lukker uventet (MetricKit) (enhedstype og tekniske oplysninger om fejlen)</li>
+  </ul>
+  <p>
+    Navn, kontaktoplysninger, placering og indholdet af dine tanker og noter er ikke med. Data sendes kun, når du er logget ind på iCloud.
+    De seneste 20 diagnosticeringsrapporter gemmes også på selve enheden, så de kan gennemses.
+  </p>
+  <p>
+    Hvis du desuden i iOS-indstillingerne har givet tilladelse til at dele diagnosticeringsdata med appudviklere,
+    kan Apple sende anonymiserede nedbrudsrapporter til udvikleren.
+    Du kan til enhver tid ændre det under Indstillinger &gt; Anonymitet &amp; sikkerhed &gt; Analyse &amp; forbedringer.
+  </p>
+
+  <h2>5. Backup og sletning af data</h2>
   <ul>
     <li>Med appens funktion <strong>Eksportér</strong> kan du selv tage backup af alle data som en Markdown- eller JSON-fil.</li>
     <li>Når du sletter appen, slettes alle data, der er gemt på enheden, straks sammen med den.</li>
+    <li>Hvis du vil have slettet feedback, du har sendt, så skriv til kontaktadressen nedenfor. Vi sletter den uden unødig forsinkelse, når vi har bekræftet anmodningen.</li>
     <li>Afhængigt af enhedens indstillinger for iCloud-backup kan appens data indgå i din egen iCloud-backup af enheden. Det er standardadfærd i iOS, og udvikleren har ikke adgang til den.</li>
   </ul>
 
-  <h2>7. Børns personoplysninger</h2>
-  <p>Da ThinkFlow ikke indsamler personoplysninger, indsamler appen heller ikke børns personoplysninger.
-  Den anonyme brugsstatistik i punkt 3 indeholder intet, der kan vise, hvem der bruger appen.</p>
+  <h2>6. Børns personoplysninger</h2>
+  <p>ThinkFlow indsamler ikke personoplysninger om nogen, heller ikke børn, mens appen bruges. Den anonyme brugsstatistik i punkt 4 indeholder intet, der kan vise, hvem der bruger appen. Hvis vi opdager, at modtaget feedback indeholder oplysninger om et barn, sletter vi dem straks.</p>
 
-  <h2>8. Ændringer af politikken</h2>
+  <h2>7. Ændringer af politikken</h2>
   <p>
     Hvis denne politik ændres (fx hvis en ny funktion ændrer måden, data behandles på),
     oplyser vi det på denne side og opdaterer ikrafttrædelsesdatoen.
   </p>
 
-  <h2>9. Kontakt</h2>
+  <h2>8. Kontakt</h2>
   <p>
     Har du spørgsmål om behandlingen af personoplysninger, så skriv til:<br>
-    📧 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
+    📧 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>
   </p>
 
   <footer>

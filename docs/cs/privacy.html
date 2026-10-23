@@ -59,6 +59,7 @@
     text-align: center;
   }
 </style>
+<link rel="canonical" href="https://m1zz.github.io/ThinkFlow/cs/privacy.html">
 <!--HREFLANG-->
 <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/privacy.html">
 <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/privacy.html">
@@ -94,19 +95,35 @@
 <nav class="langnav" aria-label="Language"><a href="../privacy.html" hreflang="ko" lang="ko">한국어</a><a href="../en/privacy.html" hreflang="en" lang="en">English</a><a href="../ja/privacy.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../es/privacy.html" hreflang="es" lang="es">Español</a><a href="../de/privacy.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/privacy.html" hreflang="fr" lang="fr">Français</a><a href="../it/privacy.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../ru/privacy.html" hreflang="ru" lang="ru">Русский</a><a href="../th/privacy.html" hreflang="th" lang="th">ไทย</a><a href="../vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/privacy.html" hreflang="cs" lang="cs" aria-current="page">Čeština</a><a href="../da/privacy.html" hreflang="da" lang="da">Dansk</a><a href="../el/privacy.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/privacy.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/privacy.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/privacy.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a></nav>
 <!--/LANGNAV-->
   <h1>Zásady ochrany osobních údajů</h1>
-  <p class="meta">ThinkFlow · Platnost od 11. června 2026 · Poslední aktualizace: 16. října 2026</p>
+  <p class="meta">ThinkFlow · Platnost od 8. října 2026 · Poslední aktualizace: 16. října 2026</p>
 
   <div class="highlight">
-    <strong>Stručně: ThinkFlow neshromažďuje osobní údaje.</strong><br>
-    Myšlenky a poznámky, které napíšete, zůstávají jen ve vašem zařízení a nikam se neodesílají.
-    K vývojáři se dostanou pouze anonymní statistiky používání a hlášení chyb, ze kterých nelze zjistit, od koho pocházejí, a zpětná vazba, kterou sami odešlete.
+    <strong>Stručně: Myšlenky, které v ThinkFlow napíšete, nikdy neopustí vaše zařízení.</strong><br>
+    Žádná registrace, žádné reklamy ani externí analytické služby. K vývojáři se dostanou pouze
+    anonymní statistiky používání a hlášení chyb, ze kterých nelze zjistit, od koho pocházejí,
+    a to, co sami odešlete přes &bdquo;Odeslat zpětnou vazbu&ldquo;.
   </div>
 
   <h2>1. Jaké osobní údaje shromažďujeme</h2>
   <p>
-    ThinkFlow osobní údaje <strong>neshromažďuje</strong>. Není potřeba žádná registrace, vývojář neprovozuje vlastní servery
-    a neshromažďují se údaje jako jméno, e-mail, poloha ani identifikátory zařízení.
-    Výjimkou jsou pouze anonymní statistiky používání popsané v bodě 3 a odeslání zpětné vazby popsané v bodě 4.
+    ThinkFlow nevyžaduje registraci a během používání aplikace neshromažďuje ani na server neodesílá osobní údaje,
+    jako je jméno, e-mail, poloha nebo identifikátory zařízení. Používání aplikace se sleduje pouze pomocí anonymních statistik popsaných v bodě 4.
+  </p>
+  <p>
+    Jedinou další výjimkou je situace, kdy sami odešlete zpětnou vazbu přes <strong>Odeslat zpětnou vazbu</strong> na obrazovce Nastavení.
+    Vývojáři se v takovém případě předá následující:
+  </p>
+  <ul>
+    <li>Text vaší zpětné vazby a její typ (nahlášení chyby, návrh na zlepšení apod.)</li>
+    <li>Snímky obrazovky, které sami vyberete (jen pokud je přiložíte)</li>
+    <li>Jméno a e-mail, které sami vyplníte (jen pokud je zadáte, abyste dostali odpověď)</li>
+    <li>Technické údaje potřebné k prověření problému: verze aplikace, model zařízení, verze iOS, nastavení jazyka a oblasti</li>
+  </ul>
+  <p>
+    Zpětná vazba se k vývojáři dostává přes úložiště Apple iCloud (CloudKit) a používá se jen k odpovědi na váš dotaz
+    a k opravám aplikace. Aby vám aplikace mohla zobrazit odpověď na odeslanou zpětnou vazbu, používá se zároveň
+    anonymní identifikátor, který iCloud vydává výhradně pro úložiště zpětné vazby.
+    Z tohoto identifikátoru nelze zjistit váš účet Apple ani vaše jméno.
   </p>
 
   <h2>2. Jak jsou data uložena</h2>
@@ -117,59 +134,57 @@
   </ul>
   <p>Tato data se nepřenášejí po síti a nikdo, ani vývojář, k nim nemá přístup.</p>
 
-  <h2>3. Anonymní statistiky používání a diagnostické údaje</h2>
-  <p>
-    Abychom věděli, kolik lidí aplikaci používá, a mohli opravovat chyby, odesílá ThinkFlow do Apple iCloudu (CloudKit) následující anonymní statistiky.
-    Čte je pouze vývojář.
-  </p>
-  <ul>
-    <li>Náhodné ID vytvořené při instalaci (není propojené se zařízením, Apple ID ani jinými aplikacemi a po přeinstalaci se změní)</li>
-    <li>Verze aplikace, verze iOS, nastavení oblasti a jazyka</li>
-    <li>Kolikrát a ve které dny byla aplikace otevřena, datum instalace a počet dní od instalace</li>
-    <li>Diagnostická hlášení, když aplikace zamrzne nebo se neočekávaně ukončí (verze aplikace, verze iOS, typ zařízení, technické informace o chybě)</li>
-  </ul>
-  <p>
-    Neobsahují jméno, kontakty, polohu ani obsah vašich myšlenek a poznámek. Odesílají se pouze tehdy, když jste přihlášeni k iCloudu.
-    Diagnostická hlášení jsou ta, která aplikaci předává standardní diagnostický systém Applu (MetricKit), a v závislosti na nastavení v
-    Nastavení &gt; Soukromí a zabezpečení &gt; Analýza a vylepšování nemusí vůbec vzniknout.
-  </p>
-
-  <h2>4. Odeslání zpětné vazby (jen když se tak sami rozhodnete)</h2>
-  <p>
-    Pokud v otázce na spokojenost, kterou aplikace občas položí, vyberete, co se vám nelíbilo, a napíšete zpětnou vazbu, předá se vývojáři přes Apple iCloud (CloudKit)
-    zvolená kategorie, váš text, verze aplikace, verze iOS, typ zařízení a nastavení jazyka.
-    Jméno a e-mail se odešlou jen tehdy, když je sami vyplníte, abyste dostali odpověď.
-    Dokud neklepnete na tlačítko pro odeslání, nic se nepřenáší, a přijatou zpětnou vazbu používáme jen k odpovědi a ke zlepšování aplikace.
-  </p>
-
-  <h2>5. Předávání třetím stranám a externí služby</h2>
+  <h2>3. Předávání třetím stranám a externí služby</h2>
   <p>
     ThinkFlow nepoužívá služby třetích stran, jako jsou reklamní SDK, externí analytické služby nebo přihlašování přes sociální sítě,
-    a nepředává žádné informace třetím stranám. iCloud, přes který se posílají anonymní statistiky používání a zpětná vazba, provozuje Apple
+    a shromážděné informace třetím stranám nepředává ani neprodává.
+    iCloud (CloudKit), přes který se posílá zpětná vazba a anonymní statistiky používání a hlášení chyb, je úložiště provozované společností Apple
     a vztahují se na něj zásady ochrany osobních údajů společnosti Apple.
   </p>
 
-  <h2>6. Zálohování a mazání dat</h2>
+  <h2>4. Anonymní statistiky používání a diagnostické údaje</h2>
+  <p>
+    Abychom věděli, kolik lidí aplikaci používá, a mohli opravovat chyby, odesílají se do úložiště Apple iCloud (CloudKit) vývojáře následující anonymní statistiky.
+    Čte je pouze vývojář.
+  </p>
+  <ul>
+    <li>Náhodné ID vytvořené při instalaci (není propojené s vámi, vaším Apple ID, zařízením ani jinými aplikacemi a po přeinstalaci se změní)</li>
+    <li>Verze aplikace, verze iOS, nastavení oblasti a jazyka</li>
+    <li>Kolikrát a ve které dny byla aplikace otevřena, datum instalace a počet dní od instalace</li>
+    <li>Názvy událostí v aplikaci (např. zobrazení otázky na spokojenost nebo žádosti o hodnocení). Nic z toho, co napíšete, v nich není.</li>
+    <li>Diagnostická hlášení, která předá iOS, když aplikace zamrzne nebo se neočekávaně ukončí (MetricKit) (typ zařízení, technické informace o chybě)</li>
+  </ul>
+  <p>
+    Neobsahují jméno, kontakty, polohu ani obsah vašich myšlenek a poznámek. Odesílají se pouze tehdy, když jste přihlášeni k iCloudu.
+    Posledních 20 diagnostických hlášení se pro kontrolu uchovává také přímo v zařízení.
+  </p>
+  <p>
+    Pokud jste navíc v nastavení iOS povolili sdílení diagnostických dat s vývojáři aplikací,
+    může Apple vývojáři předávat anonymizovaná hlášení o pádech aplikace.
+    Toto nastavení můžete kdykoli změnit v Nastavení &gt; Soukromí a zabezpečení &gt; Analýza a vylepšování.
+  </p>
+
+  <h2>5. Zálohování a mazání dat</h2>
   <ul>
     <li>Pomocí funkce <strong>Exportovat</strong> v aplikaci si můžete sami zálohovat všechna data do souboru Markdown nebo JSON.</li>
     <li>Smazáním aplikace se okamžitě smažou i všechna data uložená v zařízení.</li>
+    <li>Pokud chcete smazat odeslanou zpětnou vazbu, dejte nám vědět na níže uvedený kontakt. Po ověření ji bez zbytečného odkladu smažeme.</li>
     <li>V závislosti na nastavení zálohování na iCloud ve vašem zařízení mohou být data aplikace součástí vaší vlastní zálohy zařízení na iCloudu. Jde o standardní chování iOS a vývojář k ní nemá přístup.</li>
   </ul>
 
-  <h2>7. Osobní údaje dětí</h2>
-  <p>Protože ThinkFlow neshromažďuje osobní údaje, neshromažďuje ani osobní údaje dětí.
-  Anonymní statistiky používání z bodu 3 neobsahují nic, z čeho by se dalo zjistit, kdo aplikaci používá.</p>
+  <h2>6. Osobní údaje dětí</h2>
+  <p>ThinkFlow během používání neshromažďuje osobní údaje nikoho, včetně dětí. Anonymní statistiky používání z bodu 4 neobsahují nic, z čeho by se dalo zjistit, kdo aplikaci používá. Pokud zjistíme, že zpětná vazba obsahuje údaje o dítěti, okamžitě je smažeme.</p>
 
-  <h2>8. Změny zásad</h2>
+  <h2>7. Změny zásad</h2>
   <p>
     Pokud se tyto zásady změní (například když nová funkce změní způsob zpracování dat),
     oznámíme to na této stránce a aktualizujeme datum platnosti.
   </p>
 
-  <h2>9. Kontakt</h2>
+  <h2>8. Kontakt</h2>
   <p>
     S dotazy ke zpracování osobních údajů se obracejte na:<br>
-    📧 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a>
+    📧 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>
   </p>
 
   <footer>
