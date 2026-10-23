@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ThinkFlow — Tuki</title>
+<style>
+  :root {
+    --accent: #f97316;
+    --text: #1c1c1e;
+    --secondary: #6e6e73;
+    --bg: #ffffff;
+    --card: #f5f5f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --text: #f5f5f7;
+      --secondary: #98989d;
+      --bg: #1c1c1e;
+      --card: #2c2c2e;
+    }
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { text-align: center; margin-bottom: 48px; }
+  .app-icon { font-size: 64px; line-height: 1; }
+  h1 { font-size: 28px; margin-top: 12px; }
+  .tagline { color: var(--secondary); font-size: 16px; margin-top: 6px; }
+  h2 {
+    font-size: 20px;
+    margin: 40px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+  }
+  p { margin-bottom: 12px; }
+  .card {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 12px;
+  }
+  .card h3 { font-size: 16px; margin-bottom: 6px; }
+  .card p { color: var(--secondary); font-size: 15px; margin: 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { margin-bottom: 6px; }
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    border-top: 1px solid var(--card);
+    color: var(--secondary);
+    font-size: 14px;
+    text-align: center;
+  }
+</style>
+<!--HREFLANG-->
+<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ThinkFlow/en/">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/en/">
+<style>.langnav{display:flex;flex-wrap:wrap;gap:6px 12px;justify-content:center;font-size:13px;margin:-24px 0 32px;color:var(--secondary)}.langnav a{color:var(--secondary)}.langnav a[aria-current]{color:var(--accent);font-weight:600}</style>
+<!--/HREFLANG-->
+</head>
+<body>
+<div class="container">
+<!--LANGNAV-->
+<nav class="langnav" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi" aria-current="page">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
+<!--/LANGNAV-->
+  <header>
+    <div class="app-icon">🧠</div>
+    <h1>ThinkFlow</h1>
+    <p class="tagline">Ajatusta ei tarvitse saada valmiiksi kerralla — jätä se kesken, jatka ja hio sitä</p>
+  </header>
+
+  <h2>Mikä ThinkFlow on?</h2>
+  <p>
+    Kun kirjoittaminen sujui hyvin, Hemingway lopetti päivän tarkoituksella kesken lauseen.
+    Keskeneräinen lause auttoi häntä seuraavana päivänä pääsemään luontevasti takaisin vauhtiin.
+    ThinkFlow soveltaa samaa menetelmää ajatteluun. Kirjaa mieleesi tulevat ajatukset kevyesti ylös,
+    ja kun lopetat, <strong>jätä kesken lause, josta jatkat</strong>. Kun seuraavan kerran avaat sovelluksen, jatkat suoraan siitä lauseesta.
+  </p>
+
+  <h2>Tärkeimmät ominaisuudet</h2>
+  <div class="card">
+    <h3>💭 Tyhjennä pää (brain dump)</h3>
+    <p>Kirjoita kaikki mielessä pyörivät ajatukset kerralla ylös rivi riviltä ja tee ketjuja vain niistä, joita haluat kehittää eteenpäin.</p>
+  </div>
+  <div class="card">
+    <h3>🌉 Hemingwayn siltalause</h3>
+    <p>Kun lopetat ajatteluistunnon, kirjoita keskeneräinen lause, josta jatkat seuraavalla kerralla. Kun palaat, pääset heti takaisin siihen, mihin jäit.</p>
+  </div>
+  <div class="card">
+    <h3>📚 Asteittainen tiivistäminen (Progressive Summarization)</h3>
+    <p>Hio ajatuksiasi nostamalla kertyneitä merkintöjä neljän tason läpi: muistiinpano → järjestetty → ydin → tiivistelmä.</p>
+  </div>
+  <div class="card">
+    <h3>📎 Tutkimus ja aineistot</h3>
+    <p>Voit liittää Claudelta kysymäsi vastaukset tai etsimäsi aineiston samaan ajatusketjuun erillään omista ajatuksistasi.</p>
+  </div>
+  <div class="card">
+    <h3>📱 Widgetit &amp; Live Activity -toiminnot</h3>
+    <p>Koti-valikon widget näyttää aina siltalauseesi, ja ajatteluistunnon aikana ajastin näkyy lukitusnäytöllä ja Dynamic Islandissa.</p>
+  </div>
+
+  <h2>Usein kysyttyä</h2>
+  <div class="card">
+    <h3>Mihin ajatukseni tallennetaan?</h3>
+    <p>Kaikki tiedot tallennetaan vain laitteellesi. Niitä ei lähetetä palvelimelle, eikä kehittäjäkään näe niitä.</p>
+  </div>
+  <div class="card">
+    <h3>Voinko varmuuskopioida tiedot tai siirtää ne muualle?</h3>
+    <p>Voit viedä kaikki ajatuksesi Markdown- tai JSON-tiedostona sovelluksen etusivun oikean yläkulman Vie-valikosta. Tallenna tiedosto jakamalla se esimerkiksi Tiedostot-, Muistiinpanot- tai Mail-appiin.</p>
+  </div>
+  <div class="card">
+    <h3>Mitä tiedoilleni tapahtuu, jos poistan sovelluksen?</h3>
+    <p>Kun poistat sovelluksen, kaikki laitteelle tallennetut ajatukset poistetaan samalla. Varmuuskopioi ne Vie-toiminnolla ennen poistamista.</p>
+  </div>
+  <div class="card">
+    <h3>Widget ei päivity</h3>
+    <p>Widget päivittyy enintään 30 minuutin välein, ja kun lisäät sovelluksessa ajatuksen, se pyytää päivitystä heti. Jos näkymä on vanhentunut, avaa sovellus kerran.</p>
+  </div>
+
+  <h2>Ota yhteyttä</h2>
+  <p>
+    Vikailmoitukset, ominaisuustoiveet ja kaikki muutkin ajatukset ovat tervetulleita.<br>
+    📧 <a href="mailto:mizzking75@gmail.com">mizzking75@gmail.com</a><br>
+    🐙 <a href="https://github.com/M1zz/ThinkFlow/issues">GitHub Issues</a>
+  </p>
+
+  <footer>
+    <p><a href="privacy.html">Tietosuojaseloste</a></p>
+    <p>© 2026 Leeo. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>

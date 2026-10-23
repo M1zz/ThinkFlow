@@ -65,15 +65,15 @@ https://m1zz.github.io/ThinkFlow/
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/en/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/en/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/en/
 
 ### 이름
 
@@ -126,15 +126,15 @@ Everything is stored only on your device and no account is needed. Export it any
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/en/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/en/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/en/
 
 ### 이름
 
@@ -187,15 +187,15 @@ Everything is stored only on your device and no account is needed. Export it any
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/ja/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/ja/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/ja/
 
 ### 이름
 
@@ -248,15 +248,15 @@ ThinkFlowは、深い考えを何日もかけて少しずつ育てていくた�
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/zh-Hans/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/zh-Hans/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/zh-Hans/
 
 ### 이름
 
@@ -309,15 +309,15 @@ ThinkFlow 是一款思考笔记，帮你把深入的想法分成几天，一点�
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/zh-Hant/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/zh-Hant/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/zh-Hant/
 
 ### 이름
 
@@ -329,7 +329,7 @@ ThinkFlow：接著想
 
 ### 키워드
 
-思緒整理,腦力激盪,靈感,筆記,備忘錄,日記,回顧,深度工作,專注,第二大腦,卡片盒筆記,寫作,隨想,創意,記錄,點子,隨筆,構思,心得,自省
+思緒整理,腦力激盪,靈感,筆記,備忘錄,日記,回顧,深度工作,專注,第二大腦,卡片盒筆記,寫作,隨想,創意,記錄,點子,隨筆,構思,心得,自省,反思,日誌,摘要,想法,碎碎念,重點整理,記事本
 
 ### 프로모션 텍스트
 
@@ -370,15 +370,15 @@ ThinkFlow 是一款思考筆記，幫你把深入的想法分成幾天，一點�
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/es/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/es/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/es/
 
 ### 이름
 
@@ -431,15 +431,15 @@ Todo se guarda solo en tu dispositivo y no necesitas cuenta. Expórtalo cuando q
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/de/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/de/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/de/
 
 ### 이름
 
@@ -492,15 +492,15 @@ Alles wird nur auf deinem Gerät gespeichert, ein Konto brauchst du nicht. Expor
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/fr/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/fr/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/fr/
 
 ### 이름
 
@@ -553,15 +553,15 @@ Tout est enregistré uniquement sur votre appareil, sans compte. Exportez à tou
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/it/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/it/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/it/
 
 ### 이름
 
@@ -614,15 +614,15 @@ Tutto è salvato solo sul tuo dispositivo e non serve alcun account. Esporta qua
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/pt-BR/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/pt-BR/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/pt-BR/
 
 ### 이름
 
@@ -675,15 +675,15 @@ Tudo é salvo apenas no seu dispositivo, sem precisar de conta. Exporte quando q
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/ru/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/ru/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/ru/
 
 ### 이름
 
@@ -736,15 +736,15 @@ ThinkFlow — блокнот для размышлений, который по�
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/th/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/th/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/th/
 
 ### 이름
 
@@ -756,7 +756,7 @@ ThinkFlow: คิดต่อจากเดิม
 
 ### 키워드
 
-บันทึก,ไดอารี่,ไอเดีย,โน้ต,สมองที่สอง,เซตเทลคาสเทน,ทำงานเชิงลึก,ทบทวนตัวเอง,โฟกัส,เมโม,การเขียน
+บันทึก,ไดอารี่,ไอเดีย,โน้ต,สมองที่สอง,เซตเทลคาสเทน,ทำงานเชิงลึก,ทบทวนตัวเอง,โฟกัส,เมโม,การเขียน,ระดมสมอง,สรุป
 
 ### 프로모션 텍스트
 
@@ -797,15 +797,15 @@ ThinkFlow คือสมุดโน้ตสำหรับการคิด 
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/vi/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/vi/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/vi/
 
 ### 이름
 
@@ -858,15 +858,15 @@ Mọi ghi chép chỉ lưu trên thiết bị và không cần tài khoản. B�
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/cs/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/cs/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/cs/
 
 ### 이름
 
@@ -919,15 +919,15 @@ Všechny záznamy se ukládají jen do zařízení a nepotřebujete účet. Kdyk
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/el/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/el/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/el/
 
 ### 이름
 
@@ -980,15 +980,15 @@ ThinkFlow: Συνέχεια σκέψης
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/da/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/da/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/da/
 
 ### 이름
 
@@ -1041,15 +1041,15 @@ Alt gemmes kun på din enhed, og du behøver ingen konto. Eksportér når som he
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/fi/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/fi/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/fi/
 
 ### 이름
 
@@ -1102,15 +1102,15 @@ Kaikki tallennetaan vain laitteellesi, eikä tiliä tarvita. Voit viedä sisäll
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/id/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/id/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/id/
 
 ### 이름
 
@@ -1163,15 +1163,15 @@ Semua catatan hanya disimpan di perangkatmu dan tidak perlu akun. Ekspor kapan s
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/nb/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/nb/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/nb/
 
 ### 이름
 
@@ -1224,15 +1224,15 @@ Alt lagres bare på enheten din, og du trenger ingen konto. Eksporter når som h
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/nl/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/nl/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/nl/
 
 ### 이름
 
@@ -1285,15 +1285,15 @@ Alles wordt alleen op je apparaat bewaard en je hebt geen account nodig. Exporte
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/pl/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/pl/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/pl/
 
 ### 이름
 
@@ -1346,15 +1346,15 @@ Wszystko jest zapisywane tylko na urządzeniu i nie potrzebujesz konta. W każde
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/sv/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/sv/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/sv/
 
 ### 이름
 
@@ -1407,15 +1407,15 @@ Allt sparas bara på din enhet och du behöver inget konto. Exportera när som h
 
 ### 지원 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/tr/
 
 ### 개인정보처리방침 URL
 
-https://m1zz.github.io/ThinkFlow/privacy.html
+https://m1zz.github.io/ThinkFlow/tr/privacy.html
 
 ### 마케팅 URL
 
-https://m1zz.github.io/ThinkFlow/
+https://m1zz.github.io/ThinkFlow/tr/
 
 ### 이름
 
