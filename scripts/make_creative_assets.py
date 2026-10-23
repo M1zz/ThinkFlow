@@ -22,7 +22,7 @@ ICON = ROOT / "ThinkFlow" / "Assets.xcassets" / "AppIcon.appiconset" / "AppIcon.
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 
 # 앱 언어 코드 → App Store Connect 로케일 (make_marketing_screenshots.py 와 같다)
-STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "no", "nl": "nl-NL", "pl": "pl", "sv": "sv-SE", "tr": "tr"}   # 스토어 로케일
+STORE = {"ko": "ko", "en": "en-US", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es-ES", "de": "de-DE", "fr": "fr-FR", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl-NL", "pl": "pl", "sv": "sv-SE", "tr": "tr"}   # 스토어 로케일
 
 # (가로, 세로, 안전 영역 left, top, right, bottom)
 SPEC = {
@@ -39,24 +39,24 @@ SEARCH = {
     "zh-Hans": ("思考笔记", "把中断的想法<br>原样接上", "从停下的那个问题<br>重新开始"),
     "zh-Hant": ("思考筆記", "把中斷的想法<br>原樣接上", "從停下的那個問題<br>重新開始"),
     "ja": ("思考ノート", "止まった考えを<br>そのまま続ける", "止まった場所の問いから<br>もう一度はじめる"),
-    "ru": ("блокнот мыслей", "Продолжайте мысль<br>с того же места", "Начните снова с вопроса,<br>на котором остановились"),
+    "ru": ('блокнот мыслей', 'Думайте дальше<br>с того же места', 'Начните с вопроса,<br>где остановились'),
     "es": ("diario de ideas", "Retoma tus ideas<br>donde las dejaste", "Empieza de nuevo desde<br>la pregunta que dejaste"),
-    "de": ("Denktagebuch", "Gedanken genau dort<br>weiterführen", "Starte wieder bei der Frage,<br>die du hinterlassen hast"),
-    "fr": ("carnet de pensées", "Reprenez vos idées<br>là où vous les avez laissées", "Repartez de la question<br>que vous aviez laissée"),
-    "it": ("diario dei pensieri", "Riprendi i pensieri<br>da dove li hai lasciati", "Riparti dalla domanda<br>che avevi lasciato"),
+    "de": ('Denktagebuch', 'Weiterdenken,<br>wo du warst', 'Starte bei der Frage,<br>die du offen ließt'),
+    "fr": ('carnet de pensées', 'Reprenez le fil<br>de vos idées', 'Repartez de la question<br>laissée en suspens'),
+    "it": ('diario dei pensieri', 'Riprendi il filo<br>dei pensieri', 'Riparti dalla domanda<br>che avevi lasciato'),
     "pt-BR": ("diário de ideias", "Retome suas ideias<br>de onde parou", "Recomece da pergunta<br>que você deixou"),
     "th": ("สมุดความคิด", "ต่อความคิดที่หยุดไว้<br>ได้ทันที", "เริ่มใหม่จากคำถามที่<br>ทิ้งไว้"),
     "vi": ("sổ suy nghĩ", "Nối tiếp suy nghĩ<br>ngay chỗ đã dừng", "Bắt đầu lại từ câu hỏi<br>bạn đã để lại"),
-    "cs": ("zápisník myšlenek", "Navažte na myšlenky<br>tam, kde jste skončili", "Začněte znovu otázkou,<br>kterou jste nechali"),
-    "da": ("tankebog", "Fortsæt dine tanker,<br>hvor du slap", "Start igen ved det spørgsmål,<br>du efterlod"),
-    "el": ("ημερολόγιο σκέψεων", "Συνέχισε τις σκέψεις<br>απ’ όπου σταμάτησες", "Ξεκίνα ξανά από την<br>ερώτηση που άφησες"),
+    "cs": ('zápisník myšlenek', 'Navažte tam,<br>kde jste skončili', 'Začněte otázkou,<br>kterou jste nechali'),
+    "da": ('tankebog', 'Tænk videre,<br>hvor du slap', 'Start ved spørgsmålet,<br>du efterlod'),
+    "el": ('ημερολόγιο σκέψεων', 'Συνέχισε<br>εκεί που έμεινες', 'Ξεκίνα από<br>την ερώτηση που άφησες'),
     "fi": ("ajatuspäiväkirja", "Jatka ajatuksia<br>siitä, mihin jäit", "Aloita uudelleen kysymyksestä,<br>jonka jätit"),
-    "id": ("jurnal pikiran", "Lanjutkan pikiran<br>dari tempat berhenti", "Mulai lagi dari pertanyaan<br>yang kamu tinggalkan"),
+    "id": ('jurnal pikiran', 'Lanjutkan pikiran<br>yang terhenti', 'Mulai dari pertanyaan<br>yang kamu tinggalkan'),
     "nb": ("tankebok", "Fortsett tankene<br>der du slapp", "Start igjen ved spørsmålet<br>du la igjen"),
-    "nl": ("denkboek", "Zet je gedachten voort<br>waar je stopte", "Begin opnieuw bij de vraag<br>die je achterliet"),
+    "nl": ('denkboek', 'Denk verder<br>waar je stopte', 'Begin bij de vraag<br>die je achterliet'),
     "pl": ("dziennik myśli", "Kontynuuj myśli<br>od tego miejsca", "Zacznij od pytania,<br>które zostawiłeś"),
     "sv": ("tankebok", "Fortsätt tankarna<br>där du slutade", "Börja om vid frågan<br>du lämnade"),
-    "tr": ("düşünce defteri", "Düşüncelerini kaldığın<br>yerden sürdür", "Bıraktığın sorudan<br>yeniden başla"),
+    "tr": ('düşünce defteri', 'Kaldığın yerden<br>düşünmeye devam', 'Bıraktığın sorudan<br>yeniden başla'),
 }
 
 # 헤더는 한 가지 약속: 어제 멈춘 생각을 오늘 그 자리에서 잇는다.
@@ -151,6 +151,19 @@ def thread_svg(W, H, d, dots):
             f'<g opacity=".95">{circles}</g></svg>')
 
 
+# 크리에이티브 전용 캡처(raw/creative/<언어>/)가 없으면 스크린샷 원본(raw/<언어>/)을 쓴다
+FALLBACK = {"01-home.png": "01-home.png", "02-thread.png": "04-thread.png"}
+
+
+def raw_shot(lang, name):
+    p = RAW / lang / name
+    if p.exists():
+        return p
+    p = RAW.parent / lang / FALLBACK[name]
+    assert p.exists(), f"원본 없음: {p}"
+    return p
+
+
 def search_html(lang):
     W, H, (l, t, r, b) = SPEC["search"]
     eyebrow, headline, sub = SEARCH[lang]
@@ -159,7 +172,7 @@ def search_html(lang):
     # 기기는 안전 영역 오른쪽 몫에 서서, 위아래로 넘쳐 화면 밖까지 이어진다(기기 그림은 잘려도 된다).
     ph_w = 1040
     ph_left = l + col + int(sw * 0.04)
-    img = (RAW / lang / "01-home.png").as_uri()
+    img = raw_shot(lang, "01-home.png").as_uri()
     line = thread_svg(W, H, "M -100 2350 C 500 2250, 700 1950, 1100 2050 S 1700 2500, 2500 2250",
                       [(1100, 2050)])
     return f"""
@@ -178,8 +191,8 @@ def header_html(lang):
     W, H, (l, t, r, b) = SPEC["header"]
     eyebrow, headline = HEADER[lang]
     sw, sh = r - l, b - t
-    left_img = (RAW / lang / "02-thread.png").as_uri()
-    right_img = (RAW / lang / "01-home.png").as_uri()
+    left_img = raw_shot(lang, "02-thread.png").as_uri()
+    right_img = raw_shot(lang, "01-home.png").as_uri()
     # 실은 안전 영역 위아래 바깥으로 지나가며 두 기기를 잇는다.
     line = thread_svg(W, H, "M -100 1450 C 600 1500, 900 1350, 1200 1420 S 1900 1580, 2300 1440 S 3200 1300, 3950 1380",
                       [(1200, 1420), (2650, 1395)])
