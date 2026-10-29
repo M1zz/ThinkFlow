@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: düşüncene tam kaldığın yerden devam et",
+  "description": "Her düşünme oturumunu bir köprü cümlesiyle bitir, bir dahaki sefere oradan devam et. Tüm özellikler ücretsiz ve her şey cihazında kalır.",
+  "hero": {
+    "headline": "Dün yarım kalan düşüncen\nbugün kaldığı yerden sürüyor",
+    "lead": "Düşünmeyi bıraktığında devam edeceğin bir satır bırak. Uygulamayı bir sonraki açışında o satır en üstte seni bekler.",
+    "cta": "App Store’dan ücretsiz indir",
+    "note": "Tüm özellikler ücretsiz. Hesap yok, her şey cihazında kalır."
+  },
+  "demo": {
+    "title": "Bir köprü cümlesi bırak",
+    "lead": "Bir düşünce yaz, sonra bir dahaki sefere devam edeceğin cümleyi bırak. Adımlar uygulamadakiyle aynı.",
+    "resume": "Buradan devam et",
+    "bridgeName": "Köprü Cümlesi",
+    "leftOff": "Burada kalmıştın",
+    "flow": "Şimdiye kadarki akış",
+    "latest": "Son düşünce",
+    "note": "Not",
+    "core": "Özet nokta",
+    "continue": "Düşünmeye Devam Et",
+    "thinking": "Şu an süren düşünce",
+    "next": "İleri",
+    "bridging": "Köprü Cümlesi Bırak",
+    "lock": "Kapatmak için bir köprü cümlesi bırak",
+    "bridgeTitle": "Akıştayken dur",
+    "bridgeLabel": "Bir köprü cümlesi bırak",
+    "done": "Bitti",
+    "thread": "Scroll mu, odak mı?",
+    "bridge": "Peki ‘bilinçli sıkılmayı’ planlarsam derin düşünme geri gelir mi?",
+    "coreText": "Ödülü bekleme süresindeki fark derin düşünmeyi engelliyor",
+    "last": "Telefonu evde bırakıp yürüyüşe çıkınca düşünceler kendiliğinden birbirine bağlanıyor. Belki de düşünceyi çağıran şey can sıkıntısıdır.",
+    "ex1": "Sıkılmaktan kaçmayı bırakıp onu takvime koysam nasıl olur? Günde yirmi dakika hiçbir şey yapmamak.",
+    "ex2": "Her gün aynı saatte 20 sıkıcı dakika ayırırsam o sırada aklıma neler gelir?",
+    "useExample": "Örnek ekle",
+    "later": "Bir dahaki sefere seni böyle karşılar: Az önce bıraktığın cümle en üstte.",
+    "again": "Baştan başla"
+  },
+  "problem": {
+    "title": "Nerede kalmıştım ben?",
+    "text": "Geçen haftaki bir notu açıyorsun; birkaç sonuç var ama sonra kafa yormak istediğin soru yok. Ve her şeye sıfırdan başlıyorsun. ThinkFlow, bıraktığın anda o sıradaki soruyu yazdırır; geri döndüğünde doğrudan oradan başlarsın."
+  },
+  "features": [
+    {
+      "title": "Köprü cümlen en üstte bekliyor",
+      "text": "Oturumu tek bir satırla bitir: devam edeceğin soru. Geri döndüğünde o cümle, şimdiye kadarki özet noktalar ve son düşüncen tek bir kartta durur. Hiçbir şeyi yeniden toparlaman gerekmez.\nKöprü cümlesi Ana Ekran widget’ında da görünür; düşünürken süre Kilit Ekranı’nda ve Dynamic Island’da işler.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "Nottan özet noktaya",
+      "text": "Her düşünceyi dört düzeyden geçir: not, düzenlendi, özet nokta ve özet. Ne kadar olgunlaştığını tek bakışta görürsün.\nAradığın ya da sorduğun şeyler materyal olarak eklenir, kendi düşüncelerinden ayrı durur.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Önce kafanı boşalt",
+      "text": "Aklından geçen her şeyi her düşünceye bir satır olacak şekilde yaz, şimdi üzerinde çalışmak istediğini seç. O bir düşünce akışına dönüşür; geri kalanlar sen dokunana kadar ana ekranda bekler.\nÜç günden uzun süredir dokunmadığın düşünceler Canlandırılacak düşünceler bölümünde toplanır.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Üç adımda başla",
+    "items": [
+      {
+        "title": "Düşüncelerini dök",
+        "text": "Her düşünceye bir satır, sonra büyütmeye değeni seç."
+      },
+      {
+        "title": "Düşünmeye devam et",
+        "text": "Her yeni fikri ayrı ekle, sonra olgunlaştırmak kolaylaşır."
+      },
+      {
+        "title": "Cümleyi bırak ve kapat",
+        "text": "Bir dahaki sefere tam oradan başlarsın."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Olgunlaştırma düzeyi",
+    "rows": [
+      [
+        "Not",
+        "Ham düşünce"
+      ],
+      [
+        "Düzenlendi",
+        "Bir kez düzenlendi"
+      ],
+      [
+        "Özet nokta",
+        "Sadece öz"
+      ],
+      [
+        "Özet",
+        "Son özet"
+      ]
+    ],
+    "note": "Değiştirmek için düşüncenin yanındaki düzey etiketine dokun. Geri döndüğünde özet noktalar ve özetler kartta ilk sırada görünür."
+  },
+  "faq": {
+    "title": "Köprü cümlen en üstte bekliyor",
+    "items": [
+      {
+        "q": "Köprü cümlesi yazmak zorunda mıyım?",
+        "a": "Bir şey eklediysen evet: Düşünmeye Devam Et ekranı ancak sıradaki satırı bıraktığında kapanır. Hiçbir şey yazmadıysan doğrudan kapatabilirsin. İşin sırrı, takıldığında değil, hâlâ söyleyecek bir şeyin varken durmak."
+      },
+      {
+        "q": "Canlandırılacak düşünceler nedir?",
+        "a": "Üç günden uzun süredir açmadığın akışlar ana ekranda ayrı bir bölümde toplanır; böylece neredeyse unuttuğun bir düşünce köprü cümlesinden devam edebilir."
+      },
+      {
+        "q": "Hata bildirmek ya da öneride bulunmak istiyorum.",
+        "a": "Uygulama ayarlarındaki Geri Bildirim Gönder seçeneğini kullan, aşağıdaki adrese yaz ya da github.com/M1zz/ThinkFlow/issues adresinde bir issue aç. Her mesaj memnuniyetle karşılanır."
+      },
+      {
+        "q": "Gerçekten her şey ücretsiz mi?",
+        "a": "Evet. Tüm özellikler ücretsiz; reklam yok, hesap yok. Ayarlardaki “Geliştiriciyi Destekleyin” tamamen isteğe bağlıdır ve hiçbir şeyin kilidini açmaz."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Kaldığın yerden\ndevam et",
+    "cta": "App Store’dan ücretsiz indir"
+  },
+  "ui": {
+    "skip": "İçeriğe geç",
+    "languages": "Dil",
+    "privacy": "Gizlilik Politikası",
+    "contact": "Sorun ya da öneriler için {email} adresine yaz."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow : reprenez vos idées là où vous les aviez laissées",
+  "description": "Finissez par une phrase-relais, et la prochaine fois vous repartez de là. Toutes les fonctions sont gratuites et tout reste sur votre appareil.",
+  "hero": {
+    "headline": "L’idée d’hier restée en suspens,\nreprise aujourd’hui au même endroit",
+    "lead": "Quand vous arrêtez de réfléchir, laissez une ligne pour la suite. À la prochaine ouverture, elle vous attend tout en haut.",
+    "cta": "Télécharger gratuitement sur l’App Store",
+    "note": "Toutes les fonctions sont gratuites. Sans compte, tout reste sur votre appareil."
+  },
+  "demo": {
+    "title": "Laissez une phrase-relais",
+    "lead": "Écrivez une idée, puis laissez la phrase par laquelle vous reprendrez. Les étapes sont les mêmes que dans l’app.",
+    "resume": "Reprendre ici",
+    "bridgeName": "Phrase-relais",
+    "leftOff": "Vous vous êtes arrêté ici",
+    "flow": "Le fil jusqu’ici",
+    "latest": "Dernière idée",
+    "note": "Note",
+    "core": "Essentiel",
+    "continue": "Continuer à penser",
+    "thinking": "Votre réflexion en cours",
+    "next": "Suivant",
+    "bridging": "Laisser une phrase-relais",
+    "lock": "Laissez une phrase-relais pour fermer",
+    "bridgeTitle": "Arrêtez-vous en plein élan",
+    "bridgeLabel": "Laisser une phrase-relais",
+    "done": "OK",
+    "thread": "Scroll ou réflexion",
+    "bridge": "Et si je planifiais un « ennui volontaire », la réflexion profonde reviendrait-elle ?",
+    "coreText": "L’écart dans l’attente de la récompense freine la réflexion profonde",
+    "last": "Quand je me promène sans mon téléphone, les idées s’enchaînent toutes seules. Et si c’était l’ennui qui faisait venir la réflexion ?",
+    "ex1": "Et si j’arrêtais de fuir l’ennui pour l’inscrire dans mon agenda ? Vingt minutes par jour à ne rien faire.",
+    "ex2": "Si je garde 20 minutes d’ennui chaque jour à la même heure, quelles idées vont surgir ?",
+    "useExample": "Mettre un exemple",
+    "later": "Voici ce qui vous attend la prochaine fois : la phrase que vous venez de laisser est tout en haut.",
+    "again": "Recommencer"
+  },
+  "problem": {
+    "title": "Où est-ce que j’en étais, déjà ?",
+    "text": "Vous rouvrez une note de la semaine dernière et n’y trouvez que quelques conclusions, pas la question que vous comptiez creuser ensuite. Alors vous repartez de zéro. ThinkFlow vous fait noter cette question au moment d’arrêter, pour que vous repartiez d’elle dès votre retour."
+  },
+  "features": [
+    {
+      "title": "Votre phrase-relais vous attend en haut",
+      "text": "Terminez une séance par une seule ligne : la question à reprendre. À votre retour, cette phrase, l’essentiel jusqu’ici et votre dernière idée tiennent sur une seule carte. Rien à reconstituer.\nElle apparaît aussi dans un widget de l’écran d’accueil, et pendant que vous réfléchissez, le temps défile sur l’écran verrouillé et dans la Dynamic Island.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "De la note à l’essentiel",
+      "text": "Faites monter chaque idée sur quatre niveaux : note, trié, essentiel et résumé. Vous voyez d’un coup d’œil à quel point elle a mûri.\nCe que vous avez cherché ou demandé se joint comme référence, à part de vos propres idées.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "D’abord, videz-vous la tête",
+      "text": "Notez tout ce qui vous trotte dans la tête, une ligne par idée, puis choisissez celle à travailler maintenant : elle devient un fil. Le reste attend sur l’écran d’accueil jusqu’à ce que vous le touchiez.\nLes idées que vous n’avez pas touchées depuis plus de trois jours se retrouvent dans Idées à ranimer.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Trois étapes pour commencer",
+    "items": [
+      {
+        "title": "Videz votre tête",
+        "text": "Une ligne par idée, puis choisissez celle qui mérite d’être creusée."
+      },
+      {
+        "title": "Poursuivez",
+        "text": "Ajoutez chaque nouvelle idée à part pour l’affiner plus facilement ensuite."
+      },
+      {
+        "title": "Laissez la phrase et fermez",
+        "text": "La prochaine fois, vous repartez de là."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Niveau d’affinage",
+    "rows": [
+      [
+        "Note",
+        "Idée brute"
+      ],
+      [
+        "Trié",
+        "Trié une fois"
+      ],
+      [
+        "Essentiel",
+        "L’essentiel seulement"
+      ],
+      [
+        "Résumé",
+        "Résumé final"
+      ]
+    ],
+    "note": "Touchez le badge de niveau à côté d’une idée pour le changer. L’essentiel et les résumés s’affichent en premier sur la carte à votre retour."
+  },
+  "faq": {
+    "title": "Votre phrase-relais vous attend en haut",
+    "items": [
+      {
+        "q": "Dois-je forcément écrire une phrase-relais ?",
+        "a": "Si vous avez ajouté quelque chose, oui : l’écran Continuer à penser ne se ferme qu’une fois la ligne suivante laissée. Si vous n’avez rien écrit, fermez-le simplement. L’astuce : s’arrêter quand on a encore des choses à dire, pas quand on bloque."
+      },
+      {
+        "q": "Que sont les Idées à ranimer ?",
+        "a": "Les fils que vous n’avez pas ouverts depuis plus de trois jours sont regroupés à part sur l’écran d’accueil. Une idée presque oubliée peut ainsi repartir de sa phrase-relais."
+      },
+      {
+        "q": "Comment signaler un bug ou proposer une idée ?",
+        "a": "Utilisez Envoyer un commentaire dans les réglages de l’app, écrivez à l’adresse ci-dessous ou ouvrez un ticket sur github.com/M1zz/ThinkFlow/issues. Tout retour est bienvenu."
+      },
+      {
+        "q": "Tout est vraiment gratuit ?",
+        "a": "Oui. Toutes les fonctions sont gratuites, sans publicité ni compte. « Soutenir le développeur » dans les réglages est entièrement facultatif et ne débloque rien."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Reprenez là\noù vous vous étiez arrêté",
+    "cta": "Télécharger gratuitement sur l’App Store"
+  },
+  "ui": {
+    "skip": "Aller au contenu",
+    "languages": "Langue",
+    "privacy": "Politique de confidentialité",
+    "contact": "Une question, une suggestion ? Écrivez à {email}."
+  }
+}

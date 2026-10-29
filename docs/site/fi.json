@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: jatka ajatusta täsmälleen siitä, mihin jäit",
+  "description": "Päätä jokainen ajattelukerta siltalauseeseen, niin seuraavalla kerralla jatkat siitä. Kaikki toiminnot ovat ilmaisia, ja kaikki pysyy laitteellasi.",
+  "hero": {
+    "headline": "Eilen kesken jäänyt ajatus\njatkuu tänään samasta kohdasta",
+    "lead": "Kun lopetat ajattelun, jätä yksi rivi, josta jatkaa. Kun avaat sovelluksen seuraavan kerran, se odottaa ylimpänä.",
+    "cta": "Lataa ilmaiseksi App Storesta",
+    "note": "Kaikki toiminnot ovat ilmaisia. Ei tiliä, kaikki pysyy laitteellasi."
+  },
+  "demo": {
+    "title": "Kokeile siltalausetta",
+    "lead": "Kirjoita ajatus ja jätä lause, josta jatkat ensi kerralla. Vaiheet ovat samat kuin sovelluksessa.",
+    "resume": "Jatka tästä",
+    "bridgeName": "Siltalause",
+    "leftOff": "Jäit tähän",
+    "flow": "Tähänastinen kulku",
+    "latest": "Viimeisin ajatus",
+    "note": "Muistiinpano",
+    "core": "Ydin",
+    "continue": "Ajattele eteenpäin",
+    "thinking": "Meneillään oleva ajatus",
+    "next": "Seuraava",
+    "bridging": "Jätä siltalause",
+    "lock": "Jätä siltalause, niin voit sulkea",
+    "bridgeTitle": "Lopeta, kun vauhti vielä kantaa",
+    "bridgeLabel": "Jätä siltalause",
+    "done": "Valmis",
+    "thread": "Selaus vai syvätyö",
+    "bridge": "Jos siis suunnittelen ’tarkoituksellista tylsyyttä’, palaako syvä ajattelu?",
+    "coreText": "Ero palkkion odotusajassa haittaa syvää ajattelua",
+    "last": "Kun lähden kävelylle ilman puhelinta, ajatukset jatkuvat itsestään. Ehkä juuri tylsyys houkuttelee ajattelemaan.",
+    "ex1": "Entä jos lakkaisin välttelemästä tylsyyttä ja merkitsisin sen kalenteriin? Kaksikymmentä minuuttia päivässä tekemättä mitään.",
+    "ex2": "Jos pidän joka päivä samaan aikaan 20 tylsää minuuttia, mitä ajatuksia silloin syntyy?",
+    "useExample": "Käytä esimerkkiä",
+    "later": "Näin sovellus ottaa sinut vastaan ensi kerralla: juuri jättämäsi lause on ylimpänä.",
+    "again": "Aloita alusta"
+  },
+  "problem": {
+    "title": "Mihin minä oikein jäin?",
+    "text": "Avaat viime viikon muistiinpanon ja löydät pari johtopäätöstä, mutta et kysymystä, jota aioit pohtia seuraavaksi. Niinpä aloitat alusta. ThinkFlow pyytää kirjaamaan sen seuraavan kysymyksen, kun lopetat, joten palatessasi aloitat suoraan siitä."
+  },
+  "features": [
+    {
+      "title": "Siltalause odottaa ylimpänä",
+      "text": "Päätä ajattelukerta yhteen riviin: kysymykseen, josta jatkat. Palatessasi se lause, tähänastinen ydin ja viimeisin ajatus ovat samalla kortilla. Mitään ei tarvitse koota uudelleen.\nNäet lauseen myös kotinäytön widgetissä, ja ajattelun aikana aika kulkee lukitusnäytöllä ja Dynamic Islandissa.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "Muistiinpanosta ytimeen",
+      "text": "Nosta jokaista ajatusta neljän tason läpi: muistiinpano, järjestetty, ydin ja tiivistelmä. Näet yhdellä silmäyksellä, kuinka kypsä se on.\nHakemasi tai kysymäsi liitetään aineistona, erilleen omista ajatuksistasi.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Tyhjennä pää ensin",
+      "text": "Kirjoita ylös kaikki mielessä pyörivä, yksi rivi ajatusta kohden, ja valitse se, jota haluat työstää nyt. Siitä tulee ajatusketju, muut odottavat etusivulla, kunnes napautat niitä.\nAjatukset, joihin et ole koskenut yli kolmeen päivään, kerätään kohtaan Herätettävät ajatukset.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Aloita kolmella askeleella",
+    "items": [
+      {
+        "title": "Tyhjennä pää",
+        "text": "Yksi rivi ajatusta kohden, sitten valitse se, jota kasvattaa."
+      },
+      {
+        "title": "Ajattele eteenpäin",
+        "text": "Lisää jokainen uusi ajatus erikseen, niin sitä on helpompi hioa myöhemmin."
+      },
+      {
+        "title": "Jätä lause ja sulje",
+        "text": "Seuraavalla kerralla aloitat siitä."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Hiontataso",
+    "rows": [
+      [
+        "Muistiinpano",
+        "Raaka ajatus"
+      ],
+      [
+        "Järjestetty",
+        "Järjestetty kerran"
+      ],
+      [
+        "Ydin",
+        "Vain ydin"
+      ],
+      [
+        "Tiivistelmä",
+        "Lopullinen tiivistelmä"
+      ]
+    ],
+    "note": "Vaihda taso napauttamalla ajatuksen vieressä olevaa merkkiä. Ydin ja tiivistelmät näkyvät kortilla ensimmäisinä, kun palaat."
+  },
+  "faq": {
+    "title": "Siltalause odottaa ylimpänä",
+    "items": [
+      {
+        "q": "Pitääkö siltalause kirjoittaa?",
+        "a": "Jos lisäsit jotain, kyllä: Ajattele eteenpäin -näkymä sulkeutuu vasta, kun jätät seuraavan rivin. Jos et kirjoittanut mitään, voit vain sulkea sen. Juju on lopettaa, kun sanottavaa vielä on, eikä vasta jumiin jäädessä."
+      },
+      {
+        "q": "Mitä ovat Herätettävät ajatukset?",
+        "a": "Ketjut, joita et ole avannut yli kolmeen päivään, kerätään etusivulla omaan osioonsa, joten lähes unohtunutkin ajatus voi jatkua siltalauseestaan."
+      },
+      {
+        "q": "Miten ilmoitan virheestä tai ehdotan jotain?",
+        "a": "Käytä sovelluksen asetusten Lähetä palautetta -kohtaa, kirjoita alla olevaan osoitteeseen tai avaa issue osoitteessa github.com/M1zz/ThinkFlow/issues. Kaikki viestit ovat tervetulleita."
+      },
+      {
+        "q": "Onko kaikki todella ilmaista?",
+        "a": "Kyllä. Kaikki toiminnot ovat ilmaisia, ilman mainoksia ja ilman tiliä. Asetusten ”Tue kehittäjää” on täysin vapaaehtoinen eikä avaa mitään lisää."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Jatka siitä,\nmihin jäit",
+    "cta": "Lataa ilmaiseksi App Storesta"
+  },
+  "ui": {
+    "skip": "Siirry sisältöön",
+    "languages": "Kieli",
+    "privacy": "Tietosuojakäytäntö",
+    "contact": "Kysyttävää tai palautetta? Kirjoita osoitteeseen {email}."
+  }
+}

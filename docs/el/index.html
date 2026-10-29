@@ -1,167 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="el">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ThinkFlow — Υποστήριξη</title>
-<style>
-  :root {
-    --accent: #f97316;
-    --text: #1c1c1e;
-    --secondary: #6e6e73;
-    --bg: #ffffff;
-    --card: #f5f5f7;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --text: #f5f5f7;
-      --secondary: #98989d;
-      --bg: #1c1c1e;
-      --card: #2c2c2e;
-    }
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", "Pretendard", sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
-  }
-  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-  header { text-align: center; margin-bottom: 48px; }
-  .app-icon { font-size: 64px; line-height: 1; }
-  h1 { font-size: 28px; margin-top: 12px; }
-  .tagline { color: var(--secondary); font-size: 16px; margin-top: 6px; }
-  h2 {
-    font-size: 20px;
-    margin: 40px 0 12px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid var(--accent);
-    display: inline-block;
-  }
-  p { margin-bottom: 12px; }
-  .card {
-    background: var(--card);
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 12px;
-  }
-  .card h3 { font-size: 16px; margin-bottom: 6px; }
-  .card p { color: var(--secondary); font-size: 15px; margin: 0; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  ul { padding-left: 20px; margin-bottom: 12px; }
-  li { margin-bottom: 6px; }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid var(--card);
-    color: var(--secondary);
-    font-size: 14px;
-    text-align: center;
-  }
-</style>
-<link rel="canonical" href="https://m1zz.github.io/ThinkFlow/el/">
-<!--HREFLANG-->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/en/">
-<style>.langnav{display:flex;flex-wrap:wrap;gap:6px 12px;justify-content:center;font-size:13px;margin:-24px 0 32px;color:var(--secondary)}.langnav a{color:var(--secondary)}.langnav a[aria-current]{color:var(--accent);font-weight:600}</style>
-<!--/HREFLANG-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThinkFlow: συνεχίστε τη σκέψη σας ακριβώς από εκεί που σταματήσατε</title>
+  <meta name="description" content="Κλείστε κάθε σκέψη με μια πρόταση-γέφυρα και την επόμενη φορά συνεχίζετε από εκεί. Όλες οι λειτουργίες είναι δωρεάν και όλα μένουν στη συσκευή σας.">
+  <meta name="theme-color" content="#C2410C" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6779270691">
+  <link rel="canonical" href="https://m1zz.github.io/ThinkFlow/el/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ThinkFlow: συνεχίστε τη σκέψη σας ακριβώς από εκεί που σταματήσατε">
+  <meta property="og:description" content="Κλείστε κάθε σκέψη με μια πρόταση-γέφυρα και την επόμενη φορά συνεχίζετε από εκεί. Όλες οι λειτουργίες είναι δωρεάν και όλα μένουν στη συσκευή σας.">
+  <meta property="og:url" content="https://m1zz.github.io/ThinkFlow/el/">
+  <meta property="og:image" content="https://m1zz.github.io/ThinkFlow/img/el/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C2410C}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="container">
-<!--LANGNAV-->
-<nav class="langnav" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el" aria-current="page">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
-<!--/LANGNAV-->
-  <header>
-    <div class="app-icon">🧠</div>
-    <h1>ThinkFlow</h1>
-    <p class="tagline">Μια σκέψη δεν ολοκληρώνεται με τη μία. Ένα εργαλείο για να τη σταματάτε, να τη συνεχίζετε και να την εκλεπτύνετε.</p>
+  <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
+  <header class="bar">
+    <a class="brand" href="../el/"><img src="../icon.png" alt="" width="32" height="32">ThinkFlow</a>
+    <a class="lang-link" href="#languages">Γλώσσα</a>
   </header>
 
-  <h2>Τι είναι το ThinkFlow</h2>
-  <p>
-    Όταν το γράψιμο κυλούσε καλά, ο Χέμινγουεϊ σταματούσε επίτηδες στη μέση μιας πρότασης και έκλεινε τη μέρα του.
-    Την επομένη, εκείνη η μισοτελειωμένη πρόταση τον βοηθούσε να ξαναπιάσει το γράψιμο με φυσικότητα.
-    Το ThinkFlow εφαρμόζει αυτή τη μέθοδο στη σκέψη. Καταγράφετε χαλαρά ό,τι σας έρχεται στο μυαλό
-    και, όταν σταματάτε, <strong>αφήνετε την πρόταση από την οποία θα συνεχίσετε</strong>. Την επόμενη φορά που θα ανοίξετε την εφαρμογή, συνεχίζετε κατευθείαν από εκεί.
-  </p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Η χθεσινή μισοτελειωμένη σκέψη<br>συνεχίζει σήμερα από το ίδιο σημείο</h1>
+        <p class="lead">Όταν σταματάτε να σκέφτεστε, αφήστε μία γραμμή για να συνεχίσετε. Την επόμενη φορά που θα ανοίξετε την εφαρμογή, θα σας περιμένει στην κορυφή.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6779270691">Κατεβάστε το δωρεάν από το App Store</a><a class="try" href="#try">Δοκιμάστε μια πρόταση-γέφυρα ↓</a></div>
+        <p class="muted small">Όλες οι λειτουργίες είναι δωρεάν. Χωρίς λογαριασμό, όλα μένουν στη συσκευή σας.</p>
+      </div>
+      <div class="phone"><img src="../img/el/01-home.jpg" alt="Η χθεσινή μισοτελειωμένη σκέψη συνεχίζει σήμερα από το ίδιο σημείο" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <h2>Κύριες λειτουργίες</h2>
-  <div class="card">
-    <h3>💭 Αδειάστε το μυαλό (brain dump)</h3>
-    <p>Βγάλτε μονομιάς όλες τις σκέψεις που τριγυρίζουν στο μυαλό σας, μία ανά γραμμή, και κάντε νήματα μόνο όσες θέλετε να αναπτύξετε.</p>
-  </div>
-  <div class="card">
-    <h3>🌉 Η πρόταση-γέφυρα του Χέμινγουεϊ</h3>
-    <p>Όταν ολοκληρώνετε μια συνεδρία σκέψης, γράφετε τη μισοτελειωμένη πρόταση από την οποία θα συνεχίσετε. Όταν επιστρέφετε, το πλαίσιο όπου είχατε σταματήσει επανέρχεται αμέσως.</p>
-  </div>
-  <div class="card">
-    <h3>📚 Προοδευτική σύνοψη (Progressive Summarization)</h3>
-    <p>Εκλεπτύνετε τη σκέψη σας ανεβάζοντας τις σημειώσεις που μαζεύονται σε τέσσερα επίπεδα: σημείωση → τακτοποιημένο → κύριο σημείο → περίληψη.</p>
-  </div>
-  <div class="card">
-    <h3>📎 Επισύναψη έρευνας και υλικού</h3>
-    <p>Απαντήσεις που πήρατε από το Claude ή υλικό που βρήκατε σε αναζήτηση επισυνάπτονται στην ίδια ροή, χωριστά από τις δικές σας σκέψεις.</p>
-  </div>
-  <div class="card">
-    <h3>📱 Γραφικά στοιχεία και Ζωντανές δραστηριότητες</h3>
-    <p>Το γραφικό στοιχείο στην Αρχική οθόνη δείχνει πάντα την πρόταση-γέφυρά σας και, κατά τη διάρκεια μιας συνεδρίας σκέψης, το χρονόμετρο εμφανίζεται στην οθόνη κλειδώματος και στο Dynamic Island.</p>
-  </div>
 
-  <h2>Συχνές ερωτήσεις</h2>
-  <div class="card">
-    <h3>Πού αποθηκεύονται οι σκέψεις μου;</h3>
-    <p>Όλες οι σκέψεις σας μένουν μόνο στη συσκευή σας. Δεν αποστέλλονται σε κανέναν διακομιστή και δεν μπορεί να τις δει ούτε ο προγραμματιστής. Το μόνο που φεύγει από τη συσκευή είναι ό,τι στέλνετε εσείς οι ίδιοι μέσω της «Αποστολής σχολίων» στις Ρυθμίσεις. Περισσότερες λεπτομέρειες θα βρείτε στην <a href="privacy.html">Πολιτική απορρήτου</a>.</p>
-  </div>
-  <div class="card">
-    <h3>Μπορώ να κρατήσω αντίγραφο ασφαλείας ή να μεταφέρω τα δεδομένα μου αλλού;</h3>
-    <p>Από το μενού Εξαγωγή, επάνω δεξιά στην κεντρική οθόνη της εφαρμογής, μπορείτε να εξαγάγετε όλες τις σκέψεις σας σε αρχείο Markdown ή JSON. Μοιραστείτε το στα Αρχεία, στις Σημειώσεις, στο Mail ή όπου αλλού θέλετε για να το φυλάξετε.</p>
-  </div>
-  <div class="card">
-    <h3>Τι γίνεται με τα δεδομένα αν διαγράψω την εφαρμογή;</h3>
-    <p>Αν διαγράψετε την εφαρμογή, διαγράφονται μαζί και όλες οι σκέψεις που είναι αποθηκευμένες στη συσκευή. Πριν τη διαγράψετε, κρατήστε αντίγραφο με την Εξαγωγή.</p>
-  </div>
-  <div class="card">
-    <h3>Το γραφικό στοιχείο δεν ενημερώνεται</h3>
-    <p>Το γραφικό στοιχείο ανανεώνεται τουλάχιστον κάθε 30 λεπτά και, όταν προσθέτετε μια σκέψη στην εφαρμογή, ζητείται αμέσως ανανέωση. Αν το περιεχόμενο φαίνεται παλιό, ανοίξτε μία φορά την εφαρμογή.</p>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Δοκιμάστε μια πρόταση-γέφυρα</h2>
+      <p class="muted">Γράψτε μια σκέψη και αφήστε την πρόταση από την οποία θα συνεχίσετε. Τα βήματα είναι τα ίδια με την εφαρμογή.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Δοκιμάστε μια πρόταση-γέφυρα&quot;, &quot;lead&quot;: &quot;Γράψτε μια σκέψη και αφήστε την πρόταση από την οποία θα συνεχίσετε. Τα βήματα είναι τα ίδια με την εφαρμογή.&quot;, &quot;resume&quot;: &quot;Συνέχεια από εδώ&quot;, &quot;bridgeName&quot;: &quot;Πρόταση-γέφυρα&quot;, &quot;leftOff&quot;: &quot;Σταματήσατε εδώ&quot;, &quot;flow&quot;: &quot;Η ροή μέχρι τώρα&quot;, &quot;latest&quot;: &quot;Τελευταία σκέψη&quot;, &quot;note&quot;: &quot;Σημείωση&quot;, &quot;core&quot;: &quot;Κύριο σημείο&quot;, &quot;continue&quot;: &quot;Συνεχίστε να σκέφτεστε&quot;, &quot;thinking&quot;: &quot;Η σκέψη που συνεχίζεται&quot;, &quot;next&quot;: &quot;Επόμενο&quot;, &quot;bridging&quot;: &quot;Αφήστε πρόταση-γέφυρα&quot;, &quot;lock&quot;: &quot;Αφήστε πρόταση-γέφυρα για να κλείσετε&quot;, &quot;bridgeTitle&quot;: &quot;Σταματήστε όσο έχετε φόρα&quot;, &quot;bridgeLabel&quot;: &quot;Αφήστε μια πρόταση-γέφυρα&quot;, &quot;done&quot;: &quot;Τέλος&quot;, &quot;thread&quot;: &quot;Scroll ή εστίαση&quot;, &quot;bridge&quot;: &quot;Αν λοιπόν σχεδιάσω μια «σκόπιμη βαρεμάρα», θα επιστρέψει η βαθιά σκέψη;&quot;, &quot;coreText&quot;: &quot;Η διαφορά στην αναμονή της ανταμοιβής εμποδίζει τη βαθιά σκέψη&quot;, &quot;last&quot;: &quot;Όταν βγαίνω για περπάτημα χωρίς κινητό, οι σκέψεις δένουν μόνες τους. Μήπως η βαρεμάρα είναι αυτή που φέρνει τη σκέψη;&quot;, &quot;ex1&quot;: &quot;Κι αν σταματήσω να αποφεύγω τη βαρεμάρα και τη βάλω στο πρόγραμμα; Είκοσι λεπτά τη μέρα χωρίς να κάνω τίποτα.&quot;, &quot;ex2&quot;: &quot;Αν κρατάω 20 βαρετά λεπτά την ίδια ώρα κάθε μέρα, ποιες σκέψεις θα εμφανιστούν;&quot;, &quot;useExample&quot;: &quot;Βάλτε ένα παράδειγμα&quot;, &quot;later&quot;: &quot;Έτσι θα σας υποδεχτεί την επόμενη φορά: η πρόταση που μόλις αφήσατε είναι στην κορυφή.&quot;, &quot;again&quot;: &quot;Από την αρχή&quot;}"></div>
+    </section>
 
-  <h2>Επικοινωνία</h2>
-  <p>
-    Αναφορές σφαλμάτων, προτάσεις για νέες λειτουργίες ή οτιδήποτε άλλο — κάθε μήνυμα είναι ευπρόσδεκτο.<br>
-    📧 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br>
-    🐙 <a href="https://github.com/M1zz/ThinkFlow/issues">GitHub Issues</a>
-  </p>
+    <section class="problem reveal">
+      <h2>Πού είχα μείνει;</h2>
+      <p>Ανοίγετε μια σημείωση της περασμένης εβδομάδας και βρίσκετε μερικά συμπεράσματα, όχι όμως την ερώτηση που σκοπεύατε να ψάξετε μετά. Κι έτσι ξεκινάτε από το μηδέν. Το ThinkFlow σάς βάζει να σημειώσετε αυτή την επόμενη ερώτηση όταν σταματάτε, ώστε να ξεκινάτε από εκεί μόλις επιστρέψετε.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Η πρόταση-γέφυρα περιμένει στην κορυφή</h2>
+        <p>Κλείστε τη σκέψη με μία γραμμή: την ερώτηση από την οποία θα συνεχίσετε. Όταν επιστρέψετε, αυτή η πρόταση, τα κύρια σημεία μέχρι τώρα και η τελευταία σκέψη βρίσκονται σε μία κάρτα. Δεν χρειάζεται να ξαναθυμηθείτε τίποτα.<br>Τη βλέπετε και σε γραφικό στοιχείο της Αρχικής οθόνης, και όσο σκέφτεστε ο χρόνος τρέχει στην οθόνη κλειδώματος και στο Dynamic Island.</p>
+      </div>
+      <div class="phone"><img src="../img/el/02-continue.jpg" alt="Η πρόταση-γέφυρα περιμένει στην κορυφή" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Από τη σημείωση στο κύριο σημείο</h2>
+        <p>Ανεβάστε κάθε σκέψη σε τέσσερα επίπεδα: σημείωση, τακτοποιημένο, κύριο σημείο και περίληψη. Βλέπετε με μια ματιά πόσο έχει ωριμάσει.<br>Ό,τι αναζητήσατε ή ρωτήσατε επισυνάπτεται ως υλικό, χωριστά από τις δικές σας σκέψεις.</p>
+      </div>
+      <div class="phone"><img src="../img/el/04-thread.jpg" alt="Από τη σημείωση στο κύριο σημείο" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Πρώτα αδειάστε το μυαλό</h2>
+        <p>Γράψτε ό,τι σας γυρίζει στο μυαλό, μία γραμμή για κάθε σκέψη, και διαλέξτε αυτή που θέλετε να δουλέψετε τώρα. Γίνεται νήμα σκέψης, ενώ τα υπόλοιπα περιμένουν στην αρχική οθόνη μέχρι να τα πατήσετε.<br>Οι σκέψεις που δεν έχετε αγγίξει πάνω από τρεις ημέρες μαζεύονται στις Σκέψεις για αναβίωση.</p>
+      </div>
+      <div class="phone"><img src="../img/el/05-dump.jpg" alt="Πρώτα αδειάστε το μυαλό" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Ξεκινήστε σε τρία βήματα</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Αδειάστε το μυαλό</h3><p>Μία γραμμή για κάθε σκέψη, μετά διαλέξτε αυτή που αξίζει να μεγαλώσει.</p></li>
+<li class="card"><span class="n">2</span><h3>Συνεχίστε τη σκέψη</h3><p>Προσθέστε κάθε νέα ιδέα χωριστά, για να τη δουλέψετε εύκολα μετά.</p></li>
+<li class="card"><span class="n">3</span><h3>Αφήστε την πρόταση και κλείστε</h3><p>Την επόμενη φορά ξεκινάτε από εκεί.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Επίπεδο επεξεργασίας</h2>
+      <div class="card table">
+        <dl><div><dt>Σημείωση</dt><dd>Ωμή σκέψη</dd></div><div><dt>Τακτοποιημένο</dt><dd>Τακτοποιήθηκε μία φορά</dd></div><div><dt>Κύριο σημείο</dt><dd>Μόνο τα βασικά</dd></div><div><dt>Περίληψη</dt><dd>Τελική περίληψη</dd></div></dl>
+      </div>
+      <p class="muted">Πατήστε την ετικέτα επιπέδου δίπλα σε μια σκέψη για να το αλλάξετε. Τα κύρια σημεία και οι περιλήψεις εμφανίζονται πρώτα στην κάρτα όταν επιστρέφετε.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Η πρόταση-γέφυρα περιμένει στην κορυφή</h2>
+      <div class="faq"><details><summary>Πρέπει οπωσδήποτε να γράψω πρόταση-γέφυρα;</summary><p>Αν προσθέσατε κάτι, ναι: η οθόνη Συνεχίστε να σκέφτεστε κλείνει μόνο όταν αφήσετε την επόμενη γραμμή. Αν δεν γράψατε τίποτα, απλώς κλείστε την. Το μυστικό είναι να σταματάτε όσο έχετε ακόμη κάτι να πείτε, όχι όταν κολλήσετε.</p></details>
+<details><summary>Τι είναι οι Σκέψεις για αναβίωση;</summary><p>Τα νήματα που δεν έχετε ανοίξει πάνω από τρεις ημέρες συγκεντρώνονται χωριστά στην αρχική οθόνη, ώστε μια σχεδόν ξεχασμένη σκέψη να συνεχίσει από την πρόταση-γέφυρά της.</p></details>
+<details><summary>Πώς αναφέρω ένα σφάλμα ή προτείνω κάτι;</summary><p>Χρησιμοποιήστε την Αποστολή σχολίων στις ρυθμίσεις της εφαρμογής, γράψτε στη διεύθυνση παρακάτω ή ανοίξτε ένα issue στο github.com/M1zz/ThinkFlow/issues. Κάθε μήνυμα είναι ευπρόσδεκτο.</p></details>
+<details><summary>Είναι πραγματικά όλα δωρεάν;</summary><p>Ναι. Όλες οι λειτουργίες είναι δωρεάν, χωρίς διαφημίσεις και χωρίς λογαριασμό. Το «Στήριξε τον δημιουργό» στις ρυθμίσεις είναι εντελώς προαιρετικό και δεν ξεκλειδώνει τίποτα.</p></details></div>
+      <p class="contact">Ερωτήσεις ή σχόλια; Γράψτε στο <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Συνεχίστε από εκεί<br>που σταματήσατε</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6779270691">Κατεβάστε το δωρεάν από το App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p><a href="privacy.html">Πολιτική απορρήτου</a></p>
-    <p>© 2026 Leeo. All rights reserved.</p>
+    <nav id="languages" class="langs" aria-label="Γλώσσα"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el" aria-current="page">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Πολιτική απορρήτου</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: navažte na myšlenku přesně tam, kde jste skončili",
+  "description": "Na konci přemýšlení nechte navazující větu a příště pokračujete přímo od ní. Všechny funkce jsou zdarma a záznamy zůstávají jen ve vašem zařízení.",
+  "hero": {
+    "headline": "Včerejší nedokončená myšlenka\npokračuje dnes tam, kde přestala",
+    "lead": "Když přestanete přemýšlet, nechte jeden řádek, na který navážete. Až aplikaci znovu otevřete, bude čekat nahoře.",
+    "cta": "Stáhnout zdarma v App Storu",
+    "note": "Všechny funkce jsou zdarma. Bez účtu, vše zůstává ve vašem zařízení."
+  },
+  "demo": {
+    "title": "Vyzkoušejte navazující větu",
+    "lead": "Napište myšlenku a nechte větu, na kterou příště navážete. Postup je stejný jako v aplikaci.",
+    "resume": "Navázat zde",
+    "bridgeName": "Navazující věta",
+    "leftOff": "Tady jste skončili",
+    "flow": "Dosavadní průběh",
+    "latest": "Poslední myšlenka",
+    "note": "Poznámka",
+    "core": "Podstata",
+    "continue": "Myslet dál",
+    "thinking": "Právě rozmyšlené",
+    "next": "Další",
+    "bridging": "Nechat navazující větu",
+    "lock": "Pro zavření nechte navazující větu",
+    "bridgeTitle": "Skončete, dokud to jde",
+    "bridgeLabel": "Nechte navazující větu",
+    "done": "Hotovo",
+    "thread": "Videa vs. pozornost",
+    "bridge": "Když si tedy naplánuji ‚záměrnou nudu‘, vrátí se hluboké přemýšlení?",
+    "coreText": "Rozdíl v čekání na odměnu brzdí hluboké přemýšlení",
+    "last": "Když jdu na procházku bez mobilu, myšlenky se samy navazují. Možná je to právě nuda, co přivolává přemýšlení.",
+    "ex1": "Co kdybych se nudě přestal vyhýbat a dal si ji do kalendáře? Dvacet minut denně nic nedělat.",
+    "ex2": "Když si každý den ve stejnou dobu nechám 20 nudných minut, jaké myšlenky přijdou?",
+    "useExample": "Vložit příklad",
+    "later": "Takhle vás aplikace příště přivítá: věta, kterou jste právě nechali, je nahoře.",
+    "again": "Začít znovu"
+  },
+  "problem": {
+    "title": "Kde jsem to vlastně skončil?",
+    "text": "Otevřete poznámku z minulého týdne a najdete v ní pár závěrů, ale ne otázku, kterou jste chtěli řešit dál. A tak začínáte od nuly. ThinkFlow vás při zastavení nechá tu další otázku zapsat, takže po návratu začnete rovnou od ní."
+  },
+  "features": [
+    {
+      "title": "Navazující věta čeká nahoře",
+      "text": "Ukončete přemýšlení jediným řádkem: otázkou, na kterou navážete. Po návratu najdete tu větu, dosavadní podstatu i poslední myšlenku na jedné kartě. Nic nemusíte skládat dohromady.\nVětu uvidíte i ve widgetu na ploše a během přemýšlení běží čas na zamčené obrazovce a v Dynamic Islandu.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "Od poznámky k podstatě",
+      "text": "Posouvejte každou myšlenku čtyřmi úrovněmi: poznámka, utříděno, podstata a shrnutí. Na první pohled vidíte, jak daleko dozrála.\nCo jste vyhledali nebo se zeptali, připojíte jako podklad, odděleně od vlastních myšlenek.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Nejdřív si vyprázdněte hlavu",
+      "text": "Napište všechno, co vám běží hlavou, jeden řádek na myšlenku, a vyberte tu, na které chcete pracovat teď. Stane se z ní vlákno, zbytek počká na úvodní obrazovce, dokud na něj neklepnete.\nMyšlenky, kterých jste se déle než tři dny nedotkli, se sejdou v části Myšlenky k oživení.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Začněte ve třech krocích",
+    "items": [
+      {
+        "title": "Vysypte myšlenky",
+        "text": "Jeden řádek na myšlenku, pak vyberte tu, kterou chcete rozvíjet."
+      },
+      {
+        "title": "Přemýšlejte dál",
+        "text": "Každý nový nápad přidejte zvlášť, později se snáz zpracuje."
+      },
+      {
+        "title": "Nechte větu a zavřete",
+        "text": "Příště začnete právě od ní."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Úroveň zpracování",
+    "rows": [
+      [
+        "Poznámka",
+        "Syrová myšlenka"
+      ],
+      [
+        "Utříděno",
+        "Jednou utříděno"
+      ],
+      [
+        "Podstata",
+        "Jen podstata"
+      ],
+      [
+        "Shrnutí",
+        "Závěrečné shrnutí"
+      ]
+    ],
+    "note": "Úroveň změníte klepnutím na štítek vedle myšlenky. Podstata a shrnutí se po návratu ukážou na kartě jako první."
+  },
+  "faq": {
+    "title": "Navazující věta čeká nahoře",
+    "items": [
+      {
+        "q": "Musím navazující větu napsat?",
+        "a": "Pokud jste něco přidali, ano: obrazovka Myslet dál se zavře, až necháte další řádek. Pokud jste nic nenapsali, prostě ji zavřete. Trik je přestat, dokud ještě máte co říct, ne až když se zaseknete."
+      },
+      {
+        "q": "Co jsou Myšlenky k oživení?",
+        "a": "Vlákna, která jste neotevřeli déle než tři dny, se shromáždí zvlášť na úvodní obrazovce. I skoro zapomenutá myšlenka tak může pokračovat od své navazující věty."
+      },
+      {
+        "q": "Jak nahlásit chybu nebo něco navrhnout?",
+        "a": "Použijte Odeslat zpětnou vazbu v nastavení aplikace, napište na adresu níže nebo založte issue na github.com/M1zz/ThinkFlow/issues. Uvítáme cokoli."
+      },
+      {
+        "q": "Je opravdu všechno zdarma?",
+        "a": "Ano. Všechny funkce jsou zdarma, bez reklam a bez účtu. „Podpořit vývojáře“ v nastavení je zcela dobrovolné a nic dalšího neodemyká."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Navažte tam,\nkde jste skončili",
+    "cta": "Stáhnout zdarma v App Storu"
+  },
+  "ui": {
+    "skip": "Přejít na obsah",
+    "languages": "Jazyk",
+    "privacy": "Zásady ochrany osobních údajů",
+    "contact": "Dotazy nebo náměty? Napište na {email}."
+  }
+}

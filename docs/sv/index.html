@@ -1,167 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="sv">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ThinkFlow — Support</title>
-<style>
-  :root {
-    --accent: #f97316;
-    --text: #1c1c1e;
-    --secondary: #6e6e73;
-    --bg: #ffffff;
-    --card: #f5f5f7;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --text: #f5f5f7;
-      --secondary: #98989d;
-      --bg: #1c1c1e;
-      --card: #2c2c2e;
-    }
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
-  }
-  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-  header { text-align: center; margin-bottom: 48px; }
-  .app-icon { font-size: 64px; line-height: 1; }
-  h1 { font-size: 28px; margin-top: 12px; }
-  .tagline { color: var(--secondary); font-size: 16px; margin-top: 6px; }
-  h2 {
-    font-size: 20px;
-    margin: 40px 0 12px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid var(--accent);
-    display: inline-block;
-  }
-  p { margin-bottom: 12px; }
-  .card {
-    background: var(--card);
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 12px;
-  }
-  .card h3 { font-size: 16px; margin-bottom: 6px; }
-  .card p { color: var(--secondary); font-size: 15px; margin: 0; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  ul { padding-left: 20px; margin-bottom: 12px; }
-  li { margin-bottom: 6px; }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid var(--card);
-    color: var(--secondary);
-    font-size: 14px;
-    text-align: center;
-  }
-</style>
-<link rel="canonical" href="https://m1zz.github.io/ThinkFlow/sv/">
-<!--HREFLANG-->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/en/">
-<style>.langnav{display:flex;flex-wrap:wrap;gap:6px 12px;justify-content:center;font-size:13px;margin:-24px 0 32px;color:var(--secondary)}.langnav a{color:var(--secondary)}.langnav a[aria-current]{color:var(--accent);font-weight:600}</style>
-<!--/HREFLANG-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThinkFlow: fortsätt tanken precis där du slutade</title>
+  <meta name="description" content="Avsluta varje tankestund med en brofras, så fortsätter du därifrån nästa gång. Alla funktioner är gratis och allt stannar på din enhet.">
+  <meta name="theme-color" content="#C2410C" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6779270691">
+  <link rel="canonical" href="https://m1zz.github.io/ThinkFlow/sv/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ThinkFlow: fortsätt tanken precis där du slutade">
+  <meta property="og:description" content="Avsluta varje tankestund med en brofras, så fortsätter du därifrån nästa gång. Alla funktioner är gratis och allt stannar på din enhet.">
+  <meta property="og:url" content="https://m1zz.github.io/ThinkFlow/sv/">
+  <meta property="og:image" content="https://m1zz.github.io/ThinkFlow/img/sv/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C2410C}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="container">
-<!--LANGNAV-->
-<nav class="langnav" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv" aria-current="page">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
-<!--/LANGNAV-->
-  <header>
-    <div class="app-icon">🧠</div>
-    <h1>ThinkFlow</h1>
-    <p class="tagline">En tanke behöver inte bli klar på en gång — pausa, fortsätt och förfina</p>
+  <a class="skip" href="#main">Hoppa till innehållet</a>
+  <header class="bar">
+    <a class="brand" href="../sv/"><img src="../icon.png" alt="" width="32" height="32">ThinkFlow</a>
+    <a class="lang-link" href="#languages">Språk</a>
   </header>
 
-  <h2>Det här är ThinkFlow</h2>
-  <p>
-    När skrivandet flöt på slutade Hemingway medvetet mitt i en mening och avslutade dagen.
-    Den ofullbordade meningen gjorde det lätt att komma igång igen nästa dag.
-    ThinkFlow tillämpar den metoden på tänkande. Skriv ner tankarna som dyker upp, utan krav,
-    och när du slutar <strong>lämnar du en mening att fortsätta från</strong>. Nästa gång du öppnar appen fortsätter du direkt från den meningen.
-  </p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Gårdagens halvfärdiga tanke<br>fortsätter i dag där den slutade</h1>
+        <p class="lead">När du slutar tänka lämnar du en rad att fortsätta från. Nästa gång du öppnar appen väntar den högst upp.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6779270691">Hämta gratis på App Store</a><a class="try" href="#try">Testa att lämna en brofras ↓</a></div>
+        <p class="muted small">Alla funktioner är gratis. Inget konto, allt stannar på din enhet.</p>
+      </div>
+      <div class="phone"><img src="../img/sv/01-home.jpg" alt="Gårdagens halvfärdiga tanke fortsätter i dag där den slutade" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <h2>Huvudfunktioner</h2>
-  <div class="card">
-    <h3>💭 Töm huvudet (brain dump)</h3>
-    <p>Skriv ner alla tankar som snurrar i huvudet på en gång, rad för rad, och gör bara de tankar du vill utveckla till trådar.</p>
-  </div>
-  <div class="card">
-    <h3>🌉 Hemingways brofras</h3>
-    <p>När du avslutar ett tänkepass skriver du en ofullbordad mening som du fortsätter från nästa gång. När du kommer tillbaka är du genast inne i sammanhanget där du slutade.</p>
-  </div>
-  <div class="card">
-    <h3>📚 Stegvis sammanfattning (Progressive Summarization)</h3>
-    <p>Förfina dina tankar genom att lyfta samlade anteckningar genom fyra lager: anteckning → ordnat → kärnan → sammanfattning.</p>
-  </div>
-  <div class="card">
-    <h3>📎 Bifoga research och material</h3>
-    <p>Svar du har fått från Claude eller material du har sökt fram kan bifogas i samma flöde, åtskilt från dina egna tankar.</p>
-  </div>
-  <div class="card">
-    <h3>📱 Widgetar &amp; Live Activity</h3>
-    <p>Widgeten på hemskärmen visar alltid din brofras, och under ett tänkepass visas en timer på låsskärmen och i Dynamic Island.</p>
-  </div>
 
-  <h2>Vanliga frågor</h2>
-  <div class="card">
-    <h3>Var sparas mina tankar?</h3>
-    <p>Alla dina tankar sparas bara på din enhet. De skickas inte till någon server och inte ens utvecklaren kan se dem. Det enda som lämnar enheten är det du själv skickar med &rdquo;Skicka feedback&rdquo; i Inställningar. Läs mer i vår <a href="privacy.html">integritetspolicy</a>.</p>
-  </div>
-  <div class="card">
-    <h3>Kan jag säkerhetskopiera eller flytta min data?</h3>
-    <p>I menyn Exportera längst upp till höger på appens startsida kan du exportera alla tankar som en Markdown- eller JSON-fil. Dela filen till Filer, Anteckningar, Mail eller liknande för att spara den.</p>
-  </div>
-  <div class="card">
-    <h3>Vad händer med min data om jag raderar appen?</h3>
-    <p>När du raderar appen raderas också alla tankar som sparats på enheten. Säkerhetskopiera med Exportera innan du raderar.</p>
-  </div>
-  <div class="card">
-    <h3>Widgeten uppdateras inte</h3>
-    <p>Widgeten uppdateras minst var 30:e minut, och när du lägger till en tanke i appen begär den en uppdatering direkt. Om det som visas är gammalt kan du öppna appen en gång.</p>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Testa att lämna en brofras</h2>
+      <p class="muted">Skriv en tanke och lämna meningen du vill fortsätta från nästa gång. Det sker i samma ordning som i appen.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Testa att lämna en brofras&quot;, &quot;lead&quot;: &quot;Skriv en tanke och lämna meningen du vill fortsätta från nästa gång. Det sker i samma ordning som i appen.&quot;, &quot;resume&quot;: &quot;Fortsätt härifrån&quot;, &quot;bridgeName&quot;: &quot;Brofras&quot;, &quot;leftOff&quot;: &quot;Här slutade du&quot;, &quot;flow&quot;: &quot;Förloppet hittills&quot;, &quot;latest&quot;: &quot;Senaste tanke&quot;, &quot;note&quot;: &quot;Anteckning&quot;, &quot;core&quot;: &quot;Kärnan&quot;, &quot;continue&quot;: &quot;Tänk vidare&quot;, &quot;thinking&quot;: &quot;Tanken just nu&quot;, &quot;next&quot;: &quot;Nästa&quot;, &quot;bridging&quot;: &quot;Lämna en brofras&quot;, &quot;lock&quot;: &quot;Lämna en brofras för att kunna stänga&quot;, &quot;bridgeTitle&quot;: &quot;Sluta medan det flyter på&quot;, &quot;bridgeLabel&quot;: &quot;Lämna en brofras&quot;, &quot;done&quot;: &quot;Klar&quot;, &quot;thread&quot;: &quot;Scroll vs. fokus&quot;, &quot;bridge&quot;: &quot;Om jag då planerar in ‘medveten tristess’, kommer det djupa tänkandet tillbaka?&quot;, &quot;coreText&quot;: &quot;Skillnaden i väntan på belöning står i vägen för djupt tänkande&quot;, &quot;last&quot;: &quot;När jag tar en promenad utan mobilen hänger tankarna ihop av sig själva. Kanske är det tristessen som lockar fram tankarna.&quot;, &quot;ex1&quot;: &quot;Tänk om jag slutar undvika tristess och lägger in den i kalendern? Tjugo minuter om dagen utan att göra något.&quot;, &quot;ex2&quot;: &quot;Om jag har 20 tråkiga minuter vid samma tid varje dag, vilka tankar dyker upp då?&quot;, &quot;useExample&quot;: &quot;Använd ett exempel&quot;, &quot;later&quot;: &quot;Så möter appen dig nästa gång: meningen du nyss lämnade står högst upp.&quot;, &quot;again&quot;: &quot;Börja om&quot;}"></div>
+    </section>
 
-  <h2>Kontakt</h2>
-  <p>
-    Felrapporter, förslag på funktioner och allt annat du vill berätta är varmt välkommet.<br>
-    📧 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br>
-    🐙 <a href="https://github.com/M1zz/ThinkFlow/issues">GitHub Issues</a>
-  </p>
+    <section class="problem reveal">
+      <h2>Var var jag nu igen?</h2>
+      <p>Du öppnar en anteckning från förra veckan och hittar ett par slutsatser, men inte frågan du tänkte ta dig an härnäst. Så du börjar om från början. ThinkFlow får dig att skriva ner nästa fråga när du slutar, så att du börjar direkt där när du kommer tillbaka.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Din brofras väntar högst upp</h2>
+        <p>Avsluta en tankestund med en rad: frågan du fortsätter med. När du kommer tillbaka står den meningen, kärnan hittills och din senaste tanke på ett kort. Inget behöver pusslas ihop.<br>Du ser den också i en widget på hemskärmen, och medan du tänker går tiden på låsskärmen och i Dynamic Island.</p>
+      </div>
+      <div class="phone"><img src="../img/sv/02-continue.jpg" alt="Din brofras väntar högst upp" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Från anteckning till kärna</h2>
+        <p>Lyft varje tanke genom fyra nivåer: anteckning, ordnat, kärnan och sammanfattning. Du ser med en blick hur mogen den är.<br>Det du har sökt eller frågat om bifogas som material, skilt från dina egna tankar.</p>
+      </div>
+      <div class="phone"><img src="../img/sv/04-thread.jpg" alt="Från anteckning till kärna" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Töm huvudet först</h2>
+        <p>Skriv ner allt som snurrar i huvudet, en rad per tanke, och välj den du vill jobba med nu. Den blir en tråd, resten väntar på startskärmen tills du trycker på det.<br>Tankar du inte rört på över tre dagar samlas under Tankar att väcka till liv.</p>
+      </div>
+      <div class="phone"><img src="../img/sv/05-dump.jpg" alt="Töm huvudet först" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Kom igång i tre steg</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Töm huvudet</h3><p>En rad per tanke, välj sedan den som ska växa.</p></li>
+<li class="card"><span class="n">2</span><h3>Tänk vidare</h3><p>Lägg till varje ny idé för sig, så blir den lättare att förfina sedan.</p></li>
+<li class="card"><span class="n">3</span><h3>Lämna meningen och stäng</h3><p>Nästa gång börjar du precis där.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Förfiningsnivå</h2>
+      <div class="card table">
+        <dl><div><dt>Anteckning</dt><dd>Rå tanke</dd></div><div><dt>Ordnat</dt><dd>Ordnat en gång</dd></div><div><dt>Kärnan</dt><dd>Bara kärnan</dd></div><div><dt>Sammanfattning</dt><dd>Slutlig sammanfattning</dd></div></dl>
+      </div>
+      <p class="muted">Tryck på nivåmärket vid en tanke för att ändra det. Kärnan och sammanfattningar visas först på kortet när du kommer tillbaka.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Din brofras väntar högst upp</h2>
+      <div class="faq"><details><summary>Måste jag skriva en brofras?</summary><p>Om du har lagt till något, ja: skärmen Tänk vidare stängs först när du lämnar nästa rad. Har du inte skrivit något kan du bara stänga den. Knepet är att sluta medan du fortfarande har något att säga, inte när du har kört fast.</p></details>
+<details><summary>Vad är Tankar att väcka till liv?</summary><p>Trådar du inte öppnat på över tre dagar samlas för sig på startskärmen, så att en nästan bortglömd tanke kan fortsätta från sin brofras.</p></details>
+<details><summary>Hur rapporterar jag en bugg eller föreslår något?</summary><p>Använd Skicka feedback i appens inställningar, skriv till adressen nedan eller öppna ett issue på github.com/M1zz/ThinkFlow/issues. Allt är välkommet.</p></details>
+<details><summary>Är verkligen allt gratis?</summary><p>Ja. Alla funktioner är gratis, utan reklam och utan konto. ”Stöd utvecklaren” i inställningarna är helt frivilligt och låser inte upp något.</p></details></div>
+      <p class="contact">Frågor eller synpunkter? Skriv till <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Fortsätt<br>där du slutade</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6779270691">Hämta gratis på App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p><a href="privacy.html">Integritetspolicy</a></p>
-    <p>© 2026 Leeo. All rights reserved.</p>
+    <nav id="languages" class="langs" aria-label="Språk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv" aria-current="page">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Integritetspolicy</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

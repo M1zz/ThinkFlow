@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: pick up your thinking right where you left off",
+  "description": "End each session with one unfinished line, and it’s waiting at the top next time. Every feature is free, and your notes stay on your device.",
+  "hero": {
+    "headline": "Yesterday’s half-finished thought,\npicked up right where it stopped",
+    "lead": "When you stop thinking, leave one line to continue from. Next time you open the app, that line is waiting at the top.",
+    "cta": "Get it free on the App Store",
+    "note": "Every feature is free. No account, everything stays on your device."
+  },
+  "demo": {
+    "title": "Try leaving a bridge",
+    "lead": "Add a thought, then leave the line you’ll pick up next time. It works in the same order as the app.",
+    "resume": "Continue from here",
+    "bridgeName": "Bridge",
+    "leftOff": "You left off here",
+    "flow": "Flow so far",
+    "latest": "Latest thought",
+    "note": "Note",
+    "core": "Key point",
+    "continue": "Continue Thinking",
+    "thinking": "Thinking now",
+    "next": "Next",
+    "bridging": "Leave a Bridge",
+    "lock": "Leave a bridge sentence before closing",
+    "bridgeTitle": "Stop while you’re on a roll",
+    "bridgeLabel": "Leave a bridge sentence",
+    "done": "Done",
+    "thread": "Scrolling vs focus",
+    "bridge": "So if I design some ‘deliberate boredom’, will deep thinking come back?",
+    "coreText": "The gap in reward delay is what gets in the way of deep thinking",
+    "last": "When I go for a walk without my phone, my thoughts just keep going. Maybe boredom is what invites thinking.",
+    "ex1": "What if I stop avoiding boredom and put it in my calendar? Twenty minutes a day of doing nothing.",
+    "ex2": "If I keep a boring 20 minutes at the same time every day, what thoughts will show up?",
+    "useExample": "Use an example",
+    "later": "This is what greets you next time: the line you just left is right at the top.",
+    "again": "Start over"
+  },
+  "problem": {
+    "title": "Wait, where was I going with this?",
+    "text": "You reopen a note from last week and find a couple of conclusions, but not the question you were about to chase. So you start over from scratch. ThinkFlow has you leave that next question when you stop, so you start from it the moment you come back."
+  },
+  "features": [
+    {
+      "title": "Your bridge is waiting at the top",
+      "text": "End a session with one line: the question to pick up next. When you return, that line, your key points so far and your latest thought sit on one card, so there’s nothing to reconstruct.\nYour bridge shows on a Home Screen widget too, and while you think, the time runs on the Lock Screen and in the Dynamic Island.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "From rough note to key point",
+      "text": "Move each thought up through four levels: note, refined, key point and summary. You can see at a glance how far a thought has matured.\nWhat you looked up or asked about goes in as a reference, kept apart from your own thinking.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Empty your head first",
+      "text": "Write down everything on your mind, one line each, then pick the one to work on now. It becomes a thread; the rest waits on the home screen until you tap it.\nThoughts you haven’t touched in over three days are gathered under Thoughts to revive.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Three steps to start",
+    "items": [
+      {
+        "title": "Dump your thoughts",
+        "text": "One line each, then pick the one worth growing."
+      },
+      {
+        "title": "Keep thinking",
+        "text": "Add each new idea as its own note so it’s easy to refine later."
+      },
+      {
+        "title": "Leave a bridge and close",
+        "text": "Next time, you start from that line."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Refinement level",
+    "rows": [
+      [
+        "Note",
+        "Raw thought"
+      ],
+      [
+        "Refined",
+        "Refined once"
+      ],
+      [
+        "Key point",
+        "Key points only"
+      ],
+      [
+        "Summary",
+        "Final summary"
+      ]
+    ],
+    "note": "Tap the level badge next to a thought to change it. Key points and summaries come first on the card when you return."
+  },
+  "faq": {
+    "title": "Your bridge is waiting at the top",
+    "items": [
+      {
+        "q": "Do I have to write a bridge?",
+        "a": "If you added anything, yes: the Continue Thinking screen only closes once you leave the next line. If you didn’t write anything, just close it. The trick is to stop while you still have something to say, not when you’re stuck."
+      },
+      {
+        "q": "What are Thoughts to revive?",
+        "a": "Threads you haven’t opened in over three days are collected in their own section on the home screen, so a forgotten idea can pick up again from its bridge."
+      },
+      {
+        "q": "How do I report a bug or suggest a feature?",
+        "a": "Use Send Feedback in the app’s settings, write to the address below, or open an issue at github.com/M1zz/ThinkFlow/issues. Anything is welcome."
+      },
+      {
+        "q": "Is it really all free?",
+        "a": "Yes. Every feature is free, with no ads and no account. Support the Developer in Settings is entirely optional and doesn’t unlock anything."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Pick up\nwhere you stopped",
+    "cta": "Get it free on the App Store"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "languages": "Language",
+    "privacy": "Privacy Policy",
+    "contact": "Questions or feedback? Write to {email}."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: fortsätt tanken precis där du slutade",
+  "description": "Avsluta varje tankestund med en brofras, så fortsätter du därifrån nästa gång. Alla funktioner är gratis och allt stannar på din enhet.",
+  "hero": {
+    "headline": "Gårdagens halvfärdiga tanke\nfortsätter i dag där den slutade",
+    "lead": "När du slutar tänka lämnar du en rad att fortsätta från. Nästa gång du öppnar appen väntar den högst upp.",
+    "cta": "Hämta gratis på App Store",
+    "note": "Alla funktioner är gratis. Inget konto, allt stannar på din enhet."
+  },
+  "demo": {
+    "title": "Testa att lämna en brofras",
+    "lead": "Skriv en tanke och lämna meningen du vill fortsätta från nästa gång. Det sker i samma ordning som i appen.",
+    "resume": "Fortsätt härifrån",
+    "bridgeName": "Brofras",
+    "leftOff": "Här slutade du",
+    "flow": "Förloppet hittills",
+    "latest": "Senaste tanke",
+    "note": "Anteckning",
+    "core": "Kärnan",
+    "continue": "Tänk vidare",
+    "thinking": "Tanken just nu",
+    "next": "Nästa",
+    "bridging": "Lämna en brofras",
+    "lock": "Lämna en brofras för att kunna stänga",
+    "bridgeTitle": "Sluta medan det flyter på",
+    "bridgeLabel": "Lämna en brofras",
+    "done": "Klar",
+    "thread": "Scroll vs. fokus",
+    "bridge": "Om jag då planerar in ‘medveten tristess’, kommer det djupa tänkandet tillbaka?",
+    "coreText": "Skillnaden i väntan på belöning står i vägen för djupt tänkande",
+    "last": "När jag tar en promenad utan mobilen hänger tankarna ihop av sig själva. Kanske är det tristessen som lockar fram tankarna.",
+    "ex1": "Tänk om jag slutar undvika tristess och lägger in den i kalendern? Tjugo minuter om dagen utan att göra något.",
+    "ex2": "Om jag har 20 tråkiga minuter vid samma tid varje dag, vilka tankar dyker upp då?",
+    "useExample": "Använd ett exempel",
+    "later": "Så möter appen dig nästa gång: meningen du nyss lämnade står högst upp.",
+    "again": "Börja om"
+  },
+  "problem": {
+    "title": "Var var jag nu igen?",
+    "text": "Du öppnar en anteckning från förra veckan och hittar ett par slutsatser, men inte frågan du tänkte ta dig an härnäst. Så du börjar om från början. ThinkFlow får dig att skriva ner nästa fråga när du slutar, så att du börjar direkt där när du kommer tillbaka."
+  },
+  "features": [
+    {
+      "title": "Din brofras väntar högst upp",
+      "text": "Avsluta en tankestund med en rad: frågan du fortsätter med. När du kommer tillbaka står den meningen, kärnan hittills och din senaste tanke på ett kort. Inget behöver pusslas ihop.\nDu ser den också i en widget på hemskärmen, och medan du tänker går tiden på låsskärmen och i Dynamic Island.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "Från anteckning till kärna",
+      "text": "Lyft varje tanke genom fyra nivåer: anteckning, ordnat, kärnan och sammanfattning. Du ser med en blick hur mogen den är.\nDet du har sökt eller frågat om bifogas som material, skilt från dina egna tankar.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Töm huvudet först",
+      "text": "Skriv ner allt som snurrar i huvudet, en rad per tanke, och välj den du vill jobba med nu. Den blir en tråd, resten väntar på startskärmen tills du trycker på det.\nTankar du inte rört på över tre dagar samlas under Tankar att väcka till liv.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Kom igång i tre steg",
+    "items": [
+      {
+        "title": "Töm huvudet",
+        "text": "En rad per tanke, välj sedan den som ska växa."
+      },
+      {
+        "title": "Tänk vidare",
+        "text": "Lägg till varje ny idé för sig, så blir den lättare att förfina sedan."
+      },
+      {
+        "title": "Lämna meningen och stäng",
+        "text": "Nästa gång börjar du precis där."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Förfiningsnivå",
+    "rows": [
+      [
+        "Anteckning",
+        "Rå tanke"
+      ],
+      [
+        "Ordnat",
+        "Ordnat en gång"
+      ],
+      [
+        "Kärnan",
+        "Bara kärnan"
+      ],
+      [
+        "Sammanfattning",
+        "Slutlig sammanfattning"
+      ]
+    ],
+    "note": "Tryck på nivåmärket vid en tanke för att ändra det. Kärnan och sammanfattningar visas först på kortet när du kommer tillbaka."
+  },
+  "faq": {
+    "title": "Din brofras väntar högst upp",
+    "items": [
+      {
+        "q": "Måste jag skriva en brofras?",
+        "a": "Om du har lagt till något, ja: skärmen Tänk vidare stängs först när du lämnar nästa rad. Har du inte skrivit något kan du bara stänga den. Knepet är att sluta medan du fortfarande har något att säga, inte när du har kört fast."
+      },
+      {
+        "q": "Vad är Tankar att väcka till liv?",
+        "a": "Trådar du inte öppnat på över tre dagar samlas för sig på startskärmen, så att en nästan bortglömd tanke kan fortsätta från sin brofras."
+      },
+      {
+        "q": "Hur rapporterar jag en bugg eller föreslår något?",
+        "a": "Använd Skicka feedback i appens inställningar, skriv till adressen nedan eller öppna ett issue på github.com/M1zz/ThinkFlow/issues. Allt är välkommet."
+      },
+      {
+        "q": "Är verkligen allt gratis?",
+        "a": "Ja. Alla funktioner är gratis, utan reklam och utan konto. ”Stöd utvecklaren” i inställningarna är helt frivilligt och låser inte upp något."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Fortsätt\ndär du slutade",
+    "cta": "Hämta gratis på App Store"
+  },
+  "ui": {
+    "skip": "Hoppa till innehållet",
+    "languages": "Språk",
+    "privacy": "Integritetspolicy",
+    "contact": "Frågor eller synpunkter? Skriv till {email}."
+  }
+}

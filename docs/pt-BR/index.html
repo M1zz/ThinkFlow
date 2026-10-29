@@ -1,167 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ThinkFlow — Suporte</title>
-<style>
-  :root {
-    --accent: #f97316;
-    --text: #1c1c1e;
-    --secondary: #6e6e73;
-    --bg: #ffffff;
-    --card: #f5f5f7;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --text: #f5f5f7;
-      --secondary: #98989d;
-      --bg: #1c1c1e;
-      --card: #2c2c2e;
-    }
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", "Pretendard", sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
-  }
-  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-  header { text-align: center; margin-bottom: 48px; }
-  .app-icon { font-size: 64px; line-height: 1; }
-  h1 { font-size: 28px; margin-top: 12px; }
-  .tagline { color: var(--secondary); font-size: 16px; margin-top: 6px; }
-  h2 {
-    font-size: 20px;
-    margin: 40px 0 12px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid var(--accent);
-    display: inline-block;
-  }
-  p { margin-bottom: 12px; }
-  .card {
-    background: var(--card);
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 12px;
-  }
-  .card h3 { font-size: 16px; margin-bottom: 6px; }
-  .card p { color: var(--secondary); font-size: 15px; margin: 0; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  ul { padding-left: 20px; margin-bottom: 12px; }
-  li { margin-bottom: 6px; }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid var(--card);
-    color: var(--secondary);
-    font-size: 14px;
-    text-align: center;
-  }
-</style>
-<link rel="canonical" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
-<!--HREFLANG-->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/en/">
-<style>.langnav{display:flex;flex-wrap:wrap;gap:6px 12px;justify-content:center;font-size:13px;margin:-24px 0 32px;color:var(--secondary)}.langnav a{color:var(--secondary)}.langnav a[aria-current]{color:var(--accent);font-weight:600}</style>
-<!--/HREFLANG-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThinkFlow: retome suas ideias exatamente de onde parou</title>
+  <meta name="description" content="Termine cada sessão com uma frase-ponte e, na próxima vez, continue dali. Todos os recursos são gratuitos e tudo fica no seu dispositivo.">
+  <meta name="theme-color" content="#C2410C" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6779270691">
+  <link rel="canonical" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ThinkFlow: retome suas ideias exatamente de onde parou">
+  <meta property="og:description" content="Termine cada sessão com uma frase-ponte e, na próxima vez, continue dali. Todos os recursos são gratuitos e tudo fica no seu dispositivo.">
+  <meta property="og:url" content="https://m1zz.github.io/ThinkFlow/pt-BR/">
+  <meta property="og:image" content="https://m1zz.github.io/ThinkFlow/img/pt-BR/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C2410C}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="container">
-<!--LANGNAV-->
-<nav class="langnav" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR" aria-current="page">Português (Brasil)</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
-<!--/LANGNAV-->
-  <header>
-    <div class="app-icon">🧠</div>
-    <h1>ThinkFlow</h1>
-    <p class="tagline">Ninguém completa uma ideia de uma vez só. Uma ferramenta para pausar, retomar e refinar o pensamento.</p>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <header class="bar">
+    <a class="brand" href="../pt-BR/"><img src="../icon.png" alt="" width="32" height="32">ThinkFlow</a>
+    <a class="lang-link" href="#languages">Idioma</a>
   </header>
 
-  <h2>O que é o ThinkFlow</h2>
-  <p>
-    Quando a escrita fluía bem, Hemingway interrompia uma frase de propósito e encerrava o dia.
-    No dia seguinte, aquela frase inacabada fazia a escrita recomeçar com naturalidade.
-    O ThinkFlow aplica esse método ao pensamento. Você anota as ideias assim que elas surgem e,
-    ao parar, <strong>deixa em aberto a frase de onde vai continuar</strong>. Na próxima vez que abrir o app, é só seguir a partir dela.
-  </p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>A ideia que ficou pela metade ontem,<br>hoje continua de onde parou</h1>
+        <p class="lead">Quando parar de pensar, deixe uma linha para continuar. Na próxima vez que abrir o app, ela estará esperando lá no topo.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6779270691">Baixe grátis na App Store</a><a class="try" href="#try">Deixe sua frase-ponte ↓</a></div>
+        <p class="muted small">Todos os recursos são gratuitos. Sem conta: tudo fica no seu dispositivo.</p>
+      </div>
+      <div class="phone"><img src="../img/pt-BR/01-home.jpg" alt="A ideia que ficou pela metade ontem, hoje continua de onde parou" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <h2>Principais recursos</h2>
-  <div class="card">
-    <h3>💭 Despejar ideias (brain dump)</h3>
-    <p>Despeje de uma vez tudo o que passa pela sua cabeça, uma linha por ideia, e transforme em fio só aquelas que quiser desenvolver.</p>
-  </div>
-  <div class="card">
-    <h3>🌉 A frase-ponte de Hemingway</h3>
-    <p>Ao encerrar uma sessão de pensamento, escreva a frase inacabada que você vai continuar depois. Quando voltar, o contexto em que você parou é restaurado na hora.</p>
-  </div>
-  <div class="card">
-    <h3>📚 Resumo progressivo (Progressive Summarization)</h3>
-    <p>Refine o seu pensamento levando as anotações acumuladas por quatro camadas: nota → organizado → essencial → resumo.</p>
-  </div>
-  <div class="card">
-    <h3>📎 Anexar pesquisas e referências</h3>
-    <p>As respostas que você recebeu do Claude ou o material que encontrou numa pesquisa ficam anexados ao mesmo fluxo, separados das suas próprias ideias.</p>
-  </div>
-  <div class="card">
-    <h3>📱 Widgets e Atividades ao Vivo</h3>
-    <p>O widget da Tela de Início mostra sempre a sua frase-ponte e, durante uma sessão de pensamento, o cronômetro aparece na Tela Bloqueada e na Dynamic Island.</p>
-  </div>
 
-  <h2>Perguntas frequentes</h2>
-  <div class="card">
-    <h3>Onde as minhas ideias ficam salvas?</h3>
-    <p>Todas as suas ideias ficam armazenadas apenas no seu dispositivo. Nada é enviado a servidores, e nem o desenvolvedor consegue vê-las. A única coisa que sai do dispositivo é o que você mesmo envia por &ldquo;Enviar feedback&rdquo;, nos Ajustes. Saiba mais na <a href="privacy.html">Política de Privacidade</a>.</p>
-  </div>
-  <div class="card">
-    <h3>Posso fazer backup ou levar meus dados para outro lugar?</h3>
-    <p>No menu Exportar, no canto superior direito da tela inicial do app, você exporta todas as suas ideias em arquivo Markdown ou JSON. Compartilhe com o app Arquivos, Notas, Mail ou onde preferir para guardar.</p>
-  </div>
-  <div class="card">
-    <h3>O que acontece com os dados se eu apagar o app?</h3>
-    <p>Ao apagar o app, todas as ideias salvas no dispositivo são apagadas junto. Antes disso, faça um backup com Exportar.</p>
-  </div>
-  <div class="card">
-    <h3>O widget não atualiza</h3>
-    <p>O widget é atualizado a cada 30 minutos, no máximo, e quando você adiciona uma ideia no app a atualização é solicitada na hora. Se o conteúdo parecer desatualizado, abra o app uma vez.</p>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Deixe sua frase-ponte</h2>
+      <p class="muted">Escreva uma ideia e deixe a frase de onde vai continuar da próxima vez. Funciona na mesma ordem do app.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Deixe sua frase-ponte&quot;, &quot;lead&quot;: &quot;Escreva uma ideia e deixe a frase de onde vai continuar da próxima vez. Funciona na mesma ordem do app.&quot;, &quot;resume&quot;: &quot;Continuar daqui&quot;, &quot;bridgeName&quot;: &quot;Frase-ponte&quot;, &quot;leftOff&quot;: &quot;Você parou aqui&quot;, &quot;flow&quot;: &quot;O fio até agora&quot;, &quot;latest&quot;: &quot;Última ideia&quot;, &quot;note&quot;: &quot;Nota&quot;, &quot;core&quot;: &quot;Essencial&quot;, &quot;continue&quot;: &quot;Continuar pensando&quot;, &quot;thinking&quot;: &quot;O pensamento em andamento&quot;, &quot;next&quot;: &quot;Avançar&quot;, &quot;bridging&quot;: &quot;Deixar uma frase-ponte&quot;, &quot;lock&quot;: &quot;Deixe uma frase-ponte para fechar&quot;, &quot;bridgeTitle&quot;: &quot;Pare enquanto está no embalo&quot;, &quot;bridgeLabel&quot;: &quot;Deixe uma frase-ponte&quot;, &quot;done&quot;: &quot;Concluir&quot;, &quot;thread&quot;: &quot;Rolar o feed x foco&quot;, &quot;bridge&quot;: &quot;Então, se eu planejar um ‘tédio intencional’, o pensamento profundo volta?&quot;, &quot;coreText&quot;: &quot;A diferença na espera pela recompensa atrapalha o pensamento profundo&quot;, &quot;last&quot;: &quot;Quando saio para caminhar sem o celular, as ideias fluem sozinhas. Será que é o tédio que chama o pensamento?&quot;, &quot;ex1&quot;: &quot;E se eu parar de fugir do tédio e colocá-lo na agenda? Vinte minutos por dia sem fazer nada.&quot;, &quot;ex2&quot;: &quot;Se eu reservar 20 minutos de tédio no mesmo horário todo dia, que ideias vão surgir?&quot;, &quot;useExample&quot;: &quot;Usar um exemplo&quot;, &quot;later&quot;: &quot;É isso que você vai ver na próxima vez: a frase que acabou de deixar está no topo.&quot;, &quot;again&quot;: &quot;Começar de novo&quot;}"></div>
+    </section>
 
-  <h2>Fale conosco</h2>
-  <p>
-    Relatos de bugs, sugestões de recursos ou qualquer outro assunto: toda mensagem é bem-vinda.<br>
-    📧 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br>
-    🐙 <a href="https://github.com/M1zz/ThinkFlow/issues">GitHub Issues</a>
-  </p>
+    <section class="problem reveal">
+      <h2>Onde é que eu tinha parado mesmo?</h2>
+      <p>Você reabre uma anotação de dias atrás e encontra só algumas conclusões, não a pergunta que pretendia explorar em seguida. Aí começa tudo do zero. O ThinkFlow faz você deixar essa próxima pergunta ao parar, para começar por ela assim que voltar.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Sua frase-ponte espera no topo</h2>
+        <p>Termine a sessão com uma única linha: a pergunta para continuar. Quando voltar, essa frase, o essencial até agora e a última ideia ficam em um só cartão. Nada para reconstruir.<br>Ela aparece também num widget da Tela de Início e, enquanto você pensa, o tempo corre na Tela de Bloqueio e na Dynamic Island.</p>
+      </div>
+      <div class="phone"><img src="../img/pt-BR/02-continue.jpg" alt="Sua frase-ponte espera no topo" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Da nota ao essencial</h2>
+        <p>Leve cada ideia por quatro níveis: nota, organizado, essencial e resumo. Veja num relance o quanto ela amadureceu.<br>O que você pesquisou ou perguntou entra como referência, separado das suas próprias ideias.</p>
+      </div>
+      <div class="phone"><img src="../img/pt-BR/04-thread.jpg" alt="Da nota ao essencial" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Primeiro, esvazie a cabeça</h2>
+        <p>Escreva tudo que está na sua cabeça, uma linha por ideia, e escolha a que quer trabalhar agora: ela vira um fio. O resto espera na tela inicial até você tocar.<br>Ideias que você não toca há mais de três dias vão para Ideias para retomar.</p>
+      </div>
+      <div class="phone"><img src="../img/pt-BR/05-dump.jpg" alt="Primeiro, esvazie a cabeça" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Comece em três passos</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Despeje suas ideias</h3><p>Uma por linha; depois escolha a que vale desenvolver.</p></li>
+<li class="card"><span class="n">2</span><h3>Continue pensando</h3><p>Adicione cada ideia nova separada para refinar com facilidade depois.</p></li>
+<li class="card"><span class="n">3</span><h3>Deixe a frase e feche</h3><p>Na próxima vez, você começa dali.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Nível de refinamento</h2>
+      <div class="card table">
+        <dl><div><dt>Nota</dt><dd>Ideia bruta</dd></div><div><dt>Organizado</dt><dd>Organizada uma vez</dd></div><div><dt>Essencial</dt><dd>Só o essencial</dd></div><div><dt>Resumo</dt><dd>Resumo final</dd></div></dl>
+      </div>
+      <p class="muted">Toque na etiqueta de nível ao lado de uma ideia para mudar. O essencial e os resumos aparecem primeiro no cartão quando você volta.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Sua frase-ponte espera no topo</h2>
+      <div class="faq"><details><summary>Preciso mesmo escrever a frase-ponte?</summary><p>Se você adicionou algo, sim: a tela Continuar pensando só fecha depois que você deixa a próxima linha. Se não escreveu nada, é só fechar. O segredo é parar quando ainda tem o que dizer, não quando trava.</p></details>
+<details><summary>O que são as Ideias para retomar?</summary><p>Os fios que você não abre há mais de três dias ficam reunidos à parte na tela inicial, para que uma ideia quase esquecida volte a partir da frase-ponte.</p></details>
+<details><summary>Como relato um bug ou sugiro algo?</summary><p>Use Enviar feedback nos ajustes do app, escreva para o endereço abaixo ou abra uma issue em github.com/M1zz/ThinkFlow/issues. Toda mensagem é bem-vinda.</p></details>
+<details><summary>É tudo grátis mesmo?</summary><p>Sim. Todos os recursos são gratuitos, sem anúncios e sem conta. “Apoie o desenvolvedor” nos ajustes é totalmente opcional e não libera nada a mais.</p></details></div>
+      <p class="contact">Dúvidas ou sugestões? Escreva para <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Continue de onde<br>você parou</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6779270691">Baixe grátis na App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p><a href="privacy.html">Política de Privacidade</a></p>
-    <p>© 2026 Leeo. All rights reserved.</p>
+    <nav id="languages" class="langs" aria-label="Idioma"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR" aria-current="page">Português (Brasil)</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Política de Privacidade</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

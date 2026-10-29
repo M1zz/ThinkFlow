@@ -1,167 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ThinkFlow — サポート</title>
-<style>
-  :root {
-    --accent: #f97316;
-    --text: #1c1c1e;
-    --secondary: #6e6e73;
-    --bg: #ffffff;
-    --card: #f5f5f7;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --text: #f5f5f7;
-      --secondary: #98989d;
-      --bg: #1c1c1e;
-      --card: #2c2c2e;
-    }
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Apple SD Gothic Neo", "Pretendard", sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
-  }
-  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-  header { text-align: center; margin-bottom: 48px; }
-  .app-icon { font-size: 64px; line-height: 1; }
-  h1 { font-size: 28px; margin-top: 12px; }
-  .tagline { color: var(--secondary); font-size: 16px; margin-top: 6px; }
-  h2 {
-    font-size: 20px;
-    margin: 40px 0 12px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid var(--accent);
-    display: inline-block;
-  }
-  p { margin-bottom: 12px; }
-  .card {
-    background: var(--card);
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 12px;
-  }
-  .card h3 { font-size: 16px; margin-bottom: 6px; }
-  .card p { color: var(--secondary); font-size: 15px; margin: 0; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  ul { padding-left: 20px; margin-bottom: 12px; }
-  li { margin-bottom: 6px; }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid var(--card);
-    color: var(--secondary);
-    font-size: 14px;
-    text-align: center;
-  }
-</style>
-<link rel="canonical" href="https://m1zz.github.io/ThinkFlow/ja/">
-<!--HREFLANG-->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/en/">
-<style>.langnav{display:flex;flex-wrap:wrap;gap:6px 12px;justify-content:center;font-size:13px;margin:-24px 0 32px;color:var(--secondary)}.langnav a{color:var(--secondary)}.langnav a[aria-current]{color:var(--accent);font-weight:600}</style>
-<!--/HREFLANG-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThinkFlow：途中で止めた考えを、その続きから</title>
+  <meta name="description" content="考え終えるときに続きの一文を残しておけば、次に開いたときその一文からすぐ再開できます。すべての機能が無料で、記録はデバイスの中だけに保存されます。">
+  <meta name="theme-color" content="#C2410C" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6779270691">
+  <link rel="canonical" href="https://m1zz.github.io/ThinkFlow/ja/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ThinkFlow：途中で止めた考えを、その続きから">
+  <meta property="og:description" content="考え終えるときに続きの一文を残しておけば、次に開いたときその一文からすぐ再開できます。すべての機能が無料で、記録はデバイスの中だけに保存されます。">
+  <meta property="og:url" content="https://m1zz.github.io/ThinkFlow/ja/">
+  <meta property="og:image" content="https://m1zz.github.io/ThinkFlow/img/ja/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C2410C}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="container">
-<!--LANGNAV-->
-<nav class="langnav" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../ja/index.html" hreflang="ja" lang="ja" aria-current="page">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
-<!--/LANGNAV-->
-  <header>
-    <div class="app-icon">🧠</div>
-    <h1>ThinkFlow</h1>
-    <p class="tagline">考えは一度で仕上げなくていい。区切って、続けて、磨いていく思考ツール</p>
+  <a class="skip" href="#main">本文へスキップ</a>
+  <header class="bar">
+    <a class="brand" href="../ja/"><img src="../icon.png" alt="" width="32" height="32">ThinkFlow</a>
+    <a class="lang-link" href="#languages">言語</a>
   </header>
 
-  <h2>ThinkFlowについて</h2>
-  <p>
-    ヘミングウェイは、筆が乗っているときにあえて文の途中で書くのをやめ、その日の仕事を終えていました。
-    翌日、その書きかけの文が、自然にまた書き始めるきっかけになったからです。
-    ThinkFlowは、この方法を「考える」ことに取り入れました。浮かんだ考えを気軽に書き出しておき、
-    手を止めるときは<strong>続きにつながる一文を残しておきます</strong>。次に開けば、その一文からすぐに続きを考えられます。
-  </p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>昨日の考えの続きを、<br>今日そのまま</h1>
+        <p class="lead">考えるのをやめるとき、続きの一文を残しておきましょう。次に開くと、その一文がいちばん上で待っています。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6779270691">App Storeで無料ダウンロード</a><a class="try" href="#try">一文を残してみる ↓</a></div>
+        <p class="muted small">すべての機能が無料です。アカウント不要で、デバイスの中だけに保存されます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/01-home.jpg" alt="昨日の考えの続きを、 今日そのまま" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <h2>主な機能</h2>
-  <div class="card">
-    <h3>💭 考えを書き出す（ブレインダンプ）</h3>
-    <p>頭の中を漂っている考えを1行ずつ一気に書き出し、育てたいものだけを選んでスレッドにします。</p>
-  </div>
-  <div class="card">
-    <h3>🌉 ヘミングウェイ・ブリッジ</h3>
-    <p>考える時間を終えるときに、次に続ける書きかけの一文（区切りの一文）を残しておきます。戻ってきたとき、止めたところの文脈がすぐによみがえります。</p>
-  </div>
-  <div class="card">
-    <h3>📚 段階的要約（Progressive Summarization）</h3>
-    <p>たまったメモを、メモ → 整理 → 要点 → 要約の4段階のレイヤーへと引き上げながら、考えを磨いていきます。</p>
-  </div>
-  <div class="card">
-    <h3>📎 調べた内容・資料を貼る</h3>
-    <p>Claudeに尋ねた結果や検索で見つけた資料を、自分の考えとは区別したまま、同じ流れに貼っておけます。</p>
-  </div>
-  <div class="card">
-    <h3>📱 ウィジェットとライブアクティビティ</h3>
-    <p>ホーム画面のウィジェットに区切りの一文がいつも表示され、考えている間はロック画面とダイナミックアイランドにタイマーが表示されます。</p>
-  </div>
 
-  <h2>よくある質問</h2>
-  <div class="card">
-    <h3>考えたことはどこに保存されますか？</h3>
-    <p>すべての考えはお使いのデバイスの中にだけ保存されます。サーバへ送信されることはなく、開発者が見ることもできません。デバイスの外に出るのは、設定の「フィードバックを送る」からご自身で送信した内容だけです。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
-  </div>
-  <div class="card">
-    <h3>データをバックアップしたり、ほかの場所に移したりできますか？</h3>
-    <p>ホーム画面右上の「書き出す」メニューから、すべての考えをMarkdownまたはJSONファイルとして書き出せます。「ファイル」App、メモ、メールなどに共有して保管してください。</p>
-  </div>
-  <div class="card">
-    <h3>アプリを削除するとデータはどうなりますか？</h3>
-    <p>アプリを削除すると、デバイスに保存されているすべての考えも一緒に削除されます。削除する前に「書き出す」でバックアップしておいてください。</p>
-  </div>
-  <div class="card">
-    <h3>ウィジェットが更新されません</h3>
-    <p>ウィジェットは最長30分ごとに更新され、アプリで考えを追加するとすぐに更新を要求します。表示が古いままのときは、一度アプリを開いてください。</p>
-  </div>
+    <section class="reveal" id="try">
+      <h2>一文を残してみる</h2>
+      <p class="muted">考えを一行書いて、次に続ける一文を残してみてください。アプリと同じ流れで動きます。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;一文を残してみる&quot;, &quot;lead&quot;: &quot;考えを一行書いて、次に続ける一文を残してみてください。アプリと同じ流れで動きます。&quot;, &quot;resume&quot;: &quot;ここから続ける&quot;, &quot;bridgeName&quot;: &quot;区切りの一文&quot;, &quot;leftOff&quot;: &quot;ここで止めました&quot;, &quot;flow&quot;: &quot;ここまでの流れ&quot;, &quot;latest&quot;: &quot;直前の考え&quot;, &quot;note&quot;: &quot;メモ&quot;, &quot;core&quot;: &quot;要点&quot;, &quot;continue&quot;: &quot;考えを続ける&quot;, &quot;thinking&quot;: &quot;いま続けている考え&quot;, &quot;next&quot;: &quot;次へ&quot;, &quot;bridging&quot;: &quot;一文を残す&quot;, &quot;lock&quot;: &quot;一文を残すと閉じられます&quot;, &quot;bridgeTitle&quot;: &quot;勢いのあるうちに区切りましょう&quot;, &quot;bridgeLabel&quot;: &quot;続きの一文を残す&quot;, &quot;done&quot;: &quot;完了&quot;, &quot;thread&quot;: &quot;ショート動画 vs 集中&quot;, &quot;bridge&quot;: &quot;それなら「意図的な退屈」を設計すれば、深く考える力は戻るだろうか？&quot;, &quot;coreText&quot;: &quot;報酬が届くまでの時間差が、深い思考を邪魔している&quot;, &quot;last&quot;: &quot;スマホを置いて散歩に出ると、考えが自然とつながっていく。退屈こそが思考を呼ぶのでは。&quot;, &quot;ex1&quot;: &quot;退屈を避けるのをやめて、予定に入れてみたらどうだろう。1日20分、何もしない時間。&quot;, &quot;ex2&quot;: &quot;退屈な20分を毎日同じ時間に置いたら、そのとき何が頭に浮かぶだろう？&quot;, &quot;useExample&quot;: &quot;例文を入れる&quot;, &quot;later&quot;: &quot;次に開くと、こう表示されます。いま残した一文がいちばん上にあります。&quot;, &quot;again&quot;: &quot;最初からやり直す&quot;}"></div>
+    </section>
 
-  <h2>お問い合わせ</h2>
-  <p>
-    不具合の報告、機能のご提案、そのほかどんなことでもお気軽にお寄せください。<br>
-    📧 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br>
-    🐙 <a href="https://github.com/M1zz/ThinkFlow/issues">GitHub Issues</a>
-  </p>
+    <section class="problem reveal">
+      <h2>あれ、どこまで考えたんだっけ？</h2>
+      <p>数日前のメモを開いても、残っているのは結論らしき数行だけ。その先で何を考えようとしていたかは消えていて、結局また一から考え直すことになります。ThinkFlowは止めるときに次の問いを残させるので、開いた瞬間からその問いの続きを考えられます。</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>区切りの一文がいちばん上で待っている</h2>
+        <p>考え終えるときに、次に続ける問いを一行だけ残します。次に開くと、その一文とこれまでの要点、直前の考えが1枚のカードにまとまっているので、どこまで考えたか思い出す必要がありません。<br>ホーム画面のウィジェットにも区切りの一文が表示され、考えている間はロック画面とダイナミックアイランドに時間が出ます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/02-continue.jpg" alt="区切りの一文がいちばん上で待っている" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>メモが要点になるまで</h2>
+        <p>書いた考えを、メモ・整理・要点・要約の4段階で引き上げていきます。考えがどこまで熟したか、ひと目で分かります。<br>調べたことや質問した内容は資料として貼るので、自分の考えと混ざりません。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/04-thread.jpg" alt="メモが要点になるまで" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>まず頭の中を空にする</h2>
+        <p>浮かんだことを1行ずつ全部書き出してから、いま考えたいものを1つ選ぶと、それが考えのスレッドになります。残りはホームに保管され、タップすればいつでも続きを考えられます。<br>3日以上触れていない考えは「よみがえらせたい考え」にまとまります。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/05-dump.jpg" alt="まず頭の中を空にする" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>始め方は3ステップ</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>考えを書き出す</h3><p>1行ずつ書いて、育てたいものを1つ選びます。</p></li>
+<li class="card"><span class="n">2</span><h3>続きを考える</h3><p>考えが変わるたびに分けて追加すると、あとで整理しやすくなります。</p></li>
+<li class="card"><span class="n">3</span><h3>一文を残して閉じる</h3><p>次に開くと、その一文から始まります。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>整理の段階</h2>
+      <div class="card table">
+        <dl><div><dt>メモ</dt><dd>生の考え</dd></div><div><dt>整理</dt><dd>一度整理</dd></div><div><dt>要点</dt><dd>要点だけ</dd></div><div><dt>要約</dt><dd>最終要約</dd></div></dl>
+      </div>
+      <p class="muted">考えの横にある段階バッジをタップすると変えられます。要点と要約は、次に開いたときカードに先に表示されます。</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>区切りの一文がいちばん上で待っている</h2>
+      <div class="faq"><details><summary>区切りの一文は必ず書かないといけませんか？</summary><p>何か書いた場合は、はい。「考えを続ける」画面は、続きの一文を残すと閉じられます。何も書いていなければそのまま閉じられます。行き詰まってからではなく、まだ書けることがあるうちに区切るのがコツです。</p></details>
+<details><summary>「よみがえらせたい考え」とは？</summary><p>3日以上開いていない考えは、ホームの「よみがえらせたい考え」に別にまとまります。忘れかけていた考えも、区切りの一文から続きを始められます。</p></details>
+<details><summary>不具合の報告や機能の提案をしたいです。</summary><p>アプリの設定にある「フィードバックを送る」から送るか、下のメールアドレスかGitHub（github.com/M1zz/ThinkFlow/issues）にお寄せください。どんなことでも歓迎です。</p></details>
+<details><summary>本当にすべて無料ですか？</summary><p>はい、すべての機能が無料です。広告もアカウント登録もありません。設定の「開発者を応援する」はお好みで、しても機能は変わりません。</p></details></div>
+      <p class="contact">ご質問やご意見は <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> までお寄せください。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>止めたところから、<br>また始めよう</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6779270691">App Storeで無料ダウンロード</a>
+    </section>
+  </main>
 
   <footer>
-    <p><a href="privacy.html">プライバシーポリシー</a></p>
-    <p>© 2026 Leeo. All rights reserved.</p>
+    <nav id="languages" class="langs" aria-label="言語"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">プライバシーポリシー</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

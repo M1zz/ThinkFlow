@@ -1,167 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ThinkFlow — Tuki</title>
-<style>
-  :root {
-    --accent: #f97316;
-    --text: #1c1c1e;
-    --secondary: #6e6e73;
-    --bg: #ffffff;
-    --card: #f5f5f7;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --text: #f5f5f7;
-      --secondary: #98989d;
-      --bg: #1c1c1e;
-      --card: #2c2c2e;
-    }
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
-  }
-  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-  header { text-align: center; margin-bottom: 48px; }
-  .app-icon { font-size: 64px; line-height: 1; }
-  h1 { font-size: 28px; margin-top: 12px; }
-  .tagline { color: var(--secondary); font-size: 16px; margin-top: 6px; }
-  h2 {
-    font-size: 20px;
-    margin: 40px 0 12px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid var(--accent);
-    display: inline-block;
-  }
-  p { margin-bottom: 12px; }
-  .card {
-    background: var(--card);
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 12px;
-  }
-  .card h3 { font-size: 16px; margin-bottom: 6px; }
-  .card p { color: var(--secondary); font-size: 15px; margin: 0; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  ul { padding-left: 20px; margin-bottom: 12px; }
-  li { margin-bottom: 6px; }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid var(--card);
-    color: var(--secondary);
-    font-size: 14px;
-    text-align: center;
-  }
-</style>
-<link rel="canonical" href="https://m1zz.github.io/ThinkFlow/fi/">
-<!--HREFLANG-->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/en/">
-<style>.langnav{display:flex;flex-wrap:wrap;gap:6px 12px;justify-content:center;font-size:13px;margin:-24px 0 32px;color:var(--secondary)}.langnav a{color:var(--secondary)}.langnav a[aria-current]{color:var(--accent);font-weight:600}</style>
-<!--/HREFLANG-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThinkFlow: jatka ajatusta täsmälleen siitä, mihin jäit</title>
+  <meta name="description" content="Päätä jokainen ajattelukerta siltalauseeseen, niin seuraavalla kerralla jatkat siitä. Kaikki toiminnot ovat ilmaisia, ja kaikki pysyy laitteellasi.">
+  <meta name="theme-color" content="#C2410C" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6779270691">
+  <link rel="canonical" href="https://m1zz.github.io/ThinkFlow/fi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ThinkFlow: jatka ajatusta täsmälleen siitä, mihin jäit">
+  <meta property="og:description" content="Päätä jokainen ajattelukerta siltalauseeseen, niin seuraavalla kerralla jatkat siitä. Kaikki toiminnot ovat ilmaisia, ja kaikki pysyy laitteellasi.">
+  <meta property="og:url" content="https://m1zz.github.io/ThinkFlow/fi/">
+  <meta property="og:image" content="https://m1zz.github.io/ThinkFlow/img/fi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C2410C}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="container">
-<!--LANGNAV-->
-<nav class="langnav" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi" aria-current="page">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
-<!--/LANGNAV-->
-  <header>
-    <div class="app-icon">🧠</div>
-    <h1>ThinkFlow</h1>
-    <p class="tagline">Ajatusta ei tarvitse saada valmiiksi kerralla — jätä se kesken, jatka ja hio sitä</p>
+  <a class="skip" href="#main">Siirry sisältöön</a>
+  <header class="bar">
+    <a class="brand" href="../fi/"><img src="../icon.png" alt="" width="32" height="32">ThinkFlow</a>
+    <a class="lang-link" href="#languages">Kieli</a>
   </header>
 
-  <h2>Mikä ThinkFlow on?</h2>
-  <p>
-    Kun kirjoittaminen sujui hyvin, Hemingway lopetti päivän tarkoituksella kesken lauseen.
-    Keskeneräinen lause auttoi häntä seuraavana päivänä pääsemään luontevasti takaisin vauhtiin.
-    ThinkFlow soveltaa samaa menetelmää ajatteluun. Kirjaa mieleesi tulevat ajatukset kevyesti ylös,
-    ja kun lopetat, <strong>jätä kesken lause, josta jatkat</strong>. Kun seuraavan kerran avaat sovelluksen, jatkat suoraan siitä lauseesta.
-  </p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Eilen kesken jäänyt ajatus<br>jatkuu tänään samasta kohdasta</h1>
+        <p class="lead">Kun lopetat ajattelun, jätä yksi rivi, josta jatkaa. Kun avaat sovelluksen seuraavan kerran, se odottaa ylimpänä.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6779270691">Lataa ilmaiseksi App Storesta</a><a class="try" href="#try">Kokeile siltalausetta ↓</a></div>
+        <p class="muted small">Kaikki toiminnot ovat ilmaisia. Ei tiliä, kaikki pysyy laitteellasi.</p>
+      </div>
+      <div class="phone"><img src="../img/fi/01-home.jpg" alt="Eilen kesken jäänyt ajatus jatkuu tänään samasta kohdasta" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <h2>Tärkeimmät ominaisuudet</h2>
-  <div class="card">
-    <h3>💭 Tyhjennä pää (brain dump)</h3>
-    <p>Kirjoita kaikki mielessä pyörivät ajatukset kerralla ylös rivi riviltä ja tee ketjuja vain niistä, joita haluat kehittää eteenpäin.</p>
-  </div>
-  <div class="card">
-    <h3>🌉 Hemingwayn siltalause</h3>
-    <p>Kun lopetat ajatteluistunnon, kirjoita keskeneräinen lause, josta jatkat seuraavalla kerralla. Kun palaat, pääset heti takaisin siihen, mihin jäit.</p>
-  </div>
-  <div class="card">
-    <h3>📚 Asteittainen tiivistäminen (Progressive Summarization)</h3>
-    <p>Hio ajatuksiasi nostamalla kertyneitä merkintöjä neljän tason läpi: muistiinpano → järjestetty → ydin → tiivistelmä.</p>
-  </div>
-  <div class="card">
-    <h3>📎 Tutkimus ja aineistot</h3>
-    <p>Voit liittää Claudelta kysymäsi vastaukset tai etsimäsi aineiston samaan ajatusketjuun erillään omista ajatuksistasi.</p>
-  </div>
-  <div class="card">
-    <h3>📱 Widgetit &amp; Live Activity -toiminnot</h3>
-    <p>Koti-valikon widget näyttää aina siltalauseesi, ja ajatteluistunnon aikana ajastin näkyy lukitusnäytöllä ja Dynamic Islandissa.</p>
-  </div>
 
-  <h2>Usein kysyttyä</h2>
-  <div class="card">
-    <h3>Mihin ajatukseni tallennetaan?</h3>
-    <p>Kaikki ajatuksesi pysyvät vain laitteellasi. Niitä ei lähetetä palvelimelle, eikä kehittäjäkään näe niitä. Laitteelta lähtee ainoastaan se, minkä itse lähetät Asetusten ”Lähetä palautetta” -toiminnolla. Lisätietoja on <a href="privacy.html">tietosuojaselosteessa</a>.</p>
-  </div>
-  <div class="card">
-    <h3>Voinko varmuuskopioida tiedot tai siirtää ne muualle?</h3>
-    <p>Voit viedä kaikki ajatuksesi Markdown- tai JSON-tiedostona sovelluksen etusivun oikean yläkulman Vie-valikosta. Tallenna tiedosto jakamalla se esimerkiksi Tiedostot-, Muistiinpanot- tai Mail-appiin.</p>
-  </div>
-  <div class="card">
-    <h3>Mitä tiedoilleni tapahtuu, jos poistan sovelluksen?</h3>
-    <p>Kun poistat sovelluksen, kaikki laitteelle tallennetut ajatukset poistetaan samalla. Varmuuskopioi ne Vie-toiminnolla ennen poistamista.</p>
-  </div>
-  <div class="card">
-    <h3>Widget ei päivity</h3>
-    <p>Widget päivittyy enintään 30 minuutin välein, ja kun lisäät sovelluksessa ajatuksen, se pyytää päivitystä heti. Jos näkymä on vanhentunut, avaa sovellus kerran.</p>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Kokeile siltalausetta</h2>
+      <p class="muted">Kirjoita ajatus ja jätä lause, josta jatkat ensi kerralla. Vaiheet ovat samat kuin sovelluksessa.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Kokeile siltalausetta&quot;, &quot;lead&quot;: &quot;Kirjoita ajatus ja jätä lause, josta jatkat ensi kerralla. Vaiheet ovat samat kuin sovelluksessa.&quot;, &quot;resume&quot;: &quot;Jatka tästä&quot;, &quot;bridgeName&quot;: &quot;Siltalause&quot;, &quot;leftOff&quot;: &quot;Jäit tähän&quot;, &quot;flow&quot;: &quot;Tähänastinen kulku&quot;, &quot;latest&quot;: &quot;Viimeisin ajatus&quot;, &quot;note&quot;: &quot;Muistiinpano&quot;, &quot;core&quot;: &quot;Ydin&quot;, &quot;continue&quot;: &quot;Ajattele eteenpäin&quot;, &quot;thinking&quot;: &quot;Meneillään oleva ajatus&quot;, &quot;next&quot;: &quot;Seuraava&quot;, &quot;bridging&quot;: &quot;Jätä siltalause&quot;, &quot;lock&quot;: &quot;Jätä siltalause, niin voit sulkea&quot;, &quot;bridgeTitle&quot;: &quot;Lopeta, kun vauhti vielä kantaa&quot;, &quot;bridgeLabel&quot;: &quot;Jätä siltalause&quot;, &quot;done&quot;: &quot;Valmis&quot;, &quot;thread&quot;: &quot;Selaus vai syvätyö&quot;, &quot;bridge&quot;: &quot;Jos siis suunnittelen ’tarkoituksellista tylsyyttä’, palaako syvä ajattelu?&quot;, &quot;coreText&quot;: &quot;Ero palkkion odotusajassa haittaa syvää ajattelua&quot;, &quot;last&quot;: &quot;Kun lähden kävelylle ilman puhelinta, ajatukset jatkuvat itsestään. Ehkä juuri tylsyys houkuttelee ajattelemaan.&quot;, &quot;ex1&quot;: &quot;Entä jos lakkaisin välttelemästä tylsyyttä ja merkitsisin sen kalenteriin? Kaksikymmentä minuuttia päivässä tekemättä mitään.&quot;, &quot;ex2&quot;: &quot;Jos pidän joka päivä samaan aikaan 20 tylsää minuuttia, mitä ajatuksia silloin syntyy?&quot;, &quot;useExample&quot;: &quot;Käytä esimerkkiä&quot;, &quot;later&quot;: &quot;Näin sovellus ottaa sinut vastaan ensi kerralla: juuri jättämäsi lause on ylimpänä.&quot;, &quot;again&quot;: &quot;Aloita alusta&quot;}"></div>
+    </section>
 
-  <h2>Ota yhteyttä</h2>
-  <p>
-    Vikailmoitukset, ominaisuustoiveet ja kaikki muutkin ajatukset ovat tervetulleita.<br>
-    📧 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br>
-    🐙 <a href="https://github.com/M1zz/ThinkFlow/issues">GitHub Issues</a>
-  </p>
+    <section class="problem reveal">
+      <h2>Mihin minä oikein jäin?</h2>
+      <p>Avaat viime viikon muistiinpanon ja löydät pari johtopäätöstä, mutta et kysymystä, jota aioit pohtia seuraavaksi. Niinpä aloitat alusta. ThinkFlow pyytää kirjaamaan sen seuraavan kysymyksen, kun lopetat, joten palatessasi aloitat suoraan siitä.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Siltalause odottaa ylimpänä</h2>
+        <p>Päätä ajattelukerta yhteen riviin: kysymykseen, josta jatkat. Palatessasi se lause, tähänastinen ydin ja viimeisin ajatus ovat samalla kortilla. Mitään ei tarvitse koota uudelleen.<br>Näet lauseen myös kotinäytön widgetissä, ja ajattelun aikana aika kulkee lukitusnäytöllä ja Dynamic Islandissa.</p>
+      </div>
+      <div class="phone"><img src="../img/fi/02-continue.jpg" alt="Siltalause odottaa ylimpänä" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Muistiinpanosta ytimeen</h2>
+        <p>Nosta jokaista ajatusta neljän tason läpi: muistiinpano, järjestetty, ydin ja tiivistelmä. Näet yhdellä silmäyksellä, kuinka kypsä se on.<br>Hakemasi tai kysymäsi liitetään aineistona, erilleen omista ajatuksistasi.</p>
+      </div>
+      <div class="phone"><img src="../img/fi/04-thread.jpg" alt="Muistiinpanosta ytimeen" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Tyhjennä pää ensin</h2>
+        <p>Kirjoita ylös kaikki mielessä pyörivä, yksi rivi ajatusta kohden, ja valitse se, jota haluat työstää nyt. Siitä tulee ajatusketju, muut odottavat etusivulla, kunnes napautat niitä.<br>Ajatukset, joihin et ole koskenut yli kolmeen päivään, kerätään kohtaan Herätettävät ajatukset.</p>
+      </div>
+      <div class="phone"><img src="../img/fi/05-dump.jpg" alt="Tyhjennä pää ensin" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Aloita kolmella askeleella</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Tyhjennä pää</h3><p>Yksi rivi ajatusta kohden, sitten valitse se, jota kasvattaa.</p></li>
+<li class="card"><span class="n">2</span><h3>Ajattele eteenpäin</h3><p>Lisää jokainen uusi ajatus erikseen, niin sitä on helpompi hioa myöhemmin.</p></li>
+<li class="card"><span class="n">3</span><h3>Jätä lause ja sulje</h3><p>Seuraavalla kerralla aloitat siitä.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Hiontataso</h2>
+      <div class="card table">
+        <dl><div><dt>Muistiinpano</dt><dd>Raaka ajatus</dd></div><div><dt>Järjestetty</dt><dd>Järjestetty kerran</dd></div><div><dt>Ydin</dt><dd>Vain ydin</dd></div><div><dt>Tiivistelmä</dt><dd>Lopullinen tiivistelmä</dd></div></dl>
+      </div>
+      <p class="muted">Vaihda taso napauttamalla ajatuksen vieressä olevaa merkkiä. Ydin ja tiivistelmät näkyvät kortilla ensimmäisinä, kun palaat.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Siltalause odottaa ylimpänä</h2>
+      <div class="faq"><details><summary>Pitääkö siltalause kirjoittaa?</summary><p>Jos lisäsit jotain, kyllä: Ajattele eteenpäin -näkymä sulkeutuu vasta, kun jätät seuraavan rivin. Jos et kirjoittanut mitään, voit vain sulkea sen. Juju on lopettaa, kun sanottavaa vielä on, eikä vasta jumiin jäädessä.</p></details>
+<details><summary>Mitä ovat Herätettävät ajatukset?</summary><p>Ketjut, joita et ole avannut yli kolmeen päivään, kerätään etusivulla omaan osioonsa, joten lähes unohtunutkin ajatus voi jatkua siltalauseestaan.</p></details>
+<details><summary>Miten ilmoitan virheestä tai ehdotan jotain?</summary><p>Käytä sovelluksen asetusten Lähetä palautetta -kohtaa, kirjoita alla olevaan osoitteeseen tai avaa issue osoitteessa github.com/M1zz/ThinkFlow/issues. Kaikki viestit ovat tervetulleita.</p></details>
+<details><summary>Onko kaikki todella ilmaista?</summary><p>Kyllä. Kaikki toiminnot ovat ilmaisia, ilman mainoksia ja ilman tiliä. Asetusten ”Tue kehittäjää” on täysin vapaaehtoinen eikä avaa mitään lisää.</p></details></div>
+      <p class="contact">Kysyttävää tai palautetta? Kirjoita osoitteeseen <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Jatka siitä,<br>mihin jäit</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6779270691">Lataa ilmaiseksi App Storesta</a>
+    </section>
+  </main>
 
   <footer>
-    <p><a href="privacy.html">Tietosuojaseloste</a></p>
-    <p>© 2026 Leeo. All rights reserved.</p>
+    <nav id="languages" class="langs" aria-label="Kieli"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi" aria-current="page">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Tietosuojakäytäntö</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

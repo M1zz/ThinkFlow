@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: riprendi i tuoi pensieri da dove ti eri fermato",
+  "description": "Chiudi ogni sessione con una frase ponte e la prossima volta riparti da lì. Tutte le funzioni sono gratuite e tutto resta sul tuo dispositivo.",
+  "hero": {
+    "headline": "Il pensiero rimasto a metà ieri,\noggi riparte da lì",
+    "lead": "Quando smetti di pensare, lascia una riga da cui ripartire. La prossima volta che apri l’app, ti aspetta in cima.",
+    "cta": "Scaricala gratis dall’App Store",
+    "note": "Tutte le funzioni sono gratuite. Nessun account, tutto resta sul tuo dispositivo."
+  },
+  "demo": {
+    "title": "Prova a lasciare una frase ponte",
+    "lead": "Scrivi un pensiero e lascia la frase da cui riprenderai la prossima volta. I passaggi sono gli stessi dell’app.",
+    "resume": "Riprendi da qui",
+    "bridgeName": "Frase ponte",
+    "leftOff": "Ti sei fermato qui",
+    "flow": "Il percorso finora",
+    "latest": "Ultimo pensiero",
+    "note": "Appunto",
+    "core": "Concetto chiave",
+    "continue": "Continua a pensare",
+    "thinking": "Il pensiero in corso",
+    "next": "Avanti",
+    "bridging": "Lascia una frase ponte",
+    "lock": "Lascia una frase ponte per chiudere",
+    "bridgeTitle": "Fermati finché sei ispirato",
+    "bridgeLabel": "Lascia una frase ponte",
+    "done": "Fine",
+    "thread": "Scroll vs focus",
+    "bridge": "E se progettassi una ‘noia intenzionale’, il pensiero profondo tornerebbe?",
+    "coreText": "Lo scarto nell’attesa della ricompensa ostacola il pensiero profondo",
+    "last": "Quando esco a camminare senza telefono, i pensieri si collegano da soli. Forse è la noia a chiamare il pensiero.",
+    "ex1": "E se smettessi di evitare la noia e la mettessi in agenda? Venti minuti al giorno senza fare niente.",
+    "ex2": "Se ogni giorno tengo 20 minuti di noia alla stessa ora, che pensieri arriveranno?",
+    "useExample": "Usa un esempio",
+    "later": "Ecco cosa ti aspetta la prossima volta: la frase che hai appena lasciato è in cima.",
+    "again": "Ricomincia"
+  },
+  "problem": {
+    "title": "Dov’ero rimasto?",
+    "text": "Riapri un appunto di qualche giorno fa e trovi solo un paio di conclusioni, non la domanda che volevi approfondire dopo. E si ricomincia da capo. ThinkFlow ti fa lasciare quella domanda quando ti fermi, così al ritorno parti subito da lì."
+  },
+  "features": [
+    {
+      "title": "La frase ponte ti aspetta in cima",
+      "text": "Chiudi la sessione con una sola riga: la domanda da cui riprendere. Al ritorno, quella frase, i concetti chiave finora e l’ultimo pensiero stanno in un’unica scheda. Niente da ricostruire.\nLa vedi anche in un widget nella schermata Home e, mentre pensi, il tempo scorre nella schermata di blocco e nella Dynamic Island.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "Dall’appunto al concetto chiave",
+      "text": "Porta ogni pensiero su quattro livelli: appunto, ordinato, concetto chiave e riassunto. Vedi a colpo d’occhio quanto è maturato.\nCiò che hai cercato o chiesto si allega come riferimento, separato dai tuoi pensieri.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Prima, svuota la mente",
+      "text": "Scrivi tutto ciò che ti frulla in testa, una riga per pensiero, e scegli quello su cui lavorare adesso: diventa un filo. Il resto aspetta nella schermata principale finché non lo tocchi.\nI pensieri che non tocchi da più di tre giorni finiscono in Pensieri da riprendere.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Si parte in tre passi",
+    "items": [
+      {
+        "title": "Svuota la mente",
+        "text": "Una riga per pensiero, poi scegli quello da far crescere."
+      },
+      {
+        "title": "Continua a pensare",
+        "text": "Aggiungi ogni nuova idea a parte: dopo sarà più facile rifinirla."
+      },
+      {
+        "title": "Lascia la frase e chiudi",
+        "text": "La prossima volta riparti da lì."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Livello di rifinitura",
+    "rows": [
+      [
+        "Appunto",
+        "Pensiero grezzo"
+      ],
+      [
+        "Ordinato",
+        "Ordinato una volta"
+      ],
+      [
+        "Concetto chiave",
+        "Solo l’essenziale"
+      ],
+      [
+        "Riassunto",
+        "Riassunto finale"
+      ]
+    ],
+    "note": "Tocca il badge del livello accanto a un pensiero per cambiarlo. Concetti chiave e riassunti compaiono per primi nella scheda al ritorno."
+  },
+  "faq": {
+    "title": "La frase ponte ti aspetta in cima",
+    "items": [
+      {
+        "q": "Devo per forza scrivere la frase ponte?",
+        "a": "Se hai aggiunto qualcosa, sì: la schermata Continua a pensare si chiude solo dopo che hai lasciato la riga successiva. Se non hai scritto nulla, puoi chiuderla e basta. Il trucco è fermarsi quando hai ancora qualcosa da dire, non quando sei bloccato."
+      },
+      {
+        "q": "Cosa sono i Pensieri da riprendere?",
+        "a": "I fili che non apri da più di tre giorni vengono raccolti a parte nella schermata principale, così anche un pensiero quasi dimenticato può ripartire dalla sua frase ponte."
+      },
+      {
+        "q": "Come segnalo un bug o propongo un’idea?",
+        "a": "Usa Invia feedback nelle impostazioni dell’app, scrivi all’indirizzo qui sotto oppure apri una issue su github.com/M1zz/ThinkFlow/issues. Ogni messaggio è benvenuto."
+      },
+      {
+        "q": "È davvero tutto gratis?",
+        "a": "Sì. Tutte le funzioni sono gratuite, senza pubblicità né account. «Sostieni lo sviluppatore» nelle impostazioni è facoltativo e non sblocca nulla."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Riparti da dove\nti eri fermato",
+    "cta": "Scaricala gratis dall’App Store"
+  },
+  "ui": {
+    "skip": "Vai al contenuto",
+    "languages": "Lingua",
+    "privacy": "Informativa sulla privacy",
+    "contact": "Domande o suggerimenti? Scrivi a {email}."
+  }
+}

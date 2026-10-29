@@ -1,167 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="de">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ThinkFlow – Support</title>
-<style>
-  :root {
-    --accent: #f97316;
-    --text: #1c1c1e;
-    --secondary: #6e6e73;
-    --bg: #ffffff;
-    --card: #f5f5f7;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --text: #f5f5f7;
-      --secondary: #98989d;
-      --bg: #1c1c1e;
-      --card: #2c2c2e;
-    }
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
-  }
-  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-  header { text-align: center; margin-bottom: 48px; }
-  .app-icon { font-size: 64px; line-height: 1; }
-  h1 { font-size: 28px; margin-top: 12px; }
-  .tagline { color: var(--secondary); font-size: 16px; margin-top: 6px; }
-  h2 {
-    font-size: 20px;
-    margin: 40px 0 12px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid var(--accent);
-    display: inline-block;
-  }
-  p { margin-bottom: 12px; }
-  .card {
-    background: var(--card);
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 12px;
-  }
-  .card h3 { font-size: 16px; margin-bottom: 6px; }
-  .card p { color: var(--secondary); font-size: 15px; margin: 0; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  ul { padding-left: 20px; margin-bottom: 12px; }
-  li { margin-bottom: 6px; }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid var(--card);
-    color: var(--secondary);
-    font-size: 14px;
-    text-align: center;
-  }
-</style>
-<link rel="canonical" href="https://m1zz.github.io/ThinkFlow/de/">
-<!--HREFLANG-->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/en/">
-<style>.langnav{display:flex;flex-wrap:wrap;gap:6px 12px;justify-content:center;font-size:13px;margin:-24px 0 32px;color:var(--secondary)}.langnav a{color:var(--secondary)}.langnav a[aria-current]{color:var(--accent);font-weight:600}</style>
-<!--/HREFLANG-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThinkFlow: Gedanken genau dort fortsetzen, wo du aufgehört hast</title>
+  <meta name="description" content="Hinterlasse am Ende einen Brückensatz, beim nächsten Öffnen geht es dort weiter. Alle Funktionen sind kostenlos, alles bleibt auf deinem Gerät.">
+  <meta name="theme-color" content="#C2410C" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6779270691">
+  <link rel="canonical" href="https://m1zz.github.io/ThinkFlow/de/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ThinkFlow: Gedanken genau dort fortsetzen, wo du aufgehört hast">
+  <meta property="og:description" content="Hinterlasse am Ende einen Brückensatz, beim nächsten Öffnen geht es dort weiter. Alle Funktionen sind kostenlos, alles bleibt auf deinem Gerät.">
+  <meta property="og:url" content="https://m1zz.github.io/ThinkFlow/de/">
+  <meta property="og:image" content="https://m1zz.github.io/ThinkFlow/img/de/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C2410C}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="container">
-<!--LANGNAV-->
-<nav class="langnav" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de" aria-current="page">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
-<!--/LANGNAV-->
-  <header>
-    <div class="app-icon">🧠</div>
-    <h1>ThinkFlow</h1>
-    <p class="tagline">Gedanken müssen nicht in einem Zug fertig werden – unterbrechen, weiterdenken, verfeinern</p>
+  <a class="skip" href="#main">Zum Inhalt springen</a>
+  <header class="bar">
+    <a class="brand" href="../de/"><img src="../icon.png" alt="" width="32" height="32">ThinkFlow</a>
+    <a class="lang-link" href="#languages">Sprache</a>
   </header>
 
-  <h2>Was ist ThinkFlow?</h2>
-  <p>
-    Wenn das Schreiben gut lief, hörte Hemingway bewusst mitten im Satz auf und beendete den Arbeitstag.
-    Am nächsten Tag half ihm genau dieser unfertige Satz, ganz natürlich wieder ins Schreiben zu finden.
-    ThinkFlow überträgt diese Methode aufs Denken. Halte fest, was dir in den Sinn kommt,
-    und <strong>hinterlasse beim Aufhören einen Brückensatz, an den du anknüpfen kannst</strong>. Beim nächsten Öffnen machst du direkt an diesem Satz weiter.
-  </p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Der Gedanke von gestern,<br>heute genau an der Stelle weiter</h1>
+        <p class="lead">Hörst du auf zu denken, hinterlässt du eine Zeile zum Weitermachen. Beim nächsten Öffnen wartet sie ganz oben auf dich.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6779270691">Kostenlos im App Store laden</a><a class="try" href="#try">Probier den Brückensatz aus ↓</a></div>
+        <p class="muted small">Alle Funktionen sind kostenlos. Kein Konto, alles bleibt auf deinem Gerät.</p>
+      </div>
+      <div class="phone"><img src="../img/de/01-home.jpg" alt="Der Gedanke von gestern, heute genau an der Stelle weiter" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <h2>Die wichtigsten Funktionen</h2>
-  <div class="card">
-    <h3>💭 Gedanken ausschütten (Brain Dump)</h3>
-    <p>Schreib alles, was dir im Kopf herumschwirrt, Zeile für Zeile in einem Rutsch auf – und mach nur aus den Gedanken, die du weiterverfolgen willst, einen eigenen Gedankenfaden.</p>
-  </div>
-  <div class="card">
-    <h3>🌉 Hemingway-Brücke</h3>
-    <p>Wenn du eine Denkrunde beendest, schreibst du den unfertigen Satz auf, an dem du beim nächsten Mal weitermachst. Kommst du zurück, ist der Zusammenhang, in dem du aufgehört hast, sofort wieder da.</p>
-  </div>
-  <div class="card">
-    <h3>📚 Schrittweise Zusammenfassung (Progressive Summarization)</h3>
-    <p>Verfeinere deine Gedanken, indem du deine Notizen Stufe für Stufe durch vier Ebenen hebst: Notiz → geordnet → Kernpunkt → Zusammenfassung.</p>
-  </div>
-  <div class="card">
-    <h3>📎 Recherche &amp; Quellen anhängen</h3>
-    <p>Antworten von Claude oder Material aus einer Suche kannst du im selben Gedankenfluss anhängen – klar getrennt von deinen eigenen Gedanken.</p>
-  </div>
-  <div class="card">
-    <h3>📱 Widgets &amp; Live-Aktivitäten</h3>
-    <p>Ein Widget auf dem Home-Bildschirm zeigt dir immer deinen Brückensatz, und während einer Denkrunde erscheint ein Timer auf dem Sperrbildschirm und in der Dynamic Island.</p>
-  </div>
 
-  <h2>Häufige Fragen</h2>
-  <div class="card">
-    <h3>Wo werden meine Gedanken gespeichert?</h3>
-    <p>Alle deine Gedanken werden ausschließlich auf deinem Gerät gespeichert. Sie werden an keinen Server gesendet, und auch der Entwickler kann sie nicht sehen. Das Gerät verlässt nur, was du selbst über „Feedback senden“ in den Einstellungen schickst. Mehr dazu erfährst du in der <a href="privacy.html">Datenschutzerklärung</a>.</p>
-  </div>
-  <div class="card">
-    <h3>Kann ich meine Daten sichern oder woandershin übertragen?</h3>
-    <p>Über das Menü „Exportieren“ oben rechts auf dem Startbildschirm der App kannst du alle Gedanken als Markdown- oder JSON-Datei exportieren. Teile die Datei mit der Dateien-App, Notizen, Mail oder einem anderen Ort deiner Wahl, um sie aufzubewahren.</p>
-  </div>
-  <div class="card">
-    <h3>Was passiert mit meinen Daten, wenn ich die App lösche?</h3>
-    <p>Wenn du die App löschst, werden auch alle auf dem Gerät gespeicherten Gedanken gelöscht. Sichere sie vorher mit „Exportieren“.</p>
-  </div>
-  <div class="card">
-    <h3>Mein Widget aktualisiert sich nicht</h3>
-    <p>Widgets werden spätestens alle 30 Minuten aktualisiert, und wenn du in der App einen Gedanken hinzufügst, wird sofort eine Aktualisierung angefordert. Wirkt die Anzeige veraltet, öffne die App einmal.</p>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Probier den Brückensatz aus</h2>
+      <p class="muted">Schreib einen Gedanken und hinterlasse die Zeile, mit der du nächstes Mal weitermachst. Der Ablauf ist derselbe wie in der App.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Probier den Brückensatz aus&quot;, &quot;lead&quot;: &quot;Schreib einen Gedanken und hinterlasse die Zeile, mit der du nächstes Mal weitermachst. Der Ablauf ist derselbe wie in der App.&quot;, &quot;resume&quot;: &quot;Hier weitermachen&quot;, &quot;bridgeName&quot;: &quot;Brückensatz&quot;, &quot;leftOff&quot;: &quot;Hier hast du aufgehört&quot;, &quot;flow&quot;: &quot;Bisheriger Verlauf&quot;, &quot;latest&quot;: &quot;Letzter Gedanke&quot;, &quot;note&quot;: &quot;Notiz&quot;, &quot;core&quot;: &quot;Kernpunkt&quot;, &quot;continue&quot;: &quot;Weiterdenken&quot;, &quot;thinking&quot;: &quot;Gerade im Fluss&quot;, &quot;next&quot;: &quot;Weiter&quot;, &quot;bridging&quot;: &quot;Brückensatz hinterlassen&quot;, &quot;lock&quot;: &quot;Hinterlasse einen Brückensatz, um zu schließen&quot;, &quot;bridgeTitle&quot;: &quot;Hör auf, solange es läuft&quot;, &quot;bridgeLabel&quot;: &quot;Brückensatz hinterlassen&quot;, &quot;done&quot;: &quot;Fertig&quot;, &quot;thread&quot;: &quot;Scrollen vs. Fokus&quot;, &quot;bridge&quot;: &quot;Wenn ich also ‚bewusste Langeweile‘ einplane – kommt das tiefe Denken dann zurück?&quot;, &quot;coreText&quot;: &quot;Der Unterschied in der Belohnungsverzögerung bremst das tiefe Denken&quot;, &quot;last&quot;: &quot;Wenn ich ohne Handy spazieren gehe, spinnen sich die Gedanken von allein weiter. Vielleicht ruft Langeweile das Denken herbei.&quot;, &quot;ex1&quot;: &quot;Was, wenn ich Langeweile nicht mehr meide, sondern einplane? Jeden Tag 20 Minuten Nichtstun.&quot;, &quot;ex2&quot;: &quot;Wenn ich jeden Tag zur selben Zeit 20 langweilige Minuten habe – welche Gedanken tauchen dann auf?&quot;, &quot;useExample&quot;: &quot;Beispiel einsetzen&quot;, &quot;later&quot;: &quot;So empfängt dich die App beim nächsten Mal: Der Satz, den du gerade hinterlassen hast, steht ganz oben.&quot;, &quot;again&quot;: &quot;Noch mal von vorn&quot;}"></div>
+    </section>
 
-  <h2>Kontakt</h2>
-  <p>
-    Fehlermeldungen, Ideen für neue Funktionen oder was auch immer dir auf dem Herzen liegt – wir freuen uns auf deine Nachricht.<br>
-    📧 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br>
-    🐙 <a href="https://github.com/M1zz/ThinkFlow/issues">GitHub Issues</a>
-  </p>
+    <section class="problem reveal">
+      <h2>Wo war ich eigentlich stehen geblieben?</h2>
+      <p>Du öffnest eine Notiz von letzter Woche und findest ein paar Schlussfolgerungen, aber nicht die Frage, der du als Nächstes nachgehen wolltest. Also fängst du von vorn an. ThinkFlow lässt dich diese nächste Frage beim Aufhören festhalten, damit du beim Zurückkommen direkt dort einsteigst.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Dein Brückensatz wartet ganz oben</h2>
+        <p>Beende eine Denkrunde mit einer Zeile: der Frage, mit der es weitergeht. Wenn du zurückkommst, stehen dieser Satz, die bisherigen Kernpunkte und dein letzter Gedanke auf einer Karte. Du musst nichts rekonstruieren.<br>Der Brückensatz erscheint auch im Widget auf dem Home-Bildschirm, und während du denkst, läuft die Zeit auf dem Sperrbildschirm und in der Dynamic Island.</p>
+      </div>
+      <div class="phone"><img src="../img/de/02-continue.jpg" alt="Dein Brückensatz wartet ganz oben" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Von der Notiz zum Kernpunkt</h2>
+        <p>Heb jeden Gedanken durch vier Stufen: Notiz, geordnet, Kernpunkt und Zusammenfassung. So siehst du auf einen Blick, wie weit er gereift ist.<br>Was du nachgeschlagen oder gefragt hast, hängst du als Referenz an, getrennt von deinen eigenen Gedanken.</p>
+      </div>
+      <div class="phone"><img src="../img/de/04-thread.jpg" alt="Von der Notiz zum Kernpunkt" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Erst mal den Kopf leeren</h2>
+        <p>Schreib alles auf, was dir durch den Kopf geht, eine Zeile pro Gedanke, und wähl den, an dem du jetzt arbeiten willst. Daraus wird ein Gedankenfaden; der Rest wartet auf dem Startbildschirm, bis du ihn antippst.<br>Gedanken, die du länger als drei Tage nicht angefasst hast, landen unter Gedanken zum Wiederbeleben.</p>
+      </div>
+      <div class="phone"><img src="../img/de/05-dump.jpg" alt="Erst mal den Kopf leeren" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>In drei Schritten loslegen</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Kopf leeren</h3><p>Eine Zeile pro Gedanke, dann den wählen, der wachsen soll.</p></li>
+<li class="card"><span class="n">2</span><h3>Weiterdenken</h3><p>Neue Ideen einzeln hinzufügen, dann lassen sie sich später leichter verfeinern.</p></li>
+<li class="card"><span class="n">3</span><h3>Brückensatz setzen und schließen</h3><p>Beim nächsten Mal startest du genau dort.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Verfeinerungsstufe</h2>
+      <div class="card table">
+        <dl><div><dt>Notiz</dt><dd>Roher Gedanke</dd></div><div><dt>Geordnet</dt><dd>Einmal geordnet</dd></div><div><dt>Kernpunkt</dt><dd>Nur das Wesentliche</dd></div><div><dt>Zusammenfassung</dt><dd>Endgültige Zusammenfassung</dd></div></dl>
+      </div>
+      <p class="muted">Tippe auf das Stufen-Abzeichen neben einem Gedanken, um sie zu ändern. Kernpunkte und Zusammenfassungen stehen beim nächsten Öffnen zuerst auf der Karte.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Dein Brückensatz wartet ganz oben</h2>
+      <div class="faq"><details><summary>Muss ich einen Brückensatz schreiben?</summary><p>Wenn du etwas hinzugefügt hast, ja: Der Bildschirm Weiterdenken schließt sich erst, wenn du die nächste Zeile hinterlässt. Hast du nichts geschrieben, kannst du ihn einfach schließen. Der Trick: aufhören, solange du noch etwas zu sagen hast, nicht erst, wenn du feststeckst.</p></details>
+<details><summary>Was sind Gedanken zum Wiederbeleben?</summary><p>Fäden, die du länger als drei Tage nicht geöffnet hast, werden auf dem Startbildschirm gesondert gesammelt. So kann auch ein fast vergessener Gedanke an seinem Brückensatz weitergehen.</p></details>
+<details><summary>Wie melde ich einen Fehler oder schlage etwas vor?</summary><p>Nutze Feedback senden in den Einstellungen der App, schreib an die Adresse unten oder eröffne ein Issue unter github.com/M1zz/ThinkFlow/issues. Alles ist willkommen.</p></details>
+<details><summary>Ist wirklich alles kostenlos?</summary><p>Ja. Alle Funktionen sind kostenlos, ohne Werbung und ohne Konto. „Entwickler unterstützen“ in den Einstellungen ist freiwillig und schaltet nichts frei.</p></details></div>
+      <p class="contact">Fragen oder Feedback? Schreib an <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Mach weiter,<br>wo du aufgehört hast</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6779270691">Kostenlos im App Store laden</a>
+    </section>
+  </main>
 
   <footer>
-    <p><a href="privacy.html">Datenschutzerklärung</a></p>
-    <p>© 2026 Leeo. All rights reserved.</p>
+    <nav id="languages" class="langs" aria-label="Sprache"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de" aria-current="page">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Datenschutzerklärung</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

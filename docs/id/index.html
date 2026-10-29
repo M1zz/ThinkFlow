@@ -1,167 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ThinkFlow — Dukungan</title>
-<style>
-  :root {
-    --accent: #f97316;
-    --text: #1c1c1e;
-    --secondary: #6e6e73;
-    --bg: #ffffff;
-    --card: #f5f5f7;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --text: #f5f5f7;
-      --secondary: #98989d;
-      --bg: #1c1c1e;
-      --card: #2c2c2e;
-    }
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
-  }
-  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-  header { text-align: center; margin-bottom: 48px; }
-  .app-icon { font-size: 64px; line-height: 1; }
-  h1 { font-size: 28px; margin-top: 12px; }
-  .tagline { color: var(--secondary); font-size: 16px; margin-top: 6px; }
-  h2 {
-    font-size: 20px;
-    margin: 40px 0 12px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid var(--accent);
-    display: inline-block;
-  }
-  p { margin-bottom: 12px; }
-  .card {
-    background: var(--card);
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 12px;
-  }
-  .card h3 { font-size: 16px; margin-bottom: 6px; }
-  .card p { color: var(--secondary); font-size: 15px; margin: 0; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  ul { padding-left: 20px; margin-bottom: 12px; }
-  li { margin-bottom: 6px; }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid var(--card);
-    color: var(--secondary);
-    font-size: 14px;
-    text-align: center;
-  }
-</style>
-<link rel="canonical" href="https://m1zz.github.io/ThinkFlow/id/">
-<!--HREFLANG-->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/en/">
-<style>.langnav{display:flex;flex-wrap:wrap;gap:6px 12px;justify-content:center;font-size:13px;margin:-24px 0 32px;color:var(--secondary)}.langnav a{color:var(--secondary)}.langnav a[aria-current]{color:var(--accent);font-weight:600}</style>
-<!--/HREFLANG-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThinkFlow: lanjutkan pikiran persis dari tempat kamu berhenti</title>
+  <meta name="description" content="Akhiri setiap sesi berpikir dengan kalimat jembatan, dan lain kali kamu lanjut dari situ. Semua fitur gratis dan semua catatan tetap di perangkatmu.">
+  <meta name="theme-color" content="#C2410C" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6779270691">
+  <link rel="canonical" href="https://m1zz.github.io/ThinkFlow/id/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ThinkFlow: lanjutkan pikiran persis dari tempat kamu berhenti">
+  <meta property="og:description" content="Akhiri setiap sesi berpikir dengan kalimat jembatan, dan lain kali kamu lanjut dari situ. Semua fitur gratis dan semua catatan tetap di perangkatmu.">
+  <meta property="og:url" content="https://m1zz.github.io/ThinkFlow/id/">
+  <meta property="og:image" content="https://m1zz.github.io/ThinkFlow/img/id/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C2410C}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="container">
-<!--LANGNAV-->
-<nav class="langnav" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id" aria-current="page">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
-<!--/LANGNAV-->
-  <header>
-    <div class="app-icon">🧠</div>
-    <h1>ThinkFlow</h1>
-    <p class="tagline">Pikiran tak harus selesai sekali jadi — jeda, lanjutkan, lalu matangkan</p>
+  <a class="skip" href="#main">Langsung ke konten</a>
+  <header class="bar">
+    <a class="brand" href="../id/"><img src="../icon.png" alt="" width="32" height="32">ThinkFlow</a>
+    <a class="lang-link" href="#languages">Bahasa</a>
   </header>
 
-  <h2>Tentang ThinkFlow</h2>
-  <p>
-    Saat tulisannya sedang lancar, Hemingway justru sengaja berhenti di tengah kalimat dan mengakhiri hari.
-    Kalimat yang belum selesai itu membuatnya mudah kembali menulis keesokan harinya.
-    ThinkFlow menerapkan cara ini pada proses berpikir. Tuangkan pikiran yang muncul dengan santai,
-    dan saat berhenti, <strong>tinggalkan kalimat yang akan kamu lanjutkan</strong>. Saat membuka aplikasi lagi, kamu langsung melanjutkan dari kalimat itu.
-  </p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Pikiran yang tertunda kemarin,<br>hari ini lanjut dari titik yang sama</h1>
+        <p class="lead">Saat berhenti berpikir, tinggalkan satu baris untuk dilanjutkan. Saat membuka aplikasi lagi, baris itu menunggu di paling atas.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6779270691">Unduh gratis di App Store</a><a class="try" href="#try">Coba tinggalkan kalimat jembatan ↓</a></div>
+        <p class="muted small">Semua fitur gratis. Tanpa akun, semuanya tetap di perangkatmu.</p>
+      </div>
+      <div class="phone"><img src="../img/id/01-home.jpg" alt="Pikiran yang tertunda kemarin, hari ini lanjut dari titik yang sama" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <h2>Fitur Utama</h2>
-  <div class="card">
-    <h3>💭 Tuangkan Pikiran (brain dump)</h3>
-    <p>Curahkan semua pikiran yang berseliweran di kepala sekaligus, baris demi baris, lalu pilih yang ingin dikembangkan untuk dijadikan utas.</p>
-  </div>
-  <div class="card">
-    <h3>🌉 Kalimat Jembatan ala Hemingway</h3>
-    <p>Saat mengakhiri sesi berpikir, tulis kalimat setengah jadi yang akan kamu lanjutkan nanti. Saat kembali, konteks tempat kamu berhenti langsung pulih.</p>
-  </div>
-  <div class="card">
-    <h3>📚 Peringkasan Bertahap (Progressive Summarization)</h3>
-    <p>Matangkan pikiranmu dengan membawa catatan yang terkumpul melewati empat lapisan: catatan → tertata → inti → ringkasan.</p>
-  </div>
-  <div class="card">
-    <h3>📎 Lampirkan Riset dan Referensi</h3>
-    <p>Jawaban atas pertanyaanmu ke Claude atau bahan hasil risetmu bisa dilampirkan di alur yang sama, terpisah dari pikiranmu sendiri.</p>
-  </div>
-  <div class="card">
-    <h3>📱 Widget &amp; Aktivitas Langsung</h3>
-    <p>Widget Layar Utama selalu menampilkan kalimat jembatanmu, dan selama sesi berpikir, timer tampil di Layar Terkunci dan Dynamic Island.</p>
-  </div>
 
-  <h2>Pertanyaan Umum</h2>
-  <div class="card">
-    <h3>Di mana pikiranku disimpan?</h3>
-    <p>Semua pikiranmu hanya disimpan di perangkatmu. Pikiran itu tidak dikirim ke server, dan pengembang pun tidak bisa melihatnya. Satu-satunya yang keluar dari perangkat adalah apa yang kamu kirim sendiri lewat &ldquo;Kirim Masukan&rdquo; di Pengaturan. Selengkapnya bisa kamu baca di <a href="privacy.html">Kebijakan Privasi</a>.</p>
-  </div>
-  <div class="card">
-    <h3>Bisakah aku mencadangkan atau memindahkan data?</h3>
-    <p>Kamu bisa mengekspor semua pikiran sebagai file Markdown atau JSON lewat menu Ekspor di kanan atas layar beranda aplikasi. Untuk menyimpannya, bagikan file ke app File, Catatan, Mail, atau app lainnya.</p>
-  </div>
-  <div class="card">
-    <h3>Apa yang terjadi pada data jika aplikasi dihapus?</h3>
-    <p>Jika aplikasi dihapus, semua pikiran yang tersimpan di perangkat ikut terhapus. Cadangkan dulu lewat Ekspor sebelum menghapus.</p>
-  </div>
-  <div class="card">
-    <h3>Widget tidak diperbarui</h3>
-    <p>Widget diperbarui paling lambat setiap 30 menit, dan aplikasi langsung meminta pembaruan saat kamu menambahkan pikiran. Jika isinya masih belum diperbarui, coba buka aplikasinya.</p>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Coba tinggalkan kalimat jembatan</h2>
+      <p class="muted">Tulis satu pikiran, lalu tinggalkan kalimat yang akan kamu lanjutkan nanti. Urutannya sama persis dengan di aplikasi.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Coba tinggalkan kalimat jembatan&quot;, &quot;lead&quot;: &quot;Tulis satu pikiran, lalu tinggalkan kalimat yang akan kamu lanjutkan nanti. Urutannya sama persis dengan di aplikasi.&quot;, &quot;resume&quot;: &quot;Lanjut dari sini&quot;, &quot;bridgeName&quot;: &quot;Kalimat Jembatan&quot;, &quot;leftOff&quot;: &quot;Kamu berhenti di sini&quot;, &quot;flow&quot;: &quot;Alur sejauh ini&quot;, &quot;latest&quot;: &quot;Pikiran terakhir&quot;, &quot;note&quot;: &quot;Catatan&quot;, &quot;core&quot;: &quot;Inti&quot;, &quot;continue&quot;: &quot;Lanjut Berpikir&quot;, &quot;thinking&quot;: &quot;Pikiran yang sedang berlanjut&quot;, &quot;next&quot;: &quot;Lanjut&quot;, &quot;bridging&quot;: &quot;Tinggalkan Kalimat Jembatan&quot;, &quot;lock&quot;: &quot;Tinggalkan kalimat jembatan untuk menutup&quot;, &quot;bridgeTitle&quot;: &quot;Berhenti saat sedang lancar&quot;, &quot;bridgeLabel&quot;: &quot;Tinggalkan kalimat jembatan&quot;, &quot;done&quot;: &quot;Selesai&quot;, &quot;thread&quot;: &quot;Scroll vs fokus&quot;, &quot;bridge&quot;: &quot;Kalau begitu, jika aku merancang ‘kebosanan yang disengaja’, apakah kemampuan berpikir mendalam akan kembali?&quot;, &quot;coreText&quot;: &quot;Selisih waktu menunggu imbalan menghambat cara berpikir mendalam&quot;, &quot;last&quot;: &quot;Kalau jalan-jalan tanpa bawa HP, pikiran mengalir dengan sendirinya. Jangan-jangan rasa bosanlah yang memanggil pikiran.&quot;, &quot;ex1&quot;: &quot;Bagaimana kalau berhenti menghindari bosan dan malah menjadwalkannya? Dua puluh menit sehari tanpa melakukan apa pun.&quot;, &quot;ex2&quot;: &quot;Kalau setiap hari ada 20 menit membosankan di jam yang sama, pikiran apa yang akan muncul?&quot;, &quot;useExample&quot;: &quot;Pakai contoh&quot;, &quot;later&quot;: &quot;Begini tampilannya saat kamu membuka lagi: kalimat yang baru kamu tinggalkan ada di paling atas.&quot;, &quot;again&quot;: &quot;Ulangi dari awal&quot;}"></div>
+    </section>
 
-  <h2>Hubungi Kami</h2>
-  <p>
-    Laporan bug, usulan fitur, atau masukan apa pun akan kami sambut dengan senang hati.<br>
-    📧 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br>
-    🐙 <a href="https://github.com/M1zz/ThinkFlow/issues">GitHub Issues</a>
-  </p>
+    <section class="problem reveal">
+      <h2>Tadi sampai mana, ya?</h2>
+      <p>Kamu membuka catatan beberapa hari lalu dan hanya menemukan beberapa kesimpulan, bukan pertanyaan yang tadinya mau kamu pikirkan berikutnya. Akhirnya mulai lagi dari nol. ThinkFlow membuatmu meninggalkan pertanyaan berikutnya saat berhenti, jadi begitu kembali kamu langsung mulai dari situ.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Kalimat jembatan menunggu di atas</h2>
+        <p>Akhiri sesi dengan satu baris: pertanyaan untuk dilanjutkan. Saat kembali, kalimat itu, inti sejauh ini, dan pikiran terakhir ada di satu kartu. Tidak perlu mengingat-ingat lagi.<br>Kalimat jembatan juga tampil di widget Layar Utama, dan selama berpikir, waktunya berjalan di Layar Kunci dan Dynamic Island.</p>
+      </div>
+      <div class="phone"><img src="../img/id/02-continue.jpg" alt="Kalimat jembatan menunggu di atas" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Dari catatan ke inti</h2>
+        <p>Naikkan setiap pikiran lewat empat tingkat: catatan, tertata, inti, dan ringkasan. Sekali lihat, kamu tahu seberapa matang pikiran itu.<br>Hasil pencarian atau pertanyaanmu dilampirkan sebagai referensi, terpisah dari pikiranmu sendiri.</p>
+      </div>
+      <div class="phone"><img src="../img/id/04-thread.jpg" alt="Dari catatan ke inti" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Kosongkan kepala dulu</h2>
+        <p>Tulis semua yang ada di kepala, satu baris per pikiran, lalu pilih yang ingin kamu dalami sekarang. Pikiran itu jadi utas, sisanya menunggu di layar utama sampai kamu mengetuknya.<br>Pikiran yang tidak disentuh lebih dari tiga hari dikumpulkan di Pikiran untuk dihidupkan lagi.</p>
+      </div>
+      <div class="phone"><img src="../img/id/05-dump.jpg" alt="Kosongkan kepala dulu" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Mulai dalam tiga langkah</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Tuangkan pikiran</h3><p>Satu baris per pikiran, lalu pilih yang layak dikembangkan.</p></li>
+<li class="card"><span class="n">2</span><h3>Lanjut berpikir</h3><p>Tambahkan setiap ide baru secara terpisah supaya mudah dimatangkan nanti.</p></li>
+<li class="card"><span class="n">3</span><h3>Tinggalkan kalimat, lalu tutup</h3><p>Lain kali kamu mulai dari kalimat itu.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Tingkat pematangan</h2>
+      <div class="card table">
+        <dl><div><dt>Catatan</dt><dd>Pikiran mentah</dd></div><div><dt>Tertata</dt><dd>Sekali ditata</dd></div><div><dt>Inti</dt><dd>Hanya intinya</dd></div><div><dt>Ringkasan</dt><dd>Ringkasan akhir</dd></div></dl>
+      </div>
+      <p class="muted">Ketuk label tingkat di samping pikiran untuk mengubahnya. Inti dan ringkasan tampil lebih dulu di kartu saat kamu kembali.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Kalimat jembatan menunggu di atas</h2>
+      <div class="faq"><details><summary>Apakah kalimat jembatan wajib ditulis?</summary><p>Kalau kamu sudah menambahkan sesuatu, ya: layar Lanjut Berpikir baru bisa ditutup setelah kamu meninggalkan baris berikutnya. Kalau belum menulis apa-apa, tutup saja. Kuncinya, berhenti saat masih ada yang ingin ditulis, bukan saat buntu.</p></details>
+<details><summary>Apa itu Pikiran untuk dihidupkan lagi?</summary><p>Utas yang tidak kamu buka lebih dari tiga hari dikumpulkan tersendiri di layar utama, jadi pikiran yang hampir terlupa bisa lanjut dari kalimat jembatannya.</p></details>
+<details><summary>Bagaimana cara melaporkan bug atau memberi usulan?</summary><p>Gunakan Kirim Masukan di pengaturan aplikasi, kirim email ke alamat di bawah, atau buka issue di github.com/M1zz/ThinkFlow/issues. Semua masukan kami sambut.</p></details>
+<details><summary>Benar semuanya gratis?</summary><p>Benar. Semua fitur gratis, tanpa iklan dan tanpa akun. “Dukung Pengembang” di pengaturan sepenuhnya opsional dan tidak membuka fitur tambahan.</p></details></div>
+      <p class="contact">Ada pertanyaan atau masukan? Kirim email ke <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Lanjutkan dari<br>tempat kamu berhenti</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6779270691">Unduh gratis di App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p><a href="privacy.html">Kebijakan Privasi</a></p>
-    <p>© 2026 Leeo. All rights reserved.</p>
+    <nav id="languages" class="langs" aria-label="Bahasa"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id" aria-current="page">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Kebijakan Privasi</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

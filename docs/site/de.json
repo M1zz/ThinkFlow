@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: Gedanken genau dort fortsetzen, wo du aufgehört hast",
+  "description": "Hinterlasse am Ende einen Brückensatz, beim nächsten Öffnen geht es dort weiter. Alle Funktionen sind kostenlos, alles bleibt auf deinem Gerät.",
+  "hero": {
+    "headline": "Der Gedanke von gestern,\nheute genau an der Stelle weiter",
+    "lead": "Hörst du auf zu denken, hinterlässt du eine Zeile zum Weitermachen. Beim nächsten Öffnen wartet sie ganz oben auf dich.",
+    "cta": "Kostenlos im App Store laden",
+    "note": "Alle Funktionen sind kostenlos. Kein Konto, alles bleibt auf deinem Gerät."
+  },
+  "demo": {
+    "title": "Probier den Brückensatz aus",
+    "lead": "Schreib einen Gedanken und hinterlasse die Zeile, mit der du nächstes Mal weitermachst. Der Ablauf ist derselbe wie in der App.",
+    "resume": "Hier weitermachen",
+    "bridgeName": "Brückensatz",
+    "leftOff": "Hier hast du aufgehört",
+    "flow": "Bisheriger Verlauf",
+    "latest": "Letzter Gedanke",
+    "note": "Notiz",
+    "core": "Kernpunkt",
+    "continue": "Weiterdenken",
+    "thinking": "Gerade im Fluss",
+    "next": "Weiter",
+    "bridging": "Brückensatz hinterlassen",
+    "lock": "Hinterlasse einen Brückensatz, um zu schließen",
+    "bridgeTitle": "Hör auf, solange es läuft",
+    "bridgeLabel": "Brückensatz hinterlassen",
+    "done": "Fertig",
+    "thread": "Scrollen vs. Fokus",
+    "bridge": "Wenn ich also ‚bewusste Langeweile‘ einplane – kommt das tiefe Denken dann zurück?",
+    "coreText": "Der Unterschied in der Belohnungsverzögerung bremst das tiefe Denken",
+    "last": "Wenn ich ohne Handy spazieren gehe, spinnen sich die Gedanken von allein weiter. Vielleicht ruft Langeweile das Denken herbei.",
+    "ex1": "Was, wenn ich Langeweile nicht mehr meide, sondern einplane? Jeden Tag 20 Minuten Nichtstun.",
+    "ex2": "Wenn ich jeden Tag zur selben Zeit 20 langweilige Minuten habe – welche Gedanken tauchen dann auf?",
+    "useExample": "Beispiel einsetzen",
+    "later": "So empfängt dich die App beim nächsten Mal: Der Satz, den du gerade hinterlassen hast, steht ganz oben.",
+    "again": "Noch mal von vorn"
+  },
+  "problem": {
+    "title": "Wo war ich eigentlich stehen geblieben?",
+    "text": "Du öffnest eine Notiz von letzter Woche und findest ein paar Schlussfolgerungen, aber nicht die Frage, der du als Nächstes nachgehen wolltest. Also fängst du von vorn an. ThinkFlow lässt dich diese nächste Frage beim Aufhören festhalten, damit du beim Zurückkommen direkt dort einsteigst."
+  },
+  "features": [
+    {
+      "title": "Dein Brückensatz wartet ganz oben",
+      "text": "Beende eine Denkrunde mit einer Zeile: der Frage, mit der es weitergeht. Wenn du zurückkommst, stehen dieser Satz, die bisherigen Kernpunkte und dein letzter Gedanke auf einer Karte. Du musst nichts rekonstruieren.\nDer Brückensatz erscheint auch im Widget auf dem Home-Bildschirm, und während du denkst, läuft die Zeit auf dem Sperrbildschirm und in der Dynamic Island.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "Von der Notiz zum Kernpunkt",
+      "text": "Heb jeden Gedanken durch vier Stufen: Notiz, geordnet, Kernpunkt und Zusammenfassung. So siehst du auf einen Blick, wie weit er gereift ist.\nWas du nachgeschlagen oder gefragt hast, hängst du als Referenz an, getrennt von deinen eigenen Gedanken.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Erst mal den Kopf leeren",
+      "text": "Schreib alles auf, was dir durch den Kopf geht, eine Zeile pro Gedanke, und wähl den, an dem du jetzt arbeiten willst. Daraus wird ein Gedankenfaden; der Rest wartet auf dem Startbildschirm, bis du ihn antippst.\nGedanken, die du länger als drei Tage nicht angefasst hast, landen unter Gedanken zum Wiederbeleben.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "In drei Schritten loslegen",
+    "items": [
+      {
+        "title": "Kopf leeren",
+        "text": "Eine Zeile pro Gedanke, dann den wählen, der wachsen soll."
+      },
+      {
+        "title": "Weiterdenken",
+        "text": "Neue Ideen einzeln hinzufügen, dann lassen sie sich später leichter verfeinern."
+      },
+      {
+        "title": "Brückensatz setzen und schließen",
+        "text": "Beim nächsten Mal startest du genau dort."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Verfeinerungsstufe",
+    "rows": [
+      [
+        "Notiz",
+        "Roher Gedanke"
+      ],
+      [
+        "Geordnet",
+        "Einmal geordnet"
+      ],
+      [
+        "Kernpunkt",
+        "Nur das Wesentliche"
+      ],
+      [
+        "Zusammenfassung",
+        "Endgültige Zusammenfassung"
+      ]
+    ],
+    "note": "Tippe auf das Stufen-Abzeichen neben einem Gedanken, um sie zu ändern. Kernpunkte und Zusammenfassungen stehen beim nächsten Öffnen zuerst auf der Karte."
+  },
+  "faq": {
+    "title": "Dein Brückensatz wartet ganz oben",
+    "items": [
+      {
+        "q": "Muss ich einen Brückensatz schreiben?",
+        "a": "Wenn du etwas hinzugefügt hast, ja: Der Bildschirm Weiterdenken schließt sich erst, wenn du die nächste Zeile hinterlässt. Hast du nichts geschrieben, kannst du ihn einfach schließen. Der Trick: aufhören, solange du noch etwas zu sagen hast, nicht erst, wenn du feststeckst."
+      },
+      {
+        "q": "Was sind Gedanken zum Wiederbeleben?",
+        "a": "Fäden, die du länger als drei Tage nicht geöffnet hast, werden auf dem Startbildschirm gesondert gesammelt. So kann auch ein fast vergessener Gedanke an seinem Brückensatz weitergehen."
+      },
+      {
+        "q": "Wie melde ich einen Fehler oder schlage etwas vor?",
+        "a": "Nutze Feedback senden in den Einstellungen der App, schreib an die Adresse unten oder eröffne ein Issue unter github.com/M1zz/ThinkFlow/issues. Alles ist willkommen."
+      },
+      {
+        "q": "Ist wirklich alles kostenlos?",
+        "a": "Ja. Alle Funktionen sind kostenlos, ohne Werbung und ohne Konto. „Entwickler unterstützen“ in den Einstellungen ist freiwillig und schaltet nichts frei."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Mach weiter,\nwo du aufgehört hast",
+    "cta": "Kostenlos im App Store laden"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "languages": "Sprache",
+    "privacy": "Datenschutzerklärung",
+    "contact": "Fragen oder Feedback? Schreib an {email}."
+  }
+}

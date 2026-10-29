@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: fortsæt tanken lige hvor du slap",
+  "description": "Slut hver tænkerunde med en brosætning, og næste gang fortsætter du derfra. Alle funktioner er gratis, og alt bliver på din enhed.",
+  "hero": {
+    "headline": "Gårsdagens halve tanke\nfortsætter i dag, hvor den slap",
+    "lead": "Når du holder op med at tænke, efterlader du én linje at fortsætte fra. Næste gang du åbner appen, venter den øverst.",
+    "cta": "Hent gratis i App Store",
+    "note": "Alle funktioner er gratis. Ingen konto, alt bliver på din enhed."
+  },
+  "demo": {
+    "title": "Prøv at efterlade en brosætning",
+    "lead": "Skriv en tanke, og efterlad den sætning, du vil fortsætte fra næste gang. Det foregår i samme rækkefølge som i appen.",
+    "resume": "Fortsæt herfra",
+    "bridgeName": "Brosætning",
+    "leftOff": "Her stoppede du",
+    "flow": "Forløbet indtil nu",
+    "latest": "Seneste tanke",
+    "note": "Note",
+    "core": "Kernen",
+    "continue": "Tænk videre",
+    "thinking": "Tanken lige nu",
+    "next": "Næste",
+    "bridging": "Efterlad en brosætning",
+    "lock": "Efterlad en brosætning for at lukke",
+    "bridgeTitle": "Stop, mens det går godt",
+    "bridgeLabel": "Efterlad en brosætning",
+    "done": "Færdig",
+    "thread": "Scrolling vs. fokus",
+    "bridge": "Hvis jeg så planlægger ‘bevidst kedsomhed’, kommer den dybe tænkning så tilbage?",
+    "coreText": "Forskellen i ventetid på belønning står i vejen for dyb tænkning",
+    "last": "Når jeg går en tur uden telefonen, hænger tankerne af sig selv sammen. Måske er det kedsomheden, der kalder på tankerne.",
+    "ex1": "Hvad hvis jeg holdt op med at undgå kedsomhed og satte den i kalenderen? Tyve minutter om dagen uden at lave noget.",
+    "ex2": "Hvis jeg har 20 kedelige minutter på samme tid hver dag, hvilke tanker dukker så op?",
+    "useExample": "Brug et eksempel",
+    "later": "Sådan møder appen dig næste gang: Sætningen, du lige efterlod, står øverst.",
+    "again": "Start forfra"
+  },
+  "problem": {
+    "title": "Hvor var jeg nu henne?",
+    "text": "Du åbner en note fra sidste uge og finder et par konklusioner, men ikke det spørgsmål, du ville have kigget på bagefter. Så du starter forfra. ThinkFlow får dig til at skrive det næste spørgsmål ned, når du stopper, så du begynder lige der, når du vender tilbage."
+  },
+  "features": [
+    {
+      "title": "Din brosætning venter øverst",
+      "text": "Slut en tænkerunde med én linje: spørgsmålet, du fortsætter med. Når du vender tilbage, står den sætning, kernen indtil nu og din seneste tanke på ét kort. Der er intet at stykke sammen.\nDu ser den også i en widget på hjemmeskærmen, og mens du tænker, kører tiden på låseskærmen og i Dynamic Island.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "Fra note til kerne",
+      "text": "Løft hver tanke gennem fire niveauer: note, ordnet, kernen og resumé. Du ser med det samme, hvor moden den er.\nDet, du har søgt eller spurgt om, vedhæftes som materiale, adskilt fra dine egne tanker.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Tøm hovedet først",
+      "text": "Skriv alt ned, der kører rundt i hovedet, én linje pr. tanke, og vælg den, du vil arbejde med nu. Den bliver til en tråd, resten venter på forsiden, til du trykker på det.\nTanker, du ikke har rørt i over tre dage, samles under Tanker at vække til live.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Kom i gang i tre trin",
+    "items": [
+      {
+        "title": "Tøm hovedet",
+        "text": "Én linje pr. tanke, og vælg så den, der skal vokse."
+      },
+      {
+        "title": "Tænk videre",
+        "text": "Tilføj hver ny idé for sig, så er den nemmere at finpudse senere."
+      },
+      {
+        "title": "Efterlad sætningen og luk",
+        "text": "Næste gang starter du lige der."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Udfinningsniveau",
+    "rows": [
+      [
+        "Note",
+        "Rå tanke"
+      ],
+      [
+        "Ordnet",
+        "Ordnet én gang"
+      ],
+      [
+        "Kernen",
+        "Kun kernen"
+      ],
+      [
+        "Resumé",
+        "Endeligt resumé"
+      ]
+    ],
+    "note": "Tryk på niveaumærket ved en tanke for at ændre det. Kerne og resumé vises først på kortet, når du vender tilbage."
+  },
+  "faq": {
+    "title": "Din brosætning venter øverst",
+    "items": [
+      {
+        "q": "Skal jeg skrive en brosætning?",
+        "a": "Hvis du har tilføjet noget, ja: Skærmen Tænk videre lukker først, når du efterlader den næste linje. Har du ikke skrevet noget, kan du bare lukke den. Tricket er at stoppe, mens du stadig har noget at sige, ikke når du sidder fast."
+      },
+      {
+        "q": "Hvad er Tanker at vække til live?",
+        "a": "Tråde, du ikke har åbnet i over tre dage, samles for sig på forsiden, så en næsten glemt tanke kan fortsætte fra sin brosætning."
+      },
+      {
+        "q": "Hvordan melder jeg en fejl eller foreslår noget?",
+        "a": "Brug Send feedback i appens indstillinger, skriv til adressen nedenfor, eller opret et issue på github.com/M1zz/ThinkFlow/issues. Alt er velkomment."
+      },
+      {
+        "q": "Er det virkelig helt gratis?",
+        "a": "Ja. Alle funktioner er gratis, uden reklamer og uden konto. “Støt udvikleren” i indstillingerne er helt frivilligt og låser ikke noget op."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Fortsæt\nhvor du slap",
+    "cta": "Hent gratis i App Store"
+  },
+  "ui": {
+    "skip": "Gå til indhold",
+    "languages": "Sprog",
+    "privacy": "Privatlivspolitik",
+    "contact": "Spørgsmål eller forslag? Skriv til {email}."
+  }
+}

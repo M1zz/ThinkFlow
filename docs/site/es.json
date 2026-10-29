@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: retoma tus ideas justo donde las dejaste",
+  "description": "Al terminar, deja una frase puente y la próxima vez seguirás desde ahí. Todas las funciones son gratis y tus notas se quedan en tu dispositivo.",
+  "hero": {
+    "headline": "La idea que ayer quedó a medias,\nhoy sigue donde estaba",
+    "lead": "Cuando pares de pensar, deja una línea para continuar. La próxima vez que abras la app, esa línea te espera arriba del todo.",
+    "cta": "Descárgala gratis en el App Store",
+    "note": "Todas las funciones son gratis. Sin cuenta: todo se queda en tu dispositivo."
+  },
+  "demo": {
+    "title": "Deja tu frase puente",
+    "lead": "Escribe una idea y deja la frase con la que seguirás la próxima vez. Funciona en el mismo orden que la app.",
+    "resume": "Seguir desde aquí",
+    "bridgeName": "Frase puente",
+    "leftOff": "Lo dejaste aquí",
+    "flow": "El hilo hasta ahora",
+    "latest": "Última idea",
+    "note": "Nota",
+    "core": "Clave",
+    "continue": "Seguir pensando",
+    "thinking": "Lo que piensas ahora",
+    "next": "Siguiente",
+    "bridging": "Dejar una frase puente",
+    "lock": "Deja una frase puente para poder cerrar",
+    "bridgeTitle": "Para mientras vas lanzado",
+    "bridgeLabel": "Deja una frase puente",
+    "done": "Listo",
+    "thread": "Scroll vs enfoque",
+    "bridge": "Entonces, si diseño un ‘aburrimiento intencionado’, ¿volverá el pensamiento profundo?",
+    "coreText": "La diferencia en la espera de la recompensa frena el pensamiento profundo",
+    "last": "Cuando salgo a pasear sin el móvil, las ideas fluyen solas. ¿Será que el aburrimiento invita a pensar?",
+    "ex1": "¿Y si dejo de huir del aburrimiento y lo meto en la agenda? Veinte minutos al día sin hacer nada.",
+    "ex2": "Si cada día reservo 20 minutos aburridos a la misma hora, ¿qué ideas aparecerán?",
+    "useExample": "Usar un ejemplo",
+    "later": "Así te recibirá la próxima vez: la frase que acabas de dejar está arriba del todo.",
+    "again": "Volver a empezar"
+  },
+  "problem": {
+    "title": "¿Por dónde iba yo?",
+    "text": "Abres una nota de hace unos días y solo quedan un par de conclusiones; la pregunta que ibas a explorar después ha desaparecido. Y toca empezar de cero. ThinkFlow te pide dejar esa siguiente pregunta al parar, para que al volver arranques justo desde ella."
+  },
+  "features": [
+    {
+      "title": "Tu frase puente te espera arriba",
+      "text": "Al terminar, deja una sola línea: la pregunta para seguir. Al volver, esa frase, lo esencial hasta ahora y tu última idea están en una misma tarjeta, así que no tienes que reconstruir nada.\nTambién la ves en un widget de la pantalla de inicio, y mientras piensas el tiempo corre en la pantalla de bloqueo y en la Isla Dinámica.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "De la nota a lo esencial",
+      "text": "Sube cada idea por cuatro niveles: nota, ordenado, clave y resumen. Verás de un vistazo cuánto ha madurado.\nLo que buscaste o consultaste se adjunta como referencia, separado de tus propias ideas.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Primero, vacía la cabeza",
+      "text": "Escribe todo lo que te ronda, una línea por idea, y elige la que quieres trabajar ahora: se convierte en un hilo. El resto espera en la pantalla principal hasta que lo toques.\nLas ideas que llevas más de tres días sin tocar se reúnen en Ideas por retomar.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Empieza en tres pasos",
+    "items": [
+      {
+        "title": "Vuelca tus ideas",
+        "text": "Una por línea; luego elige la que vale la pena desarrollar."
+      },
+      {
+        "title": "Sigue pensando",
+        "text": "Añade cada idea nueva por separado para afinarla mejor después."
+      },
+      {
+        "title": "Deja la frase y cierra",
+        "text": "La próxima vez empiezas desde esa frase."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Nivel de refinado",
+    "rows": [
+      [
+        "Nota",
+        "Idea en bruto"
+      ],
+      [
+        "Ordenado",
+        "Ordenado una vez"
+      ],
+      [
+        "Clave",
+        "Solo lo clave"
+      ],
+      [
+        "Resumen",
+        "Resumen final"
+      ]
+    ],
+    "note": "Toca la etiqueta de nivel junto a una idea para cambiarla. Lo clave y los resúmenes aparecen primero en la tarjeta al volver."
+  },
+  "faq": {
+    "title": "Tu frase puente te espera arriba",
+    "items": [
+      {
+        "q": "¿Tengo que escribir la frase puente sí o sí?",
+        "a": "Si añadiste algo, sí: la pantalla Seguir pensando solo se cierra cuando dejas la siguiente línea. Si no escribiste nada, puedes cerrarla sin más. El truco es parar cuando aún tienes algo que decir, no cuando te atascas."
+      },
+      {
+        "q": "¿Qué son las Ideas por retomar?",
+        "a": "Los hilos que llevas más de tres días sin abrir se agrupan aparte en la pantalla principal, para que una idea olvidada pueda seguir desde su frase puente."
+      },
+      {
+        "q": "¿Cómo informo de un error o propongo algo?",
+        "a": "Usa Enviar comentarios en los ajustes de la app, escribe a la dirección de abajo o abre un issue en github.com/M1zz/ThinkFlow/issues. Todo es bienvenido."
+      },
+      {
+        "q": "¿De verdad es todo gratis?",
+        "a": "Sí. Todas las funciones son gratis, sin anuncios y sin cuenta. «Apoya al desarrollador» en Ajustes es totalmente opcional y no desbloquea nada."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Retoma justo\ndonde lo dejaste",
+    "cta": "Descárgala gratis en el App Store"
+  },
+  "ui": {
+    "skip": "Ir al contenido",
+    "languages": "Idioma",
+    "privacy": "Política de privacidad",
+    "contact": "¿Dudas o sugerencias? Escribe a {email}."
+  }
+}

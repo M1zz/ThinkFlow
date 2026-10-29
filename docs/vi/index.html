@@ -1,167 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ThinkFlow — Hỗ trợ</title>
-<style>
-  :root {
-    --accent: #f97316;
-    --text: #1c1c1e;
-    --secondary: #6e6e73;
-    --bg: #ffffff;
-    --card: #f5f5f7;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root {
-      --text: #f5f5f7;
-      --secondary: #98989d;
-      --bg: #1c1c1e;
-      --card: #2c2c2e;
-    }
-  }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Apple SD Gothic Neo", "Pretendard", sans-serif;
-    color: var(--text);
-    background: var(--bg);
-    line-height: 1.7;
-    -webkit-font-smoothing: antialiased;
-  }
-  .container { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
-  header { text-align: center; margin-bottom: 48px; }
-  .app-icon { font-size: 64px; line-height: 1; }
-  h1 { font-size: 28px; margin-top: 12px; }
-  .tagline { color: var(--secondary); font-size: 16px; margin-top: 6px; }
-  h2 {
-    font-size: 20px;
-    margin: 40px 0 12px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid var(--accent);
-    display: inline-block;
-  }
-  p { margin-bottom: 12px; }
-  .card {
-    background: var(--card);
-    border-radius: 12px;
-    padding: 18px 20px;
-    margin-bottom: 12px;
-  }
-  .card h3 { font-size: 16px; margin-bottom: 6px; }
-  .card p { color: var(--secondary); font-size: 15px; margin: 0; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  ul { padding-left: 20px; margin-bottom: 12px; }
-  li { margin-bottom: 6px; }
-  footer {
-    margin-top: 64px;
-    padding-top: 24px;
-    border-top: 1px solid var(--card);
-    color: var(--secondary);
-    font-size: 14px;
-    text-align: center;
-  }
-</style>
-<link rel="canonical" href="https://m1zz.github.io/ThinkFlow/vi/">
-<!--HREFLANG-->
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/ThinkFlow/en/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/en/">
-<style>.langnav{display:flex;flex-wrap:wrap;gap:6px 12px;justify-content:center;font-size:13px;margin:-24px 0 32px;color:var(--secondary)}.langnav a{color:var(--secondary)}.langnav a[aria-current]{color:var(--accent);font-weight:600}</style>
-<!--/HREFLANG-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThinkFlow: nối tiếp suy nghĩ từ đúng chỗ bạn đã dừng</title>
+  <meta name="description" content="Kết thúc bằng một câu nối, lần sau mở ứng dụng là nghĩ tiếp ngay từ đó. Mọi tính năng đều miễn phí và dữ liệu chỉ nằm trên thiết bị của bạn.">
+  <meta name="theme-color" content="#C2410C" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6779270691">
+  <link rel="canonical" href="https://m1zz.github.io/ThinkFlow/vi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/ThinkFlow/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/ThinkFlow/en/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/ThinkFlow/ja/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/ThinkFlow/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/ThinkFlow/zh-Hant/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/ThinkFlow/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/ThinkFlow/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/ThinkFlow/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/ThinkFlow/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/ThinkFlow/pt-BR/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/ThinkFlow/ru/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/ThinkFlow/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/ThinkFlow/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/ThinkFlow/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/ThinkFlow/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/ThinkFlow/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/ThinkFlow/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/ThinkFlow/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/ThinkFlow/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/ThinkFlow/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/ThinkFlow/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/ThinkFlow/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/ThinkFlow/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/ThinkFlow/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ThinkFlow: nối tiếp suy nghĩ từ đúng chỗ bạn đã dừng">
+  <meta property="og:description" content="Kết thúc bằng một câu nối, lần sau mở ứng dụng là nghĩ tiếp ngay từ đó. Mọi tính năng đều miễn phí và dữ liệu chỉ nằm trên thiết bị của bạn.">
+  <meta property="og:url" content="https://m1zz.github.io/ThinkFlow/vi/">
+  <meta property="og:image" content="https://m1zz.github.io/ThinkFlow/img/vi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#C2410C}@media (prefers-color-scheme:dark){:root{--accent:#FF9F0A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<div class="container">
-<!--LANGNAV-->
-<nav class="langnav" aria-label="Language"><a href="../index.html" hreflang="ko" lang="ko">한국어</a><a href="../en/index.html" hreflang="en" lang="en">English</a><a href="../ja/index.html" hreflang="ja" lang="ja">日本語</a><a href="../zh-Hans/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a><a href="../zh-Hant/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a><a href="../es/index.html" hreflang="es" lang="es">Español</a><a href="../de/index.html" hreflang="de" lang="de">Deutsch</a><a href="../fr/index.html" hreflang="fr" lang="fr">Français</a><a href="../it/index.html" hreflang="it" lang="it">Italiano</a><a href="../pt-BR/index.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a><a href="../ru/index.html" hreflang="ru" lang="ru">Русский</a><a href="../th/index.html" hreflang="th" lang="th">ไทย</a><a href="../vi/index.html" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a><a href="../cs/index.html" hreflang="cs" lang="cs">Čeština</a><a href="../da/index.html" hreflang="da" lang="da">Dansk</a><a href="../el/index.html" hreflang="el" lang="el">Ελληνικά</a><a href="../fi/index.html" hreflang="fi" lang="fi">Suomi</a><a href="../id/index.html" hreflang="id" lang="id">Bahasa Indonesia</a><a href="../nb/index.html" hreflang="nb" lang="nb">Norsk bokmål</a><a href="../nl/index.html" hreflang="nl" lang="nl">Nederlands</a><a href="../pl/index.html" hreflang="pl" lang="pl">Polski</a><a href="../sv/index.html" hreflang="sv" lang="sv">Svenska</a><a href="../tr/index.html" hreflang="tr" lang="tr">Türkçe</a></nav>
-<!--/LANGNAV-->
-  <header>
-    <div class="app-icon">🧠</div>
-    <h1>ThinkFlow</h1>
-    <p class="tagline">Không cần nghĩ xong trong một lần. Công cụ giúp bạn tạm dừng, nghĩ tiếp và chắt lọc suy nghĩ.</p>
+  <a class="skip" href="#main">Chuyển đến nội dung</a>
+  <header class="bar">
+    <a class="brand" href="../vi/"><img src="../icon.png" alt="" width="32" height="32">ThinkFlow</a>
+    <a class="lang-link" href="#languages">Ngôn ngữ</a>
   </header>
 
-  <h2>ThinkFlow là ứng dụng như thế nào</h2>
-  <p>
-    Khi đang viết trôi chảy, Hemingway cố tình dừng giữa chừng một câu rồi kết thúc ngày làm việc.
-    Hôm sau, chính câu văn dang dở ấy giúp ông bắt đầu viết lại một cách tự nhiên.
-    ThinkFlow áp dụng cách này vào việc suy nghĩ. Bạn ghi nhanh những ý vừa nảy ra,
-    và khi dừng lại, <strong>hãy để lại câu sẽ nối tiếp</strong>. Lần sau mở ứng dụng, bạn nghĩ tiếp ngay từ câu đó.
-  </p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Suy nghĩ dang dở hôm qua,<br>hôm nay nối tiếp đúng chỗ cũ</h1>
+        <p class="lead">Khi dừng suy nghĩ, hãy để lại một dòng để nghĩ tiếp. Lần sau mở ứng dụng, dòng đó đang chờ ở trên cùng.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6779270691">Tải miễn phí trên App Store</a><a class="try" href="#try">Thử để lại câu nối ↓</a></div>
+        <p class="muted small">Mọi tính năng đều miễn phí. Không cần tài khoản, mọi thứ ở trên thiết bị của bạn.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/01-home.jpg" alt="Suy nghĩ dang dở hôm qua, hôm nay nối tiếp đúng chỗ cũ" width="720" height="1564" decoding="async"></div>
+    </section>
 
-  <h2>Tính năng chính</h2>
-  <div class="card">
-    <h3>💭 Trút suy nghĩ (brain dump)</h3>
-    <p>Trút hết mọi suy nghĩ đang lơ lửng trong đầu, mỗi ý một dòng, rồi chỉ chọn những ý muốn phát triển để tạo thành mạch suy nghĩ.</p>
-  </div>
-  <div class="card">
-    <h3>🌉 Câu nối kiểu Hemingway</h3>
-    <p>Khi kết thúc một phiên suy nghĩ, hãy viết sẵn câu dang dở để nối tiếp lần sau. Khi quay lại, bối cảnh lúc bạn dừng sẽ được khôi phục ngay.</p>
-  </div>
-  <div class="card">
-    <h3>📚 Tóm tắt lũy tiến (Progressive Summarization)</h3>
-    <p>Chắt lọc suy nghĩ bằng cách nâng các ghi chép tích lũy qua bốn lớp: ghi chú → đã sắp xếp → ý chính → tóm tắt.</p>
-  </div>
-  <div class="card">
-    <h3>📎 Đính kèm tra cứu và tài liệu</h3>
-    <p>Câu trả lời bạn nhận được từ Claude hay tài liệu tìm được có thể đính kèm vào cùng mạch suy nghĩ, tách riêng khỏi suy nghĩ của bạn.</p>
-  </div>
-  <div class="card">
-    <h3>📱 Tiện ích và Hoạt động trực tiếp</h3>
-    <p>Tiện ích trên Màn hình chính luôn hiển thị câu nối của bạn, và trong phiên suy nghĩ, bộ hẹn giờ hiện trên Màn hình khóa và Dynamic Island.</p>
-  </div>
 
-  <h2>Câu hỏi thường gặp</h2>
-  <div class="card">
-    <h3>Suy nghĩ của tôi được lưu ở đâu?</h3>
-    <p>Toàn bộ suy nghĩ chỉ được lưu trên thiết bị của bạn. Không có gì được gửi lên máy chủ, và ngay cả nhà phát triển cũng không thể xem. Thứ duy nhất rời khỏi thiết bị là nội dung chính bạn gửi qua &ldquo;Gửi góp ý&rdquo; trong Cài đặt. Xem thêm chi tiết tại <a href="privacy.html">Chính sách quyền riêng tư</a>.</p>
-  </div>
-  <div class="card">
-    <h3>Tôi có thể sao lưu hoặc chuyển dữ liệu sang nơi khác không?</h3>
-    <p>Từ menu Xuất ở góc trên bên phải màn hình đầu tiên của ứng dụng, bạn có thể xuất toàn bộ suy nghĩ thành tệp Markdown hoặc JSON. Hãy chia sẻ sang ứng dụng Tệp, Ghi chú, Mail hoặc nơi khác để lưu giữ.</p>
-  </div>
-  <div class="card">
-    <h3>Nếu xóa ứng dụng thì dữ liệu sẽ ra sao?</h3>
-    <p>Khi xóa ứng dụng, mọi suy nghĩ lưu trên thiết bị cũng bị xóa theo. Hãy sao lưu bằng tính năng Xuất trước khi xóa.</p>
-  </div>
-  <div class="card">
-    <h3>Tiện ích không cập nhật</h3>
-    <p>Tiện ích được làm mới tối đa 30 phút một lần, và mỗi khi bạn thêm suy nghĩ trong ứng dụng, yêu cầu làm mới sẽ được gửi ngay. Nếu nội dung hiển thị đã cũ, hãy mở ứng dụng một lần.</p>
-  </div>
+    <section class="reveal" id="try">
+      <h2>Thử để lại câu nối</h2>
+      <p class="muted">Viết một suy nghĩ rồi để lại câu bạn sẽ nghĩ tiếp lần sau. Các bước giống hệt trong ứng dụng.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Thử để lại câu nối&quot;, &quot;lead&quot;: &quot;Viết một suy nghĩ rồi để lại câu bạn sẽ nghĩ tiếp lần sau. Các bước giống hệt trong ứng dụng.&quot;, &quot;resume&quot;: &quot;Nối tiếp từ đây&quot;, &quot;bridgeName&quot;: &quot;Câu nối&quot;, &quot;leftOff&quot;: &quot;Bạn dừng ở đây&quot;, &quot;flow&quot;: &quot;Mạch nghĩ đến giờ&quot;, &quot;latest&quot;: &quot;Suy nghĩ gần nhất&quot;, &quot;note&quot;: &quot;Ghi chú&quot;, &quot;core&quot;: &quot;Ý chính&quot;, &quot;continue&quot;: &quot;Nghĩ tiếp&quot;, &quot;thinking&quot;: &quot;Suy nghĩ đang nối tiếp&quot;, &quot;next&quot;: &quot;Tiếp&quot;, &quot;bridging&quot;: &quot;Để lại câu nối&quot;, &quot;lock&quot;: &quot;Hãy để lại câu nối rồi mới đóng được&quot;, &quot;bridgeTitle&quot;: &quot;Hãy dừng khi đang hứng khởi&quot;, &quot;bridgeLabel&quot;: &quot;Để lại một câu nối&quot;, &quot;done&quot;: &quot;Xong&quot;, &quot;thread&quot;: &quot;Lướt vs tập trung&quot;, &quot;bridge&quot;: &quot;Vậy nếu chủ động tạo ra ‘sự nhàm chán có chủ đích’, khả năng suy nghĩ sâu có quay lại không?&quot;, &quot;coreText&quot;: &quot;Độ chênh về thời gian chờ phần thưởng đang cản trở suy nghĩ sâu&quot;, &quot;last&quot;: &quot;Khi ra ngoài đi dạo mà không mang điện thoại, ý nghĩ cứ tự nối tiếp nhau. Phải chăng chính sự nhàm chán gọi suy nghĩ đến?&quot;, &quot;ex1&quot;: &quot;Hay là thôi trốn tránh sự nhàm chán mà xếp nó vào lịch? Mỗi ngày 20 phút không làm gì cả.&quot;, &quot;ex2&quot;: &quot;Nếu mỗi ngày dành 20 phút nhàm chán vào cùng một giờ, lúc đó sẽ nảy ra suy nghĩ gì?&quot;, &quot;useExample&quot;: &quot;Dùng câu mẫu&quot;, &quot;later&quot;: &quot;Lần sau mở ra sẽ như thế này: câu bạn vừa để lại nằm ngay trên cùng.&quot;, &quot;again&quot;: &quot;Làm lại từ đầu&quot;}"></div>
+    </section>
 
-  <h2>Liên hệ</h2>
-  <p>
-    Báo lỗi, đề xuất tính năng hay bất cứ điều gì khác, chúng tôi đều sẵn lòng lắng nghe.<br>
-    📧 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a><br>
-    🐙 <a href="https://github.com/M1zz/ThinkFlow/issues">GitHub Issues</a>
-  </p>
+    <section class="problem reveal">
+      <h2>Mình đang nghĩ tới đâu rồi nhỉ?</h2>
+      <p>Mở lại ghi chú từ mấy hôm trước, bạn chỉ thấy vài dòng kết luận, còn câu hỏi định nghĩ tiếp thì đã biến mất. Thế là lại phải nghĩ từ đầu. ThinkFlow nhắc bạn để lại câu hỏi tiếp theo khi dừng, để vừa mở ra là bắt đầu ngay từ câu hỏi đó.</p>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Câu nối chờ bạn ở trên cùng</h2>
+        <p>Khi kết thúc, hãy để lại một dòng: câu hỏi sẽ nghĩ tiếp. Lúc quay lại, câu đó, các ý chính cho đến giờ và suy nghĩ gần nhất nằm chung một thẻ, không cần nhớ lại mình đã nghĩ tới đâu.<br>Câu nối còn hiện trên tiện ích ở Màn hình chính, và trong lúc suy nghĩ, thời gian chạy trên màn hình khóa và Dynamic Island.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/02-continue.jpg" alt="Câu nối chờ bạn ở trên cùng" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Từ ghi chú đến ý chính</h2>
+        <p>Nâng từng suy nghĩ qua bốn mức: ghi chú, đã sắp xếp, ý chính và tóm tắt. Nhìn là biết suy nghĩ đã chín đến đâu.<br>Những gì bạn đã tìm hay hỏi được đính kèm thành tài liệu, tách riêng khỏi suy nghĩ của bạn.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/04-thread.jpg" alt="Từ ghi chú đến ý chính" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Trước tiên, trút hết ra</h2>
+        <p>Viết ra mọi thứ trong đầu, mỗi ý một dòng, rồi chọn ý muốn đào sâu ngay bây giờ: ý đó thành một mạch suy nghĩ. Phần còn lại chờ ở màn hình chính cho tới khi bạn chạm vào.<br>Những suy nghĩ bỏ quên hơn ba ngày được gom vào mục Suy nghĩ cần đánh thức.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/05-dump.jpg" alt="Trước tiên, trút hết ra" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Bắt đầu với ba bước</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Trút suy nghĩ</h3><p>Mỗi ý một dòng, rồi chọn ý đáng phát triển.</p></li>
+<li class="card"><span class="n">2</span><h3>Nghĩ tiếp</h3><p>Thêm từng ý mới riêng rẽ để sau này dễ chắt lọc.</p></li>
+<li class="card"><span class="n">3</span><h3>Để lại câu nối rồi đóng</h3><p>Lần sau bạn bắt đầu từ chính câu đó.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Mức độ chắt lọc</h2>
+      <div class="card table">
+        <dl><div><dt>Ghi chú</dt><dd>Suy nghĩ thô</dd></div><div><dt>Đã sắp xếp</dt><dd>Đã sắp xếp một lần</dd></div><div><dt>Ý chính</dt><dd>Chỉ giữ ý chính</dd></div><div><dt>Tóm tắt</dt><dd>Tóm tắt cuối</dd></div></dl>
+      </div>
+      <p class="muted">Chạm vào nhãn mức bên cạnh một suy nghĩ để đổi. Ý chính và tóm tắt được hiện trước trên thẻ khi bạn quay lại.</p>
+    </section>
+
+
+
+    <section class="reveal" id="faq">
+      <h2>Câu nối chờ bạn ở trên cùng</h2>
+      <div class="faq"><details><summary>Có bắt buộc viết câu nối không?</summary><p>Nếu bạn đã thêm gì đó thì có: màn hình Nghĩ tiếp chỉ đóng khi bạn để lại dòng tiếp theo. Nếu chưa viết gì thì cứ đóng. Bí quyết là dừng khi vẫn còn điều muốn viết, chứ không phải khi bị bí.</p></details>
+<details><summary>Suy nghĩ cần đánh thức là gì?</summary><p>Những mạch suy nghĩ bạn không mở hơn ba ngày được gom riêng ở màn hình chính, để một ý gần như đã quên có thể tiếp tục từ câu nối của nó.</p></details>
+<details><summary>Muốn báo lỗi hoặc góp ý thì làm sao?</summary><p>Dùng mục Gửi góp ý trong cài đặt của ứng dụng, viết thư tới địa chỉ bên dưới hoặc mở issue tại github.com/M1zz/ThinkFlow/issues. Mọi ý kiến đều được hoan nghênh.</p></details>
+<details><summary>Có thật là miễn phí hết không?</summary><p>Có. Mọi tính năng đều miễn phí, không quảng cáo, không cần tài khoản. Mục “Ủng hộ nhà phát triển” trong cài đặt là hoàn toàn tùy ý và không mở khóa thêm gì.</p></details></div>
+      <p class="contact">Có câu hỏi hay góp ý? Hãy viết cho <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Nối tiếp từ đúng<br>chỗ bạn đã dừng</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6779270691">Tải miễn phí trên App Store</a>
+    </section>
+  </main>
 
   <footer>
-    <p><a href="privacy.html">Chính sách quyền riêng tư</a></p>
-    <p>© 2026 Leeo. All rights reserved.</p>
+    <nav id="languages" class="langs" aria-label="Ngôn ngữ"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Leeo</p>
   </footer>
-</div>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

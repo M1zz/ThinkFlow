@@ -1,0 +1,60 @@
+/* 이어생각 웹 데모. 색은 앱과 같다: 끊어둔 문장은 주황(키 색), 핵심은 보라, 메모는 회색. */
+.demo-card { display: grid; grid-template-columns: minmax(200px, 0.7fr) 1.6fr; gap: var(--s6); align-items: start; }
+
+.tf-steps { list-style: none; margin: 0; padding: 0; counter-reset: tf; display: grid; gap: var(--s3); }
+.tf-steps li { counter-increment: tf; display: flex; align-items: center; gap: var(--s3); color: var(--muted);
+               font-weight: 600; transition: color .25s var(--ease); }
+.tf-steps li::before { content: counter(tf); display: grid; place-items: center; flex: none; width: 32px; height: 32px;
+                       border-radius: 50%; background: var(--bg); transition: background .25s var(--ease), color .25s var(--ease); }
+.tf-steps li.on { color: var(--text); }
+.tf-steps li.on::before { background: var(--accent); color: var(--on-accent); }
+
+.tf-stage { display: grid; gap: var(--s3); }
+.tf-card { background: var(--bg); border-radius: var(--r-inner); padding: var(--s5); display: grid; gap: var(--s4);
+           animation: tf-in .35s var(--ease); }
+@keyframes tf-in { from { opacity: 0; transform: translateY(6px); } }
+.tf-card h3 { font-size: 1.25rem; }
+.tf-muted { color: var(--muted); }
+.tf-small { font-size: 0.875rem; }
+.tf-head { font-weight: 600; }
+.tf-label { color: var(--accent); font-weight: 600; font-size: 0.9375rem; }
+
+.tf-bridge { padding: var(--s4); border-radius: 10px; border-left: 3px solid color-mix(in srgb, var(--accent) 50%, transparent);
+             background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
+.tf-bridge p { margin: var(--s2) 0 0; font-size: 1.125rem; font-weight: 600; line-height: 1.45; }
+
+.tf-recap { display: grid; gap: var(--s3); padding: var(--s4); border-radius: 10px; background: var(--surface); }
+.tf-recap p { margin: var(--s2) 0 0; font-size: 0.9375rem; line-height: 1.5; }
+.tf-badge { display: inline-flex; align-items: center; gap: var(--s1); padding: 2px 9px; border-radius: 999px;
+            font-size: 0.8125rem; font-weight: 600; --c: #8e8e93; color: var(--muted);
+            background: color-mix(in srgb, var(--c) 14%, transparent); }
+.tf-badge i { width: 7px; height: 7px; border-radius: 50%; background: var(--c); }
+.tf-badge.core { --c: #AF52DE; color: #AF52DE; }
+
+textarea#tf-input { font: inherit; color: var(--text); background: var(--surface); width: 100%; resize: vertical;
+                    border: 1.5px solid color-mix(in srgb, var(--accent) 30%, var(--line)); border-radius: 12px;
+                    padding: var(--s3) var(--s4); min-height: 96px; }
+textarea#tf-input:focus-visible { outline: none; border-color: var(--accent); }
+.tf-row { display: flex; flex-wrap: wrap; gap: var(--s2); justify-content: space-between; }
+
+.tf-primary, .tf-chip, .tf-again { font: inherit; font-weight: 600; min-height: 44px; border-radius: 999px; cursor: pointer;
+                                    padding: 0 var(--s5); border: 0; transition: transform .15s var(--ease), opacity .2s var(--ease); }
+.tf-primary { background: var(--accent); color: var(--on-accent); }
+.tf-primary:disabled { opacity: .35; cursor: default; }
+.tf-primary:active:not(:disabled), .tf-chip:active { transform: scale(.96); }
+.tf-wide { width: 100%; border-radius: 12px; }
+.tf-chip { background: var(--surface); color: var(--accent); }
+.tf-again { justify-self: start; background: transparent; color: var(--muted); padding: 0 var(--s2); }
+.tf-again:hover { color: var(--text); }
+
+.tf-lock { margin: 0; padding: var(--s3); border-radius: 8px; font-size: 0.9375rem; color: var(--muted);
+           background: color-mix(in srgb, var(--accent) 8%, var(--surface)); }
+.tf-saved { margin: 0; font-weight: 600; color: var(--accent); }
+
+@media (prefers-color-scheme: dark) { .tf-badge.core { --c: #BF5AF2; color: #BF5AF2; } }
+@media (prefers-reduced-motion: reduce) { .tf-card { animation: none; } }
+@media (max-width: 760px) {
+  .demo-card { grid-template-columns: 1fr; }
+  .tf-steps { grid-auto-flow: column; grid-auto-columns: 1fr; font-size: 0.8125rem; }
+  .tf-steps li { flex-direction: column; text-align: center; gap: var(--s1); }
+}

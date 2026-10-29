@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: ga verder met je gedachte precies waar je stopte",
+  "description": "Sluit elke denksessie af met een brugzin, dan ga je de volgende keer daar verder. Alle functies zijn gratis en alles blijft op je apparaat.",
+  "hero": {
+    "headline": "De halve gedachte van gisteren\ngaat vandaag verder waar hij stopte",
+    "lead": "Als je stopt met denken, laat je één regel achter om op verder te gaan. De volgende keer dat je de app opent, staat die bovenaan.",
+    "cta": "Gratis downloaden in de App Store",
+    "note": "Alle functies zijn gratis. Geen account, alles blijft op je apparaat."
+  },
+  "demo": {
+    "title": "Probeer een brugzin",
+    "lead": "Schrijf een gedachte en laat de zin achter waarmee je de volgende keer verdergaat. Het gaat in dezelfde volgorde als in de app.",
+    "resume": "Ga verder vanaf hier",
+    "bridgeName": "Brugzin",
+    "leftOff": "Hier stopte je",
+    "flow": "Het verloop tot nu toe",
+    "latest": "Laatste gedachte",
+    "note": "Notitie",
+    "core": "Kern",
+    "continue": "Denk verder",
+    "thinking": "De gedachte van nu",
+    "next": "Volgende",
+    "bridging": "Laat een brugzin achter",
+    "lock": "Laat een brugzin achter om te sluiten",
+    "bridgeTitle": "Stop als het lekker loopt",
+    "bridgeLabel": "Laat een brugzin achter",
+    "done": "Klaar",
+    "thread": "Scrollen vs. focus",
+    "bridge": "Als ik dus ‘bewuste verveling’ inplan, komt het diepe denken dan terug?",
+    "coreText": "Het verschil in wachttijd op beloning staat diep denken in de weg",
+    "last": "Als ik zonder telefoon ga wandelen, lopen mijn gedachten vanzelf door. Misschien is het juist verveling die het denken oproept.",
+    "ex1": "Wat als ik verveling niet meer ontloop, maar in mijn agenda zet? Elke dag twintig minuten niets doen.",
+    "ex2": "Als ik elke dag op hetzelfde tijdstip 20 saaie minuten heb, welke gedachten komen er dan op?",
+    "useExample": "Voorbeeld invullen",
+    "later": "Zo begroet de app je de volgende keer: de zin die je net achterliet, staat bovenaan.",
+    "again": "Opnieuw beginnen"
+  },
+  "problem": {
+    "title": "Waar was ik ook alweer gebleven?",
+    "text": "Je opent een notitie van vorige week en vindt een paar conclusies, maar niet de vraag die je daarna wilde uitzoeken. Dus begin je opnieuw. Met ThinkFlow schrijf je die volgende vraag op zodra je stopt, zodat je er meteen mee verdergaat als je terugkomt."
+  },
+  "features": [
+    {
+      "title": "Je brugzin wacht bovenaan",
+      "text": "Sluit een denksessie af met één regel: de vraag waarmee je verdergaat. Als je terugkomt, staan die zin, de kern tot nu toe en je laatste gedachte op één kaart. Je hoeft niets te reconstrueren.\nJe ziet hem ook in een widget op het beginscherm, en terwijl je denkt loopt de tijd op het toegangsscherm en in het Dynamic Island.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "Van notitie tot kern",
+      "text": "Til elke gedachte door vier niveaus: notitie, geordend, kern en samenvatting. In één oogopslag zie je hoe rijp hij is.\nWat je hebt opgezocht of gevraagd, voeg je bij als materiaal, los van je eigen gedachten.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Eerst je hoofd leegmaken",
+      "text": "Schrijf alles op wat door je hoofd gaat, één regel per gedachte, en kies degene waar je nu mee aan de slag wilt. Die wordt een draad, de rest wacht op het startscherm tot je erop tikt.\nGedachten die je langer dan drie dagen niet hebt aangeraakt, komen samen onder Gedachten om nieuw leven in te blazen.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "In drie stappen aan de slag",
+    "items": [
+      {
+        "title": "Maak je hoofd leeg",
+        "text": "Eén regel per gedachte, kies dan degene die mag groeien."
+      },
+      {
+        "title": "Denk verder",
+        "text": "Voeg elk nieuw idee apart toe, dan kun je het later makkelijker verfijnen."
+      },
+      {
+        "title": "Laat de zin achter en sluit",
+        "text": "De volgende keer begin je daar."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Verfijningsniveau",
+    "rows": [
+      [
+        "Notitie",
+        "Ruwe gedachte"
+      ],
+      [
+        "Geordend",
+        "Eenmaal geordend"
+      ],
+      [
+        "Kern",
+        "Alleen de kern"
+      ],
+      [
+        "Samenvatting",
+        "Eindsamenvatting"
+      ]
+    ],
+    "note": "Tik op het niveaulabel naast een gedachte om het te wijzigen. Kern en samenvattingen staan als eerste op de kaart als je terugkomt."
+  },
+  "faq": {
+    "title": "Je brugzin wacht bovenaan",
+    "items": [
+      {
+        "q": "Moet ik een brugzin schrijven?",
+        "a": "Als je iets hebt toegevoegd wel: het scherm Denk verder sluit pas als je de volgende regel achterlaat. Heb je niets geschreven, dan sluit je het gewoon. De truc is stoppen zolang je nog iets te zeggen hebt, niet pas als je vastloopt."
+      },
+      {
+        "q": "Wat zijn Gedachten om nieuw leven in te blazen?",
+        "a": "Draden die je langer dan drie dagen niet hebt geopend, worden apart verzameld op het startscherm. Zo kan ook een bijna vergeten gedachte verder vanaf zijn brugzin."
+      },
+      {
+        "q": "Hoe meld ik een bug of doe ik een voorstel?",
+        "a": "Gebruik Stuur feedback in de instellingen van de app, schrijf naar het adres hieronder of open een issue op github.com/M1zz/ThinkFlow/issues. Alles is welkom."
+      },
+      {
+        "q": "Is echt alles gratis?",
+        "a": "Ja. Alle functies zijn gratis, zonder advertenties en zonder account. ‘Steun de ontwikkelaar’ in de instellingen is helemaal vrijwillig en ontgrendelt niets."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Ga verder\nwaar je stopte",
+    "cta": "Gratis downloaden in de App Store"
+  },
+  "ui": {
+    "skip": "Naar de inhoud",
+    "languages": "Taal",
+    "privacy": "Privacybeleid",
+    "contact": "Vragen of feedback? Schrijf naar {email}."
+  }
+}

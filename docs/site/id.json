@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: lanjutkan pikiran persis dari tempat kamu berhenti",
+  "description": "Akhiri setiap sesi berpikir dengan kalimat jembatan, dan lain kali kamu lanjut dari situ. Semua fitur gratis dan semua catatan tetap di perangkatmu.",
+  "hero": {
+    "headline": "Pikiran yang tertunda kemarin,\nhari ini lanjut dari titik yang sama",
+    "lead": "Saat berhenti berpikir, tinggalkan satu baris untuk dilanjutkan. Saat membuka aplikasi lagi, baris itu menunggu di paling atas.",
+    "cta": "Unduh gratis di App Store",
+    "note": "Semua fitur gratis. Tanpa akun, semuanya tetap di perangkatmu."
+  },
+  "demo": {
+    "title": "Coba tinggalkan kalimat jembatan",
+    "lead": "Tulis satu pikiran, lalu tinggalkan kalimat yang akan kamu lanjutkan nanti. Urutannya sama persis dengan di aplikasi.",
+    "resume": "Lanjut dari sini",
+    "bridgeName": "Kalimat Jembatan",
+    "leftOff": "Kamu berhenti di sini",
+    "flow": "Alur sejauh ini",
+    "latest": "Pikiran terakhir",
+    "note": "Catatan",
+    "core": "Inti",
+    "continue": "Lanjut Berpikir",
+    "thinking": "Pikiran yang sedang berlanjut",
+    "next": "Lanjut",
+    "bridging": "Tinggalkan Kalimat Jembatan",
+    "lock": "Tinggalkan kalimat jembatan untuk menutup",
+    "bridgeTitle": "Berhenti saat sedang lancar",
+    "bridgeLabel": "Tinggalkan kalimat jembatan",
+    "done": "Selesai",
+    "thread": "Scroll vs fokus",
+    "bridge": "Kalau begitu, jika aku merancang ‘kebosanan yang disengaja’, apakah kemampuan berpikir mendalam akan kembali?",
+    "coreText": "Selisih waktu menunggu imbalan menghambat cara berpikir mendalam",
+    "last": "Kalau jalan-jalan tanpa bawa HP, pikiran mengalir dengan sendirinya. Jangan-jangan rasa bosanlah yang memanggil pikiran.",
+    "ex1": "Bagaimana kalau berhenti menghindari bosan dan malah menjadwalkannya? Dua puluh menit sehari tanpa melakukan apa pun.",
+    "ex2": "Kalau setiap hari ada 20 menit membosankan di jam yang sama, pikiran apa yang akan muncul?",
+    "useExample": "Pakai contoh",
+    "later": "Begini tampilannya saat kamu membuka lagi: kalimat yang baru kamu tinggalkan ada di paling atas.",
+    "again": "Ulangi dari awal"
+  },
+  "problem": {
+    "title": "Tadi sampai mana, ya?",
+    "text": "Kamu membuka catatan beberapa hari lalu dan hanya menemukan beberapa kesimpulan, bukan pertanyaan yang tadinya mau kamu pikirkan berikutnya. Akhirnya mulai lagi dari nol. ThinkFlow membuatmu meninggalkan pertanyaan berikutnya saat berhenti, jadi begitu kembali kamu langsung mulai dari situ."
+  },
+  "features": [
+    {
+      "title": "Kalimat jembatan menunggu di atas",
+      "text": "Akhiri sesi dengan satu baris: pertanyaan untuk dilanjutkan. Saat kembali, kalimat itu, inti sejauh ini, dan pikiran terakhir ada di satu kartu. Tidak perlu mengingat-ingat lagi.\nKalimat jembatan juga tampil di widget Layar Utama, dan selama berpikir, waktunya berjalan di Layar Kunci dan Dynamic Island.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "Dari catatan ke inti",
+      "text": "Naikkan setiap pikiran lewat empat tingkat: catatan, tertata, inti, dan ringkasan. Sekali lihat, kamu tahu seberapa matang pikiran itu.\nHasil pencarian atau pertanyaanmu dilampirkan sebagai referensi, terpisah dari pikiranmu sendiri.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Kosongkan kepala dulu",
+      "text": "Tulis semua yang ada di kepala, satu baris per pikiran, lalu pilih yang ingin kamu dalami sekarang. Pikiran itu jadi utas, sisanya menunggu di layar utama sampai kamu mengetuknya.\nPikiran yang tidak disentuh lebih dari tiga hari dikumpulkan di Pikiran untuk dihidupkan lagi.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Mulai dalam tiga langkah",
+    "items": [
+      {
+        "title": "Tuangkan pikiran",
+        "text": "Satu baris per pikiran, lalu pilih yang layak dikembangkan."
+      },
+      {
+        "title": "Lanjut berpikir",
+        "text": "Tambahkan setiap ide baru secara terpisah supaya mudah dimatangkan nanti."
+      },
+      {
+        "title": "Tinggalkan kalimat, lalu tutup",
+        "text": "Lain kali kamu mulai dari kalimat itu."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Tingkat pematangan",
+    "rows": [
+      [
+        "Catatan",
+        "Pikiran mentah"
+      ],
+      [
+        "Tertata",
+        "Sekali ditata"
+      ],
+      [
+        "Inti",
+        "Hanya intinya"
+      ],
+      [
+        "Ringkasan",
+        "Ringkasan akhir"
+      ]
+    ],
+    "note": "Ketuk label tingkat di samping pikiran untuk mengubahnya. Inti dan ringkasan tampil lebih dulu di kartu saat kamu kembali."
+  },
+  "faq": {
+    "title": "Kalimat jembatan menunggu di atas",
+    "items": [
+      {
+        "q": "Apakah kalimat jembatan wajib ditulis?",
+        "a": "Kalau kamu sudah menambahkan sesuatu, ya: layar Lanjut Berpikir baru bisa ditutup setelah kamu meninggalkan baris berikutnya. Kalau belum menulis apa-apa, tutup saja. Kuncinya, berhenti saat masih ada yang ingin ditulis, bukan saat buntu."
+      },
+      {
+        "q": "Apa itu Pikiran untuk dihidupkan lagi?",
+        "a": "Utas yang tidak kamu buka lebih dari tiga hari dikumpulkan tersendiri di layar utama, jadi pikiran yang hampir terlupa bisa lanjut dari kalimat jembatannya."
+      },
+      {
+        "q": "Bagaimana cara melaporkan bug atau memberi usulan?",
+        "a": "Gunakan Kirim Masukan di pengaturan aplikasi, kirim email ke alamat di bawah, atau buka issue di github.com/M1zz/ThinkFlow/issues. Semua masukan kami sambut."
+      },
+      {
+        "q": "Benar semuanya gratis?",
+        "a": "Benar. Semua fitur gratis, tanpa iklan dan tanpa akun. “Dukung Pengembang” di pengaturan sepenuhnya opsional dan tidak membuka fitur tambahan."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Lanjutkan dari\ntempat kamu berhenti",
+    "cta": "Unduh gratis di App Store"
+  },
+  "ui": {
+    "skip": "Langsung ke konten",
+    "languages": "Bahasa",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Ada pertanyaan atau masukan? Kirim email ke {email}."
+  }
+}

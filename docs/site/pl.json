@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: wracaj do myśli dokładnie tam, gdzie przerwałeś",
+  "description": "Zostaw na koniec zdanie-pomost, a następnym razem zaczniesz od niego. Wszystkie funkcje są bezpłatne, a zapiski zostają na Twoim urządzeniu.",
+  "hero": {
+    "headline": "Wczorajsza niedokończona myśl\ndziś rusza dalej od tego samego miejsca",
+    "lead": "Kiedy przestajesz myśleć, zostaw jedną linijkę, od której podejmiesz wątek. Gdy znów otworzysz aplikację, będzie czekać na samej górze.",
+    "cta": "Pobierz za darmo z App Store",
+    "note": "Wszystkie funkcje są bezpłatne. Bez konta, wszystko zostaje na Twoim urządzeniu."
+  },
+  "demo": {
+    "title": "Spróbuj zostawić zdanie-pomost",
+    "lead": "Zapisz myśl i zostaw zdanie, od którego zaczniesz następnym razem. Kroki są takie same jak w aplikacji.",
+    "resume": "Kontynuuj stąd",
+    "bridgeName": "Zdanie-pomost",
+    "leftOff": "Tutaj skończyłeś",
+    "flow": "Dotychczasowy przebieg",
+    "latest": "Ostatnia myśl",
+    "note": "Notatka",
+    "core": "Sedno",
+    "continue": "Myśl dalej",
+    "thinking": "Myśl w toku",
+    "next": "Dalej",
+    "bridging": "Zostaw zdanie-pomost",
+    "lock": "Zostaw zdanie-pomost, aby zamknąć",
+    "bridgeTitle": "Przerwij, gdy idzie dobrze",
+    "bridgeLabel": "Zostaw zdanie-pomost",
+    "done": "Gotowe",
+    "thread": "Rolki czy skupienie",
+    "bridge": "To jeśli zaplanuję ‘celową nudę’, czy głębokie myślenie wróci?",
+    "coreText": "Różnica w czasie oczekiwania na nagrodę blokuje głębokie myślenie",
+    "last": "Kiedy idę na spacer bez telefonu, myśli same się układają. Może to właśnie nuda przywołuje myślenie.",
+    "ex1": "A gdybym przestał unikać nudy i wpisał ją do kalendarza? Dwadzieścia minut dziennie nicnierobienia.",
+    "ex2": "Jeśli codziennie o tej samej porze zostawię 20 nudnych minut, jakie myśli się pojawią?",
+    "useExample": "Wstaw przykład",
+    "later": "Tak przywita Cię aplikacja następnym razem: zdanie, które właśnie zostawiłeś, jest na samej górze.",
+    "again": "Zacznij od nowa"
+  },
+  "problem": {
+    "title": "Na czym ja właściwie skończyłem?",
+    "text": "Otwierasz notatkę sprzed tygodnia i znajdujesz kilka wniosków, ale nie pytanie, którym chciałeś się zająć dalej. Więc zaczynasz od zera. ThinkFlow każe Ci zapisać to kolejne pytanie, gdy przerywasz, więc po powrocie zaczynasz prosto od niego."
+  },
+  "features": [
+    {
+      "title": "Zdanie-pomost czeka na górze",
+      "text": "Zakończ myślenie jedną linijką: pytaniem, od którego podejmiesz wątek. Po powrocie to zdanie, dotychczasowe sedno i ostatnia myśl są na jednej karcie. Nie musisz niczego odtwarzać.\nZobaczysz je też w widżecie na ekranie głównym, a gdy myślisz, czas płynie na ekranie blokady i w Dynamic Island.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "Od notatki do sedna",
+      "text": "Przeprowadzaj każdą myśl przez cztery poziomy: notatka, uporządkowane, sedno i podsumowanie. Jednym rzutem oka widzisz, jak bardzo dojrzała.\nTo, czego szukałeś lub o co pytałeś, dołączasz jako materiał, oddzielnie od własnych myśli.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Najpierw opróżnij głowę",
+      "text": "Zapisz wszystko, co chodzi Ci po głowie, po jednym wierszu na myśl, i wybierz tę, nad którą chcesz pracować teraz. Stanie się wątkiem, a reszta poczeka na ekranie startowym, aż ją stukniesz.\nMyśli, których nie ruszałeś dłużej niż trzy dni, trafiają do sekcji Myśli do wskrzeszenia.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Zacznij w trzech krokach",
+    "items": [
+      {
+        "title": "Wyrzuć myśli",
+        "text": "Jeden wiersz na myśl, potem wybierz tę, którą warto rozwijać."
+      },
+      {
+        "title": "Myśl dalej",
+        "text": "Dodawaj każdy nowy pomysł osobno, łatwiej go potem dopracować."
+      },
+      {
+        "title": "Zostaw zdanie i zamknij",
+        "text": "Następnym razem zaczniesz właśnie od niego."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Poziom dopracowania",
+    "rows": [
+      [
+        "Notatka",
+        "Surowa myśl"
+      ],
+      [
+        "Uporządkowane",
+        "Raz uporządkowane"
+      ],
+      [
+        "Sedno",
+        "Tylko sedno"
+      ],
+      [
+        "Podsumowanie",
+        "Końcowe podsumowanie"
+      ]
+    ],
+    "note": "Stuknij etykietę poziomu obok myśli, aby go zmienić. Sedno i podsumowania pojawiają się na karcie jako pierwsze, gdy wracasz."
+  },
+  "faq": {
+    "title": "Zdanie-pomost czeka na górze",
+    "items": [
+      {
+        "q": "Czy muszę pisać zdanie-pomost?",
+        "a": "Jeśli coś dodałeś, tak: ekran Myśl dalej zamknie się dopiero, gdy zostawisz kolejną linijkę. Jeśli nic nie napisałeś, po prostu go zamknij. Sztuka polega na tym, by przerwać, póki masz jeszcze coś do powiedzenia, a nie dopiero wtedy, gdy utkniesz."
+      },
+      {
+        "q": "Czym są Myśli do wskrzeszenia?",
+        "a": "Wątki, których nie otwierałeś dłużej niż trzy dni, są zbierane osobno na ekranie startowym, więc nawet prawie zapomniana myśl może ruszyć dalej od swojego zdania-pomostu."
+      },
+      {
+        "q": "Jak zgłosić błąd lub coś zaproponować?",
+        "a": "Użyj opcji Wyślij opinię w ustawieniach aplikacji, napisz na adres poniżej albo otwórz issue na github.com/M1zz/ThinkFlow/issues. Każda wiadomość jest mile widziana."
+      },
+      {
+        "q": "Czy naprawdę wszystko jest za darmo?",
+        "a": "Tak. Wszystkie funkcje są bezpłatne, bez reklam i bez konta. „Wesprzyj twórcę” w ustawieniach jest całkowicie dobrowolne i niczego nie odblokowuje."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Wracaj tam,\ngdzie przerwałeś",
+    "cta": "Pobierz za darmo z App Store"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "languages": "Język",
+    "privacy": "Polityka prywatności",
+    "contact": "Pytania lub sugestie? Napisz na {email}."
+  }
+}

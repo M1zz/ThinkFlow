@@ -1,0 +1,129 @@
+{
+  "title": "ThinkFlow: nối tiếp suy nghĩ từ đúng chỗ bạn đã dừng",
+  "description": "Kết thúc bằng một câu nối, lần sau mở ứng dụng là nghĩ tiếp ngay từ đó. Mọi tính năng đều miễn phí và dữ liệu chỉ nằm trên thiết bị của bạn.",
+  "hero": {
+    "headline": "Suy nghĩ dang dở hôm qua,\nhôm nay nối tiếp đúng chỗ cũ",
+    "lead": "Khi dừng suy nghĩ, hãy để lại một dòng để nghĩ tiếp. Lần sau mở ứng dụng, dòng đó đang chờ ở trên cùng.",
+    "cta": "Tải miễn phí trên App Store",
+    "note": "Mọi tính năng đều miễn phí. Không cần tài khoản, mọi thứ ở trên thiết bị của bạn."
+  },
+  "demo": {
+    "title": "Thử để lại câu nối",
+    "lead": "Viết một suy nghĩ rồi để lại câu bạn sẽ nghĩ tiếp lần sau. Các bước giống hệt trong ứng dụng.",
+    "resume": "Nối tiếp từ đây",
+    "bridgeName": "Câu nối",
+    "leftOff": "Bạn dừng ở đây",
+    "flow": "Mạch nghĩ đến giờ",
+    "latest": "Suy nghĩ gần nhất",
+    "note": "Ghi chú",
+    "core": "Ý chính",
+    "continue": "Nghĩ tiếp",
+    "thinking": "Suy nghĩ đang nối tiếp",
+    "next": "Tiếp",
+    "bridging": "Để lại câu nối",
+    "lock": "Hãy để lại câu nối rồi mới đóng được",
+    "bridgeTitle": "Hãy dừng khi đang hứng khởi",
+    "bridgeLabel": "Để lại một câu nối",
+    "done": "Xong",
+    "thread": "Lướt vs tập trung",
+    "bridge": "Vậy nếu chủ động tạo ra ‘sự nhàm chán có chủ đích’, khả năng suy nghĩ sâu có quay lại không?",
+    "coreText": "Độ chênh về thời gian chờ phần thưởng đang cản trở suy nghĩ sâu",
+    "last": "Khi ra ngoài đi dạo mà không mang điện thoại, ý nghĩ cứ tự nối tiếp nhau. Phải chăng chính sự nhàm chán gọi suy nghĩ đến?",
+    "ex1": "Hay là thôi trốn tránh sự nhàm chán mà xếp nó vào lịch? Mỗi ngày 20 phút không làm gì cả.",
+    "ex2": "Nếu mỗi ngày dành 20 phút nhàm chán vào cùng một giờ, lúc đó sẽ nảy ra suy nghĩ gì?",
+    "useExample": "Dùng câu mẫu",
+    "later": "Lần sau mở ra sẽ như thế này: câu bạn vừa để lại nằm ngay trên cùng.",
+    "again": "Làm lại từ đầu"
+  },
+  "problem": {
+    "title": "Mình đang nghĩ tới đâu rồi nhỉ?",
+    "text": "Mở lại ghi chú từ mấy hôm trước, bạn chỉ thấy vài dòng kết luận, còn câu hỏi định nghĩ tiếp thì đã biến mất. Thế là lại phải nghĩ từ đầu. ThinkFlow nhắc bạn để lại câu hỏi tiếp theo khi dừng, để vừa mở ra là bắt đầu ngay từ câu hỏi đó."
+  },
+  "features": [
+    {
+      "title": "Câu nối chờ bạn ở trên cùng",
+      "text": "Khi kết thúc, hãy để lại một dòng: câu hỏi sẽ nghĩ tiếp. Lúc quay lại, câu đó, các ý chính cho đến giờ và suy nghĩ gần nhất nằm chung một thẻ, không cần nhớ lại mình đã nghĩ tới đâu.\nCâu nối còn hiện trên tiện ích ở Màn hình chính, và trong lúc suy nghĩ, thời gian chạy trên màn hình khóa và Dynamic Island.",
+      "shot": "02-continue"
+    },
+    {
+      "title": "Từ ghi chú đến ý chính",
+      "text": "Nâng từng suy nghĩ qua bốn mức: ghi chú, đã sắp xếp, ý chính và tóm tắt. Nhìn là biết suy nghĩ đã chín đến đâu.\nNhững gì bạn đã tìm hay hỏi được đính kèm thành tài liệu, tách riêng khỏi suy nghĩ của bạn.",
+      "shot": "04-thread"
+    },
+    {
+      "title": "Trước tiên, trút hết ra",
+      "text": "Viết ra mọi thứ trong đầu, mỗi ý một dòng, rồi chọn ý muốn đào sâu ngay bây giờ: ý đó thành một mạch suy nghĩ. Phần còn lại chờ ở màn hình chính cho tới khi bạn chạm vào.\nNhững suy nghĩ bỏ quên hơn ba ngày được gom vào mục Suy nghĩ cần đánh thức.",
+      "shot": "05-dump"
+    }
+  ],
+  "steps": {
+    "title": "Bắt đầu với ba bước",
+    "items": [
+      {
+        "title": "Trút suy nghĩ",
+        "text": "Mỗi ý một dòng, rồi chọn ý đáng phát triển."
+      },
+      {
+        "title": "Nghĩ tiếp",
+        "text": "Thêm từng ý mới riêng rẽ để sau này dễ chắt lọc."
+      },
+      {
+        "title": "Để lại câu nối rồi đóng",
+        "text": "Lần sau bạn bắt đầu từ chính câu đó."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Mức độ chắt lọc",
+    "rows": [
+      [
+        "Ghi chú",
+        "Suy nghĩ thô"
+      ],
+      [
+        "Đã sắp xếp",
+        "Đã sắp xếp một lần"
+      ],
+      [
+        "Ý chính",
+        "Chỉ giữ ý chính"
+      ],
+      [
+        "Tóm tắt",
+        "Tóm tắt cuối"
+      ]
+    ],
+    "note": "Chạm vào nhãn mức bên cạnh một suy nghĩ để đổi. Ý chính và tóm tắt được hiện trước trên thẻ khi bạn quay lại."
+  },
+  "faq": {
+    "title": "Câu nối chờ bạn ở trên cùng",
+    "items": [
+      {
+        "q": "Có bắt buộc viết câu nối không?",
+        "a": "Nếu bạn đã thêm gì đó thì có: màn hình Nghĩ tiếp chỉ đóng khi bạn để lại dòng tiếp theo. Nếu chưa viết gì thì cứ đóng. Bí quyết là dừng khi vẫn còn điều muốn viết, chứ không phải khi bị bí."
+      },
+      {
+        "q": "Suy nghĩ cần đánh thức là gì?",
+        "a": "Những mạch suy nghĩ bạn không mở hơn ba ngày được gom riêng ở màn hình chính, để một ý gần như đã quên có thể tiếp tục từ câu nối của nó."
+      },
+      {
+        "q": "Muốn báo lỗi hoặc góp ý thì làm sao?",
+        "a": "Dùng mục Gửi góp ý trong cài đặt của ứng dụng, viết thư tới địa chỉ bên dưới hoặc mở issue tại github.com/M1zz/ThinkFlow/issues. Mọi ý kiến đều được hoan nghênh."
+      },
+      {
+        "q": "Có thật là miễn phí hết không?",
+        "a": "Có. Mọi tính năng đều miễn phí, không quảng cáo, không cần tài khoản. Mục “Ủng hộ nhà phát triển” trong cài đặt là hoàn toàn tùy ý và không mở khóa thêm gì."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Nối tiếp từ đúng\nchỗ bạn đã dừng",
+    "cta": "Tải miễn phí trên App Store"
+  },
+  "ui": {
+    "skip": "Chuyển đến nội dung",
+    "languages": "Ngôn ngữ",
+    "privacy": "Chính sách quyền riêng tư",
+    "contact": "Có câu hỏi hay góp ý? Hãy viết cho {email}."
+  }
+}
