@@ -17,6 +17,7 @@ struct ThinkFlowApp: App {
             HomeView()
                 .environment(store)
                 .leeoSatisfactionCheck(ThinkFlowSpec.self)
+                .task { await ThinkFlowTip.tipJar.startStandalone() }
         }
     }
 }

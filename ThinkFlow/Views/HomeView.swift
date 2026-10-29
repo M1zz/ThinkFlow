@@ -1,5 +1,6 @@
 import SwiftUI
 import UIKit
+import LeeoKit
 
 struct HomeView: View {
     
@@ -37,6 +38,10 @@ struct HomeView: View {
                     if let recent = store.mostRecentThread {
                         resumeSection(thread: recent)
                     }
+
+                    // MARK: - 응원 부탁 (생각을 꽤 쌓아 온 사람에게, 드물게)
+                    LeeoTipAskSlot<ThinkFlowSpec>(tipJar: ThinkFlowTip.tipJar,
+                                                  reached: ThinkFlowTipMoments.reachedNow(in: store.threads))
                     
                     // MARK: - 활발한 생각들 (히어로 카드에 이미 표시된 것 제외)
                     let heroID = store.mostRecentThread?.id
