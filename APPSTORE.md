@@ -1463,3 +1463,16 @@ Köprü cümleni ve özet noktayı Ana Ekran widget’ında gör. Düşünürken
 
 Düşüncelerin cihazında kalır
 Tüm kayıtlar yalnızca cihazında saklanır ve hesap gerekmez. İstediğin zaman Markdown ya da JSON dosyası olarak dışa aktarabilirsin.
+
+## 손쉬운 사용
+
+<!-- DeployBar 가 App Store Connect '앱의 손쉬운 사용' 에 올린다. 실제로 확인한 것만 적는다. -->
+
+### iPhone
+voiceOver
+voiceControl
+largerText
+darkInterface
+differentiateWithoutColor
+sufficientContrast
+reducedMotion

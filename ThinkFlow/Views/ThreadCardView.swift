@@ -24,7 +24,7 @@ struct ThreadCardView: View {
                     Spacer()
                     Text(thread.bridge.updatedAt, style: .relative)
                         .font(.caption)
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(.secondary)
                 }
             }
 
@@ -34,6 +34,7 @@ struct ThreadCardView: View {
                 HStack(alignment: .top, spacing: 8) {
                     Text(thread.emoji)
                         .font(.title2)
+                        .accessibilityHidden(true)
                     Text(thread.displayTitle)
                         .font(.title3)
                         .fontWeight(.bold)
@@ -43,7 +44,7 @@ struct ThreadCardView: View {
                         Spacer(minLength: 8)
                         Text(thread.lastVisitedAt, style: .relative)
                             .font(.caption)
-                            .foregroundStyle(.tertiary)
+                            .foregroundStyle(.secondary)
                             .layoutPriority(-1)
                     }
                 }

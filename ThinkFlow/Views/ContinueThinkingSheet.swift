@@ -166,7 +166,7 @@ struct ContinueThinkingSheet: View {
                     if !newThoughts.isEmpty {
                         Text("\(newThoughts.count)개 추가됨")
                             .font(.caption)
-                            .foregroundStyle(.tertiary)
+                            .foregroundStyle(.secondary)
                     }
                 }
 
@@ -188,7 +188,7 @@ struct ContinueThinkingSheet: View {
                     HStack {
                         Text("\(draft.count)자")
                             .font(.caption)
-                            .foregroundStyle(.tertiary)
+                            .foregroundStyle(.secondary)
                         Spacer()
                         Button {
                             addDraft()
@@ -207,7 +207,7 @@ struct ContinueThinkingSheet: View {
 
                 Text("생각이 바뀔 때마다 따로 추가하면 나중에 정리하기 쉬워요.")
                     .font(.caption)
-                    .foregroundStyle(.tertiary)
+                    .foregroundStyle(.secondary)
                     .padding(.horizontal, 2)
             }
 
@@ -294,7 +294,7 @@ struct ContinueThinkingSheet: View {
                                 .fontWeight(.medium)
                             Text("예: 클로드에게 물어본 결과 정리")
                                 .font(.caption)
-                                .foregroundStyle(.tertiary)
+                                .foregroundStyle(.secondary)
                         }
                         Spacer()
                     }
@@ -434,7 +434,7 @@ struct ContinueThinkingSheet: View {
                 if nextStartingPoint.isEmpty {
                     Text("예: \"숏폼이 뇌를 망치는 이유는 보상 주기 때문인데, 그렇다면—\"")
                         .font(.footnote)
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(.secondary)
                 }
             }
             .padding(16)
@@ -460,7 +460,7 @@ struct ContinueThinkingSheet: View {
                 .foregroundStyle(.secondary)
             Text("생각 중...")
                 .font(.caption)
-                .foregroundStyle(.tertiary)
+                .foregroundStyle(.secondary)
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 8)

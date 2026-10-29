@@ -47,12 +47,12 @@ struct EntryRowView: View {
 
                     Text("·")
                         .font(.caption)
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(.secondary)
                         .accessibilityHidden(true)
 
                     Text(entry.createdAt.formatted(.dateTime.month().day().hour().minute()))
                         .font(.caption)
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(.secondary)
                 }
                 .accessibilityElement(children: .combine)
 
@@ -69,7 +69,7 @@ struct EntryRowView: View {
                 } label: {
                     Image(systemName: copied ? "checkmark" : "doc.on.doc")
                         .font(.subheadline)
-                        .foregroundStyle(copied ? Color.green : Color.secondary.opacity(0.5))
+                        .foregroundStyle(copied ? Color.green : Color.secondary)
                         .contentTransition(.symbolEffect(.replace))
                 }
                 .accessibilityLabel("복사")

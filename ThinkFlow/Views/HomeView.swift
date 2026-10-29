@@ -239,11 +239,13 @@ struct HomeView: View {
                 .font(.system(size: 52))
                 .foregroundStyle(.orange.gradient)
                 .symbolRenderingMode(.hierarchical)
+                .accessibilityHidden(true)
 
             VStack(spacing: 6) {
                 Text("생각을 이어 나가 보세요")
                     .font(.title3)
                     .fontWeight(.bold)
+                    .accessibilityAddTraits(.isHeader)
                 Text("머릿속에 떠다니는 생각을 꺼내 두면\n다음에 이어서 더 깊이 생각할 수 있어요.")
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
@@ -340,6 +342,8 @@ struct HomeView: View {
             )
         }
         .buttonStyle(.plain)
+        // 카드 안의 '이어서 생각하기' 단추가 카드 링크에 묻혀도 동작으로 닿게
+        .accessibilityAction(named: Text("이어서 생각하기")) { continueThread = thread }
     }
     
     // MARK: - 스레드 섹션
@@ -367,6 +371,7 @@ struct HomeView: View {
                     )
                 }
                 .buttonStyle(.plain)
+                .accessibilityAction(named: Text("이어서 생각하기")) { continueThread = thread }
             }
         }
     }

@@ -26,7 +26,8 @@ struct LayerBadge: View {
                 .accessibilityHidden(true)
             Text(entry.layerLabel)
                 .font(.caption.weight(.semibold))
-                .foregroundStyle(entry.layerAccent)
+                // 메모 단계의 흐린 회색은 글씨로는 너무 옅다 — 글씨만 보조 색으로
+                .foregroundStyle(entry.layer == 0 ? Color.secondary : entry.layerAccent)
         }
         .padding(.horizontal, 9)
         .padding(.vertical, 4)
@@ -72,7 +73,22 @@ struct ThreadRecapView: View {
     var body: some View {
         if !recapEntries.isEmpty {
             VStack(alignment: .leading, spacing: 12) {
-                HStack(alignment: .firstTextBaseline) {
+                ViewThatFits(in: .horizontal) {
+                    recapHeader(HStackLayout(alignment: .firstTextBaseline))
+                    recapHeader(VStackLayout(alignment: .leading, spacing: 4))
+                }
+                .accessibilityElement(children: .combine)
+
+                ForEach(recapEntries) { entry in
+                    ThreadRecapRow(entry: entry, isLast: entry.id == thread.lastEntry?.id)
+                }
+            }
+        }
+    }
+
+    /// 제목 | 횟수·날짜 — 한 줄에 안 들어가면(큰 글씨) 위아래로
+    private func recapHeader<L: Layout>(_ layout: L) -> some View {
+        layout {
                     Label("지금까지의 흐름", systemImage: "list.bullet.indent")
                         .font(.subheadline)
                         .fontWeight(.medium)
@@ -81,13 +97,6 @@ struct ThreadRecapView: View {
                     Text(metaLine)
                         .font(.caption.weight(.medium))
                         .foregroundStyle(.secondary)
-                }
-                .accessibilityElement(children: .combine)
-
-                ForEach(recapEntries) { entry in
-                    ThreadRecapRow(entry: entry, isLast: entry.id == thread.lastEntry?.id)
-                }
-            }
         }
     }
 }
@@ -106,7 +115,7 @@ struct ThreadRecapRow: View {
                 if isLast {
                     Text("직전 생각")
                         .font(.caption2.weight(.medium))
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(.secondary)
                 }
             }
             Text(entry.content)

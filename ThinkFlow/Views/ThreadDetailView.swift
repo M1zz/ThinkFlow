@@ -12,6 +12,7 @@ struct ThreadDetailView: View {
     @State private var showBridgeEditor = false
     @State private var showDeleteAlert = false
     @State private var sortNewestFirst = true
+    @Environment(\.dynamicTypeSize) private var typeSize
     @State private var allCopied = false
     @State private var editingEntry: ThoughtEntry?
     
@@ -150,7 +151,7 @@ struct ThreadDetailView: View {
             } else {
                 Text("기세가 있을 때 문장을 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다.")
                     .font(.caption)
-                    .foregroundStyle(.tertiary)
+                    .foregroundStyle(.secondary)
                     .lineSpacing(3)
                     .padding(14)
             }
@@ -163,14 +164,27 @@ struct ThreadDetailView: View {
     
     // MARK: - 통계
     private var statsRow: some View {
-        HStack(spacing: 0) {
-            statItem(label: "메모", value: String(localized: "\(currentThread.entryCount)개"), icon: "note.text")
-            Divider().frame(height: 30)
-            statItem(label: "사고 시간", value: currentThread.formattedThinkingTime, icon: "clock")
-            Divider().frame(height: 30)
-            statItem(label: "깊이", value: "L\(currentThread.highestLayer)", icon: "layers.bottom.fill")
-            Divider().frame(height: 30)
-            statItem(label: "시작일", value: currentThread.createdAt.formatted(.dateTime.month().day()), icon: "calendar")
+        // 네 칸 한 줄 — 손쉬운 사용 글자 크기에서는 두 칸씩 두 줄
+        let ax = typeSize.isAccessibilitySize
+        return Grid(horizontalSpacing: 0, verticalSpacing: 12) {
+            GridRow {
+                statItem(label: "메모", value: String(localized: "\(currentThread.entryCount)개"), icon: "note.text")
+                Divider().frame(height: 30)
+                statItem(label: "사고 시간", value: currentThread.formattedThinkingTime, icon: "clock")
+                if !ax {
+                    Divider().frame(height: 30)
+                    statItem(label: "깊이", value: "L\(currentThread.highestLayer)", icon: "layers.bottom.fill")
+                    Divider().frame(height: 30)
+                    statItem(label: "시작일", value: currentThread.createdAt.formatted(.dateTime.month().day()), icon: "calendar")
+                }
+            }
+            if ax {
+                GridRow {
+                    statItem(label: "깊이", value: "L\(currentThread.highestLayer)", icon: "layers.bottom.fill")
+                    Divider().frame(height: 30)
+                    statItem(label: "시작일", value: currentThread.createdAt.formatted(.dateTime.month().day()), icon: "calendar")
+                }
+            }
         }
         .padding(.vertical, 12)
         .background(.background)
@@ -246,13 +260,13 @@ struct ThreadDetailView: View {
                 VStack(spacing: 8) {
                     Image(systemName: "text.bubble")
                         .font(.largeTitle)
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(.secondary)
                     Text("아직 기록이 없어요")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
                     Text("'이어서 생각하기'를 눌러 첫 기록을 남겨보세요")
                         .font(.caption)
-                        .foregroundStyle(.tertiary)
+                        .foregroundStyle(.secondary)
                 }
                 .frame(maxWidth: .infinity)
                 .padding(.vertical, 40)
