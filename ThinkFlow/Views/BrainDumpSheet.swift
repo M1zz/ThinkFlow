@@ -32,11 +32,11 @@ struct BrainDumpSheet: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarLeading) {
-                    Button("취소") { dismiss() }
+                    Button("취소", systemImage: "xmark") { dismiss() }
                 }
                 ToolbarItem(placement: .topBarTrailing) {
                     if phase == .dump {
-                        Button("다 꺼냈어요") {
+                        Button("다 꺼냈어요", systemImage: "checkmark") {
                             let lines = parsedLines
                             if lines.count == 1 {
                                 // 하나면 바로 스레드로

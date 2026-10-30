@@ -71,21 +71,21 @@ struct ContinueThinkingSheet: View {
                 ToolbarItem(placement: .topBarLeading) {
                     // 입력이 없을 때만 그냥 닫기. 입력이 있으면 '다음'으로 문장을 끊어둬야 닫힌다.
                     if phase == .thinking && !hasAnyInput {
-                        Button("닫기") { dismiss() }
+                        Button("닫기", systemImage: "xmark") { dismiss() }
                     }
                 }
             }
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
                     if phase == .thinking {
-                        Button("다음") {
+                        Button("다음", systemImage: "arrow.right") {
                             saveEntries()
                             goToBridging()
                         }
                         .fontWeight(.semibold)
                         .disabled(!hasAnyInput)
                     } else {
-                        Button("완료") {
+                        Button("완료", systemImage: "checkmark") {
                             saveBridge()
                             dismiss()
                         }

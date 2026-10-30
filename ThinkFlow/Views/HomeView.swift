@@ -10,6 +10,11 @@ struct HomeView: View {
     @State private var continueThread: ThoughtThread?
     @State private var exportFile: ExportFile?
     @State private var showSupport = false
+    /// 접혀 있을 때 밀어 넣은 스레드 화면들.
+    @State private var path: [ThoughtThread.ID] = []
+    /// 아이폰 듀오를 폈을 때 결과 쪽 판에 펼쳐 둔 스레드. 없으면 가장 최근 스레드.
+    @State private var shownThreadID: ThoughtThread.ID?
+    @Environment(\.foldLayout) private var fold
     #if DEBUG
     @State private var screenshotThreadID: UUID?
     #endif
@@ -20,7 +25,36 @@ struct HomeView: View {
     }
     
     var body: some View {
-        NavigationStack {
+        // 아이폰 듀오를 펴면 고르는 쪽(왼쪽 · 아래)에 이 목록, 결과 쪽(오른쪽 · 위)에 고른 스레드.
+        // 접혀 있거나 보통 아이폰이면 목록만 그린다 — 지금 화면 그대로.
+        FoldSplitView {
+            home
+        } result: {
+            FoldThreadPane(thread: shownThread)
+        }
+        .onChange(of: fold.isUnfolded) { _, unfolded in
+            // 접힌 채 보던 스레드가 있으면 펴는 순간 결과 쪽으로 옮긴다.
+            guard unfolded, let last = path.last else { return }
+            shownThreadID = last
+            path.removeAll()
+        }
+    }
+
+    private var shownThread: ThoughtThread? {
+        store.threads.first { $0.id == shownThreadID } ?? store.mostRecentThread
+    }
+
+    /// 접혀 있으면 스레드 화면을 밀어 넣고, 펴져 있으면 결과 쪽 판에 펼친다.
+    private func open(_ thread: ThoughtThread) {
+        if fold.isUnfolded {
+            shownThreadID = thread.id
+        } else {
+            path.append(thread.id)
+        }
+    }
+
+    private var home: some View {
+        NavigationStack(path: $path) {
             ScrollView {
                 VStack(spacing: 24) {
 
@@ -334,7 +368,7 @@ struct HomeView: View {
     // MARK: - 이어서 생각하기 카드 (Hero Section)
     @ViewBuilder
     private func resumeSection(thread: ThoughtThread) -> some View {
-        NavigationLink(value: thread.id) {
+        Button { open(thread) } label: {
             ThreadCardView(
                 thread: thread,
                 isResume: true,
@@ -342,6 +376,7 @@ struct HomeView: View {
             )
         }
         .buttonStyle(.plain)
+        .foldShown(fold.isUnfolded && thread.id == shownThread?.id)
         // 카드 안의 '이어서 생각하기' 단추가 카드 링크에 묻혀도 동작으로 닿게
         .accessibilityAction(named: Text("이어서 생각하기")) { continueThread = thread }
     }
@@ -362,7 +397,7 @@ struct HomeView: View {
             .accessibilityAddTraits(.isHeader)
 
             ForEach(threads) { thread in
-                NavigationLink(value: thread.id) {
+                Button { open(thread) } label: {
                     ThreadCardView(
                         thread: thread,
                         onContinue: {
@@ -371,9 +406,53 @@ struct HomeView: View {
                     )
                 }
                 .buttonStyle(.plain)
+                .foldShown(fold.isUnfolded && thread.id == shownThread?.id)
                 .accessibilityAction(named: Text("이어서 생각하기")) { continueThread = thread }
             }
         }
+    }
+}
+
+// MARK: - 아이폰 듀오 결과 쪽
+
+/// 펼친 화면의 결과 쪽 판. 고른 스레드를 접혔을 때 밀어 넣던 그 화면 그대로 보여 준다.
+private struct FoldThreadPane: View {
+    let thread: ThoughtThread?
+
+    var body: some View {
+        NavigationStack {
+            if let thread {
+                ThreadDetailView(thread: thread)
+                    .id(thread.id)
+            } else {
+                VStack(spacing: 12) {
+                    Image(systemName: "brain.head.profile")
+                        .font(.system(size: 52))
+                        .foregroundStyle(.orange.gradient)
+                        .symbolRenderingMode(.hierarchical)
+                        .accessibilityHidden(true)
+                    Text("생각을 이어 나가 보세요")
+                        .font(.title3)
+                        .fontWeight(.bold)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color(.systemGroupedBackground))
+            }
+        }
+    }
+}
+
+private extension View {
+    /// 펼친 화면에서 결과 쪽에 열린 카드에 테두리를 세운다.
+    func foldShown(_ isShown: Bool) -> some View {
+        overlay {
+            if isShown {
+                RoundedRectangle(cornerRadius: 16)
+                    .strokeBorder(.orange, lineWidth: 2)
+                    .accessibilityHidden(true)
+            }
+        }
+        .accessibilityAddTraits(isShown ? .isSelected : [])
     }
 }
 
