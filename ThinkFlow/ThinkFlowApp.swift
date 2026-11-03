@@ -4,12 +4,15 @@ import LeeoKit
 @main
 struct ThinkFlowApp: App {
 
-    @State private var store = ThoughtStore.shared
+    /// 금고(bootstrap 안)가 예약된 복원을 먼저 적용한 뒤에 읽도록 init 에서 꺼낸다.
+    @State private var store: ThoughtStore
 
     init() {
-        CrashDiagnosticsCollector.shared.start()
-        // 사용량 기록 · 익명 사용 통계 · 크래시 진단 (FeedbackHub). 위 수집기는 기기 안 보관용으로 그대로 둔다.
+        // 백업 금고 · 사용량 기록 · 익명 사용 통계 · 크래시 진단 (FeedbackHub). 저장소보다 먼저 켠다.
         LeeoKit.bootstrap(ThinkFlowSpec.self)
+        // 아래 수집기는 기기 안 보관용으로 그대로 둔다.
+        CrashDiagnosticsCollector.shared.start()
+        _store = State(initialValue: ThoughtStore.shared)
     }
 
     var body: some Scene {
