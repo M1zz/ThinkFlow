@@ -4,6 +4,8 @@ import WidgetKit
 
 @Observable
 final class ThoughtStore {
+    /// 앱 화면과 Siri 인텐트가 같은 저장소를 쓴다 (→ ThoughtIntents.swift).
+    @MainActor static let shared = ThoughtStore()
 
     var threads: [ThoughtThread] = []
     var dumpItems: [DumpItem] = []

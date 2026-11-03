@@ -4,7 +4,7 @@ import LeeoKit
 @main
 struct ThinkFlowApp: App {
 
-    @State private var store = ThoughtStore()
+    @State private var store = ThoughtStore.shared
 
     init() {
         CrashDiagnosticsCollector.shared.start()
