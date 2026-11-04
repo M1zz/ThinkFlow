@@ -1,4 +1,5 @@
 import SwiftUI
+import AppIntents
 
 struct BrainDumpSheet: View {
 
@@ -208,6 +209,10 @@ struct BrainDumpSheet: View {
 
     private func saveAllToDump() {
         store.addDumpItems(parsedItems)
+        // Siri 가 "생각 던져 두기" 를 이 사람이 자주 하는 일로 알게 한다.
+        let intent = DumpThoughtIntent()
+        intent.thought = parsedItems.joined(separator: "\n")
+        IntentDonationManager.shared.donate(intent: intent)
         dismiss()
     }
 }

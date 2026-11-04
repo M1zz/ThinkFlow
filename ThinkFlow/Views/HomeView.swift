@@ -152,6 +152,15 @@ struct HomeView: View {
         .onOpenURL { url in
             handleDeepLink(url)
         }
+        // Siri · Spotlight 에서 고른 생각을 연다 (→ OpenThoughtIntent).
+        .onChange(of: store.openRequestID, initial: true) { _, id in
+            guard let id else { return }
+            store.openRequestID = nil
+            guard let thread = store.threads.first(where: { $0.id == id }) else { return }
+            showBrainDump = false
+            continueThread = nil
+            open(thread)
+        }
         #if DEBUG
         .onAppear { openScreenshotScene() }
         #endif

@@ -9,6 +9,8 @@ final class ThoughtStore {
 
     var threads: [ThoughtThread] = []
     var dumpItems: [DumpItem] = []
+    /// Siri · Spotlight 에서 고른 생각. HomeView 가 열고 비운다 (→ OpenThoughtIntent).
+    var openRequestID: UUID?
 
     // 현재 사고 세션 타이머 (중첩 진입 대비 depth 카운팅)
     var activeThreadID: UUID?
