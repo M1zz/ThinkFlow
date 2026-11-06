@@ -3,19 +3,21 @@ import Foundation
 
 // MARK: - 사고 세션 라이브 액티비티 관리
 // 세션이 시작되면 잠금 화면·다이내믹 아일랜드에 타이머를 띄우고, 끝나면 내린다.
+// 이어생각 Pro 의 몫이다 — 무료는 앱 안 타이머만 (→ ProAccess).
 final class SessionActivityController {
 
     private var activity: Activity<ThinkingSessionAttributes>?
 
-    func start(thread: ThoughtThread) {
-        guard ActivityAuthorizationInfo().areActivitiesEnabled else { return }
+    func start(thread: ThoughtThread, startedAt: Date = Date()) {
+        guard ProAccess.featuresOpen,
+              ActivityAuthorizationInfo().areActivitiesEnabled else { return }
         end()
 
         let attributes = ThinkingSessionAttributes(
             threadID: thread.id,
             threadTitle: thread.displayTitle,
             threadEmoji: thread.emoji,
-            sessionStartDate: Date()
+            sessionStartDate: startedAt
         )
         let state = ThinkingSessionAttributes.ContentState(
             nextQuestion: thread.bridge.nextQuestion

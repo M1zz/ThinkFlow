@@ -168,6 +168,13 @@ final class ThoughtStore {
         }
     }
 
+    /// 세션 도중 Pro 가 열렸다 — 지금 세션을 잠금 화면에 띄운다(시작 시각 그대로).
+    func showSessionActivity() {
+        guard sessionDepth > 0, let threadID = activeThreadID,
+              let thread = threads.first(where: { $0.id == threadID }) else { return }
+        sessionActivity.start(thread: thread, startedAt: sessionStartTime ?? Date())
+    }
+
     func endSession() {
         guard sessionDepth > 0 else { return }
         sessionDepth -= 1

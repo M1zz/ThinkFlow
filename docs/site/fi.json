@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow: jatka ajatusta täsmälleen siitä, mihin jäit",
-  "description": "Päätä jokainen ajattelukerta siltalauseeseen, niin seuraavalla kerralla jatkat siitä. Kaikki toiminnot ovat ilmaisia, ja kaikki pysyy laitteellasi.",
+  "description": "Päätä jokainen ajattelukerta siltalauseeseen, niin seuraavalla kerralla jatkat siitä. Ilmainen viiteen ajatukseen asti, ja kaikki pysyy laitteellasi.",
   "hero": {
     "headline": "Eilen kesken jäänyt ajatus\njatkuu tänään samasta kohdasta",
     "lead": "Kun lopetat ajattelun, jätä yksi rivi, josta jatkaa. Kun avaat sovelluksen seuraavan kerran, se odottaa ylimpänä.",
     "cta": "Lataa ilmaiseksi App Storesta",
-    "note": "Kaikki toiminnot ovat ilmaisia. Ei tiliä, kaikki pysyy laitteellasi."
+    "note": "Ilmainen viiteen ajatukseen asti. Ei tiliä, kaikki pysyy laitteellasi."
   },
   "demo": {
     "title": "Kokeile siltalausetta",
@@ -111,8 +111,8 @@
         "a": "Käytä sovelluksen asetusten Lähetä palautetta -kohtaa, kirjoita alla olevaan osoitteeseen tai avaa issue osoitteessa github.com/M1zz/ThinkFlow/issues. Kaikki viestit ovat tervetulleita."
       },
       {
-        "q": "Onko kaikki todella ilmaista?",
-        "a": "Kyllä. Kaikki toiminnot ovat ilmaisia, ilman mainoksia ja ilman tiliä. Asetusten ”Tue kehittäjää” on täysin vapaaehtoinen eikä avaa mitään lisää."
+        "q": "Mitä voin käyttää ilmaiseksi?",
+        "a": "Viiteen ajatukseen asti kaikki on ilmaista: siltalauseet, neljä hiomisvaihetta, aineistot, pään tyhjennys ja vienti. Ei mainoksia, ei tiliä. ThinkFlow Pro poistaa ajatusten määrärajan ja tuo Koti-valikon widgetit sekä ajatteluajan lukitulle näytölle viikko-, kuukausi- tai vuositilauksena tai pysyvänä kertaostona. Kehittäjän tukeminen asetuksissa on vapaaehtoista eikä avaa mitään."
       }
     ]
   },

@@ -15,6 +15,8 @@ struct ContinueThinkingSheet: View {
     @State private var sessionStart = Date()
     @FocusState private var isThoughtFocused: Bool
     @FocusState private var isNextFocused: Bool
+    @State private var showPaywall = false
+    private var pro: ProStore { .shared }
 
     // 조사 결과·자료 (옵셔널) — 예: 클로드에게 물어본 결과 정리
     @State private var refDraft = ""
@@ -96,6 +98,10 @@ struct ContinueThinkingSheet: View {
             }
         }
         .interactiveDismissDisabled(hasAnyInput || phase == .bridging)
+        .sheet(isPresented: $showPaywall) {
+            // 생각하던 중에 Pro 가 열리면 지금 세션부터 잠금 화면에 띄운다.
+            ProPaywallView(reason: .liveActivity) { store.showSessionActivity() }
+        }
         .onAppear {
             sessionStart = Date()
             store.startSession(threadID: thread.id)
@@ -451,21 +457,36 @@ struct ContinueThinkingSheet: View {
     // MARK: - 세션 타이머
 
     private var sessionTimer: some View {
-        HStack {
-            Image(systemName: "brain.head.profile")
-                .foregroundStyle(.purple.opacity(0.5))
-            Text(sessionStart, style: .timer)
-                .font(.caption)
-                .monospacedDigit()
-                .foregroundStyle(.secondary)
-            Text("생각 중...")
-                .font(.caption)
-                .foregroundStyle(.secondary)
+        VStack(spacing: 4) {
+            HStack {
+                Image(systemName: "brain.head.profile")
+                    .foregroundStyle(.purple.opacity(0.5))
+                Text(sessionStart, style: .timer)
+                    .font(.caption)
+                    .monospacedDigit()
+                    .foregroundStyle(.secondary)
+                Text("생각 중...")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("사고 세션 진행 중")
+
+            // 무료는 앱 안 타이머만. 폰을 잠가도 시간이 보이게 하려면 Pro.
+            if !pro.featuresOpen {
+                Button {
+                    showPaywall = true
+                } label: {
+                    Label("잠금 화면에도 생각 시간 띄우기", systemImage: "lock.iphone")
+                        .font(.body)
+                        .frame(minHeight: 44)
+                }
+                .tint(.purple)
+                .accessibilityHint("이어생각 Pro를 소개하는 화면을 엽니다")
+            }
         }
         .frame(maxWidth: .infinity)
         .padding(.vertical, 8)
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel("사고 세션 진행 중")
     }
 
     // MARK: - Actions

@@ -61,6 +61,9 @@ https://m1zz.github.io/ThinkFlow/
 내 생각은 내 기기에
 모든 기록은 기기 안에만 저장되고 계정이 필요 없습니다. 언제든 마크다운이나 JSON 파일로 내보낼 수 있습니다.
 
+무료와 Pro
+생각 다섯 개까지는 끊어둔 문장부터 내보내기까지 무료로 씁니다. 이어생각 Pro는 생각 수 제한을 없애고 홈 화면 위젯과 잠금 화면 생각 시간을 엽니다. 주, 월, 연 구독이나 평생 구매 중에 고를 수 있습니다.
+
 ## en
 
 ### 지원 URL
@@ -121,6 +124,9 @@ See your bridge sentence and key point in a Home Screen widget. While you think,
 
 Your thoughts stay on your device
 Everything is stored only on your device and no account is needed. Export it any time as a Markdown or JSON file.
+
+Free and Pro
+With up to five thoughts, everything from bridge sentences to export is free. ThinkFlow Pro removes the limit on thoughts and adds Home Screen widgets and your thinking time on the Lock Screen. Choose a weekly, monthly or yearly subscription, or buy it once for life.
 
 ## en-GB
 
@@ -183,6 +189,9 @@ See your bridge sentence and key point in a Home Screen widget. While you think,
 Your thoughts stay on your device
 Everything is stored only on your device and no account is needed. Export it any time as a Markdown or JSON file.
 
+Free and Pro
+With up to five thoughts, everything from bridge sentences to export is free. ThinkFlow Pro removes the limit on thoughts and adds Home Screen widgets and your thinking time on the Lock Screen. Choose a weekly, monthly or yearly subscription, or buy it once for life.
+
 ## ja
 
 ### 지원 URL
@@ -243,6 +252,9 @@ ThinkFlowは、深い考えを何日もかけて少しずつ育てていくた�
 
 考えは自分のデバイスの中に
 すべての記録はデバイスの中にだけ保存され、アカウントは不要です。いつでもMarkdownまたはJSONファイルとして書き出せます。
+
+無料とPro
+考えが5件までなら、区切りの一文から書き出しまで無料で使えます。ThinkFlow Proでは考えの数の上限がなくなり、ホーム画面ウィジェットとロック画面での思考時間の表示が加わります。週額・月額・年額のサブスクリプションか、買い切りから選べます。
 
 ## zh-Hans
 
@@ -305,6 +317,9 @@ ThinkFlow 是一款思考笔记，帮你把深入的想法分成几天，一点�
 你的想法只在你的设备上
 所有记录只保存在设备中，无需注册账号。随时可以导出为 Markdown 或 JSON 文件。
 
+免费与 Pro
+想法在五个以内时，从衔接句到导出都可免费使用。ThinkFlow Pro 取消想法数量限制，并加入主屏幕小组件和锁定屏幕上的思考时间。可选择按周、按月、按年订阅，或一次性永久买断。
+
 ## zh-Hant
 
 ### 지원 URL
@@ -365,6 +380,9 @@ ThinkFlow 是一款思考筆記，幫你把深入的想法分成幾天，一點�
 
 你的想法只在你的裝置上
 所有紀錄只儲存在裝置中，不需要註冊帳號。隨時可以匯出為 Markdown 或 JSON 檔案。
+
+免費與 Pro
+想法在五個以內時，從銜接句到匯出都能免費使用。ThinkFlow Pro 取消想法數量限制，並加入主畫面小工具與鎖定畫面上的思考時間。可選擇按週、按月、按年訂閱，或一次永久買斷。
 
 ## es
 
@@ -427,6 +445,9 @@ Mira tu frase puente y lo esencial en un widget de la pantalla de inicio. Mientr
 Tus ideas, en tu dispositivo
 Todo se guarda solo en tu dispositivo y no necesitas cuenta. Expórtalo cuando quieras como archivo Markdown o JSON.
 
+Gratis y Pro
+Con hasta cinco ideas, todo es gratis, desde la frase puente hasta la exportación. ThinkFlow Pro elimina el límite de ideas y añade widgets en la pantalla de inicio y el tiempo pensando en la pantalla bloqueada. Elige suscripción semanal, mensual o anual, o un pago único para siempre.
+
 ## de
 
 ### 지원 URL
@@ -487,6 +508,9 @@ Sieh Brückensatz und Kernpunkt im Widget auf dem Home-Bildschirm. Während du d
 
 Deine Gedanken bleiben auf deinem Gerät
 Alles wird nur auf deinem Gerät gespeichert, ein Konto brauchst du nicht. Exportiere jederzeit als Markdown- oder JSON-Datei.
+
+Kostenlos und Pro
+Bis zu fünf Gedanken ist alles kostenlos, vom Brückensatz bis zum Export. ThinkFlow Pro hebt die Begrenzung auf und bringt Widgets für den Home-Bildschirm sowie die Denkzeit auf dem Sperrbildschirm. Wähle ein Wochen-, Monats- oder Jahresabo oder kaufe einmalig für immer.
 
 ## fr
 
@@ -549,6 +573,9 @@ Consultez votre phrase-relais et l’essentiel dans un widget de l’écran d’
 Vos idées restent sur votre appareil
 Tout est enregistré uniquement sur votre appareil, sans compte. Exportez à tout moment en fichier Markdown ou JSON.
 
+Gratuit et Pro
+Jusqu’à cinq idées, tout est gratuit, de la phrase-relais à l’export. ThinkFlow Pro supprime la limite d’idées et ajoute les widgets de l’écran d’accueil et le temps de réflexion sur l’écran verrouillé. Choisissez un abonnement hebdomadaire, mensuel ou annuel, ou un achat unique à vie.
+
 ## it
 
 ### 지원 URL
@@ -609,6 +636,9 @@ Vedi la frase ponte e il concetto chiave in un widget nella schermata Home. Ment
 
 I tuoi pensieri restano sul tuo dispositivo
 Tutto è salvato solo sul tuo dispositivo e non serve alcun account. Esporta quando vuoi in un file Markdown o JSON.
+
+Gratis e Pro
+Fino a cinque pensieri è tutto gratis, dalla frase ponte all’esportazione. ThinkFlow Pro toglie il limite ai pensieri e aggiunge i widget della schermata Home e il tempo di pensiero sulla schermata di blocco. Scegli un abbonamento settimanale, mensile o annuale, oppure un acquisto unico a vita.
 
 ## pt-BR
 
@@ -671,6 +701,9 @@ Veja a frase-ponte e o essencial em um widget na Tela de Início. Enquanto você
 Suas ideias ficam no seu dispositivo
 Tudo é salvo apenas no seu dispositivo, sem precisar de conta. Exporte quando quiser em arquivo Markdown ou JSON.
 
+Grátis e Pro
+Com até cinco ideias, tudo é grátis, da frase-ponte à exportação. O ThinkFlow Pro tira o limite de ideias e adiciona widgets na Tela de Início e o tempo pensando na Tela Bloqueada. Escolha assinatura semanal, mensal ou anual, ou uma compra única vitalícia.
+
 ## ru
 
 ### 지원 URL
@@ -731,6 +764,9 @@ ThinkFlow — блокнот для размышлений, который по�
 
 Ваши мысли — на вашем устройстве
 Все записи хранятся только на устройстве, учётная запись не нужна. В любой момент можно экспортировать их в файл Markdown или JSON.
+
+Бесплатно и Pro
+Пока мыслей не больше пяти, всё бесплатно: от фразы-мостика до экспорта. ThinkFlow Pro снимает ограничение на число мыслей и добавляет виджеты на экран «Домой» и время размышлений на экране блокировки. Выберите подписку на неделю, месяц или год либо разовую покупку навсегда.
 
 ## th
 
@@ -793,6 +829,9 @@ ThinkFlow คือสมุดโน้ตสำหรับการคิด 
 ความคิดของคุณอยู่ในอุปกรณ์ของคุณ
 ทุกบันทึกเก็บไว้ในอุปกรณ์เท่านั้น ไม่ต้องสมัครบัญชี ส่งออกเป็นไฟล์ Markdown หรือ JSON ได้ทุกเมื่อ
 
+ฟรีและ Pro
+หากมีความคิดไม่เกินห้าเรื่อง ทุกอย่างตั้งแต่ประโยคเชื่อมจนถึงการส่งออกใช้ได้ฟรี ThinkFlow Pro ปลดขีดจำกัดจำนวนความคิด และเพิ่มวิดเจ็ตหน้าจอโฮมกับเวลาคิดบนหน้าจอล็อก เลือกสมัครรายสัปดาห์ รายเดือน รายปี หรือซื้อครั้งเดียวใช้ได้ตลอดชีพ
+
 ## vi
 
 ### 지원 URL
@@ -853,6 +892,9 @@ Xem câu nối và ý chính trên tiện ích ở Màn hình chính. Khi đang 
 
 Suy nghĩ của bạn nằm trên thiết bị của bạn
 Mọi ghi chép chỉ lưu trên thiết bị và không cần tài khoản. Bạn có thể xuất ra tệp Markdown hoặc JSON bất cứ lúc nào.
+
+Miễn phí và Pro
+Với tối đa năm suy nghĩ, mọi thứ từ câu nối đến xuất tệp đều miễn phí. ThinkFlow Pro bỏ giới hạn số suy nghĩ, thêm tiện ích Màn hình chính và thời gian suy nghĩ trên Màn hình khóa. Chọn gói tuần, tháng, năm hoặc mua một lần dùng trọn đời.
 
 ## cs
 
@@ -915,6 +957,9 @@ Navazující větu a podstatu uvidíte ve widgetu na ploše. Když přemýšlít
 Vaše myšlenky zůstávají ve vašem zařízení
 Všechny záznamy se ukládají jen do zařízení a nepotřebujete účet. Kdykoli je můžete exportovat jako soubor Markdown nebo JSON.
 
+Zdarma a Pro
+Do pěti myšlenek je všechno zdarma, od navazující věty po export. ThinkFlow Pro ruší omezení počtu myšlenek a přidává widgety na plochu a čas přemýšlení na zamčené obrazovce. Vyberte si týdenní, měsíční nebo roční předplatné, nebo jednorázový doživotní nákup.
+
 ## el
 
 ### 지원 URL
@@ -975,6 +1020,9 @@ ThinkFlow: Συνέχεια σκέψης
 
 Οι σκέψεις σας μένουν στη συσκευή σας
 Όλες οι καταγραφές αποθηκεύονται μόνο στη συσκευή σας και δεν χρειάζεται λογαριασμός. Εξάγετε όποτε θέλετε σε αρχείο Markdown ή JSON.
+
+Δωρεάν και Pro
+Έως πέντε σκέψεις, όλα είναι δωρεάν, από την πρόταση-γέφυρα ως την εξαγωγή. Το ThinkFlow Pro καταργεί το όριο σκέψεων και προσθέτει widget στην οθόνη Αφετηρίας και τον χρόνο σκέψης στην οθόνη κλειδώματος. Επιλέξτε εβδομαδιαία, μηνιαία ή ετήσια συνδρομή ή εφάπαξ αγορά εφ’ όρου ζωής.
 
 ## da
 
@@ -1037,6 +1085,9 @@ Se din brosætning og kernen i en widget på hjemmeskærmen. Mens du tænker, vi
 Dine tanker bliver på din enhed
 Alt gemmes kun på din enhed, og du behøver ingen konto. Eksportér når som helst som en Markdown- eller JSON-fil.
 
+Gratis og Pro
+Op til fem tanker er alt gratis, fra brosætning til eksport. ThinkFlow Pro fjerner grænsen for antal tanker og tilføjer widgets på hjemmeskærmen og tænketid på låseskærmen. Vælg et ugentligt, månedligt eller årligt abonnement, eller køb én gang for livet.
+
 ## fi
 
 ### 지원 URL
@@ -1097,6 +1148,9 @@ Näet siltalauseen ja ytimen kotinäytön widgetissä. Ajattelun aikana aika nä
 
 Ajatuksesi pysyvät laitteellasi
 Kaikki tallennetaan vain laitteellesi, eikä tiliä tarvita. Voit viedä sisällön milloin tahansa Markdown- tai JSON-tiedostona.
+
+Ilmainen ja Pro
+Viiteen ajatukseen asti kaikki on ilmaista siltalauseesta vientiin. ThinkFlow Pro poistaa ajatusten määrärajan ja tuo Koti-valikon widgetit sekä ajatteluajan lukitulle näytölle. Valitse viikko-, kuukausi- tai vuositilaus tai kertaosto pysyvästi.
 
 ## id
 
@@ -1159,6 +1213,9 @@ Lihat kalimat jembatan dan inti di widget Layar Utama. Saat sedang berpikir, wak
 Pikiranmu tetap di perangkatmu
 Semua catatan hanya disimpan di perangkatmu dan tidak perlu akun. Ekspor kapan saja sebagai file Markdown atau JSON.
 
+Gratis dan Pro
+Hingga lima pikiran, semuanya gratis, dari kalimat jembatan sampai ekspor. ThinkFlow Pro menghapus batas jumlah pikiran dan menambahkan widget Layar Utama serta waktu berpikir di Layar Terkunci. Pilih langganan mingguan, bulanan, tahunan, atau beli sekali untuk seumur hidup.
+
 ## nb
 
 ### 지원 URL
@@ -1219,6 +1276,9 @@ Se brosetningen og kjernen i en widget på hjemskjermen. Mens du tenker, vises t
 
 Tankene dine blir på enheten din
 Alt lagres bare på enheten din, og du trenger ingen konto. Eksporter når som helst som en Markdown- eller JSON-fil.
+
+Gratis og Pro
+Opptil fem tanker er alt gratis, fra brosetning til eksport. ThinkFlow Pro fjerner grensen for antall tanker og legger til widgeter på Hjem-skjermen og tenketid på låseskjermen. Velg ukentlig, månedlig eller årlig abonnement, eller kjøp én gang for livet.
 
 ## nl
 
@@ -1281,6 +1341,9 @@ Zie je brugzin en de kern in een widget op het beginscherm. Terwijl je denkt, ve
 Je gedachten blijven op je apparaat
 Alles wordt alleen op je apparaat bewaard en je hebt geen account nodig. Exporteer wanneer je wilt als Markdown- of JSON-bestand.
 
+Gratis en Pro
+Tot vijf gedachten is alles gratis, van brugzin tot export. ThinkFlow Pro haalt de limiet op gedachten weg en voegt widgets op het beginscherm en de denktijd op het toegangsscherm toe. Kies een wekelijks, maandelijks of jaarlijks abonnement, of koop eenmalig voor altijd.
+
 ## pl
 
 ### 지원 URL
@@ -1341,6 +1404,9 @@ Zdanie-pomost i sedno zobaczysz w widżecie na ekranie głównym. Gdy myślisz, 
 
 Twoje myśli zostają na Twoim urządzeniu
 Wszystko jest zapisywane tylko na urządzeniu i nie potrzebujesz konta. W każdej chwili możesz wyeksportować dane do pliku Markdown lub JSON.
+
+Za darmo i Pro
+Do pięciu myśli wszystko jest za darmo, od zdania-pomostu po eksport. ThinkFlow Pro znosi limit myśli i dodaje widżety na ekranie początkowym oraz czas myślenia na ekranie blokady. Wybierz subskrypcję tygodniową, miesięczną lub roczną albo jednorazowy zakup dożywotni.
 
 ## sv
 
@@ -1403,6 +1469,9 @@ Se din brofras och kärnan i en widget på hemskärmen. Medan du tänker visas t
 Dina tankar stannar på din enhet
 Allt sparas bara på din enhet och du behöver inget konto. Exportera när som helst som en Markdown- eller JSON-fil.
 
+Gratis och Pro
+Upp till fem tankar är allt gratis, från brofras till export. ThinkFlow Pro tar bort gränsen för antal tankar och lägger till widgetar på hemskärmen och tänketid på låsskärmen. Välj vecko-, månads- eller årsprenumeration, eller köp en gång för livet.
+
 ## tr
 
 ### 지원 URL
@@ -1463,6 +1532,9 @@ Köprü cümleni ve özet noktayı Ana Ekran widget’ında gör. Düşünürken
 
 Düşüncelerin cihazında kalır
 Tüm kayıtlar yalnızca cihazında saklanır ve hesap gerekmez. İstediğin zaman Markdown ya da JSON dosyası olarak dışa aktarabilirsin.
+
+Ücretsiz ve Pro
+Beş düşünceye kadar köprü cümlesinden dışa aktarmaya her şey ücretsiz. ThinkFlow Pro düşünce sınırını kaldırır, Ana Ekran widget’larını ve Kilit Ekranı’nda düşünme süresini ekler. Haftalık, aylık ya da yıllık abonelik seç veya bir kez ödeyip ömür boyu kullan.
 
 ## 손쉬운 사용
 

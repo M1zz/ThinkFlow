@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow: nối tiếp suy nghĩ từ đúng chỗ bạn đã dừng",
-  "description": "Kết thúc bằng một câu nối, lần sau mở ứng dụng là nghĩ tiếp ngay từ đó. Mọi tính năng đều miễn phí và dữ liệu chỉ nằm trên thiết bị của bạn.",
+  "description": "Kết thúc bằng một câu nối, lần sau mở ứng dụng là nghĩ tiếp ngay từ đó. Miễn phí với tối đa năm suy nghĩ, dữ liệu chỉ nằm trên thiết bị của bạn.",
   "hero": {
     "headline": "Suy nghĩ dang dở hôm qua,\nhôm nay nối tiếp đúng chỗ cũ",
     "lead": "Khi dừng suy nghĩ, hãy để lại một dòng để nghĩ tiếp. Lần sau mở ứng dụng, dòng đó đang chờ ở trên cùng.",
     "cta": "Tải miễn phí trên App Store",
-    "note": "Mọi tính năng đều miễn phí. Không cần tài khoản, mọi thứ ở trên thiết bị của bạn."
+    "note": "Miễn phí với tối đa năm suy nghĩ. Không cần tài khoản, mọi thứ ở trên thiết bị của bạn."
   },
   "demo": {
     "title": "Thử để lại câu nối",
@@ -111,8 +111,8 @@
         "a": "Dùng mục Gửi góp ý trong cài đặt của ứng dụng, viết thư tới địa chỉ bên dưới hoặc mở issue tại github.com/M1zz/ThinkFlow/issues. Mọi ý kiến đều được hoan nghênh."
       },
       {
-        "q": "Có thật là miễn phí hết không?",
-        "a": "Có. Mọi tính năng đều miễn phí, không quảng cáo, không cần tài khoản. Mục “Ủng hộ nhà phát triển” trong cài đặt là hoàn toàn tùy ý và không mở khóa thêm gì."
+        "q": "Dùng miễn phí được những gì?",
+        "a": "Với tối đa năm suy nghĩ, mọi thứ đều miễn phí: câu nối, bốn bước gọt giũa, đính kèm tài liệu, trút suy nghĩ và xuất tệp. Không quảng cáo, không cần tài khoản. ThinkFlow Pro bỏ giới hạn số suy nghĩ, thêm tiện ích Màn hình chính và thời gian suy nghĩ trên Màn hình khóa, với gói tuần, tháng, năm hoặc mua một lần dùng trọn đời. Ủng hộ nhà phát triển trong Cài đặt là tùy ý và không mở khóa gì thêm."
       }
     ]
   },

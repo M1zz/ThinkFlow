@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow: düşüncene tam kaldığın yerden devam et",
-  "description": "Her düşünme oturumunu bir köprü cümlesiyle bitir, bir dahaki sefere oradan devam et. Tüm özellikler ücretsiz ve her şey cihazında kalır.",
+  "description": "Her düşünme oturumunu bir köprü cümlesiyle bitir, bir dahaki sefere oradan devam et. Beş düşünceye kadar ücretsiz ve her şey cihazında kalır.",
   "hero": {
     "headline": "Dün yarım kalan düşüncen\nbugün kaldığı yerden sürüyor",
     "lead": "Düşünmeyi bıraktığında devam edeceğin bir satır bırak. Uygulamayı bir sonraki açışında o satır en üstte seni bekler.",
     "cta": "App Store’dan ücretsiz indir",
-    "note": "Tüm özellikler ücretsiz. Hesap yok, her şey cihazında kalır."
+    "note": "Beş düşünceye kadar ücretsiz. Hesap yok, her şey cihazında kalır."
   },
   "demo": {
     "title": "Bir köprü cümlesi bırak",
@@ -111,8 +111,8 @@
         "a": "Uygulama ayarlarındaki Geri Bildirim Gönder seçeneğini kullan, aşağıdaki adrese yaz ya da github.com/M1zz/ThinkFlow/issues adresinde bir issue aç. Her mesaj memnuniyetle karşılanır."
       },
       {
-        "q": "Gerçekten her şey ücretsiz mi?",
-        "a": "Evet. Tüm özellikler ücretsiz; reklam yok, hesap yok. Ayarlardaki “Geliştiriciyi Destekleyin” tamamen isteğe bağlıdır ve hiçbir şeyin kilidini açmaz."
+        "q": "Ücretsiz olarak neler kullanabilirim?",
+        "a": "Beş düşünceye kadar her şey ücretsiz: köprü cümleleri, dört aşamalı olgunlaştırma, materyaller, düşünceleri dökme ve dışa aktarma. Reklam yok, hesap yok. ThinkFlow Pro düşünce sınırını kaldırır, Ana Ekran widget’larını ve Kilit Ekranı’nda düşünme süresini ekler; haftalık, aylık ya da yıllık abonelikle veya tek seferlik ömür boyu satın alımla. Ayarlar’daki Geliştiriciyi Destekle tamamen isteğe bağlıdır ve hiçbir şeyin kilidini açmaz."
       }
     ]
   },

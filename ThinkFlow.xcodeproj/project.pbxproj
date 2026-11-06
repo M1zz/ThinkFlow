@@ -38,6 +38,10 @@
 		BAFA9B998A92184C355F16A8 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F1271205073D3D1E22A94487 /* Localizable.xcstrings */; };
 		BAFA9B998A92184C355F1701 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F1271205073D3D1E22A94488 /* InfoPlist.xcstrings */; };
 		F398F020AC40E081DC8592A3 /* AppShortcuts.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 52C96D82D6DDA950E5AA362A /* AppShortcuts.xcstrings */; };
+		7A1F00000000000000000011 /* ProAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F00000000000000000001 /* ProAccess.swift */; };
+		7A1F00000000000000000021 /* ProAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F00000000000000000001 /* ProAccess.swift */; };
+		7A1F00000000000000000012 /* ProStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F00000000000000000002 /* ProStore.swift */; };
+		7A1F00000000000000000013 /* ProPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1F00000000000000000003 /* ProPaywallView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +107,10 @@
 		A30002 /* ThinkFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThinkFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1271205073D3D1E22A94487 /* Localizable.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		F1271205073D3D1E22A94488 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		7A1F00000000000000000001 /* ProAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProAccess.swift; sourceTree = "<group>"; };
+		7A1F00000000000000000002 /* ProStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProStore.swift; sourceTree = "<group>"; };
+		7A1F00000000000000000003 /* ProPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProPaywallView.swift; sourceTree = "<group>"; };
+		7A1F00000000000000000004 /* ThinkFlow.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = ThinkFlow.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -205,6 +213,7 @@
 				F1271205073D3D1E22A94487 /* Localizable.xcstrings */,
 				F1271205073D3D1E22A94488 /* InfoPlist.xcstrings */,
 				52C96D82D6DDA950E5AA362A /* AppShortcuts.xcstrings */,
+				7A1F00000000000000000004 /* ThinkFlow.storekit */,
 			);
 			path = ThinkFlow;
 			sourceTree = "<group>";
@@ -219,6 +228,8 @@
 				A20017 /* ThoughtExporter.swift */,
 				A20018 /* CrashDiagnostics.swift */,
 				54937BC1C6AD62B3D2079031 /* ThoughtIntents.swift */,
+				7A1F00000000000000000001 /* ProAccess.swift */,
+				7A1F00000000000000000002 /* ProStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -235,6 +246,7 @@
 				A20012 /* BrainDumpSheet.swift */,
 				A20013 /* LayerBadge.swift */,
 				14F3F757FEF7C15E83194F0C /* ThinkFlowSupportView.swift */,
+				7A1F00000000000000000003 /* ProPaywallView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -420,6 +432,7 @@
 				B10001 /* ThoughtThread.swift in Sources */,
 				B10002 /* LayerBadge.swift in Sources */,
 				B10003 /* ThinkingSessionAttributes.swift in Sources */,
+				7A1F00000000000000000021 /* ProAccess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +459,9 @@
 				729246542D45D7D88C2F9F63 /* ThinkFlowSupportView.swift in Sources */,
 				51550A233E4E1740B92A8011 /* ThinkFlowRoadmap.swift in Sources */,
 				7EC5B9E03BEE39E970C04AD2 /* ThoughtIntents.swift in Sources */,
+				7A1F00000000000000000011 /* ProAccess.swift in Sources */,
+				7A1F00000000000000000012 /* ProStore.swift in Sources */,
+				7A1F00000000000000000013 /* ProPaywallView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

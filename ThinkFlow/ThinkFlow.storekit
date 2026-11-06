@@ -1,0 +1,215 @@
+{
+  "identifier": "71D65DD3-77E5-4D63-A88F-4B5F59B16B5A",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "17.99",
+      "familyShareable": true,
+      "internalID": "AAC3BBD6-9817-4577-83C5-C71D5EC3A24A",
+      "localizations": [
+        {
+          "description": "생각 무제한, 홈 화면 위젯, 잠금 화면 생각 시간을 엽니다.",
+          "displayName": "이어생각 Pro 평생",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "Unlimited thoughts, Home Screen widgets, and your thinking timer on the Lock Screen.",
+          "displayName": "ThinkFlow Pro Lifetime",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.thinkflow.pro",
+      "referenceName": "Pro 평생",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "11.99",
+      "familyShareable": true,
+      "internalID": "C534A946-6255-4E07-8F5E-46451391D763",
+      "localizations": [
+        {
+          "description": "구독하던 분께 드리는 Pro 평생입니다.",
+          "displayName": "이어생각 Pro 평생 (구독 졸업)",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "Pro Lifetime at a lower price for subscribers.",
+          "displayName": "ThinkFlow Pro Lifetime for Subscribers",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.thinkflow.pro.graduate",
+      "referenceName": "Pro 평생 (구독 졸업)",
+      "type": "NonConsumable"
+    },
+    {
+      "displayPrice": "0.99",
+      "familyShareable": false,
+      "internalID": "CFB2E406-C731-46BC-8B8C-7C3A3DD091B6",
+      "localizations": [
+        {
+          "description": "개발자에게 커피 한 잔을 보냅니다.",
+          "displayName": "작은 응원",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "Send the developer a cup of coffee.",
+          "displayName": "Small Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.thinkflow.tip.small",
+      "referenceName": "Small Tip",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "2.99",
+      "familyShareable": false,
+      "internalID": "43524A7D-81E7-4353-B544-DD37F5A0AF1A",
+      "localizations": [
+        {
+          "description": "이어생각을 계속 다듬을 수 있게 힘을 보탭니다.",
+          "displayName": "든든한 응원",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "Help keep ThinkFlow getting better.",
+          "displayName": "Medium Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.thinkflow.tip.medium",
+      "referenceName": "Medium Tip",
+      "type": "Consumable"
+    },
+    {
+      "displayPrice": "9.99",
+      "familyShareable": false,
+      "internalID": "43006BE7-FBC9-404C-B1BE-CAE67458426E",
+      "localizations": [
+        {
+          "description": "이어생각에 큰 힘을 보탭니다.",
+          "displayName": "큰 응원",
+          "locale": "ko_KR"
+        },
+        {
+          "description": "A big boost for ThinkFlow.",
+          "displayName": "Large Tip",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.leeo.thinkflow.tip.large",
+      "referenceName": "Large Tip",
+      "type": "Consumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "0",
+    "_developerTeamID": "QGAQ3AY3R3",
+    "_failTransactionsEnabled": false,
+    "_lastSynchronizedDate": 0,
+    "_locale": "ko_KR",
+    "_storefront": "KOR",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [
+    {
+      "id": "6A95DAF5-60EA-4342-B639-BB5E61CAE3B7",
+      "localizations": [],
+      "name": "이어생각 Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "5.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "C21A576E-7436-43DB-A27D-160B162C9D79",
+          "introductoryOffer": {
+            "internalID": "4BB3BA5D-3253-4BC5-9C3D-7082B2B062E8",
+            "numberOfPeriods": 1,
+            "paymentMode": "payUpFront",
+            "subscriptionPeriod": "P1Y",
+            "displayPrice": "2.99"
+          },
+          "localizations": [
+            {
+              "description": "생각 무제한, 홈 화면 위젯, 잠금 화면 생각 시간을 엽니다.",
+              "displayName": "이어생각 Pro 연간",
+              "locale": "ko_KR"
+            },
+            {
+              "description": "Unlimited thoughts, Home Screen widgets, and your thinking timer on the Lock Screen.",
+              "displayName": "ThinkFlow Pro Yearly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.leeo.thinkflow.pro.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Pro 연간",
+          "subscriptionGroupID": "6A95DAF5-60EA-4342-B639-BB5E61CAE3B7",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "4BDD5133-6F6D-43B2-9538-7E0D7EF53F72",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "생각 무제한, 홈 화면 위젯, 잠금 화면 생각 시간을 엽니다.",
+              "displayName": "이어생각 Pro 월간",
+              "locale": "ko_KR"
+            },
+            {
+              "description": "Unlimited thoughts, Home Screen widgets, and your thinking timer on the Lock Screen.",
+              "displayName": "ThinkFlow Pro Monthly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.leeo.thinkflow.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Pro 월간",
+          "subscriptionGroupID": "6A95DAF5-60EA-4342-B639-BB5E61CAE3B7",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "0.99",
+          "familyShareable": true,
+          "groupNumber": 1,
+          "internalID": "0F70B380-1036-431E-8711-09678B357313",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "생각 무제한, 홈 화면 위젯, 잠금 화면 생각 시간을 엽니다.",
+              "displayName": "이어생각 Pro 주간",
+              "locale": "ko_KR"
+            },
+            {
+              "description": "Unlimited thoughts, Home Screen widgets, and your thinking timer on the Lock Screen.",
+              "displayName": "ThinkFlow Pro Weekly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.leeo.thinkflow.pro.weekly",
+          "recurringSubscriptionPeriod": "P1W",
+          "referenceName": "Pro 주간",
+          "subscriptionGroupID": "6A95DAF5-60EA-4342-B639-BB5E61CAE3B7",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}

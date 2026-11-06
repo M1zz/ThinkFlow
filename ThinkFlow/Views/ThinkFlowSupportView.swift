@@ -5,6 +5,7 @@ struct ThinkFlowSupportView: View {
     var body: some View {
         NavigationStack {
             List {
+                ProSettingsSection()
                 Section {
                     // 앞으로 만들 기능 — 원본은 ThinkFlowRoadmap.swift
                     NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }

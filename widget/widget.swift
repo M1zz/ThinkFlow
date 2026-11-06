@@ -33,6 +33,8 @@ struct BridgeEntry: TimelineEntry {
     let date: Date
     let thread: ThoughtThread?
     let dormantThread: ThoughtThread?
+    /// 이어생각 Pro 가 열려 있는가. 앱이 App Group 에 적어 둔 한 줄을 읽는다 (→ ProAccess).
+    var isOpen: Bool = ProAccess.featuresOpen
 }
 
 // MARK: - Timeline Provider
@@ -309,9 +311,16 @@ struct ThinkFlowWidget: Widget {
             intent: ConfigurationAppIntent.self,
             provider: BridgeTimelineProvider()
         ) { entry in
-            ThinkFlowWidgetEntryView(entry: entry)
-                .containerBackground(.fill.tertiary, for: .widget)
-                .widgetURL(Self.deepLinkURL(for: entry.thread))
+            Group {
+                if entry.isOpen {
+                    ThinkFlowWidgetEntryView(entry: entry)
+                } else {
+                    LockedWidgetView()
+                }
+            }
+            .containerBackground(.fill.tertiary, for: .widget)
+            // 잠긴 위젯은 앱의 페이월로 — 무엇이 잠겼는지 그 자리에서 보여 준다.
+            .widgetURL(entry.isOpen ? Self.deepLinkURL(for: entry.thread) : ProAccess.paywallURL)
         }
         .configurationDisplayName("이어생각")
         .description("멈춘 생각을 이어가세요. 헤밍웨이 브릿지를 홈 화면에서 확인합니다.")
@@ -322,6 +331,30 @@ struct ThinkFlowWidget: Widget {
     static func deepLinkURL(for thread: ThoughtThread?) -> URL? {
         guard let thread else { return URL(string: "thinkflow://continue") }
         return URL(string: "thinkflow://continue?threadId=\(thread.id.uuidString)")
+    }
+}
+
+// MARK: - 잠긴 위젯 (무료)
+
+struct LockedWidgetView: View {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Image(systemName: "lock.fill")
+                .font(.title3)
+                .foregroundStyle(.orange)
+                .accessibilityHidden(true)
+            Spacer(minLength: 0)
+            Text(verbatim: "Pro")
+                .font(.headline)
+                .foregroundStyle(.orange)
+            Text("눌러서 이어생각 Pro로 위젯을 여세요")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+                .lineLimit(3)
+                .minimumScaleFactor(0.8)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+        .accessibilityElement(children: .combine)
     }
 }
 

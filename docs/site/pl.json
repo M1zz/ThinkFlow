@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow: wracaj do myśli dokładnie tam, gdzie przerwałeś",
-  "description": "Zostaw na koniec zdanie-pomost, a następnym razem zaczniesz od niego. Wszystkie funkcje są bezpłatne, a zapiski zostają na Twoim urządzeniu.",
+  "description": "Zostaw na koniec zdanie-pomost, a następnym razem zaczniesz od niego. Do pięciu myśli za darmo, a zapiski zostają na Twoim urządzeniu.",
   "hero": {
     "headline": "Wczorajsza niedokończona myśl\ndziś rusza dalej od tego samego miejsca",
     "lead": "Kiedy przestajesz myśleć, zostaw jedną linijkę, od której podejmiesz wątek. Gdy znów otworzysz aplikację, będzie czekać na samej górze.",
     "cta": "Pobierz za darmo z App Store",
-    "note": "Wszystkie funkcje są bezpłatne. Bez konta, wszystko zostaje na Twoim urządzeniu."
+    "note": "Do pięciu myśli za darmo. Bez konta, wszystko zostaje na Twoim urządzeniu."
   },
   "demo": {
     "title": "Spróbuj zostawić zdanie-pomost",
@@ -111,8 +111,8 @@
         "a": "Użyj opcji Wyślij opinię w ustawieniach aplikacji, napisz na adres poniżej albo otwórz issue na github.com/M1zz/ThinkFlow/issues. Każda wiadomość jest mile widziana."
       },
       {
-        "q": "Czy naprawdę wszystko jest za darmo?",
-        "a": "Tak. Wszystkie funkcje są bezpłatne, bez reklam i bez konta. „Wesprzyj twórcę” w ustawieniach jest całkowicie dobrowolne i niczego nie odblokowuje."
+        "q": "Z czego mogę korzystać za darmo?",
+        "a": "Do pięciu myśli wszystko jest za darmo: zdania-pomosty, cztery etapy szlifowania, materiały, wyrzucanie myśli i eksport. Bez reklam i bez konta. ThinkFlow Pro znosi limit myśli i dodaje widżety na ekranie początkowym oraz czas myślenia na ekranie blokady, w subskrypcji tygodniowej, miesięcznej lub rocznej albo w jednorazowym zakupie dożywotnim. Wsparcie twórcy w Ustawieniach jest dobrowolne i niczego nie odblokowuje."
       }
     ]
   },

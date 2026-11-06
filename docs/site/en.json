@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow: pick up your thinking right where you left off",
-  "description": "End each session with one unfinished line, and it’s waiting at the top next time. Every feature is free, and your notes stay on your device.",
+  "description": "End each session with one unfinished line, and it’s waiting at the top next time. Free for up to five thoughts, and your notes stay on your device.",
   "hero": {
     "headline": "Yesterday’s half-finished thought,\npicked up right where it stopped",
     "lead": "When you stop thinking, leave one line to continue from. Next time you open the app, that line is waiting at the top.",
     "cta": "Get it free on the App Store",
-    "note": "Every feature is free. No account, everything stays on your device."
+    "note": "Free for up to five thoughts. No account, everything stays on your device."
   },
   "demo": {
     "title": "Try leaving a bridge",
@@ -111,8 +111,8 @@
         "a": "Use Send Feedback in the app’s settings, write to the address below, or open an issue at github.com/M1zz/ThinkFlow/issues. Anything is welcome."
       },
       {
-        "q": "Is it really all free?",
-        "a": "Yes. Every feature is free, with no ads and no account. Support the Developer in Settings is entirely optional and doesn’t unlock anything."
+        "q": "What can I do for free?",
+        "a": "With up to five thoughts, everything is free: bridge sentences, the four refining stages, references, brain dump and export. No ads, no account. ThinkFlow Pro removes the limit on thoughts and adds Home Screen widgets and your thinking time on the Lock Screen, as a weekly, monthly or yearly subscription or a one-time lifetime purchase. Support the Developer in Settings is entirely optional and doesn’t unlock anything."
       }
     ]
   },

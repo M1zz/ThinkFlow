@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow : reprenez vos idées là où vous les aviez laissées",
-  "description": "Finissez par une phrase-relais, et la prochaine fois vous repartez de là. Toutes les fonctions sont gratuites et tout reste sur votre appareil.",
+  "description": "Finissez par une phrase-relais, et la prochaine fois vous repartez de là. Gratuit jusqu’à cinq idées, et tout reste sur votre appareil.",
   "hero": {
     "headline": "L’idée d’hier restée en suspens,\nreprise aujourd’hui au même endroit",
     "lead": "Quand vous arrêtez de réfléchir, laissez une ligne pour la suite. À la prochaine ouverture, elle vous attend tout en haut.",
     "cta": "Télécharger gratuitement sur l’App Store",
-    "note": "Toutes les fonctions sont gratuites. Sans compte, tout reste sur votre appareil."
+    "note": "Gratuit jusqu’à cinq idées. Sans compte, tout reste sur votre appareil."
   },
   "demo": {
     "title": "Laissez une phrase-relais",
@@ -111,8 +111,8 @@
         "a": "Utilisez Envoyer un commentaire dans les réglages de l’app, écrivez à l’adresse ci-dessous ou ouvrez un ticket sur github.com/M1zz/ThinkFlow/issues. Tout retour est bienvenu."
       },
       {
-        "q": "Tout est vraiment gratuit ?",
-        "a": "Oui. Toutes les fonctions sont gratuites, sans publicité ni compte. « Soutenir le développeur » dans les réglages est entièrement facultatif et ne débloque rien."
+        "q": "Que puis-je faire gratuitement ?",
+        "a": "Jusqu’à cinq idées, tout est gratuit : phrases-relais, les quatre étapes pour affiner, références, vider sa tête et export. Ni publicité ni compte. ThinkFlow Pro supprime la limite d’idées et ajoute les widgets de l’écran d’accueil et le temps de réflexion sur l’écran verrouillé, en abonnement hebdomadaire, mensuel ou annuel, ou en achat unique à vie. Soutenir le développeur dans les Réglages est facultatif et ne débloque rien."
       }
     ]
   },

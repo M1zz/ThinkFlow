@@ -10,6 +10,11 @@ struct HomeView: View {
     @State private var continueThread: ThoughtThread?
     @State private var exportFile: ExportFile?
     @State private var showSupport = false
+    /// 무료 한도 · 잠긴 위젯에 부딪혔을 때 띄우는 페이월.
+    @State private var paywallReason: PaywallReason?
+    /// 구독 중인 사람에게 6개월째 · 갱신 7일 전에 한 번씩 서는 '구독 졸업' 평생가.
+    @State private var showGraduation = false
+    private var pro: ProStore { .shared }
     /// 접혀 있을 때 밀어 넣은 스레드 화면들.
     @State private var path: [ThoughtThread.ID] = []
     /// 아이폰 듀오를 폈을 때 결과 쪽 판에 펼쳐 둔 스레드. 없으면 가장 최근 스레드.
@@ -73,9 +78,11 @@ struct HomeView: View {
                         resumeSection(thread: recent)
                     }
 
-                    // MARK: - 응원 부탁 (생각을 꽤 쌓아 온 사람에게, 드물게)
-                    LeeoTipAskSlot<ThinkFlowSpec>(tipJar: ThinkFlowTip.tipJar,
-                                                  reached: ThinkFlowTipMoments.reachedNow(in: store.threads))
+                    // MARK: - 응원 부탁 (생각을 꽤 쌓아 온 Pro 에게만, 드물게)
+                    if pro.hasPro {
+                        LeeoTipAskSlot<ThinkFlowSpec>(tipJar: ThinkFlowTip.tipJar,
+                                                      reached: ThinkFlowTipMoments.reachedNow(in: store.threads))
+                    }
                     
                     // MARK: - 활발한 생각들 (히어로 카드에 이미 표시된 것 제외)
                     let heroID = store.mostRecentThread?.id
@@ -136,6 +143,12 @@ struct HomeView: View {
             .sheet(isPresented: $showSupport) {
                 ThinkFlowSupportView()
             }
+            .sheet(item: $paywallReason) { reason in
+                ProPaywallView(reason: reason)
+            }
+            .sheet(isPresented: $showGraduation) {
+                ProGraduationSheet()
+            }
             .navigationDestination(for: ThoughtThread.ID.self) { threadID in
                 if let thread = store.threads.first(where: { $0.id == threadID }) {
                     ThreadDetailView(thread: thread)
@@ -161,9 +174,19 @@ struct HomeView: View {
             continueThread = nil
             open(thread)
         }
+        // 구독 졸업은 다른 창이 떠 있지 않을 때만. 떠 있으면 다음에 열 때로 미룬다.
+        .onChange(of: pro.graduationIsDue, initial: true) { _, due in
+            guard due, !isPresentingSheet else { return }
+            pro.markGraduationOffered()
+            showGraduation = true
+        }
         #if DEBUG
         .onAppear { openScreenshotScene() }
         #endif
+    }
+
+    private var isPresentingSheet: Bool {
+        showBrainDump || continueThread != nil || exportFile != nil || showSupport || paywallReason != nil
     }
 
     #if DEBUG
@@ -181,6 +204,13 @@ struct HomeView: View {
     // MARK: - 위젯·라이브 액티비티 딥링크 (thinkflow://continue?threadId=...)
 
     private func handleDeepLink(_ url: URL) {
+        // 잠긴 위젯을 누른 사람 — 무엇이 잠겼는지 그 자리에서 보여 준다.
+        if url == ProAccess.paywallURL {
+            showBrainDump = false
+            continueThread = nil
+            paywallReason = pro.hasPro ? nil : .widget
+            return
+        }
         guard url.scheme == "thinkflow", url.host == "continue" else { return }
 
         let threadID = URLComponents(url: url, resolvingAgainstBaseURL: false)?
@@ -340,7 +370,12 @@ struct HomeView: View {
     @ViewBuilder
     private func dumpItemRow(_ item: DumpItem) -> some View {
         Button {
-            store.promoteDumpItemToThread(id: item.id)
+            // 칸이 다 찼으면 생각은 목록에 그대로 두고 페이월을 띄운다.
+            if pro.canStartThread(existing: store.threads.count) {
+                store.promoteDumpItemToThread(id: item.id)
+            } else {
+                paywallReason = .threadLimit
+            }
         } label: {
             HStack(alignment: .top, spacing: 10) {
                 Text(item.content)

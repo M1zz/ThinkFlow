@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow: retome suas ideias exatamente de onde parou",
-  "description": "Termine cada sessão com uma frase-ponte e, na próxima vez, continue dali. Todos os recursos são gratuitos e tudo fica no seu dispositivo.",
+  "description": "Termine cada sessão com uma frase-ponte e, na próxima vez, continue dali. Grátis até cinco ideias, e tudo fica no seu dispositivo.",
   "hero": {
     "headline": "A ideia que ficou pela metade ontem,\nhoje continua de onde parou",
     "lead": "Quando parar de pensar, deixe uma linha para continuar. Na próxima vez que abrir o app, ela estará esperando lá no topo.",
     "cta": "Baixe grátis na App Store",
-    "note": "Todos os recursos são gratuitos. Sem conta: tudo fica no seu dispositivo."
+    "note": "Grátis até cinco ideias. Sem conta: tudo fica no seu dispositivo."
   },
   "demo": {
     "title": "Deixe sua frase-ponte",
@@ -111,8 +111,8 @@
         "a": "Use Enviar feedback nos ajustes do app, escreva para o endereço abaixo ou abra uma issue em github.com/M1zz/ThinkFlow/issues. Toda mensagem é bem-vinda."
       },
       {
-        "q": "É tudo grátis mesmo?",
-        "a": "Sim. Todos os recursos são gratuitos, sem anúncios e sem conta. “Apoie o desenvolvedor” nos ajustes é totalmente opcional e não libera nada a mais."
+        "q": "O que dá para usar de graça?",
+        "a": "Com até cinco ideias, tudo é grátis: frases-ponte, as quatro etapas de lapidação, referências, despejar ideias e exportação. Sem anúncios e sem conta. O ThinkFlow Pro tira o limite de ideias e adiciona widgets na Tela de Início e o tempo pensando na Tela Bloqueada, com assinatura semanal, mensal ou anual, ou uma compra única vitalícia. Apoiar o desenvolvedor nos Ajustes é opcional e não libera nada."
       }
     ]
   },

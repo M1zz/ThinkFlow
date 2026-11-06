@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow: fortsätt tanken precis där du slutade",
-  "description": "Avsluta varje tankestund med en brofras, så fortsätter du därifrån nästa gång. Alla funktioner är gratis och allt stannar på din enhet.",
+  "description": "Avsluta varje tankestund med en brofras, så fortsätter du därifrån nästa gång. Gratis upp till fem tankar, och allt stannar på din enhet.",
   "hero": {
     "headline": "Gårdagens halvfärdiga tanke\nfortsätter i dag där den slutade",
     "lead": "När du slutar tänka lämnar du en rad att fortsätta från. Nästa gång du öppnar appen väntar den högst upp.",
     "cta": "Hämta gratis på App Store",
-    "note": "Alla funktioner är gratis. Inget konto, allt stannar på din enhet."
+    "note": "Gratis upp till fem tankar. Inget konto, allt stannar på din enhet."
   },
   "demo": {
     "title": "Testa att lämna en brofras",
@@ -111,8 +111,8 @@
         "a": "Använd Skicka feedback i appens inställningar, skriv till adressen nedan eller öppna ett issue på github.com/M1zz/ThinkFlow/issues. Allt är välkommet."
       },
       {
-        "q": "Är verkligen allt gratis?",
-        "a": "Ja. Alla funktioner är gratis, utan reklam och utan konto. ”Stöd utvecklaren” i inställningarna är helt frivilligt och låser inte upp något."
+        "q": "Vad kan jag använda gratis?",
+        "a": "Upp till fem tankar är allt gratis: brofraser, de fyra stegen för att förfina, material, töm huvudet och export. Ingen reklam, inget konto. ThinkFlow Pro tar bort gränsen för antal tankar och lägger till widgetar på hemskärmen och tänketid på låsskärmen, som vecko-, månads- eller årsprenumeration eller ett engångsköp för livet. Stöd utvecklaren i Inställningar är helt frivilligt och låser inte upp något."
       }
     ]
   },

@@ -11,8 +11,17 @@ struct BrainDumpSheet: View {
     @State private var parsedItems: [String] = []
     @State private var selectedIndex: Int? = nil
     @FocusState private var isTextFocused: Bool
+    /// 칸이 다 차서 시작하지 못한 생각. 페이월이 닫히면 Pro 면 시작하고, 아니면 목록에 남긴다.
+    @State private var heldStart: HeldStart?
+    @State private var showPaywall = false
+    private var pro: ProStore { .shared }
 
     enum Phase { case dump, sort }
+
+    struct HeldStart {
+        let index: Int
+        let items: [String]
+    }
 
     private var parsedLines: [String] {
         rawText.components(separatedBy: "\n")
@@ -52,6 +61,9 @@ struct BrainDumpSheet: View {
                     }
                 }
             }
+        }
+        .sheet(isPresented: $showPaywall, onDismiss: resumeHeldStart) {
+            ProPaywallView(reason: .threadLimit)
         }
         .onAppear {
             isTextFocused = true
@@ -192,6 +204,12 @@ struct BrainDumpSheet: View {
 
     private func startWithSelected(_ index: Int, from items: [String]? = nil) {
         let source = items ?? parsedItems
+        // 칸이 다 찼다 — 쏟아낸 것을 잃지 않게 붙잡아 두고 페이월을 띄운다.
+        guard pro.canStartThread(existing: store.threads.count) else {
+            heldStart = HeldStart(index: index, items: source)
+            showPaywall = true
+            return
+        }
         let selected = source[index]
         let others = source.enumerated()
             .filter { $0.offset != index }
@@ -205,6 +223,18 @@ struct BrainDumpSheet: View {
         store.addThread(thread)
         store.addDumpItems(others)
         dismiss()
+    }
+
+    /// 페이월이 닫혔다. Pro 가 됐으면 고른 생각을 시작하고, 아니면 전부 '정리 안 된 생각들'에 남긴다.
+    private func resumeHeldStart() {
+        guard let held = heldStart else { return }
+        heldStart = nil
+        if pro.canStartThread(existing: store.threads.count) {
+            startWithSelected(held.index, from: held.items)
+        } else {
+            store.addDumpItems(held.items)
+            dismiss()
+        }
     }
 
     private func saveAllToDump() {

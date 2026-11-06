@@ -2096,6 +2096,154 @@
           }
         }
       }
+    },
+    "눌러서 이어생각 Pro로 위젯을 여세요" : {
+      "localizations" : {
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klepnutím odemknete widget s ThinkFlow Pro"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryk for at låse widgetten op med ThinkFlow Pro"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tippen, um Widgets mit ThinkFlow Pro freizuschalten"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αγγίξτε για ξεκλείδωμα του widget με το ThinkFlow Pro"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to unlock widgets with ThinkFlow Pro"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tap to unlock widgets with ThinkFlow Pro"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toca para desbloquear el widget con ThinkFlow Pro"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napauta ja avaa widget ThinkFlow Prolla"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Touchez pour débloquer le widget avec ThinkFlow Pro"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ketuk untuk membuka widget dengan ThinkFlow Pro"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tocca per sbloccare il widget con ThinkFlow Pro"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タップしてThinkFlow Proでウィジェットを使う"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "눌러서 이어생각 Pro로 위젯을 여세요"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trykk for å låse opp widgeten med ThinkFlow Pro"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tik om de widget te ontgrendelen met ThinkFlow Pro"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stuknij, aby odblokować widżet z ThinkFlow Pro"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque para liberar o widget com o ThinkFlow Pro"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Коснитесь, чтобы открыть виджет с ThinkFlow Pro"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tryck för att låsa upp widgeten med ThinkFlow Pro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แตะเพื่อปลดล็อกวิดเจ็ตด้วย ThinkFlow Pro"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Widget’ı ThinkFlow Pro ile açmak için dokun"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chạm để mở khóa tiện ích với ThinkFlow Pro"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轻点以通过 ThinkFlow Pro 解锁小组件"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "點一下即可透過 ThinkFlow Pro 解鎖小工具"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

@@ -23,11 +23,12 @@ struct ThinkFlowApp: App {
                 // 아이폰 듀오: 접힘을 재서 아래로 흘리고, 시트 · 알림창이 접힌 선을 비키게 한다.
                 .foldAware()
                 .leeoSatisfactionCheck(ThinkFlowSpec.self)
-                .task { await ThinkFlowTip.tipJar.startStandalone() }
                 // 앱을 열 때 · 뒤로 보낼 때 Spotlight 색인을 새로 만든다 (Siri 가 생각을 찾는 곳).
                 .onChange(of: scenePhase, initial: true) { _, phase in
                     guard phase != .inactive else { return }
                     Task { await ThoughtEntity.reindex() }
+                    // Pro 영수증은 열 때마다 다시 읽는다 — 다른 기기에서 샀거나 환불 · 만료됐을 수 있다.
+                    if phase == .active { Task { await ProStore.shared.refresh() } }
                 }
         }
     }

@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow: navažte na myšlenku přesně tam, kde jste skončili",
-  "description": "Na konci přemýšlení nechte navazující větu a příště pokračujete přímo od ní. Všechny funkce jsou zdarma a záznamy zůstávají jen ve vašem zařízení.",
+  "description": "Na konci přemýšlení nechte navazující větu a příště pokračujete přímo od ní. Až pět myšlenek zdarma a záznamy zůstávají jen ve vašem zařízení.",
   "hero": {
     "headline": "Včerejší nedokončená myšlenka\npokračuje dnes tam, kde přestala",
     "lead": "Když přestanete přemýšlet, nechte jeden řádek, na který navážete. Až aplikaci znovu otevřete, bude čekat nahoře.",
     "cta": "Stáhnout zdarma v App Storu",
-    "note": "Všechny funkce jsou zdarma. Bez účtu, vše zůstává ve vašem zařízení."
+    "note": "Až pět myšlenek zdarma. Bez účtu, vše zůstává ve vašem zařízení."
   },
   "demo": {
     "title": "Vyzkoušejte navazující větu",
@@ -111,8 +111,8 @@
         "a": "Použijte Odeslat zpětnou vazbu v nastavení aplikace, napište na adresu níže nebo založte issue na github.com/M1zz/ThinkFlow/issues. Uvítáme cokoli."
       },
       {
-        "q": "Je opravdu všechno zdarma?",
-        "a": "Ano. Všechny funkce jsou zdarma, bez reklam a bez účtu. „Podpořit vývojáře“ v nastavení je zcela dobrovolné a nic dalšího neodemyká."
+        "q": "Co můžu používat zdarma?",
+        "a": "Do pěti myšlenek je zdarma všechno: navazující věty, čtyři fáze tříbení, podklady, vysypání myšlenek i export. Bez reklam a bez účtu. ThinkFlow Pro ruší omezení počtu myšlenek a přidává widgety na plochu a čas přemýšlení na zamčené obrazovce, jako týdenní, měsíční nebo roční předplatné, nebo jednorázový doživotní nákup. Podpora vývojáře v nastavení je dobrovolná a nic neodemyká."
       }
     ]
   },

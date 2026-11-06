@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow: riprendi i tuoi pensieri da dove ti eri fermato",
-  "description": "Chiudi ogni sessione con una frase ponte e la prossima volta riparti da lì. Tutte le funzioni sono gratuite e tutto resta sul tuo dispositivo.",
+  "description": "Chiudi ogni sessione con una frase ponte e la prossima volta riparti da lì. Gratis fino a cinque pensieri, e tutto resta sul tuo dispositivo.",
   "hero": {
     "headline": "Il pensiero rimasto a metà ieri,\noggi riparte da lì",
     "lead": "Quando smetti di pensare, lascia una riga da cui ripartire. La prossima volta che apri l’app, ti aspetta in cima.",
     "cta": "Scaricala gratis dall’App Store",
-    "note": "Tutte le funzioni sono gratuite. Nessun account, tutto resta sul tuo dispositivo."
+    "note": "Gratis fino a cinque pensieri. Nessun account, tutto resta sul tuo dispositivo."
   },
   "demo": {
     "title": "Prova a lasciare una frase ponte",
@@ -111,8 +111,8 @@
         "a": "Usa Invia feedback nelle impostazioni dell’app, scrivi all’indirizzo qui sotto oppure apri una issue su github.com/M1zz/ThinkFlow/issues. Ogni messaggio è benvenuto."
       },
       {
-        "q": "È davvero tutto gratis?",
-        "a": "Sì. Tutte le funzioni sono gratuite, senza pubblicità né account. «Sostieni lo sviluppatore» nelle impostazioni è facoltativo e non sblocca nulla."
+        "q": "Cosa posso fare gratis?",
+        "a": "Fino a cinque pensieri è tutto gratis: frasi ponte, le quattro fasi di rifinitura, riferimenti, svuota la mente ed esportazione. Niente pubblicità né account. ThinkFlow Pro toglie il limite ai pensieri e aggiunge i widget della schermata Home e il tempo di pensiero sulla schermata di blocco, con abbonamento settimanale, mensile o annuale oppure un acquisto unico a vita. Sostenere lo sviluppatore nelle Impostazioni è facoltativo e non sblocca nulla."
       }
     ]
   },

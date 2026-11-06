@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow: Gedanken genau dort fortsetzen, wo du aufgehört hast",
-  "description": "Hinterlasse am Ende einen Brückensatz, beim nächsten Öffnen geht es dort weiter. Alle Funktionen sind kostenlos, alles bleibt auf deinem Gerät.",
+  "description": "Hinterlasse am Ende einen Brückensatz, beim nächsten Öffnen geht es dort weiter. Kostenlos für bis zu fünf Gedanken, alles bleibt auf deinem Gerät.",
   "hero": {
     "headline": "Der Gedanke von gestern,\nheute genau an der Stelle weiter",
     "lead": "Hörst du auf zu denken, hinterlässt du eine Zeile zum Weitermachen. Beim nächsten Öffnen wartet sie ganz oben auf dich.",
     "cta": "Kostenlos im App Store laden",
-    "note": "Alle Funktionen sind kostenlos. Kein Konto, alles bleibt auf deinem Gerät."
+    "note": "Kostenlos für bis zu fünf Gedanken. Kein Konto, alles bleibt auf deinem Gerät."
   },
   "demo": {
     "title": "Probier den Brückensatz aus",
@@ -111,8 +111,8 @@
         "a": "Nutze Feedback senden in den Einstellungen der App, schreib an die Adresse unten oder eröffne ein Issue unter github.com/M1zz/ThinkFlow/issues. Alles ist willkommen."
       },
       {
-        "q": "Ist wirklich alles kostenlos?",
-        "a": "Ja. Alle Funktionen sind kostenlos, ohne Werbung und ohne Konto. „Entwickler unterstützen“ in den Einstellungen ist freiwillig und schaltet nichts frei."
+        "q": "Was kann ich kostenlos nutzen?",
+        "a": "Bis zu fünf Gedanken ist alles kostenlos: Brückensätze, die vier Stufen zum Verfeinern, Referenzen, Kopf leeren und Export. Keine Werbung, kein Konto. ThinkFlow Pro hebt die Begrenzung auf und bringt Widgets für den Home-Bildschirm und die Denkzeit auf dem Sperrbildschirm, als Wochen-, Monats- oder Jahresabo oder als einmaliger Kauf für immer. „Entwickler unterstützen“ in den Einstellungen ist freiwillig und schaltet nichts frei."
       }
     ]
   },

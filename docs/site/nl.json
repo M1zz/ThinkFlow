@@ -1,11 +1,11 @@
 {
   "title": "ThinkFlow: ga verder met je gedachte precies waar je stopte",
-  "description": "Sluit elke denksessie af met een brugzin, dan ga je de volgende keer daar verder. Alle functies zijn gratis en alles blijft op je apparaat.",
+  "description": "Sluit elke denksessie af met een brugzin, dan ga je de volgende keer daar verder. Gratis tot vijf gedachten, en alles blijft op je apparaat.",
   "hero": {
     "headline": "De halve gedachte van gisteren\ngaat vandaag verder waar hij stopte",
     "lead": "Als je stopt met denken, laat je één regel achter om op verder te gaan. De volgende keer dat je de app opent, staat die bovenaan.",
     "cta": "Gratis downloaden in de App Store",
-    "note": "Alle functies zijn gratis. Geen account, alles blijft op je apparaat."
+    "note": "Gratis tot vijf gedachten. Geen account, alles blijft op je apparaat."
   },
   "demo": {
     "title": "Probeer een brugzin",
@@ -111,8 +111,8 @@
         "a": "Gebruik Stuur feedback in de instellingen van de app, schrijf naar het adres hieronder of open een issue op github.com/M1zz/ThinkFlow/issues. Alles is welkom."
       },
       {
-        "q": "Is echt alles gratis?",
-        "a": "Ja. Alle functies zijn gratis, zonder advertenties en zonder account. ‘Steun de ontwikkelaar’ in de instellingen is helemaal vrijwillig en ontgrendelt niets."
+        "q": "Wat kan ik gratis gebruiken?",
+        "a": "Tot vijf gedachten is alles gratis: brugzinnen, de vier stappen om te verfijnen, materiaal, hoofd leegmaken en exporteren. Geen advertenties, geen account. ThinkFlow Pro haalt de limiet op gedachten weg en voegt widgets op het beginscherm en de denktijd op het toegangsscherm toe, als wekelijks, maandelijks of jaarlijks abonnement of een eenmalige aankoop voor altijd. De ontwikkelaar steunen in Instellingen is helemaal vrijwillig en ontgrendelt niets."
       }
     ]
   },

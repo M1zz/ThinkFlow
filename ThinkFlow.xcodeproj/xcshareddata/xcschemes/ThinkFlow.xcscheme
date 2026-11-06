@@ -63,6 +63,9 @@
             ReferencedContainer = "container:ThinkFlow.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <StoreKitConfigurationFileReference
+         identifier = "../../ThinkFlow/ThinkFlow.storekit">
+      </StoreKitConfigurationFileReference>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

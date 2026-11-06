@@ -12,8 +12,16 @@ enum ThinkFlowSpec: LeeoAppSpec {
         supportURL: URL(string: "https://m1zz.github.io/ThinkFlow/")!
     )
 
-    /// 인앱 결제 없음.
-    static let monetization = LeeoMonetization.free
+    /// 무료 · 이어생각 Pro (주 · 월 · 연 구독과 평생). 상품과 무료 한도는 `ThinkFlowPro` 한 곳에 있다.
+    /// 팁은 같은 스토어가 받지만 아무것도 열지 않는다.
+    static let monetization = LeeoMonetization.freemiumSubscription(LeeoSubscriptionConfig(
+        productIDs: ThinkFlowPro.soldIDs,
+        termsURL: ThinkFlowPro.termsURL,
+        entitlementIDs: ThinkFlowPro.entitlementIDs,
+        gate: LeeoGatePolicy(freeLimits: [ThinkFlowPro.threadKey: ThinkFlowPro.freeThreadLimit],
+                             proOnly: [ThinkFlowPro.widgetKey, ThinkFlowPro.liveActivityKey]),
+        tipJar: LeeoTipJarConfig(productIDs: ThinkFlowPro.tipIDs)
+    ))
     /// 금고가 위젯과 함께 쓰는 공유 컨테이너도 백업한다.
     static let appGroups = ["group.com.leeo.thinkflow"]
 
@@ -26,14 +34,11 @@ enum ThinkFlowSpec: LeeoAppSpec {
 
 // MARK: - 팁 (개발자 응원하기)
 
-/// 무료 앱이라 LeeoStore 가 없다. 팁 엔진을 여기 하나 두고, 앱을 열 때 `startStandalone()` 을 부른다.
+/// 팁 엔진은 Pro 를 파는 `LeeoStore` 안에 있다 — 결제 소식을 한 리스너가 받아 팁과 권한으로 나눈다.
+/// 팁은 아무것도 열지 않는다.
 @MainActor
 enum ThinkFlowTip {
-    static let tipJar = LeeoTipJar(config: LeeoTipJarConfig(productIDs: [
-        "com.leeo.thinkflow.tip.small",
-        "com.leeo.thinkflow.tip.medium",
-        "com.leeo.thinkflow.tip.large",
-    ]))
+    static var tipJar: LeeoTipJar { ProStore.shared.store.tipJar! }
 }
 
 /// 팁을 부탁할 만한 순간 — 지금까지 적어 온 **내 생각** 수(붙여 둔 자료는 빼고). 큰 것부터.
