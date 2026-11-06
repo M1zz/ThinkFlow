@@ -64,6 +64,11 @@ https://m1zz.github.io/ThinkFlow/
 무료와 Pro
 생각 다섯 개까지는 끊어둔 문장부터 내보내기까지 무료로 씁니다. 이어생각 Pro는 생각 수 제한을 없애고 홈 화면 위젯과 잠금 화면 생각 시간을 엽니다. 주, 월, 연 구독이나 평생 구매 중에 고를 수 있습니다.
 
+구독 안내
+이어생각 Pro 구독은 자동 갱신 구독입니다. 갱신일 24시간 전까지 해지하지 않으면 Apple 계정으로 자동 결제되며, 설정의 구독 관리에서 언제든 해지할 수 있습니다.
+이용약관(EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+개인정보처리방침: https://m1zz.github.io/ThinkFlow/privacy.html
+
 ## en
 
 ### 지원 URL
@@ -127,6 +132,11 @@ Everything is stored only on your device and no account is needed. Export it any
 
 Free and Pro
 With up to five thoughts, everything from bridge sentences to export is free. ThinkFlow Pro removes the limit on thoughts and adds Home Screen widgets and your thinking time on the Lock Screen. Choose a weekly, monthly or yearly subscription, or buy it once for life.
+
+Subscriptions
+ThinkFlow Pro subscriptions renew automatically. Payment is charged to your Apple Account, and a subscription renews unless canceled at least 24 hours before the end of the current period. Manage or cancel anytime in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/ThinkFlow/en/privacy.html
 
 ## en-GB
 
@@ -192,6 +202,11 @@ Everything is stored only on your device and no account is needed. Export it any
 Free and Pro
 With up to five thoughts, everything from bridge sentences to export is free. ThinkFlow Pro removes the limit on thoughts and adds Home Screen widgets and your thinking time on the Lock Screen. Choose a weekly, monthly or yearly subscription, or buy it once for life.
 
+Subscriptions
+ThinkFlow Pro subscriptions renew automatically. Payment is charged to your Apple Account, and a subscription renews unless cancelled at least 24 hours before the end of the current period. Manage or cancel at any time in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/ThinkFlow/en/privacy.html
+
 ## ja
 
 ### 지원 URL
@@ -255,6 +270,11 @@ ThinkFlowは、深い考えを何日もかけて少しずつ育てていくた�
 
 無料とPro
 考えが5件までなら、区切りの一文から書き出しまで無料で使えます。ThinkFlow Proでは考えの数の上限がなくなり、ホーム画面ウィジェットとロック画面での思考時間の表示が加わります。週額・月額・年額のサブスクリプションか、買い切りから選べます。
+
+サブスクリプションについて
+ThinkFlow Proのサブスクリプションは自動更新です。期間終了の24時間前までに解約しない限り、Apple Accountに自動で請求され更新されます。設定のサブスクリプション管理からいつでも解約できます。
+利用規約（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+プライバシーポリシー: https://m1zz.github.io/ThinkFlow/ja/privacy.html
 
 ## zh-Hans
 
@@ -320,6 +340,11 @@ ThinkFlow 是一款思考笔记，帮你把深入的想法分成几天，一点�
 免费与 Pro
 想法在五个以内时，从衔接句到导出都可免费使用。ThinkFlow Pro 取消想法数量限制，并加入主屏幕小组件和锁定屏幕上的思考时间。可选择按周、按月、按年订阅，或一次性永久买断。
 
+订阅说明
+ThinkFlow Pro 订阅为自动续期订阅。费用从你的 Apple 账户扣除，除非在当期结束前至少 24 小时取消，否则将自动续期。可随时在“设置”中管理或取消。
+使用条款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隐私政策: https://m1zz.github.io/ThinkFlow/zh-Hans/privacy.html
+
 ## zh-Hant
 
 ### 지원 URL
@@ -383,6 +408,11 @@ ThinkFlow 是一款思考筆記，幫你把深入的想法分成幾天，一點�
 
 免費與 Pro
 想法在五個以內時，從銜接句到匯出都能免費使用。ThinkFlow Pro 取消想法數量限制，並加入主畫面小工具與鎖定畫面上的思考時間。可選擇按週、按月、按年訂閱，或一次永久買斷。
+
+訂閱說明
+ThinkFlow Pro 訂閱為自動續訂訂閱。費用會從你的 Apple 帳號扣款，除非在當期結束前至少 24 小時取消，否則將自動續訂。可隨時在「設定」中管理或取消。
+使用條款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隱私權政策: https://m1zz.github.io/ThinkFlow/zh-Hant/privacy.html
 
 ## es
 
@@ -448,6 +478,11 @@ Todo se guarda solo en tu dispositivo y no necesitas cuenta. Expórtalo cuando q
 Gratis y Pro
 Con hasta cinco ideas, todo es gratis, desde la frase puente hasta la exportación. ThinkFlow Pro elimina el límite de ideas y añade widgets en la pantalla de inicio y el tiempo pensando en la pantalla bloqueada. Elige suscripción semanal, mensual o anual, o un pago único para siempre.
 
+Suscripciones
+La suscripción a ThinkFlow Pro se renueva automáticamente. El cargo se realiza en tu cuenta de Apple y la suscripción se renueva salvo que la canceles al menos 24 horas antes de que termine el periodo. Puedes gestionarla o cancelarla cuando quieras en Ajustes.
+Términos de uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de privacidad: https://m1zz.github.io/ThinkFlow/es/privacy.html
+
 ## de
 
 ### 지원 URL
@@ -511,6 +546,11 @@ Alles wird nur auf deinem Gerät gespeichert, ein Konto brauchst du nicht. Expor
 
 Kostenlos und Pro
 Bis zu fünf Gedanken ist alles kostenlos, vom Brückensatz bis zum Export. ThinkFlow Pro hebt die Begrenzung auf und bringt Widgets für den Home-Bildschirm sowie die Denkzeit auf dem Sperrbildschirm. Wähle ein Wochen-, Monats- oder Jahresabo oder kaufe einmalig für immer.
+
+Abos
+Das Abo von ThinkFlow Pro verlängert sich automatisch. Die Zahlung erfolgt über deinen Apple Account. Das Abo verlängert sich, sofern du nicht mindestens 24 Stunden vor Ablauf des Zeitraums kündigst. Verwalten oder kündigen kannst du jederzeit in den Einstellungen.
+Nutzungsbedingungen (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Datenschutzerklärung: https://m1zz.github.io/ThinkFlow/de/privacy.html
 
 ## fr
 
@@ -576,6 +616,11 @@ Tout est enregistré uniquement sur votre appareil, sans compte. Exportez à tou
 Gratuit et Pro
 Jusqu’à cinq idées, tout est gratuit, de la phrase-relais à l’export. ThinkFlow Pro supprime la limite d’idées et ajoute les widgets de l’écran d’accueil et le temps de réflexion sur l’écran verrouillé. Choisissez un abonnement hebdomadaire, mensuel ou annuel, ou un achat unique à vie.
 
+Abonnements
+L'abonnement ThinkFlow Pro se renouvelle automatiquement. Le paiement est débité sur votre compte Apple, et l'abonnement est reconduit sauf résiliation au moins 24 heures avant la fin de la période en cours. Gérez-le ou résiliez-le à tout moment dans Réglages.
+Conditions d'utilisation (EULA) : https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Politique de confidentialité : https://m1zz.github.io/ThinkFlow/fr/privacy.html
+
 ## it
 
 ### 지원 URL
@@ -639,6 +684,11 @@ Tutto è salvato solo sul tuo dispositivo e non serve alcun account. Esporta qua
 
 Gratis e Pro
 Fino a cinque pensieri è tutto gratis, dalla frase ponte all’esportazione. ThinkFlow Pro toglie il limite ai pensieri e aggiunge i widget della schermata Home e il tempo di pensiero sulla schermata di blocco. Scegli un abbonamento settimanale, mensile o annuale, oppure un acquisto unico a vita.
+
+Abbonamenti
+L'abbonamento ThinkFlow Pro si rinnova automaticamente. Il pagamento viene addebitato sul tuo Account Apple e l'abbonamento si rinnova se non lo disdici almeno 24 ore prima della fine del periodo. Puoi gestirlo o disdirlo in qualsiasi momento in Impostazioni.
+Condizioni d'uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Informativa sulla privacy: https://m1zz.github.io/ThinkFlow/it/privacy.html
 
 ## pt-BR
 
@@ -704,6 +754,11 @@ Tudo é salvo apenas no seu dispositivo, sem precisar de conta. Exporte quando q
 Grátis e Pro
 Com até cinco ideias, tudo é grátis, da frase-ponte à exportação. O ThinkFlow Pro tira o limite de ideias e adiciona widgets na Tela de Início e o tempo pensando na Tela Bloqueada. Escolha assinatura semanal, mensal ou anual, ou uma compra única vitalícia.
 
+Assinaturas
+A assinatura ThinkFlow Pro é renovada automaticamente. A cobrança é feita na sua Conta Apple e a assinatura é renovada, a menos que você cancele pelo menos 24 horas antes do fim do período. Gerencie ou cancele quando quiser em Ajustes.
+Termos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de Privacidade: https://m1zz.github.io/ThinkFlow/pt-BR/privacy.html
+
 ## ru
 
 ### 지원 URL
@@ -767,6 +822,11 @@ ThinkFlow — блокнот для размышлений, который по�
 
 Бесплатно и Pro
 Пока мыслей не больше пяти, всё бесплатно: от фразы-мостика до экспорта. ThinkFlow Pro снимает ограничение на число мыслей и добавляет виджеты на экран «Домой» и время размышлений на экране блокировки. Выберите подписку на неделю, месяц или год либо разовую покупку навсегда.
+
+Подписки
+ThinkFlow Pro — подписка с автопродлением. Оплата списывается с вашего аккаунта Apple, и подписка продлевается, если не отменить её минимум за 24 часа до конца периода. Управлять подпиской и отменить её можно в Настройках.
+Условия использования (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Политика конфиденциальности: https://m1zz.github.io/ThinkFlow/ru/privacy.html
 
 ## th
 
@@ -832,6 +892,11 @@ ThinkFlow คือสมุดโน้ตสำหรับการคิด 
 ฟรีและ Pro
 หากมีความคิดไม่เกินห้าเรื่อง ทุกอย่างตั้งแต่ประโยคเชื่อมจนถึงการส่งออกใช้ได้ฟรี ThinkFlow Pro ปลดขีดจำกัดจำนวนความคิด และเพิ่มวิดเจ็ตหน้าจอโฮมกับเวลาคิดบนหน้าจอล็อก เลือกสมัครรายสัปดาห์ รายเดือน รายปี หรือซื้อครั้งเดียวใช้ได้ตลอดชีพ
 
+การสมัครสมาชิก
+ThinkFlow Pro เป็นการสมัครสมาชิกที่ต่ออายุอัตโนมัติ ระบบจะเรียกเก็บเงินจากบัญชี Apple ของคุณและต่ออายุ เว้นแต่จะยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบ จัดการหรือยกเลิกได้ทุกเมื่อในการตั้งค่า
+ข้อกำหนดการใช้งาน (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+นโยบายความเป็นส่วนตัว: https://m1zz.github.io/ThinkFlow/th/privacy.html
+
 ## vi
 
 ### 지원 URL
@@ -895,6 +960,11 @@ Mọi ghi chép chỉ lưu trên thiết bị và không cần tài khoản. B�
 
 Miễn phí và Pro
 Với tối đa năm suy nghĩ, mọi thứ từ câu nối đến xuất tệp đều miễn phí. ThinkFlow Pro bỏ giới hạn số suy nghĩ, thêm tiện ích Màn hình chính và thời gian suy nghĩ trên Màn hình khóa. Chọn gói tuần, tháng, năm hoặc mua một lần dùng trọn đời.
+
+Gói đăng ký
+ThinkFlow Pro là gói đăng ký tự động gia hạn. Phí được tính vào Tài khoản Apple của bạn và tự gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kỳ hạn kết thúc. Bạn có thể quản lý hoặc hủy bất cứ lúc nào trong Cài đặt.
+Điều khoản sử dụng (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Chính sách quyền riêng tư: https://m1zz.github.io/ThinkFlow/vi/privacy.html
 
 ## cs
 
@@ -960,6 +1030,11 @@ Všechny záznamy se ukládají jen do zařízení a nepotřebujete účet. Kdyk
 Zdarma a Pro
 Do pěti myšlenek je všechno zdarma, od navazující věty po export. ThinkFlow Pro ruší omezení počtu myšlenek a přidává widgety na plochu a čas přemýšlení na zamčené obrazovce. Vyberte si týdenní, měsíční nebo roční předplatné, nebo jednorázový doživotní nákup.
 
+Předplatné
+ThinkFlow Pro je automaticky obnovované předplatné. Platba se strhává z vašeho účtu Apple a předplatné se obnoví, pokud ho nezrušíte alespoň 24 hodin před koncem období. Spravovat nebo zrušit ho můžete kdykoli v Nastavení.
+Podmínky použití (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Zásady ochrany osobních údajů: https://m1zz.github.io/ThinkFlow/cs/privacy.html
+
 ## el
 
 ### 지원 URL
@@ -1023,6 +1098,11 @@ ThinkFlow: Συνέχεια σκέψης
 
 Δωρεάν και Pro
 Έως πέντε σκέψεις, όλα είναι δωρεάν, από την πρόταση-γέφυρα ως την εξαγωγή. Το ThinkFlow Pro καταργεί το όριο σκέψεων και προσθέτει widget στην οθόνη Αφετηρίας και τον χρόνο σκέψης στην οθόνη κλειδώματος. Επιλέξτε εβδομαδιαία, μηνιαία ή ετήσια συνδρομή ή εφάπαξ αγορά εφ’ όρου ζωής.
+
+Συνδρομές
+Το ThinkFlow Pro είναι συνδρομή με αυτόματη ανανέωση. Η χρέωση γίνεται στον λογαριασμό Apple σας και η συνδρομή ανανεώνεται, εκτός αν την ακυρώσετε τουλάχιστον 24 ώρες πριν λήξει η περίοδος. Μπορείτε να τη διαχειριστείτε ή να την ακυρώσετε οποτεδήποτε από τις Ρυθμίσεις.
+Όροι χρήσης (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Πολιτική απορρήτου: https://m1zz.github.io/ThinkFlow/el/privacy.html
 
 ## da
 
@@ -1088,6 +1168,11 @@ Alt gemmes kun på din enhed, og du behøver ingen konto. Eksportér når som he
 Gratis og Pro
 Op til fem tanker er alt gratis, fra brosætning til eksport. ThinkFlow Pro fjerner grænsen for antal tanker og tilføjer widgets på hjemmeskærmen og tænketid på låseskærmen. Vælg et ugentligt, månedligt eller årligt abonnement, eller køb én gang for livet.
 
+Abonnementer
+ThinkFlow Pro er et abonnement, der fornyes automatisk. Betalingen trækkes på din Apple-konto, og abonnementet fornyes, medmindre du opsiger det mindst 24 timer før perioden slutter. Administrer eller opsig når som helst i Indstillinger.
+Brugsvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privatlivspolitik: https://m1zz.github.io/ThinkFlow/da/privacy.html
+
 ## fi
 
 ### 지원 URL
@@ -1151,6 +1236,11 @@ Kaikki tallennetaan vain laitteellesi, eikä tiliä tarvita. Voit viedä sisäll
 
 Ilmainen ja Pro
 Viiteen ajatukseen asti kaikki on ilmaista siltalauseesta vientiin. ThinkFlow Pro poistaa ajatusten määrärajan ja tuo Koti-valikon widgetit sekä ajatteluajan lukitulle näytölle. Valitse viikko-, kuukausi- tai vuositilaus tai kertaosto pysyvästi.
+
+Tilaukset
+ThinkFlow Pro on automaattisesti uusiutuva tilaus. Maksu veloitetaan Apple-tililtäsi, ja tilaus uusiutuu, ellei sitä peruta vähintään 24 tuntia ennen jakson päättymistä. Hallitse tai peru milloin tahansa Asetuksissa.
+Käyttöehdot (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Tietosuojakäytäntö: https://m1zz.github.io/ThinkFlow/fi/privacy.html
 
 ## id
 
@@ -1216,6 +1306,11 @@ Semua catatan hanya disimpan di perangkatmu dan tidak perlu akun. Ekspor kapan s
 Gratis dan Pro
 Hingga lima pikiran, semuanya gratis, dari kalimat jembatan sampai ekspor. ThinkFlow Pro menghapus batas jumlah pikiran dan menambahkan widget Layar Utama serta waktu berpikir di Layar Terkunci. Pilih langganan mingguan, bulanan, tahunan, atau beli sekali untuk seumur hidup.
 
+Langganan
+ThinkFlow Pro adalah langganan yang diperpanjang otomatis. Pembayaran ditagihkan ke Akun Apple kamu dan langganan diperpanjang kecuali dibatalkan paling lambat 24 jam sebelum periode berakhir. Kelola atau batalkan kapan saja di Pengaturan.
+Ketentuan Penggunaan (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Kebijakan Privasi: https://m1zz.github.io/ThinkFlow/id/privacy.html
+
 ## nb
 
 ### 지원 URL
@@ -1279,6 +1374,11 @@ Alt lagres bare på enheten din, og du trenger ingen konto. Eksporter når som h
 
 Gratis og Pro
 Opptil fem tanker er alt gratis, fra brosetning til eksport. ThinkFlow Pro fjerner grensen for antall tanker og legger til widgeter på Hjem-skjermen og tenketid på låseskjermen. Velg ukentlig, månedlig eller årlig abonnement, eller kjøp én gang for livet.
+
+Abonnementer
+ThinkFlow Pro er et abonnement som fornyes automatisk. Betalingen belastes Apple-kontoen din, og abonnementet fornyes med mindre du sier det opp minst 24 timer før perioden er over. Administrer eller si opp når som helst i Innstillinger.
+Bruksvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Personvernerklæring: https://m1zz.github.io/ThinkFlow/nb/privacy.html
 
 ## nl
 
@@ -1344,6 +1444,11 @@ Alles wordt alleen op je apparaat bewaard en je hebt geen account nodig. Exporte
 Gratis en Pro
 Tot vijf gedachten is alles gratis, van brugzin tot export. ThinkFlow Pro haalt de limiet op gedachten weg en voegt widgets op het beginscherm en de denktijd op het toegangsscherm toe. Kies een wekelijks, maandelijks of jaarlijks abonnement, of koop eenmalig voor altijd.
 
+Abonnementen
+ThinkFlow Pro is een automatisch verlengend abonnement. De betaling loopt via je Apple Account en het abonnement wordt verlengd tenzij je minstens 24 uur voor het einde van de periode opzegt. Beheer of zeg op wanneer je wilt in Instellingen.
+Gebruiksvoorwaarden (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacybeleid: https://m1zz.github.io/ThinkFlow/nl/privacy.html
+
 ## pl
 
 ### 지원 URL
@@ -1407,6 +1512,11 @@ Wszystko jest zapisywane tylko na urządzeniu i nie potrzebujesz konta. W każde
 
 Za darmo i Pro
 Do pięciu myśli wszystko jest za darmo, od zdania-pomostu po eksport. ThinkFlow Pro znosi limit myśli i dodaje widżety na ekranie początkowym oraz czas myślenia na ekranie blokady. Wybierz subskrypcję tygodniową, miesięczną lub roczną albo jednorazowy zakup dożywotni.
+
+Subskrypcje
+ThinkFlow Pro to subskrypcja odnawiana automatycznie. Opłata jest pobierana z Twojego konta Apple, a subskrypcja odnawia się, jeśli nie anulujesz jej co najmniej 24 godziny przed końcem okresu. Zarządzaj nią lub anuluj ją w dowolnej chwili w Ustawieniach.
+Warunki korzystania (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Polityka prywatności: https://m1zz.github.io/ThinkFlow/pl/privacy.html
 
 ## sv
 
@@ -1472,6 +1582,11 @@ Allt sparas bara på din enhet och du behöver inget konto. Exportera när som h
 Gratis och Pro
 Upp till fem tankar är allt gratis, från brofras till export. ThinkFlow Pro tar bort gränsen för antal tankar och lägger till widgetar på hemskärmen och tänketid på låsskärmen. Välj vecko-, månads- eller årsprenumeration, eller köp en gång för livet.
 
+Prenumerationer
+ThinkFlow Pro är en prenumeration som förnyas automatiskt. Betalningen dras från ditt Apple-konto och prenumerationen förnyas om du inte avslutar den minst 24 timmar innan perioden slutar. Hantera eller avsluta när som helst i Inställningar.
+Användarvillkor (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Integritetspolicy: https://m1zz.github.io/ThinkFlow/sv/privacy.html
+
 ## tr
 
 ### 지원 URL
@@ -1535,6 +1650,11 @@ Tüm kayıtlar yalnızca cihazında saklanır ve hesap gerekmez. İstediğin zam
 
 Ücretsiz ve Pro
 Beş düşünceye kadar köprü cümlesinden dışa aktarmaya her şey ücretsiz. ThinkFlow Pro düşünce sınırını kaldırır, Ana Ekran widget’larını ve Kilit Ekranı’nda düşünme süresini ekler. Haftalık, aylık ya da yıllık abonelik seç veya bir kez ödeyip ömür boyu kullan.
+
+Abonelikler
+ThinkFlow Pro otomatik yenilenen bir aboneliktir. Ödeme Apple Hesabınızdan alınır ve abonelik, dönem bitmeden en az 24 saat önce iptal edilmezse yenilenir. Ayarlar'dan istediğiniz zaman yönetebilir veya iptal edebilirsiniz.
+Kullanım Koşulları (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Gizlilik Politikası: https://m1zz.github.io/ThinkFlow/tr/privacy.html
 
 ## 손쉬운 사용
 
