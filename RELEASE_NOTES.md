@@ -3,6 +3,200 @@
 App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이다.
 평문만 쓴다. 한 줄에 한 문장, 3~5줄, 한 줄 40자 이내.
 
+## 1.0.3
+
+### 앱스토어 (한국어)
+
+Siri에게 말하면 떠오른 생각을 바로 적어 둬요
+Siri가 어디까지 생각했는지 알려 줘요
+iPhone 검색에서 생각을 바로 찾아 열어요
+매일 기록을 자동으로 백업해요
+iCloud나 파일에서 기록을 되살릴 수 있어요
+
+### 앱스토어 (영어)
+
+Save a passing thought with Siri
+Ask Siri where you left off
+Open thoughts right from iPhone search
+Your notes are backed up every day
+Restore notes from iCloud or a file
+
+### App Store (en-GB)
+
+Save a passing thought with Siri
+Ask Siri where you left off
+Open thoughts right from iPhone search
+Your notes are backed up every day
+Restore notes from iCloud or a file
+
+### 앱스토어 (일본어)
+
+浮かんだ考えをSiriに話してすぐ記録
+どこまで考えたかSiriが教えてくれます
+iPhoneの検索から考えをすぐ開けます
+毎日、記録を自動でバックアップします
+iCloudやファイルから記録を復元できます
+
+### 앱스토어 (중국어(간체))
+
+对 Siri 说一句，想法马上记下
+问 Siri 上次想到哪里了
+在 iPhone 搜索中直接打开想法
+每天自动备份你的记录
+可从 iCloud 或文件恢复记录
+
+### 앱스토어 (중국어(번체))
+
+對 Siri 說一句，想法馬上記下
+問 Siri 上次想到哪裡了
+在 iPhone 搜尋中直接打開想法
+每天自動備份你的紀錄
+可從 iCloud 或檔案還原紀錄
+
+### 앱스토어 (스페인어)
+
+Guarda una idea al vuelo con Siri
+Pregúntale a Siri dónde te quedaste
+Abre tus ideas desde la búsqueda
+Copia de seguridad diaria automática
+Restaura desde iCloud o un archivo
+
+### 앱스토어 (독일어)
+
+Gedanken schnell per Siri festhalten
+Frag Siri, wo du stehen geblieben bist
+Gedanken direkt in der iPhone-Suche
+Tägliches automatisches Backup
+Aus iCloud oder Datei wiederherstellen
+
+### 앱스토어 (프랑스어)
+
+Notez une idée au vol avec Siri
+Demandez à Siri où vous en étiez
+Ouvrez vos idées depuis la recherche
+Sauvegarde automatique chaque jour
+Restauration via iCloud ou un fichier
+
+### 앱스토어 (이탈리아어)
+
+Annota un pensiero al volo con Siri
+Chiedi a Siri dove eri rimasto
+Apri i pensieri dalla ricerca di iPhone
+Backup automatico ogni giorno
+Ripristina i dati da iCloud o da un file
+
+### 앱스토어 (포르투갈어(브라질))
+
+Anote um pensamento rápido com a Siri
+Pergunte à Siri onde você parou
+Abra pensamentos pela busca do iPhone
+Backup automático todos os dias
+Restaure seus dados do iCloud ou arquivo
+
+### 앱스토어 (러시아어)
+
+Запишите мысль через Siri на ходу
+Спросите Siri, на чём вы остановились
+Открывайте мысли из поиска iPhone
+Автоматическая копия каждый день
+Восстановите записи из iCloud или файла
+
+### 앱스토어 (태국어)
+
+บอก Siri เพื่อจดความคิดได้ทันที
+ถาม Siri ว่าคิดค้างไว้ถึงไหน
+เปิดความคิดได้จากการค้นหาบน iPhone
+สำรองข้อมูลให้อัตโนมัติทุกวัน
+กู้คืนข้อมูลจาก iCloud หรือไฟล์ได้
+
+### 앱스토어 (베트남어)
+
+Nói với Siri để ghi lại ý nghĩ ngay
+Hỏi Siri bạn đã nghĩ đến đâu
+Mở suy nghĩ ngay từ tìm kiếm iPhone
+Tự động sao lưu dữ liệu mỗi ngày
+Khôi phục dữ liệu từ iCloud hoặc tệp
+
+### 앱스토어 (체코어)
+
+Zapište myšlenku rychle přes Siri
+Zeptejte se Siri, kde jste skončili
+Myšlenky otevřete z hledání iPhonu
+Každý den automatická záloha
+Obnova dat z iCloudu nebo ze souboru
+
+### 앱스토어 (덴마크어)
+
+Gem en tanke hurtigt med Siri
+Spørg Siri, hvor du slap
+Åbn tanker direkte fra søgning
+Automatisk backup hver dag
+Gendan data fra iCloud eller en fil
+
+### 앱스토어 (그리스어)
+
+Σημειώστε μια σκέψη με τη Siri
+Ρωτήστε τη Siri πού σταματήσατε
+Ανοίξτε σκέψεις από την αναζήτηση
+Αυτόματο αντίγραφο ασφαλείας κάθε μέρα
+Επαναφορά από iCloud ή από αρχείο
+
+### 앱스토어 (핀란드어)
+
+Tallenna ajatus nopeasti Sirillä
+Kysy Siriltä, mihin jäit
+Avaa ajatukset suoraan iPhonen hausta
+Automaattinen varmuuskopio joka päivä
+Palautus iCloudista tai tiedostosta
+
+### 앱스토어 (인도네시아어)
+
+Catat pikiran cepat lewat Siri
+Tanya Siri sampai mana kamu berpikir
+Buka pikiran dari pencarian iPhone
+Cadangan otomatis setiap hari
+Pulihkan data dari iCloud atau file
+
+### 앱스토어 (노르웨이어(보크말))
+
+Lagre en tanke raskt med Siri
+Spør Siri hvor du slapp
+Åpne tanker rett fra søk på iPhone
+Automatisk sikkerhetskopi hver dag
+Gjenopprett data fra iCloud eller en fil
+
+### 앱스토어 (네덜란드어)
+
+Leg een gedachte snel vast met Siri
+Vraag Siri waar je was gebleven
+Open gedachten via zoeken op iPhone
+Elke dag een automatische back-up
+Zet gegevens terug uit iCloud of bestand
+
+### 앱스토어 (폴란드어)
+
+Zapisz myśl w biegu przez Siri
+Zapytaj Siri, na czym skończyłeś
+Otwieraj myśli z wyszukiwania iPhone’a
+Codzienna automatyczna kopia zapasowa
+Przywróć dane z iCloud lub z pliku
+
+### 앱스토어 (스웨덴어)
+
+Spara en tanke snabbt med Siri
+Fråga Siri var du slutade
+Öppna tankar direkt från sök på iPhone
+Automatisk säkerhetskopia varje dag
+Återställ data från iCloud eller en fil
+
+### 앱스토어 (튀르키예어)
+
+Aklına geleni Siri ile hemen kaydet
+Siri’ye nerede kaldığını sor
+Düşünceleri iPhone aramasından aç
+Her gün otomatik yedekleme
+iCloud’dan veya dosyadan geri yükle
+
 ## 1.0.2
 
 ### 앱스토어 (한국어)
