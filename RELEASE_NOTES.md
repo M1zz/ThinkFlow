@@ -3,6 +3,152 @@
 App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이다.
 평문만 쓴다. 한 줄에 한 문장, 3~5줄, 한 줄 40자 이내.
 
+## 1.0.4
+
+### 앱스토어 (한국어)
+
+이제 Apple Vision Pro에서도 쓸 수 있어요
+넓은 창에서 생각의 흐름을 한눈에 봐요
+iCloud 백업에서 기록을 되살릴 수 있어요
+
+### 앱스토어 (영어)
+
+Now available on Apple Vision Pro
+Your train of thought in one wide window
+Restore your notes from an iCloud backup
+
+### App Store (en-GB)
+
+Now available on Apple Vision Pro
+Your train of thought in one wide window
+Restore your notes from an iCloud backup
+
+### 앱스토어 (일본어)
+
+Apple Vision Proでも使えるようになりました
+広いウインドウで思考の流れを一望
+iCloudバックアップから記録を戻せます
+
+### 앱스토어 (중국어(간체))
+
+现在也能在 Apple Vision Pro 上使用
+在宽大的窗口中纵览思路
+可从 iCloud 备份恢复记录
+
+### 앱스토어 (중국어(번체))
+
+現在也能在 Apple Vision Pro 上使用
+在寬大的視窗中縱覽思路
+可從 iCloud 備份還原記錄
+
+### 앱스토어 (스페인어)
+
+Ya disponible en Apple Vision Pro
+Tu hilo de ideas en una ventana amplia
+Recupera tus notas desde iCloud
+
+### 앱스토어 (독일어)
+
+Jetzt auch auf Apple Vision Pro
+Dein Gedankengang im großen Fenster
+Notizen aus dem iCloud-Backup holen
+
+### 앱스토어 (프랑스어)
+
+Désormais aussi sur Apple Vision Pro
+Le fil de vos idées en grande fenêtre
+Restaurez vos notes depuis iCloud
+
+### 앱스토어 (이탈리아어)
+
+Ora anche su Apple Vision Pro
+Il filo dei pensieri in finestra ampia
+Ripristina le note dal backup iCloud
+
+### 앱스토어 (포르투갈어(브라질))
+
+Agora também no Apple Vision Pro
+Seu fio de ideias em uma janela ampla
+Restaure suas notas do backup do iCloud
+
+### 앱스토어 (러시아어)
+
+Теперь и на Apple Vision Pro
+Ход мыслей целиком в широком окне
+Восстановите записи из копии iCloud
+
+### 앱스토어 (태국어)
+
+ใช้งานได้แล้วบน Apple Vision Pro
+เห็นสายความคิดทั้งหมดในหน้าต่างกว้าง
+กู้คืนบันทึกจากข้อมูลสำรอง iCloud ได้
+
+### 앱스토어 (베트남어)
+
+Nay đã có trên Apple Vision Pro
+Mạch suy nghĩ gọn trong cửa sổ rộng
+Khôi phục ghi chú từ bản sao lưu iCloud
+
+### 앱스토어 (체코어)
+
+Nyní také na Apple Vision Pro
+Tok myšlenek v jednom širokém okně
+Obnovte poznámky ze zálohy na iCloudu
+
+### 앱스토어 (덴마크어)
+
+Nu også på Apple Vision Pro
+Din tankerække i ét bredt vindue
+Gendan noter fra iCloud-sikkerhedskopien
+
+### 앱스토어 (그리스어)
+
+Τώρα και στο Apple Vision Pro
+Ο ειρμός σας σε ένα μεγάλο παράθυρο
+Επαναφορά σημειώσεων από iCloud
+
+### 앱스토어 (핀란드어)
+
+Nyt myös Apple Vision Prossa
+Ajatuksenjuoksu leveässä ikkunassa
+Palauta merkinnät iCloud-varmuuskopiosta
+
+### 앱스토어 (인도네시아어)
+
+Kini tersedia di Apple Vision Pro
+Alur pikiran dalam satu jendela lebar
+Pulihkan catatan dari cadangan iCloud
+
+### 앱스토어 (노르웨이어(보크말))
+
+Nå også på Apple Vision Pro
+Tankerekken din i ett bredt vindu
+Gjenopprett notater fra iCloud-kopien
+
+### 앱스토어 (네덜란드어)
+
+Nu ook op Apple Vision Pro
+Je gedachtegang in één breed venster
+Zet notities terug uit de iCloud-back-up
+
+### 앱스토어 (폴란드어)
+
+Teraz także na Apple Vision Pro
+Tok myśli w jednym szerokim oknie
+Przywróć notatki z kopii w iCloud
+
+### 앱스토어 (스웨덴어)
+
+Nu även på Apple Vision Pro
+Din tankegång i ett brett fönster
+Återställ anteckningar från iCloud
+
+### 앱스토어 (튀르키예어)
+
+Artık Apple Vision Pro'da da
+Düşünce akışınız geniş bir pencerede
+Notları iCloud yedeğinden geri alın
+
 ## 1.0.3
 
 ### 앱스토어 (한국어)

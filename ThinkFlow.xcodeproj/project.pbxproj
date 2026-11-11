@@ -11,7 +11,9 @@
 		51550A233E4E1740B92A8011 /* ThinkFlowRoadmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388612F118CACCCC774FB2F2 /* ThinkFlowRoadmap.swift */; };
 		581D87122F48C84000F2F032 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581D87112F48C84000F2F032 /* WidgetKit.framework */; };
 		581D87142F48C84000F2F032 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 581D87132F48C84000F2F032 /* SwiftUI.framework */; };
-		581D87252F48C84100F2F032 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 581D870F2F48C84000F2F032 /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		581D87252F48C84100F2F032 /* widgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 581D870F2F48C84000F2F032 /* widgetExtension.appex */; platformFilters = (
+				ios,
+			); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		729246542D45D7D88C2F9F63 /* ThinkFlowSupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14F3F757FEF7C15E83194F0C /* ThinkFlowSupportView.swift */; };
 		7EC5B9E03BEE39E970C04AD2 /* ThoughtIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54937BC1C6AD62B3D2079031 /* ThoughtIntents.swift */; };
 		8476A81D165EA4ED052F090A /* ThinkFlowSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7710FDDCE1EE27579F312781 /* ThinkFlowSpec.swift */; };
@@ -477,6 +479,9 @@
 /* Begin PBXTargetDependency section */
 		581D87242F48C84100F2F032 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilters = (
+				ios,
+			);
 			target = 581D870E2F48C84000F2F032 /* widgetExtension */;
 			targetProxy = 581D87232F48C84100F2F032 /* PBXContainerItemProxy */;
 		};
@@ -698,11 +703,13 @@
 				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.thinkflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
@@ -732,11 +739,13 @@
 				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.thinkflow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,7";
+				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
@@ -826,7 +835,7 @@
 			repositoryURL = "https://github.com/M1zz/LeeoKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.38.1;
+				minimumVersion = 3.43.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

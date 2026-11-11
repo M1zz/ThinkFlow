@@ -210,7 +210,9 @@ final class ProStore {
 
         // 위젯 · 라이브 액티비티는 App Group 의 한 줄만 읽는다. 바뀐 판에만 다시 그린다.
         if ProAccess.setFeaturesOpen(featuresOpen) {
+            #if !os(visionOS)   // visionOS 2 에는 위젯이 없다 — 위젯 확장은 iOS 에만 묶여 있다
             WidgetCenter.shared.reloadAllTimelines()
+            #endif
         }
     }
 

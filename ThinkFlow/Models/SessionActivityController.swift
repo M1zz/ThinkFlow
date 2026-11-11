@@ -1,3 +1,4 @@
+#if canImport(ActivityKit)
 import ActivityKit
 import Foundation
 
@@ -48,3 +49,13 @@ final class SessionActivityController {
         }
     }
 }
+#else
+import Foundation
+
+// visionOS 2 에는 라이브 액티비티가 없다 — 호출하는 쪽은 그대로 두고 아무것도 하지 않는다.
+final class SessionActivityController {
+    func start(thread: ThoughtThread, startedAt: Date = Date()) {}
+    func endOrphans() {}
+    func end() {}
+}
+#endif

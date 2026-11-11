@@ -1,3 +1,5 @@
+// visionOS 2 에는 라이브 액티비티가 없다 — ActivityKit 이 있는 플랫폼에서만.
+#if canImport(ActivityKit)
 import ActivityKit
 import Foundation
 
@@ -13,3 +15,4 @@ struct ThinkingSessionAttributes: ActivityAttributes {
     var threadEmoji: String
     var sessionStartDate: Date
 }
+#endif
