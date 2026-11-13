@@ -82,6 +82,15 @@ for L in "$@"; do
   [ -n "$IPAD" ] && OUT="$ROOT/docs/screenshots/marketing/$(store "$L")"
   mkdir -p "$OUT"
   KB="$(keyboard "$L")"; RG="$(region "$L")"
+  if [ -n "$IPAD" ]; then
+    # 아이패드 상태 막대의 날짜와 창 이름은 앱이 아니라 시스템 언어를 따른다 → 언어마다 바꾸고 홈을 다시 띄운다
+    xcrun simctl spawn "$D" defaults write .GlobalPreferences AppleLanguages -array "$L"
+    xcrun simctl spawn "$D" defaults write .GlobalPreferences AppleLocale "$RG"
+    xcrun simctl spawn "$D" launchctl stop com.apple.SpringBoard || true
+    # 홈이 다시 서고 상태 막대가 돌아올 때까지 — 짧으면 첫 그림에 상태 막대가 비어 나온다
+    sleep 30; xcrun simctl status_bar "$D" override --time "9:41" --batteryState charged --batteryLevel 100 \
+  --cellularBars 4 --wifiBars 3 --dataNetwork wifi >/dev/null 2>&1 || true
+  fi
   shot() {  # 파일 이름 · 장면
     if [ -n "$ONLY" ]; then case " $ONLY " in *" $2 "*) ;; *) return 0 ;; esac; fi
     python3 "$ROOT/scripts/screenshot_seed.py" "$L" "$2" "$TMP/seed-$L-$2.json"
@@ -92,7 +101,14 @@ for L in "$@"; do
       -ScreenshotSeed "$TMP/seed-$L-$2.json" -ScreenshotScene "$2" >/dev/null
     sleep 8
     # 시뮬레이터가 Documents 아래에 바로 못 쓸 때가 있어 임시 파일로 찍고 옮긴다
-    xcrun simctl io "$D" screenshot --type=png "$TMP/shot.png" >/dev/null 2>&1 && mv -f "$TMP/shot.png" "$OUT/$1"
+    # 아이패드는 앱을 띄운 직후 상태 막대(시각·날짜)가 통째로 비어 찍힐 때가 있다 → 비었으면 조금 있다 다시 찍는다
+    for try in 1 2 3 4; do
+      xcrun simctl io "$D" screenshot --type=png "$TMP/shot.png" >/dev/null 2>&1 || continue
+      if [ -n "$IPAD" ] && ! python3 -c "import sys;from PIL import Image;p=list(Image.open(sys.argv[1]).convert('L').crop((40,12,420,52)).getdata());sys.exit(max(p)-min(p)<40)" "$TMP/shot.png"; then
+        sleep 4; continue
+      fi
+      mv -f "$TMP/shot.png" "$OUT/$1"; break
+    done
     echo "  $L $1"
   }
   if [ -n "$IPAD" ]; then
