@@ -4,6 +4,10 @@
 #   sh scripts/take_screenshots.sh <기기 UDID> <언어...>
 #   예) sh scripts/take_screenshots.sh 2F236138-4FFE-4817-993C-EC31DF762C38 en ja
 #   일부만 다시: ONLY="dump bridge" sh scripts/take_screenshots.sh <UDID> de
+#   아이패드: IPAD=1 sh scripts/take_screenshots.sh <iPad 13" UDID> ko en ...
+#     → 꾸미지 않은 2064x2752 를 docs/screenshots/marketing/<스토어 로케일>/ipad-0N-….png 에 바로 둔다
+#       (아이폰 그림과 한 폴더 — DeployBar 가 크기로 기기를 가른다). 넓은 아이패드는 목록 | 스레드 두 칸이라
+#       thread 장면은 home 이 이미 보여 준다.
 #
 # 앞서 디버그 빌드를 그 기기에 깔아 둔다. 화면은 DEBUG 전용 실행 인자로 연다
 # (ThoughtStore.swift 의 ScreenshotScene · HomeView · ContinueThinkingSheet · BrainDumpSheet 의 `#if DEBUG`).
@@ -47,6 +51,14 @@ keyboard() {
   esac
 }
 
+# 앱 언어 → App Store 로케일 (make_marketing_screenshots.py 의 STORE 와 같다)
+store() {
+  case "$1" in
+    en) echo en-US ;; es) echo es-ES ;; de) echo de-DE ;; fr) echo fr-FR ;; nl) echo nl-NL ;; sv) echo sv-SE ;;
+    *) echo "$1" ;;
+  esac
+}
+
 # 지역: 날짜 표기(예: en-GB 는 일/월)가 그 나라 것이 되게
 region() {
   case "$1" in
@@ -67,6 +79,7 @@ xcrun simctl status_bar "$D" override --time "9:41" --batteryState charged --bat
 
 for L in "$@"; do
   OUT="$ROOT/docs/screenshots/raw/$L"
+  [ -n "$IPAD" ] && OUT="$ROOT/docs/screenshots/marketing/$(store "$L")"
   mkdir -p "$OUT"
   KB="$(keyboard "$L")"; RG="$(region "$L")"
   shot() {  # 파일 이름 · 장면
@@ -78,13 +91,21 @@ for L in "$@"; do
       -AppleKeyboards "(\"$KB\")" \
       -ScreenshotSeed "$TMP/seed-$L-$2.json" -ScreenshotScene "$2" >/dev/null
     sleep 8
-    xcrun simctl io "$D" screenshot --type=png "$OUT/$1" >/dev/null 2>&1
+    # 시뮬레이터가 Documents 아래에 바로 못 쓸 때가 있어 임시 파일로 찍고 옮긴다
+    xcrun simctl io "$D" screenshot --type=png "$TMP/shot.png" >/dev/null 2>&1 && mv -f "$TMP/shot.png" "$OUT/$1"
     echo "  $L $1"
   }
-  shot 01-home.png     home
-  shot 02-continue.png continue
-  shot 03-bridge.png   bridge
-  shot 04-thread.png   thread
-  shot 05-dump.png     dump
+  if [ -n "$IPAD" ]; then
+    shot ipad-01-home.png     home
+    shot ipad-02-continue.png continue
+    shot ipad-03-bridge.png   bridge
+    shot ipad-04-dump.png     dump
+  else
+    shot 01-home.png     home
+    shot 02-continue.png continue
+    shot 03-bridge.png   bridge
+    shot 04-thread.png   thread
+    shot 05-dump.png     dump
+  fi
 done
 xcrun simctl terminate "$D" $BID 2>/dev/null || true

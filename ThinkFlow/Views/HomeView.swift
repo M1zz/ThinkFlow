@@ -20,6 +20,7 @@ struct HomeView: View {
     /// 아이폰 듀오를 폈을 때 결과 쪽 판에 펼쳐 둔 스레드. 없으면 가장 최근 스레드.
     @State private var shownThreadID: ThoughtThread.ID?
     @Environment(\.foldLayout) private var fold
+    @Environment(\.horizontalSizeClass) private var sizeClass
     #if DEBUG
     @State private var screenshotThreadID: UUID?
     #endif
@@ -32,12 +33,23 @@ struct HomeView: View {
     var body: some View {
         // 아이폰 듀오를 펴면 고르는 쪽(왼쪽 · 아래)에 이 목록, 결과 쪽(오른쪽 · 위)에 고른 스레드.
         // 접혀 있거나 보통 아이폰이면 목록만 그린다 — 지금 화면 그대로.
-        FoldSplitView {
-            home
-        } result: {
-            FoldThreadPane(thread: shownThread)
+        Group {
+            if isWidePad {
+                // 넓은 아이패드: 접힌 선 없이 왼쪽 목록 | 오른쪽 고른 스레드.
+                HStack(spacing: 0) {
+                    home.frame(width: 400)
+                    Divider().ignoresSafeArea()
+                    FoldThreadPane(thread: shownThread)
+                }
+            } else {
+                FoldSplitView {
+                    home
+                } result: {
+                    FoldThreadPane(thread: shownThread)
+                }
+            }
         }
-        .onChange(of: fold.isUnfolded) { _, unfolded in
+        .onChange(of: split) { _, unfolded in
             // 접힌 채 보던 스레드가 있으면 펴는 순간 결과 쪽으로 옮긴다.
             guard unfolded, let last = path.last else { return }
             shownThreadID = last
@@ -45,13 +57,24 @@ struct HomeView: View {
         }
     }
 
+    /// 넓은 아이패드인가. Slide Over · 좁은 분할에서는 아이폰처럼 밀어 넣는다.
+    private var isWidePad: Bool {
+        #if os(iOS)
+        UIDevice.current.userInterfaceIdiom == .pad && sizeClass == .regular
+        #else
+        false
+        #endif
+    }
+    /// 두 칸으로 서는가: 펼친 듀오이거나 넓은 아이패드.
+    private var split: Bool { fold.isUnfolded || isWidePad }
+
     private var shownThread: ThoughtThread? {
         store.threads.first { $0.id == shownThreadID } ?? store.mostRecentThread
     }
 
     /// 접혀 있으면 스레드 화면을 밀어 넣고, 펴져 있으면 결과 쪽 판에 펼친다.
     private func open(_ thread: ThoughtThread) {
-        if fold.isUnfolded {
+        if split {
             shownThreadID = thread.id
         } else {
             path.append(thread.id)
@@ -301,6 +324,7 @@ struct HomeView: View {
         .padding(.trailing, 20)
         .padding(.bottom, 20)
         .accessibilityLabel("생각 꺼내기")
+        .keyboardShortcut("n")
         .accessibilityHint("머릿속 생각을 적어 새 스레드를 만듭니다")
     }
 
@@ -420,7 +444,7 @@ struct HomeView: View {
             )
         }
         .buttonStyle(.plain)
-        .foldShown(fold.isUnfolded && thread.id == shownThread?.id)
+        .foldShown(split && thread.id == shownThread?.id)
         // 카드 안의 '이어서 생각하기' 단추가 카드 링크에 묻혀도 동작으로 닿게
         .accessibilityAction(named: Text("이어서 생각하기")) { continueThread = thread }
     }
@@ -450,7 +474,7 @@ struct HomeView: View {
                     )
                 }
                 .buttonStyle(.plain)
-                .foldShown(fold.isUnfolded && thread.id == shownThread?.id)
+                .foldShown(split && thread.id == shownThread?.id)
                 .accessibilityAction(named: Text("이어서 생각하기")) { continueThread = thread }
             }
         }
