@@ -11,37 +11,134 @@ struct ThreadDetailView: View {
     @State private var showContinueSheet = false
     @State private var showBridgeEditor = false
     @State private var showDeleteAlert = false
-    @State private var sortNewestFirst = true
-    @Environment(\.dynamicTypeSize) private var typeSize
-    @State private var allCopied = false
+    @State private var sortNewestFirst = false
     @State private var editingEntry: ThoughtEntry?
+    /// 답글을 달 글. 큰 줄기에 이어 쓸 때는 쓰지 않는다(showContinueSheet).
+    @State private var replyTarget: ThoughtEntry?
     
     private var currentThread: ThoughtThread {
         store.threads.first { $0.id == thread.id } ?? thread
     }
     
-    var body: some View {
-        ScrollView {
-            VStack(spacing: 20) {
-                
-                // MARK: - 헤밍웨이 브릿지 (항상 상단)
-                bridgeSection
-                
-                // MARK: - 통계
-                statsRow
-                
-                // MARK: - 엔트리 타임라인
-                entriesSection
-                
-                Spacer(minLength: 100)
-            }
-            .padding(.horizontal, 20)
-            .padding(.top, 8)
+    private var sortedEntries: [ThoughtEntry] {
+        currentThread.entries.sorted {
+            sortNewestFirst ? $0.createdAt > $1.createdAt : $0.createdAt < $1.createdAt
         }
-        .background(Color(.systemGroupedBackground))
+    }
+
+    /// 화면에 그릴 한 줄 — 글과, 그 글이 답글 나무의 어디에 있는지.
+    private struct Node: Identifiable {
+        let entry: ThoughtEntry
+        let depth: Int
+        let guides: [Bool]
+        let connectsDown: Bool
+        let replyCount: Int
+        var id: UUID { entry.id }
+    }
+
+    /// 들여 쓰는 깊이의 한도. 더 깊은 답글은 같은 칸에 이어 붙인다 (좁은 화면에서 글 폭을 지킨다).
+    private static let maxDepth = 3
+
+    /// 큰 줄기의 글을 고른 순서대로 놓고, 글마다 그 답글을 쓴 순서대로 바로 아래에 붙인다.
+    /// 답글은 큰 줄기의 순서를 뒤집어도 언제나 답한 글 아래에 선다 — 위계가 깨지지 않는다.
+    private var nodes: [Node] {
+        let entries = currentThread.entries
+        let ids = Set(entries.map(\.id))
+        let chronological = entries.sorted { $0.createdAt < $1.createdAt }
+        // 답한 글이 지워져 없으면 큰 줄기로 본다
+        let replies = Dictionary(grouping: chronological.filter { $0.parentID.map(ids.contains) ?? false },
+                                 by: { $0.parentID! })
+        let trunk = sortedEntries.filter { !($0.parentID.map(ids.contains) ?? false) }
+
+        var result: [Node] = []
+        func visit(_ entry: ThoughtEntry, depth: Int, guides: [Bool], trunkContinues: Bool) {
+            let children = replies[entry.id] ?? []
+            result.append(Node(
+                entry: entry,
+                depth: depth,
+                guides: guides,
+                connectsDown: !children.isEmpty || (depth == 0 && trunkContinues),
+                replyCount: children.count
+            ))
+            for (index, child) in children.enumerated() {
+                let hasNextSibling = index < children.count - 1
+                if depth < Self.maxDepth {
+                    // 맨 왼쪽 칸은 큰 줄기의 선도 함께 지난다
+                    let continues = hasNextSibling || (depth == 0 && trunkContinues)
+                    visit(child, depth: depth + 1, guides: guides + [continues], trunkContinues: trunkContinues)
+                } else {
+                    visit(child, depth: depth, guides: guides, trunkContinues: trunkContinues)
+                }
+            }
+        }
+        for (index, entry) in trunk.enumerated() {
+            // 오래된순이면 마지막 글 아래에 끊어둔 문장이 이어진다
+            visit(entry, depth: 0, guides: [], trunkContinues: index < trunk.count - 1 || !sortNewestFirst)
+        }
+        return result
+    }
+
+    var body: some View {
+        let sorted = sortedEntries
+
+        return ScrollView {
+            VStack(alignment: .leading, spacing: 0) {
+
+                Text(currentThread.metaLine)
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                    .padding(.bottom, 16)
+
+                // 끊어둔 문장은 스레드의 가장 새 글 자리에 선다 — 최신순이면 맨 위, 오래된순이면 맨 아래.
+                if sortNewestFirst {
+                    bridgeRow(connectsDown: !sorted.isEmpty)
+                }
+
+                if sorted.isEmpty {
+                    emptyEntries
+                } else {
+                    ForEach(nodes) { node in
+                        let entry = node.entry
+                        EntryRowView(
+                            entry: entry,
+                            emoji: currentThread.emoji,
+                            connectsDown: node.connectsDown,
+                            depth: node.depth,
+                            guides: node.guides,
+                            replyCount: node.replyCount,
+                            onReply: { replyTarget = entry },
+                            onLayerChange: { newLayer in
+                                store.updateEntryLayer(
+                                    threadID: currentThread.id,
+                                    entryID: entry.id,
+                                    newLayer: newLayer
+                                )
+                            },
+                            onEdit: {
+                                editingEntry = entry
+                            },
+                            onDelete: {
+                                store.deleteEntry(threadID: currentThread.id, entryID: entry.id)
+                            }
+                        )
+                    }
+                }
+
+                if !sortNewestFirst {
+                    bridgeRow(connectsDown: false)
+                }
+            }
+            .padding(.horizontal, PostMetrics.side)
+            .padding(.top, 8)
+            .padding(.bottom, 32)
+        }
+        .background(Color(.systemBackground))
         .navigationTitle("\(currentThread.emoji) \(currentThread.title)")
-        .navigationBarTitleDisplayMode(.large)
+        .navigationBarTitleDisplayMode(.inline)
         .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                ThreadShareButton(thread: currentThread)
+            }
             ToolbarItem(placement: .topBarTrailing) {
                 Menu {
                     Button {
@@ -49,51 +146,59 @@ struct ThreadDetailView: View {
                     } label: {
                         Label("브릿지 수정", systemImage: "bookmark")
                     }
-                    
+
+                    if !sorted.isEmpty {
+                        Button {
+                            UIPasteboard.general.string = sorted
+                                .map { "[\($0.layerLabel)] \($0.content)" }
+                                .joined(separator: "\n\n")
+                            UIAccessibility.post(notification: .announcement, argument: String(localized: "복사되었습니다"))
+                        } label: {
+                            Label("전체 복사", systemImage: "doc.on.doc")
+                        }
+
+                        Button {
+                            withAnimation(.easeInOut(duration: 0.2)) {
+                                sortNewestFirst.toggle()
+                            }
+                        } label: {
+                            Label(sortNewestFirst ? String(localized: "최신순") : String(localized: "오래된순"),
+                                  systemImage: sortNewestFirst ? "arrow.down" : "arrow.up")
+                        }
+                    }
+
                     Divider()
-                    
+
                     Button(role: .destructive) {
                         showDeleteAlert = true
                     } label: {
                         Label("삭제", systemImage: "trash")
                     }
                 } label: {
-                    Image(systemName: "ellipsis.circle")
+                    Image(systemName: "ellipsis")
                 }
                 .accessibilityLabel("더 보기")
             }
         }
         .safeAreaInset(edge: .bottom) {
-            Button {
-                showContinueSheet = true
-            } label: {
-                HStack {
-                    Image(systemName: "pencil.line")
-                    Text("이어서 생각하기")
-                        .fontWeight(.semibold)
-                }
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 16)
-                .background(.orange.gradient)
-                .foregroundStyle(.white)
-                .clipShape(RoundedRectangle(cornerRadius: 14))
-                .padding(.horizontal, 20)
-                .padding(.bottom, 8)
-            }
-            .background(.ultraThinMaterial)
+            replyBar
         }
         .sheet(isPresented: $showContinueSheet) {
             ContinueThinkingSheet(thread: currentThread)
+        }
+        .sheet(item: $replyTarget) { entry in
+            ContinueThinkingSheet(thread: currentThread, replyTo: entry)
         }
         .sheet(isPresented: $showBridgeEditor) {
             BridgeEditorView(thread: currentThread)
         }
         .sheet(item: $editingEntry) { entry in
-            EntryEditSheet(entry: entry) { newContent in
+            EntryEditSheet(entry: entry) { newContent, newPhotos in
                 store.updateEntryContent(
                     threadID: currentThread.id,
                     entryID: entry.id,
-                    content: newContent
+                    content: newContent,
+                    photos: newPhotos
                 )
             }
         }
@@ -113,184 +218,82 @@ struct ThreadDetailView: View {
             store.endSession()
         }
     }
-    
-    // MARK: - 브릿지 섹션
-    private var bridgeSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            HStack {
-                Label("끊어둔 문장", systemImage: "arrow.turn.down.right")
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-                    .foregroundStyle(.orange)
-                    .accessibilityAddTraits(.isHeader)
-                Spacer()
-                Button("수정", systemImage: "pencil") {
-                    showBridgeEditor = true
-                }
-                .font(.caption)
-                .foregroundStyle(.orange)
-                .accessibilityLabel("끊어둔 문장 수정")
-            }
 
-            if !currentThread.bridge.nextQuestion.isEmpty {
-                Text(currentThread.bridge.nextQuestion)
-                    .font(.body)
-                    .fontWeight(.semibold)
-                    .foregroundStyle(.primary)
-                    .lineSpacing(4)
-                    .padding(14)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(
-                        HStack(spacing: 0) {
-                            Color.orange.opacity(0.4)
-                                .frame(width: 3)
-                            Color.orange.opacity(0.07)
-                        }
-                    )
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
+    // MARK: - 끊어둔 문장 (누르면 그 문장에서 이어 쓴다. 비어 있으면 적어 둔다)
+
+    private func bridgeRow(connectsDown: Bool) -> some View {
+        let question = currentThread.bridge.nextQuestion
+        return Button {
+            if question.isEmpty {
+                showBridgeEditor = true
             } else {
-                Text("기세가 있을 때 문장을 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다.")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                    .lineSpacing(3)
-                    .padding(14)
+                showContinueSheet = true
+            }
+        } label: {
+            if question.isEmpty {
+                PostRow(connectsDown: connectsDown, avatarSize: PostMetrics.smallAvatar) {
+                    PostAvatar(kind: .bridge, size: PostMetrics.smallAvatar)
+                } content: {
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text("끊어둔 문장")
+                            .font(.caption.weight(.semibold))
+                            .foregroundStyle(.orange)
+                        Text("기세가 있을 때 문장을 끊어두세요.\n다음에 열면 뇌가 자동으로 이어받습니다.")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                            .lineSpacing(3)
+                            .multilineTextAlignment(.leading)
+                    }
+                }
+            } else {
+                BridgePost(text: question, connectsDown: connectsDown, prominent: true)
             }
         }
-        .padding(16)
-        .background(.background)
-        .clipShape(RoundedRectangle(cornerRadius: 14))
-        .shadow(color: .black.opacity(0.05), radius: 6, y: 2)
+        .buttonStyle(.plain)
+        .accessibilityHint(question.isEmpty ? String(localized: "끊어둔 문장 수정") : String(localized: "이어서 생각하기"))
     }
-    
-    // MARK: - 통계
-    private var statsRow: some View {
-        // 네 칸 한 줄 — 손쉬운 사용 글자 크기에서는 두 칸씩 두 줄
-        let ax = typeSize.isAccessibilitySize
-        return Grid(horizontalSpacing: 0, verticalSpacing: 12) {
-            GridRow {
-                statItem(label: "메모", value: String(localized: "\(currentThread.entryCount)개"), icon: "note.text")
-                Divider().frame(height: 30)
-                statItem(label: "사고 시간", value: currentThread.formattedThinkingTime, icon: "clock")
-                if !ax {
-                    Divider().frame(height: 30)
-                    statItem(label: "깊이", value: "L\(currentThread.highestLayer)", icon: "layers.bottom.fill")
-                    Divider().frame(height: 30)
-                    statItem(label: "시작일", value: currentThread.createdAt.formatted(.dateTime.month().day()), icon: "calendar")
-                }
-            }
-            if ax {
-                GridRow {
-                    statItem(label: "깊이", value: "L\(currentThread.highestLayer)", icon: "layers.bottom.fill")
-                    Divider().frame(height: 30)
-                    statItem(label: "시작일", value: currentThread.createdAt.formatted(.dateTime.month().day()), icon: "calendar")
-                }
-            }
-        }
-        .padding(.vertical, 12)
-        .background(.background)
-        .clipShape(RoundedRectangle(cornerRadius: 12))
-    }
-    
-    private func statItem(label: LocalizedStringKey, value: String, icon: String) -> some View {
-        VStack(spacing: 4) {
-            Image(systemName: icon)
-                .font(.subheadline)
+
+    // MARK: - 아직 적은 것이 없을 때
+
+    private var emptyEntries: some View {
+        VStack(spacing: 8) {
+            Image(systemName: "text.bubble")
+                .font(.largeTitle)
                 .foregroundStyle(.secondary)
                 .accessibilityHidden(true)
-            Text(value)
-                .font(.headline)
-            Text(label)
+            Text("아직 기록이 없어요")
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+            Text("'이어서 생각하기'를 눌러 첫 기록을 남겨보세요")
                 .font(.caption)
                 .foregroundStyle(.secondary)
         }
         .frame(maxWidth: .infinity)
-        .accessibilityElement(children: .combine)
-        // LocalizedStringKey 를 문자열 보간에 넣으면 번역이 아니라 디버그 설명이 읽힌다
-        .accessibilityLabel(Text(label) + Text(verbatim: " \(value)"))
+        .padding(.vertical, 40)
     }
-    
-    // MARK: - 엔트리 타임라인
-    private var entriesSection: some View {
-        let sorted = currentThread.entries.sorted {
-            sortNewestFirst ? $0.createdAt > $1.createdAt : $0.createdAt < $1.createdAt
-        }
 
-        return VStack(alignment: .leading, spacing: 12) {
-            HStack(spacing: 12) {
-                Text("생각의 흐름")
-                    .font(.title3)
-                    .fontWeight(.bold)
-                    .accessibilityAddTraits(.isHeader)
-                Spacer()
+    // MARK: - 답글 막대 (이어서 생각하기)
 
-                // 전체 복사
-                if !sorted.isEmpty {
-                    Button {
-                        let text = sorted.map { "[\($0.layerLabel)] \($0.content)" }
-                            .joined(separator: "\n\n")
-                        UIPasteboard.general.string = text
-                        withAnimation { allCopied = true }
-                        Task {
-                            try? await Task.sleep(for: .seconds(1.5))
-                            withAnimation { allCopied = false }
-                        }
-                    } label: {
-                        Label(allCopied ? String(localized: "복사됨") : String(localized: "전체 복사"),
-                              systemImage: allCopied ? "checkmark" : "doc.on.doc")
-                            .font(.caption)
-                            .foregroundStyle(allCopied ? .green : .secondary)
-                            .contentTransition(.symbolEffect(.replace))
-                    }
-                }
-
-                // 정렬 토글
-                Button {
-                    withAnimation(.easeInOut(duration: 0.2)) {
-                        sortNewestFirst.toggle()
-                    }
-                } label: {
-                    Label(sortNewestFirst ? String(localized: "최신순") : String(localized: "오래된순"),
-                          systemImage: sortNewestFirst ? "arrow.down" : "arrow.up")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
+    private var replyBar: some View {
+        Button {
+            showContinueSheet = true
+        } label: {
+            HStack(spacing: 10) {
+                PostAvatar(kind: .thought(currentThread.emoji), size: 26)
+                Text("이어서 생각하기")
+                    .font(.body)
+                    .foregroundStyle(.secondary)
+                Spacer(minLength: 0)
             }
-
-            if sorted.isEmpty {
-                VStack(spacing: 8) {
-                    Image(systemName: "text.bubble")
-                        .font(.largeTitle)
-                        .foregroundStyle(.secondary)
-                    Text("아직 기록이 없어요")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                    Text("'이어서 생각하기'를 눌러 첫 기록을 남겨보세요")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-                .frame(maxWidth: .infinity)
-                .padding(.vertical, 40)
-            } else {
-                ForEach(sorted) { entry in
-                    EntryRowView(
-                        entry: entry,
-                        onLayerChange: { newLayer in
-                            store.updateEntryLayer(
-                                threadID: currentThread.id,
-                                entryID: entry.id,
-                                newLayer: newLayer
-                            )
-                        },
-                        onEdit: {
-                            editingEntry = entry
-                        },
-                        onDelete: {
-                            store.deleteEntry(threadID: currentThread.id, entryID: entry.id)
-                        }
-                    )
-                }
-            }
+            .padding(.horizontal, 12)
+            .padding(.vertical, 10)
+            .background(Color(.secondarySystemBackground), in: Capsule())
+            .contentShape(Capsule())
         }
+        .buttonStyle(.plain)
+        .padding(.horizontal, PostMetrics.side)
+        .padding(.vertical, 8)
+        .background(.bar)
     }
 }
 

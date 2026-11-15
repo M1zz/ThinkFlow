@@ -38,96 +38,32 @@ struct LayerBadge: View {
     }
 }
 
-// MARK: - 지금까지의 흐름 (재진입 맥락 복원, 카드 공통)
+// MARK: - 다시 들어올 때 되살릴 맥락 (피드의 글 · 이어 쓰는 화면 공통)
 
-/// 스레드를 다시 열 때 맥락을 복원해 주는 요약 블록.
-/// 정제된 핵심(핵심/요약) + 직전 생각을 레이어 배지와 함께 보여준다.
-/// 배경/패딩은 호출하는 카드 쪽에서 감싼다.
-struct ThreadRecapView: View {
-    let thread: ThoughtThread
-
-    // 핵심(정제된 최신 생각) + 직전 생각 — 둘이 같으면 한 번만
-    private var recapEntries: [ThoughtEntry] {
+extension ThoughtThread {
+    /// 핵심(정제된 최신 생각) + 직전 생각 — 둘이 같으면 한 번만.
+    var recapEntries: [ThoughtEntry] {
         var result: [ThoughtEntry] = []
-        if let core = thread.latestCore {
+        if let core = latestCore {
             result.append(core)
         }
-        if let last = thread.lastEntry, !result.contains(where: { $0.id == last.id }) {
+        if let last = lastEntry, !result.contains(where: { $0.id == last.id }) {
             result.append(last)
         }
         return result
     }
 
-    private var metaLine: String {
-        var parts: [String] = [String(localized: "\(thread.entryCount)개 생각")]
-        let days = thread.daysSinceBridge
+    /// "4개 생각 · 2일 전 끊어둠 · 누적 45분"
+    var metaLine: String {
+        var parts: [String] = [String(localized: "\(entryCount)개 생각")]
+        let days = daysSinceBridge
         if days > 0 {
             parts.append(String(localized: "\(days)일 전 끊어둠"))
         }
-        if thread.totalThinkingSeconds >= 60 {
-            parts.append(String(localized: "누적 \(thread.formattedThinkingTime)"))
+        if totalThinkingSeconds >= 60 {
+            parts.append(String(localized: "누적 \(formattedThinkingTime)"))
         }
         return parts.joined(separator: " · ")
-    }
-
-    var body: some View {
-        if !recapEntries.isEmpty {
-            VStack(alignment: .leading, spacing: 12) {
-                ViewThatFits(in: .horizontal) {
-                    recapHeader(HStackLayout(alignment: .firstTextBaseline))
-                    recapHeader(VStackLayout(alignment: .leading, spacing: 4))
-                }
-                .accessibilityElement(children: .combine)
-
-                ForEach(recapEntries) { entry in
-                    ThreadRecapRow(entry: entry, isLast: entry.id == thread.lastEntry?.id)
-                }
-            }
-        }
-    }
-
-    /// 제목 | 횟수·날짜 — 한 줄에 안 들어가면(큰 글씨) 위아래로
-    private func recapHeader<L: Layout>(_ layout: L) -> some View {
-        layout {
-                    Label("지금까지의 흐름", systemImage: "list.bullet.indent")
-                        .font(.subheadline)
-                        .fontWeight(.medium)
-                        .foregroundStyle(.secondary)
-                    Spacer()
-                    Text(metaLine)
-                        .font(.caption.weight(.medium))
-                        .foregroundStyle(.secondary)
-        }
-    }
-}
-
-/// 흐름 블록의 한 줄 — 레이어 배지 + 내용. 핵심은 진하게, 그 외는 흐리게.
-struct ThreadRecapRow: View {
-    let entry: ThoughtEntry
-    let isLast: Bool
-
-    private var isCore: Bool { entry.layer >= 2 }
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 6) {
-            HStack(spacing: 6) {
-                LayerBadge(entry: entry)
-                if isLast {
-                    Text("직전 생각")
-                        .font(.caption2.weight(.medium))
-                        .foregroundStyle(.secondary)
-                }
-            }
-            Text(entry.content)
-                .font(.subheadline)
-                .foregroundStyle(isCore ? .primary : .secondary)
-                .lineSpacing(3)
-                .lineLimit(isCore ? 4 : 3)
-                .frame(maxWidth: .infinity, alignment: .leading)
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel("\(isLast ? String(localized: "직전 생각") : entry.layerLabel): \(entry.content)")
     }
 }
 
@@ -137,8 +73,6 @@ struct ThreadRecapRow: View {
         LayerBadge(entry: ThoughtEntry(content: "", layer: 1))
         LayerBadge(entry: ThoughtEntry(content: "", layer: 2))
         LayerBadge(entry: ThoughtEntry(content: "", layer: 3))
-        Divider()
-        ThreadRecapView(thread: ThoughtThread.sampleThreads[0])
     }
     .padding()
 }

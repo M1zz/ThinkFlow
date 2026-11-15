@@ -64,6 +64,43 @@ enum ThoughtExporter {
         return lines.joined(separator: "\n")
     }
 
+    // MARK: - 스레드 하나 공유
+
+    /// 스레드 하나를 읽는 순서 그대로 글로 옮긴다 — 처음 글이 위, 답글은 답한 글 아래에 들여서.
+    static func shareText(for thread: ThoughtThread) -> String {
+        let entries = thread.chronologicalEntries
+        let ids = Set(entries.map(\.id))
+        let replies = Dictionary(grouping: entries.filter { $0.parentID.map(ids.contains) ?? false },
+                                 by: { $0.parentID! })
+
+        var blocks = ["\(thread.emoji) \(thread.displayTitle)"]
+        func visit(_ entry: ThoughtEntry, depth: Int) {
+            var text = entry.content
+            if entry.isReference {
+                text = "[\(entry.source ?? String(localized: "자료"))] " + text
+            }
+            if !entry.photos.isEmpty {
+                let mark = String(repeating: "🖼", count: entry.photos.count)
+                text = text.isEmpty ? mark : text + " " + mark
+            }
+            let indent = String(repeating: "    ", count: depth)
+            let lines = text.components(separatedBy: "\n")
+            blocks.append(lines.enumerated()
+                .map { indent + (depth > 0 && $0.offset == 0 ? "↳ " : (depth > 0 ? "  " : "")) + $0.element }
+                .joined(separator: "\n"))
+            for child in replies[entry.id] ?? [] { visit(child, depth: depth + 1) }
+        }
+        for entry in entries where !(entry.parentID.map(ids.contains) ?? false) {
+            visit(entry, depth: 0)
+        }
+
+        let bridge = thread.bridge.nextQuestion.trimmingCharacters(in: .whitespacesAndNewlines)
+        if !bridge.isEmpty {
+            blocks.append("\(String(localized: "끊어둔 문장")): \(bridge)")
+        }
+        return blocks.joined(separator: "\n\n")
+    }
+
     // MARK: - JSON
 
     static func jsonData(threads: [ThoughtThread], dumpItems: [DumpItem]) throws -> Data {

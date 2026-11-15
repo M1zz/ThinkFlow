@@ -7,6 +7,8 @@ struct BrainDumpSheet: View {
     @Environment(\.dismiss) private var dismiss
 
     @State private var rawText = ""
+    /// 함께 올릴 사진 — 시작하는 생각의 첫 글에 붙는다.
+    @State private var photos: [String] = []
     @State private var phase: Phase = .dump
     @State private var parsedItems: [String] = []
     @State private var selectedIndex: Int? = nil
@@ -37,7 +39,7 @@ struct BrainDumpSheet: View {
                 case .sort: sortPhase
                 }
             }
-            .background(Color(.systemGroupedBackground))
+            .background(Color(.systemBackground))
             .navigationTitle(phase == .dump ? String(localized: "생각 꺼내기") : String(localized: "어떤 것부터?"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -77,41 +79,37 @@ struct BrainDumpSheet: View {
 
     private var dumpPhase: some View {
         ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("지금 머릿속에 있는 거 꺼내세요")
-                        .font(.title3)
-                        .fontWeight(.bold)
-                    Text("하나든 열 개든 괜찮아요. 줄바꿈으로 생각을 구분하세요.")
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
-                }
-                .padding(.horizontal, 4)
-
-                VStack(alignment: .leading, spacing: 8) {
-                    TextEditor(text: $rawText)
-                        .focused($isTextFocused)
-                        .frame(minHeight: 320)
-                        .scrollContentBackground(.hidden)
-                        .font(.body)
-                        .lineSpacing(6)
-                        .accessibilityLabel("생각 꺼내기 입력란")
-                        .accessibilityHint("줄바꿈으로 생각을 여러 개로 구분합니다")
-
-                    if !parsedLines.isEmpty {
-                        HStack {
-                            Spacer()
-                            Text("\(parsedLines.count)개의 생각")
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
+            VStack(alignment: .leading, spacing: 12) {
+                PostRow {
+                    PostAvatar(kind: .thought("💭"))
+                } content: {
+                    VStack(alignment: .leading, spacing: 2) {
+                        PostAuthor()
+                        PostEditor(text: $rawText,
+                                   placeholder: String(localized: "지금 머릿속에 있는 거 꺼내세요"),
+                                   minHeight: 280,
+                                   focus: $isTextFocused)
+                            .accessibilityLabel("생각 꺼내기 입력란")
+                            .accessibilityHint("줄바꿈으로 생각을 여러 개로 구분합니다")
+                        if !photos.isEmpty {
+                            PostPhotos(names: photos, height: 110) { name in photos.removeAll { $0 == name } }
                         }
+                        PhotoPickerButton(photos: $photos)
                     }
                 }
-                .padding(16)
-                .background(.background)
-                .clipShape(RoundedRectangle(cornerRadius: 14))
+
+                HStack(alignment: .firstTextBaseline) {
+                    Text("하나든 열 개든 괜찮아요. 줄바꿈으로 생각을 구분하세요.")
+                    Spacer(minLength: 8)
+                    if !parsedLines.isEmpty {
+                        Text("\(parsedLines.count)개의 생각")
+                    }
+                }
+                .font(.caption)
+                .foregroundStyle(.secondary)
             }
-            .padding(20)
+            .padding(.horizontal, PostMetrics.side)
+            .padding(.vertical, 16)
         }
     }
 
@@ -142,12 +140,8 @@ struct BrainDumpSheet: View {
                             startWithSelected(idx)
                         } label: {
                             Text("이걸로 시작하기")
-                                .fontWeight(.semibold)
                                 .frame(maxWidth: .infinity)
-                                .padding(.vertical, 14)
-                                .background(Color.orange.gradient)
-                                .foregroundStyle(.white)
-                                .clipShape(RoundedRectangle(cornerRadius: 12))
+                                .postButtonStyle()
                         }
                     }
 
@@ -163,7 +157,8 @@ struct BrainDumpSheet: View {
                 }
                 .padding(.top, 4)
             }
-            .padding(20)
+            .padding(.horizontal, PostMetrics.side)
+            .padding(.vertical, 16)
         }
     }
 
@@ -184,16 +179,16 @@ struct BrainDumpSheet: View {
                     .multilineTextAlignment(.leading)
                 Spacer()
                 Image(systemName: isSelected ? "checkmark.circle.fill" : "circle")
-                    .foregroundStyle(isSelected ? Color.orange : Color.secondary.opacity(0.4))
+                    .foregroundStyle(isSelected ? Color.primary : Color.secondary.opacity(0.4))
                     .font(.body)
                     .accessibilityHidden(true)
             }
             .padding(14)
-            .background(isSelected ? Color.orange.opacity(0.08) : Color(.systemBackground))
+            .background(Color(.secondarySystemBackground))
             .clipShape(RoundedRectangle(cornerRadius: 12))
             .overlay(
                 RoundedRectangle(cornerRadius: 12)
-                    .stroke(isSelected ? Color.orange.opacity(0.3) : Color.clear, lineWidth: 1.5)
+                    .strokeBorder(isSelected ? Color.primary : Color.clear, lineWidth: 1.5)
             )
         }
         .accessibilityAddTraits(isSelected ? .isSelected : [])
@@ -218,7 +213,7 @@ struct BrainDumpSheet: View {
         let title = ThoughtStore.extractTitle(from: selected)
         let thread = ThoughtThread(
             title: title.isEmpty ? selected : title,
-            entries: [ThoughtEntry(content: selected)]
+            entries: [ThoughtEntry(content: selected, photos: photos)]
         )
         store.addThread(thread)
         store.addDumpItems(others)
@@ -232,13 +227,13 @@ struct BrainDumpSheet: View {
         if pro.canStartThread(existing: store.threads.count) {
             startWithSelected(held.index, from: held.items)
         } else {
-            store.addDumpItems(held.items)
+            store.addDumpItems(held.items, photos: photos)
             dismiss()
         }
     }
 
     private func saveAllToDump() {
-        store.addDumpItems(parsedItems)
+        store.addDumpItems(parsedItems, photos: photos)
         // Siri 가 "생각 던져 두기" 를 이 사람이 자주 하는 일로 알게 한다.
         let intent = DumpThoughtIntent()
         intent.thought = parsedItems.joined(separator: "\n")

@@ -1,11 +1,16 @@
 import Foundation
 import SwiftUI
+import UIKit
 import WidgetKit
 
 @Observable
 final class ThoughtStore {
     /// 앱 화면과 Siri 인텐트가 같은 저장소를 쓴다 (→ ThoughtIntents.swift).
-    @MainActor static let shared = ThoughtStore()
+    @MainActor static let shared: ThoughtStore = {
+        let store = ThoughtStore()
+        store.sweepPhotos()
+        return store
+    }()
 
     var threads: [ThoughtThread] = []
     var dumpItems: [DumpItem] = []
@@ -27,6 +32,8 @@ final class ThoughtStore {
     private let defaults: UserDefaults
     private let sharedDefaults: UserDefaults?
     private let sessionActivity = SessionActivityController()
+    /// 저장된 글을 온전히 읽었는가 — 못 읽었으면 사진을 치우지 않는다.
+    private var loadedCleanly = true
 
     init(
         defaults: UserDefaults = .standard,
@@ -85,16 +92,17 @@ final class ThoughtStore {
     
     // MARK: - 생각 이어가기 (핵심 기능)
     
-    func addEntry(to threadID: UUID, content: String, layer: Int = 0) {
+    /// `parentID` 를 주면 그 글에 단 답글이 된다. 없으면 스레드의 큰 줄기에 이어진다.
+    func addEntry(to threadID: UUID, content: String, layer: Int = 0, parentID: UUID? = nil, photos: [String] = []) {
         guard let index = threads.firstIndex(where: { $0.id == threadID }) else { return }
-        let entry = ThoughtEntry(content: content, layer: layer)
+        let entry = ThoughtEntry(content: content, layer: layer, parentID: parentID, photos: photos)
         threads[index].entries.append(entry)
         threads[index].lastVisitedAt = Date()
         save()
     }
     
     /// 조사 결과·자료를 스레드에 붙인다 (예: Claude에게 물어본 결과 정리).
-    func addReference(to threadID: UUID, content: String, source: String? = nil) {
+    func addReference(to threadID: UUID, content: String, source: String? = nil, parentID: UUID? = nil) {
         let trimmedContent = content.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmedContent.isEmpty,
               let index = threads.firstIndex(where: { $0.id == threadID }) else { return }
@@ -102,7 +110,8 @@ final class ThoughtStore {
         let entry = ThoughtEntry(
             content: trimmedContent,
             kind: .reference,
-            source: (trimmedSource?.isEmpty ?? true) ? nil : trimmedSource
+            source: (trimmedSource?.isEmpty ?? true) ? nil : trimmedSource,
+            parentID: parentID
         )
         threads[index].entries.append(entry)
         threads[index].lastVisitedAt = Date()
@@ -126,17 +135,26 @@ final class ThoughtStore {
         save()
     }
 
-    func updateEntryContent(threadID: UUID, entryID: UUID, content: String) {
+    /// `photos` 를 주면 붙은 사진도 함께 바꾼다. 글도 사진도 없는 글로는 바꾸지 않는다.
+    func updateEntryContent(threadID: UUID, entryID: UUID, content: String, photos: [String]? = nil) {
         let trimmed = content.trimmingCharacters(in: .whitespacesAndNewlines)
-        guard !trimmed.isEmpty,
-              let threadIndex = threads.firstIndex(where: { $0.id == threadID }),
+        guard let threadIndex = threads.firstIndex(where: { $0.id == threadID }),
               let entryIndex = threads[threadIndex].entries.firstIndex(where: { $0.id == entryID }) else { return }
+        let newPhotos = photos ?? threads[threadIndex].entries[entryIndex].photos
+        guard !trimmed.isEmpty || !newPhotos.isEmpty else { return }
         threads[threadIndex].entries[entryIndex].content = trimmed
+        threads[threadIndex].entries[entryIndex].photos = newPhotos
         save()
     }
 
     func deleteEntry(threadID: UUID, entryID: UUID) {
-        guard let threadIndex = threads.firstIndex(where: { $0.id == threadID }) else { return }
+        guard let threadIndex = threads.firstIndex(where: { $0.id == threadID }),
+              let removed = threads[threadIndex].entries.first(where: { $0.id == entryID }) else { return }
+        // 지운 글에 달린 답글은 버리지 않고 한 칸 위(지운 글이 답하던 글)로 올려 붙인다.
+        for index in threads[threadIndex].entries.indices
+        where threads[threadIndex].entries[index].parentID == entryID {
+            threads[threadIndex].entries[index].parentID = removed.parentID
+        }
         threads[threadIndex].entries.removeAll { $0.id == entryID }
         save()
     }
@@ -204,11 +222,13 @@ final class ThoughtStore {
     
     // MARK: - 덤프 CRUD
 
-    func addDumpItems(_ contents: [String]) {
-        let items = contents
+    /// `photos` 는 첫 생각에 붙는다.
+    func addDumpItems(_ contents: [String], photos: [String] = []) {
+        var items = contents
             .map { $0.trimmingCharacters(in: .whitespacesAndNewlines) }
             .filter { !$0.isEmpty }
             .map { DumpItem(content: $0) }
+        if !items.isEmpty { items[0].photos = photos }
         dumpItems.append(contentsOf: items)
         saveDumpItems()
     }
@@ -224,7 +244,7 @@ final class ThoughtStore {
         let title = Self.extractTitle(from: item.content)
         let thread = ThoughtThread(
             title: title.isEmpty ? item.content : title,
-            entries: [ThoughtEntry(content: item.content)]
+            entries: [ThoughtEntry(content: item.content, photos: item.photos)]
         )
         addThread(thread)
         dumpItems.removeAll { $0.id == id }
@@ -261,6 +281,7 @@ final class ThoughtStore {
         } else {
             // 깨진 데이터를 보존해 두면 빈 상태로 시작해도 복구 여지가 남는다
             defaults.set(data, forKey: recoveryKey)
+            loadedCleanly = false
         }
     }
 
@@ -276,6 +297,76 @@ final class ThoughtStore {
             dumpItems = decoded
         } else {
             defaults.set(data, forKey: dumpRecoveryKey)
+            loadedCleanly = false
+        }
+    }
+
+    // MARK: - 사진 정리
+
+    /// 어느 글에도 붙어 있지 않은 사진 파일을 지운다 — 지운 글의 사진, 올리지 않고 닫은 글의 사진.
+    /// 글을 지울 때마다 따라 지우지 않고 앱을 열 때 한 번에 치운다.
+    func sweepPhotos() {
+        guard loadedCleanly else { return }
+        let used = threads.flatMap { $0.entries.flatMap(\.photos) } + dumpItems.flatMap(\.photos)
+        PhotoStore.sweep(keeping: Set(used))
+    }
+}
+
+// MARK: - 사진 보관
+
+/// 글에 붙인 사진은 위젯과 함께 쓰는 공유 폴더에 파일로 둔다 (백업 금고가 이 폴더를 통째로 담는다).
+/// 글에는 파일 이름만 적는다.
+enum PhotoStore {
+
+    /// 긴 변 한도 — 화면에서 크게 보기에 넉넉하고 저장 공간은 아낀다.
+    private static let maxSide: CGFloat = 2000
+
+    static let directory: URL = {
+        let fm = FileManager.default
+        let base = fm.containerURL(forSecurityApplicationGroupIdentifier: ThoughtStore.appGroupID)
+            ?? fm.urls(for: .applicationSupportDirectory, in: .userDomainMask)[0]
+        let url = base.appendingPathComponent("Photos", isDirectory: true)
+        try? fm.createDirectory(at: url, withIntermediateDirectories: true)
+        return url
+    }()
+
+    private static let cache = NSCache<NSString, UIImage>()
+
+    static func url(for name: String) -> URL {
+        directory.appendingPathComponent(name)
+    }
+
+    /// 고른 사진을 줄여서 저장하고 파일 이름을 돌려준다.
+    static func save(_ data: Data) -> String? {
+        guard let image = UIImage(data: data) else { return nil }
+        let scale = min(1, maxSide / max(image.size.width, image.size.height))
+        let size = CGSize(width: image.size.width * scale, height: image.size.height * scale)
+        let format = UIGraphicsImageRendererFormat()
+        format.scale = 1
+        let resized = UIGraphicsImageRenderer(size: size, format: format).image { _ in
+            image.draw(in: CGRect(origin: .zero, size: size))
+        }
+        guard let jpeg = resized.jpegData(compressionQuality: 0.82) else { return nil }
+        let name = UUID().uuidString + ".jpg"
+        do {
+            try jpeg.write(to: url(for: name), options: .atomic)
+            return name
+        } catch {
+            return nil
+        }
+    }
+
+    static func image(named name: String) -> UIImage? {
+        if let cached = cache.object(forKey: name as NSString) { return cached }
+        guard let image = UIImage(contentsOfFile: url(for: name).path) else { return nil }
+        cache.setObject(image, forKey: name as NSString)
+        return image
+    }
+
+    static func sweep(keeping used: Set<String>) {
+        let fm = FileManager.default
+        for name in (try? fm.contentsOfDirectory(atPath: directory.path)) ?? [] where !used.contains(name) {
+            try? fm.removeItem(at: url(for: name))
         }
     }
 }

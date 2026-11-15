@@ -84,7 +84,11 @@ struct HomeView: View {
     private var home: some View {
         NavigationStack(path: $path) {
             ScrollView {
-                VStack(spacing: 24) {
+                VStack(spacing: 0) {
+
+                    // MARK: - 글쓰기 줄 (맨 위에서 바로 생각을 꺼낸다)
+                    composerRow
+                    Divider()
 
                     // MARK: - 첫 실행 / 빈 상태
                     if store.threads.isEmpty && store.dumpItems.isEmpty {
@@ -96,43 +100,24 @@ struct HomeView: View {
                         dumpQueueSection
                     }
 
-                    // MARK: - 이어서 생각하기 (가장 중요한 영역)
-                    if let recent = store.mostRecentThread {
-                        resumeSection(thread: recent)
+                    // MARK: - 피드: 한 줄 타임라인. 가장 최근에 글을 쓴 스레드가 맨 위
+                    // (열어 보기만 해서는 올라오지 않는다)
+                    let feed = store.threads.sorted { $0.lastWrittenAt > $1.lastWrittenAt }
+                    ForEach(feed) { thread in
+                        post(thread)
+
+                        // 응원 부탁 (생각을 꽤 쌓아 온 Pro 에게만, 드물게) — 첫 글 아래
+                        if thread.id == feed.first?.id, pro.hasPro {
+                            LeeoTipAskSlot<ThinkFlowSpec>(tipJar: ThinkFlowTip.tipJar,
+                                                          reached: ThinkFlowTipMoments.reachedNow(in: store.threads))
+                                .padding(.horizontal, PostMetrics.side)
+                        }
                     }
 
-                    // MARK: - 응원 부탁 (생각을 꽤 쌓아 온 Pro 에게만, 드물게)
-                    if pro.hasPro {
-                        LeeoTipAskSlot<ThinkFlowSpec>(tipJar: ThinkFlowTip.tipJar,
-                                                      reached: ThinkFlowTipMoments.reachedNow(in: store.threads))
-                    }
-                    
-                    // MARK: - 활발한 생각들 (히어로 카드에 이미 표시된 것 제외)
-                    let heroID = store.mostRecentThread?.id
-                    let remainingActive = store.activeThreads.filter { $0.id != heroID }
-                    if !remainingActive.isEmpty {
-                        threadSection(
-                            title: "진행 중인 생각",
-                            subtitle: "최근 3일 내 방문",
-                            threads: remainingActive
-                        )
-                    }
-                    
-                    // MARK: - 잠자는 생각들
-                    if !store.dormantThreads.isEmpty {
-                        threadSection(
-                            title: "되살릴 생각",
-                            subtitle: "3일 이상 방치됨",
-                            threads: store.dormantThreads
-                        )
-                    }
-                    
-                    Spacer(minLength: 80)
+                    Spacer(minLength: 40)
                 }
-                .padding(.horizontal, 20)
-                .padding(.top, 8)
             }
-            .background(Color(.systemGroupedBackground))
+            .background(Color(.systemBackground))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .topBarTrailing) {
@@ -150,9 +135,6 @@ struct HomeView: View {
                     .accessibilityLabel("설정")
                     .accessibilityHint("지원 및 앱 정보를 엽니다")
                 }
-            }
-            .overlay(alignment: .bottomTrailing) {
-                addThoughtButton
             }
             .sheet(isPresented: $showBrainDump) {
                 BrainDumpSheet()
@@ -308,22 +290,30 @@ struct HomeView: View {
         exportFile = ExportFile(url: url)
     }
     
-    // MARK: - 생각 꺼내기 플로팅 버튼 (우측 하단)
+    // MARK: - 글쓰기 줄 (피드 맨 위)
 
-    private var addThoughtButton: some View {
+    private var composerRow: some View {
         Button {
             showBrainDump = true
         } label: {
-            Image(systemName: "plus")
-                .font(.title2.weight(.bold))
-                .foregroundStyle(.white)
-                .frame(width: 58, height: 58)
-                .background(.orange.gradient, in: Circle())
-                .shadow(color: .black.opacity(0.25), radius: 10, y: 4)
+            PostRow {
+                PostAvatar(kind: .thought("💭"))
+            } content: {
+                VStack(alignment: .leading, spacing: 2) {
+                    PostAuthor()
+                    Text("무슨 생각이에요?")
+                        .font(.body)
+                        .foregroundStyle(.secondary)
+                }
+            }
+            .padding(.horizontal, PostMetrics.side)
+            .padding(.vertical, 14)
+            .contentShape(Rectangle())
         }
-        .padding(.trailing, 20)
-        .padding(.bottom, 20)
+        .buttonStyle(.plain)
+        .accessibilityElement(children: .ignore)
         .accessibilityLabel("생각 꺼내기")
+        .accessibilityAddTraits(.isButton)
         .keyboardShortcut("n")
         .accessibilityHint("머릿속 생각을 적어 새 스레드를 만듭니다")
     }
@@ -334,7 +324,7 @@ struct HomeView: View {
         VStack(spacing: 16) {
             Image(systemName: "brain.head.profile")
                 .font(.system(size: 52))
-                .foregroundStyle(.orange.gradient)
+                .foregroundStyle(.secondary)
                 .symbolRenderingMode(.hierarchical)
                 .accessibilityHidden(true)
 
@@ -356,37 +346,24 @@ struct HomeView: View {
                 HStack {
                     Image(systemName: "plus")
                     Text("첫 생각 꺼내기")
-                        .fontWeight(.semibold)
                 }
-                .padding(.horizontal, 20)
-                .padding(.vertical, 14)
-                .background(.orange.gradient)
-                .foregroundStyle(.white)
-                .clipShape(Capsule())
+                .postButtonStyle()
             }
             .padding(.top, 4)
         }
         .frame(maxWidth: .infinity)
+        .padding(.horizontal, PostMetrics.side)
         .padding(.vertical, 60)
     }
 
-    // MARK: - 덤프 대기 목록
+    // MARK: - 덤프 대기 목록 (아직 올리지 않은 글)
 
     private var dumpQueueSection: some View {
-        VStack(alignment: .leading, spacing: 12) {
-            VStack(alignment: .leading, spacing: 2) {
-                Text("아직 정리 안 된 생각들")
-                    .font(.title3)
-                    .fontWeight(.bold)
-                Text("탭하면 생각 스레드가 됩니다")
-                    .font(.footnote)
-                    .foregroundStyle(.secondary)
-            }
-            .accessibilityElement(children: .combine)
-            .accessibilityAddTraits(.isHeader)
-
+        VStack(spacing: 0) {
+            sectionHeader(title: "아직 정리 안 된 생각들", subtitle: "탭하면 생각 스레드가 됩니다")
             ForEach(store.dumpItems) { item in
                 dumpItemRow(item)
+                Divider()
             }
         }
     }
@@ -401,23 +378,32 @@ struct HomeView: View {
                 paywallReason = .threadLimit
             }
         } label: {
-            HStack(alignment: .top, spacing: 10) {
-                Text(item.content)
-                    .font(.body)
-                    .foregroundStyle(.primary)
-                    .lineLimit(2)
-                    .multilineTextAlignment(.leading)
-                Spacer()
-                Image(systemName: "arrow.up.right.circle")
-                    .foregroundStyle(.tertiary)
-                    .font(.title3)
-                    .accessibilityHidden(true)
+            PostRow(avatarSize: PostMetrics.smallAvatar) {
+                PostAvatar(kind: .thought("💭"), size: PostMetrics.smallAvatar)
+                    .opacity(0.55)
+            } content: {
+                HStack(alignment: .top, spacing: 10) {
+                    Text(item.content)
+                        .font(.body)
+                        .foregroundStyle(.primary)
+                        .lineLimit(2)
+                        .multilineTextAlignment(.leading)
+                    Spacer(minLength: 0)
+                    if !item.photos.isEmpty {
+                        Image(systemName: "photo")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                            .accessibilityLabel("사진")
+                    }
+                    Image(systemName: "arrow.up.right")
+                        .font(.subheadline)
+                        .foregroundStyle(.tertiary)
+                        .accessibilityHidden(true)
+                }
             }
-            .padding(16)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .background(.background)
-            .clipShape(RoundedRectangle(cornerRadius: 12))
-            .contentShape(RoundedRectangle(cornerRadius: 12))
+            .padding(.horizontal, PostMetrics.side)
+            .padding(.vertical, 12)
+            .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
         .accessibilityHint("두 번 탭하면 생각 스레드로 만듭니다")
@@ -433,51 +419,37 @@ struct HomeView: View {
         }
     }
 
-    // MARK: - 이어서 생각하기 카드 (Hero Section)
+    // MARK: - 피드의 글 하나
+
     @ViewBuilder
-    private func resumeSection(thread: ThoughtThread) -> some View {
+    private func post(_ thread: ThoughtThread) -> some View {
         Button { open(thread) } label: {
-            ThreadCardView(
-                thread: thread,
-                isResume: true,
-                onContinue: { continueThread = thread }
-            )
+            ThreadCardView(thread: thread, onContinue: { continueThread = thread })
         }
         .buttonStyle(.plain)
         .foldShown(split && thread.id == shownThread?.id)
-        // 카드 안의 '이어서 생각하기' 단추가 카드 링크에 묻혀도 동작으로 닿게
+        // 글 안의 답글 단추 · 끊어둔 문장이 글 링크에 묻혀도 동작으로 닿게
         .accessibilityAction(named: Text("이어서 생각하기")) { continueThread = thread }
+        Divider()
     }
-    
-    // MARK: - 스레드 섹션
-    @ViewBuilder
-    private func threadSection(title: LocalizedStringKey, subtitle: LocalizedStringKey, threads: [ThoughtThread]) -> some View {
-        VStack(alignment: .leading, spacing: 12) {
-            VStack(alignment: .leading, spacing: 2) {
-                Text(title)
-                    .font(.title3)
-                    .fontWeight(.bold)
-                Text(subtitle)
-                    .font(.footnote)
-                    .foregroundStyle(.secondary)
-            }
-            .accessibilityElement(children: .combine)
-            .accessibilityAddTraits(.isHeader)
 
-            ForEach(threads) { thread in
-                Button { open(thread) } label: {
-                    ThreadCardView(
-                        thread: thread,
-                        onContinue: {
-                            continueThread = thread
-                        }
-                    )
-                }
-                .buttonStyle(.plain)
-                .foldShown(split && thread.id == shownThread?.id)
-                .accessibilityAction(named: Text("이어서 생각하기")) { continueThread = thread }
-            }
+    // MARK: - 피드 구획 제목
+
+    private func sectionHeader(title: LocalizedStringKey, subtitle: LocalizedStringKey) -> some View {
+        HStack(alignment: .firstTextBaseline, spacing: 6) {
+            Text(title)
+                .font(.footnote.weight(.semibold))
+                .foregroundStyle(.primary)
+            Text(subtitle)
+                .font(.footnote)
+                .foregroundStyle(.secondary)
+            Spacer(minLength: 0)
         }
+        .padding(.horizontal, PostMetrics.side)
+        .padding(.top, 20)
+        .padding(.bottom, 8)
+        .accessibilityElement(children: .combine)
+        .accessibilityAddTraits(.isHeader)
     }
 }
 
@@ -496,7 +468,7 @@ private struct FoldThreadPane: View {
                 VStack(spacing: 12) {
                     Image(systemName: "brain.head.profile")
                         .font(.system(size: 52))
-                        .foregroundStyle(.orange.gradient)
+                        .foregroundStyle(.secondary)
                         .symbolRenderingMode(.hierarchical)
                         .accessibilityHidden(true)
                     Text("생각을 이어 나가 보세요")
@@ -504,23 +476,17 @@ private struct FoldThreadPane: View {
                         .fontWeight(.bold)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color(.systemGroupedBackground))
+                .background(Color(.systemBackground))
             }
         }
     }
 }
 
 private extension View {
-    /// 펼친 화면에서 결과 쪽에 열린 카드에 테두리를 세운다.
+    /// 펼친 화면에서 결과 쪽에 열린 글의 바탕을 살짝 눌러 둔다.
     func foldShown(_ isShown: Bool) -> some View {
-        overlay {
-            if isShown {
-                RoundedRectangle(cornerRadius: 16)
-                    .strokeBorder(.orange, lineWidth: 2)
-                    .accessibilityHidden(true)
-            }
-        }
-        .accessibilityAddTraits(isShown ? .isSelected : [])
+        background(isShown ? Color.primary.opacity(0.06) : Color.clear)
+            .accessibilityAddTraits(isShown ? .isSelected : [])
     }
 }
 

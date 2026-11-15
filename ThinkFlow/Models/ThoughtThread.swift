@@ -14,6 +14,10 @@ struct ThoughtEntry: Identifiable, Codable {
     let createdAt: Date
     var kind: EntryKind      // 생각인지 붙여둔 자료인지
     var source: String?      // 자료 출처 라벨 (예: "Claude", "검색"). 생각이면 nil
+    /// 이 글이 답한 글. nil 이면 스레드의 큰 줄기에 바로 이어진 글이다.
+    var parentID: UUID?
+    /// 글에 붙인 사진의 파일 이름 (→ PhotoStore). 사진만 있는 글이면 content 가 비어 있다.
+    var photos: [String]
 
     init(
         id: UUID = UUID(),
@@ -21,7 +25,9 @@ struct ThoughtEntry: Identifiable, Codable {
         layer: Int = 0,
         createdAt: Date = Date(),
         kind: EntryKind = .thought,
-        source: String? = nil
+        source: String? = nil,
+        parentID: UUID? = nil,
+        photos: [String] = []
     ) {
         self.id = id
         self.content = content
@@ -29,11 +35,13 @@ struct ThoughtEntry: Identifiable, Codable {
         self.createdAt = createdAt
         self.kind = kind
         self.source = source
+        self.parentID = parentID
+        self.photos = photos
     }
 
-    // 구버전 데이터(kind/source 없음)도 읽을 수 있도록 직접 디코딩한다.
+    // 구버전 데이터(kind/source/parentID/photos 없음)도 읽을 수 있도록 직접 디코딩한다.
     enum CodingKeys: String, CodingKey {
-        case id, content, layer, createdAt, kind, source
+        case id, content, layer, createdAt, kind, source, parentID, photos
     }
 
     init(from decoder: Decoder) throws {
@@ -44,6 +52,8 @@ struct ThoughtEntry: Identifiable, Codable {
         createdAt = try c.decode(Date.self, forKey: .createdAt)
         kind = try c.decodeIfPresent(EntryKind.self, forKey: .kind) ?? .thought
         source = try c.decodeIfPresent(String.self, forKey: .source)
+        parentID = try c.decodeIfPresent(UUID.self, forKey: .parentID)
+        photos = try c.decodeIfPresent([String].self, forKey: .photos) ?? []
     }
 
     var isReference: Bool { kind == .reference }
@@ -203,6 +213,12 @@ struct ThoughtThread: Identifiable, Codable {
         distilledEntries.last
     }
 
+    /// 마지막으로 글을 쓴 때 — 생각·자료를 올렸거나 문장을 끊어 둔 때.
+    /// 열어 보기만 한 것은 치지 않는다 (피드는 이 순서로 선다).
+    var lastWrittenAt: Date {
+        max(entries.map(\.createdAt).max() ?? createdAt, bridge.updatedAt, createdAt)
+    }
+
     // 재진입 시 맥락 복원에 쓸 요약 — 며칠 전에 끊었는지
     var daysSinceBridge: Int {
         Calendar.current.dateComponents([.day], from: bridge.updatedAt, to: Date()).day ?? 0
@@ -214,11 +230,23 @@ struct DumpItem: Identifiable, Codable {
     let id: UUID
     var content: String
     let createdAt: Date
+    /// 함께 꺼내 둔 사진 (→ PhotoStore). 스레드가 될 때 첫 글로 따라간다.
+    var photos: [String]
 
-    init(id: UUID = UUID(), content: String, createdAt: Date = Date()) {
+    init(id: UUID = UUID(), content: String, createdAt: Date = Date(), photos: [String] = []) {
         self.id = id
         self.content = content
         self.createdAt = createdAt
+        self.photos = photos
+    }
+
+    // 사진이 생기기 전에 저장된 데이터도 읽는다.
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        id = try c.decode(UUID.self, forKey: .id)
+        content = try c.decode(String.self, forKey: .content)
+        createdAt = try c.decode(Date.self, forKey: .createdAt)
+        photos = try c.decodeIfPresent([String].self, forKey: .photos) ?? []
     }
 }
 

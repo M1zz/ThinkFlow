@@ -7,9 +7,12 @@ struct ContinueThinkingSheet: View {
     @Environment(\.dismiss) private var dismiss
 
     let thread: ThoughtThread
+    /// 답글을 달 글. nil 이면 스레드의 큰 줄기에 이어 쓴다.
+    var replyTo: ThoughtEntry?
 
     @State private var draft = ""
-    @State private var newThoughts: [String] = []
+    @State private var draftPhotos: [String] = []
+    @State private var newThoughts: [PendingThought] = []
     @State private var phase: Phase = .thinking
     @State private var nextStartingPoint = ""
     @State private var sessionStart = Date()
@@ -25,6 +28,12 @@ struct ContinueThinkingSheet: View {
     @State private var showRefInput = false
     @FocusState private var isRefFocused: Bool
 
+    /// 이번에 적었지만 아직 스레드에 올리지 않은 글.
+    struct PendingThought {
+        var text: String
+        var photos: [String]
+    }
+
     struct PendingReference: Identifiable {
         let id = UUID()
         var source: String
@@ -33,8 +42,22 @@ struct ContinueThinkingSheet: View {
 
     enum Phase { case thinking, bridging }
 
+    /// 끊어둔 문장 — 열 때 입력 칸에 채워 둔다. 손대지 않은 채로는 쓴 것으로 치지 않는다.
+    private var prefill: String {
+        // 끊어둔 문장은 큰 줄기의 다음 글이다 — 특정 글에 답할 때는 채우지 않는다
+        replyTo == nil ? thread.bridge.nextQuestion.trimmingCharacters(in: .whitespacesAndNewlines) : ""
+    }
+    /// 쓰는 칸 위에 보여 줄 앞선 글 — 답글이면 답할 그 글, 아니면 핵심 + 직전 생각.
+    private var contextEntries: [ThoughtEntry] {
+        replyTo.map { [$0] } ?? thread.recapEntries
+    }
+    /// 이번에 생각을 하나라도 올렸는가 — 올렸으면 끊어둔 문장은 글이 되어 스레드에 들어갔다.
+    @State private var wroteThought = false
+
     private var draftIsEmpty: Bool {
-        draft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+        let text = draft.trimmingCharacters(in: .whitespacesAndNewlines)
+        // 사진을 붙였으면 글이 없어도 올릴 수 있다
+        return draftPhotos.isEmpty && (text.isEmpty || (newThoughts.isEmpty && text == prefill))
     }
     private var refDraftIsEmpty: Bool {
         refDraft.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
@@ -64,9 +87,10 @@ struct ContinueThinkingSheet: View {
                     case .bridging: bridgingPhase
                     }
                 }
-                .padding(20)
+                .padding(.horizontal, PostMetrics.side)
+                .padding(.vertical, 16)
             }
-            .background(Color(.systemGroupedBackground))
+            .background(Color(.systemBackground))
             .navigationTitle(phase == .thinking ? String(localized: "이어서 생각하기") : String(localized: "문장 끊어두기"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -92,7 +116,6 @@ struct ContinueThinkingSheet: View {
                             dismiss()
                         }
                         .fontWeight(.semibold)
-                        .disabled(!hasNextPoint)
                     }
                 }
             }
@@ -105,10 +128,11 @@ struct ContinueThinkingSheet: View {
         .onAppear {
             sessionStart = Date()
             store.startSession(threadID: thread.id)
+            if draft.isEmpty { draft = prefill }
             isThoughtFocused = true
             #if DEBUG
             switch ScreenshotScene.scene {
-            case "continue": draft = ScreenshotScene.seed?.draft ?? ""
+            case "continue": if let seeded = ScreenshotScene.seed?.draft { draft = seeded }
             case "bridge":
                 phase = .bridging
                 nextStartingPoint = ScreenshotScene.seed?.bridgeDraft ?? ""
@@ -122,58 +146,17 @@ struct ContinueThinkingSheet: View {
         }
     }
 
-    // MARK: - Phase 1: 생각 쓰기 (재진입 맥락 복원 우선)
+    // MARK: - Phase 1: 생각 쓰기 — 지금까지의 스레드 아래에 답글을 잇는다
 
     private var thinkingPhase: some View {
-        VStack(alignment: .leading, spacing: 14) {
+        VStack(alignment: .leading, spacing: 20) {
 
-            // 끊어둔 문장 — 가장 먼저, 가장 크게 (재진입 트리거)
-            if !thread.bridge.nextQuestion.isEmpty {
-                VStack(alignment: .leading, spacing: 8) {
-                    Label("여기서 끊어뒀어요", systemImage: "arrow.turn.down.right")
-                        .font(.subheadline)
-                        .fontWeight(.medium)
-                        .foregroundStyle(.orange)
-                    Text(thread.bridge.nextQuestion)
-                        .font(.title3)
-                        .fontWeight(.semibold)
-                        .foregroundStyle(.primary)
-                        .lineSpacing(4)
-                }
-                .padding(16)
-                .frame(maxWidth: .infinity, alignment: .leading)
-                .background(
-                    HStack(spacing: 0) {
-                        Color.orange.opacity(0.45)
-                            .frame(width: 3)
-                        Color.orange.opacity(0.07)
-                    }
-                )
-                .clipShape(RoundedRectangle(cornerRadius: 10))
-            }
+            // 맥락 → 끊어둔 문장 → 이번에 적은 생각 → 쓰는 칸이 한 줄로 이어진다
+            VStack(alignment: .leading, spacing: 0) {
 
-            // 지금까지의 맥락 — 정제된 핵심 + 직전 생각 흐름
-            if thread.lastEntry != nil {
-                ThreadRecapView(thread: thread)
-                    .padding(14)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(Color(.systemBackground).opacity(0.7))
-                    .clipShape(RoundedRectangle(cornerRadius: 10))
-            }
-
-            // 생각 쓰기 (여러 개로 쪼개서)
-            VStack(alignment: .leading, spacing: 10) {
-                HStack(alignment: .firstTextBaseline) {
-                    Text("지금 이어지는 생각")
-                        .font(.subheadline)
-                        .fontWeight(.medium)
-                        .foregroundStyle(.secondary)
-                    Spacer()
-                    if !newThoughts.isEmpty {
-                        Text("\(newThoughts.count)개 추가됨")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                    }
+                // 지금까지의 맥락 — 정제된 핵심 + 직전 생각
+                ForEach(contextEntries) { entry in
+                    contextRow(entry)
                 }
 
                 // 이번에 추가한 생각들
@@ -181,41 +164,68 @@ struct ContinueThinkingSheet: View {
                     addedThoughtRow(index: index, thought: thought)
                 }
 
-                // 입력란 + 추가 버튼
-                VStack(alignment: .leading, spacing: 8) {
-                    TextEditor(text: $draft)
-                        .focused($isThoughtFocused)
-                        .frame(minHeight: newThoughts.isEmpty ? 160 : 96)
-                        .scrollContentBackground(.hidden)
-                        .font(.body)
-                        .lineSpacing(4)
-                        .accessibilityLabel(newThoughts.isEmpty ? String(localized: "지금 이어지는 생각") : String(localized: "생각 더 추가"))
-
-                    HStack {
-                        Text("\(draft.count)자")
-                            .font(.caption)
-                            .foregroundStyle(.secondary)
-                        Spacer()
-                        Button {
-                            addDraft()
-                        } label: {
-                            Label("생각 추가", systemImage: "plus.circle.fill")
-                                .font(.subheadline)
-                                .fontWeight(.semibold)
+                // 쓰는 칸
+                PostRow(connectsDown: true) {
+                    PostAvatar(kind: .thought(thread.emoji))
+                } content: {
+                    VStack(alignment: .leading, spacing: 2) {
+                        HStack(alignment: .firstTextBaseline) {
+                            PostAuthor()
+                            Spacer()
+                            if !newThoughts.isEmpty {
+                                Text("\(newThoughts.count)개 추가됨")
+                                    .font(.caption)
+                                    .foregroundStyle(.secondary)
+                            }
                         }
-                        .disabled(draftIsEmpty)
-                        .accessibilityHint("입력한 생각을 한 덩어리로 추가하고 다음 생각을 적습니다")
+                        // 끊어둔 문장이 칸에 채워져 있다 — 그 문장에서 바로 이어 쓴다
+                        if !prefill.isEmpty && newThoughts.isEmpty {
+                            Text("여기서 끊어뒀어요")
+                                .font(.caption.weight(.semibold))
+                                .foregroundStyle(.orange)
+                                .padding(.top, 2)
+                        }
+                        PostEditor(text: $draft,
+                                   placeholder: String(localized: "지금 이어지는 생각"),
+                                   minHeight: newThoughts.isEmpty ? 140 : 90,
+                                   focus: $isThoughtFocused)
+                            .accessibilityLabel(newThoughts.isEmpty ? String(localized: "지금 이어지는 생각") : String(localized: "생각 더 추가"))
+                        if !draftPhotos.isEmpty {
+                            PostPhotos(names: draftPhotos, height: 110) { name in draftPhotos.removeAll { $0 == name } }
+                        }
+                        HStack {
+                            PhotoPickerButton(photos: $draftPhotos)
+                            Spacer()
+                            Text("\(draft.count)자")
+                                .font(.caption)
+                                .foregroundStyle(.secondary)
+                        }
                     }
                 }
-                .padding(16)
-                .background(.background)
-                .clipShape(RoundedRectangle(cornerRadius: 14))
 
-                Text("생각이 바뀔 때마다 따로 추가하면 나중에 정리하기 쉬워요.")
-                    .font(.caption)
-                    .foregroundStyle(.secondary)
-                    .padding(.horizontal, 2)
+                // 스레드에 하나 더 — 생각이 바뀔 때마다 끊어서 올린다
+                PostRow(avatarSize: PostMetrics.smallAvatar) {
+                    PostAvatar(kind: .thought(thread.emoji), size: PostMetrics.smallAvatar)
+                        .opacity(0.5)
+                } content: {
+                    Button {
+                        addDraft()
+                    } label: {
+                        Text("생각 추가")
+                            .font(.subheadline)
+                            .frame(minHeight: PostMetrics.smallAvatar)
+                            .contentShape(Rectangle())
+                    }
+                    .buttonStyle(.plain)
+                    .foregroundStyle(draftIsEmpty ? .tertiary : .primary)
+                    .disabled(draftIsEmpty)
+                    .accessibilityHint("입력한 생각을 한 덩어리로 추가하고 다음 생각을 적습니다")
+                }
             }
+
+            Text("생각이 바뀔 때마다 따로 추가하면 나중에 정리하기 쉬워요.")
+                .font(.caption)
+                .foregroundStyle(.secondary)
 
             referenceSection
 
@@ -223,10 +233,38 @@ struct ContinueThinkingSheet: View {
         }
     }
 
-    // MARK: - 조사 결과·자료 붙이기 (옵셔널)
+    /// 지금까지의 맥락 한 줄 — 흐리게, 스레드의 앞선 글로.
+    private func contextRow(_ entry: ThoughtEntry) -> some View {
+        let isLast = entry.id == thread.lastEntry?.id
+        return PostRow(connectsDown: true) {
+            PostAvatar(kind: entry.isReference ? .reference : .thought(thread.emoji))
+        } content: {
+            VStack(alignment: .leading, spacing: 4) {
+                HStack(spacing: 6) {
+                    PostAuthor(name: entry.isReference ? (entry.source ?? String(localized: "자료")) : String(localized: "나"),
+                               date: entry.createdAt)
+                    if entry.layer > 0 { LayerBadge(entry: entry) }
+                }
+                if !entry.content.isEmpty {
+                    Text(entry.content)
+                        .font(.subheadline)
+                        .foregroundStyle(entry.layer >= 2 ? .primary : .secondary)
+                        .lineSpacing(3)
+                        .lineLimit(4)
+                }
+                if !entry.photos.isEmpty {
+                    PostPhotos(names: entry.photos, height: 80)
+                }
+            }
+        }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel("\(isLast ? String(localized: "직전 생각") : entry.layerLabel): \(entry.content)")
+    }
+
+    // MARK: - 조사 결과·자료 붙이기 (옵셔널) — 내 스레드에 달리는 다른 글쓴이의 답글
 
     private var referenceSection: some View {
-        VStack(alignment: .leading, spacing: 10) {
+        VStack(alignment: .leading, spacing: 14) {
 
             // 이번에 붙인 자료들
             ForEach(Array(newReferences.enumerated()), id: \.element.id) { index, ref in
@@ -234,87 +272,67 @@ struct ContinueThinkingSheet: View {
             }
 
             if showRefInput {
-                VStack(alignment: .leading, spacing: 10) {
-                    Label("조사 결과·자료", systemImage: "paperclip")
-                        .font(.subheadline)
-                        .fontWeight(.medium)
-                        .foregroundStyle(.teal)
+                PostRow {
+                    PostAvatar(kind: .reference)
+                } content: {
+                    VStack(alignment: .leading, spacing: 4) {
+                        TextField("출처 (예: Claude, 검색) — 선택", text: $refSource)
+                            .font(.subheadline.weight(.semibold))
+                            .accessibilityLabel("자료 출처")
 
-                    TextField("출처 (예: Claude, 검색) — 선택", text: $refSource)
-                        .font(.subheadline)
-                        .padding(10)
-                        .background(Color(.systemBackground))
-                        .clipShape(RoundedRectangle(cornerRadius: 8))
-                        .accessibilityLabel("자료 출처")
+                        PostEditor(text: $refDraft,
+                                   placeholder: String(localized: "조사 결과·자료"),
+                                   minHeight: 110,
+                                   focus: $isRefFocused)
+                            .accessibilityLabel("자료 내용")
+                            .accessibilityHint("조사하거나 정리한 내용을 붙여넣습니다")
 
-                    TextEditor(text: $refDraft)
-                        .focused($isRefFocused)
-                        .frame(minHeight: 120)
-                        .scrollContentBackground(.hidden)
-                        .font(.body)
-                        .lineSpacing(4)
-                        .accessibilityLabel("자료 내용")
-                        .accessibilityHint("조사하거나 정리한 내용을 붙여넣습니다")
-
-                    HStack {
-                        Button("취소") {
-                            withAnimation(.easeInOut(duration: 0.2)) {
-                                showRefInput = false
-                                refDraft = ""
-                                refSource = ""
+                        HStack {
+                            Button("취소") {
+                                withAnimation(.easeInOut(duration: 0.2)) {
+                                    showRefInput = false
+                                    refDraft = ""
+                                    refSource = ""
+                                }
                             }
-                        }
-                        .font(.subheadline)
-                        .foregroundStyle(.secondary)
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
 
-                        Spacer()
+                            Spacer()
 
-                        Button {
-                            addReferenceDraft()
-                        } label: {
-                            Label("자료 추가", systemImage: "plus.circle.fill")
-                                .font(.subheadline)
-                                .fontWeight(.semibold)
+                            Button {
+                                addReferenceDraft()
+                            } label: {
+                                Text("자료 추가")
+                                    .font(.subheadline)
+                                    .fontWeight(.semibold)
+                            }
+                            .tint(.teal)
+                            .disabled(refDraftIsEmpty)
+                            .accessibilityHint("입력한 자료를 이 생각 흐름에 붙입니다")
                         }
-                        .tint(.teal)
-                        .disabled(refDraftIsEmpty)
-                        .accessibilityHint("입력한 자료를 이 생각 흐름에 붙입니다")
                     }
                 }
-                .padding(16)
-                .background(Color.teal.opacity(0.06))
-                .clipShape(RoundedRectangle(cornerRadius: 14))
-                .overlay(
-                    RoundedRectangle(cornerRadius: 14)
-                        .stroke(Color.teal.opacity(0.2), lineWidth: 1)
-                )
             } else {
                 Button {
                     withAnimation(.easeInOut(duration: 0.2)) { showRefInput = true }
                     isRefFocused = true
                 } label: {
-                    HStack(spacing: 8) {
-                        Image(systemName: "paperclip")
+                    PostRow {
+                        PostAvatar(kind: .reference)
+                    } content: {
                         VStack(alignment: .leading, spacing: 2) {
                             Text("조사 결과·자료 붙이기")
-                                .fontWeight(.medium)
+                                .font(.subheadline.weight(.medium))
+                                .foregroundStyle(.teal)
                             Text("예: 클로드에게 물어본 결과 정리")
                                 .font(.caption)
                                 .foregroundStyle(.secondary)
                         }
-                        Spacer()
                     }
-                    .font(.subheadline)
-                    .foregroundStyle(.teal)
-                    .padding(14)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .background(Color.teal.opacity(0.06))
-                    .clipShape(RoundedRectangle(cornerRadius: 12))
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 12)
-                            .strokeBorder(Color.teal.opacity(0.25), style: StrokeStyle(lineWidth: 1, dash: [4, 3]))
-                    )
+                    .contentShape(Rectangle())
                 }
+                .buttonStyle(.plain)
                 .accessibilityHint("생각과 별개로 조사하거나 정리한 자료를 붙여둘 수 있습니다")
             }
         }
@@ -323,92 +341,80 @@ struct ContinueThinkingSheet: View {
     // 이번 세션에 붙인 자료 한 줄 (삭제 가능)
     @ViewBuilder
     private func addedReferenceRow(index: Int, ref: PendingReference) -> some View {
-        HStack(alignment: .top, spacing: 10) {
-            Image(systemName: "paperclip")
-                .font(.caption.weight(.bold))
-                .foregroundStyle(.teal)
-                .frame(width: 20, height: 20)
-                .background(.teal.opacity(0.12), in: Circle())
-
-            VStack(alignment: .leading, spacing: 4) {
-                if !ref.source.trimmingCharacters(in: .whitespaces).isEmpty {
-                    Text("자료 · \(ref.source)")
-                        .font(.caption.weight(.semibold))
-                        .foregroundStyle(.teal)
+        let source = ref.source.trimmingCharacters(in: .whitespaces)
+        PostRow {
+            PostAvatar(kind: .reference)
+        } content: {
+            HStack(alignment: .top, spacing: 10) {
+                VStack(alignment: .leading, spacing: 4) {
+                    PostAuthor(name: source.isEmpty ? String(localized: "자료") : source)
+                    Text(ref.content)
+                        .font(.subheadline)
+                        .foregroundStyle(.secondary)
+                        .lineSpacing(3)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                 }
-                Text(ref.content)
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
-                    .lineSpacing(3)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-            }
 
-            Button {
-                removeReference(at: index)
-            } label: {
-                Image(systemName: "xmark.circle.fill")
-                    .foregroundStyle(.secondary.opacity(0.5))
+                Button {
+                    removeReference(at: index)
+                } label: {
+                    Image(systemName: "xmark")
+                        .font(.footnote.weight(.semibold))
+                        .foregroundStyle(.secondary)
+                        .frame(minWidth: 28, minHeight: 28)
+                        .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("\(index + 1)번째 자료 삭제")
             }
-            .accessibilityLabel("\(index + 1)번째 자료 삭제")
         }
-        .padding(12)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Color.teal.opacity(0.06))
-        .clipShape(RoundedRectangle(cornerRadius: 12))
         .accessibilityElement(children: .combine)
         .accessibilityLabel("붙인 자료 \(index + 1): \(ref.content)")
     }
 
     // 이번 세션에 추가한 생각 한 줄 (삭제 가능)
     @ViewBuilder
-    private func addedThoughtRow(index: Int, thought: String) -> some View {
-        HStack(alignment: .top, spacing: 10) {
-            Text("\(index + 1)")
-                .font(.caption.weight(.bold))
-                .foregroundStyle(.orange)
-                .frame(width: 20, height: 20)
-                .background(.orange.opacity(0.12), in: Circle())
-
-            Text(thought)
-                .font(.body)
-                .foregroundStyle(.primary)
-                .lineSpacing(3)
+    private func addedThoughtRow(index: Int, thought: PendingThought) -> some View {
+        PostRow(connectsDown: true) {
+            PostAvatar(kind: .thought(thread.emoji))
+        } content: {
+            HStack(alignment: .top, spacing: 10) {
+                VStack(alignment: .leading, spacing: 4) {
+                    PostAuthor()
+                    if !thought.text.isEmpty {
+                        Text(thought.text)
+                            .font(.body)
+                            .foregroundStyle(.primary)
+                            .lineSpacing(3)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                    }
+                    if !thought.photos.isEmpty {
+                        PostPhotos(names: thought.photos, height: 110)
+                    }
+                }
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-            Button {
-                removeThought(at: index)
-            } label: {
-                Image(systemName: "xmark.circle.fill")
-                    .foregroundStyle(.secondary.opacity(0.5))
+                Button {
+                    removeThought(at: index)
+                } label: {
+                    Image(systemName: "xmark")
+                        .font(.footnote.weight(.semibold))
+                        .foregroundStyle(.secondary)
+                        .frame(minWidth: 28, minHeight: 28)
+                        .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("\(index + 1)번째 생각 삭제")
             }
-            .accessibilityLabel("\(index + 1)번째 생각 삭제")
         }
-        .padding(12)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background(.background)
-        .clipShape(RoundedRectangle(cornerRadius: 12))
         .accessibilityElement(children: .combine)
-        .accessibilityLabel("추가한 생각 \(index + 1): \(thought)")
+        .accessibilityLabel("추가한 생각 \(index + 1): \(thought.text)")
     }
 
     // MARK: - Phase 2: 문장 끊어두기
 
     private var bridgingPhase: some View {
         VStack(alignment: .leading, spacing: 20) {
-
-            // 닫기 불가 안내
-            HStack(spacing: 8) {
-                Image(systemName: "lock.fill")
-                    .font(.subheadline)
-                    .foregroundStyle(.orange)
-                Text("문장을 끊어둬야 닫을 수 있어요")
-                    .font(.subheadline)
-                    .foregroundStyle(.secondary)
-            }
-            .padding(12)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .background(.orange.opacity(0.07))
-            .clipShape(RoundedRectangle(cornerRadius: 8))
 
             // 안내
             VStack(alignment: .leading, spacing: 8) {
@@ -494,10 +500,12 @@ struct ContinueThinkingSheet: View {
     // 입력 중인 글을 한 덩어리 생각으로 추가하고 다음 입력을 받는다.
     private func addDraft() {
         let trimmed = draft.trimmingCharacters(in: .whitespacesAndNewlines)
-        guard !trimmed.isEmpty else { return }
+        // 손대지 않은 끊어둔 문장은 올리지 않는다
+        guard !draftIsEmpty else { return }
         withAnimation(.easeInOut(duration: 0.2)) {
-            newThoughts.append(trimmed)
+            newThoughts.append(PendingThought(text: trimmed, photos: draftPhotos))
             draft = ""
+            draftPhotos = []
         }
         isThoughtFocused = true
         UIAccessibility.post(notification: .announcement, argument: String(localized: "생각 추가됨"))
@@ -534,17 +542,20 @@ struct ContinueThinkingSheet: View {
     // '다음'을 누르면 입력 중인 글·자료까지 모두 각각의 엔트리로 저장한다.
     private func saveEntries() {
         addDraft()
-        for content in newThoughts {
-            store.addEntry(to: thread.id, content: content)
+        // 큰 줄기에 생각을 올렸을 때만 끊어둔 문장이 글이 된 것으로 본다
+        wroteThought = replyTo == nil && !newThoughts.isEmpty
+        for thought in newThoughts {
+            store.addEntry(to: thread.id, content: thought.text, parentID: replyTo?.id, photos: thought.photos)
         }
         addReferenceDraft()
         for ref in newReferences {
-            store.addReference(to: thread.id, content: ref.content, source: ref.source)
+            store.addReference(to: thread.id, content: ref.content, source: ref.source, parentID: replyTo?.id)
         }
     }
 
     private func goToBridging() {
-        nextStartingPoint = thread.bridge.nextQuestion
+        // 생각을 올렸으면 끊어둔 문장은 이미 글이 됐다 — 다음 문장은 빈 칸에서. 자료만 붙였으면 그대로 둔다.
+        nextStartingPoint = wroteThought ? "" : thread.bridge.nextQuestion
         withAnimation(.easeInOut(duration: 0.25)) { phase = .bridging }
         UIAccessibility.post(
             notification: .screenChanged,

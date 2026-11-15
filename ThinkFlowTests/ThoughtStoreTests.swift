@@ -91,6 +91,77 @@ final class ThoughtStoreTests: XCTestCase {
 
     // MARK: - 자료 붙이기
 
+    // MARK: - 답글 (어느 글에 달았는가)
+
+    func testReplyKeepsItsParentAcrossSaveAndLoad() {
+        let store = makeStore()
+        let root = ThoughtEntry(content: "첫 생각")
+        let thread = ThoughtThread(title: "답글", entries: [root])
+        store.addThread(thread)
+        store.addEntry(to: thread.id, content: "첫 생각에 단 답글", parentID: root.id)
+        store.addEntry(to: thread.id, content: "큰 줄기에 이은 생각")
+
+        let entries = makeStore().threads.first?.entries ?? []
+        XCTAssertEqual(entries.first { $0.content == "첫 생각에 단 답글" }?.parentID, root.id)
+        XCTAssertNil(entries.first { $0.content == "큰 줄기에 이은 생각" }?.parentID)
+    }
+
+    func testDeletingEntryMovesItsRepliesUpOneLevel() {
+        let store = makeStore()
+        let root = ThoughtEntry(content: "첫 생각")
+        let reply = ThoughtEntry(content: "답글", parentID: root.id)
+        let nested = ThoughtEntry(content: "답글의 답글", parentID: reply.id)
+        let thread = ThoughtThread(title: "지우기", entries: [root, reply, nested])
+        store.addThread(thread)
+
+        store.deleteEntry(threadID: thread.id, entryID: reply.id)
+
+        let entries = store.threads.first?.entries ?? []
+        XCTAssertEqual(entries.count, 2)
+        XCTAssertEqual(entries.first { $0.id == nested.id }?.parentID, root.id)
+    }
+
+    func testPhotosStayOnTheEntryAcrossSaveAndLoad() {
+        let store = makeStore()
+        store.addThread(ThoughtThread(title: "사진"))
+        let threadID = store.threads[0].id
+        store.addEntry(to: threadID, content: "", photos: ["a.jpg", "b.jpg"])
+        let entryID = store.threads[0].entries[0].id
+
+        // 사진만 있는 글은 글을 비워도 남고, 사진까지 다 빼면 바뀌지 않는다
+        store.updateEntryContent(threadID: threadID, entryID: entryID, content: "", photos: ["a.jpg"])
+        store.updateEntryContent(threadID: threadID, entryID: entryID, content: " ", photos: [])
+
+        let reloaded = ThoughtStore(defaults: defaults, sharedDefaults: nil)
+        XCTAssertEqual(reloaded.threads[0].entries[0].photos, ["a.jpg"])
+    }
+
+    func testDumpPhotosFollowTheThoughtIntoItsThread() {
+        let store = makeStore()
+        store.addDumpItems(["첫 생각", "둘째 생각"], photos: ["a.jpg"])
+        XCTAssertEqual(store.dumpItems.map(\.photos), [["a.jpg"], []])
+        let thread = store.promoteDumpItemToThread(id: store.dumpItems[0].id)
+        XCTAssertEqual(thread?.entries.first?.photos, ["a.jpg"])
+    }
+
+    func testShareTextKeepsRepliesUnderTheirParent() {
+        let root = ThoughtEntry(content: "처음", createdAt: Date(timeIntervalSince1970: 1))
+        let later = ThoughtEntry(content: "다음", createdAt: Date(timeIntervalSince1970: 2))
+        let reply = ThoughtEntry(content: "답글", createdAt: Date(timeIntervalSince1970: 3), parentID: root.id)
+        let thread = ThoughtThread(title: "제목", emoji: "🧠",
+                                   bridge: HemingwayBridge(nextQuestion: ""),
+                                   entries: [later, reply, root])
+        XCTAssertEqual(ThoughtExporter.shareText(for: thread), "🧠 제목\n\n처음\n\n    ↳ 답글\n\n다음")
+    }
+
+    func testEntryWithoutParentFieldStillDecodes() throws {
+        // 답글이 생기기 전에 저장된 데이터
+        let json = #"{"id":"11111111-1111-1111-1111-111111111111","content":"옛 생각","layer":0,"createdAt":0}"#
+        let entry = try JSONDecoder().decode(ThoughtEntry.self, from: Data(json.utf8))
+        XCTAssertNil(entry.parentID)
+        XCTAssertEqual(entry.content, "옛 생각")
+    }
+
     func testAddReferenceTrimsAndStoresSource() {
         let store = makeStore()
         let thread = ThoughtThread(title: "자료")

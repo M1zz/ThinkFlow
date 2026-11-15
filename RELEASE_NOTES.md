@@ -7,171 +7,195 @@ App Store 의 "이 버전의 새로운 기능" 에 그대로 올라가는 글이
 
 ### 앱스토어 (한국어)
 
-이제 Apple Vision Pro에서도 쓸 수 있어요
-iPad에서는 목록과 생각을 나란히 펼쳐 봐요
-넓은 창에서 생각의 흐름을 한눈에 봐요
-iCloud 백업에서 기록을 되살릴 수 있어요
+나만 보는 SNS처럼 새로 단장했어요
+생각마다 답글을 달아 이어 가요
+글에 사진을 붙일 수 있어요
+생각 하나를 통째로 공유해요
+Apple Vision Pro에서도 쓸 수 있어요
 
 ### 앱스토어 (영어)
 
+A fresh look, like a feed only you see
+Reply to any thought to keep it going
+Add photos to your thoughts
+Share a whole thread at once
 Now available on Apple Vision Pro
-List and thread side by side on iPad
-Your train of thought in one wide window
-Restore your notes from an iCloud backup
 
 ### App Store (en-GB)
 
+A fresh look, like a feed only you see
+Reply to any thought to keep it going
+Add photos to your thoughts
+Share a whole thread at once
 Now available on Apple Vision Pro
-List and thread side by side on iPad
-Your train of thought in one wide window
-Restore your notes from an iCloud backup
 
 ### 앱스토어 (일본어)
 
-Apple Vision Proでも使えるようになりました
-iPadでは一覧と思考を横に並べて見られます
-広いウインドウで思考の流れを一望
-iCloudバックアップから記録を戻せます
+自分だけのSNSのように生まれ変わりました
+どの思考にも返信してつなげられます
+思考に写真を添えられます
+スレッドをまるごと共有できます
+Apple Vision Proでも使えます
 
 ### 앱스토어 (중국어(간체))
 
+全新外观，像只有自己能看的动态
+可以回复任何一条想法继续思考
+想法里可以添加照片
+整条思路可以一次分享
 现在也能在 Apple Vision Pro 上使用
-在 iPad 上可并排查看列表和思路
-在宽大的窗口中纵览思路
-可从 iCloud 备份恢复记录
 
 ### 앱스토어 (중국어(번체))
 
+全新外觀，就像只有自己看的動態
+可以回覆任何一則想法繼續思考
+想法裡可以加入照片
+整串思路可以一次分享
 現在也能在 Apple Vision Pro 上使用
-在 iPad 上可並排檢視列表和思路
-在寬大的視窗中縱覽思路
-可從 iCloud 備份還原記錄
 
 ### 앱스토어 (스페인어)
 
+Nuevo diseño, como una red solo para ti
+Responde a cualquier idea para seguirla
+Añade fotos a tus ideas
+Comparte un hilo entero de una vez
 Ya disponible en Apple Vision Pro
-En iPad, la lista y la idea lado a lado
-Tu hilo de ideas en una ventana amplia
-Recupera tus notas desde iCloud
 
 ### 앱스토어 (독일어)
 
+Neuer Look, wie ein Feed nur für dich
+Antworte auf jeden Gedanken
+Füge deinen Gedanken Fotos hinzu
+Teile einen ganzen Thread auf einmal
 Jetzt auch auf Apple Vision Pro
-Auf dem iPad Liste und Gedanke im Blick
-Dein Gedankengang im großen Fenster
-Notizen aus dem iCloud-Backup holen
 
 ### 앱스토어 (프랑스어)
 
-Désormais aussi sur Apple Vision Pro
-Sur iPad, la liste et l’idée côte à côte
-Le fil de vos idées en grande fenêtre
-Restaurez vos notes depuis iCloud
+Nouveau look, comme un fil rien qu’à soi
+Répondez à n’importe quelle pensée
+Ajoutez des photos à vos pensées
+Partagez un fil entier d’un coup
+Disponible sur Apple Vision Pro
 
 ### 앱스토어 (이탈리아어)
 
+Nuovo look, come un feed solo tuo
+Rispondi a qualsiasi pensiero
+Aggiungi foto ai tuoi pensieri
+Condividi un intero thread
 Ora anche su Apple Vision Pro
-Su iPad elenco e pensiero affiancati
-Il filo dei pensieri in finestra ampia
-Ripristina le note dal backup iCloud
 
 ### 앱스토어 (포르투갈어(브라질))
 
+Novo visual, como um feed só seu
+Responda a qualquer pensamento
+Adicione fotos aos seus pensamentos
+Compartilhe um fio inteiro de uma vez
 Agora também no Apple Vision Pro
-No iPad, a lista e a ideia lado a lado
-Seu fio de ideias em uma janela ampla
-Restaure suas notas do backup do iCloud
 
 ### 앱스토어 (러시아어)
 
+Новый вид, как лента только для вас
+Отвечайте на любую мысль
+Добавляйте фото к мыслям
+Делитесь всей цепочкой сразу
 Теперь и на Apple Vision Pro
-На iPad список и мысль видны рядом
-Ход мыслей целиком в широком окне
-Восстановите записи из копии iCloud
 
 ### 앱스토어 (태국어)
 
-ใช้งานได้แล้วบน Apple Vision Pro
-บน iPad ดูรายการและความคิดคู่กันได้
-เห็นสายความคิดทั้งหมดในหน้าต่างกว้าง
-กู้คืนบันทึกจากข้อมูลสำรอง iCloud ได้
+โฉมใหม่ เหมือนฟีดที่มีแค่คุณเห็น
+ตอบกลับความคิดไหนก็ได้เพื่อคิดต่อ
+แนบรูปภาพกับความคิดได้
+แชร์ทั้งเธรดได้ในครั้งเดียว
+ใช้บน Apple Vision Pro ได้แล้ว
 
 ### 앱스토어 (베트남어)
 
-Nay đã có trên Apple Vision Pro
-Trên iPad, danh sách và ý nghĩ cạnh nhau
-Mạch suy nghĩ gọn trong cửa sổ rộng
-Khôi phục ghi chú từ bản sao lưu iCloud
+Giao diện mới, như bảng tin riêng tư
+Trả lời bất kỳ suy nghĩ nào để nghĩ tiếp
+Thêm ảnh vào suy nghĩ
+Chia sẻ cả chuỗi suy nghĩ một lần
+Đã có trên Apple Vision Pro
 
 ### 앱스토어 (체코어)
 
-Nyní také na Apple Vision Pro
-Na iPadu seznam a myšlenka vedle sebe
-Tok myšlenek v jednom širokém okně
-Obnovte poznámky ze zálohy na iCloudu
+Nový vzhled jako síť jen pro vás
+Odpovězte na kteroukoli myšlenku
+Přidejte k myšlenkám fotky
+Sdílejte celé vlákno najednou
+Nově také na Apple Vision Pro
 
 ### 앱스토어 (덴마크어)
 
+Nyt udseende, som et feed kun for dig
+Svar på enhver tanke for at fortsætte
+Føj fotos til dine tanker
+Del en hel tråd på én gang
 Nu også på Apple Vision Pro
-Listen og tanken side om side på iPad
-Din tankerække i ét bredt vindue
-Gendan noter fra iCloud-sikkerhedskopien
 
 ### 앱스토어 (그리스어)
 
+Νέα εμφάνιση, σαν ροή μόνο για εσάς
+Απαντήστε σε όποια σκέψη θέλετε
+Προσθέστε φωτογραφίες στις σκέψεις
+Μοιραστείτε ολόκληρο το νήμα
 Τώρα και στο Apple Vision Pro
-Στο iPad, λίστα και σκέψη δίπλα δίπλα
-Ο ειρμός σας σε ένα μεγάλο παράθυρο
-Επαναφορά σημειώσεων από iCloud
 
 ### 앱스토어 (핀란드어)
 
+Uusi ilme, kuin vain sinun syötteesi
+Vastaa mihin tahansa ajatukseen
+Lisää kuvia ajatuksiisi
+Jaa koko ketju kerralla
 Nyt myös Apple Vision Prossa
-iPadilla lista ja ajatus rinnakkain
-Ajatuksenjuoksu leveässä ikkunassa
-Palauta merkinnät iCloud-varmuuskopiosta
 
 ### 앱스토어 (인도네시아어)
 
+Tampilan baru, seperti feed khusus Anda
+Balas pikiran mana pun untuk lanjut
+Tambahkan foto ke pikiran Anda
+Bagikan satu utas sekaligus
 Kini tersedia di Apple Vision Pro
-Di iPad, daftar dan pikiran berdampingan
-Alur pikiran dalam satu jendela lebar
-Pulihkan catatan dari cadangan iCloud
 
 ### 앱스토어 (노르웨이어(보크말))
 
+Nytt utseende, som en feed bare for deg
+Svar på en hvilken som helst tanke
+Legg til bilder i tankene dine
+Del en hel tråd på én gang
 Nå også på Apple Vision Pro
-Listen og tanken side om side på iPad
-Tankerekken din i ett bredt vindu
-Gjenopprett notater fra iCloud-kopien
 
 ### 앱스토어 (네덜란드어)
 
+Nieuwe look, als een feed voor jou
+Reageer op elke gedachte
+Voeg foto’s toe aan je gedachten
+Deel een hele draad in één keer
 Nu ook op Apple Vision Pro
-Op iPad lijst en gedachte naast elkaar
-Je gedachtegang in één breed venster
-Zet notities terug uit de iCloud-back-up
 
 ### 앱스토어 (폴란드어)
 
+Nowy wygląd, jak kanał tylko dla Ciebie
+Odpowiadaj na dowolną myśl
+Dodawaj zdjęcia do myśli
+Udostępnij cały wątek naraz
 Teraz także na Apple Vision Pro
-Na iPadzie lista i myśl obok siebie
-Tok myśli w jednym szerokim oknie
-Przywróć notatki z kopii w iCloud
 
 ### 앱스토어 (스웨덴어)
 
+Nytt utseende, som ett eget flöde
+Svara på vilken tanke som helst
+Lägg till bilder i dina tankar
+Dela en hel tråd på en gång
 Nu även på Apple Vision Pro
-På iPad står listan och tanken bredvid
-Din tankegång i ett brett fönster
-Återställ anteckningar från iCloud
 
 ### 앱스토어 (튀르키예어)
 
-Artık Apple Vision Pro'da da
-iPad'de liste ve düşünce yan yana
-Düşünce akışınız geniş bir pencerede
-Notları iCloud yedeğinden geri alın
+Yeni görünüm, yalnızca size ait bir akış
+Herhangi bir düşünceye yanıt verin
+Düşüncelerinize fotoğraf ekleyin
+Tüm diziyi tek seferde paylaşın
+Artık Apple Vision Pro’da da
 
 ## 1.0.3
 

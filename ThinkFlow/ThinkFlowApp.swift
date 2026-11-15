@@ -20,6 +20,7 @@ struct ThinkFlowApp: App {
         WindowGroup {
             HomeView()
                 .environment(store)
+                .postTextSize()
                 // 아이폰 듀오: 접힘을 재서 아래로 흘리고, 시트 · 알림창이 접힌 선을 비키게 한다.
                 .foldAware()
                 .leeoSatisfactionCheck(ThinkFlowSpec.self)

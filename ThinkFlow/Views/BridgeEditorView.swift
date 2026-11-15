@@ -58,9 +58,10 @@ struct BridgeEditorView: View {
 
                     Spacer(minLength: 80)
                 }
-                .padding(20)
+                .padding(.horizontal, PostMetrics.side)
+                .padding(.vertical, 16)
             }
-            .background(Color(.systemGroupedBackground))
+            .background(Color(.systemBackground))
             .navigationTitle("끊어둔 문장")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -77,17 +78,13 @@ struct BridgeEditorView: View {
                     dismiss()
                 } label: {
                     Text("저장")
-                        .fontWeight(.semibold)
                         .frame(maxWidth: .infinity)
-                        .padding(.vertical, 16)
-                        .background(hasContent ? Color.orange : Color.gray.opacity(0.3))
-                        .foregroundStyle(.white)
-                        .clipShape(RoundedRectangle(cornerRadius: 14))
-                        .padding(.horizontal, 20)
-                        .padding(.bottom, 8)
+                        .postButtonStyle(enabled: hasContent)
+                        .padding(.horizontal, PostMetrics.side)
+                        .padding(.vertical, 8)
                 }
                 .disabled(!hasContent)
-                .background(.ultraThinMaterial)
+                .background(.bar)
             }
             .onAppear {
                 nextStartingPoint = thread.bridge.nextQuestion
