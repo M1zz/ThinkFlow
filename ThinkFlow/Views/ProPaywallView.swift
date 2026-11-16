@@ -431,11 +431,13 @@ struct ProComparisonTable: View {
 // MARK: - 설정의 Pro 칸
 
 /// 설정 맨 위. 무료면 Pro 와 구매 복원, 구독 중이면 구독 관리와 '평생으로 바꾸기'.
+///
+/// ⚠️ 시트는 여기(Section)에 걸지 않는다. List 안의 Section 에 건 수식어는 **줄마다 따로** 붙어서,
+///    같은 시트를 두 줄이 한꺼번에 띄우려다 설정 창까지 내려간다(1.0.4 심사 거절, 2.1(a)).
+///    단추는 `sheet` 만 바꾸고, 띄우는 일은 List 에 한 번 거는 `proSettingsSheets(_:)` 가 맡는다.
 struct ProSettingsSection: View {
+    @Binding var sheet: ProSettingsSheet?
     private var pro: ProStore { .shared }
-    @State private var showsPaywall = false
-    @State private var showsGraduation = false
-    @State private var showsManage = false
 
     var body: some View {
         Section {
@@ -447,13 +449,13 @@ struct ProSettingsSection: View {
                         .foregroundStyle(.secondary)
                 }
                 if pro.subscription != nil {
-                    Button(LeeoLadderText.manageSubscription) { showsManage = true }
+                    Button(LeeoLadderText.manageSubscription) { sheet = .manage }
                     if !pro.ownsLifetime, pro.product(ThinkFlowPro.graduateID) != nil {
-                        Button(LeeoLadderText.switchToLifetimeEntry) { showsGraduation = true }
+                        Button(LeeoLadderText.switchToLifetimeEntry) { sheet = .graduation }
                     }
                 }
             } else {
-                Button { showsPaywall = true } label: {
+                Button { sheet = .paywall } label: {
                     VStack(alignment: .leading, spacing: 2) {
                         Text("이어생각 Pro")
                             .font(.headline)
@@ -473,13 +475,32 @@ struct ProSettingsSection: View {
                 Text(message)
             }
         }
-        .sheet(isPresented: $showsPaywall) {
-            ProPaywallView(reason: .settings)
-        }
-        .sheet(isPresented: $showsGraduation) {
-            ProGraduationSheet()
-        }
-        .manageSubscriptionsSheet(isPresented: $showsManage)
+    }
+}
+
+/// 설정의 Pro 칸이 여는 창.
+enum ProSettingsSheet: Identifiable {
+    case paywall, graduation, manage
+    var id: Self { self }
+}
+
+extension View {
+    /// 설정의 Pro 칸이 여는 창들. `ProSettingsSection` 을 담은 List 에 **한 번** 건다.
+    func proSettingsSheets(_ sheet: Binding<ProSettingsSheet?>) -> some View {
+        self
+            .sheet(item: Binding(
+                get: { sheet.wrappedValue == .manage ? nil : sheet.wrappedValue },
+                set: { sheet.wrappedValue = $0 }
+            )) { which in
+                switch which {
+                case .paywall: ProPaywallView(reason: .settings)
+                case .graduation, .manage: ProGraduationSheet()
+                }
+            }
+            .manageSubscriptionsSheet(isPresented: Binding(
+                get: { sheet.wrappedValue == .manage },
+                set: { if !$0 { sheet.wrappedValue = nil } }
+            ))
     }
 }
 

@@ -3,11 +3,12 @@ import LeeoKit
 
 struct ThinkFlowSupportView: View {
     @AppStorage(PostTextSize.key) private var textSize = PostTextSize.system
+    @State private var proSheet: ProSettingsSheet?
 
     var body: some View {
         NavigationStack {
             List {
-                ProSettingsSection()
+                ProSettingsSection(sheet: $proSheet)
                 Section {
                     Picker("글자 크기", selection: $textSize) {
                         ForEach(PostTextSize.allCases) { size in
@@ -25,6 +26,7 @@ struct ThinkFlowSupportView: View {
                     Text("지원")
                 }
             }
+            .proSettingsSheets($proSheet)
             .navigationTitle("설정")
             #if os(iOS)
             .navigationBarTitleDisplayMode(.inline)
