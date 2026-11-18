@@ -1,5 +1,4 @@
 import SwiftUI
-import UIKit
 
 struct ContinueThinkingSheet: View {
 
@@ -90,11 +89,11 @@ struct ContinueThinkingSheet: View {
                 .padding(.horizontal, PostMetrics.side)
                 .padding(.vertical, 16)
             }
-            .background(Color(.systemBackground))
+            .background(Color.appBackground)
             .navigationTitle(phase == .thinking ? String(localized: "이어서 생각하기") : String(localized: "문장 끊어두기"))
-            .navigationBarTitleDisplayMode(.inline)
+            .inlineNavigationTitle()
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
+                ToolbarItem(placement: .barLeading) {
                     // 입력이 없을 때만 그냥 닫기. 입력이 있으면 '다음'으로 문장을 끊어둬야 닫힌다.
                     if phase == .thinking && !hasAnyInput {
                         Button("닫기", systemImage: "xmark") { dismiss() }
@@ -102,7 +101,7 @@ struct ContinueThinkingSheet: View {
                 }
             }
             .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
+                ToolbarItem(placement: .barConfirm) {
                     if phase == .thinking {
                         Button("다음", systemImage: "arrow.right") {
                             saveEntries()
@@ -508,7 +507,7 @@ struct ContinueThinkingSheet: View {
             draftPhotos = []
         }
         isThoughtFocused = true
-        UIAccessibility.post(notification: .announcement, argument: String(localized: "생각 추가됨"))
+        Announce.say(String(localized: "생각 추가됨"))
     }
 
     private func removeThought(at index: Int) {
@@ -529,7 +528,7 @@ struct ContinueThinkingSheet: View {
             refSource = ""
             showRefInput = false
         }
-        UIAccessibility.post(notification: .announcement, argument: String(localized: "자료 추가됨"))
+        Announce.say(String(localized: "자료 추가됨"))
     }
 
     private func removeReference(at index: Int) {
@@ -557,9 +556,7 @@ struct ContinueThinkingSheet: View {
         // 생각을 올렸으면 끊어둔 문장은 이미 글이 됐다 — 다음 문장은 빈 칸에서. 자료만 붙였으면 그대로 둔다.
         nextStartingPoint = wroteThought ? "" : thread.bridge.nextQuestion
         withAnimation(.easeInOut(duration: 0.25)) { phase = .bridging }
-        UIAccessibility.post(
-            notification: .screenChanged,
-            argument: String(localized: "문장 끊어두기 단계입니다. 다음에 이어갈 문장을 적으세요.")
+        Announce.say(String(localized: "문장 끊어두기 단계입니다. 다음에 이어갈 문장을 적으세요.")
         )
     }
 

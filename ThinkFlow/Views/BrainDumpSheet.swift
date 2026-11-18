@@ -39,14 +39,14 @@ struct BrainDumpSheet: View {
                 case .sort: sortPhase
                 }
             }
-            .background(Color(.systemBackground))
+            .background(Color.appBackground)
             .navigationTitle(phase == .dump ? String(localized: "생각 꺼내기") : String(localized: "어떤 것부터?"))
-            .navigationBarTitleDisplayMode(.inline)
+            .inlineNavigationTitle()
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
+                ToolbarItem(placement: .barLeading) {
                     Button("취소", systemImage: "xmark") { dismiss() }
                 }
-                ToolbarItem(placement: .topBarTrailing) {
+                ToolbarItem(placement: .barConfirm) {
                     if phase == .dump {
                         Button("다 꺼냈어요", systemImage: "checkmark") {
                             let lines = parsedLines
@@ -143,6 +143,7 @@ struct BrainDumpSheet: View {
                                 .frame(maxWidth: .infinity)
                                 .postButtonStyle()
                         }
+                        .buttonStyle(.plain)
                     }
 
                     Button {
@@ -184,7 +185,7 @@ struct BrainDumpSheet: View {
                     .accessibilityHidden(true)
             }
             .padding(14)
-            .background(Color(.secondarySystemBackground))
+            .background(Color.raisedBackground)
             .clipShape(RoundedRectangle(cornerRadius: 12))
             .overlay(
                 RoundedRectangle(cornerRadius: 12)

@@ -1,5 +1,4 @@
 import SwiftUI
-import UIKit
 
 struct EntryRowView: View {
 
@@ -118,8 +117,8 @@ struct EntryRowView: View {
                     .accessibilityLabel("수정")
 
                     Button {
-                        UIPasteboard.general.string = entry.content
-                        UIAccessibility.post(notification: .announcement, argument: String(localized: "복사되었습니다"))
+                        Clipboard.copy(entry.content)
+                        Announce.say(String(localized: "복사되었습니다"))
                         withAnimation(.spring(duration: 0.2)) { copied = true }
                         Task {
                             try? await Task.sleep(for: .seconds(1.5))
@@ -156,7 +155,7 @@ struct EntryRowView: View {
                 Label("수정", systemImage: "pencil")
             }
             Button {
-                UIPasteboard.general.string = entry.content
+                Clipboard.copy(entry.content)
             } label: {
                 Label("복사", systemImage: "doc.on.doc")
             }
@@ -196,9 +195,7 @@ struct EntryRowView: View {
             ForEach(Self.layerNames.indices, id: \.self) { lvl in
                 Button {
                     onLayerChange?(lvl)
-                    UIAccessibility.post(
-                        notification: .announcement,
-                        argument: String(localized: "\(Self.layerNames[lvl]) 단계로 변경됨")
+                    Announce.say(String(localized: "\(Self.layerNames[lvl]) 단계로 변경됨")
                     )
                 } label: {
                     if entry.layer == lvl {
@@ -281,12 +278,12 @@ struct EntryEditSheet: View {
                 .padding(.vertical, 8)
             }
             .navigationTitle("생각 수정")
-            .navigationBarTitleDisplayMode(.inline)
+            .inlineNavigationTitle()
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
+                ToolbarItem(placement: .barLeading) {
                     Button("취소", systemImage: "xmark") { dismiss() }
                 }
-                ToolbarItem(placement: .topBarTrailing) {
+                ToolbarItem(placement: .barConfirm) {
                     Button("저장", systemImage: "checkmark") {
                         onSave(text, photos)
                         dismiss()

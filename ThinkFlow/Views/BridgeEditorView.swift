@@ -61,11 +61,11 @@ struct BridgeEditorView: View {
                 .padding(.horizontal, PostMetrics.side)
                 .padding(.vertical, 16)
             }
-            .background(Color(.systemBackground))
+            .background(Color.appBackground)
             .navigationTitle("끊어둔 문장")
-            .navigationBarTitleDisplayMode(.inline)
+            .inlineNavigationTitle()
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
+                ToolbarItem(placement: .barLeading) {
                     Button("취소", systemImage: "xmark") { dismiss() }
                 }
             }

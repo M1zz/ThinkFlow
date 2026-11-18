@@ -1,5 +1,5 @@
 // visionOS 2 에는 라이브 액티비티가 없다 — ActivityKit 이 있는 플랫폼에서만.
-#if canImport(ActivityKit)
+#if canImport(ActivityKit) && !os(macOS)   // 맥은 ActivityKit 을 들일 수는 있어도 쓸 수 없다
 import ActivityKit
 import Foundation
 

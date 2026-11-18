@@ -1,5 +1,4 @@
 import SwiftUI
-import UIKit
 import PhotosUI
 
 // MARK: - 나 혼자 쓰는 SNS 의 공통 부품
@@ -52,7 +51,7 @@ struct PostAvatar: View {
 
     private var fill: Color {
         switch kind {
-        case .thought: return Color(.secondarySystemBackground)
+        case .thought: return Color.raisedBackground
         case .reference: return Color.teal.opacity(0.14)
         case .bridge: return Color.orange.opacity(0.16)
         }
@@ -220,7 +219,7 @@ extension View {
     func postButtonStyle(enabled: Bool = true) -> some View {
         self
             .fontWeight(.semibold)
-            .foregroundStyle(Color(.systemBackground))
+            .foregroundStyle(Color.appBackground)
             .padding(.horizontal, 20)
             .padding(.vertical, 13)
             .background(Color.primary.opacity(enabled ? 1 : 0.25), in: Capsule())
@@ -292,7 +291,7 @@ struct PostPhotos: View {
             HStack(spacing: 8) {
                 ForEach(names, id: \.self) { name in
                     if let image = PhotoStore.image(named: name) {
-                        Image(uiImage: image)
+                        Image(decorative: image, scale: 1)
                             .resizable()
                             .scaledToFit()
                             .frame(height: height)
@@ -321,7 +320,7 @@ struct PostPhotos: View {
                 }
             }
         }
-        .fullScreenCover(item: $shown) { photo in
+        .coverOrSheet(item: $shown) { photo in
             PhotoViewer(name: photo.name)
         }
     }
@@ -338,7 +337,7 @@ private struct PhotoViewer: View {
         ZStack(alignment: .topLeading) {
             Color.black.ignoresSafeArea()
             if let image = PhotoStore.image(named: name) {
-                Image(uiImage: image)
+                Image(decorative: image, scale: 1)
                     .resizable()
                     .scaledToFit()
                     .scaleEffect(zoom * pinch)
@@ -419,9 +418,7 @@ struct ThreadShareButton: View {
                 .contentShape(Rectangle())
         }
         .accessibilityLabel("공유")
-        .sheet(item: $payload) { payload in
-            ShareSheet(items: payload.items)
-        }
+        .shareSheet(item: $payload) { $0.items }
     }
 }
 

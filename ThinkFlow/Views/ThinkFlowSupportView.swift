@@ -28,9 +28,7 @@ struct ThinkFlowSupportView: View {
             }
             .proSettingsSheets($proSheet)
             .navigationTitle("설정")
-            #if os(iOS)
-            .navigationBarTitleDisplayMode(.inline)
-            #endif
+            .inlineNavigationTitle()
         }
     }
 }

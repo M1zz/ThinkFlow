@@ -1,6 +1,7 @@
 import Foundation
 import SwiftUI
-import UIKit
+import ImageIO
+import UniformTypeIdentifiers
 import WidgetKit
 
 @Observable
@@ -330,35 +331,35 @@ enum PhotoStore {
         return url
     }()
 
-    private static let cache = NSCache<NSString, UIImage>()
+    private static let cache = NSCache<NSString, CGImage>()
 
     static func url(for name: String) -> URL {
         directory.appendingPathComponent(name)
     }
 
     /// 고른 사진을 줄여서 저장하고 파일 이름을 돌려준다.
+    /// ImageIO 로 줄이므로 아이폰과 맥이 같은 길을 쓴다. 사진의 방향(EXIF)은 줄이면서 픽셀에 입힌다.
     static func save(_ data: Data) -> String? {
-        guard let image = UIImage(data: data) else { return nil }
-        let scale = min(1, maxSide / max(image.size.width, image.size.height))
-        let size = CGSize(width: image.size.width * scale, height: image.size.height * scale)
-        let format = UIGraphicsImageRendererFormat()
-        format.scale = 1
-        let resized = UIGraphicsImageRenderer(size: size, format: format).image { _ in
-            image.draw(in: CGRect(origin: .zero, size: size))
-        }
-        guard let jpeg = resized.jpegData(compressionQuality: 0.82) else { return nil }
+        guard let source = CGImageSourceCreateWithData(data as CFData, nil) else { return nil }
+        let options: [CFString: Any] = [
+            kCGImageSourceCreateThumbnailFromImageAlways: true,
+            kCGImageSourceCreateThumbnailWithTransform: true,
+            kCGImageSourceThumbnailMaxPixelSize: maxSide,
+        ]
+        guard let resized = CGImageSourceCreateThumbnailAtIndex(source, 0, options as CFDictionary) else { return nil }
         let name = UUID().uuidString + ".jpg"
-        do {
-            try jpeg.write(to: url(for: name), options: .atomic)
-            return name
-        } catch {
-            return nil
-        }
+        guard let destination = CGImageDestinationCreateWithURL(
+            url(for: name) as CFURL, UTType.jpeg.identifier as CFString, 1, nil
+        ) else { return nil }
+        CGImageDestinationAddImage(destination, resized,
+                                   [kCGImageDestinationLossyCompressionQuality: 0.82] as CFDictionary)
+        return CGImageDestinationFinalize(destination) ? name : nil
     }
 
-    static func image(named name: String) -> UIImage? {
+    static func image(named name: String) -> CGImage? {
         if let cached = cache.object(forKey: name as NSString) { return cached }
-        guard let image = UIImage(contentsOfFile: url(for: name).path) else { return nil }
+        guard let source = CGImageSourceCreateWithURL(url(for: name) as CFURL, nil),
+              let image = CGImageSourceCreateImageAtIndex(source, 0, nil) else { return nil }
         cache.setObject(image, forKey: name as NSString)
         return image
     }

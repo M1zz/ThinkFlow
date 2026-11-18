@@ -1,5 +1,4 @@
 import SwiftUI
-import UIKit
 
 struct ThreadDetailView: View {
     
@@ -132,14 +131,14 @@ struct ThreadDetailView: View {
             .padding(.top, 8)
             .padding(.bottom, 32)
         }
-        .background(Color(.systemBackground))
+        .background(Color.appBackground)
         .navigationTitle("\(currentThread.emoji) \(currentThread.title)")
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineNavigationTitle()
         .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
+            ToolbarItem(placement: .barTrailing) {
                 ThreadShareButton(thread: currentThread)
             }
-            ToolbarItem(placement: .topBarTrailing) {
+            ToolbarItem(placement: .barTrailing) {
                 Menu {
                     Button {
                         showBridgeEditor = true
@@ -149,10 +148,10 @@ struct ThreadDetailView: View {
 
                     if !sorted.isEmpty {
                         Button {
-                            UIPasteboard.general.string = sorted
+                            Clipboard.copy(sorted
                                 .map { "[\($0.layerLabel)] \($0.content)" }
-                                .joined(separator: "\n\n")
-                            UIAccessibility.post(notification: .announcement, argument: String(localized: "복사되었습니다"))
+                                .joined(separator: "\n\n"))
+                            Announce.say(String(localized: "복사되었습니다"))
                         } label: {
                             Label("전체 복사", systemImage: "doc.on.doc")
                         }
@@ -287,7 +286,7 @@ struct ThreadDetailView: View {
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 10)
-            .background(Color(.secondarySystemBackground), in: Capsule())
+            .background(Color.raisedBackground, in: Capsule())
             .contentShape(Capsule())
         }
         .buttonStyle(.plain)

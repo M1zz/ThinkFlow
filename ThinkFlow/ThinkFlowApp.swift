@@ -33,6 +33,23 @@ struct ThinkFlowApp: App {
                     // Pro 영수증은 열 때마다 다시 읽는다 — 다른 기기에서 샀거나 환불 · 만료됐을 수 있다.
                     if phase == .active { Task { await ProStore.shared.refresh() } }
                 }
+                #if os(macOS)
+                .frame(minWidth: 760, minHeight: 520)
+                #endif
         }
+        #if os(macOS)
+        .defaultSize(width: 1100, height: 760)
+        .commands { ThinkFlowCommands() }
+        #endif
+
+        #if os(macOS)
+        // 이어생각 ▸ 설정…(⌘,). 아이폰은 톱니 단추가 같은 화면을 시트로 연다.
+        Settings {
+            ThinkFlowSupportView()
+                .environment(store)
+                .postTextSize()
+                .frame(width: 520, height: 620)
+        }
+        #endif
     }
 }

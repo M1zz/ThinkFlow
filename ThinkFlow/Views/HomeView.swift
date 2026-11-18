@@ -1,5 +1,4 @@
 import SwiftUI
-import UIKit
 import LeeoKit
 
 struct HomeView: View {
@@ -57,9 +56,11 @@ struct HomeView: View {
         }
     }
 
-    /// 넓은 아이패드인가. Slide Over · 좁은 분할에서는 아이폰처럼 밀어 넣는다.
+    /// 넓은 아이패드 · 맥 창인가. Slide Over · 좁은 분할에서는 아이폰처럼 밀어 넣는다.
     private var isWidePad: Bool {
-        #if os(iOS)
+        #if os(macOS)
+        true
+        #elseif os(iOS)
         UIDevice.current.userInterfaceIdiom == .pad && sizeClass == .regular
         #else
         false
@@ -117,16 +118,22 @@ struct HomeView: View {
                     Spacer(minLength: 40)
                 }
             }
-            .background(Color(.systemBackground))
-            .navigationBarTitleDisplayMode(.inline)
+            .background(Color.appBackground)
+            .inlineNavigationTitle()
             .toolbar {
-                ToolbarItem(placement: .topBarTrailing) {
+                ToolbarItem(placement: .barTrailing) {
                     contactMenu
                 }
-                ToolbarItem(placement: .topBarTrailing) {
+                ToolbarItem(placement: .barTrailing) {
                     exportMenu
                 }
-                ToolbarItem(placement: .topBarTrailing) {
+                ToolbarItem(placement: .barTrailing) {
+                    #if os(macOS)
+                    SettingsLink {
+                        Image(systemName: "gearshape")
+                    }
+                    .accessibilityLabel("설정")
+                    #else
                     Button {
                         showSupport = true
                     } label: {
@@ -134,6 +141,7 @@ struct HomeView: View {
                     }
                     .accessibilityLabel("설정")
                     .accessibilityHint("지원 및 앱 정보를 엽니다")
+                    #endif
                 }
             }
             .sheet(isPresented: $showBrainDump) {
@@ -142,9 +150,7 @@ struct HomeView: View {
             .sheet(item: $continueThread) { thread in
                 ContinueThinkingSheet(thread: thread)
             }
-            .sheet(item: $exportFile) { file in
-                ShareSheet(items: [file.url])
-            }
+            .exportFile(item: $exportFile) { $0.url }
             .sheet(isPresented: $showSupport) {
                 ThinkFlowSupportView()
             }
@@ -170,6 +176,7 @@ struct HomeView: View {
         .onOpenURL { url in
             handleDeepLink(url)
         }
+        .focusedSceneValue(\.newThought) { showBrainDump = true }
         // Siri · Spotlight 에서 고른 생각을 연다 (→ OpenThoughtIntent).
         .onChange(of: store.openRequestID, initial: true) { _, id in
             guard let id else { return }
@@ -201,6 +208,7 @@ struct HomeView: View {
         case "continue", "bridge": continueThread = store.mostRecentThread
         case "thread": screenshotThreadID = store.mostRecentThread?.id
         case "dump": showBrainDump = true
+        case "paywall": paywallReason = .settings
         default: break
         }
     }
@@ -349,6 +357,7 @@ struct HomeView: View {
                 }
                 .postButtonStyle()
             }
+            .buttonStyle(.plain)
             .padding(.top, 4)
         }
         .frame(maxWidth: .infinity)
@@ -476,7 +485,7 @@ private struct FoldThreadPane: View {
                         .fontWeight(.bold)
                 }
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(Color(.systemBackground))
+                .background(Color.appBackground)
             }
         }
     }
@@ -488,18 +497,6 @@ private extension View {
         background(isShown ? Color.primary.opacity(0.06) : Color.clear)
             .accessibilityAddTraits(isShown ? .isSelected : [])
     }
-}
-
-// MARK: - 시스템 공유 시트 (파일 내보내기용)
-
-struct ShareSheet: UIViewControllerRepresentable {
-    let items: [Any]
-
-    func makeUIViewController(context: Context) -> UIActivityViewController {
-        UIActivityViewController(activityItems: items, applicationActivities: nil)
-    }
-
-    func updateUIViewController(_ uiViewController: UIActivityViewController, context: Context) {}
 }
 
 #Preview {

@@ -68,14 +68,17 @@ struct ProPaywallView: View {
                 .frame(maxWidth: 560)
                 .frame(maxWidth: .infinity)
             }
-            .background(Color(.systemGroupedBackground))
+            .background(Color.groupedBackground)
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
+                ToolbarItem(placement: .barLeading) {
                     Button("닫기", systemImage: "xmark") { dismiss() }
                 }
             }
         }
         .tint(.orange)
+        #if os(macOS)
+        .frame(minWidth: 520, idealWidth: 600, minHeight: 640, idealHeight: 820)
+        #endif
         .task {
             await pro.loadProducts()
             introEligible = await pro.product(ThinkFlowPro.yearlyID)?.subscription?.isEligibleForIntroOffer ?? false
@@ -106,7 +109,14 @@ struct ProPaywallView: View {
                     .multilineTextAlignment(.center)
                     .fixedSize(horizontal: false, vertical: true)
             }
-            Text("생각을 마음껏 벌여 두고, 홈 화면에서 바로 이어 가세요. 연 구독이나 평생 중에 고르세요.")
+            Group {
+                #if os(macOS)
+                Text("생각을 마음껏 벌여 두고, 언제든 이어 가세요. 연 구독이나 평생 중에 고르세요.",
+                     comment: "Paywall subtitle on Mac (no Home Screen there)")
+                #else
+                Text("생각을 마음껏 벌여 두고, 홈 화면에서 바로 이어 가세요. 연 구독이나 평생 중에 고르세요.")
+                #endif
+            }
                 .font(.body)
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
@@ -220,7 +230,7 @@ struct ProPaywallView: View {
             .foregroundStyle(.primary)
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 14))
+            .background(Color.groupedRaised, in: RoundedRectangle(cornerRadius: 14))
             .overlay(
                 RoundedRectangle(cornerRadius: 14)
                     .strokeBorder(selected ? Color.orange : .clear, lineWidth: 2)
@@ -290,7 +300,7 @@ struct ProPaywallView: View {
         }
         .frame(maxWidth: .infinity)
         .padding(16)
-        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 14))
+        .background(Color.groupedRaised, in: RoundedRectangle(cornerRadius: 14))
     }
 
     // MARK: 아래
@@ -361,11 +371,21 @@ struct ProComparisonTable: View {
                 free: .included, pro: .included),
             Row(feature: String(localized: "마크다운 · JSON 내보내기", comment: "Comparison table: Markdown and JSON export"),
                 free: .included, pro: .included),
+        ] + iPhoneOnlyRows
+    }
+
+    /// 맥에는 홈 화면 위젯도 잠금 화면도 없다 — 맥에서는 그 줄을 보이지 않는다.
+    private var iPhoneOnlyRows: [Row] {
+        #if os(macOS)
+        []
+        #else
+        [
             Row(feature: String(localized: "홈 화면 위젯", comment: "Comparison table: Home Screen widget"),
                 free: .excluded, pro: .included),
             Row(feature: String(localized: "잠금 화면 · 다이내믹 아일랜드", comment: "Comparison table: Lock Screen and Dynamic Island"),
                 free: .excluded, pro: .included),
         ]
+        #endif
     }
 
     var body: some View {
@@ -395,7 +415,7 @@ struct ProComparisonTable: View {
             }
         }
         .padding(16)
-        .background(Color(.secondarySystemGroupedBackground), in: RoundedRectangle(cornerRadius: 14))
+        .background(Color.groupedRaised, in: RoundedRectangle(cornerRadius: 14))
     }
 
     private var freeName: String { String(localized: "무료", comment: "Comparison table column: free") }
@@ -460,7 +480,13 @@ struct ProSettingsSection: View {
                         Text("이어생각 Pro")
                             .font(.headline)
                             .foregroundStyle(.primary)
-                        Text("생각 무제한 · 홈 화면 위젯 · 잠금 화면 생각 시간")
+                        Group {
+                            #if os(macOS)
+                            Text("생각 무제한", comment: "Settings: Pro benefit on Mac")
+                            #else
+                            Text("생각 무제한 · 홈 화면 위젯 · 잠금 화면 생각 시간")
+                            #endif
+                        }
                             .font(.body)
                             .foregroundStyle(.secondary)
                     }
@@ -497,10 +523,28 @@ extension View {
                 case .graduation, .manage: ProGraduationSheet()
                 }
             }
-            .manageSubscriptionsSheet(isPresented: Binding(
-                get: { sheet.wrappedValue == .manage },
-                set: { if !$0 { sheet.wrappedValue = nil } }
-            ))
+            .modifier(ManageSubscriptions(sheet: sheet))
+    }
+}
+
+/// 구독 관리. 아이폰은 시스템 시트, 맥은 App Store 의 구독 관리 페이지(맥에는 그 시트가 없다).
+private struct ManageSubscriptions: ViewModifier {
+    @Binding var sheet: ProSettingsSheet?
+    @Environment(\.openURL) private var openURL
+
+    func body(content: Content) -> some View {
+        #if os(macOS)
+        content.onChange(of: sheet) { _, now in
+            guard now == .manage else { return }
+            sheet = nil
+            openURL(URL(string: "https://apps.apple.com/account/subscriptions")!)
+        }
+        #else
+        content.manageSubscriptionsSheet(isPresented: Binding(
+            get: { sheet == .manage },
+            set: { if !$0 { sheet = nil } }
+        ))
+        #endif
     }
 }
 
