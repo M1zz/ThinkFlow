@@ -23,6 +23,8 @@ struct ThinkFlowApp: App {
                 .postTextSize()
                 // 아이폰 듀오: 접힘을 재서 아래로 흘리고, 시트 · 알림창이 접힌 선을 비키게 한다.
                 .foldAware()
+                // App Store 이벤트 링크(<번들 ID>://paywall)로 열리면 요금제를 띄운다 (LeeoKit).
+                .leeoPaywallLink { ProPaywallView(reason: .settings).environment(store) }
                 .leeoSatisfactionCheck(ThinkFlowSpec.self)
                 // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
                 .leeoFeedbackReplyNotice(ThinkFlowSpec.self)

@@ -12,6 +12,14 @@
 				<string>thinkflow</string>
 			</array>
 		</dict>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.leeo.thinkflow</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.leeo.thinkflow</string>
+			</array>
+		</dict>
 	</array>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
