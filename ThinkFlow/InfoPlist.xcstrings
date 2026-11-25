@@ -2,6 +2,7 @@
   "sourceLanguage" : "ko",
   "strings" : {
     "CFBundleDisplayName" : {
+      "comment" : "Bundle display name",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -144,6 +145,18 @@
         "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
+            "value" : "ThinkFlow"
+          }
+        }
+      }
+    },
+    "CFBundleName" : {
+      "comment" : "Bundle name",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "new",
             "value" : "ThinkFlow"
           }
         }
