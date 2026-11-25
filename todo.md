@@ -40,3 +40,7 @@
 
 확인: 듀오 시뮬레이터에 설치 후 `-FoldPretend` 로 띄우면 펼친 배치, 인자 없이 띄우면 접힌 화면(지금 그대로).
 스크린샷 데이터는 `python3 scripts/screenshot_seed.py ko home <json>` 으로 만들고 `-ScreenshotSeed <json>` 으로 넘긴다.
+
+## 버그 (2026-11-15)
+- [x] 설정의 "이어생각 Pro" 를 누르면 결제 화면이 열렸다 바로 닫힘 — 원격에서 `ProSettingsSheet` 하나로 List 에 한 번만 거는 방식으로 고침(이 세션의 "단추에 달기" 안은 버림)
+- [ ] 실기기에서 다시 확인

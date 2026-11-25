@@ -3244,6 +3244,7 @@
       }
     },
     "3일 이상 방치됨" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -6211,6 +6212,7 @@
       }
     },
     "깊이" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -9029,6 +9031,7 @@
       }
     },
     "되살릴 생각" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -10954,6 +10957,7 @@
       }
     },
     "문장을 끊어둬야 닫을 수 있어요" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -11992,6 +11996,7 @@
       }
     },
     "복사됨" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -12584,6 +12589,7 @@
       }
     },
     "사고 시간" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -13324,6 +13330,7 @@
       }
     },
     "생각 꺼내기" : {
+      "comment" : "Comparison table: brain dump",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -14954,6 +14961,7 @@
       }
     },
     "생각의 흐름" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -15991,6 +15999,7 @@
       }
     },
     "시작일" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -18072,6 +18081,7 @@
       }
     },
     "여기서 이어서" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -21184,6 +21194,7 @@
       }
     },
     "자료 · %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -24853,6 +24864,7 @@
       }
     },
     "지금까지의 흐름" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -25445,6 +25457,7 @@
       }
     },
     "진행 중인 생각" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -26039,6 +26052,7 @@
       }
     },
     "최근 3일 내 방문" : {
+      "extractionState" : "stale",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -28560,6 +28574,7 @@
       }
     },
     "생각 던져 두기" : {
+      "comment" : "Siri: drop a thought into the brain dump list",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -28702,6 +28717,7 @@
       }
     },
     "떠오른 생각을 머릿속 비우기 목록에 넣어 둡니다." : {
+      "comment" : "Siri: dump thought description",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -28844,6 +28860,7 @@
       }
     },
     "생각" : {
+      "comment" : "Siri/Spotlight: one thought thread\nSiri: thought parameter\nSiri: thought thread parameter",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -28986,6 +29003,7 @@
       }
     },
     "무슨 생각이에요?" : {
+      "comment" : "Siri: ask for the thought",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -29128,6 +29146,7 @@
       }
     },
     "던져 뒀어요. 나중에 이어서 생각해요." : {
+      "comment" : "Siri: thought saved",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -29270,6 +29289,7 @@
       }
     },
     "어디까지 했지" : {
+      "comment" : "Siri: where did I leave off thinking",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -29412,6 +29432,7 @@
       }
     },
     "가장 최근 생각과 끊어 둔 다음 질문을 읽어 줍니다." : {
+      "comment" : "Siri: resume thought description",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -29554,6 +29575,7 @@
       }
     },
     "아직 이어 갈 생각이 없어요." : {
+      "comment" : "Siri: no threads yet",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -29696,6 +29718,7 @@
       }
     },
     "‘%@’에서 멈췄어요." : {
+      "comment" : "Siri: last thread without a next question. Argument is the title",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -29838,6 +29861,7 @@
       }
     },
     "‘%@’에서 멈췄어요. 다음 질문은 ‘%@’예요." : {
+      "comment" : "Siri: last thread and its next question. Arguments: title, question",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -31146,6 +31170,7 @@
       }
     },
     "무료로 벌여 둘 수 있는 생각 %lld개가 다 찼어요. 방금 꺼낸 생각은 정리 안 된 생각들에 그대로 남아 있어요." : {
+      "comment" : "Paywall reason: the free thought limit is reached. The new thought is kept in the unsorted list",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -31294,6 +31319,7 @@
       }
     },
     "홈 화면 위젯은 Pro에서 열려요." : {
+      "comment" : "Paywall reason: a locked Home Screen widget was tapped",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -31442,6 +31468,7 @@
       }
     },
     "잠금 화면과 다이내믹 아일랜드의 생각 시간은 Pro에서 열려요." : {
+      "comment" : "Paywall reason: showing the thinking timer on the Lock Screen needs Pro",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -32182,6 +32209,7 @@
       }
     },
     "월 구독" : {
+      "comment" : "Paywall: monthly subscription option",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -32330,6 +32358,7 @@
       }
     },
     "%@ / 월" : {
+      "comment" : "Paywall: monthly price. %@ = price",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -32478,6 +32507,7 @@
       }
     },
     "주 구독" : {
+      "comment" : "Paywall: weekly subscription option",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -32626,6 +32656,7 @@
       }
     },
     "%@ / 주" : {
+      "comment" : "Paywall: weekly price. %@ = price",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -32922,6 +32953,7 @@
       }
     },
     "구독하기" : {
+      "comment" : "Paywall: buy button for a subscription",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -33070,6 +33102,7 @@
       }
     },
     "평생으로 구매하기" : {
+      "comment" : "Paywall: buy button for the one-time lifetime purchase",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -34106,6 +34139,7 @@
       }
     },
     "생각 수" : {
+      "comment" : "Comparison table: number of thoughts",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -34254,6 +34288,7 @@
       }
     },
     "무제한" : {
+      "comment" : "Comparison table: unlimited",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -34402,6 +34437,7 @@
       }
     },
     "끊어둔 문장 · 이어서 카드" : {
+      "comment" : "Comparison table: bridge sentence and resume card",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -34550,6 +34586,7 @@
       }
     },
     "네 단계 다듬기" : {
+      "comment" : "Comparison table: refining in four stages",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -34698,6 +34735,7 @@
       }
     },
     "자료 붙이기" : {
+      "comment" : "Comparison table: attaching references",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -34846,6 +34884,7 @@
       }
     },
     "되살릴 생각 · 사고 시간" : {
+      "comment" : "Comparison table: dormant thoughts and thinking time",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -34994,6 +35033,7 @@
       }
     },
     "마크다운 · JSON 내보내기" : {
+      "comment" : "Comparison table: Markdown and JSON export",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -35142,6 +35182,7 @@
       }
     },
     "홈 화면 위젯" : {
+      "comment" : "Comparison table: Home Screen widget",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -35290,6 +35331,7 @@
       }
     },
     "잠금 화면 · 다이내믹 아일랜드" : {
+      "comment" : "Comparison table: Lock Screen and Dynamic Island",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -35438,6 +35480,7 @@
       }
     },
     "무료" : {
+      "comment" : "Comparison table column: free",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -35586,6 +35629,7 @@
       }
     },
     "%@ 포함" : {
+      "comment" : "Comparison table, VoiceOver: included in this plan. %@ = plan name",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -35734,6 +35778,7 @@
       }
     },
     "%@ 없음" : {
+      "comment" : "Comparison table, VoiceOver: not in this plan. %@ = plan name",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
@@ -36030,6 +36075,7 @@
       }
     },
     "이 Apple 계정에서 구매한 기록을 찾지 못했어요." : {
+      "comment" : "Restore purchases: nothing found for this Apple Account",
       "localizations" : {
         "cs" : {
           "stringUnit" : {
