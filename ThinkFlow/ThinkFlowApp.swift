@@ -28,6 +28,8 @@ struct ThinkFlowApp: App {
                 .leeoSatisfactionCheck(ThinkFlowSpec.self)
                 // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
                 .leeoFeedbackReplyNotice(ThinkFlowSpec.self)
+                // 유료가 되면 축하, 모든 사용자에게 한 번은 감사 인사 (LeeoKit)
+                .leeoCelebrations(appName: ThinkFlowSpec.displayName)
                 // 앱을 열 때 · 뒤로 보낼 때 Spotlight 색인을 새로 만든다 (Siri 가 생각을 찾는 곳).
                 .onChange(of: scenePhase, initial: true) { _, phase in
                     guard phase != .inactive else { return }
