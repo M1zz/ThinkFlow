@@ -1,4 +1,5 @@
 import SwiftUI
+import LeeoKit
 
 struct ContinueThinkingSheet: View {
 
@@ -543,6 +544,9 @@ struct ContinueThinkingSheet: View {
         addDraft()
         // 큰 줄기에 생각을 올렸을 때만 끊어둔 문장이 글이 된 것으로 본다
         wroteThought = replyTo == nil && !newThoughts.isEmpty
+        if !newThoughts.isEmpty {
+            LeeoAnalyticsCenter.track(.custom(name: "thought_continued", parameters: [:]))
+        }
         for thought in newThoughts {
             store.addEntry(to: thread.id, content: thought.text, parentID: replyTo?.id, photos: thought.photos)
         }
